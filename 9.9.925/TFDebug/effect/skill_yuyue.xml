@@ -1,0 +1,42 @@
+<skeleton name="技 输出越南" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-7.05" y="2.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/ftrbftgrnmtrymy" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/ftrbftgrnmtrymy" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-1.95" y="-3.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-sdafvacdxbvadfhadf" />
+        <d name="xxx-sadfasdga" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/ftrbftgrnmtrymy">
+      <mov name="vrebrntrnt" dr="11" to="0" drTW="11" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="-1.95" y="-3.8" cocos2d_x="-1.95" cocos2d_y="-3.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f x="-0.7" y="-4.05" cocos2d_x="-0.7" cocos2d_y="-4.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="donghua" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-7.05" y="2.65" cocos2d_x="-7.05" cocos2d_y="2.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="-4.2" y="0.85" cocos2d_x="-4.2" cocos2d_y="0.85" kX="0" kY="0" cX="1" cY="1" fst="2" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="-1.35" y="0.25" cocos2d_x="-1.35" cocos2d_y="0.25" kX="0" kY="0" cX="1" cY="1" fst="4" pX="0" pY="0" z="0" dI="0" twE="0.47" dr="3" />
+          <f x="4.85" y="3.05" cocos2d_x="4.85" cocos2d_y="3.05" kX="0" kY="0" cX="1" cY="1" fst="7" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="-1.3" y="3.25" cocos2d_x="-1.3" cocos2d_y="3.25" kX="0" kY="0" cX="1" cY="1" fst="9" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="-4.65" y="2.65" cocos2d_x="-4.65" cocos2d_y="2.65" kX="0" kY="0" cX="1" cY="1" fst="10" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="技 输出越南" width="128" height="64">
+    <SubTexture name="xxx-sadfasdga" width="58" height="39" x="60" y="0" cocos2d_pX="29.45" cocos2d_pY="19.15" />
+    <SubTexture name="xxx-sdafvacdxbvadfhadf" width="59" height="38" x="0" y="0" cocos2d_pX="29.00" cocos2d_pY="18.70" />
+  </TextureAtlas>
+</skeleton>

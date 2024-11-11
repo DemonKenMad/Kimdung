@@ -1,0 +1,60 @@
+<skeleton name="钟灵普通受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="10.4" y="-151.6" kX="0" kY="0" cX="1" cY="1" pX="-1" pY="0.5" z="0">
+        <d name="shouji" isArmature="1" />
+      </b>
+      <b name="图层 1" x="10.4" y="-151.6" kX="0" kY="0" cX="1.33" cY="1.33" pX="3.5" pY="0.45" z="1">
+        <d name="guang" />
+      </b>
+    </armature>
+    <armature name="shouji">
+      <b name="图层 1" x="-1" y="0.5" kX="0" kY="0" cX="1" cY="1" pX="73" pY="80.5" z="0">
+        <d name="s00.png" />
+        <d name="s01.png" />
+        <d name="s02.png" />
+        <d name="s03.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="shouji">
+      <mov name="dsadw" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-1" y="0.5" cocos2d_x="-74" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="73" pY="80.5" z="0" dI="0" dr="2" />
+          <f x="-1" y="0.5" cocos2d_x="-74" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="73" pY="80.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-1" y="0.5" cocos2d_x="-74" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="73" pY="80.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-1" y="0.5" cocos2d_x="-74" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="73" pY="80.5" z="0" dI="3" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="yyh" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="10.4" y="-151.6" cocos2d_x="11.4" cocos2d_y="-152.1" kX="0" kY="0" cX="1" cY="1" pX="-1" pY="0.5" z="0" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="10.4" y="-151.6" cocos2d_x="11.4" cocos2d_y="-152.05" kX="0" kY="0" cX="1" cY="1" pX="-1" pY="0.45" z="0" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="128" g="128" b="128" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="10.35" y="-151.6" cocos2d_x="11.35" cocos2d_y="-152.1" kX="0" kY="0" cX="1" cY="1" pX="-1" pY="0.5" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="10.4" y="-151.6" cocos2d_x="11.4" cocos2d_y="-152.1" kX="0" kY="0" cX="1" cY="1" pX="-1" pY="0.5" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="10.4" y="-151.6" cocos2d_x="11.4" cocos2d_y="-152.1" kX="0" kY="0" cX="1" cY="1" pX="-1" pY="0.5" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="-255" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="10.4" y="-151.6" cocos2d_x="5.7" cocos2d_y="-152.2" kX="0" kY="0" cX="1.33" cY="1.33" pX="3.5" pY="0.45" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f dr="6" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="钟灵普通受击" width="512" height="512">
+    <SubTexture name="s03.png" width="140" height="157" x="216" y="0" cocos2d_pX="-4.00" cocos2d_pY="-2.00" />
+    <SubTexture name="s02.png" width="136" height="153" x="357" y="0" cocos2d_pX="-6.00" cocos2d_pY="-4.00" />
+    <SubTexture name="s01.png" width="125" height="147" x="0" y="137" cocos2d_pX="-10.00" cocos2d_pY="-7.00" />
+    <SubTexture name="s00.png" width="102" height="124" x="357" y="154" cocos2d_pX="-18.00" cocos2d_pY="-19.00" />
+    <SubTexture name="guang" width="215" height="136" x="0" y="0" cocos2d_pX="104.00" cocos2d_pY="67.55" />
+  </TextureAtlas>
+</skeleton>

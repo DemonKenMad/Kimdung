@@ -1,0 +1,45 @@
+<skeleton name="梅兰竹普通攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="190.4" y="-59.65" kX="0" kY="0" cX="1.23" cY="1.36" pX="97.35" pY="0" z="0">
+        <d name="dsad-bujian1" />
+      </b>
+      <b name="图层 4" x="65.3" y="-74.2" kX="-56.5" kY="0.46" cX="1.22" cY="1.9" pX="0.85" pY="-0.7" z="1">
+        <d name="dsad/guanghuan" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dsad/guanghuan" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-0.8" y="1.85" kX="0" kY="0" cX="1" cY="1" pX="-2.5" pY="2" z="0">
+        <d name="dsad-bujian2" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dsad/guanghuan">
+      <mov name="fdsfds" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.8" y="1.85" cocos2d_x="1.7" cocos2d_y="-0.15" kX="0" kY="0" cX="1" cY="1" pX="-2.5" pY="2" z="0" dI="0" twE="0" dr="4" />
+          <f x="-0.8" y="2.05" cocos2d_x="-4.05" cocos2d_y="1.55" kX="-133.51" kY="-133.51" cX="1" cY="1" pX="-2.65" pY="2" z="0" dI="0" twE="0" dr="1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="190.4" y="-59.65" cocos2d_x="70.35" cocos2d_y="-59.65" kX="0" kY="0" cX="1.23" cY="1.36" pX="97.35" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="312.45" y="-59.65" cocos2d_x="137.25" cocos2d_y="-59.65" kX="0" kY="0" cX="1.8" cY="1.36" pX="97.35" pY="0" z="0" dI="0" twE="0" dr="3" />
+          <f x="338.5" y="-59.65" cocos2d_x="186.85" cocos2d_y="-59.65" kX="0" kY="0" cX="1.56" cY="1.36" pX="97.35" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="65.3" y="-74.2" cocos2d_x="65.45" cocos2d_y="-73.45" kX="-56.5" kY="0.46" cX="1.22" cY="1.9" pX="0.85" pY="-0.7" z="1" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="梅兰竹普通攻击" width="256" height="256">
+    <SubTexture name="dsad-bujian2" width="113" height="95" x="0" y="68" cocos2d_pX="59.45" cocos2d_pY="51.50" />
+    <SubTexture name="dsad-bujian1" width="228" height="67" x="0" y="0" cocos2d_pX="132.50" cocos2d_pY="33.00" />
+  </TextureAtlas>
+</skeleton>

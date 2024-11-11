@@ -1,0 +1,25 @@
+<skeleton name="百世镜飞行特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-2.7" y="-98.8" kX="0" kY="0" cX="0.95" cY="0.86" pX="75" pY="75" z="0">
+        <d name="sdas-xian_00000.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="cxz" dr="5" to="0" drTW="5" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-2.7" y="-98.8" cocos2d_x="-74.2" cocos2d_y="-163.35" kX="0" kY="0" cX="0.95" cY="0.86" pX="75" pY="75" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-2.65" y="-98.8" cocos2d_x="95.1" cocos2d_y="-75" kX="59.06" kY="-125.53" cX="0.95" cY="0.88" pX="75" pY="75.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-2.65" y="-98.75" cocos2d_x="49.65" cocos2d_y="-12.85" kX="104.06" kY="-80.53" cX="0.95" cY="0.88" pX="74.9" pY="75.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-2.75" y="-98.7" cocos2d_x="-91" cocos2d_y="-147" kX="-105.94" kY="69.47" cX="0.95" cY="0.88" pX="74.95" pY="74.95" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-2.8" y="-98.75" cocos2d_x="45.5" cocos2d_y="-187" kX="-15.94" kY="159.47" cX="0.95" cY="0.88" pX="74.95" pY="75" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="百世镜飞行特效" width="256" height="256">
+    <SubTexture name="sdas-xian_00000.png" width="150" height="139" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="-5.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,36 @@
+<skeleton name="茅十八普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="142.3" y="-40.65" kX="0" kY="0" cX="1.65" cY="1.65" pX="1.45" pY="-31" z="0">
+        <d name="MovieClip-diqi" />
+      </b>
+      <b name="图层 2" x="320.6" y="-12.6" kX="0" kY="0" cX="2" cY="2" pX="48" pY="93" z="1">
+        <d name="MovieClip-dg1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="142.3" y="-40.65" cocos2d_x="139.9" cocos2d_y="10.5" kX="0" kY="0" cX="1.65" cY="1.65" pX="1.45" pY="-31" z="0" dI="0" dr="7" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="320.6" y="-12.6" cocos2d_x="224.6" cocos2d_y="-198.6" kX="0" kY="0" cX="2" cY="2" pX="48" pY="93" z="1" dI="0" blend="normal" dr="2" />
+          <f x="311.5" y="1.4" cocos2d_x="289.2" cocos2d_y="-185.75" kX="20.46" kY="20.46" cX="1.8" cY="1.8" pX="47.9" pY="93.1" z="1" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="311.5" y="1.4" cocos2d_x="289.2" cocos2d_y="-185.75" kX="20.46" kY="20.46" cX="1.8" cY="1.8" pX="47.9" pY="93.1" z="1" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.47" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="茅十八普通攻击特效" width="256" height="512">
+    <SubTexture name="MovieClip-dg1" width="197" height="211" x="0" y="0" cocos2d_pX="85.30" cocos2d_pY="102.15" />
+    <SubTexture name="MovieClip-diqi" width="135" height="78" x="0" y="212" cocos2d_pX="62.55" cocos2d_pY="67.00" />
+  </TextureAtlas>
+</skeleton>

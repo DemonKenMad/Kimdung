@@ -1,0 +1,12 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CVipRuleMsg";
+
+
+//vip限制信息
+//code = 0x7300
+message VipRuleInfoResponse
+{
+	repeated int32 type = 1; 				// 类型
+	repeated int32 useCount = 2;			// 使用用过的次数
+}

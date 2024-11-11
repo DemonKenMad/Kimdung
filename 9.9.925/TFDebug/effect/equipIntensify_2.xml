@@ -1,0 +1,27 @@
+<skeleton name="数值升级刷写" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 11" x="69.9" y="-95.3" kX="0" kY="0" cX="1" cY="0.11" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="54654531ngd" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f x="69.9" y="-95.3" cocos2d_x="69.9" cocos2d_y="-95.3" kX="0" kY="0" cX="1" cY="0.11" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="69.9" y="-102.3" cocos2d_x="69.9" cocos2d_y="-102.3" kX="0" kY="0" cX="1" cY="0.38" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="69.9" y="-102.3" cocos2d_x="69.9" cocos2d_y="-102.3" kX="0" kY="0" cX="1" cY="0.38" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="69.9" y="-118.1" cocos2d_x="69.9" cocos2d_y="-118.1" kX="0" kY="0" cX="1" cY="1.01" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="数值升级刷写" width="256" height="128">
+    <SubTexture name="xxx-zhangweifilesB02" width="160" height="69" x="0" y="0" cocos2d_pX="81.50" cocos2d_pY="36.50" />
+  </TextureAtlas>
+</skeleton>

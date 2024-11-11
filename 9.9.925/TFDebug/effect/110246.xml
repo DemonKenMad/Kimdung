@@ -1,0 +1,91 @@
+<skeleton name="钟灵技能前部分" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="-23.9" y="-58" kX="0" kY="0" cX="0.9" cY="2.23" pX="151.55" pY="40" z="0">
+        <d name="Graphic-7567" />
+      </b>
+      <b name="图层 3" x="-45.65" y="-69.05" kX="0" kY="0" cX="1.01" cY="1.01" pX="1.5" pY="-9.5" z="1">
+        <d name="Graphic/guangquan" isArmature="1" />
+      </b>
+      <b name="图层 2" x="-48.5" y="-70" kX="0" kY="0" cX="1.16" cY="1.16" pX="68" pY="69.05" z="2">
+        <d name="Graphic-546" />
+        <d name="Graphic-546465" />
+      </b>
+      <b name="图层 1" x="21.45" y="-65.45" kX="0" kY="0" cX="3.47" cY="3.47" pX="57.5" pY="29.5" z="3">
+        <d name="Graphic-8678" />
+        <d name="Graphic-57567" />
+        <d name="Graphic-wrwer" />
+      </b>
+    </armature>
+    <armature name="Graphic/guangquan" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="1.55" y="-9.05" kX="0" kY="0" cX="1.89" cY="1.89" pX="24" pY="28.5" z="0">
+        <d name="Graphic-3555" />
+        <d name="Graphic-67567" />
+        <d name="Graphic-补间 1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="Graphic/guangquan">
+      <mov name="45667" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.55" y="-9.05" cocos2d_x="-43.9" cocos2d_y="-63" kX="0" kY="0" cX="1.89" cY="1.89" pX="24" pY="28.5" z="0" dI="0" dr="2" />
+          <f x="-3.2" y="-8.7" cocos2d_x="-74.5" cocos2d_y="-80" kX="0" kY="0" cX="2.01" cY="2.01" pX="35.5" pY="35.5" z="0" dI="1" dr="2" />
+          <f x="-1.05" y="-21.1" cocos2d_x="-1.05" cocos2d_y="-21.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" twE="0" dr="4" />
+          <f x="-1.05" y="-16.1" cocos2d_x="-1.05" cocos2d_y="-16.1" kX="0" kY="0" cX="1.1" cY="1.1" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.07" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="6787" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-23.9" y="-58" cocos2d_x="-160" cocos2d_y="-147.1" kX="0" kY="0" cX="0.9" cY="2.23" pX="151.55" pY="40" z="0" dI="0" twE="0" dr="3" />
+          <f x="72" y="-67" cocos2d_x="-79.5" cocos2d_y="-107" kX="0" kY="0" cX="1" cY="1" pX="151.5" pY="40" z="0" dI="0" twE="0" dr="1" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-45.65" y="-69.05" cocos2d_x="-47.15" cocos2d_y="-59.5" kX="0" kY="0" cX="1.01" cY="1.01" pX="1.5" pY="-9.5" z="1" dI="0" twE="0" dr="2" />
+          <f x="-44.95" y="-76.7" cocos2d_x="-47.1" cocos2d_y="-63.1" kX="0" kY="0" cX="1.43" cY="1.43" pX="1.5" pY="-9.5" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="236" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-48.5" y="-70" cocos2d_x="-127.15" cocos2d_y="-149.85" kX="0" kY="0" cX="1.16" cY="1.16" pX="68" pY="69.05" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="-47.45" y="-67.95" cocos2d_x="-126.85" cocos2d_y="-144.6" kX="0" kY="0" cX="0.92" cY="0.92" pX="85.95" pY="82.95" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="-47.45" y="-67.7" cocos2d_x="-130.95" cocos2d_y="-148.35" kX="0" kY="0" cX="0.97" cY="0.97" pX="85.95" pY="83" z="2" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="21.45" y="-65.45" cocos2d_x="-178.2" cocos2d_y="-167.9" kX="0" kY="0" cX="3.47" cY="3.47" pX="57.5" pY="29.5" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="4" y="-79.5" cocos2d_x="-237" cocos2d_y="-170.85" kX="0" kY="0" cX="2.65" cY="2.65" pX="91" pY="34.5" z="3" dI="1" dr="2" />
+          <f x="-52.05" y="-90.95" cocos2d_x="-348.85" cocos2d_y="-174.35" kX="0" kY="0" cX="2.14" cY="2.14" pX="138.95" pY="39.05" z="3" dI="2" twE="0" dr="4" />
+          <f x="-55.05" y="-90.95" cocos2d_x="-351.85" cocos2d_y="-174.35" kX="0" kY="0" cX="2.14" cY="2.14" pX="138.95" pY="39.05" z="3" dI="2" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="钟灵技能前部分" width="512" height="512">
+    <SubTexture name="Graphic-补间 1" width="152" height="146" x="0" y="80" cocos2d_pX="75.65" cocos2d_pY="72.90" />
+    <SubTexture name="Graphic-67567" width="71" height="71" x="0" y="227" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Graphic-3555" width="48" height="57" x="72" y="227" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Graphic-wrwer" width="224" height="72" x="269" y="237" cocos2d_pX="-53.05" cocos2d_pY="-8.00" />
+    <SubTexture name="Graphic-57567" width="178" height="69" x="290" y="167" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Graphic-8678" width="115" height="58" x="153" y="219" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="Graphic-546465" width="172" height="166" x="304" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Graphic-546" width="136" height="138" x="153" y="80" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Graphic-7567" width="303" height="79" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

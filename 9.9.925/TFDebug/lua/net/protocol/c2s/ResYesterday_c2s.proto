@@ -1,0 +1,10 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SResYesterdayMsg";
+
+// 购买资源
+// code = 0x6c00
+message BuyResRequest {
+	required int32 id = 1; 			// 模板ID
+}
+

@@ -1,0 +1,63 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CRush";
+//副本信息
+// code = 0x7601
+message RushZoneInfos{
+	repeated RushZoneInfo infos =1;
+}
+
+message RushZoneInfo{
+	required int32 zoneId = 1;
+	required bool pass = 2;
+	required bool use = 3;
+}
+//关卡信息
+// code = 0x7602
+message RushCheckPointInfo{
+	required int32 checkpointId = 1;
+	required string openPoints=2;				//"格子_状态|格子_状态|格子_状态"
+	repeated PointElement elements=3;
+	required string organ=4;					//attr
+	required string roleState=5;				//"id_blood|id_blood"
+}
+
+message PointElement{
+	required int32 point =1;
+	required int32 elementId = 2;
+}
+
+//格子元素
+// code = 0x7604
+message GridElement{
+	required int32 point =1;
+	required int32 state = 2;
+	optional int32 type =3;
+	optional int32 assId = 4;
+}
+//放弃
+// code = 0x7605
+message GiveUpRushSucess{
+
+}
+//放弃
+// code = 0x7606
+message PassBoss{
+	required bool lastBoss = 1;
+	repeated BossItem items = 2;
+}
+
+message BossItem{
+	required int32 type =1;
+	required int32 itemId=2;
+	required int32 number=3;
+}
+//扫荡
+// code = 0x7607
+message RushSweepItems{
+	repeated CheckpointItems checkpointItems = 1;
+}
+
+message CheckpointItems{
+	repeated BossItem items = 1;
+}

@@ -1,0 +1,349 @@
+<skeleton name="风波恶技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9" x="262.8" y="-9.95" kX="0" kY="0" cX="2.72" cY="2.72" pX="42" pY="13" z="0">
+        <d name="fengboe-45654" />
+      </b>
+      <b name="图层 8" x="270.5" y="-9" kX="0" kY="0" cX="2.53" cY="2.53" pX="62.5" pY="17" z="1">
+        <d name="fengboe-756" />
+        <d name="fengboe-7567" />
+        <d name="fengboe-5675" />
+      </b>
+      <b name="图层 10" x="220.9" y="-27.05" kX="0" kY="0" cX="1.51" cY="0.47" pX="0" pY="0" z="2">
+        <d name="fengboe-1125460.3285648-7" />
+        <d name="fengboe-1125460.3285648-9" />
+      </b>
+      <b name="图层 11" x="270.5" y="-9" kX="0" kY="0" cX="2.53" cY="2.53" pX="62.5" pY="17" z="3">
+        <d name="fengboe-756" />
+        <d name="fengboe-7567" />
+        <d name="fengboe-5675" />
+        <d name="fengboe-6575" />
+      </b>
+      <b name="xb" x="100.35" y="-155.6" kX="0" kY="0" cX="8.51" cY="8.28" pX="21.45" pY="24" z="4">
+        <d name="fengboe-7876" />
+        <d name="fengboe-5464" />
+        <d name="fengboe-元件 4" />
+      </b>
+      <b name="元件 11" x="257.4" y="-128.5" kX="0" kY="0" cX="2.67" cY="2.67" pX="45.5" pY="51.5" z="5">
+        <d name="fengboe-6765" />
+        <d name="fengboe-ert" />
+        <d name="fengboe-6756" />
+        <d name="fengboe-4546" />
+        <d name="fengboe-543" />
+      </b>
+      <b name="图层 4" x="27.05" y="-112.5" kX="0" kY="0" cX="3.09" cY="3.09" pX="32" pY="41.45" z="6">
+        <d name="fengboe-5676" />
+        <d name="fengboe-6546" />
+        <d name="fengboe-元件 9" />
+        <d name="fengboe-543" />
+      </b>
+      <b name="图层 5" x="-3.2" y="-42.85" kX="-28.23" kY="-28.23" cX="1.91" cY="1.91" pX="31.9" pY="41.5" z="7">
+        <d name="fengboe-5676" />
+        <d name="fengboe-6546" />
+        <d name="fengboe-元件 9" />
+        <d name="fengboe-543" />
+        <d name="fengboe-8768" />
+      </b>
+      <b name="543" x="227.55" y="-57.15" kX="-150.69" kY="-140.66" cX="2.78" cY="2.58" pX="3.3" pY="-15.55" z="8">
+        <d name="fengboe-543" />
+        <d name="fengboe-8768" />
+        <d name="fengboe-567" />
+      </b>
+      <b name="5430" x="258.7" y="-33.9" kX="0" kY="0" cX="3.11" cY="2.78" pX="0" pY="-11.85" z="9">
+        <d name="fengboe-543" />
+        <d name="fengboe-567" />
+      </b>
+      <b name="8768" x="201.3" y="-49.6" kX="-161.37" kY="-164.88" cX="4.17" cY="3.8" pX="0.05" pY="-11.3" z="10">
+        <d name="fengboe-8768" />
+        <d name="fengboe-543" />
+      </b>
+      <b name="567" x="306.5" y="-68.05" kX="0" kY="0" cX="3.85" cY="3.44" pX="0" pY="-22.4" z="11">
+        <d name="fengboe-567" />
+        <d name="fengboe-543" />
+        <d name="fengboe-8768" />
+      </b>
+      <b name="5431" x="352.7" y="-30.9" kX="103.07" kY="123.14" cX="2.69" cY="2.8" pX="0" pY="-11.8" z="12">
+        <d name="fengboe-543" />
+        <d name="fengboe-8768" />
+      </b>
+      <b name="5432" x="323.9" y="-168.75" kX="-71.87" kY="-110.58" cX="1.23" cY="2.03" pX="0.05" pY="-11.95" z="13">
+        <d name="fengboe-543" />
+      </b>
+      <b name="5433" x="428.9" y="-114.9" kX="166.18" kY="138" cX="3.22" cY="1.69" pX="-0.05" pY="-11.3" z="14">
+        <d name="fengboe-8768" />
+      </b>
+      <b name="图层 6" x="157.95" y="11.95" kX="0" kY="180" cX="1.53" cY="1.37" pX="40.45" pY="-18.85" z="15">
+        <d name="fengboe-元件 16" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="565" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="262.8" y="-9.95" cocos2d_x="148.65" cocos2d_y="-45.3" kX="0" kY="0" cX="2.72" cY="2.72" pX="42" pY="13" z="0" dI="0" twE="0" dr="8" />
+          <f x="262.8" y="-9.95" cocos2d_x="40.6" cocos2d_y="-78.75" kX="0" kY="0" cX="5.29" cY="5.29" pX="42" pY="13" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.16" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="270.5" y="-9" cocos2d_x="112.65" cocos2d_y="-51.95" kX="0" kY="0" cX="2.53" cY="2.53" pX="62.5" pY="17" z="1" dI="0" dr="2" />
+          <f x="274.95" y="-4.15" cocos2d_x="70.55" cocos2d_y="-72.15" kX="0" kY="0" cX="2.84" cY="2.84" pX="72" pY="23.95" z="1" dI="1" dr="2" />
+          <f x="266.45" y="-3.5" cocos2d_x="20.8" cocos2d_y="-99.2" kX="0" kY="0" cX="2.7" cY="2.7" pX="91" pY="35.45" z="1" dI="2" dr="2" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="220.9" y="-27.05" cocos2d_x="220.9" cocos2d_y="-27.05" kX="0" kY="0" cX="1.51" cY="0.47" pX="0" pY="0" z="2" dI="0" blend="add" dr="2">
+            <fl name="blurFilter" enabled="true" angle="45" blurX="2" blurY="2" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="10" blurY="10" distance="5" color="#ffff00" quality="low" strength="150" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="156.8" y="-41.75" cocos2d_x="156.8" cocos2d_y="-41.75" kX="0" kY="0" cX="1.87" cY="0.58" pX="0" pY="0" z="2" dI="1" blend="add" dr="2" />
+          <f x="103.7" y="-58.25" cocos2d_x="103.7" cocos2d_y="-58.25" kX="0" kY="0" cX="2.78" cY="0.86" pX="0" pY="0" z="2" dI="1" blend="add" dr="2" />
+          <f x="54.15" y="-73.65" cocos2d_x="54.15" cocos2d_y="-73.65" kX="0" kY="0" cX="3.63" cY="1.12" pX="0" pY="0" z="2" dI="1" blend="add" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.6" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="28.8" y="-81.45" cocos2d_x="28.8" cocos2d_y="-81.45" kX="0" kY="0" cX="4.06" cY="1.25" pX="0" pY="0" z="2" dI="1" blend="add" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.36" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="3.5" y="-89.3" cocos2d_x="3.5" cocos2d_y="-89.3" kX="0" kY="0" cX="4.5" cY="1.38" pX="0" pY="0" z="2" dI="1" blend="add" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.12" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="270.5" y="-9" cocos2d_x="112.65" cocos2d_y="-51.95" kX="0" kY="0" cX="2.53" cY="2.53" pX="62.5" pY="17" z="3" dI="0" dr="2" />
+          <f x="274.95" y="-4.15" cocos2d_x="70.55" cocos2d_y="-72.15" kX="0" kY="0" cX="2.84" cY="2.84" pX="72" pY="23.95" z="3" dI="1" dr="2" />
+          <f x="266.45" y="-3.5" cocos2d_x="20.8" cocos2d_y="-99.2" kX="0" kY="0" cX="2.7" cY="2.7" pX="91" pY="35.45" z="3" dI="2" dr="2" />
+          <f x="266.6" y="-5.95" cocos2d_x="-36.85" cocos2d_y="-117.6" kX="0" kY="0" cX="2.86" cY="2.86" pX="105.95" pY="39" z="3" dI="3" dr="2" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="xb" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="100.35" y="-155.6" cocos2d_x="-82.25" cocos2d_y="-354.25" kX="0" kY="0" cX="8.51" cY="8.28" pX="21.45" pY="24" z="4" dI="0" dr="2" />
+          <f x="161.2" y="-159.9" cocos2d_x="29.5" cocos2d_y="-369.55" kX="0" kY="0" cX="2.69" cY="2.69" pX="48.95" pY="78" z="4" dI="1" dr="2" />
+          <f x="197.2" y="-58.55" cocos2d_x="197.2" cocos2d_y="32.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-90.85" z="4" dI="2" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="23" blurY="23" distance="5" color="#0099ff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="197.2" y="-58.55" cocos2d_x="197.2" cocos2d_y="32.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-90.85" z="4" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.5" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="23" blurY="23" distance="5" color="#0099ff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="元件 11" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="257.4" y="-128.5" cocos2d_x="135.85" cocos2d_y="-266.1" kX="0" kY="0" cX="2.67" cY="2.67" pX="45.5" pY="51.5" z="5" dI="0" dr="3" />
+          <f x="330.2" y="-214.95" cocos2d_x="132.75" cocos2d_y="-470.25" kX="0" kY="0" cX="3.4" cY="3.4" pX="58" pY="75" z="5" dI="1" dr="3" />
+          <f x="342.5" y="-230.35" cocos2d_x="153.55" cocos2d_y="-477.3" kX="0" kY="0" cX="6" cY="6.33" pX="31.5" pY="39" z="5" dI="2" dr="3" />
+          <f x="334.7" y="-254.95" cocos2d_x="163.1" cocos2d_y="-458.15" kX="0" kY="0" cX="9.03" cY="9.03" pX="19" pY="22.5" z="5" dI="3" dr="3" />
+          <f x="204.7" y="-36.35" cocos2d_x="195.9" cocos2d_y="-42.4" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.45" pY="-15.35" z="5" dI="4" dr="1" twE="NaN" />
+          <f x="204.7" y="-36.35" cocos2d_x="195.9" cocos2d_y="-42.4" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.45" pY="-15.35" z="5" dI="4" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="204.7" y="-36.35" cocos2d_x="195.9" cocos2d_y="-42.4" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.45" pY="-15.35" z="5" dI="4" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="204.7" y="-36.35" cocos2d_x="195.9" cocos2d_y="-42.4" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.45" pY="-15.35" z="5" dI="4" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="27.05" y="-112.5" cocos2d_x="-71.9" cocos2d_y="-240.8" kX="0" kY="0" cX="3.09" cY="3.09" pX="32" pY="41.45" z="6" dI="0" dr="3" />
+          <f x="18" y="-108" cocos2d_x="-70.85" cocos2d_y="-247" kX="0" kY="0" cX="2.28" cY="2.28" pX="39" pY="61" z="6" dI="1" dr="3" />
+          <f x="-0.7" y="-146.7" cocos2d_x="-0.65" cocos2d_y="-50" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-96.7" z="6" dI="2" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="23" blurY="23" distance="5" color="#0099ff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="218.35" y="-147.8" cocos2d_x="209.45" cocos2d_y="-153.75" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.25" pY="-15.6" z="6" dI="3" dr="2" />
+          <f x="207.85" y="-108.65" cocos2d_x="198.95" cocos2d_y="-114.6" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.2" pY="-15.6" z="6" dI="3" dr="1" twE="NaN" />
+          <f x="207.85" y="-72.15" cocos2d_x="198.95" cocos2d_y="-78.1" kX="112.74" kY="82.82" cX="0.73" cY="0.6" pX="3.2" pY="-15.6" z="6" dI="3" dr="1" twE="NaN" />
+          <f x="197.7" y="-41.2" cocos2d_x="205.9" cocos2d_y="-53.15" kX="-146.27" kY="-178.86" cX="0.95" cY="1.2" pX="0.25" pY="-12" z="6" dI="3" dr="1" twE="NaN" />
+          <f x="197.75" y="-34.75" cocos2d_x="205.9" cocos2d_y="-46.65" kX="-146.27" kY="-178.86" cX="0.95" cY="1.2" pX="0.25" pY="-12" z="6" dI="3" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="197.75" y="-34.75" cocos2d_x="205.9" cocos2d_y="-46.65" kX="-146.27" kY="-178.86" cX="0.95" cY="1.2" pX="0.25" pY="-12" z="6" dI="3" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="197.75" y="-34.75" cocos2d_x="205.9" cocos2d_y="-46.65" kX="-146.27" kY="-178.86" cX="0.95" cY="1.2" pX="0.25" pY="-12" z="6" dI="3" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-3.2" y="-42.85" cocos2d_x="-94.5" cocos2d_y="-83.85" kX="-28.23" kY="-28.23" cX="1.91" cY="1.91" pX="31.9" pY="41.5" z="7" dI="0" dr="3" />
+          <f x="-5" y="-34.05" cocos2d_x="-101.7" cocos2d_y="-87.1" kX="-28.71" kY="-28.71" cX="1.52" cY="1.52" pX="38.95" pY="61.05" z="7" dI="1" dr="3" />
+          <f x="-25.15" y="-50.8" cocos2d_x="10.05" cocos2d_y="6.05" kX="-31.72" kY="-31.72" cX="0.69" cY="0.69" pX="-0.05" pY="-96.8" z="7" dI="2" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="23" blurY="23" distance="5" color="#0099ff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="212.4" y="-133.55" cocos2d_x="220.75" cocos2d_y="-145.45" kX="-146.27" kY="-178.86" cX="1.95" cY="1.2" pX="0.25" pY="-11.95" z="7" dI="3" dr="2" />
+          <f x="208.15" y="-78.7" cocos2d_x="216.3" cocos2d_y="-90.6" kX="-146.27" kY="-178.86" cX="0.95" cY="1.2" pX="0.2" pY="-11.95" z="7" dI="3" dr="1" twE="NaN" />
+          <f x="205" y="-39.2" cocos2d_x="213.15" cocos2d_y="-51.15" kX="-146.27" kY="-178.86" cX="0.95" cY="1.2" pX="0.2" pY="-12" z="7" dI="3" dr="1" twE="NaN" />
+          <f x="117" y="-36.65" cocos2d_x="110.9" cocos2d_y="-48.95" kX="153.43" kY="126.1" cX="1.46" cY="1.21" pX="0" pY="-11.4" z="7" dI="4" dr="1" twE="NaN" />
+          <f x="116.95" y="-28.65" cocos2d_x="123.45" cocos2d_y="-40.8" kX="-152.14" kY="173.36" cX="1.57" cY="1.21" pX="0.05" pY="-11.35" z="7" dI="4" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="116.95" y="-28.65" cocos2d_x="123.45" cocos2d_y="-40.8" kX="-152.14" kY="173.36" cX="1.57" cY="1.21" pX="0.05" pY="-11.35" z="7" dI="4" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="116.95" y="-28.65" cocos2d_x="123.45" cocos2d_y="-40.8" kX="-152.14" kY="173.36" cX="1.57" cY="1.21" pX="0.05" pY="-11.35" z="7" dI="4" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="543" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="227.55" y="-57.15" cocos2d_x="254.3" cocos2d_y="-86.35" kX="-150.69" kY="-140.66" cX="2.78" cY="2.58" pX="3.3" pY="-15.55" z="8" dI="0" dr="2" />
+          <f x="221.15" y="-136.1" cocos2d_x="227.35" cocos2d_y="-166.25" kX="177.15" kY="-168.12" cX="2.34" cY="2.04" pX="3.4" pY="-15.65" z="8" dI="0" dr="2" />
+          <f x="218.4" y="-147.75" cocos2d_x="192.9" cocos2d_y="-170.1" kX="123.51" kY="145.29" cX="1.44" cY="2.28" pX="3.45" pY="-15.5" z="8" dI="0" dr="2" />
+          <f x="218.25" y="-147.75" cocos2d_x="201.9" cocos2d_y="-158.9" kX="112.74" kY="82.82" cX="1.34" cY="1.1" pX="3.45" pY="-15.5" z="8" dI="0" dr="2" />
+          <f x="120.3" y="-69.75" cocos2d_x="117.1" cocos2d_y="-82.8" kX="166.18" kY="138" cX="1.49" cY="1.19" pX="0.05" pY="-11.3" z="8" dI="1" dr="2" />
+          <f x="119.15" y="-47.05" cocos2d_x="116" cocos2d_y="-60.1" kX="166.18" kY="138" cX="1.49" cY="1.19" pX="0.05" pY="-11.25" z="8" dI="1" dr="1" twE="NaN" />
+          <f x="120.1" y="-33.25" cocos2d_x="117" cocos2d_y="-46.4" kX="166.18" kY="138" cX="1.49" cY="1.19" pX="0.1" pY="-11.35" z="8" dI="1" dr="1" twE="NaN" />
+          <f x="391.05" y="-46.8" cocos2d_x="413.75" cocos2d_y="-59.25" kX="-118.58" kY="-130.24" cX="1.43" cY="1.16" pX="-0.05" pY="-22.4" z="8" dI="2" dr="1" twE="NaN" />
+          <f x="394.15" y="-39.4" cocos2d_x="420.4" cocos2d_y="-43.05" kX="-97.96" kY="-106.34" cX="1.38" cY="1.19" pX="0" pY="-22.3" z="8" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="394.15" y="-39.4" cocos2d_x="420.4" cocos2d_y="-43.05" kX="-97.96" kY="-106.34" cX="1.38" cY="1.19" pX="0" pY="-22.3" z="8" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="394.15" y="-39.4" cocos2d_x="420.4" cocos2d_y="-43.05" kX="-97.96" kY="-106.34" cX="1.38" cY="1.19" pX="0" pY="-22.3" z="8" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="5430" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="258.7" y="-33.9" cocos2d_x="258.7" cocos2d_y="-0.95" kX="0" kY="0" cX="3.11" cY="2.78" pX="0" pY="-11.85" z="9" dI="0" dr="2" />
+          <f x="252.35" y="-53.7" cocos2d_x="269.25" cocos2d_y="-24.25" kX="-29.84" kY="-48.2" cX="3.19" cY="2.85" pX="0" pY="-11.95" z="9" dI="0" dr="2" />
+          <f x="246.3" y="-86.65" cocos2d_x="263.1" cocos2d_y="-57.05" kX="-29.84" kY="-63.41" cX="1.88" cY="2.85" pX="0.1" pY="-11.85" z="9" dI="0" dr="2" />
+          <f x="230.3" y="-106.15" cocos2d_x="265.2" cocos2d_y="-94.5" kX="-71.87" kY="-133.69" cX="2.29" cY="3.07" pX="0.2" pY="-11.85" z="9" dI="0" dr="2" />
+          <f x="391.15" y="-178.1" cocos2d_x="412.5" cocos2d_y="-164" kX="-56.4" kY="-56.4" cX="1.41" cY="1.15" pX="-0.05" pY="-22.3" z="9" dI="1" dr="2" />
+          <f x="392.15" y="-156.85" cocos2d_x="418.7" cocos2d_y="-157.75" kX="-91.89" kY="-98.86" cX="1.37" cY="1.19" pX="0" pY="-22.4" z="9" dI="1" dr="1" twE="NaN" />
+          <f x="391" y="-93.35" cocos2d_x="417.6" cocos2d_y="-94.35" kX="-91.89" kY="-98.86" cX="1.37" cY="1.19" pX="-0.1" pY="-22.35" z="9" dI="1" dr="1" twE="NaN" />
+          <f x="449.95" y="-40.9" cocos2d_x="440.85" cocos2d_y="-48.4" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="0.1" pY="-11.75" z="9" dI="0" dr="1" twE="NaN" />
+          <f x="451.05" y="-32.6" cocos2d_x="441.95" cocos2d_y="-40.05" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="-0.05" pY="-11.75" z="9" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="451.05" y="-32.6" cocos2d_x="441.95" cocos2d_y="-40.05" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="-0.05" pY="-11.75" z="9" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="451.05" y="-32.6" cocos2d_x="441.95" cocos2d_y="-40.05" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="-0.05" pY="-11.75" z="9" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="8768" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="201.3" y="-49.6" cocos2d_x="214.95" cocos2d_y="-90.1" kX="-161.37" kY="-164.88" cX="4.17" cY="3.8" pX="0.05" pY="-11.3" z="10" dI="0" dr="2" />
+          <f x="173.1" y="-71.3" cocos2d_x="204.9" cocos2d_y="-102.6" kX="-134.56" kY="-140.86" cX="4.01" cY="3.97" pX="0" pY="-11.3" z="10" dI="0" dr="2" />
+          <f x="145.55" y="-82.7" cocos2d_x="138.55" cocos2d_y="-111.15" kX="166.18" kY="138" cX="3.25" cY="2.59" pX="0" pY="-11.3" z="10" dI="0" dr="2" />
+          <f x="132.5" y="-75.1" cocos2d_x="128.45" cocos2d_y="-91.95" kX="166.18" kY="138" cX="1.92" cY="1.54" pX="0.05" pY="-11.25" z="10" dI="0" dr="2" />
+          <f x="443.7" y="-76.65" cocos2d_x="434.6" cocos2d_y="-84.15" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="0.05" pY="-11.75" z="10" dI="1" dr="2" />
+          <f x="446.8" y="-51.4" cocos2d_x="437.7" cocos2d_y="-58.95" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="0.1" pY="-11.75" z="10" dI="1" dr="1" twE="NaN" />
+          <f x="449.95" y="-35.5" cocos2d_x="440.85" cocos2d_y="-43" kX="129.31" kY="103.1" cX="0.7" cY="1" pX="0.05" pY="-11.75" z="10" dI="1" dr="1" twE="NaN" />
+          <f x="345.95" y="-35.25" cocos2d_x="354.5" cocos2d_y="-24.2" kX="-37.94" kY="-71.79" cX="0.69" cY="1.17" pX="0.1" pY="-11.9" z="10" dI="1" dr="1" twE="NaN" />
+          <f x="346.85" y="-29.05" cocos2d_x="362" cocos2d_y="-28.2" kX="-86.74" kY="-128.06" cX="0.71" cY="1.26" pX="0" pY="-12.05" z="10" dI="1" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="346.85" y="-29.05" cocos2d_x="362" cocos2d_y="-28.2" kX="-86.74" kY="-128.06" cX="0.71" cY="1.26" pX="0" pY="-12.05" z="10" dI="1" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="346.85" y="-29.05" cocos2d_x="362" cocos2d_y="-28.2" kX="-86.74" kY="-128.06" cX="0.71" cY="1.26" pX="0" pY="-12.05" z="10" dI="1" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="567" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="306.5" y="-68.05" cocos2d_x="306.5" cocos2d_y="9.1" kX="0" kY="0" cX="3.85" cY="3.44" pX="0" pY="-22.4" z="11" dI="0" dr="2" />
+          <f x="331.35" y="-144" cocos2d_x="334.75" cocos2d_y="-66.9" kX="-2.52" kY="-11.51" cX="3.89" cY="3.45" pX="0" pY="-22.4" z="11" dI="0" dr="2" />
+          <f x="344" y="-178.7" cocos2d_x="403.4" cocos2d_y="-185.3" kX="-96.53" kY="-109.77" cX="3.54" cY="2.67" pX="0.05" pY="-22.35" z="11" dI="0" dr="2" />
+          <f x="373.35" y="-201.65" cocos2d_x="376.9" cocos2d_y="-161.15" kX="-4.99" kY="-13.51" cX="1.54" cY="1.82" pX="0" pY="-22.4" z="11" dI="0" dr="2" />
+          <f x="334.4" y="-146.65" cocos2d_x="344.9" cocos2d_y="-133.1" kX="-37.94" kY="-71.79" cX="0.93" cY="1.44" pX="0.05" pY="-11.9" z="11" dI="1" dr="2" />
+          <f x="336.45" y="-117.75" cocos2d_x="345.05" cocos2d_y="-106.8" kX="-37.94" kY="-71.79" cX="0.69" cY="1.17" pX="-0.05" pY="-11.9" z="11" dI="1" dr="1" twE="NaN" />
+          <f x="336.45" y="-81" cocos2d_x="345.05" cocos2d_y="-70.05" kX="-37.94" kY="-71.79" cX="0.69" cY="1.17" pX="-0.05" pY="-11.9" z="11" dI="1" dr="1" twE="NaN" />
+          <f x="439.2" y="-28.95" cocos2d_x="441.45" cocos2d_y="-44.85" kX="-171.27" kY="-177.53" cX="3.4" cY="1.42" pX="-0.05" pY="-11.35" z="11" dI="2" dr="1" twE="NaN" />
+          <f x="440.25" y="-23.35" cocos2d_x="437" cocos2d_y="-39.2" kX="169" kY="166.57" cX="3.38" cY="1.42" pX="-0.05" pY="-11.35" z="11" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="440.25" y="-23.35" cocos2d_x="437" cocos2d_y="-39.2" kX="169" kY="166.57" cX="3.38" cY="1.42" pX="-0.05" pY="-11.35" z="11" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="440.25" y="-23.35" cocos2d_x="437" cocos2d_y="-39.2" kX="169" kY="166.57" cX="3.38" cY="1.42" pX="-0.05" pY="-11.35" z="11" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="5431" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="352.7" y="-30.9" cocos2d_x="320.55" cocos2d_y="-38.35" kX="103.07" kY="123.14" cX="2.69" cY="2.8" pX="0" pY="-11.8" z="12" dI="0" dr="2" />
+          <f x="385.25" y="-48.2" cocos2d_x="348.8" cocos2d_y="-48.95" kX="91.18" kY="108.96" cX="2.83" cY="3.08" pX="0" pY="-11.8" z="12" dI="0" dr="2" />
+          <f x="413.6" y="-69.8" cocos2d_x="442.6" cocos2d_y="-97" kX="-133.09" kY="173.36" cX="2.34" cY="3.38" pX="0" pY="-11.8" z="12" dI="0" dr="2" />
+          <f x="442.6" y="-90" cocos2d_x="427.65" cocos2d_y="-102.25" kX="129.31" kY="103.1" cX="1.14" cY="1.64" pX="0" pY="-11.7" z="12" dI="0" dr="2" />
+          <f x="429.95" y="-67.1" cocos2d_x="445.65" cocos2d_y="-79.8" kX="-128.56" kY="-165.98" cX="3.37" cY="1.79" pX="-0.05" pY="-11.4" z="12" dI="1" dr="2" />
+          <f x="437.2" y="-38.55" cocos2d_x="435.8" cocos2d_y="-57.35" kX="176.21" kY="146.83" cX="3.28" cY="1.68" pX="0" pY="-11.25" z="12" dI="1" dr="1" twE="NaN" />
+          <f x="439.15" y="-28.95" cocos2d_x="438.25" cocos2d_y="-45" kX="177.35" kY="173.34" cX="3.39" cY="1.42" pX="-0.05" pY="-11.4" z="12" dI="1" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="5432" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="323.9" y="-168.75" cocos2d_x="346.95" cocos2d_y="-161.2" kX="-71.87" kY="-110.58" cX="1.23" cY="2.03" pX="0.05" pY="-11.95" z="13" dI="0" dr="2" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="5433" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="428.9" y="-114.9" cocos2d_x="424.2" cocos2d_y="-133.35" kX="166.18" kY="138" cX="3.22" cY="1.69" pX="-0.05" pY="-11.3" z="14" dI="0" dr="2" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="157.95" y="11.95" cocos2d_x="219.75" cocos2d_y="37.75" kX="0" kY="180" cX="1.53" cY="1.37" pX="40.45" pY="-18.85" z="15" dI="0" dr="2" />
+          <f x="168.85" y="11.95" cocos2d_x="230.55" cocos2d_y="37.75" kX="0" kY="180" cX="1.53" cY="1.37" pX="40.4" pY="-18.85" z="15" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.71" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.7" y="11.95" cocos2d_x="241.4" cocos2d_y="37.75" kX="0" kY="180" cX="1.53" cY="1.37" pX="40.4" pY="-18.85" z="15" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.43" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="190.55" y="11.95" cocos2d_x="252.25" cocos2d_y="37.75" kX="0" kY="180" cX="1.53" cY="1.37" pX="40.4" pY="-18.85" z="15" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="风波恶技能" width="512" height="512">
+    <SubTexture name="fengboe-元件 16" width="154" height="123" x="161" y="0" cocos2d_pX="77.00" cocos2d_pY="123.00" />
+    <SubTexture name="fengboe-567" width="37" height="45" x="260" y="219" cocos2d_pX="18.20" cocos2d_pY="44.75" />
+    <SubTexture name="fengboe-8768" width="24" height="23" x="476" y="148" cocos2d_pX="11.90" cocos2d_pY="22.50" />
+    <SubTexture name="fengboe-元件 9" width="42" height="145" x="433" y="123" cocos2d_pX="56.65" cocos2d_pY="190.95" />
+    <SubTexture name="fengboe-6546" width="78" height="122" x="433" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-5676" width="64" height="83" x="91" y="183" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-543" width="31" height="24" x="476" y="123" cocos2d_pX="15.40" cocos2d_pY="23.70" />
+    <SubTexture name="fengboe-4546" width="38" height="45" x="260" y="173" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-6756" width="63" height="78" x="91" y="267" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-ert" width="116" height="149" x="316" y="0" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="fengboe-6765" width="90" height="103" x="0" y="183" cocos2d_pX="-1.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-元件 4" width="160" height="182" x="0" y="0" cocos2d_pX="80.10" cocos2d_pY="181.70" />
+    <SubTexture name="fengboe-5464" width="98" height="156" x="161" y="124" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-7876" width="43" height="48" x="260" y="124" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-6575" width="197" height="66" x="155" y="329" cocos2d_pX="-5.00" cocos2d_pY="-4.00" />
+    <SubTexture name="fengboe-1125460.3285648-9" width="116" height="117" x="304" y="150" cocos2d_pX="-1.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-1125460.3285648-7" width="72" height="68" x="428" y="269" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="fengboe-5675" width="167" height="60" x="260" y="268" cocos2d_pX="-6.00" cocos2d_pY="-4.00" />
+    <SubTexture name="fengboe-7567" width="141" height="48" x="353" y="338" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-756" width="125" height="34" x="0" y="346" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="fengboe-45654" width="83" height="26" x="155" y="281" cocos2d_pX="-1.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

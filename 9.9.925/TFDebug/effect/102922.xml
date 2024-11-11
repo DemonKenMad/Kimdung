@@ -1,0 +1,68 @@
+<skeleton name="周伯通技能下层(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-11.35" y="11.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweiwidowmaker20" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiwidowmaker20" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="103.7" y="-60.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiwidowmaker03" />
+        <d name="xxx-zhangweiwidowmaker02" />
+      </b>
+      <b name="图层 1" x="-54.05" y="-61.55" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="1">
+        <d name="xxx-zhangweiwidowmaker10" />
+        <d name="xxx-zhangweiwidowmaker09" />
+        <d name="xxx-zhangweiwidowmaker08" />
+        <d name="xxx-zhangweiwidowmaker07" />
+        <d name="xxx-zhangweiwidowmaker06" />
+        <d name="xxx-zhangweiwidowmaker05" />
+        <d name="xxx-zhangweiwidowmaker04" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweiwidowmaker20">
+      <mov name="sdfagasdghash" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="103.7" y="-60.5" cocos2d_x="103.7" cocos2d_y="-60.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="-88.2" y="-77.2" cocos2d_x="-88.1" cocos2d_y="-77.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="-0.05" z="0" dI="1" dr="2" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-54.05" y="-61.55" cocos2d_x="-53.95" cocos2d_y="-61.55" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="1" dI="0" dr="2" />
+          <f x="-38.5" y="-77.5" cocos2d_x="-38.4" cocos2d_y="-77.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="1" dI="1" dr="2" />
+          <f x="87" y="-84" cocos2d_x="87" cocos2d_y="-84" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="2" dr="2" />
+          <f x="43" y="-96.5" cocos2d_x="43" cocos2d_y="-96.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="3" dr="2" />
+          <f x="10.5" y="-138.5" cocos2d_x="10.5" cocos2d_y="-138.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="4" dr="2" />
+          <f x="25.95" y="-115.5" cocos2d_x="25.95" cocos2d_y="-115.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="5" dr="2" />
+          <f x="-23.5" y="-149.5" cocos2d_x="-23.4" cocos2d_y="-149.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="1" dI="6" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="cxvvxczbfxgzv" dr="81" to="0" drTW="81" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="-11.35" y="11.5" cocos2d_x="-11.35" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="5" />
+          <f x="-11.35" y="11.5" cocos2d_x="-11.35" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="5" pX="0" pY="0" z="0" dI="0" dr="4" />
+          <f x="-11.35" y="11.5" cocos2d_x="-11.35" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="9" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f x="-11.35" y="11.5" cocos2d_x="-11.35" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="12" pX="0" pY="0" z="0" dI="0" dr="4" />
+          <f dr="60" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="周伯通技能下层(1)" width="512" height="256">
+    <SubTexture name="xxx-zhangweiwidowmaker04" width="152" height="140" x="0" y="0" cocos2d_pX="77.30" cocos2d_pY="68.75" />
+    <SubTexture name="xxx-zhangweiwidowmaker05" width="182" height="100" x="153" y="0" cocos2d_pX="91.45" cocos2d_pY="49.75" />
+    <SubTexture name="xxx-zhangweiwidowmaker06" width="136" height="126" x="336" y="0" cocos2d_pX="67.75" cocos2d_pY="62.25" />
+    <SubTexture name="xxx-zhangweiwidowmaker07" width="164" height="86" x="153" y="101" cocos2d_pX="82.00" cocos2d_pY="41.75" />
+    <SubTexture name="xxx-zhangweiwidowmaker08" width="111" height="72" x="0" y="141" cocos2d_pX="55.00" cocos2d_pY="34.50" />
+    <SubTexture name="xxx-zhangweiwidowmaker09" width="154" height="53" x="318" y="127" cocos2d_pX="76.30" cocos2d_pY="25.75" />
+    <SubTexture name="xxx-zhangweiwidowmaker10" width="60" height="38" x="112" y="188" cocos2d_pX="29.35" cocos2d_pY="16.70" />
+    <SubTexture name="xxx-zhangweiwidowmaker02" width="83" height="63" x="318" y="181" cocos2d_pX="41.95" cocos2d_pY="28.95" />
+    <SubTexture name="xxx-zhangweiwidowmaker03" width="68" height="42" x="402" y="181" cocos2d_pX="33.15" cocos2d_pY="21.25" />
+  </TextureAtlas>
+</skeleton>

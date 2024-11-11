@@ -1,0 +1,22 @@
+<skeleton name="杨过普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9 复制" x="80" y="-128.45" kX="-8.37" kY="1.74" cX="1" cY="1.05" pX="0" pY="0" z="0">
+        <d name="YANGGUO-bujian" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsadsa" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 9 复制" sc="1" dl="0">
+          <f x="80" y="-128.45" cocos2d_x="80" cocos2d_y="-128.45" kX="-8.37" kY="1.74" cX="1" cY="1.05" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="80" y="-128.45" cocos2d_x="80" cocos2d_y="-128.45" kX="-8.28" kY="1.56" cX="1" cY="1.05" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="杨过普攻" width="512" height="512">
+    <SubTexture name="YANGGUO-bujian" width="411" height="287" x="0" y="0" cocos2d_pX="209.60" cocos2d_pY="131.35" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,56 @@
+<skeleton name="苏星河普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="183.9" y="-99" kX="0" kY="0" cX="1.79" cY="1.79" pX="69" pY="34" z="0">
+        <d name="Su Xing He-5777" />
+        <d name="Su Xing He-7899" />
+        <d name="Su Xing He-6867" />
+        <d name="Su Xing He-789789" />
+        <d name="Su Xing He-6788" />
+        <d name="Su Xing He-9789" />
+      </b>
+      <b name="图层 5" x="183.9" y="-99" kX="0" kY="0" cX="1.79" cY="1.79" pX="69" pY="34" z="1">
+        <d name="Su Xing He-5777" />
+        <d name="Su Xing He-7899" />
+        <d name="Su Xing He-6867" />
+        <d name="Su Xing He-789789" />
+        <d name="Su Xing He-6788" />
+        <d name="Su Xing He-9789" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="56777" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="183.9" y="-99" cocos2d_x="60.1" cocos2d_y="-160" kX="0" kY="0" cX="1.79" cY="1.79" pX="69" pY="34" z="0" dI="0" dr="2" />
+          <f x="205.15" y="-117.45" cocos2d_x="97.65" cocos2d_y="-185.45" kX="0" kY="0" cX="1" cY="1" pX="107.5" pY="68" z="0" dI="1" dr="2" />
+          <f x="239" y="-111.5" cocos2d_x="102" cocos2d_y="-185" kX="0" kY="0" cX="1" cY="1" pX="137" pY="73.5" z="0" dI="2" dr="2" />
+          <f x="182.15" y="-112" cocos2d_x="24.45" cocos2d_y="-188" kX="0" kY="0" cX="1.85" cY="1.85" pX="85.05" pY="41" z="0" dI="3" dr="2" />
+          <f x="187.35" y="-102.65" cocos2d_x="27.35" cocos2d_y="-170.65" kX="0" kY="0" cX="1" cY="1" pX="160" pY="68" z="0" dI="4" dr="2" />
+          <f x="182.5" y="-102" cocos2d_x="15.8" cocos2d_y="-156" kX="0" kY="0" cX="1.86" cY="1.86" pX="89.5" pY="29" z="0" dI="5" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="183.9" y="-99" cocos2d_x="60.1" cocos2d_y="-160" kX="0" kY="0" cX="1.79" cY="1.79" pX="69" pY="34" z="1" dI="0" dr="2" />
+          <f x="205.15" y="-117.45" cocos2d_x="97.65" cocos2d_y="-185.45" kX="0" kY="0" cX="1" cY="1" pX="107.5" pY="68" z="1" dI="1" dr="2" />
+          <f x="239" y="-111.5" cocos2d_x="102" cocos2d_y="-185" kX="0" kY="0" cX="1" cY="1" pX="137" pY="73.5" z="1" dI="2" dr="2" />
+          <f x="182.15" y="-112" cocos2d_x="24.45" cocos2d_y="-188" kX="0" kY="0" cX="1.85" cY="1.85" pX="85.05" pY="41" z="1" dI="3" dr="2" />
+          <f x="187.35" y="-102.65" cocos2d_x="27.35" cocos2d_y="-170.65" kX="0" kY="0" cX="1" cY="1" pX="160" pY="68" z="1" dI="4" dr="2" />
+          <f x="182.5" y="-102" cocos2d_x="15.8" cocos2d_y="-156" kX="0" kY="0" cX="1.86" cY="1.86" pX="89.5" pY="29" z="1" dI="5" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="苏星河普工" width="512" height="512">
+    <SubTexture name="Su Xing He-9789" width="179" height="58" x="321" y="83" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Su Xing He-6788" width="320" height="136" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Su Xing He-789789" width="170" height="82" x="321" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Su Xing He-6867" width="272" height="145" x="0" y="137" cocos2d_pX="-2.00" cocos2d_pY="0.00" />
+    <SubTexture name="Su Xing He-7899" width="213" height="136" x="273" y="142" cocos2d_pX="-2.00" cocos2d_pY="0.00" />
+    <SubTexture name="Su Xing He-5777" width="138" height="67" x="273" y="279" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

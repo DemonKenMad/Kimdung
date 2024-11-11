@@ -1,0 +1,87 @@
+<skeleton name="风流倜傥 施放FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="1.7" y="-82.5" kX="88.39" kY="-91.61" cX="1" cY="1" pX="9.95" pY="10.1" z="0">
+        <d name="duanzhengchun/adsgg 11" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="duanzhengchun/adsgg 11" isLoop="loop" startFrame="1">
+      <b name="zdxhsfj" x="49.05" y="0.1" kX="0" kY="180" cX="1.01" cY="1.01" pX="6.05" pY="6" z="0">
+        <d name="duanzhengchun-zdxhsfj"/>
+      </b>
+      <b name="zdxhsfj0" x="31.2" y="7.15" kX="0" kY="180" cX="1.89" cY="1.89" pX="6.05" pY="6.05" z="1">
+        <d name="duanzhengchun-zdxhsfj"/>
+      </b>
+      <b name="zdxhsfj1" x="8.1" y="1.8" kX="0" kY="180" cX="1.29" cY="1.29" pX="6.05" pY="6.05" z="2">
+        <d name="duanzhengchun-zdxhsfj"/>
+      </b>
+      <b name="zdxhsfj2" x="18.35" y="-1.3" kX="0" kY="180" cX="0.79" cY="0.79" pX="6.05" pY="6" z="3">
+        <d name="duanzhengchun-zdxhsfj"/>
+      </b>
+      <b name="zdxhsfj3" x="43.7" y="15.95" kX="0" kY="180" cX="0.79" cY="0.79" pX="6.05" pY="6.05" z="4">
+        <d name="duanzhengchun-zdxhsfj"/>
+      </b>
+      <b name="zdxhsfj4" x="27.4" y="4.5" kX="0" kY="0" cX="1.48" cY="1.48" pX="6" pY="6.05" z="5">
+        <d name="duanzhengchun-zdxhsfj"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="duanzhengchun/adsgg 11">
+      <mov name="znm" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="zdxhsfj" sc="1" dl="0">
+          <f x="49.05" y="0.1" cocos2d_x="55.2" cocos2d_y="-6" kX="0" kY="180" cX="1.01" cY="1.01" pX="6.05" pY="6" z="0" dI="0" blend="normal" dr="3"/>
+          <f x="46.05" y="9.6" cocos2d_x="35.65" cocos2d_y="-0.7" kX="0" kY="0" cX="1.7" cY="1.7" pX="6.1" pY="6.05" z="0" dI="0" blend="normal" dr="3"/>
+          <f x="70.35" y="2.15" cocos2d_x="59.95" cocos2d_y="-8.15" kX="0" kY="0" cX="1.7" cY="1.7" pX="6.1" pY="6.05" z="0" dI="0" blend="normal" dr="3"/>
+          <f x="130.3" y="-3.3" cocos2d_x="123.75" cocos2d_y="-10.05" kX="0.95" kY="0.95" cX="1.1" cY="1.1" pX="6.05" pY="6" z="0" dI="0" blend="normal" dr="3"/>
+          <f dr="2" dI="-1"/>
+        </b>
+        <b name="zdxhsfj0" sc="1" dl="0">
+          <f x="31.2" y="7.15" cocos2d_x="42.65" cocos2d_y="-4.3" kX="0" kY="180" cX="1.89" cY="1.89" pX="6.05" pY="6.05" z="1" dI="0" blend="normal" dr="3"/>
+          <f x="59.9" y="-3.05" cocos2d_x="48.45" cocos2d_y="-14.5" kX="0" kY="0" cX="1.89" cY="1.89" pX="6.05" pY="6.05" z="1" dI="0" blend="normal" dr="3"/>
+          <f x="109.45" y="-1.4" cocos2d_x="100.5" cocos2d_y="-10.35" kX="0" kY="0" cX="1.48" cY="1.48" pX="6.05" pY="6.05" z="1" dI="0" blend="normal" dr="3"/>
+          <f x="119.2" y="1.55" cocos2d_x="115.15" cocos2d_y="-2.7" kX="0.95" kY="0.95" cX="0.69" cY="0.69" pX="5.95" pY="6.05" z="1" dI="0" blend="normal" dr="3"/>
+          <f dr="2" dI="-1"/>
+        </b>
+        <b name="zdxhsfj1" sc="1" dl="0">
+          <f x="8.1" y="1.8" cocos2d_x="15.9" cocos2d_y="-6" kX="0" kY="180" cX="1.29" cY="1.29" pX="6.05" pY="6.05" z="2" dI="0" blend="normal" dr="3"/>
+          <f x="75.1" y="0.4" cocos2d_x="69.15" cocos2d_y="-5.6" kX="0" kY="0" cX="0.99" cY="0.99" pX="6" pY="6.05" z="2" dI="0" blend="normal" dr="3"/>
+          <f x="84.25" y="-4.35" cocos2d_x="77.7" cocos2d_y="-10.85" kX="0" kY="0" cX="1.08" cY="1.08" pX="6.1" pY="6.05" z="2" dI="0" blend="normal" dr="3"/>
+          <f x="155.1" y="-2.1" cocos2d_x="151.6" cocos2d_y="-5.7" kX="0.95" kY="0.95" cX="0.59" cY="0.59" pX="6.05" pY="6.05" z="2" dI="0" blend="normal" dr="3"/>
+          <f dr="2" dI="-1"/>
+        </b>
+        <b name="zdxhsfj2" sc="1" dl="0">
+          <f x="18.35" y="-1.3" cocos2d_x="23.15" cocos2d_y="-6.05" kX="0" kY="180" cX="0.79" cY="0.79" pX="6.05" pY="6" z="3" dI="0" blend="normal" dr="3"/>
+          <f x="86.95" y="-1.8" cocos2d_x="84.9" cocos2d_y="-3.85" kX="0" kY="0" cX="0.34" cY="0.34" pX="6.1" pY="6.1" z="3" dI="0" blend="normal" dr="3"/>
+          <f x="49.55" y="1.1" cocos2d_x="44.75" cocos2d_y="-3.65" kX="0" kY="0" cX="0.79" cY="0.79" pX="6.1" pY="6.05" z="3" dI="0" blend="normal" dr="3"/>
+          <f x="112.55" y="-4.15" cocos2d_x="109.05" cocos2d_y="-7.75" kX="0.95" kY="0.95" cX="0.59" cY="0.59" pX="6.1" pY="6.05" z="3" dI="0" blend="normal" dr="3"/>
+          <f dr="2" dI="-1"/>
+        </b>
+        <b name="zdxhsfj3" sc="1" dl="0">
+          <f x="43.7" y="15.95" cocos2d_x="48.5" cocos2d_y="11.2" kX="0" kY="180" cX="0.79" cY="0.79" pX="6.05" pY="6.05" z="4" dI="0" blend="normal" dr="3"/>
+          <f x="40.65" y="5.55" cocos2d_x="35.85" cocos2d_y="0.8" kX="0" kY="0" cX="0.79" cY="0.79" pX="6.1" pY="6.05" z="4" dI="0" blend="normal" dr="3"/>
+          <f x="125.15" y="-2.05" cocos2d_x="122.85" cocos2d_y="-4.35" kX="0" kY="0" cX="0.38" cY="0.38" pX="6" pY="5.95" z="4" dI="0" blend="normal" dr="3"/>
+          <f x="92.05" y="-2" cocos2d_x="88.05" cocos2d_y="-6.2" kX="0.95" kY="0.95" cX="0.68" cY="0.68" pX="5.95" pY="6.05" z="4" dI="0" blend="normal" dr="3"/>
+          <f dr="2" dI="-1"/>
+        </b>
+        <b name="zdxhsfj4" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="27.4" y="4.5" cocos2d_x="18.45" cocos2d_y="-4.45" kX="0" kY="0" cX="1.48" cY="1.48" pX="6" pY="6.05" z="5" dI="0" blend="normal" dr="3"/>
+          <f x="27.1" y="5.15" cocos2d_x="24.8" cocos2d_y="2.85" kX="0" kY="0" cX="0.38" cY="0.38" pX="6" pY="6" z="5" dI="0" blend="normal" dr="3"/>
+          <f dr="5" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="1.7" y="-82.5" cocos2d_x="12.05" cocos2d_y="-72.85" kX="88.39" kY="-91.61" cX="1" cY="1" fst="0" pX="9.95" pY="10.1" z="0" dI="0" dr="13"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="风流倜傥 施放FX" width="16" height="16">
+    <SubTexture name="duanzhengchun-zdxhsfj" width="13" height="13" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,191 @@
+<skeleton name="战斗力星星" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-80" y="-1.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/元件 58" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/元件 58" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-40.85" y="-2.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-元件 12" />
+        <d name="xxx-元件 13" />
+        <d name="xxx-元件 14" />
+        <d name="xxx-元件 15" />
+        <d name="xxx-元件 16" />
+        <d name="xxx-元件 17" />
+        <d name="xxx-元件 18" />
+        <d name="xxx-元件 19" />
+        <d name="xxx/元件 3" isArmature="1" />
+        <d name="xxx/元件 2" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/元件 3">
+      <b name="元件 4" x="-3.3" y="-11.1" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="0">
+        <d name="xxx-元件 4" />
+      </b>
+      <b name="元件 5" x="34.3" y="-28.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-元件 5" />
+      </b>
+      <b name="元件 6" x="88.8" y="-28.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx-元件 6" />
+      </b>
+      <b name="元件 7" x="35.2" y="11.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="xxx-元件 7" />
+      </b>
+      <b name="元件 8" x="-19.65" y="21" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4">
+        <d name="xxx-元件 8" />
+      </b>
+      <b name="元件 9" x="-60.35" y="45.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="5">
+        <d name="xxx-元件 9" />
+      </b>
+      <b name="元件 10" x="-93.45" y="-11" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="6">
+        <d name="xxx-元件 10" />
+      </b>
+      <b name="元件 11" x="-93.5" y="-45.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7">
+        <d name="xxx-元件 11" />
+      </b>
+    </armature>
+    <armature name="xxx/元件 2">
+      <b name="位图 1" x="-98" y="-50.5" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="0.5" z="0">
+        <d name="xxx-位图 1" />
+      </b>
+      <b name="位图 2" x="-46.15" y="-3.7" kX="0" kY="0" cX="1" cY="1" pX="9" pY="8.5" z="1">
+        <d name="xxx-位图 2" />
+      </b>
+      <b name="位图 3" x="-63.25" y="42.2" kX="0" kY="0" cX="1" cY="1" pX="2.5" pY="3" z="2">
+        <d name="xxx-位图 3" />
+      </b>
+      <b name="位图 4" x="-0.55" y="41" kX="0" kY="0" cX="1" cY="1" pX="9" pY="10" z="3">
+        <d name="xxx-位图 4" />
+      </b>
+      <b name="位图 5" x="86.45" y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="12" pY="12" z="4">
+        <d name="xxx-位图 5" />
+      </b>
+      <b name="位图 6" x="34.85" y="-35" kX="0" kY="0" cX="1" cY="1" pX="8" pY="8" z="5">
+        <d name="xxx-位图 6" />
+      </b>
+      <b name="位图 7" x="36.05" y="-17.4" kX="0" kY="0" cX="1" cY="1" pX="3" pY="2" z="6">
+        <d name="xxx-位图 7" />
+      </b>
+      <b name="位图 8" x="-18.35" y="-12.9" kX="0" kY="0" cX="1" cY="1" pX="8" pY="5.5" z="7">
+        <d name="xxx-位图 8" />
+      </b>
+      <b name="位图 9" x="-17.35" y="18.8" kX="0" kY="0" cX="1" cY="1" pX="19" pY="12" z="8">
+        <d name="xxx-位图 9" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/元件 3">
+      <mov name="dsafagadfcgvgdf" dr="1" to="0">
+        <b name="元件 4" sc="1" dl="0">
+          <f x="-3.3" y="-11.1" cocos2d_x="-3.25" cocos2d_y="-11.05" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 5" sc="1" dl="0">
+          <f x="34.3" y="-28.05" cocos2d_x="34.3" cocos2d_y="-28.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 6" sc="1" dl="0">
+          <f x="88.8" y="-28.55" cocos2d_x="88.8" cocos2d_y="-28.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 7" sc="1" dl="0">
+          <f x="35.2" y="11.4" cocos2d_x="35.2" cocos2d_y="11.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 8" sc="1" dl="0">
+          <f x="-19.65" y="21" cocos2d_x="-19.65" cocos2d_y="21" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 9" sc="1" dl="0">
+          <f x="-60.35" y="45.95" cocos2d_x="-60.35" cocos2d_y="45.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="5" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 10" sc="1" dl="0">
+          <f x="-93.45" y="-11" cocos2d_x="-93.4" cocos2d_y="-11" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="6" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 11" sc="1" dl="0">
+          <f x="-93.5" y="-45.25" cocos2d_x="-93.5" cocos2d_y="-45.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="7" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/元件 2">
+      <mov name="dsafasdgasg" dr="1" to="0">
+        <b name="位图 1" sc="1" dl="0">
+          <f x="-98" y="-50.5" cocos2d_x="-98.5" cocos2d_y="-51" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="0.5" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 2" sc="1" dl="0">
+          <f x="-46.15" y="-3.7" cocos2d_x="-55.15" cocos2d_y="-12.2" kX="0" kY="0" cX="1" cY="1" pX="9" pY="8.5" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 3" sc="1" dl="0">
+          <f x="-63.25" y="42.2" cocos2d_x="-65.75" cocos2d_y="39.2" kX="0" kY="0" cX="1" cY="1" pX="2.5" pY="3" z="2" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 4" sc="1" dl="0">
+          <f x="-0.55" y="41" cocos2d_x="-9.55" cocos2d_y="31" kX="0" kY="0" cX="1" cY="1" pX="9" pY="10" z="3" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 5" sc="1" dl="0">
+          <f x="86.45" y="-32.6" cocos2d_x="74.45" cocos2d_y="-44.6" kX="0" kY="0" cX="1" cY="1" pX="12" pY="12" z="4" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 6" sc="1" dl="0">
+          <f x="34.85" y="-35" cocos2d_x="26.85" cocos2d_y="-43" kX="0" kY="0" cX="1" cY="1" pX="8" pY="8" z="5" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 7" sc="1" dl="0">
+          <f x="36.05" y="-17.4" cocos2d_x="33.05" cocos2d_y="-19.4" kX="0" kY="0" cX="1" cY="1" pX="3" pY="2" z="6" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 8" sc="1" dl="0">
+          <f x="-18.35" y="-12.9" cocos2d_x="-26.35" cocos2d_y="-18.4" kX="0" kY="0" cX="1" cY="1" pX="8" pY="5.5" z="7" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="位图 9" sc="1" dl="0">
+          <f x="-17.35" y="18.8" cocos2d_x="-36.35" cocos2d_y="6.8" kX="0" kY="0" cX="1" cY="1" pX="19" pY="12" z="8" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/元件 58">
+      <mov name="rewtewqqw" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-40.85" y="-2.9" cocos2d_x="-40.85" cocos2d_y="-2.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-70.85" y="2.6" cocos2d_x="-70.85" cocos2d_y="2.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-92.55" y="-0.65" cocos2d_x="-92.5" cocos2d_y="-0.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-102.05" y="2.35" cocos2d_x="-102" cocos2d_y="2.35" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="3" dr="2" />
+          <f x="-105.3" y="2.45" cocos2d_x="-105.25" cocos2d_y="2.45" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+          <f x="-107.8" y="4.95" cocos2d_x="-107.75" cocos2d_y="4.95" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="5" dr="2" />
+          <f x="-109.05" y="2.8" cocos2d_x="-109" cocos2d_y="2.8" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="6" dr="2" />
+          <f x="-108.05" y="3.7" cocos2d_x="-108" cocos2d_y="3.7" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="7" dr="2" />
+          <f x="-107.05" y="4.35" cocos2d_x="-107" cocos2d_y="4.35" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="8" dr="2" />
+          <f x="-103.8" y="8.6" cocos2d_x="-103.75" cocos2d_y="8.6" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="9" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsnmdskjfdsknfvla" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-80" y="-1.05" cocos2d_x="-80" cocos2d_y="-1.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="40" y="-1.05" cocos2d_x="40" cocos2d_y="-1.05" kX="0" kY="0" cX="1" cY="1" fst="2" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="115" y="-1.05" cocos2d_x="115" cocos2d_y="-1.05" kX="0" kY="0" cX="1" cY="1" fst="4" pX="0" pY="0" z="0" dI="0" dr="16" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="战斗力星星" width="512" height="512">
+    <SubTexture name="xxx-位图 9" width="35" height="24" x="430" y="113" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 8" width="16" height="11" x="453" y="155" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 7" width="1" height="1" x="504" y="0" cocos2d_pX="-3.00" cocos2d_pY="-1.00" />
+    <SubTexture name="xxx-位图 6" width="16" height="16" x="453" y="138" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 5" width="24" height="23" x="469" y="167" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="xxx-位图 4" width="18" height="18" x="448" y="188" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 3" width="4" height="4" x="499" y="0" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="xxx-位图 2" width="18" height="17" x="422" y="190" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 1" width="1" height="1" x="506" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-元件 11" width="27" height="26" x="470" y="140" cocos2d_pX="13.45" cocos2d_pY="12.80" />
+    <SubTexture name="xxx-元件 10" width="20" height="20" x="448" y="167" cocos2d_pX="9.95" cocos2d_pY="9.85" />
+    <SubTexture name="xxx-元件 9" width="30" height="27" x="422" y="138" cocos2d_pX="13.85" cocos2d_pY="13.50" />
+    <SubTexture name="xxx-元件 8" width="68" height="70" x="430" y="0" cocos2d_pX="34.65" cocos2d_pY="34.65" />
+    <SubTexture name="xxx-元件 7" width="25" height="23" x="422" y="166" cocos2d_pX="12.30" cocos2d_pY="11.65" />
+    <SubTexture name="xxx-元件 6" width="34" height="34" x="470" y="71" cocos2d_pX="17.00" cocos2d_pY="17.00" />
+    <SubTexture name="xxx-元件 5" width="30" height="33" x="470" y="106" cocos2d_pX="13.50" cocos2d_pY="16.50" />
+    <SubTexture name="xxx-元件 4" width="39" height="41" x="430" y="71" cocos2d_pX="19.95" cocos2d_pY="20.55" />
+    <SubTexture name="xxx-元件 19" width="215" height="125" x="0" y="0" cocos2d_pX="108.00" cocos2d_pY="62.10" />
+    <SubTexture name="xxx-元件 18" width="213" height="125" x="216" y="0" cocos2d_pX="105.00" cocos2d_pY="61.00" />
+    <SubTexture name="xxx-元件 17" width="211" height="123" x="0" y="126" cocos2d_pX="104.75" cocos2d_pY="61.85" />
+    <SubTexture name="xxx-元件 16" width="209" height="122" x="212" y="126" cocos2d_pX="105.25" cocos2d_pY="59.65" />
+    <SubTexture name="xxx-元件 15" width="203" height="118" x="212" y="249" cocos2d_pX="101.00" cocos2d_pY="58.75" />
+    <SubTexture name="xxx-元件 14" width="191" height="106" x="0" y="250" cocos2d_pX="95.50" cocos2d_pY="52.75" />
+    <SubTexture name="xxx-元件 13" width="155" height="93" x="0" y="357" cocos2d_pX="76.65" cocos2d_pY="47.50" />
+    <SubTexture name="xxx-元件 12" width="85" height="62" x="422" y="208" cocos2d_pX="42.65" cocos2d_pY="29.50" />
+  </TextureAtlas>
+</skeleton>

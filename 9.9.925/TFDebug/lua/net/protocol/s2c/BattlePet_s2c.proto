@@ -1,0 +1,55 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CBattlePetMsg";
+import "s2c/Reward_s2c.proto";
+//code = 0x4f01
+//战宠列表
+message BattlePetResponse{
+	required int32 type = 1;							//1：所有列表 2:新添加的
+	repeated BattlePetInfo battlePetInfo = 2;			//战宠
+}
+
+//code = 0x4f02
+//战宠升品升星
+message BattlePetUpResponse{
+	required int64 instanceId = 1;			//战宠id
+	required int32  quality = 2;			//品质
+	required int32  star = 3;				//星级
+}
+
+//code = 0x4f03
+//战宠请求更换驯兽师
+message BattlePetTrainerReplaceResponse{
+	required int64 instanceId = 1;			//战宠id
+	required int64 xiakeId = 2;				//侠客id
+}
+
+//code = 0x4f04
+//战宠请求装备阵容上
+message BattlePetEquipFormationResponse{
+	required int64 instanceId = 1;			//战宠id
+	required int32 formationType = 2;		//阵容类型
+	required int32 type = 3;				//1 装备 2 卸下
+}
+
+//code = 0x4f05
+//战宠请求放生
+message BattlePetFreeResponse{
+	repeated int64 instanceId = 1;			//战宠id
+}
+
+//code = 0x4f06
+//战宠换功
+message BattlePetExchangeResponse{
+	repeated int64 removePetId = 1;					//要删除的战宠
+	repeated BattlePetInfo battlePetInfo = 2;		//战宠
+}
+
+message BattlePetInfo{
+	required int64 instanceId = 1;			//战宠id
+	required int32 templateId = 2;			//战宠模版id
+	required int64 trainerId = 3;			//驯兽师id（0为没有）
+	required int32 quality = 4;				//品质
+	required int32 star = 5;				//星级
+	repeated int32 formationType = 6;		//阵容类型
+}

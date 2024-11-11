@@ -1,0 +1,72 @@
+<skeleton name="被动受击输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fdsfadfa" x="-816.95" y="-401.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/shghf03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf03" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="656.5" y="326.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-shghf05" />
+        <d name="xxx-shghf07" />
+        <d name="xxx-shghf09" />
+        <d name="xxx-shghf11" />
+        <d name="xxx-shghf13" />
+        <d name="xxx-shghf15" />
+        <d name="xxx-shghf17" />
+        <d name="xxx-shghf19" />
+        <d name="xxx-shghf21" />
+        <d name="xxx-shghf23" />
+        <d name="xxx-shghf25" />
+        <d name="xxx-shghf27" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shghf03">
+      <mov name="fdvsdgsdgfs" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="656.5" y="326.1" cocos2d_x="656.5" cocos2d_y="326.1" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="719" y="326.25" cocos2d_x="719" cocos2d_y="326.25" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="815.45" y="325.9" cocos2d_x="815.45" cocos2d_y="325.9" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="815.8" y="326" cocos2d_x="815.8" cocos2d_y="326" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="815.9" y="326.4" cocos2d_x="815.9" cocos2d_y="326.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="817" y="326.4" cocos2d_x="817" cocos2d_y="326.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="816.5" y="322.6" cocos2d_x="816.5" cocos2d_y="322.6" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="816" y="322.3" cocos2d_x="816" cocos2d_y="322.3" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="816" y="321.3" cocos2d_x="816" cocos2d_y="321.3" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f x="814.2" y="320.65" cocos2d_x="814.2" cocos2d_y="320.65" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="9" dr="2" />
+          <f x="815.7" y="319.9" cocos2d_x="815.7" cocos2d_y="319.9" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="10" dr="1" twE="NaN" />
+          <f x="815.5" y="303.4" cocos2d_x="815.5" cocos2d_y="303.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="11" twE="0" dr="2" />
+          <f x="815.5" y="303.4" cocos2d_x="815.5" cocos2d_y="303.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="11" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.13" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="vdfgdfdsfsfds" dr="51" to="0" drTW="51" lp="0" twE="NaN">
+        <b name="fdsfadfa" sc="1" dl="0">
+          <f dr="22" dI="-1" />
+          <f x="-816.95" y="-401.25" cocos2d_x="-816.95" cocos2d_y="-401.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="20" />
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="被动受击输出" width="512" height="512">
+    <SubTexture name="xxx-shghf27" width="106" height="95" x="222" y="270" cocos2d_pX="53.25" cocos2d_pY="47.30" />
+    <SubTexture name="xxx-shghf25" width="110" height="111" x="0" y="182" cocos2d_pX="54.85" cocos2d_pY="55.20" />
+    <SubTexture name="xxx-shghf23" width="110" height="107" x="111" y="182" cocos2d_pX="54.85" cocos2d_pY="53.35" />
+    <SubTexture name="xxx-shghf21" width="229" height="103" x="231" y="0" cocos2d_pX="114.50" cocos2d_pY="51.40" />
+    <SubTexture name="xxx-shghf19" width="230" height="104" x="0" y="0" cocos2d_pX="115.00" cocos2d_pY="52.15" />
+    <SubTexture name="xxx-shghf17" width="230" height="95" x="231" y="104" cocos2d_pX="114.75" cocos2d_pY="47.85" />
+    <SubTexture name="xxx-shghf15" width="229" height="76" x="0" y="105" cocos2d_pX="114.50" cocos2d_pY="38.20" />
+    <SubTexture name="xxx-shghf13" width="231" height="69" x="222" y="200" cocos2d_pX="115.55" cocos2d_pY="34.30" />
+    <SubTexture name="xxx-shghf11" width="66" height="68" x="111" y="290" cocos2d_pX="33.05" cocos2d_pY="34.00" />
+    <SubTexture name="xxx-shghf09" width="66" height="66" x="329" y="291" cocos2d_pX="32.65" cocos2d_pY="33.55" />
+    <SubTexture name="xxx-shghf07" width="54" height="23" x="454" y="200" cocos2d_pX="27.00" cocos2d_pY="11.50" />
+    <SubTexture name="xxx-shghf05" width="151" height="20" x="329" y="270" cocos2d_pX="76.25" cocos2d_pY="9.40" />
+  </TextureAtlas>
+</skeleton>

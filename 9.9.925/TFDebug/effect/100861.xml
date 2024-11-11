@@ -1,0 +1,65 @@
+<skeleton name="沐剑萍 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 14" x="96.3" y="-67.65" kX="0" kY="0" cX="2" cY="2" pX="0.35" pY="0.35" z="0">
+        <d name="mujianping-guangquan" />
+      </b>
+      <b name="图层 12" x="96" y="-67.95" kX="0" kY="0" cX="2.7" cY="2.7" pX="0.35" pY="0.35" z="1">
+        <d name="mujianping-guangquan" />
+      </b>
+      <b name="图层 2" x="102.35" y="-77.8" kX="0" kY="0" cX="2.31" cY="2.31" pX="0" pY="0" z="2">
+        <d name="mujianping-sdhda" />
+      </b>
+      <b name="图层 13" x="107.45" y="-76.4" kX="0" kY="0" cX="1.75" cY="1.75" pX="0" pY="0" z="3">
+        <d name="mujianping-shdg" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="96.3" y="-67.65" cocos2d_x="95.6" cocos2d_y="-68.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0.35" pY="0.35" z="0" dI="0" twE="0" dr="3" />
+          <f x="96.3" y="-67.65" cocos2d_x="94.9" cocos2d_y="-69.05" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0.35" pY="0.35" z="0" dI="0" twE="0" dr="3" />
+          <f x="96.3" y="-67.65" cocos2d_x="94.2" cocos2d_y="-69.75" kX="0" kY="0" cX="6" cY="6" fst="0" pX="0.35" pY="0.35" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.15" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 12" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="96" y="-67.95" cocos2d_x="95.1" cocos2d_y="-68.85" kX="0" kY="0" cX="2.7" cY="2.7" fst="0" pX="0.35" pY="0.35" z="1" dI="0" twE="0" dr="3" />
+          <f x="96" y="-67.95" cocos2d_x="94.6" cocos2d_y="-69.35" kX="0" kY="0" cX="4.64" cY="4.64" fst="0" pX="0.3" pY="0.3" z="1" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="96.4" y="-67.55" cocos2d_x="93.9" cocos2d_y="-70.05" kX="0" kY="0" cX="7.24" cY="7.24" fst="0" pX="0.3" pY="0.35" z="1" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.05" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="102.35" y="-77.8" cocos2d_x="102.35" cocos2d_y="-77.8" kX="0" kY="0" cX="2.31" cY="2.31" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" />
+          <f x="102.35" y="-77.8" cocos2d_x="102.35" cocos2d_y="-77.8" kX="0" kY="0" cX="2.31" cY="2.31" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="3" />
+          <f x="102.35" y="-77.8" cocos2d_x="102.35" cocos2d_y="-77.8" kX="0" kY="0" cX="2.59" cY="2.59" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.59" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 13" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="107.45" y="-76.4" cocos2d_x="107.45" cocos2d_y="-76.4" kX="0" kY="0" cX="1.75" cY="1.75" fst="0" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="107.45" y="-76.4" cocos2d_x="107.45" cocos2d_y="-76.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="107.45" y="-76.4" cocos2d_x="107.45" cocos2d_y="-76.4" kX="0" kY="0" cX="2.4" cY="2.4" fst="0" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f dr="13" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="沐剑萍 普攻FX" width="256" height="256">
+    <SubTexture name="mujianping-shdg" width="81" height="97" x="161" y="0" cocos2d_pX="40.50" cocos2d_pY="48.50" />
+    <SubTexture name="mujianping-sdhda" width="160" height="145" x="0" y="0" cocos2d_pX="80.25" cocos2d_pY="73.25" />
+    <SubTexture name="mujianping-guangquan" width="34" height="34" x="161" y="98" cocos2d_pX="16.65" cocos2d_pY="16.65" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,75 @@
+<skeleton name="薛慕华pg" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 48" x="175.25" y="-71.3" kX="0" kY="0" cX="2.04" cY="2.04" pX="0" pY="-33.9" z="0">
+        <d name="xyx-b 9" />
+      </b>
+      <b name="图层 18" x="72.4" y="-69.35" kX="0" kY="0" cX="1.05" cY="1.05" pX="119.5" pY="23.5" z="1">
+        <d name="xyx-bb 9" />
+        <d name="xyx-b 8" />
+        <d name="xyx-b 7" />
+      </b>
+      <b name="图层 47" x="172.35" y="-73.25" kX="0" kY="0" cX="2.27" cY="2.27" pX="0" pY="0" z="2">
+        <d name="xyx-b 4" />
+        <d name="xyx-b 5" />
+        <d name="xyx-b 6" />
+      </b>
+      <b name="图层 5" x="193.5" y="-74.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="xyx-b 1" />
+        <d name="xyx-b 2" />
+        <d name="xyx-b 3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 48" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="175.25" y="-71.3" cocos2d_x="175.25" cocos2d_y="-2.05" kX="0" kY="0" cX="2.04" cY="2.04" pX="0" pY="-33.9" z="0" dI="0" blend="normal" dr="2" />
+          <f x="166.75" y="-76" cocos2d_x="166.75" cocos2d_y="2.3" kX="0" kY="0" cX="2.31" cY="2.31" pX="0" pY="-33.95" z="0" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="175.25" y="-70.3" cocos2d_x="175.25" cocos2d_y="37.8" kX="0" kY="0" cX="2.39" cY="3.2" pX="0" pY="-33.8" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.12" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 18" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="72.4" y="-69.35" cocos2d_x="-53.3" cocos2d_y="-94.05" kX="0" kY="0" cX="1.05" cY="1.05" pX="119.5" pY="23.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="65" y="-65.85" cocos2d_x="-95.95" cocos2d_y="-99" kX="0" kY="0" cX="1.05" cY="1.05" pX="153" pY="31.5" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="120.6" y="-70.3" cocos2d_x="43.8" cocos2d_y="-102.9" kX="0" kY="0" cX="0.91" cY="1.05" pX="84" pY="31" z="1" dI="2" dr="1" twE="NaN" />
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 47" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="172.35" y="-73.25" cocos2d_x="172.35" cocos2d_y="-73.25" kX="0" kY="0" cX="2.27" cY="2.27" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="191.9" y="-73.25" cocos2d_x="191.9" cocos2d_y="-73.25" kX="0" kY="0" cX="2.57" cY="2.57" pX="0" pY="0" z="2" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="191.2" y="-72.75" cocos2d_x="191.2" cocos2d_y="-72.75" kX="0" kY="0" cX="4.11" cY="4.11" pX="0" pY="0" z="2" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="193.5" y="-74.5" cocos2d_x="193.5" cocos2d_y="-74.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+          <f x="177.5" y="-82.35" cocos2d_x="177.5" cocos2d_y="-82.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="3" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="128.15" y="-71.65" cocos2d_x="128.15" cocos2d_y="-71.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="2" blend="normal" twE="0" dr="4" />
+          <f x="116.65" y="-71.65" cocos2d_x="116.65" cocos2d_y="-71.65" kX="0" kY="0" cX="1.22" cY="1.22" pX="0" pY="0" z="3" dI="2" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.12" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="薛慕华pg" width="512" height="256">
+    <SubTexture name="xyx-b 3" width="50" height="150" x="443" y="0" cocos2d_pX="27.00" cocos2d_pY="76.00" />
+    <SubTexture name="xyx-b 2" width="123" height="171" x="0" y="48" cocos2d_pX="61.50" cocos2d_pY="85.35" />
+    <SubTexture name="xyx-b 1" width="149" height="158" x="293" y="0" cocos2d_pX="75.50" cocos2d_pY="79.50" />
+    <SubTexture name="xyx-b 6" width="17" height="38" x="494" y="0" cocos2d_pX="8.20" cocos2d_pY="19.25" />
+    <SubTexture name="xyx-b 5" width="27" height="52" x="177" y="95" cocos2d_pX="13.90" cocos2d_pY="26.25" />
+    <SubTexture name="xyx-b 4" width="24" height="43" x="205" y="95" cocos2d_pX="12.90" cocos2d_pY="21.75" />
+    <SubTexture name="xyx-b 7" width="159" height="46" x="124" y="48" cocos2d_pX="-3.00" cocos2d_pY="-9.00" />
+    <SubTexture name="xyx-b 8" width="292" height="47" x="0" y="0" cocos2d_pX="-3.00" cocos2d_pY="-8.00" />
+    <SubTexture name="xyx-bb 9" width="217" height="41" x="177" y="159" cocos2d_pX="-4.00" cocos2d_pY="-1.00" />
+    <SubTexture name="xyx-b 9" width="52" height="68" x="124" y="95" cocos2d_pX="26.15" cocos2d_pY="67.55" />
+  </TextureAtlas>
+</skeleton>

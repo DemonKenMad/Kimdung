@@ -1,0 +1,160 @@
+<skeleton name="小技能施法" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="-0.4" y="-98.35" kX="155.75" kY="155.75" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweiOVERWATCHWIDOW40" isArmature="1" />
+      </b>
+      <b name="图层 5" x="-67.6" y="-16.1" kX="0" kY="0" cX="0.52" cY="0.52" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweiOVERWATCHWIDOW38" isArmature="1" />
+      </b>
+      <b name="图层 4" x="53.2" y="-85.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweiOVERWATCHWIDOW37" isArmature="1" />
+        <d name="xxx/zhangweiOVERWATCHWIDOW36" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiOVERWATCHWIDOW40" isLoop="loop" startFrame="1">
+      <b name="图层 5" x="0.85" y="38.8" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiOVERWATCHWIDOW19" />
+      </b>
+      <b name="图层 4" x="-3.95" y="-24.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1">
+        <d name="xxx-zhangweiOVERWATCHWIDOW20" />
+      </b>
+      <b name="图层 2" x="79.7" y="-182.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2">
+        <d name="xxx-zhangweiOVERWATCHWIDOW21" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW18" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW17" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW16" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW15" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiOVERWATCHWIDOW38" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="150.9" y="37.1" kX="0" kY="0" cX="0.58" cY="0.58" pX="114.1" pY="84.05" z="0">
+        <d name="xxx-zhangweiOVERWATCHWIDOW39" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiOVERWATCHWIDOW37" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-32.7" y="-31.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiOVERWATCHWIDOW31" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW30" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW29" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiOVERWATCHWIDOW36" isLoop="loop" startFrame="6">
+      <b name="图层 4" x="20.35" y="-18.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiOVERWATCHWIDOW07" />
+      </b>
+      <b name="图层 3" x="-118.85" y="-104.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweiOVERWATCHWIDOW08" />
+      </b>
+      <b name="图层 1" x="-46.8" y="-33.3" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2">
+        <d name="xxx-zhangweiOVERWATCHWIDOW05" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW06" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW09" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweiOVERWATCHWIDOW40">
+      <mov name="dsagasg" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="0.85" y="38.8" cocos2d_x="0.85" cocos2d_y="38.8" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-3.95" y="-24.55" cocos2d_x="-3.95" cocos2d_y="-24.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="2" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="79.7" y="-182.5" cocos2d_x="79.7" cocos2d_y="-182.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f x="13" y="44.25" cocos2d_x="13" cocos2d_y="44.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="1" dr="2" />
+          <f x="34.55" y="-44.55" cocos2d_x="34.55" cocos2d_y="-44.55" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="2" dr="2" />
+          <f x="3.1" y="2.3" cocos2d_x="3.1" cocos2d_y="2.3" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="3" dr="2" />
+          <f x="41" y="12.7" cocos2d_x="41" cocos2d_y="12.7" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="4" dr="4" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweiOVERWATCHWIDOW38">
+      <mov name="fdagsad" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="150.9" y="37.1" cocos2d_x="84.65" cocos2d_y="-11.7" kX="0" kY="0" cX="0.58" cY="0.58" fst="0" pX="114.1" pY="84.05" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="138.5" y="37.5" cocos2d_x="-18.7" cocos2d_y="-78.3" kX="0" kY="0" cX="1.38" cY="1.38" fst="0" pX="114.05" pY="84.05" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="122.95" y="38.1" cocos2d_x="-51" cocos2d_y="-90" kX="0" kY="0" cX="1.53" cY="1.53" fst="0" pX="114.05" pY="84" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweiOVERWATCHWIDOW37">
+      <mov name="adsfaghasdg" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-32.7" y="-31.25" cocos2d_x="-32.7" cocos2d_y="-31.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="0" blend="hardLight" dr="2" />
+          <f x="12.3" y="-12.4" cocos2d_x="12.3" cocos2d_y="-12.4" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="1" blend="hardLight" dr="2" />
+          <f x="-31.95" y="-63.6" cocos2d_x="-31.95" cocos2d_y="-63.6" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="2" blend="hardLight" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweiOVERWATCHWIDOW36">
+      <mov name="fdaagsd" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="20.35" y="-18.35" cocos2d_x="20.35" cocos2d_y="-18.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="hardLight" dr="2" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-118.85" y="-104.4" cocos2d_x="-118.85" cocos2d_y="-104.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="hardLight" dr="2" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-46.8" y="-33.3" cocos2d_x="-46.8" cocos2d_y="-33.3" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="0" blend="hardLight" dr="1" twE="NaN" />
+          <f x="-46.8" y="-33.3" cocos2d_x="-46.8" cocos2d_y="-33.3" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2" dI="1" blend="hardLight" dr="2" />
+          <f x="-130.6" y="27.25" cocos2d_x="-130.55" cocos2d_y="27.25" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="2" dI="2" blend="hardLight" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsafsaga" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-0.4" y="-98.35" cocos2d_x="-0.4" cocos2d_y="-98.35" kX="155.75" kY="155.75" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="9" />
+          <f x="5.45" y="-117.25" cocos2d_x="5.45" cocos2d_y="-117.25" kX="20.74" kY="20.74" cX="0.66" cY="0.66" fst="8" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="155.7" y="-141.35" cocos2d_x="155.7" cocos2d_y="-141.35" kX="45.75" kY="45.75" cX="1" cY="1" fst="10" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="-67.6" y="-16.1" cocos2d_x="-67.6" cocos2d_y="-16.1" kX="0" kY="0" cX="0.52" cY="0.52" fst="0" pX="0" pY="0" z="1" dI="0" dr="10" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="53.2" y="-85.35" cocos2d_x="53.2" cocos2d_y="-85.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f x="53.2" y="-85.35" cocos2d_x="53.2" cocos2d_y="-85.35" kX="0" kY="0" cX="1" cY="1" fst="2" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f x="41.6" y="-89.7" cocos2d_x="41.6" cocos2d_y="-89.7" kX="0" kY="0" cX="1" cY="1" fst="4" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f dr="10" dI="-1" />
+          <f x="183.65" y="-83" cocos2d_x="183.65" cocos2d_y="-83" kX="0" kY="0" cX="1" cY="1" fst="5" pX="0" pY="0" z="2" dI="1" dr="5" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="小技能施法" width="1024" height="512">
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW09" width="100" height="129" x="905" y="0" cocos2d_pX="47.05" cocos2d_pY="67.40" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW06" width="149" height="128" x="752" y="144" cocos2d_pX="79.25" cocos2d_pY="64.00" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW05" width="159" height="128" x="586" y="154" cocos2d_pX="79.25" cocos2d_pY="64.00" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW08" width="101" height="112" x="905" y="130" cocos2d_pX="49.40" cocos2d_pY="54.90" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW07" width="93" height="73" x="415" y="214" cocos2d_pX="44.85" cocos2d_pY="36.60" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW29" width="96" height="59" x="902" y="243" cocos2d_pX="44.50" cocos2d_pY="1.40" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW30" width="79" height="73" x="189" y="264" cocos2d_pX="37.50" cocos2d_pY="38.10" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW31" width="114" height="70" x="189" y="193" cocos2d_pX="53.75" cocos2d_pY="33.35" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW39" width="231" height="192" x="189" y="0" cocos2d_pX="115.50" cocos2d_pY="96.00" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW15" width="86" height="85" x="304" y="193" cocos2d_pX="49.50" cocos2d_pY="40.75" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW16" width="152" height="143" x="752" y="0" cocos2d_pX="71.40" cocos2d_pY="76.35" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW17" width="164" height="213" x="421" y="0" cocos2d_pX="92.00" cocos2d_pY="106.20" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW18" width="188" height="265" x="0" y="0" cocos2d_pX="101.15" cocos2d_pY="131.40" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW21" width="165" height="153" x="586" y="0" cocos2d_pX="60.95" cocos2d_pY="101.05" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW20" width="23" height="24" x="391" y="193" cocos2d_pX="11.40" cocos2d_pY="11.65" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW19" width="70" height="46" x="509" y="214" cocos2d_pX="32.65" cocos2d_pY="23.85" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,72 @@
+<skeleton name="普工慕容景岳" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="202.25" y="-80.4" kX="0" kY="0" cX="1" cY="1" pX="104.75" pY="84.2" z="0">
+        <d name="Image-23423444" />
+      </b>
+      <b name="图层 1" x="114.7" y="-68.45" kX="0" kY="0" cX="1" cY="1" pX="147.3" pY="62.4" z="1">
+        <d name="Image-4235" />
+        <d name="Image/34543" isArmature="1" />
+        <d name="Image-345432" />
+      </b>
+    </armature>
+    <armature name="Image/34543">
+      <b name="shape 86" x="133.8" y="169.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="Image-shape 86" />
+      </b>
+      <b name="wwe.png" x="395.8" y="102.25" kX="0" kY="0" cX="1" cY="1" pX="65" pY="65" z="1">
+        <d name="Image-43534" />
+      </b>
+      <b name="wwe.png0" x="311.75" y="119.3" kX="0" kY="0" cX="1" cY="1" pX="34.3" pY="34.3" z="2">
+        <d name="Image-8789" />
+      </b>
+      <b name="5435" x="208.9" y="133.5" kX="0" kY="0" cX="1" cY="1" pX="208.9" pY="45.95" z="3">
+        <d name="Image-5435" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="455" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="202.25" y="-80.4" cocos2d_x="97.5" cocos2d_y="-164.6" kX="0" kY="0" cX="1" cY="1" pX="104.75" pY="84.2" z="0" dI="0" twE="0" dr="3" />
+          <f x="207.25" y="-86.4" cocos2d_x="75.15" cocos2d_y="-192.6" kX="0" kY="0" cX="1.26" cY="1.26" pX="104.7" pY="84.2" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="114.7" y="-68.45" cocos2d_x="-32.6" cocos2d_y="-130.85" kX="0" kY="0" cX="1" cY="1" pX="147.3" pY="62.4" z="1" dI="0" dr="2" />
+          <f x="135.2" y="-95.5" cocos2d_x="-120.8" cocos2d_y="-185.2" kX="0" kY="0" cX="1" cY="1" pX="256" pY="89.7" z="1" dI="1" dr="2" />
+          <f x="42.95" y="-34.85" cocos2d_x="-88.9" cocos2d_y="-92.05" kX="0" kY="0" cX="1" cY="1" pX="131.85" pY="57.2" z="1" dI="2" dr="2" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="Image/34543">
+      <mov name="344" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="shape 86" sc="1" dl="0">
+          <f x="133.8" y="169.2" cocos2d_x="133.8" cocos2d_y="169.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="11" />
+        </b>
+        <b name="wwe.png" sc="1" dl="0">
+          <f x="395.8" y="102.25" cocos2d_x="330.8" cocos2d_y="37.25" kX="0" kY="0" cX="1" cY="1" pX="65" pY="65" z="1" dI="0" dr="11" />
+        </b>
+        <b name="wwe.png0" sc="1" dl="0">
+          <f x="311.75" y="119.3" cocos2d_x="277.45" cocos2d_y="85" kX="0" kY="0" cX="1" cY="1" pX="34.3" pY="34.3" z="2" dI="0" dr="11" />
+        </b>
+        <b name="5435" sc="1" dl="0">
+          <f x="208.9" y="133.5" cocos2d_x="0" cocos2d_y="87.55" kX="0" kY="0" cX="1" cY="1" pX="208.9" pY="45.95" z="3" dI="0" dr="11" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普工慕容景岳" width="512" height="512">
+    <SubTexture name="Image-5435" width="362" height="62" x="0" y="155" cocos2d_pX="-36.00" cocos2d_pY="-24.00" />
+    <SubTexture name="Image-8789" width="62" height="59" x="441" y="0" cocos2d_pX="-2.00" cocos2d_pY="-5.00" />
+    <SubTexture name="Image-43534" width="130" height="130" x="363" y="155" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Image-shape 86" width="440" height="154" x="0" y="0" cocos2d_pX="63.45" cocos2d_pY="161.20" />
+    <SubTexture name="Image-345432" width="240" height="89" x="0" y="306" cocos2d_pX="-17.00" cocos2d_pY="-8.00" />
+    <SubTexture name="Image-4235" width="281" height="87" x="0" y="218" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Image-23423444" width="105" height="110" x="282" y="286" cocos2d_pX="-35.15" cocos2d_pY="-51.85" />
+  </TextureAtlas>
+</skeleton>

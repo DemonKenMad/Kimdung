@@ -1,0 +1,102 @@
+<skeleton name="狄云技能1未命名-4" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-21.6" y="-278.35" kX="0" kY="0" cX="2.36" cY="2.36" pX="-4" pY="-8.5" z="0">
+        <d name="hy" isArmature="1" />
+      </b>
+      <b name="图层 1" x="-8" y="-127.7" kX="0" kY="0" cX="1.52" cY="1.52" pX="-189.6" pY="-188.95" z="1">
+        <d name="assets/n_a3cuqii2ubc" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="hy" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-4" y="-8.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dsaddsad" />
+        <d name="dfdsfa" />
+        <d name="补间 1" />
+        <d name="补间 2" />
+      </b>
+    </armature>
+    <armature name="assets/n_a3cuqii2ubc" isLoop="loop" startFrame="5">
+      <b name="图层 1" x="-186.5" y="-104.05" kX="0" kY="0" cX="1" cY="1" pX="53.5" pY="25" z="0">
+        <d name="位图 1" />
+        <d name="位图 2" />
+        <d name="位图 3" />
+        <d name="位图 4" />
+        <d name="位图 5" />
+        <d name="位图 6" />
+        <d name="位图 7" />
+        <d name="位图 8" />
+        <d name="位图 9" />
+        <d name="位图 10" />
+        <d name="位图 11" />
+        <d name="位图 12" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="hy">
+      <mov name="hgh" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-4" y="-8.5" cocos2d_x="-4" cocos2d_y="-8.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="-6" y="-17" cocos2d_x="-6" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+          <f x="0.5" y="1" cocos2d_x="-1.5" cocos2d_y="-14" kX="0" kY="0" cX="1" cY="1" pX="2" pY="15" z="0" dI="2" blend="add" twE="0" dr="4" />
+          <f x="-0.5" y="0" cocos2d_x="-2.25" cocos2d_y="-24.2" kX="0" kY="0" cX="1.73" cY="1.73" pX="1" pY="14" z="0" dI="3" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.26" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="assets/n_a3cuqii2ubc">
+      <mov name="567777" dr="40" to="0" drTW="40" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-186.5" y="-104.05" cocos2d_x="-240" cocos2d_y="-129.05" kX="0" kY="0" cX="1" cY="1" pX="53.5" pY="25" z="0" dI="0" dr="2" />
+          <f x="-185.75" y="-107.05" cocos2d_x="-245.75" cocos2d_y="-133.55" kX="0" kY="0" cX="1" cY="1" pX="60" pY="26.5" z="0" dI="1" dr="2" />
+          <f x="-187.5" y="-163.7" cocos2d_x="-256.5" cocos2d_y="-248.2" kX="0" kY="0" cX="1" cY="1" pX="69" pY="84.5" z="0" dI="2" dr="2" />
+          <f x="-185.75" y="-165.2" cocos2d_x="-259.25" cocos2d_y="-251.2" kX="0" kY="0" cX="1" cY="1" pX="73.5" pY="86" z="0" dI="3" dr="2" />
+          <f x="-183.95" y="-167.35" cocos2d_x="-266.45" cocos2d_y="-254.85" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="87.5" z="0" dI="4" dr="2" />
+          <f x="-181.1" y="-191.8" cocos2d_x="-277.6" cocos2d_y="-301.8" kX="0" kY="0" cX="1" cY="1" pX="96.5" pY="110" z="0" dI="5" dr="2" />
+          <f x="-179.3" y="-192.45" cocos2d_x="-276.3" cocos2d_y="-301.95" kX="0" kY="0" cX="1" cY="1" pX="97" pY="109.5" z="0" dI="6" dr="2" />
+          <f x="-178.45" y="-202.95" cocos2d_x="-276.95" cocos2d_y="-314.45" kX="0" kY="0" cX="1" cY="1" pX="98.5" pY="111.5" z="0" dI="7" dr="2" />
+          <f x="-179.45" y="-191.1" cocos2d_x="-270.95" cocos2d_y="-311.1" kX="0" kY="0" cX="1" cY="1" pX="91.5" pY="120" z="0" dI="8" dr="2" />
+          <f x="-181.45" y="-186.6" cocos2d_x="-270.95" cocos2d_y="-311.1" kX="0" kY="0" cX="1" cY="1" pX="89.5" pY="124.5" z="0" dI="9" dr="2" />
+          <f x="-181.45" y="-245.6" cocos2d_x="-270.95" cocos2d_y="-311.1" kX="0" kY="0" cX="1" cY="1" pX="89.5" pY="65.5" z="0" dI="10" dr="2" />
+          <f x="-181.45" y="-245.6" cocos2d_x="-270.95" cocos2d_y="-311.1" kX="0" kY="0" cX="1" cY="1" pX="89.5" pY="65.5" z="0" dI="11" dr="2" />
+          <f dr="16" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="546566" dr="41" to="0" drTW="41" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-21.6" y="-278.35" cocos2d_x="-12.15" cocos2d_y="-258.3" kX="0" kY="0" cX="2.36" cY="2.36" pX="-4" pY="-8.5" z="0" dI="0" dr="10" />
+          <f dr="24" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="-8" y="-127.7" cocos2d_x="280.05" cocos2d_y="159.35" kX="0" kY="0" cX="1.52" cY="1.52" pX="-189.6" pY="-188.95" z="1" dI="0" dr="23" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="狄云技能1未命名-4" width="1024" height="512">
+    <SubTexture name="位图 12" width="167" height="112" x="663" y="374" cocos2d_pX="-4.00" cocos2d_pY="-7.00" />
+    <SubTexture name="位图 11" width="169" height="115" x="493" y="374" cocos2d_pX="-3.00" cocos2d_pY="-5.00" />
+    <SubTexture name="位图 10" width="169" height="219" x="366" y="0" cocos2d_pX="-3.00" cocos2d_pY="-5.00" />
+    <SubTexture name="位图 9" width="171" height="213" x="717" y="0" cocos2d_pX="-2.00" cocos2d_pY="-3.00" />
+    <SubTexture name="位图 8" width="181" height="211" x="184" y="0" cocos2d_pX="-8.00" cocos2d_pY="-6.00" />
+    <SubTexture name="位图 7" width="180" height="206" x="536" y="0" cocos2d_pX="-6.00" cocos2d_pY="-8.00" />
+    <SubTexture name="位图 6" width="183" height="213" x="0" y="0" cocos2d_pX="-3.00" cocos2d_pY="-2.00" />
+    <SubTexture name="位图 5" width="155" height="167" x="0" y="214" cocos2d_pX="-3.00" cocos2d_pY="-2.00" />
+    <SubTexture name="位图 4" width="139" height="165" x="353" y="220" cocos2d_pX="-2.00" cocos2d_pY="-2.00" />
+    <SubTexture name="位图 3" width="130" height="160" x="889" y="0" cocos2d_pX="-2.00" cocos2d_pY="-3.00" />
+    <SubTexture name="位图 2" width="107" height="44" x="889" y="161" cocos2d_pX="-5.00" cocos2d_pY="-4.00" />
+    <SubTexture name="位图 1" width="94" height="41" x="889" y="206" cocos2d_pX="-5.00" cocos2d_pY="-3.00" />
+    <SubTexture name="补间 2" width="168" height="166" x="184" y="212" cocos2d_pX="84.00" cocos2d_pY="84.00" />
+    <SubTexture name="补间 1" width="168" height="166" x="536" y="207" cocos2d_pX="84.00" cocos2d_pY="84.00" />
+    <SubTexture name="dfdsfa" width="157" height="156" x="705" y="214" cocos2d_pX="78.50" cocos2d_pY="78.00" />
+    <SubTexture name="dsaddsad" width="139" height="157" x="863" y="248" cocos2d_pX="69.50" cocos2d_pY="78.50" />
+  </TextureAtlas>
+</skeleton>

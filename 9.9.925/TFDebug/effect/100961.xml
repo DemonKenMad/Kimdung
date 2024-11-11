@@ -1,0 +1,59 @@
+<skeleton name="苗人凤普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 14" x="15" y="-86.85" kX="-0.89" kY="-0.47" cX="3.35" cY="3.35" pX="0" pY="0" z="0">
+        <d name="xxx-b trenbynyt" />
+        <d name="xxx-b gtrnb r nm" />
+        <d name="xxx-vrtnbrty" />
+      </b>
+      <b name="图层 13" x="180.75" y="-115.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-bvtrnbrtn" />
+        <d name="xxx-brtfnbe tynty" />
+        <d name="xxx-tnwb" />
+        <d name="xxx-vtbrneb r ny" />
+      </b>
+      <b name="图层 3" x="-82.85" y="-14.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2">
+        <d name="xxx-v rebert" />
+        <d name="xxx-bftrbnt" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="15" y="-86.85" cocos2d_x="15" cocos2d_y="-86.85" kX="-0.89" kY="-0.47" cX="3.35" cY="3.35" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="76.6" y="-83.8" cocos2d_x="76.6" cocos2d_y="-83.8" kX="-0.89" kY="0.33" cX="3.35" cY="3.35" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2" />
+          <f x="323" y="-94.35" cocos2d_x="323" cocos2d_y="-94.35" kX="-0.12" kY="0.79" cX="3.35" cY="3.35" pX="0" pY="0" z="0" dI="2" blend="normal" dr="2" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 13" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="180.75" y="-115.5" cocos2d_x="180.75" cocos2d_y="-115.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f x="205.9" y="-96.8" cocos2d_x="205.9" cocos2d_y="-96.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" blend="normal" dr="2" />
+          <f x="186.6" y="-100" cocos2d_x="186.6" cocos2d_y="-100" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="186.85" y="-96.95" cocos2d_x="186.85" cocos2d_y="-96.95" kX="0" kY="0" cX="2.01" cY="2.01" pX="0" pY="0" z="1" dI="3" blend="normal" dr="1" twE="NaN" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="-82.85" y="-14.8" cocos2d_x="-82.85" cocos2d_y="-14.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f x="-2.4" y="-8.1" cocos2d_x="-2.4" cocos2d_y="-8.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="1" blend="normal" dr="2" />
+          <f dr="11" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="苗人凤普攻" width="256" height="512">
+    <SubTexture name="xxx-bftrbnt" width="124" height="18" x="125" y="248" cocos2d_pX="62.00" cocos2d_pY="9.00" />
+    <SubTexture name="xxx-v rebert" width="143" height="23" x="84" y="267" cocos2d_pX="72.00" cocos2d_pY="11.50" />
+    <SubTexture name="xxx-vtbrneb r ny" width="52" height="158" x="72" y="95" cocos2d_pX="29.00" cocos2d_pY="81.50" />
+    <SubTexture name="xxx-tnwb" width="53" height="152" x="125" y="95" cocos2d_pX="28.00" cocos2d_pY="78.00" />
+    <SubTexture name="xxx-brtfnbe tynty" width="71" height="147" x="0" y="95" cocos2d_pX="38.50" cocos2d_pY="75.50" />
+    <SubTexture name="xxx-bvtrnbrtn" width="41" height="107" x="179" y="95" cocos2d_pX="19.50" cocos2d_pY="53.00" />
+    <SubTexture name="xxx-vrtnbrty" width="83" height="58" x="0" y="254" cocos2d_pX="45.50" cocos2d_pY="31.00" />
+    <SubTexture name="xxx-b gtrnb r nm" width="231" height="50" x="0" y="0" cocos2d_pX="117.00" cocos2d_pY="29.50" />
+    <SubTexture name="xxx-b trenbynyt" width="230" height="43" x="0" y="51" cocos2d_pX="116.00" cocos2d_pY="22.50" />
+  </TextureAtlas>
+</skeleton>

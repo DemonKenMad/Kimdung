@@ -1,0 +1,81 @@
+<skeleton name="张三普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="11.35" y="-79" kX="-2.23" kY="0" cX="4.51" cY="1.46" pX="0" pY="0.3" z="0">
+        <d name="xzx-pugong" />
+        <d name="xzx-pugong2" />
+      </b>
+      <b name="图层 4" x="179.35" y="-80.55" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="-0.5" z="1">
+        <d name="xzx-pugong3" />
+        <d name="xzx-pugong4" />
+        <d name="xzx-pugong5" />
+      </b>
+      <b name="图层 7" x="181" y="-81" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xzx-补间 6" />
+        <d name="xzx-pugong" />
+        <d name="xzx-pugong2" />
+      </b>
+      <b name="图层 9" x="146.35" y="-105.55" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="-0.5" z="3">
+        <d name="xzx-pugong3" />
+        <d name="xzx-pugong4" />
+        <d name="xzx-pugong5" />
+      </b>
+      <b name="图层 10" x="159.4" y="-107.4" kX="0" kY="0" cX="1" cY="1" pX="-0.5" pY="-0.5" z="4">
+        <d name="xzx-dsadsa" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="11.35" y="-79" cocos2d_x="11.35" cocos2d_y="-79.45" kX="-2.23" kY="0" cX="4.51" cY="1.46" fst="0" pX="0" pY="0.3" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="117.35" y="-87.6" cocos2d_x="116.6" cocos2d_y="-87.95" kX="0" kY="0" cX="2.2" cY="1" fst="0" pX="0.35" pY="0.35" z="0" dI="1" dr="1" twE="NaN" />
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="179.35" y="-80.55" cocos2d_x="178.85" cocos2d_y="-80.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0.5" pY="-0.5" z="1" dI="0" dr="2" />
+          <f x="169.35" y="-83.4" cocos2d_x="168.9" cocos2d_y="-83.4" kX="0" kY="0" cX="0.91" cY="0.91" fst="0" pX="0.5" pY="0" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="130.25" y="-80.3" cocos2d_x="130.25" cocos2d_y="-80.8" kX="0" kY="0" cX="0.97" cY="0.97" fst="0" pX="0" pY="0.5" z="1" dI="2" dr="1" twE="NaN" />
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="181" y="-81" cocos2d_x="181" cocos2d_y="-81" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="2" />
+          <f x="181" y="-81" cocos2d_x="181" cocos2d_y="-81" kX="0" kY="0" cX="1.21" cY="1.21" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+          <f x="-21.65" y="-104" cocos2d_x="-21.65" cocos2d_y="-104.45" kX="-2.23" kY="0" cX="4.51" cY="1.46" fst="0" pX="0" pY="0.3" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="84.35" y="-112.6" cocos2d_x="83.6" cocos2d_y="-112.95" kX="0" kY="0" cX="2.2" cY="1" fst="0" pX="0.35" pY="0.35" z="2" dI="2" dr="1" twE="NaN" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="146.35" y="-105.55" cocos2d_x="145.85" cocos2d_y="-105.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0.5" pY="-0.5" z="3" dI="0" dr="2" />
+          <f x="136.35" y="-108.4" cocos2d_x="135.9" cocos2d_y="-108.4" kX="0" kY="0" cX="0.91" cY="0.91" fst="0" pX="0.5" pY="0" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="83.25" y="-103.3" cocos2d_x="83.25" cocos2d_y="-103.8" kX="0" kY="0" cX="0.97" cY="0.97" fst="0" pX="0" pY="0.55" z="3" dI="2" twE="0" dr="4" />
+          <f x="71.25" y="-103.3" cocos2d_x="71.25" cocos2d_y="-103.95" kX="0" kY="0" cX="1.18" cY="1.18" fst="0" pX="0" pY="0.55" z="3" dI="2" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.32" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="159.4" y="-107.4" cocos2d_x="159.9" cocos2d_y="-106.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-0.5" pY="-0.5" z="4" dI="0" twE="0" dr="2" />
+          <f x="159.4" y="-107.4" cocos2d_x="160" cocos2d_y="-106.8" kX="0" kY="0" cX="1.23" cY="1.23" fst="0" pX="-0.5" pY="-0.5" z="4" dI="0" twE="0" dr="1" />
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="张三普攻" width="512" height="512">
+    <SubTexture name="xzx-dsadsa" width="124" height="137" x="143" y="149" cocos2d_pX="62.50" cocos2d_pY="67.50" />
+    <SubTexture name="xzx-补间 6" width="136" height="148" x="143" y="0" cocos2d_pX="70.00" cocos2d_pY="77.00" />
+    <SubTexture name="xzx-pugong5" width="49" height="146" x="411" y="0" cocos2d_pX="24.50" cocos2d_pY="72.50" />
+    <SubTexture name="xzx-pugong4" width="130" height="150" x="280" y="0" cocos2d_pX="64.50" cocos2d_pY="75.00" />
+    <SubTexture name="xzx-pugong3" width="142" height="150" x="0" y="0" cocos2d_pX="70.50" cocos2d_pY="75.50" />
+    <SubTexture name="xzx-pugong2" width="72" height="114" x="411" y="147" cocos2d_pX="36.50" cocos2d_pY="55.45" />
+    <SubTexture name="xzx-pugong" width="72" height="75" x="0" y="151" cocos2d_pX="29.85" cocos2d_pY="41.10" />
+  </TextureAtlas>
+</skeleton>

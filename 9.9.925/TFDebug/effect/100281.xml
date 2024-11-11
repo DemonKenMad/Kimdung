@@ -1,0 +1,110 @@
+<skeleton name="康广陵 普攻FX2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9" x="-35.6" y="-139.55" kX="-82.96" kY="-40.88" cX="1.82" cY="2.1" pX="-0.05" pY="-96.65" z="0">
+        <d name="kanggl-gkjsjn" />
+        <d name="kanggl-fgjdfj" />
+        <d name="kanggl-fdjfdj" />
+      </b>
+      <b name="图层 3" x="-50.2" y="-157.45" kX="-91.84" kY="-100.33" cX="1.54" cY="1.74" pX="-0.05" pY="-96.65" z="1">
+        <d name="kanggl-gkjsjn" />
+        <d name="kanggl-fgjdfj" />
+        <d name="kanggl-fdjfdj" />
+        <d name="kanggl-dfgkjdg" />
+        <d name="kanggl-dfgjdfgk" />
+        <d name="kanggl-dfjghkg" />
+        <d name="kanggl-gjhtuj" />
+      </b>
+      <b name="图层 5" x="73.45" y="-125.65" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-96.6" z="2">
+        <d name="kanggl-gkjsjn" />
+        <d name="kanggl-fgjdfj" />
+        <d name="kanggl-fdjfdj" />
+        <d name="kanggl-dfgkjdg" />
+        <d name="kanggl-dfgjdfgk" />
+        <d name="kanggl-dfjghkg" />
+        <d name="kanggl-gjhtuj" />
+      </b>
+      <b name="图层 4" x="-31.45" y="-76.65" kX="100.99" kY="143.07" cX="1.82" cY="2.1" pX="-0.05" pY="-96.5" z="3">
+        <d name="kanggl-gkjsjn" />
+        <d name="kanggl-fgjdfj" />
+        <d name="kanggl-fdjfdj" />
+        <d name="kanggl-fdjj" />
+        <d name="kanggl-dgkfh" />
+        <d name="kanggl-fdktj" />
+        <d name="kanggl-gfjgu" />
+        <d name="kanggl-jkj" />
+      </b>
+      <b name="图层 7" x="-33.75" y="-87.5" kX="126.84" kY="160.14" cX="3.14" cY="1.42" pX="-0.05" pY="-96.65" z="4">
+        <d name="kanggl-gkjsjn" />
+        <d name="kanggl-fgjdfj" />
+        <d name="kanggl-fdjfdj" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-35.6" y="-139.55" cocos2d_x="165.75" cocos2d_y="-114.75" kX="-82.96" kY="-40.88" cX="1.82" cY="2.1" pX="-0.05" pY="-96.65" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-70.1" y="-130.5" cocos2d_x="108.55" cocos2d_y="-108.4" kX="-82.96" kY="-40.88" cX="1.82" cY="2.1" pX="0.05" pY="-85.8" z="0" dI="1" blend="normal" dr="2" />
+          <f x="-81.35" y="-167.15" cocos2d_x="81.3" cocos2d_y="-147.05" kX="-82.96" kY="-40.88" cX="1.82" cY="2.1" pX="0" pY="-78.15" z="0" dI="2" blend="normal" dr="2" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-50.2" y="-157.45" cocos2d_x="118.15" cocos2d_y="-162.95" kX="-91.84" kY="-100.33" cX="1.54" cY="1.74" pX="-0.05" pY="-96.65" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-79.35" y="-147.8" cocos2d_x="70.05" cocos2d_y="-152.55" kX="-91.84" kY="-100.33" cX="1.54" cY="1.74" pX="0.05" pY="-85.7" z="1" dI="1" blend="normal" dr="2" />
+          <f x="-70.55" y="-140.8" cocos2d_x="65.75" cocos2d_y="-145.1" kX="-91.84" kY="-100.33" cX="1.54" cY="1.74" pX="0.05" pY="-78.2" z="1" dI="2" blend="normal" dr="2" />
+          <f dr="4" dI="-1" />
+          <f x="393.45" y="-152.75" cocos2d_x="393.45" cocos2d_y="-11.05" kX="0" kY="0" cX="2.45" cY="2.45" pX="0" pY="-57.9" z="1" dI="3" blend="normal" dr="2" />
+          <f x="458.05" y="-152.55" cocos2d_x="458.05" cocos2d_y="-87.15" kX="0" kY="0" cX="2.45" cY="4.06" pX="0" pY="-16.1" z="1" dI="4" blend="normal" dr="2" />
+          <f x="508.35" y="-135.9" cocos2d_x="508.35" cocos2d_y="-98.95" kX="0" kY="0" cX="2.45" cY="4.32" pX="0" pY="-8.55" z="1" dI="5" blend="normal" dr="2" />
+          <f x="529.45" y="-130.1" cocos2d_x="529.45" cocos2d_y="-126.65" kX="0" kY="0" cX="2.45" cY="2.45" pX="0" pY="-1.4" z="1" dI="6" blend="normal" dr="2" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="73.45" y="-125.65" cocos2d_x="73.45" cocos2d_y="67.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-96.6" z="2" dI="0" blend="normal" dr="2" />
+          <f x="56.05" y="-144.25" cocos2d_x="56.05" cocos2d_y="27.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-85.7" z="2" dI="1" blend="normal" dr="2" />
+          <f x="40.35" y="-151.85" cocos2d_x="40.35" cocos2d_y="4.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-78.15" z="2" dI="2" blend="normal" dr="2" />
+          <f dr="6" dI="-1" />
+          <f x="59.75" y="-140.55" cocos2d_x="59.75" cocos2d_y="-61.85" kX="0" kY="180" cX="1.36" cY="1.36" pX="0" pY="-57.85" z="2" dI="3" blend="normal" dr="2" />
+          <f x="23.95" y="-135.5" cocos2d_x="23.95" cocos2d_y="-99.05" kX="0" kY="180" cX="1.36" cY="2.26" pX="0" pY="-16.15" z="2" dI="4" blend="normal" dr="2" />
+          <f x="-4.05" y="-129.2" cocos2d_x="-4.05" cocos2d_y="-108.65" kX="0" kY="180" cX="1.36" cY="2.4" pX="0" pY="-8.55" z="2" dI="5" blend="normal" dr="2" />
+          <f x="-15.85" y="-127.95" cocos2d_x="-15.85" cocos2d_y="-126.05" kX="0" kY="180" cX="1.36" cY="1.36" pX="0" pY="-1.4" z="2" dI="6" blend="normal" dr="2" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-31.45" y="-76.65" cocos2d_x="-230.45" cocos2d_y="-115.2" kX="100.99" kY="143.07" cX="1.82" cY="2.1" pX="-0.05" pY="-96.5" z="3" dI="0" blend="normal" dr="2" />
+          <f x="-5.5" y="-81.2" cocos2d_x="-182.05" cocos2d_y="-115.5" kX="100.99" kY="143.07" cX="1.82" cY="2.1" pX="0.05" pY="-85.7" z="3" dI="1" blend="normal" dr="2" />
+          <f x="-65.1" y="-91.2" cocos2d_x="-226.1" cocos2d_y="-122.45" kX="100.99" kY="143.07" cX="1.82" cY="2.1" pX="0" pY="-78.15" z="3" dI="2" blend="normal" dr="2" />
+          <f x="211.95" y="-154.85" cocos2d_x="211.95" cocos2d_y="135.75" kX="0" kY="0" cX="2.45" cY="2.45" pX="0" pY="-118.8" z="3" dI="3" blend="normal" dr="2" />
+          <f x="168.95" y="-160.1" cocos2d_x="168.95" cocos2d_y="-52.55" kX="0" kY="0" cX="2.45" cY="2.45" pX="0" pY="-43.95" z="3" dI="4" blend="normal" dr="2" />
+          <f x="216.65" y="-137.7" cocos2d_x="216.65" cocos2d_y="13.65" kX="0" kY="0" cX="2.45" cY="2.45" pX="0" pY="-61.85" z="3" dI="5" blend="normal" dr="2" />
+          <f x="180.65" y="-140.3" cocos2d_x="180.65" cocos2d_y="80.85" kX="0" kY="0" cX="3.43" cY="3.43" pX="0" pY="-64.55" z="3" dI="6" blend="normal" dr="2" />
+          <f x="180.15" y="-140.05" cocos2d_x="180.15" cocos2d_y="186.35" kX="0" kY="0" cX="4.8" cY="4.8" pX="0" pY="-68.05" z="3" dI="7" blend="normal" dr="2" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-33.75" y="-87.5" cocos2d_x="-143.55" cocos2d_y="-169.6" kX="126.84" kY="160.14" cX="3.14" cY="1.42" pX="-0.05" pY="-96.65" z="4" dI="0" blend="normal" dr="2" />
+          <f x="2.1" y="-86.85" cocos2d_x="-95.2" cocos2d_y="-159.55" kX="126.84" kY="160.14" cX="3.14" cY="1.42" pX="-0.1" pY="-85.65" z="4" dI="1" blend="normal" dr="2" />
+          <f x="8.6" y="-101.95" cocos2d_x="-79.95" cocos2d_y="-168.45" kX="126.84" kY="160.14" cX="3.14" cY="1.42" pX="0.05" pY="-78.2" z="4" dI="2" blend="normal" dr="2" />
+          <f dr="6" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="康广陵 普攻FX2" width="512" height="512">
+    <SubTexture name="kanggl-jkj" width="57" height="150" x="439" y="49" cocos2d_pX="30.10" cocos2d_pY="143.20" />
+    <SubTexture name="kanggl-gfjgu" width="75" height="160" x="308" y="138" cocos2d_pX="39.45" cocos2d_pY="145.15" />
+    <SubTexture name="kanggl-fdktj" width="77" height="151" x="133" y="273" cocos2d_pX="54.05" cocos2d_pY="136.55" />
+    <SubTexture name="kanggl-dgkfh" width="57" height="111" x="134" y="126" cocos2d_pX="24.05" cocos2d_pY="95.65" />
+    <SubTexture name="kanggl-fdjj" width="102" height="129" x="384" y="200" cocos2d_pX="50.00" cocos2d_pY="182.35" />
+    <SubTexture name="kanggl-gjhtuj" width="234" height="25" x="194" y="112" cocos2d_pX="117.95" cocos2d_pY="13.25" />
+    <SubTexture name="kanggl-dfjghkg" width="263" height="48" x="194" y="0" cocos2d_pX="137.05" cocos2d_pY="30.20" />
+    <SubTexture name="kanggl-dfgjdfgk" width="244" height="62" x="194" y="49" cocos2d_pX="127.25" cocos2d_pY="42.80" />
+    <SubTexture name="kanggl-dfgkjdg" width="193" height="125" x="0" y="0" cocos2d_pX="103.55" cocos2d_pY="118.95" />
+    <SubTexture name="kanggl-fdjfdj" width="132" height="97" x="0" y="244" cocos2d_pX="65.35" cocos2d_pY="130.10" />
+    <SubTexture name="kanggl-fgjdfj" width="133" height="117" x="0" y="126" cocos2d_pX="63.75" cocos2d_pY="148.35" />
+    <SubTexture name="kanggl-gkjsjn" width="115" height="134" x="192" y="138" cocos2d_pX="52.40" cocos2d_pY="164.95" />
+  </TextureAtlas>
+</skeleton>

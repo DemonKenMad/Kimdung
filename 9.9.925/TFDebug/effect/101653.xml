@@ -1,0 +1,117 @@
+<skeleton name="葛尔丹技能输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-2" y="-35.05" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="-7.5" z="0">
+        <d name="eqw-grs" />
+        <d name="eqw/bianshanguang" isArmature="1" />
+      </b>
+      <b name="图层 3" x="232.05" y="-22" kX="-88.89" kY="-49.79" cX="2.1" cY="2.88" pX="25.05" pY="-8.9" z="1">
+        <d name="eqw/bianshanguang" isArmature="1" />
+      </b>
+      <b name="图层 2" x="179" y="-51.65" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="2">
+        <d name="eqw/dsadsad" isArmature="1" />
+      </b>
+      <b name="图层 1" x="154.05" y="-29.8" kX="-118.73" kY="-134.7" cX="1.49" cY="1.49" pX="-90.4" pY="-26.55" z="3">
+        <d name="eqw-dsadsadsadsa" />
+        <d name="eqw/dsadsad" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="eqw/bianshanguang" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="65.1" y="-20.1" kX="0" kY="0" cX="2.77" cY="2.77" pX="20.5" pY="17" z="0">
+        <d name="eqw-t6546" />
+        <d name="eqw-546" />
+        <d name="eqw-3453" />
+        <d name="eqw-345345434" />
+      </b>
+      <b name="图层 2" x="70.35" y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="eqw-435435" />
+        <d name="eqw-43535" />
+      </b>
+    </armature>
+    <armature name="eqw/dsadsad" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="-7.5" y="-32.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="eqw-dsasadasdas" />
+        <d name="eqw-fdgdfsgds" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="eqw/bianshanguang">
+      <mov name="4667" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="65.1" y="-20.1" cocos2d_x="8.3" cocos2d_y="-67.2" kX="0" kY="0" cX="2.77" cY="2.77" pX="20.5" pY="17" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="100.15" y="-34.25" cocos2d_x="18.3" cocos2d_y="-127.45" kX="0" kY="0" cX="2.27" cY="2.27" pX="36" pY="41" z="0" dI="1" dr="2" />
+          <f x="115.8" y="-40.65" cocos2d_x="115.8" cocos2d_y="-40.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" twE="0" dr="2" />
+          <f x="115.8" y="-40.65" cocos2d_x="115.8" cocos2d_y="-40.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="70.35" y="-22.15" cocos2d_x="70.35" cocos2d_y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" />
+          <f x="70.35" y="-22.15" cocos2d_x="70.35" cocos2d_y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="3" />
+          <f x="70.35" y="-22.15" cocos2d_x="70.35" cocos2d_y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="eqw/dsadsad">
+      <mov name="5468" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-7.5" y="-32.5" cocos2d_x="-7.5" cocos2d_y="-32.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="11.5" y="-37.5" cocos2d_x="11.5" cocos2d_y="-37.5" kX="15.83" kY="0" cX="1.15" cY="1.2" pX="0" pY="0" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="16.5" y="-31.5" cocos2d_x="16.5" cocos2d_y="-31.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="678" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-2" y="-35.05" cocos2d_x="-2" cocos2d_y="-24.95" kX="0" kY="0" cX="1.35" cY="1.35" pX="0" pY="-7.5" z="0" dI="0" twE="1" dr="2" />
+          <f x="-6" y="-42.05" cocos2d_x="-6" cocos2d_y="-28.4" kX="0" kY="0" cX="1.82" cY="1.82" pX="0" pY="-7.5" z="0" dI="0" twE="1" dr="5" />
+          <f x="-6" y="-45" cocos2d_x="-6" cocos2d_y="-30.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-7.5" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.95" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+          <f x="376.85" y="-50.1" cocos2d_x="306.6" cocos2d_y="9.8" kX="99.35" kY="-56.3" cX="1.1" cY="1.26" pX="70.4" pY="-21.95" z="0" dI="1" dr="6" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="16" dI="-1" />
+          <f x="232.05" y="-22" cocos2d_x="223.75" cocos2d_y="18.65" kX="-88.89" kY="-49.79" cX="2.1" cY="2.88" pX="25.05" pY="-8.9" z="1" dI="0" dr="7" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="179" y="-51.65" cocos2d_x="167.5" cocos2d_y="-14.15" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="2" dI="0" dr="8" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="154.05" y="-29.8" cocos2d_x="94" cocos2d_y="-144.55" kX="-118.73" kY="-134.7" cX="1.49" cY="1.49" pX="-90.4" pY="-26.55" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="85.15" y="-24.4" cocos2d_x="162.75" cocos2d_y="-124.15" kX="-93.21" kY="-93.21" cX="1.05" cY="3.13" pX="-90.35" pY="-26.45" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="265" y="-43.65" cocos2d_x="253.5" cocos2d_y="-6.15" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="3" dI="1" dr="4" />
+          <f x="270" y="-8" cocos2d_x="253.5" cocos2d_y="-6.15" kX="0" kY="0" cX="1" cY="1" pX="16.5" pY="-1.85" z="3" dI="1" twE="0" dr="4" />
+          <f x="270" y="-8" cocos2d_x="248.75" cocos2d_y="-5.6" kX="0" kY="0" cX="1.29" cY="1.29" pX="16.5" pY="-1.85" z="3" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="葛尔丹技能输出" width="512" height="512">
+    <SubTexture name="eqw-fdgdfsgds" width="219" height="94" x="177" y="152" cocos2d_pX="105.00" cocos2d_pY="55.00" />
+    <SubTexture name="eqw-dsasadasdas" width="192" height="104" x="177" y="247" cocos2d_pX="81.00" cocos2d_pY="49.00" />
+    <SubTexture name="eqw-43535" width="130" height="101" x="0" y="282" cocos2d_pX="65.00" cocos2d_pY="50.50" />
+    <SubTexture name="eqw-435435" width="130" height="101" x="370" y="247" cocos2d_pX="65.00" cocos2d_pY="50.50" />
+    <SubTexture name="eqw-345345434" width="176" height="151" x="0" y="130" cocos2d_pX="88.00" cocos2d_pY="75.20" />
+    <SubTexture name="eqw-3453" width="176" height="151" x="223" y="0" cocos2d_pX="88.00" cocos2d_pY="75.20" />
+    <SubTexture name="eqw-546" width="71" height="58" x="400" y="0" cocos2d_pX="-1.00" cocos2d_pY="-12.00" />
+    <SubTexture name="eqw-t6546" width="41" height="34" x="400" y="59" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="eqw-dsadsadsadsa" width="222" height="129" x="0" y="0" cocos2d_pX="106.00" cocos2d_pY="65.00" />
+    <SubTexture name="eqw-grs" width="157" height="49" x="131" y="352" cocos2d_pX="78.50" cocos2d_pY="24.50" />
+  </TextureAtlas>
+</skeleton>

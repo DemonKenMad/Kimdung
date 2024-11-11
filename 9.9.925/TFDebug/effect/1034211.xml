@@ -1,0 +1,144 @@
+<skeleton name="玄明道人 主动技能主动部分角色底层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="hdfhdfh" x="63.5" y="-85.25" kX="0" kY="0" cX="4" cY="4" pX="0" pY="-0.05" z="0">
+        <d name="xxx-shghf03" />
+      </b>
+      <b name="hdfhd" x="250.15" y="-111.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/shghf04" isArmature="1" />
+      </b>
+      <b name="gdfdhdfh" x="-197.9" y="-2.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/shghf13" isArmature="1" />
+      </b>
+      <b name="dsfasf" x="-183.95" y="-306.05" kX="180" kY="180" cX="0.98" cY="0.77" pX="0" pY="0" z="3">
+        <d name="xxx/shghf26" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf04" isLoop="loop" startFrame="1">
+      <b name="fsafsafaf" x="-246.05" y="19" kX="0" kY="0" cX="3.51" cY="3.51" pX="0" pY="0" z="0">
+        <d name="xxx-shghf06" />
+      </b>
+      <b name="fasfaf" x="-269.15" y="13.4" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="1">
+        <d name="xxx-shghf08" />
+        <d name="xxx-shghf10" />
+        <d name="xxx-shghf12" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf13" isLoop="loop" startFrame="1">
+      <b name="fsafsafaf" x="213.95" y="-143" kX="0" kY="0" cX="4.79" cY="4.79" pX="0" pY="0" z="0">
+        <d name="xxx-shghf06" />
+      </b>
+      <b name="图层 1" x="218.45" y="-99.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-shghf15" />
+        <d name="xxx-shghf17" />
+        <d name="xxx-shghf19" />
+        <d name="xxx-shghf21" />
+        <d name="xxx-shghf23" />
+        <d name="xxx-shghf25" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf26" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-158.3" y="44.95" kX="0" kY="0" cX="2.5" cY="2.5" pX="-0.05" pY="0" z="0">
+        <d name="xxx-shghf28" />
+        <d name="xxx-shghf30" />
+        <d name="xxx-shghf32" />
+        <d name="xxx-shghf34" />
+        <d name="xxx-shghf36" />
+        <d name="xxx-shghf38" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shghf04">
+      <mov name="fgsdfsdgsdv" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="fsafsafaf" sc="1" dl="0">
+          <f x="-246.05" y="19" cocos2d_x="-246.05" cocos2d_y="19" kX="0" kY="0" cX="3.51" cY="3.51" fst="0" pX="0" pY="0" z="0" dI="0" dr="3" />
+        </b>
+        <b name="fasfaf" sc="1" dl="0">
+          <f x="-269.15" y="13.4" cocos2d_x="-269.05" cocos2d_y="13.4" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="-270.65" y="13.15" cocos2d_x="-270.65" cocos2d_y="13.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" blend="add" dr="1" twE="NaN" />
+          <f x="-269.6" y="12.8" cocos2d_x="-269.6" cocos2d_y="12.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="2" blend="add" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/shghf13">
+      <mov name="dfhfgdfgdfgd" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="fsafsafaf" sc="1" dl="0">
+          <f x="213.95" y="-143" cocos2d_x="213.95" cocos2d_y="-143" kX="0" kY="0" cX="4.79" cY="4.79" fst="0" pX="0" pY="0" z="0" dI="0" dr="13" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="218.45" y="-99.4" cocos2d_x="218.45" cocos2d_y="-99.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="hardLight" dr="2" />
+          <f x="223.9" y="-115.5" cocos2d_x="223.9" cocos2d_y="-115.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="1" blend="hardLight" dr="2" />
+          <f x="223.35" y="-127.65" cocos2d_x="223.35" cocos2d_y="-127.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="2" blend="hardLight" dr="2" />
+          <f x="245.25" y="-123.5" cocos2d_x="245.25" cocos2d_y="-123.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="3" blend="hardLight" dr="2" />
+          <f x="236.4" y="-126.45" cocos2d_x="236.4" cocos2d_y="-126.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="4" blend="hardLight" dr="2" />
+          <f x="212.8" y="-136.5" cocos2d_x="212.8" cocos2d_y="-136.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="5" blend="hardLight" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/shghf26">
+      <mov name="gdfgdfgdf" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-158.3" y="44.95" cocos2d_x="-158.15" cocos2d_y="44.95" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-138" y="50.2" cocos2d_x="-138" cocos2d_y="50.2" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-114.1" y="50.7" cocos2d_x="-113.95" cocos2d_y="50.7" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="-0.05" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-115.55" y="51.5" cocos2d_x="-115.55" cocos2d_y="51.5" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-128.5" y="57.75" cocos2d_x="-128.5" cocos2d_y="57.75" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-125.4" y="58.45" cocos2d_x="-125.25" cocos2d_y="58.45" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="-0.05" pY="0" z="0" dI="5" twE="0" dr="3" />
+          <f x="-125.4" y="58.45" cocos2d_x="-125.25" cocos2d_y="58.45" kX="0" kY="0" cX="2.58" cY="2.58" fst="0" pX="-0.05" pY="0" z="0" dI="5" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.02" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="vdfgdfdsfsfds" dr="85" to="0" drTW="85" lp="0" twE="NaN">
+        <b name="hdfhdfh" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="63.5" y="-85.25" cocos2d_x="63.5" cocos2d_y="-85.05" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.85" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="63.5" y="-85.25" cocos2d_x="63.5" cocos2d_y="-85.05" kX="-3.94" kY="0" cX="4" cY="4.01" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.2" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="71" dI="-1" />
+        </b>
+        <b name="hdfhd" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="250.15" y="-111.95" cocos2d_x="250.15" cocos2d_y="-111.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="3" />
+          <f dr="71" dI="-1" />
+        </b>
+        <b name="gdfdhdfh" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-197.9" y="-2.9" cocos2d_x="-197.9" cocos2d_y="-2.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="13" />
+          <f dr="65" dI="-1" />
+        </b>
+        <b name="dsfasf" sc="1" dl="0">
+          <f dr="23" dI="-1" />
+          <f x="-183.95" y="-306.05" cocos2d_x="-183.95" cocos2d_y="-306.05" kX="180" kY="180" cX="0.98" cY="0.77" fst="0" pX="0" pY="0" z="3" dI="0" dr="8" />
+          <f dr="54" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="玄明道人 主动技能主动部分角色底层输出" width="1024" height="512">
+    <SubTexture name="xxx-shghf38" width="251" height="99" x="151" y="288" cocos2d_pX="125.50" cocos2d_pY="49.45" />
+    <SubTexture name="xxx-shghf36" width="238" height="93" x="403" y="351" cocos2d_pX="119.00" cocos2d_pY="46.80" />
+    <SubTexture name="xxx-shghf34" width="218" height="94" x="219" y="193" cocos2d_pX="109.00" cocos2d_pY="47.00" />
+    <SubTexture name="xxx-shghf32" width="203" height="90" x="657" y="178" cocos2d_pX="101.30" cocos2d_pY="45.10" />
+    <SubTexture name="xxx-shghf30" width="164" height="72" x="0" y="206" cocos2d_pX="82.00" cocos2d_pY="35.70" />
+    <SubTexture name="xxx-shghf28" width="153" height="62" x="798" y="330" cocos2d_pX="76.75" cocos2d_pY="30.80" />
+    <SubTexture name="xxx-shghf25" width="151" height="155" x="862" y="0" cocos2d_pX="75.60" cocos2d_pY="77.75" />
+    <SubTexture name="xxx-shghf23" width="206" height="168" x="440" y="182" cocos2d_pX="103.00" cocos2d_pY="83.85" />
+    <SubTexture name="xxx-shghf21" width="204" height="177" x="657" y="0" cocos2d_pX="101.85" cocos2d_pY="88.80" />
+    <SubTexture name="xxx-shghf19" width="216" height="181" x="440" y="0" cocos2d_pX="107.75" cocos2d_pY="90.35" />
+    <SubTexture name="xxx-shghf17" width="220" height="192" x="219" y="0" cocos2d_pX="109.85" cocos2d_pY="95.80" />
+    <SubTexture name="xxx-shghf15" width="218" height="205" x="0" y="0" cocos2d_pX="108.75" cocos2d_pY="102.20" />
+    <SubTexture name="xxx-shghf12" width="150" height="74" x="647" y="269" cocos2d_pX="75.25" cocos2d_pY="37.05" />
+    <SubTexture name="xxx-shghf10" width="150" height="73" x="0" y="279" cocos2d_pX="74.80" cocos2d_pY="36.85" />
+    <SubTexture name="xxx-shghf08" width="151" height="73" x="861" y="256" cocos2d_pX="75.70" cocos2d_pY="36.75" />
+    <SubTexture name="xxx-shghf06" width="129" height="99" x="862" y="156" cocos2d_pX="64.00" cocos2d_pY="49.00" />
+    <SubTexture name="xxx-shghf03" width="58" height="43" x="798" y="269" cocos2d_pX="29.10" cocos2d_pY="21.85" />
+  </TextureAtlas>
+</skeleton>

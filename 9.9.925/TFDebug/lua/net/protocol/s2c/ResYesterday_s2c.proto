@@ -1,0 +1,22 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CResYesterdayMsg";
+
+// 单个资源数据
+message ResYesterdayData {
+	required int32 id = 1; 					// 模板ID
+	required int32 value = 2; 				// 数值
+	required int32 isBuy = 3; 				// 0未购买 1已购买
+}
+
+// 单个数据
+// code = 0x6c01
+message SingleResReponse {
+	required ResYesterdayData data = 1;
+}
+
+// 所有数据
+// code = 0x6c02
+message AllResReponse {
+	repeated ResYesterdayData data = 1;
+}

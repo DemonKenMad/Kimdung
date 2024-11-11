@@ -1,0 +1,161 @@
+<skeleton name="小技能水受击(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 23" x="47" y="68.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB05" isArmature="1" />
+      </b>
+      <b name="图层 22" x="-30.4" y="-104.4" kX="0" kY="0" cX="2" cY="2" pX="59.5" pY="31.35" z="1">
+        <d name="xxx-strjfilesB20" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB05" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-23.3" y="-145.8" kX="0" kY="0" cX="0.4" cY="0.65" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB19" isArmature="1" />
+      </b>
+      <b name="图层 12" x="-14" y="-182.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1">
+        <d name="xxx-strjfilesB23" />
+        <d name="xxx-strjfilesB25" />
+        <d name="xxx-strjfilesB27" />
+        <d name="xxx-strjfilesB29" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB19" isLoop="loop" startFrame="1">
+      <b name="图层 5" x="6.65" y="-8.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0">
+        <d name="xxx-strjfilesB38" />
+        <d name="xxx-strjfilesB39" />
+        <d name="xxx-strjfilesB40" />
+        <d name="xxx-strjfilesB41" />
+        <d name="xxx-strjfilesB42" />
+      </b>
+      <b name="元件 312" x="-39.9" y="-33.15" kX="5.49" kY="0" cX="1" cY="1.17" pX="-0.05" pY="0" z="1">
+        <d name="xxx/strjfilesB44" isArmature="1" />
+      </b>
+      <b name="元件 3120" x="82.5" y="-32.5" kX="23.95" kY="-170.94" cX="1.32" cY="1.27" pX="-0.1" pY="0.05" z="2">
+        <d name="xxx/strjfilesB44" isArmature="1" />
+      </b>
+      <b name="元件 239" x="-40.5" y="-58.8" kX="0" kY="0" cX="0.48" cY="1" pX="0" pY="0" z="3">
+        <d name="xxx/strjfilesB43" isArmature="1" />
+      </b>
+      <b name="元件 2390" x="68.75" y="-77.1" kX="0" kY="149.35" cX="0.62" cY="1" pX="0" pY="0" z="4">
+        <d name="xxx/strjfilesB43" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB44" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-25.25" y="59.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-strjfilesB34" />
+        <d name="xxx-strjfilesB35" />
+        <d name="xxx-strjfilesB36" />
+        <d name="xxx-strjfilesB37" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB43" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-112.55" y="-8.3" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0">
+        <d name="xxx-strjfilesB30" />
+        <d name="xxx-strjfilesB31" />
+        <d name="xxx-strjfilesB32" />
+        <d name="xxx-strjfilesB33" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/strjfilesB44">
+      <mov name="fgfsanjkdfe" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-25.25" y="59.15" cocos2d_x="-25.25" cocos2d_y="59.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-25.25" y="59.15" cocos2d_x="-25.25" cocos2d_y="59.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-25.25" y="59.15" cocos2d_x="-25.25" cocos2d_y="59.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-71.8" y="54.95" cocos2d_x="-71.8" cocos2d_y="54.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB43">
+      <mov name="fdgsfasdada" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-112.55" y="-8.3" cocos2d_x="-112.45" cocos2d_y="-8.3" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="0" dr="2" />
+          <f x="-112.55" y="-8.3" cocos2d_x="-112.45" cocos2d_y="-8.3" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="1" dr="2" />
+          <f x="-112.55" y="-8.3" cocos2d_x="-112.45" cocos2d_y="-8.3" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-112.55" y="-8.3" cocos2d_x="-112.45" cocos2d_y="-8.3" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB19">
+      <mov name="sdfnkoghdfogjsd" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="6.65" y="-8.1" cocos2d_x="6.65" cocos2d_y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="0" dr="2" />
+          <f x="6.65" y="-8.1" cocos2d_x="6.65" cocos2d_y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="6.65" y="-8.1" cocos2d_x="6.65" cocos2d_y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="2" dr="2" />
+          <f x="6.65" y="-8.1" cocos2d_x="6.65" cocos2d_y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="6.65" y="-8.1" cocos2d_x="6.65" cocos2d_y="-7.95" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="-0.05" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="元件 312" sc="1" dl="0">
+          <f x="-39.9" y="-33.15" cocos2d_x="-39.85" cocos2d_y="-33.15" kX="5.49" kY="0" cX="1" cY="1.17" fst="0" pX="-0.05" pY="0" z="1" dI="0" dr="7" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="元件 3120" sc="1" dl="0">
+          <f x="82.5" y="-32.5" cocos2d_x="82.3" cocos2d_y="-32.55" kX="23.95" kY="-170.94" cX="1.32" cY="1.27" fst="0" pX="-0.1" pY="0.05" z="2" dI="0" dr="7" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="元件 239" sc="1" dl="0">
+          <f x="-40.5" y="-58.8" cocos2d_x="-40.5" cocos2d_y="-58.8" kX="0" kY="0" cX="0.48" cY="1" fst="0" pX="0" pY="0" z="3" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="元件 2390" sc="1" dl="0">
+          <f x="68.75" y="-77.1" cocos2d_x="68.75" cocos2d_y="-77.1" kX="0" kY="149.35" cX="0.62" cY="1" fst="0" pX="0" pY="0" z="4" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+        <f st="0" dr="8" />
+        <f st="8" dr="1" />
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB05">
+      <mov name="nbdsghiogogf" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-23.3" y="-145.8" cocos2d_x="-23.3" cocos2d_y="-145.8" kX="0" kY="0" cX="0.4" cY="0.65" fst="0" pX="0" pY="0" z="0" dI="0" dr="9" />
+        </b>
+        <b name="图层 12" sc="1" dl="0">
+          <f x="-14" y="-182.45" cocos2d_x="-14" cocos2d_y="-182.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="0" dr="2" />
+          <f x="-18.1" y="-175.4" cocos2d_x="-18.1" cocos2d_y="-175.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" dr="2" />
+          <f x="-24.85" y="-175.45" cocos2d_x="-24.75" cocos2d_y="-175.35" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="1" dI="2" dr="1" twE="NaN" />
+          <f x="-17.65" y="-175.4" cocos2d_x="-17.65" cocos2d_y="-175.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" twE="0" dr="2" />
+          <f x="-17.65" y="-175.4" cocos2d_x="-17.65" cocos2d_y="-175.35" kX="0" kY="0" cX="0.91" cY="0.91" pX="0" pY="-0.05" z="1" dI="3" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="cbdjxgijhfgogklsd" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 23" sc="1" dl="0">
+          <f x="47" y="68.5" cocos2d_x="47" cocos2d_y="68.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 22" sc="1" dl="0">
+          <f x="-30.4" y="-104.4" cocos2d_x="-149.4" cocos2d_y="-167.1" kX="0" kY="0" cX="2" cY="2" pX="59.5" pY="31.35" z="1" dI="0" dr="2" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="小技能水受击(2)" width="512" height="1024">
+    <SubTexture name="xxx-strjfilesB33" width="113" height="78" x="289" y="438" cocos2d_pX="111.55" cocos2d_pY="35.90" />
+    <SubTexture name="xxx-strjfilesB32" width="163" height="91" x="142" y="88" cocos2d_pX="118.55" cocos2d_pY="40.90" />
+    <SubTexture name="xxx-strjfilesB31" width="211" height="87" x="142" y="0" cocos2d_pX="100.55" cocos2d_pY="36.90" />
+    <SubTexture name="xxx-strjfilesB30" width="213" height="80" x="259" y="277" cocos2d_pX="73.55" cocos2d_pY="27.90" />
+    <SubTexture name="xxx-strjfilesB37" width="62" height="69" x="437" y="159" cocos2d_pX="37.55" cocos2d_pY="33.90" />
+    <SubTexture name="xxx-strjfilesB36" width="90" height="82" x="406" y="358" cocos2d_pX="65.05" cocos2d_pY="44.50" />
+    <SubTexture name="xxx-strjfilesB35" width="116" height="79" x="289" y="358" cocos2d_pX="56.05" cocos2d_pY="44.50" />
+    <SubTexture name="xxx-strjfilesB34" width="118" height="69" x="162" y="452" cocos2d_pX="42.05" cocos2d_pY="46.50" />
+    <SubTexture name="xxx-strjfilesB42" width="105" height="93" x="183" y="358" cocos2d_pX="58.95" cocos2d_pY="54.95" />
+    <SubTexture name="xxx-strjfilesB41" width="130" height="117" x="306" y="159" cocos2d_pX="72.70" cocos2d_pY="69.15" />
+    <SubTexture name="xxx-strjfilesB40" width="116" height="115" x="142" y="180" cocos2d_pX="64.70" cocos2d_pY="67.15" />
+    <SubTexture name="xxx-strjfilesB39" width="93" height="112" x="89" y="296" cocos2d_pX="50.70" cocos2d_pY="66.15" />
+    <SubTexture name="xxx-strjfilesB38" width="81" height="87" x="80" y="409" cocos2d_pX="33.70" cocos2d_pY="58.15" />
+    <SubTexture name="xxx-strjfilesB29" width="141" height="215" x="0" y="0" cocos2d_pX="79.00" cocos2d_pY="105.05" />
+    <SubTexture name="xxx-strjfilesB27" width="79" height="122" x="0" y="355" cocos2d_pX="39.55" cocos2d_pY="59.55" />
+    <SubTexture name="xxx-strjfilesB25" width="88" height="138" x="0" y="216" cocos2d_pX="46.50" cocos2d_pY="70.50" />
+    <SubTexture name="xxx-strjfilesB23" width="103" height="158" x="354" y="0" cocos2d_pX="52.25" cocos2d_pY="78.55" />
+    <SubTexture name="xxx-strjfilesB20" width="73" height="30" x="437" y="229" cocos2d_pX="-19.35" cocos2d_pY="-21.95" />
+  </TextureAtlas>
+</skeleton>

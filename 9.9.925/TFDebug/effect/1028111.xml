@@ -1,0 +1,61 @@
+<skeleton name="张无忌升红_输出_下" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 11" x="-22.25" y="9.65" kX="0" kY="0" cX="1.32" cY="0.87" pX="-0.2" pY="0.4" z="0">
+        <d name="xxx/siturenjiefilesB10" isArmature="1" />
+      </b>
+      <b name="图层 6" x="-22.25" y="9.65" kX="0" kY="0" cX="0.51" cY="0.34" pX="-0.2" pY="0.45" z="1">
+        <d name="xxx/siturenjiefilesB10" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/siturenjiefilesB10" isLoop="loop" startFrame="8">
+      <b name="图层 2" x="28.35" y="-4.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-siturenjiefilesB11" />
+        <d name="xxx-siturenjiefilesB12" />
+        <d name="xxx-siturenjiefilesB13" />
+        <d name="xxx-siturenjiefilesB14" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/siturenjiefilesB10">
+      <mov name="bcjhasfhie" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="28.35" y="-4.25" cocos2d_x="28.35" cocos2d_y="-4.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="41.2" y="-3.1" cocos2d_x="41.2" cocos2d_y="-3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="40.1" y="-7.1" cocos2d_x="40.1" cocos2d_y="-7.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="41.95" y="1.5" cocos2d_x="41.95" cocos2d_y="1.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="isfhiusdas" dr="86" to="0" drTW="86" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="51" dI="-1" />
+          <f x="-22.25" y="9.65" cocos2d_x="-22" cocos2d_y="9.3" kX="0" kY="0" cX="1.32" cY="0.87" fst="7" pX="-0.2" pY="0.4" z="0" dI="0" twE="1" dr="12" />
+          <f x="-37.55" y="9.65" cocos2d_x="-37.15" cocos2d_y="9.15" kX="0" kY="0" cX="1.95" cY="1.28" fst="0" pX="-0.2" pY="0.4" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="22" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="47" dI="-1" />
+          <f x="-22.25" y="9.65" cocos2d_x="-22.15" cocos2d_y="9.5" kX="0" kY="0" cX="0.51" cY="0.34" fst="0" pX="-0.2" pY="0.45" z="1" dI="0" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-22.25" y="9.65" cocos2d_x="-22" cocos2d_y="9.3" kX="0" kY="0" cX="1.32" cY="0.87" fst="7" pX="-0.2" pY="0.4" z="1" dI="0" twE="0" dr="19" />
+          <f x="-22.25" y="9.65" cocos2d_x="-22" cocos2d_y="9.3" kX="0" kY="0" cX="1.32" cY="0.87" fst="7" pX="-0.2" pY="0.4" z="1" dI="0" twE="0" dr="12" />
+          <f x="-22.25" y="9.65" cocos2d_x="-22" cocos2d_y="9.3" kX="0" kY="0" cX="1.32" cY="0.87" fst="7" pX="-0.2" pY="0.4" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="张无忌升红_输出_下" width="512" height="512">
+    <SubTexture name="xxx-siturenjiefilesB14" width="203" height="155" x="0" y="158" cocos2d_pX="106.50" cocos2d_pY="78.50" />
+    <SubTexture name="xxx-siturenjiefilesB13" width="203" height="157" x="206" y="157" cocos2d_pX="105.60" cocos2d_pY="75.05" />
+    <SubTexture name="xxx-siturenjiefilesB12" width="205" height="157" x="0" y="0" cocos2d_pX="108.50" cocos2d_pY="77.50" />
+    <SubTexture name="xxx-siturenjiefilesB11" width="204" height="156" x="206" y="0" cocos2d_pX="100.70" cocos2d_pY="76.20" />
+  </TextureAtlas>
+</skeleton>

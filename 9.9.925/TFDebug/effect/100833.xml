@@ -1,0 +1,128 @@
+<skeleton name="双儿技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9" x="42.85" y="-86.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0">
+        <d name="shuanger- 17" />
+        <d name="shuanger-18" />
+        <d name="shuanger-jinengfeng1" />
+        <d name="shuanger-jinengdaoguang" />
+        <d name="shuanger-guangqi" />
+        <d name="shuanger- 19" />
+        <d name="shuanger-ww 20" />
+        <d name="shuanger-ww 21" />
+      </b>
+      <b name="图层 6" x="138" y="-86.8" kX="0" kY="0" cX="2.28" cY="2.28" pX="0" pY="0" z="1">
+        <d name="shuanger-gang" />
+      </b>
+      <b name="图层 1 拷贝 2" x="139.4" y="-76.35" kX="0" kY="0" cX="3.04" cY="3.04" pX="0" pY="0" z="2">
+        <d name="shuanger- 11" />
+        <d name="shuanger- 12" />
+        <d name="shuanger- 13" />
+        <d name="shuanger- 14" />
+        <d name="shuanger- 16" />
+      </b>
+      <b name="图层 7" x="148.5" y="-73.9" kX="0" kY="0" cX="2.76" cY="2.76" pX="0" pY="0" z="3">
+        <d name="shuanger-ww 6" />
+        <d name="shuanger-w7" />
+        <d name="shuanger-w 8" />
+        <d name="shuanger- 9" />
+        <d name="shuanger- 10" />
+      </b>
+      <b name="图层 5" x="144.5" y="-79" kX="0" kY="0" cX="2.25" cY="2.25" pX="0" pY="-0.1" z="4">
+        <d name="shuanger-w 1" />
+        <d name="shuanger-ww 2" />
+        <d name="shuanger-ww 3" />
+        <d name="shuanger-ww 4" />
+        <d name="shuanger-ww 5" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="skill" dr="41" to="0" drTW="41" lp="0" twE="NaN">
+        <b name="图层 9" sc="1" dl="0">
+          <f x="42.85" y="-86.85" cocos2d_x="42.85" cocos2d_y="-86.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="9.1" y="-95.7" cocos2d_x="9.1" cocos2d_y="-95.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="-35.65" y="-99.25" cocos2d_x="-35.65" cocos2d_y="-99.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" blend="normal" dr="2" />
+          <f x="5.75" y="-63.45" cocos2d_x="5.75" cocos2d_y="-63.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" blend="normal" dr="2" />
+          <f x="67.3" y="-71.65" cocos2d_x="67.3" cocos2d_y="-71.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" blend="normal" dr="1" twE="NaN" />
+          <f dr="6" dI="-1" />
+          <f x="-15.05" y="-87.55" cocos2d_x="-15.05" cocos2d_y="-87.3" kX="0" kY="0" cX="4.65" cY="4.65" pX="0" pY="-0.1" z="0" dI="5" blend="normal" dr="2" />
+          <f x="79.5" y="-33.8" cocos2d_x="79.5" cocos2d_y="-33.7" kX="0" kY="0" cX="1.88" cY="1.88" pX="0" pY="-0.05" z="0" dI="6" blend="normal" dr="1" twE="NaN" />
+          <f x="101.25" y="-34.75" cocos2d_x="101.25" cocos2d_y="-34.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" blend="normal" dr="1" twE="NaN" />
+          <f dr="24" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="138" y="-86.8" cocos2d_x="138" cocos2d_y="-86.8" kX="0" kY="0" cX="2.28" cY="2.28" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="138" y="-86.8" cocos2d_x="138" cocos2d_y="-86.8" kX="0" kY="0" cX="3.48" cY="3.48" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="7" dI="-1" />
+          <f x="185.2" y="-44.4" cocos2d_x="185.2" cocos2d_y="-44.4" kX="0" kY="0" cX="3.48" cY="3.48" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="191.6" y="-44.4" cocos2d_x="191.6" cocos2d_y="-44.4" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="23" dI="-1" />
+        </b>
+        <b name="图层 1 拷贝 2" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="139.4" y="-76.35" cocos2d_x="139.4" cocos2d_y="-76.35" kX="0" kY="0" cX="3.04" cY="3.04" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f x="193.1" y="-94.1" cocos2d_x="193.1" cocos2d_y="-93.6" kX="0" kY="0" cX="4.91" cY="4.91" pX="0" pY="-0.15" z="2" dI="1" blend="normal" dr="2" />
+          <f x="141.65" y="-70.75" cocos2d_x="141.65" cocos2d_y="-70.75" kX="0" kY="0" cX="3.39" cY="3.39" pX="0" pY="0" z="2" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="146.9" y="-90.35" cocos2d_x="146.9" cocos2d_y="-90.2" kX="0" kY="0" cX="2.87" cY="2.87" pX="0" pY="-0.05" z="2" dI="3" blend="normal" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+          <f x="189.4" y="-34.35" cocos2d_x="189.4" cocos2d_y="-34.35" kX="0" kY="0" cX="3.04" cY="3.04" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f x="243.1" y="-52.1" cocos2d_x="243.1" cocos2d_y="-51.6" kX="0" kY="0" cX="4.91" cY="4.91" pX="0" pY="-0.1" z="2" dI="1" blend="normal" dr="2" />
+          <f x="191.65" y="-28.75" cocos2d_x="191.65" cocos2d_y="-28.75" kX="0" kY="0" cX="3.39" cY="3.39" pX="0" pY="0" z="2" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="196.9" y="-48.35" cocos2d_x="196.9" cocos2d_y="-48.2" kX="0" kY="0" cX="2.87" cY="2.87" pX="0" pY="-0.05" z="2" dI="3" blend="normal" dr="1" twE="NaN" />
+          <f dr="9" dI="-1" />
+          <f x="135.9" y="-83.7" cocos2d_x="135.9" cocos2d_y="-83.35" kX="0" kY="0" cX="3.72" cY="3.72" pX="0" pY="-0.1" z="2" dI="4" blend="normal" dr="5" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="148.5" y="-73.9" cocos2d_x="148.5" cocos2d_y="-73.9" kX="0" kY="0" cX="2.76" cY="2.76" pX="0" pY="0" z="3" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="161.6" y="-65.9" cocos2d_x="161.6" cocos2d_y="-65.7" kX="0" kY="0" cX="3.72" cY="3.72" pX="0" pY="-0.05" z="3" dI="1" blend="normal" dr="2" />
+          <f x="131.45" y="-68.15" cocos2d_x="131.45" cocos2d_y="-68.15" kX="0" kY="0" cX="5.6" cY="5.6" pX="0" pY="0" z="3" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="52.2" y="-90.7" cocos2d_x="52.2" cocos2d_y="-90.7" kX="0" kY="0" cX="4.57" cY="4.57" pX="0" pY="0" z="3" dI="3" blend="normal" dr="2" />
+          <f x="63.55" y="-89.05" cocos2d_x="63.8" cocos2d_y="-89.05" kX="0" kY="0" cX="5.35" cY="5.35" pX="0" pY="0" z="3" dI="4" blend="normal" dr="2" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="27" dI="-1" />
+          <f x="144.5" y="-79" cocos2d_x="144.5" cocos2d_y="-78.8" kX="0" kY="0" cX="2.25" cY="2.25" pX="0" pY="-0.1" z="4" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="135.45" y="-65.3" cocos2d_x="135.65" cocos2d_y="-65.3" kX="0" kY="0" cX="4.23" cY="4.23" pX="-0.05" pY="0" z="4" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="135.7" y="-64.6" cocos2d_x="136.25" cocos2d_y="-64.6" kX="0" kY="0" cX="5.6" cY="5.6" pX="-0.1" pY="0" z="4" dI="2" blend="normal" dr="2" />
+          <f dr="1" dI="-1" />
+          <f x="80.55" y="-66.85" cocos2d_x="80.55" cocos2d_y="-66.85" kX="0" kY="0" cX="4.23" cY="4.23" pX="0" pY="0" z="4" dI="3" blend="normal" dr="2" />
+          <f x="94.2" y="-86.55" cocos2d_x="94.2" cocos2d_y="-86.55" kX="0" kY="0" cX="5.1" cY="5.1" pX="0" pY="0" z="4" dI="4" blend="normal" dr="2" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="双儿技能" width="1024" height="512">
+    <SubTexture name="shuanger-ww 5" width="73" height="72" x="113" y="258" cocos2d_pX="36.60" cocos2d_pY="36.50" />
+    <SubTexture name="shuanger-ww 4" width="84" height="102" x="925" y="0" cocos2d_pX="42.60" cocos2d_pY="51.05" />
+    <SubTexture name="shuanger-ww 3" width="115" height="116" x="423" y="132" cocos2d_pX="58.05" cocos2d_pY="58.00" />
+    <SubTexture name="shuanger-ww 2" width="111" height="113" x="870" y="175" cocos2d_pX="56.05" cocos2d_pY="57.00" />
+    <SubTexture name="shuanger-w 1" width="108" height="103" x="604" y="241" cocos2d_pX="54.00" cocos2d_pY="51.50" />
+    <SubTexture name="shuanger- 10" width="112" height="68" x="0" y="258" cocos2d_pX="56.05" cocos2d_pY="35.00" />
+    <SubTexture name="shuanger- 9" width="129" height="84" x="369" y="249" cocos2d_pX="64.85" cocos2d_pY="42.00" />
+    <SubTexture name="shuanger-w 8" width="119" height="119" x="610" y="121" cocos2d_pX="59.20" cocos2d_pY="60.00" />
+    <SubTexture name="shuanger-w7" width="118" height="105" x="730" y="200" cocos2d_pX="58.65" cocos2d_pY="52.55" />
+    <SubTexture name="shuanger-ww 6" width="137" height="120" x="610" y="0" cocos2d_pX="68.50" cocos2d_pY="57.60" />
+    <SubTexture name="shuanger- 16" width="256" height="257" x="0" y="0" cocos2d_pX="128.10" cocos2d_pY="128.15" />
+    <SubTexture name="shuanger- 14" width="78" height="71" x="916" y="103" cocos2d_pX="40.00" cocos2d_pY="35.70" />
+    <SubTexture name="shuanger- 13" width="45" height="42" x="870" y="75" cocos2d_pX="23.30" cocos2d_pY="21.25" />
+    <SubTexture name="shuanger- 12" width="64" height="67" x="539" y="207" cocos2d_pX="33.35" cocos2d_pY="33.70" />
+    <SubTexture name="shuanger- 11" width="59" height="74" x="539" y="132" cocos2d_pX="30.15" cocos2d_pY="37.00" />
+    <SubTexture name="shuanger-gang" width="165" height="163" x="257" y="0" cocos2d_pX="82.50" cocos2d_pY="82.50" />
+    <SubTexture name="shuanger-ww 21" width="100" height="44" x="499" y="275" cocos2d_pX="48.75" cocos2d_pY="22.75" />
+    <SubTexture name="shuanger-ww 20" width="77" height="30" x="261" y="281" cocos2d_pX="38.50" cocos2d_pY="16.25" />
+    <SubTexture name="shuanger- 19" width="73" height="37" x="187" y="281" cocos2d_pX="36.70" cocos2d_pY="18.25" />
+    <SubTexture name="shuanger-guangqi" width="48" height="31" x="369" y="164" cocos2d_pX="21.85" cocos2d_pY="15.15" />
+    <SubTexture name="shuanger-jinengdaoguang" width="176" height="74" x="748" y="0" cocos2d_pX="87.95" cocos2d_pY="36.70" />
+    <SubTexture name="shuanger-jinengfeng1" width="111" height="116" x="257" y="164" cocos2d_pX="55.60" cocos2d_pY="57.90" />
+    <SubTexture name="shuanger-18" width="186" height="131" x="423" y="0" cocos2d_pX="92.65" cocos2d_pY="65.35" />
+    <SubTexture name="shuanger- 17" width="121" height="124" x="748" y="75" cocos2d_pX="59.65" cocos2d_pY="61.80" />
+  </TextureAtlas>
+</skeleton>

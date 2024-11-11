@@ -1,0 +1,30 @@
+<skeleton name="郑家军普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="77.85" y="-58.25" kX="0" kY="0" cX="0.38" cY="0.64" pX="0.4" pY="0.35" z="0">
+        <d name="PG"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="455" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="77.85" y="-58.25" cocos2d_x="77.7" cocos2d_y="-58.45" kX="0" kY="0" cX="0.38" cY="0.64" pX="0.4" pY="0.35" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.88" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="206.75" y="-58.25" cocos2d_x="206.5" cocos2d_y="-58.45" kX="0" kY="0" cX="0.64" cY="0.64" pX="0.4" pY="0.35" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="264.2" y="-58.25" cocos2d_x="263.9" cocos2d_y="-58.45" kX="0" kY="0" cX="0.9" cY="0.64" pX="0.35" pY="0.35" z="0" dI="0" twE="0" dr="3"/>
+          <f x="261.75" y="-58.9" cocos2d_x="261.25" cocos2d_y="-59.2" kX="0" kY="0" cX="1.16" cY="0.8" pX="0.4" pY="0.4" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.04" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郑家军普工" width="512" height="128">
+    <SubTexture name="PG" width="320" height="73" x="0" y="0" cocos2d_pX="159.65" cocos2d_pY="36.15"/>
+  </TextureAtlas>
+</skeleton>

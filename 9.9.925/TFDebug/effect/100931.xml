@@ -1,0 +1,29 @@
+<skeleton name="夏青青普通攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 8" x="122.15" y="-73.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="saSA-bujian 1"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dfsd" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="122.15" y="-73.15" cocos2d_x="122.15" cocos2d_y="-73.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0"/>
+          </f>
+          <f x="122.15" y="-73.15" cocos2d_x="122.15" cocos2d_y="-73.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+          <f x="122.15" y="-73.15" cocos2d_x="122.15" cocos2d_y="-73.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.26" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="夏青青普通攻击" width="256" height="256">
+    <SubTexture name="saSA-bujian 1" width="250" height="167" x="0" y="0" cocos2d_pX="124.65" cocos2d_pY="83.5"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,36 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SKnightMsg";
+
+//浪人武士排行榜
+//code = 0x7a02
+message KnightRankList{
+	required int32 type = 1; //武士类型
+ 	required int32 startIndex = 2; //排行
+	required int32 length = 3;  //请求数量
+}
+
+//浪人武士战斗
+//code = 0x7a03
+message KnightBattleStart{
+
+}
+
+//分享武士
+//code = 0x7a07
+message shareKnight{
+	required int32 knightType = 1;  //分享武士类型
+}
+
+//协助好友浪人武士战斗
+//code = 0x7a06
+message KnightFriendBattleStart{
+	required int64 instanceId = 1; //所挑战武士实例ID
+	required int32 sharePlayerId = 2; // 分享者ID
+}
+
+//请求武士信息
+//code = 0x7a08
+message GetKnightInfo{
+
+}

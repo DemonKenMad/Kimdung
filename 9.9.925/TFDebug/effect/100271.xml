@@ -1,0 +1,59 @@
+<skeleton name="包不同普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="156.8" y="-88.2" kX="-8.61" kY="171.39" cX="1.86" cY="1.86" pX="-95.9" pY="0.6" z="0">
+        <d name="xzx-2Q" />
+      </b>
+      <b name="图层 2" x="176.3" y="-104.8" kX="0" kY="0" cX="1.5" cY="1.5" pX="31.8" pY="-156.15" z="1">
+        <d name="xzx/sdzfnjhgj" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/sdzfnjhgj" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="50.3" y="-161" kX="0" kY="0" cX="1" cY="1" pX="84.5" pY="80.5" z="0">
+        <d name="xzx-dfjkk" />
+        <d name="xzx-vcjm" />
+        <d name="xzx-cfjk" />
+        <d name="xzx-rdxjcgh" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xzx/sdzfnjhgj">
+      <mov name="5777" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="50.3" y="-161" cocos2d_x="-34.2" cocos2d_y="-241.5" kX="0" kY="0" cX="1" cY="1" pX="84.5" pY="80.5" z="0" dI="0" dr="2" />
+          <f x="42.05" y="-155.65" cocos2d_x="-35.95" cocos2d_y="-215.65" kX="0" kY="0" cX="1" cY="1" pX="78" pY="60" z="0" dI="1" dr="2" />
+          <f x="50.05" y="-173.5" cocos2d_x="-56.45" cocos2d_y="-277.5" kX="0" kY="0" cX="1" cY="1" pX="106.5" pY="104" z="0" dI="2" dr="2" />
+          <f x="41" y="-157.95" cocos2d_x="-83" cocos2d_y="-237.95" kX="0" kY="0" cX="1" cY="1" pX="124" pY="80" z="0" dI="3" twE="0" dr="3" />
+          <f x="41" y="-157.95" cocos2d_x="-110" cocos2d_y="-255.35" kX="0" kY="0" cX="1.22" cY="1.22" pX="124" pY="80" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.32" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="156.8" y="-88.2" cocos2d_x="-19.4" cocos2d_y="-62.75" kX="-8.61" kY="171.39" cX="1.86" cY="1.86" pX="-95.9" pY="0.6" z="0" dI="0" twE="0" dr="3" />
+          <f x="206.2" y="-99.4" cocos2d_x="99.65" cocos2d_y="-83.5" kX="-8.61" kY="171.39" cX="1.12" cY="0.41" pX="-95.9" pY="0.55" z="0" dI="0" twE="0" dr="3" />
+          <f x="194.35" y="-95.55" cocos2d_x="134.95" cocos2d_y="-86.7" kX="-8.61" kY="171.39" cX="0.63" cY="0.16" pX="-95.9" pY="0.85" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="176.3" y="-104.8" cocos2d_x="128.65" cocos2d_y="129.45" kX="0" kY="0" cX="1.5" cY="1.5" pX="31.8" pY="-156.15" z="1" dI="0" dr="10" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="包不同普攻" width="512" height="512">
+    <SubTexture name="xzx-rdxjcgh" width="171" height="107" x="0" y="68" cocos2d_pX="-31.15" cocos2d_pY="-28.65" />
+    <SubTexture name="xzx-cfjk" width="163" height="121" x="229" y="0" cocos2d_pX="-14.00" cocos2d_pY="-58.00" />
+    <SubTexture name="xzx-vcjm" width="151" height="120" x="312" y="122" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzx-dfjkk" width="139" height="138" x="172" y="122" cocos2d_pX="-1.00" cocos2d_pY="-20.00" />
+    <SubTexture name="xzx-2Q" width="228" height="67" x="0" y="0" cocos2d_pX="114.00" cocos2d_pY="33.50" />
+  </TextureAtlas>
+</skeleton>

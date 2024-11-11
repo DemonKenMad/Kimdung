@@ -1,0 +1,57 @@
+<skeleton name="普通受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-5.25" y="-80.4" kX="0" kY="0" cX="3.05" cY="3.05" pX="-2.25" pY="-3.25" z="0">
+        <d name="dabao/anime" isArmature="1" />
+      </b>
+      <b name="图层 3" x="-1" y="-74.65" kX="0" kY="0" cX="2.67" cY="2.67" pX="0" pY="0" z="1">
+        <d name="dabao-3f" />
+      </b>
+      <b name="图层 3 复制" x="-1" y="-74.65" kX="138.14" kY="138.14" cX="1.97" cY="1.97" pX="0" pY="0" z="2">
+        <d name="dabao-3f" />
+      </b>
+    </armature>
+    <armature name="dabao/anime">
+      <b name="图层 1" x="-1.5" y="-1.25" kX="0" kY="0" cX="1" cY="1" pX="30" pY="34" z="0">
+        <d name="dabao-1_7i7" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dabao/anime">
+      <mov name="sd" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-1.5" y="-1.25" cocos2d_x="-31.5" cocos2d_y="-35.25" kX="0" kY="0" cX="1" cY="1" pX="30" pY="34" z="0" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sda" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-5.25" y="-80.4" cocos2d_x="1.65" cocos2d_y="-70.5" kX="0" kY="0" cX="3.05" cY="3.05" pX="-2.25" pY="-3.25" z="0" dI="0" blend="normal" dr="2" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-1" y="-74.65" cocos2d_x="-1" cocos2d_y="-74.65" kX="0" kY="0" cX="2.67" cY="2.67" pX="0" pY="0" z="1" dI="0" twE="0" dr="7" />
+          <f x="-1" y="-74.65" cocos2d_x="-1" cocos2d_y="-74.65" kX="0" kY="0" cX="3.53" cY="3.53" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 3 复制" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-1" y="-74.65" cocos2d_x="-1" cocos2d_y="-74.65" kX="138.14" kY="138.14" cX="1.97" cY="1.97" pX="0" pY="0" z="2" dI="0" twE="0" dr="4" />
+          <f x="-1" y="-74.65" cocos2d_x="-1" cocos2d_y="-74.65" kX="138.13" kY="138.13" cX="4.1" cY="4.1" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普通受击" width="128" height="128">
+    <SubTexture name="dabao-1_7i7" width="58" height="68" x="61" y="0" cocos2d_pX="-1.00" cocos2d_pY="0.00" />
+    <SubTexture name="dabao-3f" width="60" height="68" x="0" y="0" cocos2d_pX="30.00" cocos2d_pY="34.00" />
+  </TextureAtlas>
+</skeleton>

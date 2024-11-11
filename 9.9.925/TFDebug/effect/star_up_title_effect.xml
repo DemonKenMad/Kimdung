@@ -1,0 +1,47 @@
+<skeleton name="修炼等级提升" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-2.25" y="-0.25" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweifilesCG02"/>
+      </b>
+      <b name="图层 4" x="-7.5" y="0.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesCG03" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG03">
+      <b name="图层 1" x="6.05" y="0.25" kX="0" kY="0" cX="1" cY="1" pX="208" pY="75" z="0">
+        <d name="xxx-zhangweifilesCG06"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesCG03">
+      <mov name="unnamed" dr="34" to="0" drTW="34" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="6.05" y="0.25" cocos2d_x="-201.95" cocos2d_y="-74.75" kX="0" kY="0" cX="1" cY="1" pX="208" pY="75" z="0" dI="0" dr="34"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="jdsfjlkajvklv" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-2.25" y="-0.25" cocos2d_x="-2.2" cocos2d_y="-0.25" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="0" dr="27"/>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-7.5" y="0.25" cocos2d_x="-7.5" cocos2d_y="0.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-7.5" y="0.25" cocos2d_x="-7.5" cocos2d_y="0.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="8"/>
+          <f x="-7.5" y="0.25" cocos2d_x="-7.5" cocos2d_y="0.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="8"/>
+          <f x="-7.5" y="0.25" cocos2d_x="-7.5" cocos2d_y="0.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="修炼等级提升" width="512" height="256">
+    <SubTexture name="xxx-zhangweifilesCG06" width="416" height="150" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweifilesCG02" width="348" height="57" x="0" y="152" cocos2d_pX="173.75" cocos2d_pY="28.25"/>
+  </TextureAtlas>
+</skeleton>

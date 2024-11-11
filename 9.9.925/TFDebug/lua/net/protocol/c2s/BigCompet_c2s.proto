@@ -1,0 +1,21 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+option java_outer_classname="C2SBigCompetMsg";
+//请求大比拼信息
+//code = 0x3306
+message SendBigcompetRequest{
+}
+//发送大比拼排行奖励
+//code = 0x3307
+message SendRankAwardRequest{
+
+}
+//请求排行榜
+//code = 0x3308
+message SendRankRequest{
+	required int32 id = 1;							//第几个排行榜
+}
+//请求保底奖励
+//code = 0x3309
+message GetMinRequest{
+	required int32 type = 1;	//类型
+}

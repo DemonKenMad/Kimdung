@@ -1,0 +1,57 @@
+<skeleton name="致盲putout" frameRate="24" version="2.2.3">
+ <armatures>
+  <armature name="anim">
+   <b name="图层 3" x="12.2" y="-186.65" kX="0" kY="0" cX="0.61" cY="0.61" pX="0" pY="0" z="0">
+    <d name="file-yjd"/>
+   </b>
+   <b name="图层 5" x="3.2" y="-187.15" kX="0" kY="0" cX="0.47" cY="0.3" pX="0" pY="0" z="1">
+    <d name="file-DG"/>
+   </b>
+   <b name="图层 4" x="5.85" y="-186.65" kX="0" kY="0" cX="0.89" cY="0.46" pX="0" pY="0" z="2">
+    <d name="file-fsdf"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="anim">
+   <mov name="gdf" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f x="12.2" y="-186.65" cocos2d_x="12.2" cocos2d_y="-186.65" kX="0" kY="0" cX="0.61" cY="0.61" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+     <f x="12.2" y="-186.65" cocos2d_x="12.2" cocos2d_y="-186.65" kX="0" kY="0" cX="1.06" cY="1.06" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN"/>
+     <f x="12.2" y="-186.65" cocos2d_x="12.2" cocos2d_y="-186.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="23"/>
+     <f x="12.2" y="-186.65" cocos2d_x="12.2" cocos2d_y="-186.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="12.2" y="-186.65" cocos2d_x="12.2" cocos2d_y="-186.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+     </f>
+    </b>
+    <b name="图层 5" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="3.2" y="-187.15" cocos2d_x="3.2" cocos2d_y="-187.15" kX="0" kY="0" cX="0.47" cY="0.3" pX="0" pY="0" z="1" dI="0" blend="add" twE="0" dr="9"/>
+     <f x="4.2" y="-186.15" cocos2d_x="4.2" cocos2d_y="-186.15" kX="0" kY="0" cX="0.78" cY="0.34" pX="0" pY="0" z="1" dI="0" blend="add" dr="10">
+      <colorTransform a="0" r="255" g="255" b="255" aM="0.91" rM="1" gM="1" bM="1"/>
+     </f>
+     <f x="4.2" y="-186.15" cocos2d_x="4.2" cocos2d_y="-186.15" kX="0" kY="0" cX="0.78" cY="0.34" pX="0" pY="0" z="1" dI="0" blend="add" twE="0" dr="3">
+      <colorTransform a="0" r="255" g="255" b="255" aM="0.91" rM="1" gM="1" bM="1"/>
+     </f>
+     <f x="4.2" y="-186.15" cocos2d_x="4.2" cocos2d_y="-186.15" kX="0" kY="0" cX="0.78" cY="0.34" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+     </f>
+    </b>
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="5.85" y="-186.65" cocos2d_x="5.85" cocos2d_y="-186.65" kX="0" kY="0" cX="0.89" cY="0.46" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="2"/>
+     <f x="5.85" y="-186.65" cocos2d_x="5.85" cocos2d_y="-186.65" kX="0" kY="0" cX="1.35" cY="0.7" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="13"/>
+     <f x="5.85" y="-186.65" cocos2d_x="5.85" cocos2d_y="-186.65" kX="0" kY="0" cX="1.81" cY="0.94" pX="0" pY="0" z="2" dI="0" blend="add" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0.09" rM="1" gM="1" bM="1"/>
+     </f>
+     <f dr="7" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="致盲putout" width="256" height="256">
+  <SubTexture name="file-fsdf" width="149" height="148" x="0" y="0" cocos2d_pX="74.5" cocos2d_pY="74"/>
+  <SubTexture name="file-DG" width="98" height="98" x="151" y="0" cocos2d_pX="49" cocos2d_pY="49"/>
+  <SubTexture name="file-yjd" width="112" height="41" x="0" y="150" cocos2d_pX="56" cocos2d_pY="20.5"/>
+ </TextureAtlas>
+</skeleton>

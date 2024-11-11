@@ -1,0 +1,33 @@
+<skeleton name="受击每个人身上的" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-5.2" y="-94.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0">
+        <d name="xxx-zhangweifilesMHX03" />
+        <d name="xxx-zhangweifilesMHX02" />
+        <d name="xxx-zhangweifilesMHX04" />
+        <d name="xxx-zhangweifilesMHX05" />
+        <d name="xxx-zhangweifilesMHX06" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="fdsafsdfa" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-5.2" y="-94.95" cocos2d_x="-5.2" cocos2d_y="-94.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="0" dr="2" />
+          <f x="41.15" y="-107.3" cocos2d_x="41.15" cocos2d_y="-107.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="17.45" y="-105.25" cocos2d_x="17.45" cocos2d_y="-105.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="2" dr="2" />
+          <f x="-6.25" y="-93.95" cocos2d_x="-6.2" cocos2d_y="-93.9" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-2.1" y="-90.85" cocos2d_x="-2.1" cocos2d_y="-90.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="4" dr="3" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="受击每个人身上的" width="512" height="512">
+    <SubTexture name="xxx-zhangweifilesMHX06" width="210" height="153" x="287" y="207" cocos2d_pX="105.05" cocos2d_pY="76.25" />
+    <SubTexture name="xxx-zhangweifilesMHX05" width="212" height="150" x="0" y="327" cocos2d_pX="102.20" cocos2d_pY="74.20" />
+    <SubTexture name="xxx-zhangweifilesMHX04" width="286" height="166" x="0" y="160" cocos2d_pX="142.15" cocos2d_pY="77.60" />
+    <SubTexture name="xxx-zhangweifilesMHX02" width="316" height="159" x="0" y="0" cocos2d_pX="155.10" cocos2d_pY="79.25" />
+    <SubTexture name="xxx-zhangweifilesMHX03" width="161" height="206" x="317" y="0" cocos2d_pX="80.35" cocos2d_pY="103.00" />
+  </TextureAtlas>
+</skeleton>

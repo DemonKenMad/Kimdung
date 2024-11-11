@@ -1,0 +1,66 @@
+<skeleton name="郭襄技能1受击输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="werwqerdf" x="90.45" y="-98.15" kX="-41.72" kY="-27.99" cX="0.54" cY="0.08" pX="28.8" pY="-23.15" z="0">
+        <d name="xxx/muguangs1s55s28683" isArmature="1" />
+      </b>
+      <b name="wqerwq" x="33.15" y="-55.9" kX="98.5" kY="-155.51" cX="0.51" cY="0.18" pX="28.35" pY="-23.1" z="1">
+        <d name="xxx/muguangs1s55s28683" isArmature="1" />
+      </b>
+      <b name="qrewr" x="46.1" y="-28.05" kX="-77.5" kY="-1.15" cX="0.67" cY="0.29" pX="28.1" pY="-21.55" z="2">
+        <d name="xxx/muguangs1s55s28683" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/muguangs1s55s28683" isLoop="play once" startFrame="1">
+      <b name="adsfsdaf" x="29.6" y="-15.8" kX="0" kY="0" cX="2" cY="2" pX="51" pY="46.5" z="0">
+        <d name="xxx-sdxxcxvddxc" />
+        <d name="xxx-xcxcsxcxc" />
+        <d name="xxx-xcxcxddax" />
+        <d name="xxx-s" />
+        <d name="xxx-xcvbggsd" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/muguangs1s55s28683">
+      <mov name="dfafdadf" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="adsfsdaf" sc="1" dl="0">
+          <f x="29.6" y="-15.8" cocos2d_x="-72.4" cocos2d_y="-108.8" kX="0" kY="0" cX="2" cY="2" pX="51" pY="46.5" z="0" dI="0" dr="2" />
+          <f x="8.2" y="-14.6" cocos2d_x="-114.8" cocos2d_y="-108.6" kX="0" kY="0" cX="2" cY="2" pX="61.5" pY="47" z="0" dI="1" dr="2" />
+          <f x="6.2" y="-9.5" cocos2d_x="-117.8" cocos2d_y="-108.5" kX="0" kY="0" cX="2" cY="2" pX="62" pY="49.5" z="0" dI="2" dr="2" />
+          <f x="-1.9" y="-2.7" cocos2d_x="-128.9" cocos2d_y="-97.7" kX="0" kY="0" cX="2" cY="2" pX="63.5" pY="47.5" z="0" dI="3" dr="2" />
+          <f x="-18.8" y="30.6" cocos2d_x="-144.8" cocos2d_y="-30.4" kX="0" kY="0" cX="2" cY="2" pX="63" pY="30.5" z="0" dI="4" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsfadsfagf" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="werwqerdf" sc="1" dl="0">
+          <f x="90.45" y="-98.15" cocos2d_x="77.85" cocos2d_y="-89.45" kX="-41.72" kY="-27.99" cX="0.54" cY="0.08" fst="0" pX="28.8" pY="-23.15" z="0" dI="0" dr="2" />
+          <f x="90.45" y="-98.1" cocos2d_x="57.75" cocos2d_y="-75.5" kX="-41.72" kY="-27.99" cX="1.41" cY="0.2" fst="2" pX="28.7" pY="-23.15" z="0" dI="0" dr="8" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="wqerwq" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="33.15" y="-55.9" cocos2d_x="42.1" cocos2d_y="-50.55" kX="98.5" kY="-155.51" cX="0.51" cY="0.18" fst="0" pX="28.35" pY="-23.1" z="1" dI="0" dr="2" />
+          <f x="33.1" y="-56" cocos2d_x="62.45" cocos2d_y="-38.4" kX="98.5" kY="-155.51" cX="1.65" cY="0.59" fst="2" pX="28.7" pY="-23.55" z="1" dI="0" dr="8" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="qrewr" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="46.1" y="-28.05" cocos2d_x="33.55" cocos2d_y="-26.3" kX="-77.5" kY="-1.15" cX="0.67" cY="0.29" fst="0" pX="28.1" pY="-21.55" z="2" dI="0" dr="2" />
+          <f x="46.15" y="-28.05" cocos2d_x="10.75" cocos2d_y="-23.25" kX="-77.49" kY="-1.15" cX="1.86" cY="0.82" fst="2" pX="28.15" pY="-21.1" z="2" dI="0" dr="8" />
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郭襄技能1受击输出" width="256" height="256">
+    <SubTexture name="xxx-xcvbggsd" width="114" height="50" x="0" y="175" cocos2d_pX="-4.00" cocos2d_pY="-6.00" />
+    <SubTexture name="xxx-s" width="114" height="85" x="93" y="89" cocos2d_pX="-6.00" cocos2d_pY="-5.00" />
+    <SubTexture name="xxx-xcxcxddax" width="112" height="88" x="114" y="0" cocos2d_pX="-7.00" cocos2d_pY="-6.00" />
+    <SubTexture name="xxx-xcxcsxcxc" width="113" height="87" x="0" y="0" cocos2d_pX="-6.00" cocos2d_pY="-2.00" />
+    <SubTexture name="xxx-sdxxcxvddxc" width="92" height="86" x="0" y="88" cocos2d_pX="-5.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,63 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CKnightMsg";
+
+
+//浪人武士信息
+//code = 0x7a01
+message KnightInfo{
+	required int32 type = 1;   //武士类型
+	required int32 level = 2;   //武士等级
+	required int64 timeLeft = 3;   //剩余时间
+	optional int32 leaveTime = 4;  //剩餘挑戰次數
+}
+
+//浪人武士排行榜
+//code = 0x7a02
+message KnightRankList{
+	repeated KnightRankInfo info = 1;
+}
+
+//浪人排行榜个人信息
+message KnightRankInfo{
+	required int32 playerId = 1;
+	required int32 rank = 2;   //排名
+	required int32 routLevel = 3; //击破等级
+	required string name = 4; //玩家名
+	required int32 headPicFrame = 5; //头像框
+	required int32 icon = 6 ;//头像
+}
+
+//浪人武士分享信息
+// code = 0x7a04
+message KnightShareInfo{
+	required int32 leaveTime = 1;	//剩余挑战次数
+	repeated KnightShareSingleInfo knightShareInfo = 2;	//武士信息
+}
+
+//单个浪人武士分享信息
+// code = 0x7a05
+message KnightShareSingleInfo{
+	required int32 sharePlayerId = 1;	//分享玩家ID
+	required KnightInfo knightInfo = 2;	//武士信息
+	required int32 knightState = 3;		//武士状态 0 可挑战 1 挑战中 2 已挑战
+	optional KnightFightPlayerInfo info = 4;   //挑戰者信息
+	required int64 leaveHp = 5;         //剩餘血量
+	required int64 maxHp = 6;     	    //最大血量
+	required int64 instanceId = 7;      //武士实例ID
+	required string sharePlayerName = 8;      //分享者名字
+	repeated int32 eachHp = 9;        //每个NPC血量
+	repeated int32 eachMaxHp = 10;   //每个NPC最大血量
+	required ChatInfo chatInfo = 11;
+}
+
+//分享武士
+//code = 0x7a07
+message shareKnight{
+}
+
+//正在挑战的玩家信息
+message KnightFightPlayerInfo{
+	required string name = 1; //玩家名
+	required int32 icon = 2 ;//头像
+}

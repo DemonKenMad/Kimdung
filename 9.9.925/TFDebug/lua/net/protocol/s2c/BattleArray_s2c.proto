@@ -1,0 +1,66 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CBattleArrayMsg";
+
+// 阵法详细信息
+message BattleArrayInfo {
+	required int64 instanceId = 1;						// 阵法唯一ID
+	required int32 itemId = 2;							// 道具ID
+	required int32 level = 3;							// 强化等级
+	required int32 exp = 4;								// 强化经验值
+	required int32 star = 5;							// 星级
+	required int32 freeNum = 6;							// 免费易位次数
+	repeated int32 position = 7;						// 阵位位置
+}
+
+// 阵法信息
+// code = 0x6a00
+message BattleArrayReponse {
+	repeated BattleArrayInfo info = 1;					// 阵法信息
+}
+
+// 单个阵法信息
+// code = 0x6a01
+message SingleBattleArrayReponse {
+	required BattleArrayInfo info = 1;					// 阵法信息
+	required int32 type = 2;							// 1强化 2升星 3易位 4合成
+}
+
+// 阵容使用的阵法
+message BattleArrayData {
+	required int64 instanceId = 1;						// 阵法唯一ID
+	required int32 type = 2;							// 阵容类型
+}
+
+// 阵法装备信息
+// code = 0x6a02
+message BattleArrayDataReponse {
+	repeated BattleArrayData data = 1;					// 阵法装备信息
+}
+
+// 单个阵法装备信息
+// code = 0x6a03
+message SingleBattleArrayDataReponse {
+	required BattleArrayData data = 1;					// 阵法装备信息
+	required int32 type = 2;							//1 装备 2 卸下 3 交换
+}
+
+// 出售阵法
+// code = 0x6a06
+message SaleBattleArrayReponse {
+	required int64 instanceId = 1;						// 阵法唯一ID
+}
+
+//EnumFightStrategyType = {
+//	StrategyType_PVE 			= 1,					--主阵型
+//	StrategyType_BLOOY 			= 2,					--雁门关
+//	StrategyType_CHAMPIONS_ATK 	= 1,					--挑战赛攻击
+//	StrategyType_CHAMPIONS_DEF 	= 5,					--挑战赛防守
+//	StrategyType_AREAN 			= 5,					--群豪谱防守
+//	StrategyType_MINE1_DEF 		= 6,					--挖矿1
+//	StrategyType_MINE2_DEF 		= 7,					--挖矿2
+//	StrategyType_MERCENARY_TEAM = 8,					--我方派遣的雇佣队伍
+//	StrategyType_HIRE_TEAM		= 9,					--我方雇佣阵型
+//	StrategyType_DOUBLE_1		= 10,					--双阵容 一
+//	StrategyType_DOUBLE_2		= 11,					--双阵容 二
+//}

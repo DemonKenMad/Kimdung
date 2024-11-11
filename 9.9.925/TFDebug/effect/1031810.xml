@@ -1,0 +1,76 @@
+<skeleton name="慕容龙城杀意技改输出黑屏" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gsdgsdgsdgsd" x="184.75" y="-66.6" kX="0" kY="0" cX="182.69" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-sidttu22" />
+      </b>
+      <b name="fsdfgsdfdsfsd" x="-36.75" y="-164.05" kX="0" kY="0" cX="1.32" cY="1.32" pX="0" pY="0" z="1">
+        <d name="xxx/sidttu20" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sidttu20" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="-0.7" y="4.3" kX="0" kY="0" cX="150.47" cY="150.47" pX="-0.05" pY="0" z="0">
+        <d name="xxx-sidttu26" />
+      </b>
+      <b name="元件 211" x="297.45" y="223.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-sidttu02/sidttu61" />
+      </b>
+      <b name="元件 2110" x="-289.75" y="223.2" kX="0" kY="180" cX="2" cY="2" pX="0" pY="0" z="2">
+        <d name="xxx-sidttu02/sidttu61" />
+      </b>
+      <b name="元件 2111" x="-289.75" y="-154.75" kX="180" kY="180" cX="2" cY="2" pX="0" pY="0" z="3">
+        <d name="xxx-sidttu02/sidttu61" />
+      </b>
+      <b name="元件 2112" x="297.45" y="-154.75" kX="180" kY="0" cX="2" cY="2" pX="0" pY="0" z="4">
+        <d name="xxx-sidttu02/sidttu61" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sidttu20">
+      <mov name="dfgdfgdfsg" dr="1" to="0">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-0.7" y="4.3" cocos2d_x="6.8" cocos2d_y="4.3" kX="0" kY="0" cX="150.47" cY="150.47" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 211" sc="1" dl="0">
+          <f x="297.45" y="223.2" cocos2d_x="297.45" cocos2d_y="223.2" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 2110" sc="1" dl="0">
+          <f x="-289.75" y="223.2" cocos2d_x="-289.75" cocos2d_y="223.2" kX="0" kY="180" cX="2" cY="2" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 2111" sc="1" dl="0">
+          <f x="-289.75" y="-154.75" cocos2d_x="-289.75" cocos2d_y="-154.75" kX="180" kY="180" cX="2" cY="2" fst="0" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 2112" sc="1" dl="0">
+          <f x="297.45" y="-154.75" cocos2d_x="297.45" cocos2d_y="-154.75" kX="180" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dfjkjkkgfyhuf" dr="44" to="0" drTW="44" lp="0" twE="NaN">
+        <b name="gsdgsdgsdgsd" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="184.75" y="-66.6" cocos2d_x="184.75" cocos2d_y="-66.6" kX="0" kY="0" cX="182.69" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="14" />
+          <f x="184.75" y="-66.6" cocos2d_x="184.75" cocos2d_y="-66.6" kX="0" kY="0" cX="182.69" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.06" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="fsdfgsdfdsfsd" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-36.75" y="-164.05" cocos2d_x="-36.75" cocos2d_y="-164.05" kX="0" kY="0" cX="1.32" cY="1.32" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="6" />
+          <f x="-36.75" y="-164.05" cocos2d_x="-36.75" cocos2d_y="-164.05" kX="0.53" kY="0.53" cX="1.28" cY="1.28" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="4" />
+          <f x="-36.75" y="-164.05" cocos2d_x="-36.75" cocos2d_y="-164.05" kX="0.8" kY="0.8" cX="1.26" cY="1.26" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="7" />
+          <f x="-36.7" y="-164" cocos2d_x="-36.7" cocos2d_y="-164" kX="1.55" kY="1.55" cX="1.24" cY="1.24" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="2" />
+          <f x="-36.75" y="-164.05" cocos2d_x="-36.75" cocos2d_y="-164.05" kX="1.95" kY="1.95" cX="1.23" cY="1.23" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="20" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="慕容龙城杀意技改输出黑屏" width="512" height="512">
+    <SubTexture name="xxx-sidttu02/sidttu61" width="443" height="479" x="0" y="0" cocos2d_pX="226.50" cocos2d_pY="239.55" />
+    <SubTexture name="xxx-sidttu26" width="18" height="18" x="444" y="0" cocos2d_pX="8.80" cocos2d_pY="8.75" />
+    <SubTexture name="xxx-sidttu22" width="7" height="7" x="463" y="0" cocos2d_pX="3.50" cocos2d_pY="3.50" />
+  </TextureAtlas>
+</skeleton>

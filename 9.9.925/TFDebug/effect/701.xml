@@ -1,0 +1,50 @@
+<skeleton name="南海恶神2014" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 14" x="112.4" y="-115.15" kX="87.81" kY="87.81" cX="1" cY="0.69" pX="0" pY="0" z="0">
+        <d name="file-quan" />
+      </b>
+      <b name="图层 14 复制" x="132.15" y="-111.5" kX="87.81" kY="87.81" cX="0.81" cY="0.56" pX="0" pY="0" z="1">
+        <d name="file-quan" />
+      </b>
+      <b name="图层 13 复制" x="142.45" y="-119.25" kX="85.99" kY="85.99" cX="0.69" cY="0.17" pX="0" pY="0" z="2">
+        <d name="file-gy" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ft" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="112.4" y="-115.15" cocos2d_x="112.4" cocos2d_y="-115.15" kX="87.81" kY="87.81" cX="1" cY="0.69" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="112.4" y="-115.15" cocos2d_x="112.4" cocos2d_y="-115.15" kX="87.81" kY="87.81" cX="1.23" cY="0.85" pX="0" pY="0" z="0" dI="0" twE="0" dr="8" />
+          <f x="93.4" y="-116.15" cocos2d_x="93.4" cocos2d_y="-116.15" kX="87.81" kY="87.81" cX="1.48" cY="1.02" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 14 复制" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="132.15" y="-111.5" cocos2d_x="132.15" cocos2d_y="-111.5" kX="87.81" kY="87.81" cX="0.81" cY="0.56" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" />
+          <f x="132.15" y="-111.5" cocos2d_x="132.15" cocos2d_y="-111.5" kX="87.81" kY="87.81" cX="1" cY="0.69" pX="0" pY="0" z="1" dI="0" twE="0" dr="6" />
+          <f x="119.15" y="-113.25" cocos2d_x="119.15" cocos2d_y="-113.25" kX="87.81" kY="87.81" cX="1.2" cY="0.83" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 13 复制" sc="1" dl="0">
+          <f x="142.45" y="-119.25" cocos2d_x="142.45" cocos2d_y="-119.25" kX="85.99" kY="85.99" cX="0.69" cY="0.17" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="1" />
+          <f x="142.45" y="-119.25" cocos2d_x="142.45" cocos2d_y="-119.25" kX="85.99" kY="85.99" cX="1.2" cY="0.3" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="6" />
+          <f x="138.45" y="-119.25" cocos2d_x="138.45" cocos2d_y="-119.25" kX="85.99" kY="85.99" cX="0.58" cY="0.15" pX="0" pY="0" z="2" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.22" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="南海恶神2014" width="256" height="512">
+    <SubTexture name="file-gy" width="180" height="180" x="0" y="0" cocos2d_pX="90.00" cocos2d_pY="90.00" />
+    <SubTexture name="file-quan" width="200" height="81" x="0" y="181" cocos2d_pX="100.00" cocos2d_pY="38.00" />
+  </TextureAtlas>
+</skeleton>

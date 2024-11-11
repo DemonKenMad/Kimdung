@@ -1,0 +1,17 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SBuyBackMsg";
+
+
+//code = 0x5b01
+//限时抢购信息
+message BuyBackInfoRequest{
+
+}
+
+// code = 0x5b02
+// 满减返现购买
+message BuyBackBuyRequest{
+	required int32 goodsId = 1;			//商品id
+	required int32 num = 2;				//数量
+}

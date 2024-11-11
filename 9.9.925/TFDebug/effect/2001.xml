@@ -1,0 +1,25 @@
+<skeleton name="未命名-1" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="142.3" y="-64.45" kX="0" kY="0" cX="1.32" cY="1.32" pX="106.5" pY="0.5" z="0">
+        <d name="sad-attack11"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="142.3" y="-64.45" cocos2d_x="2.2" cocos2d_y="-65.1" kX="0" kY="0" cX="1.32" cY="1.32" pX="106.5" pY="0.5" z="0" dI="0" twE="0" dr="2"/>
+          <f x="144.95" y="-64.45" cocos2d_x="4.85" cocos2d_y="-65.1" kX="0" kY="0" cX="1.32" cY="1.32" pX="106.45" pY="0.5" z="0" dI="0" twE="0" dr="4"/>
+          <f x="150.3" y="-64.45" cocos2d_x="10.2" cocos2d_y="-65.1" kX="0" kY="0" cX="1.32" cY="1.32" pX="106.5" pY="0.5" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="未命名-1" width="256" height="128">
+    <SubTexture name="sad-attack11" width="250" height="118" x="0" y="0" cocos2d_pX="18.5" cocos2d_pY="58.5"/>
+  </TextureAtlas>
+</skeleton>

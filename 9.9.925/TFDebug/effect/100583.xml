@@ -1,0 +1,83 @@
+<skeleton name="丐帮长老2技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 11" x="284.95" y="-9.45" kX="0" kY="0" cX="1.56" cY="1.56" pX="21.85" pY="3.15" z="0">
+        <d name="xzx/dsasdas" isArmature="1" />
+      </b>
+      <b name="toufa" x="174.85" y="7.05" kX="-32.96" kY="-32.96" cX="1.65" cY="1.65" pX="41.95" pY="71" z="1">
+        <d name="xzx-1w" />
+      </b>
+      <b name="图层 2" x="-150.95" y="-151.95" kX="113.89" kY="113.89" cX="3.68" cY="3.68" pX="0" pY="0" z="2">
+        <d name="xzx-yq" />
+        <d name="xzx-1543054" />
+        <d name="xzx-42054" />
+        <d name="xzx-543254034" />
+      </b>
+    </armature>
+    <armature name="xzx/dsasdas" isLoop="play once" startFrame="1">
+      <b name="图层 3" x="30.5" y="-62.05" kX="0" kY="0" cX="1.92" cY="1.92" pX="0" pY="0" z="0">
+        <d name="xzx-h" />
+        <d name="xzx-元件 1" />
+        <d name="xzx-元件 2" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xzx/dsasdas">
+      <mov name="jz" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="30.5" y="-62.05" cocos2d_x="30.5" cocos2d_y="-62.05" kX="0" kY="0" cX="1.92" cY="1.92" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="80.7" y="-70.55" cocos2d_x="80.7" cocos2d_y="-70.55" kX="0" kY="0" cX="2.15" cY="2.15" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2" />
+          <f x="122.85" y="-99.8" cocos2d_x="122.85" cocos2d_y="-99.8" kX="0" kY="0" cX="2.49" cY="2.49" pX="0" pY="0" z="0" dI="2" blend="normal" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="35" to="0" drTW="35" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="284.95" y="-9.45" cocos2d_x="250.9" cocos2d_y="-14.35" kX="0" kY="0" cX="1.56" cY="1.56" fst="0" pX="21.85" pY="3.15" z="0" dI="0" dr="21" />
+        </b>
+        <b name="toufa" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="174.85" y="7.05" cocos2d_x="53.2" cocos2d_y="-53.4" kX="-32.96" kY="-32.96" cX="1.65" cY="1.65" pX="41.95" pY="71" z="1" dI="0" blend="normal" dr="2" />
+          <f x="82.95" y="-258.9" cocos2d_x="174.8" cocos2d_y="-135.6" kX="173.95" kY="173.95" cX="1.87" cY="1.87" pX="42" pY="70.85" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-12.15" y="-248.95" cocos2d_x="131.2" cocos2d_y="-192.95" kX="142" kY="142" cX="1.87" cY="1.87" pX="42.05" pY="70.95" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-55.15" y="-245" cocos2d_x="92.15" cocos2d_y="-200.7" kX="137.41" kY="137.41" cX="1.87" cY="1.87" pX="42.05" pY="70.85" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-80.1" y="-229.05" cocos2d_x="36.45" cocos2d_y="-225.5" kX="122.41" kY="122.41" cX="1.41" cY="1.41" pX="42" pY="70.9" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-92.1" y="-228" cocos2d_x="-0.55" cocos2d_y="-255.15" kX="97" kY="122" cX="0.99" cY="0.99" pX="42.6" pY="70.55" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-150.95" y="-151.95" cocos2d_x="-150.95" cocos2d_y="-151.95" kX="113.89" kY="113.89" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-150.95" y="-153.95" cocos2d_x="-150.95" cocos2d_y="-153.95" kX="-172.91" kY="-172.91" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-148.95" y="-155.95" cocos2d_x="-148.95" cocos2d_y="-155.95" kX="-62.05" kY="-62.05" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-146.95" y="-152.95" cocos2d_x="-146.95" cocos2d_y="-152.95" kX="38.97" kY="38.97" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-153.95" y="-128.95" cocos2d_x="-153.95" cocos2d_y="-128.95" kX="111.67" kY="111.67" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-175.95" y="-110.95" cocos2d_x="-175.95" cocos2d_y="-110.95" kX="179.94" kY="179.94" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-189.95" y="-92.95" cocos2d_x="-189.95" cocos2d_y="-92.95" kX="114.5" kY="114.5" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-187.95" y="-76.95" cocos2d_x="-187.95" cocos2d_y="-76.95" kX="-148.55" kY="-148.55" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-191.95" y="-69.95" cocos2d_x="-191.95" cocos2d_y="-69.95" kX="112.45" kY="112.45" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-189.95" y="-72.95" cocos2d_x="-189.95" cocos2d_y="-72.95" kX="2.94" kY="2.94" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+          <f x="-52.9" y="-47.1" cocos2d_x="-52.9" cocos2d_y="-47.1" kX="0" kY="0" cX="1.38" cY="1.38" fst="0" pX="0" pY="0" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="-86.4" y="-45.9" cocos2d_x="-86.4" cocos2d_y="-45.9" kX="0" kY="0" cX="1.52" cY="1.52" fst="0" pX="0" pY="0" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="-109.3" y="-47.55" cocos2d_x="-109.3" cocos2d_y="-47.55" kX="0" kY="0" cX="1.79" cY="1.79" fst="0" pX="0" pY="0" z="2" dI="3" dr="2" />
+          <f dr="17" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="丐帮长老2技能" width="512" height="256">
+    <SubTexture name="xzx-元件 2" width="88" height="109" x="239" y="93" cocos2d_pX="43.15" cocos2d_pY="54.35" />
+    <SubTexture name="xzx-元件 1" width="122" height="92" x="239" y="0" cocos2d_pX="60.90" cocos2d_pY="45.80" />
+    <SubTexture name="xzx-h" width="121" height="102" x="117" y="0" cocos2d_pX="60.35" cocos2d_pY="51.20" />
+    <SubTexture name="xzx-543254034" width="128" height="66" x="328" y="145" cocos2d_pX="70.00" cocos2d_pY="32.00" />
+    <SubTexture name="xzx-42054" width="138" height="70" x="362" y="0" cocos2d_pX="66.00" cocos2d_pY="29.00" />
+    <SubTexture name="xzx-1543054" width="134" height="73" x="362" y="71" cocos2d_pX="64.00" cocos2d_pY="32.00" />
+    <SubTexture name="xzx-yq" width="80" height="80" x="117" y="103" cocos2d_pX="40.00" cocos2d_pY="40.00" />
+    <SubTexture name="xzx-1w" width="116" height="154" x="0" y="0" cocos2d_pX="50.15" cocos2d_pY="128.00" />
+  </TextureAtlas>
+</skeleton>

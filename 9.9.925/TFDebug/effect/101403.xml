@@ -1,0 +1,127 @@
+<skeleton name="温家老四技能特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 8" x="376.85" y="-50.1" kX="99.35" kY="-56.3" cX="1.1" cY="1.26" pX="70.4" pY="-21.95" z="0">
+        <d name="dsadsa/bianshanguang" isArmature="1" />
+      </b>
+      <b name="图层 7" x="253.15" y="-80.65" kX="-88.89" kY="-49.79" cX="1.91" cY="2.62" pX="70.3" pY="-22.1" z="1">
+        <d name="dsadsa/bianshanguang" isArmature="1" />
+      </b>
+      <b name="图层 1" x="179" y="-51.65" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="2">
+        <d name="dsadsa/dsadsad" isArmature="1" />
+        <d name="dsadsa/bianshanguang" isArmature="1" />
+      </b>
+      <b name="图层 10" x="265" y="-43.65" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="3">
+        <d name="dsadsa/dsadsad" isArmature="1" />
+        <d name="dsadsa/bianshanguang" isArmature="1" />
+      </b>
+      <b name="图层 2" x="287.4" y="-48.65" kX="94.26" kY="-49.26" cX="1.4" cY="1.62" pX="0" pY="0" z="4">
+        <d name="dsadsa-bujian 1" />
+      </b>
+      <b name="图层 11" x="289.95" y="-67.65" kX="36.65" kY="0" cX="1.72" cY="2.14" pX="11.45" pY="-37.5" z="5">
+        <d name="dsadsa/dsadsad" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dsadsa/bianshanguang" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="70.35" y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="65" pY="50.5" z="0">
+        <d name="dsadsa-baozha_00000.png" />
+        <d name="dsadsa-baozha_00002.png" />
+        <d name="dsadsa-bujian 3" />
+        <d name="dsadsa-bujian 4" />
+      </b>
+      <b name="图层 2" x="70.35" y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="dsadsa-bujian 1" />
+        <d name="dsadsa-bujian 2" />
+      </b>
+    </armature>
+    <armature name="dsadsa/dsadsad" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-7.5" y="-32.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dsadsa-dsasadasdas" />
+        <d name="dsadsa-fdgdfsgds" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dsadsa/bianshanguang">
+      <mov name="dsadsa" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="70.35" y="-22.15" cocos2d_x="5.35" cocos2d_y="-72.65" kX="0" kY="0" cX="1" cY="1" pX="65" pY="50.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="92.4" y="-35.65" cocos2d_x="-6.35" cocos2d_y="-134.4" kX="0" kY="0" cX="0.79" cY="0.79" pX="125" pY="125" z="0" dI="1" dr="2" />
+          <f x="115.8" y="-40.65" cocos2d_x="115.8" cocos2d_y="-40.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" twE="0" dr="2" />
+          <f x="115.8" y="-40.65" cocos2d_x="115.8" cocos2d_y="-40.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="70.35" y="-22.15" cocos2d_x="70.35" cocos2d_y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" />
+          <f x="70.35" y="-22.15" cocos2d_x="70.35" cocos2d_y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="3" />
+          <f x="70.35" y="-22.15" cocos2d_x="70.35" cocos2d_y="-22.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dsadsa/dsadsad">
+      <mov name="dsadsa" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-7.5" y="-32.5" cocos2d_x="-7.5" cocos2d_y="-32.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="11.5" y="-37.5" cocos2d_x="11.5" cocos2d_y="-37.5" kX="15.83" kY="0" cX="1.15" cY="1.2" pX="0" pY="0" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="16.5" y="-31.5" cocos2d_x="16.5" cocos2d_y="-31.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="23" to="0" drTW="23" lp="0" twE="NaN">
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="376.85" y="-50.1" cocos2d_x="306.6" cocos2d_y="9.8" kX="99.35" kY="-56.3" cX="1.1" cY="1.26" pX="70.4" pY="-21.95" z="0" dI="0" dr="5" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="253.15" y="-80.65" cocos2d_x="224.5" cocos2d_y="22.95" kX="-88.89" kY="-49.79" cX="1.91" cY="2.62" pX="70.3" pY="-22.1" z="1" dI="0" dr="5" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="179" y="-51.65" cocos2d_x="167.5" cocos2d_y="-14.15" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="2" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+          <f x="419.35" y="-71.65" cocos2d_x="291.15" cocos2d_y="19.2" kX="91.11" kY="-47.72" cX="1.76" cY="2.03" pX="70.3" pY="-22.1" z="2" dI="1" dr="5" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="265" y="-43.65" cocos2d_x="253.5" cocos2d_y="-6.15" kX="0" kY="0" cX="1" cY="1" pX="11.5" pY="-37.5" z="3" dI="0" dr="4" />
+          <f x="305.15" y="-37.25" cocos2d_x="260.3" cocos2d_y="18.55" kX="91.11" kY="-69.81" cX="0.85" cY="1.09" pX="70.35" pY="-22.1" z="3" dI="1" dr="5" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="287.4" y="-48.65" cocos2d_x="287.4" cocos2d_y="-48.65" kX="94.26" kY="-49.26" cX="1.4" cY="1.62" pX="0" pY="0" z="4" dI="0" blend="add" twE="0" dr="1" />
+          <f x="438.4" y="-79.3" cocos2d_x="438.4" cocos2d_y="-79.3" kX="94.25" kY="-49.36" cX="1.97" cY="2.28" pX="0" pY="0" z="4" dI="0" blend="add" twE="0" dr="1" />
+          <f x="438.4" y="-79.25" cocos2d_x="438.4" cocos2d_y="-79.25" kX="94.26" kY="-49.26" cX="1.98" cY="2.28" pX="0" pY="0" z="4" dI="0" twE="0" dr="6" />
+          <f x="438.4" y="-79.25" cocos2d_x="438.4" cocos2d_y="-79.25" kX="94.26" kY="-49.26" cX="1.98" cY="2.28" pX="0" pY="0" z="4" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.16" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="289.95" y="-67.65" cocos2d_x="222.2" cocos2d_y="-3.15" kX="36.65" kY="0" cX="1.72" cY="2.14" pX="11.45" pY="-37.5" z="5" dI="0" dr="4" />
+          <f dr="6" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="温家老四技能特效" width="512" height="512">
+    <SubTexture name="dsadsa-fdgdfsgds" width="219" height="94" x="131" y="304" cocos2d_pX="105.00" cocos2d_pY="55.00" />
+    <SubTexture name="dsadsa-dsasadasdas" width="192" height="104" x="0" y="178" cocos2d_pX="81.00" cocos2d_pY="49.00" />
+    <SubTexture name="dsadsa-bujian 2" width="130" height="101" x="0" y="283" cocos2d_pX="65.00" cocos2d_pY="50.50" />
+    <SubTexture name="dsadsa-bujian 4" width="176" height="151" x="218" y="0" cocos2d_pX="88.00" cocos2d_pY="75.20" />
+    <SubTexture name="dsadsa-bujian 3" width="176" height="151" x="218" y="152" cocos2d_pX="88.00" cocos2d_pY="75.20" />
+    <SubTexture name="dsadsa-baozha_00002.png" width="217" height="177" x="0" y="0" cocos2d_pX="-33.00" cocos2d_pY="-36.00" />
+    <SubTexture name="dsadsa-baozha_00000.png" width="130" height="101" x="351" y="304" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsadsa-bujian 1" width="130" height="101" x="0" y="385" cocos2d_pX="65.00" cocos2d_pY="50.50" />
+  </TextureAtlas>
+</skeleton>

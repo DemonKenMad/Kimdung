@@ -1,0 +1,25 @@
+<skeleton name="郑克爽普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="96.3" y="-96.2" kX="0" kY="0" cX="1.37" cY="1.37" pX="140.95" pY="-2" z="0">
+        <d name="xzx-1q" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="96.3" y="-96.2" cocos2d_x="-96.5" cocos2d_y="-93.45" kX="0" kY="0" cX="1.37" cY="1.37" pX="140.95" pY="-2" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="184.4" y="-93.3" cocos2d_x="43.45" cocos2d_y="-92.4" kX="0" kY="0" cX="1" cY="0.46" pX="141.05" pY="-1.95" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="225.4" y="-92.3" cocos2d_x="110.3" cocos2d_y="-92.1" kX="0" kY="0" cX="0.82" cY="0.12" pX="141" pY="-1.6" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="11" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郑克爽普攻" width="512" height="128">
+    <SubTexture name="xzx-1q" width="318" height="83" x="0" y="0" cocos2d_pX="160.00" cocos2d_pY="40.00" />
+  </TextureAtlas>
+</skeleton>

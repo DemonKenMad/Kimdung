@@ -1,0 +1,87 @@
+<skeleton name="何足道主技能受击底层输出A01" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="sdfsf" x="-63.9" y="25.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sdf04" isArmature="1" />
+      </b>
+      <b name="fsdfsdaf" x="-33.9" y="25.15" kX="0" kY="0" cX="0.63" cY="0.63" pX="0" pY="0" z="1">
+        <d name="xxx/sdf04" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdf04" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="366" y="422.05" kX="0" kY="0" cX="100" cY="100" pX="291.9" pY="279.9" z="0">
+        <d name="xxx-sdf02/sdf15" />
+      </b>
+      <b name="图层 2 复制" x="42.45" y="53.55" kX="0" kY="0" cX="9.09" cY="9.09" pX="165.5" pY="60.4" z="1">
+        <d name="xxx-sdf02/sdf07" />
+        <d name="xxx-sdf02/sdf09" />
+        <d name="xxx-sdf02/sdf11" />
+        <d name="xxx-sdf02/sdf13" />
+      </b>
+      <b name="图层 2" x="12.15" y="49.7" kX="0" kY="0" cX="7.31" cY="7.31" pX="165.7" pY="59.45" z="2">
+        <d name="xxx-sdf02/sdf05" />
+        <d name="xxx-sdf02/sdf07" />
+        <d name="xxx-sdf02/sdf09" />
+        <d name="xxx-sdf02/sdf11" />
+        <d name="xxx-sdf02/sdf13" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdf04">
+      <mov name="fsdgsdfsdfgsd" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="366" y="422.05" cocos2d_x="-28839" cocos2d_y="-27582.95" kX="0" kY="0" cX="100" cY="100" pX="291.9" pY="279.9" z="0" dI="0" dr="19" />
+        </b>
+        <b name="图层 2 复制" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="42.45" y="53.55" cocos2d_x="-1461.25" cocos2d_y="-495.25" kX="0" kY="0" cX="9.09" cY="9.09" pX="165.5" pY="60.4" z="1" dI="0" blend="darken" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="128.8" y="45.6" cocos2d_x="-1493.05" cocos2d_y="-500.45" kX="0" kY="0" cX="9.09" cY="9.09" pX="178.55" pY="60.1" z="1" dI="1" blend="darken" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="58.35" y="33.4" cocos2d_x="-1658.9" cocos2d_y="-520.4" kX="0" kY="0" cX="9.09" cY="9.09" pX="189" pY="61" z="1" dI="2" blend="darken" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="22" y="35.85" cocos2d_x="-1649.8" cocos2d_y="-486.6" kX="0" kY="0" cX="9.09" cY="9.09" pX="184" pY="57.5" z="1" dI="3" blend="darken" twE="0" dr="9">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="22" y="36.05" cocos2d_x="-1922.4" cocos2d_y="-571.55" kX="0" kY="0" cX="10.57" cY="10.57" pX="184.05" pY="57.5" z="1" dI="3" blend="darken" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="12.15" y="49.7" cocos2d_x="-1199.1" cocos2d_y="-384.85" kX="0" kY="0" cX="7.31" cY="7.31" pX="165.7" pY="59.45" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="38.45" y="52.8" cocos2d_x="-1171.3" cocos2d_y="-388.7" kX="0" kY="0" cX="7.31" cY="7.31" pX="165.5" pY="60.35" z="2" dI="1" blend="add" dr="1" twE="NaN" />
+          <f x="107.9" y="46.4" cocos2d_x="-1196.9" cocos2d_y="-392.9" kX="0" kY="0" cX="7.31" cY="7.31" pX="178.5" pY="60.1" z="2" dI="2" blend="add" dr="2" />
+          <f x="51.25" y="36.6" cocos2d_x="-1330.3" cocos2d_y="-408.95" kX="0" kY="0" cX="7.31" cY="7.31" pX="189" pY="60.95" z="2" dI="3" blend="add" dr="2" />
+          <f x="22" y="38.55" cocos2d_x="-1323" cocos2d_y="-381.75" kX="0" kY="0" cX="7.31" cY="7.31" pX="184" pY="57.45" z="2" dI="4" blend="add" twE="0" dr="9" />
+          <f x="22" y="38.75" cocos2d_x="-1542.3" cocos2d_y="-450.1" kX="0" kY="0" cX="8.5" cY="8.5" pX="184" pY="57.5" z="2" dI="4" blend="add" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="sdfsf" sc="1" dl="0">
+          <f x="-63.9" y="25.15" cocos2d_x="-63.9" cocos2d_y="25.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="19" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="fsdfsdaf" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-33.9" y="25.15" cocos2d_x="-33.9" cocos2d_y="25.15" kX="0" kY="0" cX="0.63" cY="0.63" fst="0" pX="0" pY="0" z="1" dI="0" dr="19" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="何足道主技能受击底层输出A01" width="256" height="512">
+    <SubTexture name="xxx-sdf02/sdf05" width="166" height="59" x="0" y="244" cocos2d_pX="-82.85" cocos2d_pY="-29.70" />
+    <SubTexture name="xxx-sdf02/sdf13" width="184" height="58" x="0" y="62" cocos2d_pX="-92.00" cocos2d_pY="-28.75" />
+    <SubTexture name="xxx-sdf02/sdf11" width="188" height="61" x="0" y="0" cocos2d_pX="-94.50" cocos2d_pY="-30.45" />
+    <SubTexture name="xxx-sdf02/sdf09" width="179" height="60" x="0" y="121" cocos2d_pX="-89.25" cocos2d_pY="-30.10" />
+    <SubTexture name="xxx-sdf02/sdf07" width="165" height="61" x="0" y="182" cocos2d_pX="-82.75" cocos2d_pY="-30.20" />
+    <SubTexture name="xxx-sdf02/sdf15" width="6" height="6" x="189" y="0" cocos2d_pX="-289.15" cocos2d_pY="-277.25" />
+  </TextureAtlas>
+</skeleton>

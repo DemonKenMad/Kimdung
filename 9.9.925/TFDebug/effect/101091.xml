@@ -1,0 +1,52 @@
+<skeleton name="lv3袁冠南角色普攻FX20140611-陈文明" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 21" x="-71.3" y="-84.45" kX="-83.08" kY="-42.33" cX="0.36" cY="1.19" pX="-84.6" pY="-103.8" z="0">
+        <d name="777-dg2" />
+        <d name="777-dg7" />
+      </b>
+      <b name="图层 3" x="95.8" y="-63" kX="125.1" kY="146.02" cX="0.37" cY="0.63" pX="-85.2" pY="-104.1" z="1">
+        <d name="777-dg2" />
+      </b>
+      <b name="图层 14" x="153.4" y="-67.25" kX="0" kY="0" cX="0.9" cY="1" pX="0" pY="0" z="2">
+        <d name="777-大概3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ptgj" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 21" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="-71.3" y="-84.45" cocos2d_x="74.1" cocos2d_y="-90.25" kX="-83.08" kY="-42.33" cX="0.36" cY="1.19" pX="-84.6" pY="-103.8" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-48.7" y="-78.55" cocos2d_x="-12.5" cocos2d_y="-103.7" kX="-84.66" kY="-55.14" cX="0.27" cY="0.59" pX="-120.4" pY="-29.65" z="0" dI="1" blend="normal" dr="2" />
+          <f x="-60.5" y="-81.1" cocos2d_x="-53.6" cocos2d_y="-105.05" kX="-111.75" kY="-92.85" cX="0.17" cY="0.29" pX="-120.15" pY="-29.4" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="95.8" y="-63" cocos2d_x="15.95" cocos2d_y="-82.95" kX="125.1" kY="146.02" cX="0.37" cY="0.63" pX="-85.2" pY="-104.1" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="13" dI="-1" />
+        </b>
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="153.4" y="-67.25" cocos2d_x="153.4" cocos2d_y="-67.25" kX="0" kY="0" cX="0.9" cY="1" pX="0" pY="0" z="2" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.71" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="190.9" y="-67.25" cocos2d_x="190.9" cocos2d_y="-67.25" kX="0" kY="0" cX="2.35" cY="1" pX="0" pY="0" z="2" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.96" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="319.9" y="-67.25" cocos2d_x="319.9" cocos2d_y="-67.25" kX="0" kY="0" cX="3.45" cY="1" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="lv3袁冠南角色普攻FX20140611-陈文明" width="512" height="256">
+    <SubTexture name="777-大概3" width="140" height="72" x="220" y="177" cocos2d_pX="70.00" cocos2d_pY="36.00" />
+    <SubTexture name="777-dg7" width="254" height="176" x="220" y="0" cocos2d_pX="123.95" cocos2d_pY="93.40" />
+    <SubTexture name="777-dg2" width="219" height="238" x="0" y="0" cocos2d_pX="104.70" cocos2d_pY="121.60" />
+  </TextureAtlas>
+</skeleton>

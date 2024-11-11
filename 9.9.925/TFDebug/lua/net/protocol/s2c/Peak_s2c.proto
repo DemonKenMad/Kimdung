@@ -1,0 +1,168 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CPeakMsg";
+
+//打开论剑峰
+//code = 0x7100
+message OpenPeakReponse {
+	required int32 layer = 1; 			// 层数 层数为0的时候 为默认打开论剑峰
+	repeated PeakInfo info = 2; 		// 玩家信息
+	repeated GuildpeakInfo guildInfo = 3; 	// 玩家帮派占领信息
+	required MyPeakInfo myInfo = 4;		// 自己的信息
+	repeated UnitedInfo united = 5;		// 众志成城信息
+	required int32 page = 6; 			// 页
+}
+
+message UnitedInfo {
+	required int32 layer = 1; 				// 众志成城层数
+	required int64 unitedTime = 2;			// 众志成城开始时间
+	required int32 serverId = 3; 			// 服务器ID
+	required string serverName = 4; 		// 服务器名字
+}
+
+message MyPeakInfo {
+	required int32 serverId = 1; 		// 服务器ID
+	required string serverName = 2; 	// 服务器名字
+	required int32 pos = 3; 			// 位置
+	required int32 layer = 4; 			// 层数
+	required int64 startTime = 5; 		// 占领开始时间 毫秒值
+	required int32 challenge = 6;		// 挑战次数
+	required int64 settleTime = 7;		// 结算时间
+	required int64 unitedTime = 8;		// 众志成城开始时间
+	required int32 unitedTotalIntegral = 9;	// 众志成城总积分
+	required int32 unitedIntegral = 10;	// 众志成城积分
+	required int32 integral = 11;		// 我的积分
+}
+
+message PeakInfo {
+	required int32 playerId = 1; 		// 玩家ID
+	required int32 serverId = 2; 		// 服务器ID
+	required string name = 3; 			// 玩家名字
+	required string serverName = 4; 	// 服务器名字
+	required int32 power = 5; 			// 战斗力
+	required int32 pos = 6; 			// 位置
+	required int32 layer = 7; 			// 层数
+	required int32 useIcon = 8;			// 正在使用的头像
+	required int32 headPicFrame = 9;	// 正在使用的头像框
+	required string guildName = 10;		// 帮派名称
+}
+
+message GuildpeakInfo {
+	required int32 playerId = 1; 		// 玩家ID
+	required int32 serverId = 2; 		// 服务器ID
+	required string name = 3; 			// 玩家名字
+	required int32 layer = 4; 			// 层数
+	required int32 useIcon = 5;			//正在使用的头像
+	required int32 headPicFrame = 6;	//正在使用的头像框
+}
+
+//布阵信息，只发送简单的信息，提供基础动画或者静态角色展示
+message PeakFormationInfo{
+	required int64 instanceId = 1;				// 实例ID
+	required int32 position = 2;				// 阵形位置，0~8
+	required int32 templateId = 3;				// 角色模版ID，对应配置表ID
+	required int32 quality = 4;					// 品质
+	required int32 level = 5;					// 等级
+}
+
+//查看阵眼信息
+//code = 0x7101
+message OccupiedPeakReponse {
+	optional PeakInfo info = 1; 				// 玩家信息
+	repeated PeakFormationInfo formation = 2;		// 阵容信息
+}
+
+//放弃阵眼
+//code = 0x7102
+message AbandonPeakReponse {
+	required int32 result = 1; 			// 0成功 1失败
+}
+
+//查看论剑峰战斗日志
+//code = 0x7104
+message PeakBattleLogReponse {
+	repeated PeakBattleLogInfo info = 1; // 日志信息
+}
+
+message PeakBattleLogInfo {
+	required int32 playerId = 1; 		// 玩家ID
+	required int32 serverId = 2; 		// 服务器ID
+	required string name = 3; 			// 玩家名字
+	required string serverName = 4; 	// 服务器名字
+	required int32 power = 5; 			// 战斗力
+	required int32 pos = 6; 			// 位置
+	required int32 layer = 7; 			// 层数
+	required int32 type = 8; 			// 类型 0占领成功 1占领失败 2防守成功 3防守失败
+	required int32 useIcon = 9;			// 正在使用的头像
+	required int32 headPicFrame = 10;	// 正在使用的头像框
+	required int64 battleTime = 11; 	// 战斗时间 毫秒值
+	required int32 recordId = 12;		// 录像ID
+	required string desc = 13; 			// 详情描述
+	required int32 oldLayer = 14; 		// 战斗历史层数
+}
+
+//论剑峰复仇
+//code = 0x7105
+message PeakRevengeReponse {
+	required PeakInfo info = 1; 		// 单个阵眼信息
+}
+
+//该阵眼玩家正在进行战斗
+//code = 0x7106
+message TargetBattleReponse {
+	required int32 result = 1; 			// 0战斗中 1不在战斗中
+}
+
+//论剑峰排行榜
+//code = 0x7107
+message PeakRankingReponse {
+	repeated PeakRankingInfo info = 1;	// 排行榜数据
+	required int32 myRanking = 2;		// 我的排名
+	required int32 myIntegral = 3;		// 我的积分
+	required int32 bestIntegral = 4;	// 更好奖励的积分
+}
+
+//论剑峰排行榜结构体
+message PeakRankingInfo {
+	required int32 ranking = 1; 		// 排名
+	required string name = 2; 			// 玩家名字
+	required string guildName = 3; 		// 帮派名字
+	required string serverName = 4; 	// 服务器名字
+	required int32 integral = 5; 		// 积分
+}
+
+
+//论剑峰阵眼失守
+//code = 0x7108
+message PeakFallReponse {
+
+}
+
+//论剑峰上一届最佳排名
+//code = 0x7109
+message PeakRankingHistoryReponse {
+	optional RankingHistoryInfo serverBest = 1; // 全服最佳
+	optional RankingHistoryInfo best = 2;		// 本服最佳
+}
+
+message RankingHistoryInfo {
+	required string serverName = 1; 		// 服务器名字
+	required string name = 2; 				// 名字
+	required string formation = 3;			// 阵型
+	required int32 icon = 4;				// 头像
+	required int32 headPicFrame = 5;		// 正在使用的头像框
+	required int32 power = 6; 				// 战斗力
+	required int32 ranking = 7; 			// 排行
+}
+
+//论剑峰战斗结束
+//code = 0x7110
+message PeakBattleEndReponse {
+
+}
+
+//论剑峰活动是否开启
+//code = 0x7111
+message PeakIsOpenReponse {
+	required int32 isOpen = 1; 			// 0开启 1关闭
+}

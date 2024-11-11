@@ -1,0 +1,57 @@
+<skeleton name="商城招募桌子 0428 输出 陈文明" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="桌子.png" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-VBDREBFRE BRE" />
+      </b>
+      <b name="水壶.png" x="56.45" y="355.35" kX="0" kY="0" cX="1" cY="1" pX="-2.45" pY="29" z="1">
+        <d name="xxx-vrewbvrebre" />
+      </b>
+      <b name="杯子.png" x="-215" y="352.05" kX="0" kY="0" cX="1" cY="1" pX="-7.25" pY="19.35" z="2">
+        <d name="xxx-vrwebrewb" />
+      </b>
+      <b name="酒壶.png" x="330.25" y="347.3" kX="0" kY="0" cX="1" cY="1" pX="2.4" pY="30.2" z="3">
+        <d name="xxx-vrevbrebre" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="anim" dr="38" to="0" drTW="38" lp="0" twE="NaN">
+        <b name="桌子.png" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="38" />
+        </b>
+        <b name="水壶.png" sc="1" dl="0">
+          <f x="56.45" y="355.35" cocos2d_x="58.9" cocos2d_y="326.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-2.45" pY="29" z="1" dI="0" twE="-0.97" dr="4" />
+          <f x="56.45" y="105.75" cocos2d_x="58.9" cocos2d_y="76.75" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-2.45" pY="29" z="1" dI="0" twE="0.85" dr="5" />
+          <f x="56.45" y="89.75" cocos2d_x="58.9" cocos2d_y="60.75" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-2.45" pY="29" z="1" dI="0" twE="-0.86" dr="4" />
+          <f x="56.4" y="161.75" cocos2d_x="59" cocos2d_y="133.3" kX="0" kY="0" cX="1.03" cY="0.98" fst="0" pX="-2.55" pY="29" z="1" dI="0" twE="0" dr="2" />
+          <f x="56.45" y="161.8" cocos2d_x="58.8" cocos2d_y="131.8" kX="0" kY="0" cX="0.96" cY="1.03" fst="0" pX="-2.45" pY="29" z="1" dI="0" twE="0.23" dr="3" />
+          <f x="56.45" y="161.75" cocos2d_x="58.9" cocos2d_y="132.75" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-2.45" pY="29" z="1" dI="0" dr="20" />
+        </b>
+        <b name="杯子.png" sc="1" dl="0">
+          <f x="-215" y="352.05" cocos2d_x="-207.75" cocos2d_y="332.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-7.25" pY="19.35" z="2" dI="0" twE="-0.97" dr="4" />
+          <f x="-215" y="104.05" cocos2d_x="-207.75" cocos2d_y="84.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-7.25" pY="19.35" z="2" dI="0" twE="0.85" dr="5" />
+          <f x="-215" y="88.05" cocos2d_x="-207.75" cocos2d_y="68.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-7.25" pY="19.35" z="2" dI="0" twE="-0.86" dr="4" />
+          <f x="-215" y="160.05" cocos2d_x="-207.6" cocos2d_y="141.65" kX="0" kY="0" cX="1.02" cY="0.95" fst="0" pX="-7.25" pY="19.35" z="2" dI="0" twE="0" dr="2" />
+          <f x="-215" y="160.05" cocos2d_x="-207.9" cocos2d_y="140.35" kX="0" kY="0" cX="0.98" cY="1.02" fst="0" pX="-7.25" pY="19.35" z="2" dI="0" twE="0.23" dr="3" />
+          <f x="-215" y="160.05" cocos2d_x="-207.75" cocos2d_y="140.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-7.25" pY="19.35" z="2" dI="0" dr="20" />
+        </b>
+        <b name="酒壶.png" sc="1" dl="0">
+          <f x="330.25" y="347.3" cocos2d_x="327.85" cocos2d_y="317.1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="2.4" pY="30.2" z="3" dI="0" twE="-0.97" dr="4" />
+          <f x="330.25" y="104.1" cocos2d_x="327.85" cocos2d_y="73.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="2.4" pY="30.2" z="3" dI="0" twE="0.85" dr="5" />
+          <f x="330.25" y="88.1" cocos2d_x="327.85" cocos2d_y="57.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="2.4" pY="30.2" z="3" dI="0" twE="-0.86" dr="4" />
+          <f x="330.25" y="153.85" cocos2d_x="327.8" cocos2d_y="125.1" kX="0" kY="0" cX="1.02" cY="0.95" fst="0" pX="2.4" pY="30.35" z="3" dI="0" twE="0" dr="2" />
+          <f x="330.25" y="153.7" cocos2d_x="327.9" cocos2d_y="122.25" kX="0" kY="0" cX="0.99" cY="1.04" fst="0" pX="2.4" pY="30.2" z="3" dI="0" twE="0.23" dr="3" />
+          <f x="330.25" y="153.7" cocos2d_x="327.85" cocos2d_y="123.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="2.4" pY="30.2" z="3" dI="0" dr="20" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="商城招募桌子 0428 输出 陈文明" width="1024" height="256">
+    <SubTexture name="xxx-vrevbrebre" width="102" height="93" x="841" y="0" cocos2d_pX="52.05" cocos2d_pY="45.60" />
+    <SubTexture name="xxx-vrwebrewb" width="63" height="48" x="944" y="0" cocos2d_pX="28.10" cocos2d_pY="21.45" />
+    <SubTexture name="xxx-vrewbvrebre" width="86" height="83" x="841" y="94" cocos2d_pX="40.40" cocos2d_pY="40.85" />
+    <SubTexture name="xxx-VBDREBFRE BRE" width="840" height="183" x="0" y="0" cocos2d_pX="362.55" cocos2d_pY="-137.10" />
+  </TextureAtlas>
+</skeleton>

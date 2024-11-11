@@ -1,0 +1,79 @@
+<skeleton name="神仙姐姐小特效底层(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="0.15" y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifilesCG03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG03" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-0.55" y="-7.35" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweifilesCG04" />
+        <d name="xxx-zhangweifilesCG05" />
+        <d name="xxx-zhangweifilesCG06" />
+        <d name="xxx-zhangweifilesCG07" />
+        <d name="xxx-zhangweifilesCG08" />
+        <d name="xxx-zhangweifilesCG09" />
+        <d name="xxx-zhangweifilesCG10" />
+        <d name="xxx-zhangweifilesCG11" />
+        <d name="xxx-zhangweifilesCG12" />
+        <d name="xxx-zhangweifilesCG13" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesCG03">
+      <mov name="asdjkhfska" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-0.55" y="-7.35" cocos2d_x="-0.5" cocos2d_y="-7.35" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="0" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="2" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="3" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="4" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="5" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="6" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="7" dr="2" />
+          <f x="0.6" y="-7.75" cocos2d_x="0.6" cocos2d_y="-7.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="8" dr="2" />
+          <f x="2.15" y="-6.4" cocos2d_x="2.15" cocos2d_y="-6.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dfadfasdfsdaf" dr="20" to="0" drTW="20" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="3" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="4" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="5" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="6" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="7" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="8" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="9" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="10" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="11" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="12" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="13" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="14" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="15" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="16" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="17" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="18" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.15" y="6.6" cocos2d_x="0.15" cocos2d_y="6.6" kX="0" kY="0" cX="1.03" cY="1.03" fst="19" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神仙姐姐小特效底层(1)" width="512" height="1024">
+    <SubTexture name="xxx-zhangweifilesCG13" width="154" height="153" x="316" y="470" cocos2d_pX="76.90" cocos2d_pY="76.15" />
+    <SubTexture name="xxx-zhangweifilesCG12" width="157" height="157" x="158" y="318" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG11" width="157" height="158" x="0" y="318" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG10" width="157" height="158" x="317" y="159" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG09" width="157" height="158" x="159" y="159" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG08" width="158" height="158" x="0" y="0" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG07" width="158" height="158" x="318" y="0" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG06" width="158" height="158" x="159" y="0" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG05" width="158" height="158" x="0" y="159" cocos2d_pX="77.95" cocos2d_pY="79.05" />
+    <SubTexture name="xxx-zhangweifilesCG04" width="156" height="151" x="316" y="318" cocos2d_pX="76.85" cocos2d_pY="75.20" />
+  </TextureAtlas>
+</skeleton>

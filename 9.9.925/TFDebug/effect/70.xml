@@ -1,0 +1,186 @@
+<skeleton name="debuff" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="buff" x="-6.25" y="-201.95" kX="0" kY="0" cX="1" cY="1" pX="-0.15" pY="-0.65" z="0">
+        <d name="xxx/huangrong03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/huangrong03" isLoop="loop" startFrame="1">
+      <b name="buff3" x="-1.3" y="-2.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/huangrong10" isArmature="1" />
+      </b>
+      <b name="buff2" x="-2" y="-3.45" kX="0" kY="0" cX="0.88" cY="0.88" pX="19.65" pY="15.9" z="1">
+        <d name="xxx/huangrong24" isArmature="1" />
+      </b>
+      <b name="buff1" x="-1.25" y="-2.2" kX="0" kY="0" cX="1" cY="1" pX="0.1" pY="-0.4" z="2">
+        <d name="xxx/huangrong17" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/huangrong10" isLoop="loop" startFrame="1">
+      <b name="suolian2" x="1.15" y="1.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-huangrong09" />
+        <d name="xxx-huangrong08" />
+        <d name="xxx-huangrong07" />
+        <d name="xxx-huangrong06" />
+        <d name="xxx-huangrong05" />
+        <d name="xxx-huangrong04" />
+      </b>
+    </armature>
+    <armature name="xxx/huangrong24" isLoop="loop" startFrame="1">
+      <b name="xueluo" x="6.25" y="47.55" kX="0" kY="0" cX="1.87" cY="1.87" pX="1.45" pY="3.2" z="0">
+        <d name="xxx/huangrong25" isArmature="1" />
+      </b>
+      <b name="xue1" x="20.1" y="15.9" kX="20.24" kY="20.24" cX="1.2" cY="1.2" pX="0" pY="0" z="1">
+        <d name="xxx-huangrong23" />
+        <d name="xxx-huangrong22" />
+        <d name="xxx-huangrong21" />
+        <d name="xxx-huangrong20" />
+        <d name="xxx-huangrong19" />
+      </b>
+    </armature>
+    <armature name="xxx/huangrong25" isLoop="loop" startFrame="1">
+      <b name="dixia4" x="1.45" y="3.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-huangrong18" />
+      </b>
+      <b name="dixia3" x="17.95" y="-1.45" kX="0" kY="0" cX="0.57" cY="0.57" pX="0" pY="0" z="1">
+        <d name="xxx-huangrong18" />
+      </b>
+      <b name="dixia2" x="12.4" y="-3.05" kX="0" kY="0" cX="0.86" cY="0.86" pX="0" pY="0" z="2">
+        <d name="xxx-huangrong18" />
+      </b>
+    </armature>
+    <armature name="xxx/huangrong17" isLoop="loop" startFrame="1">
+      <b name="suilian1" x="1.2" y="1.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-huangrong11" />
+        <d name="xxx-huangrong12" />
+        <d name="xxx-huangrong13" />
+        <d name="xxx-huangrong14" />
+        <d name="xxx-huangrong15" />
+        <d name="xxx-huangrong16" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/huangrong10">
+      <mov name="suo2" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="suolian2" sc="1" dl="0">
+          <f x="1.15" y="1.55" cocos2d_x="1.15" cocos2d_y="1.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="1.2" y="1.9" cocos2d_x="1.2" cocos2d_y="1.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="1.3" y="1.7" cocos2d_x="1.3" cocos2d_y="1.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="1.15" y="1.65" cocos2d_x="1.15" cocos2d_y="1.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="0.8" y="2.95" cocos2d_x="0.8" cocos2d_y="2.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="1.4" y="1.35" cocos2d_x="1.4" cocos2d_y="1.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/huangrong25">
+      <mov name="dixiashui" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="dixia4" sc="1" dl="0">
+          <f x="1.45" y="3.2" cocos2d_x="1.45" cocos2d_y="3.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="1.5" y="8.15" cocos2d_x="1.5" cocos2d_y="8.15" kX="0" kY="0" cX="0.76" cY="0.76" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="1.55" y="13.05" cocos2d_x="1.55" cocos2d_y="13.05" kX="0" kY="0" cX="0.52" cY="0.52" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+          <f x="1.45" y="3.2" cocos2d_x="1.45" cocos2d_y="3.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="3" dI="0" twE="0" dr="2" />
+          <f x="1.5" y="8.15" cocos2d_x="1.5" cocos2d_y="8.15" kX="0" kY="0" cX="0.76" cY="0.76" fst="0" pX="0" pY="0" z="3" dI="0" twE="0" dr="5" />
+          <f x="1.55" y="13.05" cocos2d_x="1.55" cocos2d_y="13.05" kX="0" kY="0" cX="0.52" cY="0.52" fst="0" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="dixia3" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="17.95" y="-1.45" cocos2d_x="17.95" cocos2d_y="-1.45" kX="0" kY="0" cX="0.57" cY="0.57" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="2" />
+          <f x="18" y="3.35" cocos2d_x="18" cocos2d_y="3.35" kX="0" kY="0" cX="0.43" cY="0.43" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5" />
+          <f x="18.05" y="8.15" cocos2d_x="18.05" cocos2d_y="8.15" kX="0" kY="0" cX="0.29" cY="0.29" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+          <f x="17.95" y="-1.45" cocos2d_x="17.95" cocos2d_y="-1.45" kX="0" kY="0" cX="0.57" cY="0.57" fst="0" pX="0" pY="0" z="4" dI="0" twE="0" dr="2" />
+          <f x="18" y="3.35" cocos2d_x="18" cocos2d_y="3.35" kX="0" kY="0" cX="0.43" cY="0.43" fst="0" pX="0" pY="0" z="4" dI="0" twE="0" dr="5" />
+          <f x="18.05" y="8.15" cocos2d_x="18.05" cocos2d_y="8.15" kX="0" kY="0" cX="0.29" cY="0.29" fst="0" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="dixia2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="12.4" y="-3.05" cocos2d_x="12.4" cocos2d_y="-3.05" kX="0" kY="0" cX="0.86" cY="0.86" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="2" />
+          <f x="12.7" y="2.5" cocos2d_x="12.7" cocos2d_y="2.5" kX="0" kY="0" cX="0.65" cY="0.65" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="5" />
+          <f x="12.75" y="9.7" cocos2d_x="12.75" cocos2d_y="9.7" kX="0" kY="0" cX="0.44" cY="0.44" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+          <f x="12.4" y="-3.05" cocos2d_x="12.4" cocos2d_y="-3.05" kX="0" kY="0" cX="0.86" cY="0.86" fst="0" pX="0" pY="0" z="5" dI="0" twE="0" dr="2" />
+          <f x="12.7" y="2.5" cocos2d_x="12.7" cocos2d_y="2.5" kX="0" kY="0" cX="0.65" cY="0.65" fst="0" pX="0" pY="0" z="5" dI="0" twE="0" dr="5" />
+          <f x="12.75" y="9.7" cocos2d_x="12.75" cocos2d_y="9.7" kX="0" kY="0" cX="0.44" cY="0.44" fst="0" pX="0" pY="0" z="5" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/huangrong24">
+      <mov name="xueluoxia" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="xueluo" sc="1" dl="0">
+          <f x="6.25" y="47.55" cocos2d_x="3.55" cocos2d_y="41.6" kX="0" kY="0" cX="1.87" cY="1.87" fst="0" pX="1.45" pY="3.2" z="0" dI="0" dr="24" />
+        </b>
+        <b name="xue1" sc="1" dl="0">
+          <f x="20.1" y="15.9" cocos2d_x="20.1" cocos2d_y="15.9" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="21.05" y="14.65" cocos2d_x="21.05" cocos2d_y="14.65" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="1" dr="2" />
+          <f x="21.5" y="15.45" cocos2d_x="21.5" cocos2d_y="15.45" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="2" dr="3" />
+          <f x="21.15" y="15.6" cocos2d_x="21.15" cocos2d_y="15.6" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="3" dr="3" />
+          <f x="20.75" y="16.7" cocos2d_x="20.75" cocos2d_y="16.7" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="4" dr="2" />
+          <f x="20.1" y="15.9" cocos2d_x="20.1" cocos2d_y="15.9" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="21.05" y="14.65" cocos2d_x="21.05" cocos2d_y="14.65" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="1" dr="2" />
+          <f x="21.5" y="15.45" cocos2d_x="21.5" cocos2d_y="15.45" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="2" dr="3" />
+          <f x="21.15" y="15.6" cocos2d_x="21.15" cocos2d_y="15.6" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="3" dr="3" />
+          <f x="20.75" y="16.7" cocos2d_x="20.75" cocos2d_y="16.7" kX="20.24" kY="20.24" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="4" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/huangrong17">
+      <mov name="suo1" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="suilian1" sc="1" dl="0">
+          <f x="1.2" y="1.15" cocos2d_x="1.2" cocos2d_y="1.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="1.25" y="2" cocos2d_x="1.25" cocos2d_y="2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="1.35" y="1.8" cocos2d_x="1.35" cocos2d_y="1.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="1.2" y="1.25" cocos2d_x="1.2" cocos2d_y="1.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="1.35" y="1.2" cocos2d_x="1.35" cocos2d_y="1.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="1.45" y="0.95" cocos2d_x="1.45" cocos2d_y="0.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/huangrong03">
+      <mov name="buffyuan" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="buff3" sc="1" dl="0">
+          <f x="-1.3" y="-2.2" cocos2d_x="-1.3" cocos2d_y="-2.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="24" />
+        </b>
+        <b name="buff2" sc="1" dl="0">
+          <f x="-2" y="-3.45" cocos2d_x="-19.25" cocos2d_y="-17.4" kX="0" kY="0" cX="0.88" cY="0.88" fst="0" pX="19.65" pY="15.9" z="1" dI="0" dr="24" />
+        </b>
+        <b name="buff1" sc="1" dl="0">
+          <f x="-1.25" y="-2.2" cocos2d_x="-1.35" cocos2d_y="-1.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0.1" pY="-0.4" z="2" dI="0" dr="24" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="buff" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="buff" sc="1" dl="0">
+          <f x="-6.25" y="-201.95" cocos2d_x="-6.1" cocos2d_y="-201.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-0.15" pY="-0.65" z="0" dI="0" twE="0" dr="11" />
+          <f x="-6.25" y="-206.95" cocos2d_x="-6.1" cocos2d_y="-206.3" kX="0" kY="0" cX="1" cY="1" fst="11" pX="-0.15" pY="-0.65" z="0" dI="0" twE="0" dr="12" />
+          <f x="-6.25" y="-201.95" cocos2d_x="-6.1" cocos2d_y="-201.3" kX="0" kY="0" cX="1" cY="1" fst="23" pX="-0.15" pY="-0.65" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="debuff" width="512" height="256">
+    <SubTexture name="xxx-huangrong16" width="80" height="67" x="0" y="72" cocos2d_pX="42.00" cocos2d_pY="32.50" />
+    <SubTexture name="xxx-huangrong15" width="79" height="66" x="324" y="72" cocos2d_pX="41.00" cocos2d_pY="32.50" />
+    <SubTexture name="xxx-huangrong14" width="80" height="67" x="81" y="72" cocos2d_pX="42.00" cocos2d_pY="33.50" />
+    <SubTexture name="xxx-huangrong13" width="80" height="67" x="162" y="72" cocos2d_pX="41.50" cocos2d_pY="34.00" />
+    <SubTexture name="xxx-huangrong12" width="80" height="67" x="243" y="72" cocos2d_pX="42.00" cocos2d_pY="34.00" />
+    <SubTexture name="xxx-huangrong11" width="81" height="67" x="405" y="71" cocos2d_pX="43.00" cocos2d_pY="33.00" />
+    <SubTexture name="xxx-huangrong18" width="3" height="6" x="485" y="0" cocos2d_pX="1.45" cocos2d_pY="3.20" />
+    <SubTexture name="xxx-huangrong19" width="31" height="25" x="357" y="139" cocos2d_pX="15.50" cocos2d_pY="12.50" />
+    <SubTexture name="xxx-huangrong20" width="32" height="24" x="324" y="139" cocos2d_pX="16.00" cocos2d_pY="12.00" />
+    <SubTexture name="xxx-huangrong21" width="31" height="25" x="389" y="139" cocos2d_pX="15.50" cocos2d_pY="12.50" />
+    <SubTexture name="xxx-huangrong22" width="31" height="25" x="421" y="139" cocos2d_pX="15.50" cocos2d_pY="12.50" />
+    <SubTexture name="xxx-huangrong23" width="31" height="24" x="453" y="139" cocos2d_pX="15.50" cocos2d_pY="12.00" />
+    <SubTexture name="xxx-huangrong04" width="80" height="71" x="82" y="0" cocos2d_pX="42.00" cocos2d_pY="36.50" />
+    <SubTexture name="xxx-huangrong05" width="79" height="70" x="405" y="0" cocos2d_pX="40.50" cocos2d_pY="38.00" />
+    <SubTexture name="xxx-huangrong06" width="80" height="71" x="163" y="0" cocos2d_pX="42.00" cocos2d_pY="37.50" />
+    <SubTexture name="xxx-huangrong07" width="79" height="71" x="325" y="0" cocos2d_pX="41.50" cocos2d_pY="37.50" />
+    <SubTexture name="xxx-huangrong08" width="80" height="71" x="244" y="0" cocos2d_pX="42.00" cocos2d_pY="37.50" />
+    <SubTexture name="xxx-huangrong09" width="81" height="71" x="0" y="0" cocos2d_pX="43.00" cocos2d_pY="37.00" />
+  </TextureAtlas>
+</skeleton>

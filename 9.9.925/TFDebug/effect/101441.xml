@@ -1,0 +1,34 @@
+<skeleton name="老夫人普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="42.15" y="-108.55" kX="171.09" kY="-11.82" cX="0.97" cY="0.95" pX="0" pY="0" z="0">
+        <d name="cdfcsa-z1" />
+      </b>
+      <b name="图层 3" x="135" y="-57.95" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="0.5" z="1">
+        <d name="cdfcsa-biji" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dasdsa" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="42.15" y="-108.55" cocos2d_x="42.15" cocos2d_y="-108.55" kX="171.09" kY="-11.82" cX="0.97" cY="0.95" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="20.55" y="-37.55" cocos2d_x="20.55" cocos2d_y="-37.55" kX="-51.23" kY="176.01" cX="1.22" cY="1.33" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="73" y="-38.55" cocos2d_x="73" cocos2d_y="-38.55" kX="-50.49" kY="174.48" cX="0.77" cY="0.82" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="135" y="-57.95" cocos2d_x="134.5" cocos2d_y="-58.45" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="0.5" z="1" dI="0" twE="0" dr="1" />
+          <f x="135" y="-57.95" cocos2d_x="134.4" cocos2d_y="-58.55" kX="0" kY="0" cX="1.23" cY="1.23" pX="0.5" pY="0.5" z="1" dI="0" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="老夫人普通攻击特效" width="512" height="256">
+    <SubTexture name="cdfcsa-biji" width="130" height="142" x="263" y="0" cocos2d_pX="66.50" cocos2d_pY="73.50" />
+    <SubTexture name="cdfcsa-z1" width="262" height="146" x="0" y="0" cocos2d_pX="130.85" cocos2d_pY="82.55" />
+  </TextureAtlas>
+</skeleton>

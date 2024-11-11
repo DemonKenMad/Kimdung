@@ -1,0 +1,17 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SGrouponMsg";
+
+
+//code = 0x5c01
+//限时团购信息
+message GrouponInfoRequest{
+
+}
+
+// code = 0x5c02
+// 限时团购购买
+message GrouponBuyRequest{
+	required int32 goodsId = 1;			//商品id
+	required int32 num = 2;			//商品数量
+}

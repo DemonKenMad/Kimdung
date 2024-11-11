@@ -1,0 +1,47 @@
+<skeleton name="普通受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="0.15" y="-82.9" kX="117.85" kY="117.85" cX="1.22" cY="1.22" pX="129.05" pY="61.45" z="0">
+        <d name="file/sj" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="file/sj" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="129" y="61.5" kX="0" kY="0" cX="1" cY="1" pX="129" pY="61.5" z="0">
+        <d name="file-daobao_a_00000.png" />
+        <d name="file-daobao_a_00002.png" />
+        <d name="file-daobao_a_00003.png" />
+        <d name="file-daobao_a_00004.png" />
+        <d name="file-daobao_a_00005.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="file/sj">
+      <mov name="r" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="129" y="61.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="129" pY="61.5" z="0" dI="0" dr="2" />
+          <f x="129" y="61.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="129" pY="61.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="129" y="61.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="129" pY="61.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="129" y="61.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="129" pY="61.5" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="129" y="61.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="129" pY="61.5" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="t" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.15" y="-82.9" cocos2d_x="139.8" cocos2d_y="-186.95" kX="117.85" kY="117.85" cX="1.22" cY="1.22" pX="129.05" pY="61.45" z="0" dI="0" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普通受击" width="512" height="256">
+    <SubTexture name="file-daobao_a_00005.png" width="119" height="115" x="271" y="124" cocos2d_pX="-42.00" cocos2d_pY="-5.00" />
+    <SubTexture name="file-daobao_a_00004.png" width="128" height="113" x="142" y="124" cocos2d_pX="-40.00" cocos2d_pY="-6.00" />
+    <SubTexture name="file-daobao_a_00003.png" width="141" height="113" x="0" y="111" cocos2d_pX="-42.00" cocos2d_pY="-7.00" />
+    <SubTexture name="file-daobao_a_00002.png" width="258" height="110" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="-9.00" />
+    <SubTexture name="file-daobao_a_00000.png" width="192" height="123" x="259" y="0" cocos2d_pX="-23.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

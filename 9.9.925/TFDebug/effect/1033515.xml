@@ -1,0 +1,28 @@
+<skeleton name="顶层闪白屏" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="10.9" y="-46.3" kX="0" kY="0" cX="100" cY="100" pX="0" pY="-0.05" z="0">
+        <d name="xxx-fdsagsadhgasdhasdhg" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdagsadgasdha" dr="33" to="0" drTW="33" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="21" dI="-1" />
+          <f x="10.9" y="-46.3" cocos2d_x="10.9" cocos2d_y="-41.3" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="10.9" y="-46.3" cocos2d_x="10.9" cocos2d_y="-41.3" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="6" />
+          <f x="10.9" y="-46.3" cocos2d_x="10.9" cocos2d_y="-41.3" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="顶层闪白屏" width="32" height="16">
+    <SubTexture name="xxx-fdsagsadhgasdhasdhg" width="17" height="11" x="0" y="0" cocos2d_pX="8.55" cocos2d_pY="5.45" />
+  </TextureAtlas>
+</skeleton>

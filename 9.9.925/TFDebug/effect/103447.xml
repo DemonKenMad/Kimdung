@@ -1,0 +1,45 @@
+<skeleton name="主动技能所有人底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="0" y="6.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/dsfaaasdgfsad" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/dsfaaasdgfsad" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="8.35" cY="5.11" pX="0" pY="0" z="0">
+        <d name="xxx-sadgsa"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/dsfaaasdgfsad">
+      <mov name="dassdasdafasdfa" dr="82" to="0" drTW="82" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="8.35" cY="5.11" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="8.35" cY="5.11" fst="0" pX="0" pY="0" z="0" dI="0" dr="61"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="8.35" cY="5.11" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="6"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="8.35" cY="5.11" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="5" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="erwbrefew" dr="78" to="0" drTW="78" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="6.45" cocos2d_x="0" cocos2d_y="6.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="31"/>
+          <f x="0" y="6.45" cocos2d_x="0" cocos2d_y="6.45" kX="0" kY="0" cX="1" cY="1" fst="31" pX="0" pY="0" z="0" dI="0" dr="16"/>
+          <f x="0" y="6.45" cocos2d_x="0" cocos2d_y="6.45" kX="0" kY="0" cX="1" cY="1" fst="47" pX="0" pY="0" z="0" dI="0" dr="13"/>
+          <f x="0" y="6.45" cocos2d_x="0" cocos2d_y="6.45" kX="0" kY="0" cX="1" cY="1" fst="60" pX="0" pY="0" z="0" dI="0" dr="18"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="主动技能所有人底层" width="512" height="512">
+    <SubTexture name="xxx-sadgsa" width="320" height="320" x="0" y="0" cocos2d_pX="160" cocos2d_pY="160"/>
+  </TextureAtlas>
+</skeleton>

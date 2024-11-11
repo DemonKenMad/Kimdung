@@ -1,0 +1,27 @@
+<skeleton name="华山派弟子" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="120.3" y="-64.75" kX="0" kY="0" cX="1.27" cY="1.65" pX="0.5" pY="0.45" z="0">
+        <d name="sdasa-pg2" />
+        <d name="sdasa-PG" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdas" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="120.3" y="-64.75" cocos2d_x="119.65" cocos2d_y="-65.55" kX="0" kY="0" cX="1.27" cY="1.65" pX="0.5" pY="0.45" z="0" dI="0" dr="2" />
+          <f x="193.35" y="-67.65" cocos2d_x="193" cocos2d_y="-68" kX="0" kY="0" cX="1" cY="1" pX="0.35" pY="0.35" z="0" dI="1" dr="2" />
+          <f x="193.35" y="-67.65" cocos2d_x="193" cocos2d_y="-68" kX="0" kY="0" cX="1" cY="1" pX="0.35" pY="0.35" z="0" dI="1" twE="0" dr="1" />
+          <f x="215.35" y="-63.65" cocos2d_x="215" cocos2d_y="-63.85" kX="0" kY="0" cX="1" cY="0.51" pX="0.35" pY="0.35" z="0" dI="1" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="华山派弟子" width="512" height="256">
+    <SubTexture name="sdasa-PG" width="320" height="73" x="0" y="84" cocos2d_pX="159.65" cocos2d_pY="36.15" />
+    <SubTexture name="sdasa-pg2" width="318" height="83" x="0" y="0" cocos2d_pX="159.50" cocos2d_pY="39.50" />
+  </TextureAtlas>
+</skeleton>

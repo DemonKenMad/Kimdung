@@ -1,0 +1,45 @@
+<skeleton name="洪教主小元圈" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="206.35" y="-114.6" kX="0" kY="0" cX="1" cY="1" pX="202.65" pY="-100.95" z="0">
+        <d name="435y6/feixing" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="435y6/feixing" isLoop="loop" startFrame="1">
+      <b name="图层 6" x="205.5" y="-102.2" kX="0" kY="0" cX="2.3" cY="2.3" pX="13" pY="13.5" z="0">
+        <d name="435y6-756744"/>
+      </b>
+      <b name="图层 3" x="202.65" y="-100.95" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="1">
+        <d name="435y6-dsad"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="435y6/feixing">
+      <mov name="444" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f x="205.5" y="-102.2" cocos2d_x="175.6" cocos2d_y="-133.25" kX="0" kY="0" cX="2.3" cY="2.3" pX="13" pY="13.5" z="0" dI="0" dr="7"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="202.65" y="-100.95" cocos2d_x="202.65" cocos2d_y="-100.95" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="1" dI="0" blend="add" dr="7">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#ff33ff" quality="high" strength="159" inner="false" knockout="false" hideObject="false"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="456547" dr="26" to="0" drTW="26" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="20" dI="-1"/>
+          <f x="206.35" y="-114.6" cocos2d_x="3.7" cocos2d_y="-13.65" kX="0" kY="0" cX="1" cY="1" pX="202.65" pY="-100.95" z="0" dI="0" twE="0" dr="4"/>
+          <f x="512.35" y="-114.6" cocos2d_x="309.7" cocos2d_y="-13.65" kX="0" kY="0" cX="1" cY="1" pX="202.65" pY="-100.95" z="0" dI="0" dr="1" twE="NaN"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="洪教主小元圈" width="256" height="256">
+    <SubTexture name="435y6-dsad" width="226" height="227" x="0" y="0" cocos2d_pX="113.05" cocos2d_pY="113.3"/>
+    <SubTexture name="435y6-756744" width="26" height="27" x="228" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

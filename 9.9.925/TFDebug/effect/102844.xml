@@ -1,0 +1,148 @@
+<skeleton name="小技能施法(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="9.3" y="-4.3" kX="0" kY="0.38" cX="0.87" cY="0.58" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifilesB07" isArmature="1" />
+      </b>
+      <b name="图层 2" x="-629.7" y="-334.05" kX="0" kY="0" cX="1" cY="0.8" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesB49" isArmature="1" />
+      </b>
+      <b name="图层 1" x="4.9" y="-54" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweifilesB09" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB07" isLoop="loop" startFrame="2">
+      <b name="图层 1" x="-3.9" y="-142.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB46" />
+        <d name="xxx-zhangweifilesB47" />
+        <d name="xxx-zhangweifilesB48" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB49" isLoop="loop" startFrame="1">
+      <b name="图层 8" x="574.95" y="390.15" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB39" />
+        <d name="xxx-zhangweifilesB40" />
+        <d name="xxx-zhangweifilesB41" />
+        <d name="xxx-zhangweifilesB42" />
+      </b>
+      <b name="图层 1" x="629.35" y="433.2" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifilesB26" />
+        <d name="xxx-zhangweifilesB27" />
+        <d name="xxx-zhangweifilesB28" />
+        <d name="xxx-zhangweifilesB29" />
+        <d name="xxx-zhangweifilesB30" />
+        <d name="xxx-zhangweifilesB31" />
+        <d name="xxx-zhangweifilesB32" />
+        <d name="xxx-zhangweifilesB33" />
+        <d name="xxx-zhangweifilesB34" />
+        <d name="xxx-zhangweifilesB35" />
+        <d name="xxx-zhangweifilesB36" />
+        <d name="xxx-zhangweifilesB37" />
+        <d name="xxx-zhangweifilesB38" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB09" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-8.3" y="-195.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB03" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesB07">
+      <mov name="fjdasklj" dr="3" to="0" drTW="3" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-3.9" y="-142.2" cocos2d_x="-3.9" cocos2d_y="-142.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-3.9" y="-142.2" cocos2d_x="-3.9" cocos2d_y="-142.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-3.9" y="-142.2" cocos2d_x="-3.9" cocos2d_y="-142.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifilesB49">
+      <mov name="dsaadgasgda" dr="26" to="0" drTW="26" lp="0" twE="NaN">
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="574.95" y="390.15" cocos2d_x="574.95" cocos2d_y="390.15" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="690.25" y="294.4" cocos2d_x="690.25" cocos2d_y="294.4" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+          <f x="658.85" y="286.25" cocos2d_x="658.85" cocos2d_y="286.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="2" blend="add" dr="2" />
+          <f x="650.85" y="275.7" cocos2d_x="650.85" cocos2d_y="275.7" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="3" blend="add" dr="2" />
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="629.35" y="433.2" cocos2d_x="629.35" cocos2d_y="433.2" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f x="596.7" y="401.45" cocos2d_x="596.7" cocos2d_y="401.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="1" blend="add" dr="2" />
+          <f x="704.5" y="316.2" cocos2d_x="704.5" cocos2d_y="316.2" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="2" blend="add" dr="2" />
+          <f x="565.4" y="383.45" cocos2d_x="565.4" cocos2d_y="383.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="3" blend="add" dr="2" />
+          <f x="553.8" y="374.45" cocos2d_x="553.8" cocos2d_y="374.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="4" blend="add" dr="2" />
+          <f x="560.65" y="371.4" cocos2d_x="560.65" cocos2d_y="371.4" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="5" blend="add" dr="2" />
+          <f x="634.95" y="266.45" cocos2d_x="634.95" cocos2d_y="266.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="6" blend="add" dr="2" />
+          <f x="635.5" y="259.25" cocos2d_x="635.5" cocos2d_y="259.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="7" blend="add" dr="2" />
+          <f x="640.7" y="252.55" cocos2d_x="640.7" cocos2d_y="252.55" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="8" blend="add" dr="2" />
+          <f x="631.85" y="240.4" cocos2d_x="631.85" cocos2d_y="240.4" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="9" blend="add" dr="2" />
+          <f x="602.3" y="227.35" cocos2d_x="602.3" cocos2d_y="227.35" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="10" blend="add" dr="2" />
+          <f x="580.35" y="220.45" cocos2d_x="580.35" cocos2d_y="220.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="11" blend="add" dr="2" />
+          <f x="571.15" y="215.8" cocos2d_x="571.15" cocos2d_y="215.8" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="12" blend="add" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifilesB09">
+      <mov name="dfahgasdfdsa" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-8.3" y="-195.05" cocos2d_x="-8.3" cocos2d_y="-195.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="-12.35" y="-199.95" cocos2d_x="-12.35" cocos2d_y="-199.95" kX="0" kY="0" cX="3.39" cY="3.39" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="-12.35" y="-199.95" cocos2d_x="-12.35" cocos2d_y="-199.95" kX="0" kY="0" cX="5.16" cY="5.16" fst="0" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dfsaasgasdf" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="9.3" y="-4.3" cocos2d_x="9.3" cocos2d_y="-4.3" kX="0" kY="0.38" cX="0.87" cY="0.58" fst="1" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.73" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="9.3" y="-40.15" cocos2d_x="9.3" cocos2d_y="-40.15" kX="0" kY="0.38" cX="0.93" cY="1.64" fst="2" pX="0" pY="0" z="0" dI="0" dr="11">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.73" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="9.3" y="-40.15" cocos2d_x="9.3" cocos2d_y="-40.15" kX="0" kY="0.38" cX="0.93" cY="1.64" fst="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.73" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="9.3" y="-310.15" cocos2d_x="9.3" cocos2d_y="-310.15" kX="0" kY="0.37" cX="0.28" cY="0.49" fst="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-629.7" y="-334.05" cocos2d_x="-629.7" cocos2d_y="-334.05" kX="0" kY="0" cX="1" cY="0.8" fst="0" pX="0" pY="0" z="1" dI="0" dr="26" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="4.9" y="-54" cocos2d_x="4.9" cocos2d_y="-54" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="10" />
+          <f dr="17" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="小技能施法(1)" width="512" height="512">
+    <SubTexture name="xxx-zhangweifilesB03" width="47" height="47" x="355" y="227" cocos2d_pX="23.45" cocos2d_pY="23.45" />
+    <SubTexture name="xxx-zhangweifilesB38" width="13" height="19" x="495" y="57" cocos2d_pX="7.25" cocos2d_pY="10.50" />
+    <SubTexture name="xxx-zhangweifilesB37" width="25" height="35" x="482" y="174" cocos2d_pX="13.25" cocos2d_pY="18.25" />
+    <SubTexture name="xxx-zhangweifilesB36" width="47" height="40" x="403" y="227" cocos2d_pX="24.25" cocos2d_pY="20.50" />
+    <SubTexture name="xxx-zhangweifilesB35" width="75" height="46" x="92" y="194" cocos2d_pX="38.25" cocos2d_pY="24.00" />
+    <SubTexture name="xxx-zhangweifilesB34" width="102" height="67" x="274" y="70" cocos2d_pX="52.00" cocos2d_pY="34.50" />
+    <SubTexture name="xxx-zhangweifilesB33" width="101" height="70" x="393" y="57" cocos2d_pX="51.25" cocos2d_pY="34.50" />
+    <SubTexture name="xxx-zhangweifilesB32" width="118" height="69" x="274" y="0" cocos2d_pX="60.00" cocos2d_pY="34.00" />
+    <SubTexture name="xxx-zhangweifilesB31" width="37" height="27" x="234" y="222" cocos2d_pX="19.25" cocos2d_pY="14.75" />
+    <SubTexture name="xxx-zhangweifilesB30" width="38" height="27" x="234" y="194" cocos2d_pX="19.75" cocos2d_pY="14.50" />
+    <SubTexture name="xxx-zhangweifilesB29" width="55" height="45" x="0" y="199" cocos2d_pX="28.50" cocos2d_pY="23.75" />
+    <SubTexture name="xxx-zhangweifilesB28" width="33" height="22" x="56" y="199" cocos2d_pX="17.25" cocos2d_pY="11.75" />
+    <SubTexture name="xxx-zhangweifilesB27" width="93" height="52" x="274" y="138" cocos2d_pX="47.50" cocos2d_pY="26.50" />
+    <SubTexture name="xxx-zhangweifilesB26" width="126" height="45" x="377" y="128" cocos2d_pX="59.75" cocos2d_pY="23.25" />
+    <SubTexture name="xxx-zhangweifilesB42" width="117" height="56" x="393" y="0" cocos2d_pX="58.75" cocos2d_pY="28.75" />
+    <SubTexture name="xxx-zhangweifilesB41" width="113" height="52" x="368" y="174" cocos2d_pX="57.25" cocos2d_pY="26.75" />
+    <SubTexture name="xxx-zhangweifilesB40" width="65" height="53" x="168" y="194" cocos2d_pX="33.25" cocos2d_pY="27.50" />
+    <SubTexture name="xxx-zhangweifilesB39" width="80" height="52" x="274" y="191" cocos2d_pX="41.00" cocos2d_pY="27.00" />
+    <SubTexture name="xxx-zhangweifilesB48" width="90" height="193" x="92" y="0" cocos2d_pX="44.25" cocos2d_pY="94.25" />
+    <SubTexture name="xxx-zhangweifilesB47" width="90" height="193" x="183" y="0" cocos2d_pX="44.25" cocos2d_pY="94.25" />
+    <SubTexture name="xxx-zhangweifilesB46" width="91" height="198" x="0" y="0" cocos2d_pX="45.25" cocos2d_pY="98.25" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,29 @@
+<skeleton name="温家老四普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-129.55" y="-106.5" kX="45" kY="45" cX="1.44" cY="1.44" pX="0" pY="0" z="0">
+        <d name="dsasd-dsadsadsadsa" />
+        <d name="dsasd-dsadsa 3.png" />
+        <d name="dsasd-dsadsa" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsadsa" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-129.55" y="-106.5" cocos2d_x="-129.55" cocos2d_y="-106.5" kX="45" kY="45" cX="1.44" cY="1.44" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="165.75" y="-59.95" cocos2d_x="-127.3" cocos2d_y="-111.85" kX="0" kY="0" cX="1.67" cY="1.67" pX="175" pY="31" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="220.4" y="-60.6" cocos2d_x="220.4" cocos2d_y="-60.6" kX="0" kY="0" cX="1.52" cY="1.52" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="温家老四普通攻击特效" width="512" height="256">
+    <SubTexture name="dsasd-dsadsa" width="318" height="57" x="0" y="63" cocos2d_pX="159.00" cocos2d_pY="28.50" />
+    <SubTexture name="dsasd-dsadsa 3.png" width="350" height="62" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsasd-dsadsadsadsa" width="222" height="129" x="0" y="121" cocos2d_pX="106.00" cocos2d_pY="65.00" />
+  </TextureAtlas>
+</skeleton>

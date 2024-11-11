@@ -1,0 +1,564 @@
+<skeleton name="张三丰skill01加血buff" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 17" x="38.15" y="-279.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB75" isArmature="1" />
+      </b>
+      <b name="图层 16" x="10.95" y="-26.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/strjfilesB03/strjfilesB05" isArmature="1" />
+      </b>
+      <b name="图层 15" x="125.1" y="-194.95" kX="0" kY="0" cX="1" cY="1" pX="84.05" pY="84.05" z="2">
+        <d name="xxx/strjfilesB58" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB75" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-34.45" y="207.05" kX="7.44" kY="7.44" cX="1" cY="1" pX="-334.6" pY="79" z="0">
+        <d name="xxx/strjfilesB56" isArmature="1" />
+      </b>
+      <b name="图层 17 复制" x="-34.45" y="207.05" kX="-7.44" kY="172.56" cX="1" cY="1" pX="-334.65" pY="79" z="1">
+        <d name="xxx/strjfilesB56" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB56" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-331.25" y="99.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-strjfilesB76" />
+        <d name="xxx-strjfilesB77" />
+        <d name="xxx-strjfilesB78" />
+        <d name="xxx-strjfilesB79" />
+        <d name="xxx-strjfilesB80" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB03/strjfilesB05" isLoop="loop" startFrame="1">
+      <b name="图层 18" x="-24.65" y="-28.3" kX="180" kY="0" cX="1" cY="0.62" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB21" isArmature="1" />
+      </b>
+      <b name="图层 12" x="-12.15" y="-2.85" kX="0" kY="0" cX="1.67" cY="1.67" pX="-4.7" pY="5.3" z="1">
+        <d name="xxx/strjfilesB19" isArmature="1" />
+      </b>
+      <b name="图层 9" x="-16" y="-273.5" kX="0" kY="0" cX="0.77" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/strjfilesB18" isArmature="1" />
+      </b>
+      <b name="图层 2" x="-13.3" y="-40.65" kX="0" kY="0" cX="1" cY="1" pX="15.75" pY="34.1" z="3">
+        <d name="xxx/strjfilesB24" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB21" isLoop="loop" startFrame="4">
+      <b name="元件 5" x="57.1" y="41.1" kX="0" kY="0" cX="1.76" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB22" isArmature="1" />
+      </b>
+      <b name="元件 50" x="39.5" y="41.1" kX="0" kY="0" cX="0.34" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/strjfilesB22" isArmature="1" />
+      </b>
+      <b name="元件 51" x="21.85" y="41.1" kX="0" kY="0" cX="1.76" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/strjfilesB22" isArmature="1" />
+      </b>
+      <b name="元件 52" x="-21.75" y="41.1" kX="0" kY="0" cX="1.76" cY="1" pX="0" pY="0" z="3">
+        <d name="xxx/strjfilesB22" isArmature="1" />
+      </b>
+      <b name="图层 1" x="-13.4" y="41.1" kX="0" kY="0" cX="2.17" cY="1" pX="0" pY="0" z="4">
+        <d name="xxx/strjfilesB22" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB22" isLoop="loop" startFrame="2">
+      <b name="图层 1" x="-0.05" y="-71.5" kX="0" kY="0" cX="0.55" cY="0.43" pX="-0.1" pY="0" z="0">
+        <d name="xxx-strjfilesB23" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB19" isLoop="loop" startFrame="1">
+      <b name="元件 9 副本" x="-3.2" y="21.1" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本0" x="-52.6" y="11.8" kX="15" kY="15" cX="0.31" cY="0.31" pX="0" pY="0" z="1">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本1" x="-23.95" y="19.8" kX="0" kY="0" cX="0.23" cY="0.28" pX="0" pY="0" z="2">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本2" x="23.5" y="19.55" kX="-25.56" kY="-25.56" cX="0.29" cY="0.29" pX="0" pY="0" z="3">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本3" x="36.9" y="8.7" kX="0" kY="0" cX="0.23" cY="0.23" pX="0" pY="0" z="4">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本4" x="-32.25" y="-3.65" kX="0" kY="180" cX="0.13" cY="0.13" pX="0" pY="0" z="5">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本5" x="37.15" y="-3.65" kX="0" kY="180" cX="0.13" cY="0.13" pX="0" pY="0" z="6">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+      <b name="元件 9 副本6" x="47.45" y="2.6" kX="0" kY="180" cX="0.08" cY="0.13" pX="0" pY="0" z="7">
+        <d name="xxx/strjfilesB20" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB20" isLoop="loop" startFrame="4">
+      <b name="图层 3" x="10.55" y="-14.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-strjfilesB44" />
+        <d name="xxx-strjfilesB45" />
+        <d name="xxx-strjfilesB46" />
+        <d name="xxx-strjfilesB47" />
+        <d name="xxx-strjfilesB48" />
+        <d name="xxx-strjfilesB49" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB18" isLoop="loop" startFrame="1">
+      <b name="图层 5" x="-4.9" y="272.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-strjfilesB64" />
+        <d name="xxx-strjfilesB65" />
+        <d name="xxx-strjfilesB66" />
+        <d name="xxx-strjfilesB67" />
+        <d name="xxx-strjfilesB68" />
+        <d name="xxx-strjfilesB69" />
+        <d name="xxx-strjfilesB70" />
+        <d name="xxx-strjfilesB71" />
+        <d name="xxx-strjfilesB72" />
+        <d name="xxx-strjfilesB73" />
+        <d name="xxx-strjfilesB74" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB24" isLoop="loop" startFrame="1">
+      <b name="元件 281" x="50.05" y="50.4" kX="6.47" kY="6.47" cX="0.45" cY="0.45" pX="0.1" pY="0.2" z="0">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2810" x="53.85" y="70.4" kX="45.45" kY="45.45" cX="0.38" cY="0.38" pX="0" pY="0.15" z="1">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2811" x="5.5" y="36.5" kX="162.37" kY="162.37" cX="0.38" cY="0.38" pX="0" pY="0.25" z="2">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2812" x="48.65" y="-51.7" kX="-58.98" kY="-58.98" cX="0.53" cY="0.53" pX="0.15" pY="0.25" z="3">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2813" x="16.3" y="62.45" kX="139.61" kY="139.61" cX="0.36" cY="0.36" pX="0.3" pY="0.1" z="4">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2814" x="20.45" y="11.65" kX="8.3" kY="-171.7" cX="0.45" cY="0.45" pX="0.3" pY="0.25" z="5">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2815" x="46.45" y="10.75" kX="-31.98" kY="-31.98" cX="1" cY="1" pX="0.2" pY="0.15" z="6">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2816" x="14.15" y="-33.5" kX="-133.34" kY="-133.34" cX="0.56" cY="0.56" pX="0.3" pY="0" z="7">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2817" x="8.45" y="-4.1" kX="-158.41" kY="-158.41" cX="1" cY="1" pX="0.15" pY="0.1" z="8">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+      <b name="元件 2818" x="16.9" y="42.2" kX="133.02" kY="133.02" cX="0.45" cY="0.45" pX="0.2" pY="0.3" z="9">
+        <d name="xxx/strjfilesB25" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB25" isLoop="loop" startFrame="1">
+      <b name="元件 10 副本 2" x="0.15" y="0.25" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB26" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB26">
+      <b name="图层 1" x="0.2" y="0" kX="0" kY="0" cX="0.13" cY="0.13" pX="-31.3" pY="-15.25" z="0">
+        <d name="xxx/strjfilesB27" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB27" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-32" y="-16.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0">
+        <d name="xxx-strjfilesB17" />
+        <d name="xxx-strjfilesB16" />
+        <d name="xxx-strjfilesB15" />
+        <d name="xxx-strjfilesB14" />
+        <d name="xxx-strjfilesB13" />
+        <d name="xxx-strjfilesB12" />
+        <d name="xxx-strjfilesB11" />
+        <d name="xxx-strjfilesB10" />
+        <d name="xxx-strjfilesB09" />
+        <d name="xxx-strjfilesB08" />
+        <d name="xxx-strjfilesB07" />
+        <d name="xxx-strjfilesB06" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB58" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-44" y="194.9" kX="0" kY="0" cX="1" cY="0.72" pX="163.05" pY="143.5" z="0">
+        <d name="xxx/strjfilesB55" isArmature="1" />
+      </b>
+      <b name="图层 10  复制 2" x="-44" y="194.9" kX="0" kY="180" cX="1" cY="0.72" pX="163.05" pY="143.5" z="1">
+        <d name="xxx/strjfilesB55" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB55" isLoop="loop" startFrame="1">
+      <b name="图层 5" x="160.55" y="154.95" kX="0" kY="0" cX="2" cY="2" pX="182.55" pY="153.6" z="0">
+        <d name="xxx-strjfilesB59" />
+        <d name="xxx-strjfilesB60" />
+        <d name="xxx-strjfilesB61" />
+        <d name="xxx-strjfilesB62" />
+        <d name="xxx-strjfilesB63" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/strjfilesB56">
+      <mov name="saanddgnofa" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-331.25" y="99.5" cocos2d_x="-331.25" cocos2d_y="99.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-331.25" y="99.5" cocos2d_x="-331.25" cocos2d_y="99.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-331.25" y="99.5" cocos2d_x="-331.25" cocos2d_y="99.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-331.25" y="99.5" cocos2d_x="-331.25" cocos2d_y="99.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-331.25" y="99.5" cocos2d_x="-331.25" cocos2d_y="99.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB75">
+      <mov name="gnskdfasjd" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-34.45" y="207.05" cocos2d_x="307.55" cocos2d_y="172.05" kX="7.44" kY="7.44" cX="1" cY="1" fst="0" pX="-334.6" pY="79" z="0" dI="0" dr="6" />
+          <f x="-34.45" y="207.05" cocos2d_x="307.55" cocos2d_y="172.05" kX="7.44" kY="7.44" cX="1" cY="1" fst="0" pX="-334.6" pY="79" z="0" dI="0" twE="0" dr="3" />
+          <f x="-33.65" y="206.55" cocos2d_x="351.5" cocos2d_y="170.65" kX="8.16" kY="6.78" cX="1.12" cY="1.03" fst="0" pX="-334.6" pY="78.95" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 17 复制" sc="1" dl="0">
+          <f x="-34.45" y="207.05" cocos2d_x="-376.45" cocos2d_y="172.05" kX="-7.44" kY="172.56" cX="1" cY="1" fst="0" pX="-334.65" pY="79" z="1" dI="0" dr="6" />
+          <f x="-34.45" y="207.05" cocos2d_x="-376.45" cocos2d_y="172.05" kX="-7.44" kY="172.56" cX="1" cY="1" fst="0" pX="-334.65" pY="79" z="1" dI="0" twE="0" dr="3" />
+          <f x="-33.65" y="206.55" cocos2d_x="-418.85" cocos2d_y="170.65" kX="-8.16" kY="173.22" cX="1.12" cY="1.03" fst="0" pX="-334.6" pY="79" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB22">
+      <mov name="sdagasasgas" dr="5" to="0" drTW="5" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.05" y="-71.5" cocos2d_x="0" cocos2d_y="-71.5" kX="0" kY="0" cX="0.55" cY="0.43" pX="-0.1" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="-0.05" y="50" cocos2d_x="-0.05" cocos2d_y="50" kX="0" kY="0" cX="0.24" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB21">
+      <mov name="sdagasdga" dr="5" to="0" drTW="5" lp="1" twE="NaN">
+        <b name="元件 5" sc="1" dl="0">
+          <f x="57.1" y="41.1" cocos2d_x="57.1" cocos2d_y="41.1" kX="0" kY="0" cX="1.76" cY="1" fst="1" pX="0" pY="0" z="0" dI="0" dr="5" />
+        </b>
+        <b name="元件 50" sc="1" dl="0">
+          <f x="39.5" y="41.1" cocos2d_x="39.5" cocos2d_y="41.1" kX="0" kY="0" cX="0.34" cY="1" fst="2" pX="0" pY="0" z="1" dI="0" dr="5" />
+        </b>
+        <b name="元件 51" sc="1" dl="0">
+          <f x="21.85" y="41.1" cocos2d_x="21.85" cocos2d_y="41.1" kX="0" kY="0" cX="1.76" cY="1" fst="3" pX="0" pY="0" z="2" dI="0" dr="5" />
+        </b>
+        <b name="元件 52" sc="1" dl="0">
+          <f x="-21.75" y="41.1" cocos2d_x="-21.75" cocos2d_y="41.1" kX="0" kY="0" cX="1.76" cY="1" fst="4" pX="0" pY="0" z="3" dI="0" dr="5" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-13.4" y="41.1" cocos2d_x="-13.4" cocos2d_y="41.1" kX="0" kY="0" cX="2.17" cY="1" fst="0" pX="0" pY="0" z="4" dI="0" dr="5" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB20">
+      <mov name="sadgagadg" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="10.55" y="-14.25" cocos2d_x="10.55" cocos2d_y="-14.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="10.55" y="-14.25" cocos2d_x="10.55" cocos2d_y="-14.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="10.55" y="-14.25" cocos2d_x="10.55" cocos2d_y="-14.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="10.55" y="-14.25" cocos2d_x="10.55" cocos2d_y="-14.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="10.55" y="-14.25" cocos2d_x="10.55" cocos2d_y="-14.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="10.55" y="-14.25" cocos2d_x="10.55" cocos2d_y="-14.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB19">
+      <mov name="sdaaga" dr="10" to="0" drTW="10" lp="1" twE="NaN">
+        <b name="元件 9 副本" sc="1" dl="0">
+          <f x="-3.2" y="21.1" cocos2d_x="-3.2" cocos2d_y="21.1" kX="0" kY="0" cX="0.37" cY="0.37" fst="3" pX="0" pY="0" z="0" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本0" sc="1" dl="0">
+          <f x="-52.6" y="11.8" cocos2d_x="-52.6" cocos2d_y="11.8" kX="15" kY="15" cX="0.31" cY="0.31" fst="6" pX="0" pY="0" z="1" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本1" sc="1" dl="0">
+          <f x="-23.95" y="19.8" cocos2d_x="-23.95" cocos2d_y="19.8" kX="0" kY="0" cX="0.23" cY="0.28" fst="2" pX="0" pY="0" z="2" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本2" sc="1" dl="0">
+          <f x="23.5" y="19.55" cocos2d_x="23.5" cocos2d_y="19.55" kX="-25.56" kY="-25.56" cX="0.29" cY="0.29" fst="7" pX="0" pY="0" z="3" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本3" sc="1" dl="0">
+          <f x="36.9" y="8.7" cocos2d_x="36.9" cocos2d_y="8.7" kX="0" kY="0" cX="0.23" cY="0.23" fst="0" pX="0" pY="0" z="4" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本4" sc="1" dl="0">
+          <f x="-32.25" y="-3.65" cocos2d_x="-32.25" cocos2d_y="-3.65" kX="0" kY="180" cX="0.13" cY="0.13" fst="0" pX="0" pY="0" z="5" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本5" sc="1" dl="0">
+          <f x="37.15" y="-3.65" cocos2d_x="37.15" cocos2d_y="-3.65" kX="0" kY="180" cX="0.13" cY="0.13" fst="5" pX="0" pY="0" z="6" dI="0" dr="10" />
+        </b>
+        <b name="元件 9 副本6" sc="1" dl="0">
+          <f x="47.45" y="2.6" cocos2d_x="47.45" cocos2d_y="2.6" kX="0" kY="180" cX="0.08" cY="0.13" fst="0" pX="0" pY="0" z="7" dI="0" dr="10" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB18">
+      <mov name="adsffdsag" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="-4.9" y="272.55" cocos2d_x="-4.9" cocos2d_y="272.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="1.65" y="248.8" cocos2d_x="1.65" cocos2d_y="248.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="1.85" y="-6.6" cocos2d_x="1.85" cocos2d_y="-6.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="9" y="10.55" cocos2d_x="9" cocos2d_y="10.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="6.55" y="-11.6" cocos2d_x="6.55" cocos2d_y="-11.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="4.4" y="-9.6" cocos2d_x="4.4" cocos2d_y="-9.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="15.85" y="-17.95" cocos2d_x="15.85" cocos2d_y="-17.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="0.35" y="-1.55" cocos2d_x="0.35" cocos2d_y="-1.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="0.35" y="-24.35" cocos2d_x="0.35" cocos2d_y="-24.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+          <f x="20.2" y="-14.85" cocos2d_x="20.2" cocos2d_y="-14.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="9" dr="1" twE="NaN" />
+          <f x="13.95" y="-0.1" cocos2d_x="13.95" cocos2d_y="-0.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="10" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB27">
+      <mov name="sdafasdfasg" dr="19" to="0" drTW="19" lp="1" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="4" dr="2" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="5" dr="2" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="7" dr="2" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="8" dr="2" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="9" dr="2" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="10" dr="2" />
+          <f x="-32" y="-16.05" cocos2d_x="-32" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="11" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB26">
+      <mov name="fadasdfag" dr="17" to="0" drTW="17" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.2" y="0" cocos2d_x="4.3" cocos2d_y="2" kX="0" kY="0" cX="0.13" cY="0.13" fst="0" pX="-31.3" pY="-15.25" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="8.15" cocos2d_y="3.9" kX="0" kY="0" cX="0.26" cY="0.26" fst="1" pX="-31.15" pY="-15.3" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.25" y="0" cocos2d_x="12.1" cocos2d_y="5.8" kX="0" kY="0" cX="0.38" cY="0.38" fst="2" pX="-31.25" pY="-15.3" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="15.95" cocos2d_y="7.7" kX="0" kY="0" cX="0.5" cY="0.5" fst="3" pX="-31.3" pY="-15.3" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="19.85" cocos2d_y="9.55" kX="0" kY="0" cX="0.63" cY="0.63" fst="4" pX="-31.35" pY="-15.2" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="23.7" cocos2d_y="11.45" kX="0" kY="0" cX="0.75" cY="0.75" fst="5" pX="-31.3" pY="-15.25" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.25" y="0" cocos2d_x="27.6" cocos2d_y="13.35" kX="0" kY="0" cX="0.88" cY="0.88" fst="6" pX="-31.2" pY="-15.25" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="31.3" cocos2d_y="15.15" kX="0" kY="0" cX="1" cY="1" fst="10" pX="-31.1" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="28.1" cocos2d_y="13.6" kX="0" kY="0" cX="0.9" cY="0.9" fst="11" pX="-31.1" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="24.95" cocos2d_y="12.05" kX="0" kY="0" cX="0.8" cY="0.8" fst="12" pX="-31.1" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="21.75" cocos2d_y="10.5" kX="0" kY="0" cX="0.69" cY="0.69" fst="13" pX="-31.1" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="18.6" cocos2d_y="8.95" kX="0" kY="0" cX="0.59" cY="0.59" fst="14" pX="-31.15" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="15.4" cocos2d_y="7.4" kX="0" kY="0" cX="0.49" cY="0.49" fst="15" pX="-31.15" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="12.2" cocos2d_y="5.85" kX="0" kY="0" cX="0.39" cY="0.39" fst="16" pX="-31.1" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="9.05" cocos2d_y="4.3" kX="0" kY="0" cX="0.28" cY="0.28" fst="17" pX="-31.2" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="5.85" cocos2d_y="2.75" kX="0" kY="0" cX="0.18" cY="0.18" fst="18" pX="-31.15" pY="-15.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.2" y="0" cocos2d_x="2.65" cocos2d_y="1.2" kX="0" kY="0" cX="0.08" cY="0.08" fst="24" pX="-31" pY="-15.2" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB25">
+      <mov name="sdafaf" dr="16" to="0" drTW="16" lp="1" twE="NaN">
+        <b name="元件 10 副本 2" sc="1" dl="0">
+          <f x="0.15" y="0.25" cocos2d_x="0.15" cocos2d_y="0.25" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="2.65" y="0.15" cocos2d_x="2.65" cocos2d_y="0.15" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="4.95" y="0.1" cocos2d_x="4.95" cocos2d_y="0.1" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="7.1" y="0" cocos2d_x="7.1" cocos2d_y="0" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="9.1" y="-0.05" cocos2d_x="9.1" cocos2d_y="-0.05" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="10.9" y="-0.15" cocos2d_x="10.9" cocos2d_y="-0.15" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="12.55" y="-0.2" cocos2d_x="12.55" cocos2d_y="-0.2" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="14" y="-0.25" cocos2d_x="14" cocos2d_y="-0.25" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="15.3" y="-0.3" cocos2d_x="15.3" cocos2d_y="-0.3" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="16.4" y="-0.35" cocos2d_x="16.4" cocos2d_y="-0.35" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="17.35" y="-0.35" cocos2d_x="17.35" cocos2d_y="-0.35" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="18.1" y="-0.4" cocos2d_x="18.1" cocos2d_y="-0.4" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="18.75" y="-0.4" cocos2d_x="18.75" cocos2d_y="-0.4" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="19.15" y="-0.45" cocos2d_x="19.15" cocos2d_y="-0.45" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="19.4" y="-0.45" cocos2d_x="19.4" cocos2d_y="-0.45" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="19.5" y="-0.45" cocos2d_x="19.5" cocos2d_y="-0.45" kX="0" kY="0" cX="0.35" cY="0.37" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB24">
+      <mov name="fdasfsdaagh" dr="30" to="0" drTW="30" lp="1" twE="NaN">
+        <b name="元件 281" sc="1" dl="0">
+          <f x="50.05" y="50.4" cocos2d_x="50" cocos2d_y="50.3" kX="6.47" kY="6.47" cX="0.45" cY="0.45" fst="0" pX="0.1" pY="0.2" z="0" dI="0" dr="30" />
+        </b>
+        <b name="元件 2810" sc="1" dl="0">
+          <f x="53.85" y="70.4" cocos2d_x="53.9" cocos2d_y="70.35" kX="45.45" kY="45.45" cX="0.38" cY="0.38" fst="7" pX="0" pY="0.15" z="1" dI="0" dr="30" />
+        </b>
+        <b name="元件 2811" sc="1" dl="0">
+          <f x="5.5" y="36.5" cocos2d_x="5.55" cocos2d_y="36.6" kX="162.37" kY="162.37" cX="0.38" cY="0.38" fst="2" pX="0" pY="0.25" z="2" dI="0" dr="30" />
+        </b>
+        <b name="元件 2812" sc="1" dl="0">
+          <f x="48.65" y="-51.7" cocos2d_x="48.5" cocos2d_y="-51.7" kX="-58.98" kY="-58.98" cX="0.53" cY="0.53" fst="4" pX="0.15" pY="0.25" z="3" dI="0" dr="30" />
+        </b>
+        <b name="元件 2813" sc="1" dl="0">
+          <f x="16.3" y="62.45" cocos2d_x="16.4" cocos2d_y="62.4" kX="139.61" kY="139.61" cX="0.36" cY="0.36" fst="9" pX="0.3" pY="0.1" z="4" dI="0" dr="30" />
+        </b>
+        <b name="元件 2814" sc="1" dl="0">
+          <f x="20.45" y="11.65" cocos2d_x="20.6" cocos2d_y="11.55" kX="8.3" kY="-171.7" cX="0.45" cY="0.45" fst="0" pX="0.3" pY="0.25" z="5" dI="0" dr="30" />
+        </b>
+        <b name="元件 2815" sc="1" dl="0">
+          <f x="46.45" y="10.75" cocos2d_x="46.2" cocos2d_y="10.75" kX="-31.98" kY="-31.98" cX="1" cY="1" fst="5" pX="0.2" pY="0.15" z="6" dI="0" dr="30" />
+        </b>
+        <b name="元件 2816" sc="1" dl="0">
+          <f x="14.15" y="-33.5" cocos2d_x="14.25" cocos2d_y="-33.4" kX="-133.34" kY="-133.34" cX="0.56" cY="0.56" fst="14" pX="0.3" pY="0" z="7" dI="0" dr="30" />
+        </b>
+        <b name="元件 2817" sc="1" dl="0">
+          <f x="8.45" y="-4.1" cocos2d_x="8.55" cocos2d_y="-3.95" kX="-158.41" kY="-158.41" cX="1" cY="1" fst="6" pX="0.15" pY="0.1" z="8" dI="0" dr="30" />
+        </b>
+        <b name="元件 2818" sc="1" dl="0">
+          <f x="16.9" y="42.2" cocos2d_x="17.05" cocos2d_y="42.25" kX="133.02" kY="133.02" cX="0.45" cY="0.45" fst="1" pX="0.2" pY="0.3" z="9" dI="0" dr="30" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB03/strjfilesB05">
+      <mov name="daffsdf" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 18" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-24.65" y="-28.3" cocos2d_x="-24.65" cocos2d_y="-28.3" kX="180" kY="0" cX="1" cY="0.62" fst="3" pX="0" pY="0" z="0" dI="0" dr="6" />
+          <f x="-24.65" y="-28.3" cocos2d_x="-24.65" cocos2d_y="-28.3" kX="180" kY="0" cX="1" cY="0.62" fst="4" pX="0" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="-24.65" y="-28.3" cocos2d_x="-24.65" cocos2d_y="-28.3" kX="180" kY="0" cX="1" cY="0.62" fst="3" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 12" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-12.15" y="-2.85" cocos2d_x="-4.3" cocos2d_y="-11.7" kX="0" kY="0" cX="1.67" cY="1.67" fst="0" pX="-4.7" pY="5.3" z="1" dI="0" dr="11" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f x="-16" y="-273.5" cocos2d_x="-16" cocos2d_y="-273.5" kX="0" kY="0" cX="0.77" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="12" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-13.3" y="-40.65" cocos2d_x="-29.05" cocos2d_y="-74.75" kX="0" kY="0" cX="1" cY="1" fst="0" pX="15.75" pY="34.1" z="3" dI="0" dr="15" />
+          <f x="-13.3" y="-40.65" cocos2d_x="-29.05" cocos2d_y="-74.75" kX="0" kY="0" cX="1" cY="1" fst="16" pX="15.75" pY="34.1" z="3" dI="0" twE="0" dr="8" />
+          <f x="-13.3" y="-40.65" cocos2d_x="-29.05" cocos2d_y="-74.75" kX="0" kY="0" cX="1" cY="1" fst="24" pX="15.75" pY="34.1" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB55">
+      <mov name="nkldfnkldflkgk" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="160.55" y="154.95" cocos2d_x="-204.55" cocos2d_y="-152.25" kX="0" kY="0" cX="2" cY="2" pX="182.55" pY="153.6" z="0" dI="0" dr="2" />
+          <f x="156.55" y="149.35" cocos2d_x="-214.55" cocos2d_y="-166.25" kX="0" kY="0" cX="2" cY="2" pX="185.55" pY="157.8" z="0" dI="1" dr="2" />
+          <f x="160.05" y="152.85" cocos2d_x="-204.05" cocos2d_y="-152.95" kX="0" kY="0" cX="2" cY="2" pX="182.05" pY="152.9" z="0" dI="2" dr="2" />
+          <f x="159.05" y="152.85" cocos2d_x="-213.05" cocos2d_y="-158.55" kX="0" kY="0" cX="2" cY="2" pX="186.05" pY="155.7" z="0" dI="3" dr="2" />
+          <f x="161.05" y="158.45" cocos2d_x="-211.05" cocos2d_y="-139.05" kX="0" kY="0" cX="2" cY="2" pX="186.05" pY="148.75" z="0" dI="4" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB58">
+      <mov name="gndfjgksn" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-44" y="194.9" cocos2d_x="-207.05" cocos2d_y="92.15" kX="0" kY="0" cX="1" cY="0.72" fst="0" pX="163.05" pY="143.5" z="0" dI="0" dr="6" />
+          <f x="-44" y="194.9" cocos2d_x="-207.05" cocos2d_y="92.15" kX="0" kY="0" cX="1" cY="0.72" fst="0" pX="163.05" pY="143.5" z="0" dI="0" twE="0" dr="3" />
+          <f x="-44.4" y="194.1" cocos2d_x="-228.05" cocos2d_y="88.7" kX="0" kY="0" cX="1.13" cY="0.73" fst="0" pX="163.1" pY="143.45" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 10  复制 2" sc="1" dl="0">
+          <f x="-44" y="194.9" cocos2d_x="119.05" cocos2d_y="92.15" kX="0" kY="180" cX="1" cY="0.72" fst="0" pX="163.05" pY="143.5" z="1" dI="0" dr="6" />
+          <f x="-44" y="194.9" cocos2d_x="119.05" cocos2d_y="92.15" kX="0" kY="180" cX="1" cY="0.72" fst="0" pX="163.05" pY="143.5" z="1" dI="0" twE="0" dr="3" />
+          <f x="-44.4" y="194.1" cocos2d_x="139.25" cocos2d_y="88.7" kX="0" kY="180" cX="1.13" cY="0.73" fst="0" pX="163.05" pY="143.45" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="cbdjxgijhfgogklsd" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 17" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="38.15" y="-279.9" cocos2d_x="38.15" cocos2d_y="-279.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="10" />
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="图层 16" sc="1" dl="0">
+          <f x="10.95" y="-26.15" cocos2d_x="10.95" cocos2d_y="-26.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="10.95" y="-26.15" cocos2d_x="10.95" cocos2d_y="-26.15" kX="0" kY="0" cX="1" cY="1" fst="1" pX="0" pY="0" z="1" dI="0" dr="23" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 15" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="125.1" y="-194.95" cocos2d_x="41.05" cocos2d_y="-279" kX="0" kY="0" cX="1" cY="1" fst="0" pX="84.05" pY="84.05" z="2" dI="0" dr="10" />
+          <f dr="14" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="张三丰skill01加血buff" width="1024" height="1024">
+    <SubTexture name="xxx-strjfilesB63" width="177" height="147" x="0" y="644" cocos2d_pX="-97.05" cocos2d_pY="-76.40" />
+    <SubTexture name="xxx-strjfilesB62" width="178" height="149" x="493" y="577" cocos2d_pX="-97.05" cocos2d_pY="-83.90" />
+    <SubTexture name="xxx-strjfilesB61" width="178" height="149" x="673" y="575" cocos2d_pX="-93.05" cocos2d_pY="-80.50" />
+    <SubTexture name="xxx-strjfilesB60" width="178" height="146" x="262" y="633" cocos2d_pX="-97.80" cocos2d_pY="-88.95" />
+    <SubTexture name="xxx-strjfilesB59" width="179" height="150" x="493" y="426" cocos2d_pX="-92.30" cocos2d_pY="-80.85" />
+    <SubTexture name="xxx-strjfilesB06" width="16" height="15" x="997" y="118" cocos2d_pX="6.70" cocos2d_pY="5.40" />
+    <SubTexture name="xxx-strjfilesB07" width="29" height="27" x="802" y="319" cocos2d_pX="13.70" cocos2d_pY="11.40" />
+    <SubTexture name="xxx-strjfilesB08" width="48" height="47" x="953" y="472" cocos2d_pX="22.70" cocos2d_pY="21.40" />
+    <SubTexture name="xxx-strjfilesB09" width="66" height="66" x="262" y="445" cocos2d_pX="31.70" cocos2d_pY="30.40" />
+    <SubTexture name="xxx-strjfilesB10" width="73" height="73" x="914" y="398" cocos2d_pX="34.70" cocos2d_pY="34.40" />
+    <SubTexture name="xxx-strjfilesB11" width="73" height="73" x="945" y="324" cocos2d_pX="35.70" cocos2d_pY="34.40" />
+    <SubTexture name="xxx-strjfilesB12" width="65" height="66" x="673" y="458" cocos2d_pX="31.70" cocos2d_pY="30.40" />
+    <SubTexture name="xxx-strjfilesB13" width="53" height="53" x="899" y="472" cocos2d_pX="25.70" cocos2d_pY="24.40" />
+    <SubTexture name="xxx-strjfilesB14" width="46" height="45" x="262" y="512" cocos2d_pX="21.70" cocos2d_pY="20.40" />
+    <SubTexture name="xxx-strjfilesB15" width="39" height="39" x="872" y="423" cocos2d_pX="18.70" cocos2d_pY="17.40" />
+    <SubTexture name="xxx-strjfilesB16" width="33" height="33" x="493" y="313" cocos2d_pX="15.70" cocos2d_pY="14.40" />
+    <SubTexture name="xxx-strjfilesB17" width="28" height="27" x="493" y="347" cocos2d_pX="12.70" cocos2d_pY="11.40" />
+    <SubTexture name="xxx-strjfilesB74" width="51" height="323" x="945" y="0" cocos2d_pX="27.25" cocos2d_pY="166.00" />
+    <SubTexture name="xxx-strjfilesB73" width="84" height="319" x="177" y="315" cocos2d_pX="45.75" cocos2d_pY="160.50" />
+    <SubTexture name="xxx-strjfilesB72" width="105" height="357" x="839" y="0" cocos2d_pX="49.50" cocos2d_pY="188.25" />
+    <SubTexture name="xxx-strjfilesB71" width="133" height="319" x="359" y="313" cocos2d_pX="62.25" cocos2d_pY="161.50" />
+    <SubTexture name="xxx-strjfilesB70" width="152" height="318" x="686" y="0" cocos2d_pX="79.25" cocos2d_pY="160.50" />
+    <SubTexture name="xxx-strjfilesB69" width="153" height="319" x="532" y="0" cocos2d_pX="74.25" cocos2d_pY="160.75" />
+    <SubTexture name="xxx-strjfilesB68" width="172" height="312" x="359" y="0" cocos2d_pX="88.50" cocos2d_pY="157.75" />
+    <SubTexture name="xxx-strjfilesB67" width="176" height="324" x="0" y="0" cocos2d_pX="92.00" cocos2d_pY="170.75" />
+    <SubTexture name="xxx-strjfilesB66" width="181" height="314" x="177" y="0" cocos2d_pX="91.75" cocos2d_pY="158.25" />
+    <SubTexture name="xxx-strjfilesB65" width="187" height="65" x="672" y="725" cocos2d_pX="93.75" cocos2d_pY="34.50" />
+    <SubTexture name="xxx-strjfilesB64" width="138" height="34" x="852" y="575" cocos2d_pX="68.50" cocos2d_pY="19.25" />
+    <SubTexture name="xxx-strjfilesB49" width="87" height="47" x="784" y="423" cocos2d_pX="33.50" cocos2d_pY="31.50" />
+    <SubTexture name="xxx-strjfilesB48" width="96" height="51" x="262" y="393" cocos2d_pX="39.50" cocos2d_pY="31.50" />
+    <SubTexture name="xxx-strjfilesB47" width="111" height="64" x="802" y="358" cocos2d_pX="45.50" cocos2d_pY="37.50" />
+    <SubTexture name="xxx-strjfilesB46" width="115" height="62" x="686" y="319" cocos2d_pX="58.50" cocos2d_pY="35.50" />
+    <SubTexture name="xxx-strjfilesB45" width="97" height="75" x="686" y="382" cocos2d_pX="43.50" cocos2d_pY="38.50" />
+    <SubTexture name="xxx-strjfilesB44" width="87" height="77" x="262" y="315" cocos2d_pX="41.50" cocos2d_pY="36.50" />
+    <SubTexture name="xxx-strjfilesB23" width="15" height="117" x="997" y="0" cocos2d_pX="7.45" cocos2d_pY="61.65" />
+    <SubTexture name="xxx-strjfilesB80" width="156" height="104" x="0" y="539" cocos2d_pX="80.25" cocos2d_pY="67.25" />
+    <SubTexture name="xxx-strjfilesB79" width="159" height="106" x="0" y="325" cocos2d_pX="81.25" cocos2d_pY="68.25" />
+    <SubTexture name="xxx-strjfilesB78" width="158" height="105" x="527" y="320" cocos2d_pX="80.25" cocos2d_pY="68.25" />
+    <SubTexture name="xxx-strjfilesB77" width="159" height="103" x="739" y="471" cocos2d_pX="81.25" cocos2d_pY="67.25" />
+    <SubTexture name="xxx-strjfilesB76" width="159" height="106" x="0" y="432" cocos2d_pX="81.25" cocos2d_pY="68.25" />
+  </TextureAtlas>
+</skeleton>

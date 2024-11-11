@@ -1,0 +1,61 @@
+<skeleton name="普工戚芳" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="267" y="-59" kX="0" kY="0" cX="1.1" cY="1.1" pX="153.5" pY="-56.5" z="0">
+        <d name="sdfsfs/anim" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="sdfsfs/anim" isLoop="loop" startFrame="1">
+      <b name="toufa" x="67.5" y="-60.6" kX="0" kY="0" cX="1.22" cY="1" pX="53.85" pY="1.5" z="0">
+        <d name="sdfsfs-BO"/>
+      </b>
+      <b name="图层 3" x="28.65" y="-60.8" kX="0" kY="0" cX="1.13" cY="0.68" pX="396.5" pY="-115" z="1">
+        <d name="sdfsfs-PG"/>
+      </b>
+      <b name="图层 2" x="159.95" y="-60.25" kX="0" kY="0" cX="1.89" cY="1.12" pX="0" pY="0" z="2">
+        <d name="sdfsfs-guang"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sdfsfs/anim">
+      <mov name="4555" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="toufa" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="67.5" y="-60.6" cocos2d_x="2" cocos2d_y="-62.1" kX="0" kY="0" cX="1.22" cY="1" pX="53.85" pY="1.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="-50.35" y="-63.1" cocos2d_x="-48.6" cocos2d_y="-63.6" kX="0" kY="0" cX="1.77" cY="1" pX="-1" pY="0.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="-62" y="-59.1" cocos2d_x="-60.15" cocos2d_y="-59.6" kX="0" kY="0" cX="1.97" cY="1" pX="-0.95" pY="0.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f dr="3" dI="-1"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="28.65" y="-60.8" cocos2d_x="-417.65" cocos2d_y="17.15" kX="0" kY="0" cX="1.13" cY="0.68" pX="396.5" pY="-115" z="1" dI="0" dr="1" twE="NaN"/>
+          <f x="95.6" y="-59.8" cocos2d_x="-297" cocos2d_y="-19.1" kX="0" kY="0" cX="0.99" cY="0.35" pX="396.5" pY="-115.05" z="1" dI="0" dr="1" twE="NaN"/>
+          <f x="218.15" y="-61.3" cocos2d_x="-123.6" cocos2d_y="-37.3" kX="0" kY="0" cX="0.86" cY="0.21" pX="396.6" pY="-114.95" z="1" dI="0" dr="1" twE="NaN"/>
+          <f dr="4" dI="-1"/>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="159.95" y="-60.25" cocos2d_x="159.95" cocos2d_y="-60.25" kX="0" kY="0" cX="1.89" cY="1.12" pX="0" pY="0" z="2" dI="0" blend="add" dr="1" twE="NaN"/>
+          <f x="198.85" y="-55.65" cocos2d_x="198.85" cocos2d_y="-55.65" kX="0" kY="0" cX="1.42" cY="0.51" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN"/>
+          <f x="188.85" y="-53.65" cocos2d_x="188.85" cocos2d_y="-53.65" kX="0" kY="0" cX="1.07" cY="0.21" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN"/>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="5677" dr="23" to="0" drTW="23" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="267" y="-59" cocos2d_x="98.15" cocos2d_y="3.15" kX="0" kY="0" cX="1.1" cY="1.1" pX="153.5" pY="-56.5" z="0" dI="0" dr="6"/>
+          <f dr="12" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普工戚芳" width="512" height="256">
+    <SubTexture name="sdfsfs-guang" width="206" height="39" x="0" y="135" cocos2d_pX="105.35" cocos2d_pY="17.4"/>
+    <SubTexture name="sdfsfs-PG" width="360" height="133" x="0" y="0" cocos2d_pX="-254.5" cocos2d_pY="174.4"/>
+    <SubTexture name="sdfsfs-BO" width="143" height="111" x="362" y="0" cocos2d_pX="71.7" cocos2d_pY="53.4"/>
+  </TextureAtlas>
+</skeleton>

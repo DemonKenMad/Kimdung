@@ -1,0 +1,30 @@
+<skeleton name="角色下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="26.45" y="221.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-元件 7" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dasfaga" dr="235" to="0" drTW="235" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="26.45" y="221.45" cocos2d_x="26.45" cocos2d_y="221.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="80" contrast="0" saturation="0" hue="0" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="0" blurY="0" distance="5" color="#ff0000" quality="low" strength="0" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="26.45" y="221.45" cocos2d_x="26.45" cocos2d_y="221.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="224">
+            <fl name="adjustColorFilter" enabled="true" brightness="80" contrast="0" saturation="0" hue="0" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="67" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="角色下层" width="512" height="128">
+    <SubTexture name="xxx-元件 7" width="491" height="124" x="0" y="0" cocos2d_pX="249.05" cocos2d_pY="57.95" />
+  </TextureAtlas>
+</skeleton>

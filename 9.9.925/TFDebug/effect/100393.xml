@@ -1,0 +1,258 @@
+<skeleton name="钟万仇技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-13.85" y="-146.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-53.7" z="0">
+        <d name="xzx-z4" />
+        <d name="xzx-z5" />
+        <d name="xzx-vc" />
+        <d name="xzx-vb" />
+      </b>
+      <b name="元件 7" x="-21.7" y="-150.3" kX="-45" kY="-89.82" cX="0.37" cY="0.93" pX="3.85" pY="11.3" z="1">
+        <d name="xzx-z3" />
+      </b>
+      <b name="元件 70" x="-21.7" y="-150.3" kX="45" kY="0.18" cX="0.37" cY="0.93" pX="3.75" pY="11.25" z="2">
+        <d name="xzx-z3" />
+      </b>
+      <b name="元件 71" x="-21.7" y="-150.4" kX="135" kY="90.18" cX="0.37" cY="0.93" pX="3.9" pY="11.3" z="3">
+        <d name="xzx-z3" />
+      </b>
+      <b name="元件 72" x="-21.7" y="-150.4" kX="-135" kY="-179.82" cX="0.37" cY="0.93" pX="4" pY="11.4" z="4">
+        <d name="xzx-z3" />
+      </b>
+      <b name="图层 9" x="111.6" y="-135.25" kX="30.4" kY="8.77" cX="2.15" cY="2.38" pX="-0.05" pY="-56.8" z="5">
+        <d name="xzx-z7" />
+        <d name="xzx-z8" />
+      </b>
+      <b name="图层 2" x="181.05" y="-39.9" kX="0" kY="0" cX="0.92" cY="0.98" pX="-157.95" pY="-55.3" z="6">
+        <d name="xzx/z9" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/z9" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="-180.65" y="-0.05" kX="0" kY="0" cX="0.63" cY="0.63" pX="-13.9" pY="13.35" z="0">
+        <d name="xzx/z1" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/z1" isLoop="loop" startFrame="1">
+      <b name="元件 5" x="-84.45" y="20.85" kX="-1.57" kY="178.02" cX="2.77" cY="0.53" pX="0" pY="-17" z="0">
+        <d name="xzx/z2" isArmature="1" />
+      </b>
+      <b name="元件 50" x="52.8" y="14.9" kX="1.57" kY="1.98" cX="2.56" cY="0.59" pX="0.05" pY="-16.95" z="1">
+        <d name="xzx/z2" isArmature="1" />
+      </b>
+      <b name="元件 11" x="-64.2" y="-87.2" kX="25.06" kY="35.62" cX="0.8" cY="0.73" pX="-104.2" pY="-26.15" z="2">
+        <d name="xzx/z6" isArmature="1" />
+      </b>
+      <b name="元件 110" x="-32.05" y="-70.6" kX="13.94" kY="180" cX="1.14" cY="1.65" pX="0" pY="-9" z="3">
+        <d name="xzx/z6" isArmature="1" />
+      </b>
+      <b name="元件 111" x="0.7" y="-26.55" kX="17.15" kY="-176.79" cX="1.04" cY="0.76" pX="0" pY="-8.95" z="4">
+        <d name="xzx/z6" isArmature="1" />
+      </b>
+      <b name="元件 112" x="-41.15" y="-44.1" kX="-16.95" kY="5.5" cX="0.82" cY="1.03" pX="-0.1" pY="-9" z="5">
+        <d name="xzx/z6" isArmature="1" />
+      </b>
+      <b name="元件 113" x="-116.8" y="-4.7" kX="-51.29" kY="-5.94" cX="0.77" cY="0.56" pX="-108.15" pY="-46.1" z="6">
+        <d name="xzx/z6" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/z2" isLoop="loop" startFrame="3">
+      <b name="图层 1" x="-131.85" y="-77.8" kX="0" kY="0" cX="0.86" cY="1.44" pX="0" pY="0" z="0">
+        <d name="xzx-shape 183" />
+        <d name="xzx-shape 198" />
+        <d name="xzx-shape 199" />
+        <d name="xzx-shape 200" />
+        <d name="xzx-shape 201" />
+      </b>
+    </armature>
+    <armature name="xzx/z6" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-90.1" y="-24.85" kX="0" kY="0" cX="1.71" cY="1.71" pX="0" pY="-0.05" z="0">
+        <d name="xzx-sa" />
+        <d name="xzx-sq" />
+        <d name="xzx-zs" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xzx/z2">
+      <mov name="x" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-131.85" y="-77.8" cocos2d_x="-131.85" cocos2d_y="-77.8" kX="0" kY="0" cX="0.86" cY="1.44" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="-131.85" y="-77.8" cocos2d_x="-131.85" cocos2d_y="-77.8" kX="0" kY="0" cX="0.86" cY="1.44" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+          <f x="-131.85" y="-77.8" cocos2d_x="-131.85" cocos2d_y="-77.8" kX="0" kY="0" cX="0.86" cY="1.44" pX="0" pY="0" z="0" dI="2" blend="add" dr="2" />
+          <f x="-131.85" y="-77.8" cocos2d_x="-131.85" cocos2d_y="-77.8" kX="0" kY="0" cX="0.86" cY="1.44" pX="0" pY="0" z="0" dI="3" blend="add" dr="2" />
+          <f x="-131.85" y="-77.8" cocos2d_x="-131.85" cocos2d_y="-77.8" kX="0" kY="0" cX="0.86" cY="1.44" pX="0" pY="0" z="0" dI="4" blend="add" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/z6">
+      <mov name="z" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-90.1" y="-24.85" cocos2d_x="-90.1" cocos2d_y="-24.75" kX="0" kY="0" cX="1.71" cY="1.71" pX="0" pY="-0.05" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-106.8" y="-60.8" cocos2d_x="-106.8" cocos2d_y="-60.8" kX="0" kY="0" cX="3.19" cY="3.19" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2" />
+          <f x="-105.35" y="-37.9" cocos2d_x="-105.1" cocos2d_y="-37.9" kX="0" kY="0" cX="2.57" cY="2.57" pX="-0.1" pY="0" z="0" dI="2" blend="normal" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/z1">
+      <mov name="c" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="元件 5" sc="1" dl="0">
+          <f x="-84.45" y="20.85" cocos2d_x="-84.2" cocos2d_y="29.85" kX="-1.57" kY="178.02" cX="2.77" cY="0.53" fst="2" pX="0" pY="-17" z="0" dI="0" dr="12" />
+        </b>
+        <b name="元件 50" sc="1" dl="0">
+          <f x="52.8" y="14.9" cocos2d_x="52.4" cocos2d_y="24.9" kX="1.57" kY="1.98" cX="2.56" cY="0.59" fst="0" pX="0.05" pY="-16.95" z="1" dI="0" dr="12" />
+        </b>
+        <b name="元件 11" sc="1" dl="0">
+          <f x="-64.2" y="-87.2" cocos2d_x="-4.35" cocos2d_y="-21.35" kX="25.06" kY="35.62" cX="0.8" cY="0.73" fst="0" pX="-104.2" pY="-26.15" z="2" dI="0" dr="12" />
+        </b>
+        <b name="元件 110" sc="1" dl="0">
+          <f x="-32.05" y="-70.6" cocos2d_x="-35.65" cocos2d_y="-56.15" kX="13.94" kY="180" cX="1.14" cY="1.65" fst="0" pX="0" pY="-9" z="3" dI="0" dr="12" />
+        </b>
+        <b name="元件 111" sc="1" dl="0">
+          <f x="0.7" y="-26.55" cocos2d_x="-1.35" cocos2d_y="-20.05" kX="17.15" kY="-176.79" cX="1.04" cY="0.76" fst="2" pX="0" pY="-8.95" z="4" dI="0" dr="12" />
+        </b>
+        <b name="元件 112" sc="1" dl="0">
+          <f x="-41.15" y="-44.1" cocos2d_x="-38.4" cocos2d_y="-35.3" kX="-16.95" kY="5.5" cX="0.82" cY="1.03" fst="0" pX="-0.1" pY="-9" z="5" dI="0" dr="12" />
+        </b>
+        <b name="元件 113" sc="1" dl="0">
+          <f x="-116.8" y="-4.7" cocos2d_x="-13.3" cocos2d_y="2.9" kX="-51.29" kY="-5.94" cX="0.77" cY="0.56" fst="2" pX="-108.15" pY="-46.1" z="6" dI="0" dr="12" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/z9">
+      <mov name="21" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-180.65" y="-0.05" cocos2d_x="-171.9" cocos2d_y="-8.45" kX="0" kY="0" cX="0.63" cY="0.63" fst="0" pX="-13.9" pY="13.35" z="0" dI="0" twE="0" dr="3" />
+          <f x="-180.65" y="-6.5" cocos2d_x="-170" cocos2d_y="-18.55" kX="0" kY="0" cX="0.77" cY="0.9" fst="3" pX="-13.9" pY="13.35" z="0" dI="0" twE="0" dr="5" />
+          <f x="-180.6" y="-8.7" cocos2d_x="-168.15" cocos2d_y="-23.3" kX="0" kY="0" cX="0.9" cY="1.09" fst="11" pX="-13.9" pY="13.4" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="35" to="0" drTW="35" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-13.85" y="-146.75" cocos2d_x="-13.85" cocos2d_y="-93.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-53.7" z="0" dI="0" blend="normal" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-19.1" y="-148.45" cocos2d_x="-19.1" cocos2d_y="-92.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-55.95" z="0" dI="1" blend="normal" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-7.75" y="-147.3" cocos2d_x="-7.75" cocos2d_y="-92.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-54.95" z="0" dI="2" blend="normal" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-1.55" y="-157.45" cocos2d_x="-1.55" cocos2d_y="-116.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-41.3" z="0" dI="3" blend="normal" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="19" dI="-1" />
+        </b>
+        <b name="元件 7" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-21.7" y="-150.3" cocos2d_x="-29.1" cocos2d_y="-156.25" kX="-45" kY="-89.82" cX="0.37" cY="0.93" pX="3.85" pY="11.3" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.35" cocos2d_x="-33.35" cocos2d_y="-159.7" kX="-45" kY="-89.98" cX="0.59" cY="1.47" pX="3.95" pY="11.25" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.25" cocos2d_x="-35.55" cocos2d_y="-161.4" kX="-45" kY="-89.95" cX="0.7" cY="1.74" pX="3.95" pY="11.3" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.15" cocos2d_x="-36" cocos2d_y="-161.7" kX="-45" kY="-89.97" cX="0.73" cY="1.8" pX="3.9" pY="11.3" z="1" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-21.7" y="-150.25" cocos2d_x="-36.55" cocos2d_y="-162.2" kX="-45" kY="-89.82" cX="0.75" cY="1.86" pX="3.9" pY="11.3" z="1" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="元件 70" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-21.7" y="-150.3" cocos2d_x="-15.7" cocos2d_y="-157.7" kX="45" kY="0.18" cX="0.37" cY="0.93" pX="3.75" pY="11.25" z="2" dI="0" blend="normal" dr="2" />
+          <f x="-21.8" y="-150.25" cocos2d_x="-12.3" cocos2d_y="-161.95" kX="45" kY="0.02" cX="0.59" cY="1.47" pX="3.7" pY="11.25" z="2" dI="0" blend="normal" dr="2" />
+          <f x="-21.75" y="-150.25" cocos2d_x="-10.5" cocos2d_y="-164.1" kX="45" kY="0.05" cX="0.7" cY="1.74" pX="3.7" pY="11.25" z="2" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.25" cocos2d_x="-10.05" cocos2d_y="-164.6" kX="45" kY="0.03" cX="0.73" cY="1.8" pX="3.85" pY="11.3" z="2" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-21.7" y="-150.25" cocos2d_x="-9.75" cocos2d_y="-165.1" kX="45" kY="0.18" cX="0.75" cY="1.86" pX="3.9" pY="11.35" z="2" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="元件 71" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-21.7" y="-150.4" cocos2d_x="-14.25" cocos2d_y="-144.4" kX="135" kY="90.18" cX="0.37" cY="0.93" pX="3.9" pY="11.3" z="3" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.4" cocos2d_x="-9.85" cocos2d_y="-140.9" kX="135" kY="90.02" cX="0.59" cY="1.47" pX="3.85" pY="11.35" z="3" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.4" cocos2d_x="-7.7" cocos2d_y="-139.15" kX="135" kY="90.04" cX="0.7" cY="1.74" pX="3.85" pY="11.35" z="3" dI="0" blend="normal" dr="2" />
+          <f x="-21.65" y="-150.35" cocos2d_x="-7.2" cocos2d_y="-138.7" kX="135" kY="90.03" cX="0.73" cY="1.8" pX="3.85" pY="11.35" z="3" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-21.7" y="-150.45" cocos2d_x="-6.85" cocos2d_y="-138.5" kX="135" kY="90.18" cX="0.75" cY="1.86" pX="3.85" pY="11.3" z="3" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="元件 72" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-21.7" y="-150.4" cocos2d_x="-27.65" cocos2d_y="-142.95" kX="-135" kY="-179.82" cX="0.37" cY="0.93" pX="4" pY="11.4" z="4" dI="0" blend="normal" dr="2" />
+          <f x="-21.8" y="-150.4" cocos2d_x="-31.2" cocos2d_y="-138.6" kX="-135" kY="-179.98" cX="0.59" cY="1.47" pX="4.05" pY="11.35" z="4" dI="0" blend="normal" dr="2" />
+          <f x="-21.75" y="-150.4" cocos2d_x="-32.9" cocos2d_y="-136.45" kX="-135" kY="-179.96" cX="0.7" cY="1.74" pX="3.95" pY="11.3" z="4" dI="0" blend="normal" dr="2" />
+          <f x="-21.7" y="-150.45" cocos2d_x="-33.2" cocos2d_y="-136" kX="-135" kY="-179.97" cX="0.73" cY="1.8" pX="4.1" pY="11.35" z="4" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-21.7" y="-150.45" cocos2d_x="-33.65" cocos2d_y="-135.6" kX="-135" kY="-179.82" cX="0.75" cY="1.86" pX="3.85" pY="11.35" z="4" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="18" dI="-1" />
+          <f x="111.6" y="-135.25" cocos2d_x="43.4" cocos2d_y="-18.8" kX="30.4" kY="8.77" cX="2.15" cY="2.38" pX="-0.05" pY="-56.8" z="5" dI="0" blend="add" dr="3">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="164" y="-122.8" cocos2d_x="147.8" cocos2d_y="12.6" kX="6.82" kY="0" cX="2.32" cY="2.18" pX="0" pY="-62.5" z="5" dI="1" blend="add" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="175.85" y="-122.8" cocos2d_x="159.65" cocos2d_y="12.6" kX="6.82" kY="0" cX="2.32" cY="2.18" pX="0" pY="-62.5" z="5" dI="1" blend="add" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.68" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="187.75" y="-122.8" cocos2d_x="171.55" cocos2d_y="12.6" kX="6.82" kY="0" cX="2.32" cY="2.18" pX="-0.05" pY="-62.5" z="5" dI="1" blend="add" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.37" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="187.75" y="-122.8" cocos2d_x="171.55" cocos2d_y="12.6" kX="6.82" kY="0" cX="2.32" cY="2.18" pX="-0.05" pY="-62.5" z="5" dI="1" blend="add" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.15" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="11" blurY="11" distance="5" color="#ff3300" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="181.05" y="-39.9" cocos2d_x="326.2" cocos2d_y="14.4" kX="0" kY="0" cX="0.92" cY="0.98" fst="0" pX="-157.95" pY="-55.3" z="6" dI="0" dr="9" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="钟万仇技能" width="512" height="512">
+    <SubTexture name="xzx-zs" width="91" height="75" x="415" y="109" cocos2d_pX="45.40" cocos2d_pY="37.45" />
+    <SubTexture name="xzx-sq" width="71" height="75" x="210" y="224" cocos2d_pX="35.40" cocos2d_pY="37.60" />
+    <SubTexture name="xzx-sa" width="106" height="84" x="295" y="126" cocos2d_pX="52.65" cocos2d_pY="41.85" />
+    <SubTexture name="xzx-shape 201" width="97" height="75" x="399" y="269" cocos2d_pX="6.50" cocos2d_pY="3.65" />
+    <SubTexture name="xzx-shape 200" width="98" height="74" x="111" y="224" cocos2d_pX="7.95" cocos2d_pY="3.40" />
+    <SubTexture name="xzx-shape 199" width="110" height="75" x="0" y="197" cocos2d_pX="10.15" cocos2d_pY="5.85" />
+    <SubTexture name="xzx-shape 198" width="111" height="81" x="0" y="115" cocos2d_pX="16.15" cocos2d_pY="9.60" />
+    <SubTexture name="xzx-shape 183" width="103" height="71" x="295" y="211" cocos2d_pX="1.50" cocos2d_pY="0.50" />
+    <SubTexture name="xzx-z8" width="108" height="125" x="306" y="0" cocos2d_pX="53.55" cocos2d_pY="125.00" />
+    <SubTexture name="xzx-z7" width="177" height="114" x="0" y="0" cocos2d_pX="88.20" cocos2d_pY="113.70" />
+    <SubTexture name="xzx-z3" width="67" height="58" x="0" y="273" cocos2d_pX="33.40" cocos2d_pY="58.25" />
+    <SubTexture name="xzx-vb" width="106" height="83" x="402" y="185" cocos2d_pX="53.10" cocos2d_pY="82.60" />
+    <SubTexture name="xzx-vc" width="127" height="110" x="178" y="0" cocos2d_pX="63.35" cocos2d_pY="109.90" />
+    <SubTexture name="xzx-z5" width="116" height="112" x="178" y="111" cocos2d_pX="57.70" cocos2d_pY="111.90" />
+    <SubTexture name="xzx-z4" width="91" height="108" x="415" y="0" cocos2d_pX="45.35" cocos2d_pY="107.40" />
+  </TextureAtlas>
+</skeleton>

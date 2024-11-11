@@ -1,0 +1,57 @@
+<skeleton name="传功A部分(3)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-45.4" y="-101" kX="0" kY="0" cX="1" cY="1" pX="22.5" pY="23" z="0">
+        <d name="xxx-zhangweifilesB10" />
+        <d name="xxx-zhangweifilesB11" />
+        <d name="xxx-zhangweifilesB12" />
+        <d name="xxx-zhangweifilesB13" />
+        <d name="xxx-zhangweifilesB02" />
+      </b>
+      <b name="图层 1" x="-44.8" y="-99.8" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="83" z="1">
+        <d name="xxx-zhangweifilesB04" />
+        <d name="xxx-zhangweifilesB06" />
+        <d name="xxx-zhangweifilesB07" />
+        <d name="xxx-zhangweifilesB08" />
+        <d name="xxx-zhangweifilesB09" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsagahh" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-45.4" y="-101" cocos2d_x="-67.9" cocos2d_y="-124" kX="0" kY="0" cX="1" cY="1" pX="22.5" pY="23" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-44.7" y="-101.35" cocos2d_x="-94.2" cocos2d_y="-150.85" kX="0" kY="0" cX="1" cY="1" pX="49.5" pY="49.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-44.9" y="-101.45" cocos2d_x="-112.9" cocos2d_y="-169.95" kX="0" kY="0" cX="1" cY="1" pX="68" pY="68.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-44.2" y="-101.45" cocos2d_x="-124.2" cocos2d_y="-181.45" kX="0" kY="0" cX="1" cY="1" pX="80" pY="80" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-44.35" y="-101.15" cocos2d_x="-44.35" cocos2d_y="-101.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" twE="0" dr="3" />
+          <f x="-44.35" y="-101.15" cocos2d_x="-44.35" cocos2d_y="-101.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-44.8" y="-99.8" cocos2d_x="-127.3" cocos2d_y="-182.8" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="83" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-44.8" y="-99.8" cocos2d_x="-127.3" cocos2d_y="-182.8" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="83" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="-44.8" y="-99.8" cocos2d_x="-127.3" cocos2d_y="-182.8" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="83" z="1" dI="2" dr="1" twE="NaN" />
+          <f x="-44.8" y="-99.8" cocos2d_x="-127.3" cocos2d_y="-182.8" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="83" z="1" dI="3" dr="1" twE="NaN" />
+          <f x="-44.8" y="-99.8" cocos2d_x="-127.3" cocos2d_y="-182.8" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="83" z="1" dI="4" dr="1" twE="NaN" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="传功A部分(3)" width="512" height="512">
+    <SubTexture name="xxx-zhangweifilesB09" width="146" height="146" x="312" y="302" cocos2d_pX="-6.00" cocos2d_pY="-6.00" />
+    <SubTexture name="xxx-zhangweifilesB08" width="148" height="148" x="0" y="161" cocos2d_pX="-5.00" cocos2d_pY="-5.00" />
+    <SubTexture name="xxx-zhangweifilesB07" width="150" height="150" x="161" y="153" cocos2d_pX="-4.00" cocos2d_pY="-4.00" />
+    <SubTexture name="xxx-zhangweifilesB06" width="150" height="150" x="315" y="151" cocos2d_pX="-4.00" cocos2d_pY="-4.00" />
+    <SubTexture name="xxx-zhangweifilesB04" width="150" height="150" x="315" y="0" cocos2d_pX="-4.00" cocos2d_pY="-4.00" />
+    <SubTexture name="xxx-zhangweifilesB02" width="160" height="160" x="0" y="0" cocos2d_pX="81.50" cocos2d_pY="81.00" />
+    <SubTexture name="xxx-zhangweifilesB13" width="153" height="152" x="161" y="0" cocos2d_pX="-2.00" cocos2d_pY="-3.00" />
+    <SubTexture name="xxx-zhangweifilesB12" width="130" height="129" x="149" y="304" cocos2d_pX="-2.00" cocos2d_pY="-3.00" />
+    <SubTexture name="xxx-zhangweifilesB11" width="92" height="91" x="0" y="310" cocos2d_pX="-2.00" cocos2d_pY="-2.00" />
+    <SubTexture name="xxx-zhangweifilesB10" width="38" height="38" x="466" y="0" cocos2d_pX="-2.00" cocos2d_pY="-2.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,68 @@
+<skeleton name="玄明道人 主动技能主动部分最底层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gdfgsgsdg" x="327.15" y="-99.95" kX="0" kY="0" cX="100" cY="100" pX="0" pY="-0.05" z="0">
+        <d name="xxx-shghf15"/>
+      </b>
+      <b name="hdffhdf" x="2.15" y="-166.85" kX="0" kY="0" cX="2.1" cY="1.67" pX="520.1" pY="296.15" z="1">
+        <d name="xxx/shghf16" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/shghf16" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="568" y="320" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0">
+        <d name="xxx-shghf07"/>
+        <d name="xxx-shghf06"/>
+        <d name="xxx-shghf05"/>
+        <d name="xxx-shghf04"/>
+        <d name="xxx-shghf03"/>
+        <d name="xxx-shghf02"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shghf16">
+      <mov name="fadasdasd" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="0" dr="4"/>
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="1" dr="4"/>
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="2" dr="4"/>
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="3" dr="4"/>
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="4" dr="4"/>
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="5" dr="4"/>
+          <f x="568" y="320" cocos2d_x="568" cocos2d_y="320" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.5" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="vdfgdfdsfsfds" dr="85" to="0" drTW="85" lp="0" twE="NaN">
+        <b name="gdfgsgsdg" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="327.15" y="-99.95" cocos2d_x="327.15" cocos2d_y="-94.95" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="18">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.15" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="327.15" y="-99.95" cocos2d_x="327.15" cocos2d_y="-94.95" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.91" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="327.15" y="-99.95" cocos2d_x="327.15" cocos2d_y="-94.95" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="31"/>
+          <f dr="28" dI="-1"/>
+        </b>
+        <b name="hdffhdf" sc="1" dl="0">
+          <f dr="34" dI="-1"/>
+          <f x="2.15" y="-166.85" cocos2d_x="-1092.1" cocos2d_y="-662" kX="0" kY="0" cX="2.1" cY="1.67" fst="0" pX="520.1" pY="296.15" z="1" dI="0" dr="23"/>
+          <f dr="28" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="玄明道人 主动技能主动部分最底层输出" width="1024" height="512">
+    <SubTexture name="xxx-shghf02" width="284" height="160" x="286" y="162" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-shghf03" width="284" height="160" x="572" y="0" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-shghf04" width="284" height="160" x="572" y="162" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-shghf05" width="284" height="160" x="0" y="0" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-shghf06" width="284" height="160" x="286" y="0" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-shghf07" width="284" height="160" x="0" y="162" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-shghf15" width="14" height="8" x="858" y="0" cocos2d_pX="6.65" cocos2d_pY="3.65"/>
+  </TextureAtlas>
+</skeleton>

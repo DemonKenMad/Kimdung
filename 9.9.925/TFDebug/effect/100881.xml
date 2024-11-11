@@ -1,0 +1,30 @@
+<skeleton name="曾柔普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="11" y="-76" kX="0" kY="0" cX="2.26" cY="2.26" pX="138" pY="20" z="0">
+        <d name="Graphic-7567" />
+        <d name="Graphic-678" />
+        <d name="Graphic-789789" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="54366" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="11" y="-76" cocos2d_x="-301" cocos2d_y="-121.2" kX="0" kY="0" cX="2.26" cY="2.26" pX="138" pY="20" z="0" dI="0" dr="2" />
+          <f x="144.05" y="-69" cocos2d_x="-90.9" cocos2d_y="-112.95" kX="0" kY="0" cX="1.91" cY="1.91" pX="123" pY="23.05" z="0" dI="1" dr="2" />
+          <f x="182" y="-82" cocos2d_x="-9" cocos2d_y="-130.5" kX="0" kY="0" cX="1" cY="1" pX="191" pY="48.5" z="0" dI="2" dr="2" />
+          <f x="242" y="-82" cocos2d_x="107" cocos2d_y="-115" kX="0" kY="0" cX="0.71" cY="0.68" pX="191" pY="48.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="曾柔普工" width="512" height="256">
+    <SubTexture name="Graphic-789789" width="382" height="85" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="-12.00" />
+    <SubTexture name="Graphic-678" width="246" height="46" x="0" y="127" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Graphic-7567" width="276" height="40" x="0" y="86" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

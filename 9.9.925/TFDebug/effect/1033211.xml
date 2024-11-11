@@ -1,0 +1,37 @@
+<skeleton name="神技能下层" frameRate="24" version="2.2.3">
+ <armatures>
+  <armature name="anim">
+   <b name="图层 1" x="0.1" y="2.05" kX="0" kY="0" cX="174.64" cY="206.71" pX="0" pY="0" z="0">
+    <d name="xxx-zhangweifiltacerB06"/>
+    <d name="xxx-zhangweifiltacerB04"/>
+    <d name="xxx-zhangweifiltacerB02"/>
+    <d name="xxx-zhangweifiltacerB09"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="anim">
+   <mov name="gfsdgsdfahfhdsh" dr="144" to="0" drTW="144" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f dr="23" dI="-1"/>
+     <f x="0.1" y="2.05" cocos2d_x="0.1" cocos2d_y="2.05" kX="0" kY="0" cX="174.64" cY="206.71" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN"/>
+     <f x="16.75" y="30.05" cocos2d_x="16.75" cocos2d_y="30.05" kX="0" kY="0" cX="138.64" cY="134.17" fst="0" pX="0" pY="0" z="0" dI="1" dr="2"/>
+     <f x="16.75" y="30.05" cocos2d_x="16.75" cocos2d_y="30.05" kX="0" kY="0" cX="156.67" cY="156.67" fst="0" pX="0" pY="0" z="0" dI="2" dr="2"/>
+     <f dr="43" dI="-1"/>
+     <f x="225" y="-28.75" cocos2d_x="225" cocos2d_y="-28.75" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="42"/>
+     <f x="225" y="-28.75" cocos2d_x="225" cocos2d_y="-28.75" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" twE="0" dr="6"/>
+     <f x="225" y="-28.75" cocos2d_x="225" cocos2d_y="-28.75" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="0.61" gM="0.61" bM="0.61"/>
+     </f>
+     <f dr="24" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="神技能下层" width="1024" height="512">
+  <SubTexture name="xxx-zhangweifiltacerB09" width="626" height="359" x="0" y="0" cocos2d_pX="425.65" cocos2d_pY="165.05"/>
+  <SubTexture name="xxx-zhangweifiltacerB02" width="12" height="8" x="642" y="0" cocos2d_pX="6" cocos2d_pY="3.7"/>
+  <SubTexture name="xxx-zhangweifiltacerB04" width="12" height="8" x="628" y="0" cocos2d_pX="6" cocos2d_pY="3.7"/>
+  <SubTexture name="xxx-zhangweifiltacerB06" width="9" height="5" x="656" y="0" cocos2d_pX="4.4" cocos2d_pY="2.2"/>
+ </TextureAtlas>
+</skeleton>

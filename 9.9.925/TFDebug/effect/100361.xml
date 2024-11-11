@@ -1,0 +1,38 @@
+<skeleton name="普工风波恶" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="110.05" y="-53.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-27.1" z="0">
+        <d name="fengboe-元件 1" />
+      </b>
+      <b name="图层 3" x="105.55" y="-60.3" kX="0" kY="0" cX="1" cY="1.42" pX="0" pY="-30.2" z="1">
+        <d name="fengboe-元件 2" />
+        <d name="fengboe-元件 3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="555" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="110.05" y="-53.45" cocos2d_x="110.05" cocos2d_y="-26.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-27.1" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="110.1" y="-66.15" cocos2d_x="86" cocos2d_y="-27.6" kX="31.95" kY="0" cX="1.27" cY="1.68" pX="0" pY="-27.1" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="139.15" y="-63.65" cocos2d_x="110.6" cocos2d_y="-42.05" kX="52.8" kY="-1.96" cX="1.6" cY="1.32" pX="0.05" pY="-27.1" z="0" dI="0" dr="2" />
+          <f x="139" y="-63.65" cocos2d_x="133" cocos2d_y="-58.7" kX="51.32" kY="-3.44" cX="2.24" cY="0.29" pX="-0.1" pY="-27.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="105.55" y="-60.3" cocos2d_x="105.55" cocos2d_y="-17.35" kX="0" kY="0" cX="1" cY="1.42" pX="0" pY="-30.2" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="211.9" y="-68" cocos2d_x="210.9" cocos2d_y="-46.5" kX="2.81" kY="-1.96" cX="1.12" cY="0.66" pX="-0.1" pY="-32.35" z="1" dI="1" blend="add" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普工风波恶" width="512" height="256">
+    <SubTexture name="fengboe-元件 3" width="412" height="67" x="0" y="62" cocos2d_pX="197.00" cocos2d_pY="66.75" />
+    <SubTexture name="fengboe-元件 2" width="434" height="61" x="0" y="0" cocos2d_pX="217.00" cocos2d_pY="60.50" />
+    <SubTexture name="fengboe-元件 1" width="339" height="55" x="0" y="130" cocos2d_pX="169.25" cocos2d_pY="54.15" />
+  </TextureAtlas>
+</skeleton>

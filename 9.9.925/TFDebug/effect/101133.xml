@@ -1,0 +1,136 @@
+<skeleton name="司空玄技能特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="42.95" y="-61.1" kX="-153.46" kY="0" cX="2.17" cY="1.12" pX="74.95" pY="40" z="0">
+        <d name="skx-m_00000.png" />
+        <d name="skx-FENG" />
+      </b>
+      <b name="图层 8" x="134.6" y="-66.6" kX="0" kY="0" cX="0.48" cY="0.48" pX="12.3" pY="5.3" z="1">
+        <d name="skx/GJ" isArmature="1" />
+        <d name="skx-g" />
+      </b>
+      <b name="图层 4" x="98.8" y="-52.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="skx-BJ" />
+        <d name="skx-DSA" />
+      </b>
+      <b name="图层 5" x="93.85" y="-82" kX="-90" kY="-90" cX="1" cY="1" pX="96.5" pY="1.5" z="3">
+        <d name="skx/GUANG" isArmature="1" />
+      </b>
+      <b name="图层 2" x="99.5" y="2.4" kX="0" kY="0" cX="0.87" cY="0.87" pX="3.5" pY="22" z="4">
+        <d name="skx/yanchen" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="skx/GJ" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="10.4" y="-6.55" kX="0" kY="0" cX="2" cY="2" pX="57.5" pY="58.5" z="0">
+        <d name="skx-1" />
+        <d name="skx-dfg" />
+      </b>
+    </armature>
+    <armature name="skx/GUANG" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="96.5" y="1.5" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0">
+        <d name="skx-GJ0001.png" />
+        <d name="skx-GJ0003.png" />
+      </b>
+    </armature>
+    <armature name="skx/yanchen" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-0.5" y="24.5" kX="0" kY="0" cX="2" cY="2" pX="53.5" pY="17.5" z="0">
+        <d name="skx-3" />
+        <d name="skx-4" />
+        <d name="skx-5" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="skx/GJ">
+      <mov name="ghgf" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="10.4" y="-6.55" cocos2d_x="-104.6" cocos2d_y="-123.55" kX="0" kY="0" cX="2" cY="2" pX="57.5" pY="58.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="11.75" y="4.1" cocos2d_x="-136.25" cocos2d_y="-148.9" kX="0" kY="0" cX="2" cY="2" pX="74" pY="76.5" z="0" dI="1" dr="2" />
+          <f x="10.35" y="-6.6" cocos2d_x="-87.95" cocos2d_y="-106.6" kX="0" kY="0" cX="1.71" cY="1.71" pX="57.5" pY="58.5" z="0" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="skx/GUANG">
+      <mov name="DDASA" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="96.5" y="1.5" cocos2d_x="1" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0" dI="0" dr="2" />
+          <f x="122.5" y="1.5" cocos2d_x="48" cocos2d_y="-61" kX="0" kY="0" cX="1" cY="1" pX="74.5" pY="62.5" z="0" dI="1" dr="4" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="skx/yanchen">
+      <mov name="fg" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.5" y="24.5" cocos2d_x="-107.5" cocos2d_y="-10.5" kX="0" kY="0" cX="2" cY="2" pX="53.5" pY="17.5" z="0" dI="0" dr="2" />
+          <f x="-0.55" y="27" cocos2d_x="-145.55" cocos2d_y="-33" kX="0" kY="0" cX="2" cY="2" pX="72.5" pY="30" z="0" dI="1" dr="2" />
+          <f x="3.25" y="54" cocos2d_x="-189.75" cocos2d_y="0" kX="0" kY="0" cX="2" cY="2" pX="96.5" pY="27" z="0" dI="2" dr="5" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="33" to="0" drTW="33" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="42.95" y="-61.1" cocos2d_x="-140" cocos2d_y="-21.1" kX="-153.46" kY="0" cX="2.17" cY="1.12" pX="74.95" pY="40" z="0" dI="0" dr="4" />
+          <f dr="21" dI="-1" />
+          <f x="158.35" y="-87.95" cocos2d_x="76.15" cocos2d_y="0.4" kX="0" kY="0" cX="1.38" cY="1.38" pX="59.5" pY="-63.95" z="0" dI="1" dr="4" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="134.6" y="-66.6" cocos2d_x="128.7" cocos2d_y="-69.15" kX="0" kY="0" cX="0.48" cY="0.48" pX="12.3" pY="5.3" z="1" dI="0" dr="5" />
+          <f dr="21" dI="-1" />
+          <f x="74.3" y="-175.3" cocos2d_x="73.6" cocos2d_y="-172.55" kX="115.84" kY="-65.77" cX="2.64" cY="1.39" pX="1.05" pY="0.35" z="1" dI="1" blend="normal" twE="0" dr="1" />
+          <f x="74.3" y="-175.3" cocos2d_x="73.6" cocos2d_y="-172.55" kX="115.84" kY="-65.77" cX="2.64" cY="1.39" pX="1.05" pY="0.35" z="1" dI="1" blend="normal" twE="0" dr="3" />
+          <f x="74.3" y="-175.3" cocos2d_x="73.6" cocos2d_y="-172.55" kX="115.84" kY="-65.77" cX="2.64" cY="1.39" pX="1.05" pY="0.35" z="1" dI="1" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="18" dI="-1" />
+          <f x="98.8" y="-52.6" cocos2d_x="98.8" cocos2d_y="-52.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="2" />
+          <f x="98.8" y="-52.6" cocos2d_x="98.8" cocos2d_y="-52.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="2" />
+          <f x="98.8" y="-52.6" cocos2d_x="98.8" cocos2d_y="-52.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+          <f x="157.3" y="-32.7" cocos2d_x="39.55" cocos2d_y="2.8" kX="0" kY="0" cX="1.29" cY="1.73" pX="90.95" pY="-20.55" z="2" dI="1" dr="2" />
+          <f x="157.3" y="-32.7" cocos2d_x="39.55" cocos2d_y="2.8" kX="0" kY="0" cX="1.29" cY="1.73" pX="90.95" pY="-20.55" z="2" dI="1" twE="0" dr="3" />
+          <f x="157.3" y="-32.7" cocos2d_x="39.55" cocos2d_y="2.8" kX="0" kY="0" cX="1.29" cY="1.73" pX="90.95" pY="-20.55" z="2" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="18" dI="-1" />
+          <f x="93.85" y="-82" cocos2d_x="92.35" cocos2d_y="14.5" kX="-90" kY="-90" cX="1" cY="1" pX="96.5" pY="1.5" z="3" dI="0" dr="2" />
+          <f x="93.85" y="-82" cocos2d_x="92.35" cocos2d_y="14.5" kX="-90" kY="-90" cX="1" cY="1" pX="96.5" pY="1.5" z="3" dI="0" twE="0" dr="2" />
+          <f x="93.85" y="-82" cocos2d_x="92.35" cocos2d_y="14.5" kX="-90" kY="-90" cX="1" cY="1" pX="96.5" pY="1.5" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="17" dI="-1" />
+          <f x="99.5" y="2.4" cocos2d_x="96.45" cocos2d_y="-16.8" kX="0" kY="0" cX="0.87" cY="0.87" pX="3.5" pY="22" z="4" dI="0" dr="8" />
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="司空玄技能特效" width="512" height="512">
+    <SubTexture name="skx-5" width="193" height="36" x="0" y="356" cocos2d_pX="0.00" cocos2d_pY="-9.00" />
+    <SubTexture name="skx-4" width="132" height="49" x="377" y="118" cocos2d_pX="-8.00" cocos2d_pY="-6.00" />
+    <SubTexture name="skx-3" width="107" height="34" x="0" y="295" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="skx-GJ0003.png" width="149" height="125" x="331" y="168" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="skx-GJ0001.png" width="191" height="123" x="185" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="skx-dfg" width="145" height="150" x="185" y="124" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="skx-1" width="115" height="117" x="377" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="skx-DSA" width="211" height="56" x="295" y="294" cocos2d_pX="14.50" cocos2d_pY="48.55" />
+    <SubTexture name="skx-BJ" width="184" height="156" x="0" y="0" cocos2d_pX="93.25" cocos2d_pY="76.85" />
+    <SubTexture name="skx-g" width="150" height="80" x="144" y="275" cocos2d_pX="74.00" cocos2d_pY="39.65" />
+    <SubTexture name="skx-FENG" width="143" height="137" x="0" y="157" cocos2d_pX="17.25" cocos2d_pY="136.45" />
+    <SubTexture name="skx-m_00000.png" width="150" height="80" x="295" y="351" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

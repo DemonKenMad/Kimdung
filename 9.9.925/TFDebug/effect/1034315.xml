@@ -1,0 +1,84 @@
+<skeleton name="奇侠 神技  主动部分最顶层C" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gasgfasf" x="-7.9" y="-87.95" kX="0" kY="0" cX="0.91" cY="0.91" pX="0" pY="0" z="0">
+        <d name="xxx/sdff09" isArmature="1" />
+      </b>
+      <b name="gsdgsdg" x="3.15" y="-97.4" kX="0" kY="0" cX="1.62" cY="1.19" pX="-20" pY="14.55" z="1">
+        <d name="xxx/sdff10" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdff09" isLoop="single frame" startFrame="1">
+      <b name="图层 3" x="-8.35" y="-13.2" kX="0" kY="0" cX="204" cY="204" pX="0" pY="0" z="0">
+        <d name="xxx-sdff08" />
+      </b>
+      <b name="图层 1" x="9.5" y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-sdff04" />
+        <d name="xxx-sdff06" />
+      </b>
+    </armature>
+    <armature name="xxx/sdff10" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="581.5" y="114.15" kX="0" kY="0" cX="240" cY="240" pX="0" pY="0" z="0">
+        <d name="xxx-sdff12" />
+      </b>
+      <b name="图层 1" x="32" y="2" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1">
+        <d name="xxx-sdff18" />
+        <d name="xxx-sdff16" />
+        <d name="xxx-sdff14" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdff09">
+      <mov name="sdfgsdfadasf" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-8.35" y="-13.2" cocos2d_x="-8.35" cocos2d_y="-13.2" kX="0" kY="0" cX="204" cY="204" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="9.5" y="-8" cocos2d_x="9.5" cocos2d_y="-8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="9.3" y="-8" cocos2d_x="9.3" cocos2d_y="-7.9" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="1" blend="hardLight" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sdff10">
+      <mov name="csdgfdgdsfsa" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="581.5" y="114.15" cocos2d_x="581.5" cocos2d_y="114.15" kX="0" kY="0" cX="240" cY="240" fst="0" pX="0" pY="0" z="0" dI="0" dr="7" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="32" y="2" cocos2d_x="32" cocos2d_y="2" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="32" y="2" cocos2d_x="32" cocos2d_y="2" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="32" y="2" cocos2d_x="32" cocos2d_y="2" kX="0" kY="0" cX="5" cY="5" pX="0" pY="0" z="1" dI="1" blend="overlay" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+          <f x="345.25" y="-62.65" cocos2d_x="345.25" cocos2d_y="-62.65" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dgsdfgsf" dr="119" to="0" drTW="119" lp="0" twE="NaN">
+        <b name="gasgfasf" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-7.9" y="-87.95" cocos2d_x="-7.9" cocos2d_y="-87.95" kX="0" kY="0" cX="0.91" cY="0.91" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-7.9" y="-87.95" cocos2d_x="-7.9" cocos2d_y="-87.95" kX="0" kY="0" cX="1.64" cY="1.64" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-7.9" y="-87.95" cocos2d_x="-7.9" cocos2d_y="-87.95" kX="0" kY="0" cX="1.63" cY="1.63" fst="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="109" dI="-1" />
+        </b>
+        <b name="gsdgsdg" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="3.15" y="-97.4" cocos2d_x="35.6" cocos2d_y="-114.75" kX="0" kY="0" cX="1.62" cY="1.19" fst="0" pX="-20" pY="14.55" z="1" dI="0" dr="7" />
+          <f dr="103" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="奇侠 神技  主动部分最顶层C" width="512" height="512">
+    <SubTexture name="xxx-sdff14" width="204" height="113" x="285" y="0" cocos2d_pX="101.90" cocos2d_pY="56.35" />
+    <SubTexture name="xxx-sdff16" width="227" height="128" x="0" y="161" cocos2d_pX="113.60" cocos2d_pY="64.00" />
+    <SubTexture name="xxx-sdff18" width="284" height="160" x="0" y="0" cocos2d_pX="142.00" cocos2d_pY="80.00" />
+    <SubTexture name="xxx-sdff12" width="19" height="13" x="490" y="0" cocos2d_pX="9.30" cocos2d_pY="6.05" />
+    <SubTexture name="xxx-sdff06" width="118" height="103" x="228" y="218" cocos2d_pX="58.85" cocos2d_pY="51.55" />
+    <SubTexture name="xxx-sdff04" width="127" height="103" x="285" y="114" cocos2d_pX="63.75" cocos2d_pY="51.50" />
+    <SubTexture name="xxx-sdff08" width="5" height="3" x="490" y="14" cocos2d_pX="2.10" cocos2d_pY="1.25" />
+  </TextureAtlas>
+</skeleton>

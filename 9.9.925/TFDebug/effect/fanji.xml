@@ -1,0 +1,29 @@
+<skeleton name="反击-越南版" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="dsgdrhreh" x="-49.5" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xiaoxuedewenjian01-adsfwefwf" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="svgwewefew" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="dsgdrhreh" sc="1" dl="0">
+          <f x="-49.5" y="0" cocos2d_x="-49.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="-0.16" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="3" />
+          <f x="-3.5" y="0" cocos2d_x="-3.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="6" />
+          <f x="-3.5" y="0" cocos2d_x="-3.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0.13" dr="2" />
+          <f x="-0.5" y="0" cocos2d_x="-0.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="反击-越南版" width="256" height="64">
+    <SubTexture name="xiaoxuedewenjian01-adsfwefwf" width="130" height="41" x="0" y="0" cocos2d_pX="64.50" cocos2d_pY="21.55" />
+  </TextureAtlas>
+</skeleton>

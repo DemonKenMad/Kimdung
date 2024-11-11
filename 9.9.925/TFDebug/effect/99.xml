@@ -1,0 +1,57 @@
+<skeleton name="金蛇游身buff输出" frameRate="28" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gsdgsdg" x="-1.05" y="-198.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sddf21" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sddf21" isLoop="loop" startFrame="1">
+      <b name="fsafsafas" x="11.45" y="6.45" kX="0" kY="0" cX="1.25" cY="1.25" pX="0" pY="0" z="0">
+        <d name="xxx-sddf04" />
+        <d name="xxx-sddf06" />
+        <d name="xxx-sddf08" />
+        <d name="xxx-sddf10" />
+        <d name="xxx-sddf12" />
+        <d name="xxx-sddf14" />
+        <d name="xxx-sddf16" />
+        <d name="xxx-sddf18" />
+        <d name="xxx-sddf20" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sddf21">
+      <mov name="gsdgdfgasdfasf" dr="17" to="0" drTW="17" lp="1" twE="NaN">
+        <b name="fsafsafas" sc="1" dl="0">
+          <f x="11.45" y="6.45" cocos2d_x="11.45" cocos2d_y="6.45" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="2.6" y="7.2" cocos2d_x="2.6" cocos2d_y="7.2" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-0.55" y="2.25" cocos2d_x="-0.55" cocos2d_y="2.25" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-2.35" y="-0.8" cocos2d_x="-2.35" cocos2d_y="-0.8" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-6.05" y="0.35" cocos2d_x="-6" cocos2d_y="0.35" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+          <f x="1.75" y="0.75" cocos2d_x="1.75" cocos2d_y="0.75" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="7.2" y="2.35" cocos2d_x="7.2" cocos2d_y="2.35" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="9.35" y="4.1" cocos2d_x="9.35" cocos2d_y="4.1" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="12.1" y="6.05" cocos2d_x="12.1" cocos2d_y="6.05" kX="0" kY="0" cX="1.25" cY="1.25" fst="0" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gsdgsdgsdgs" dr="51" to="0" drTW="51" lp="1" twE="NaN">
+        <b name="gsdgsdg" sc="1" dl="0">
+          <f x="-1.05" y="-198.5" cocos2d_x="-1.05" cocos2d_y="-198.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="51" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="金蛇游身buff输出" width="256" height="512">
+    <SubTexture name="xxx-sddf20" width="108" height="55" x="0" y="227" cocos2d_pX="54.60" cocos2d_pY="27.35" />
+    <SubTexture name="xxx-sddf18" width="116" height="58" x="0" y="59" cocos2d_pX="58.55" cocos2d_pY="28.75" />
+    <SubTexture name="xxx-sddf16" width="120" height="58" x="0" y="0" cocos2d_pX="60.90" cocos2d_pY="29.05" />
+    <SubTexture name="xxx-sddf14" width="118" height="58" x="121" y="58" cocos2d_pX="58.90" cocos2d_pY="28.85" />
+    <SubTexture name="xxx-sddf12" width="107" height="59" x="0" y="118" cocos2d_pX="54.30" cocos2d_pY="29.35" />
+    <SubTexture name="xxx-sddf10" width="116" height="57" x="117" y="117" cocos2d_pX="57.90" cocos2d_pY="28.85" />
+    <SubTexture name="xxx-sddf08" width="120" height="57" x="121" y="0" cocos2d_pX="60.25" cocos2d_pY="28.30" />
+    <SubTexture name="xxx-sddf06" width="118" height="51" x="108" y="175" cocos2d_pX="59.30" cocos2d_pY="25.35" />
+    <SubTexture name="xxx-sddf04" width="108" height="53" x="109" y="227" cocos2d_pX="53.70" cocos2d_pY="26.60" />
+  </TextureAtlas>
+</skeleton>

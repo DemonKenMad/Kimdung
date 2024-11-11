@@ -1,0 +1,140 @@
+<skeleton name="石中玉 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 11" x="162.55" y="-117.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="szy/fgjfdh" isArmature="1" />
+        <d name="szy/dhj" isArmature="1" />
+      </b>
+      <b name="图层 4" x="20.6" y="-100.1" kX="0" kY="-5.08" cX="3.05" cY="1.05" pX="14.65" pY="7.6" z="1">
+        <d name="szy/qilang" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="szy/fgjfdh" isLoop="loop" startFrame="1">
+      <b name="图层 8" x="-15.25" y="-61.2" kX="0" kY="0" cX="1" cY="1" pX="13" pY="23" z="0">
+        <d name="szy-sdgh" />
+      </b>
+      <b name="位图 11" x="-11.8" y="-50.7" kX="0" kY="0" cX="1" cY="1" pX="22" pY="30" z="1">
+        <d name="szy-asdgg" />
+        <d name="szy-sdgh" />
+      </b>
+      <b name="位图 17" x="-39.8" y="-16.6" kX="-60" kY="-60" cX="1" cY="1" pX="18.5" pY="23" z="2">
+        <d name="szy-daghh" />
+        <d name="szy-asgh" />
+      </b>
+      <b name="位图 170" x="13.15" y="-28.1" kX="53.28" kY="53.28" cX="1" cY="1" pX="18.5" pY="23" z="3">
+        <d name="szy-daghh" />
+        <d name="szy-sdhd" />
+      </b>
+      <b name="位图 19" x="-18.25" y="41.35" kX="0" kY="0" cX="1" cY="1" pX="18.5" pY="33" z="4">
+        <d name="szy-sdghs" />
+        <d name="szy-sdhhd" />
+      </b>
+      <b name="位图 21" x="4.75" y="3.3" kX="0" kY="0" cX="1" cY="1" pX="36" pY="45.5" z="5">
+        <d name="szy-dfhfh" />
+        <d name="szy-sdfhh" />
+        <d name="szy-sdhhd" />
+      </b>
+    </armature>
+    <armature name="szy/dhj" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="61.5" y="-14.1" kX="0" kY="0" cX="1" cY="1" pX="61" pY="167" z="0">
+        <d name="szy-sfgag" />
+        <d name="szy-njghdf" />
+        <d name="szy-dfgdh" />
+      </b>
+    </armature>
+    <armature name="szy/qilang" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="14.4" y="7.5" kX="0" kY="0" cX="1" cY="1" pX="46" pY="64.5" z="0">
+        <d name="szy-gfjkdm" />
+        <d name="szy-fjhjk" />
+        <d name="szy-fgjghk" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="szy/fgjfdh">
+      <mov name="1" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-15.25" y="-61.2" cocos2d_x="-28.25" cocos2d_y="-84.2" kX="0" kY="0" cX="1" cY="1" pX="13" pY="23" z="0" dI="0" dr="3" />
+        </b>
+        <b name="位图 11" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-11.8" y="-50.7" cocos2d_x="-33.8" cocos2d_y="-80.7" kX="0" kY="0" cX="1" cY="1" pX="22" pY="30" z="1" dI="0" dr="2" />
+          <f x="-50.2" y="-27" cocos2d_x="-60.45" cocos2d_y="-51.3" kX="-52.31" kY="127.69" cX="1" cY="1" pX="13" pY="23" z="1" dI="1" dr="3" />
+        </b>
+        <b name="位图 17" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-39.8" y="-16.6" cocos2d_x="-68.95" cocos2d_y="-12.05" kX="-60" kY="-60" cX="1" cY="1" pX="18.5" pY="23" z="2" dI="0" dr="2" />
+          <f x="18.65" y="-27.7" cocos2d_x="27.7" cocos2d_y="-53.95" kX="49.2" kY="49.2" cX="1" cY="1" pX="14" pY="24" z="2" dI="1" dr="3" />
+        </b>
+        <b name="位图 170" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="13.15" y="-28.1" cocos2d_x="20.55" cocos2d_y="-56.65" kX="53.28" kY="53.28" cX="1" cY="1" pX="18.5" pY="23" z="3" dI="0" dr="2" />
+          <f x="-14.6" y="63.55" cocos2d_x="-30.6" cocos2d_y="29.55" kX="0" kY="0" cX="1" cY="1" pX="16" pY="34" z="3" dI="1" dr="3" />
+        </b>
+        <b name="位图 19" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-18.25" y="41.35" cocos2d_x="-36.75" cocos2d_y="8.35" kX="0" kY="0" cX="1" cY="1" pX="18.5" pY="33" z="4" dI="0" dr="2" />
+          <f x="-32.2" y="36.8" cocos2d_x="-32.1" cocos2d_y="5.75" kX="27.99" kY="27.99" cX="1" cY="1" pX="14.5" pY="27.5" z="4" dI="1" dr="3" />
+        </b>
+        <b name="位图 21" sc="1" dl="0">
+          <f x="4.75" y="3.3" cocos2d_x="-31.25" cocos2d_y="-42.2" kX="0" kY="0" cX="1" cY="1" pX="36" pY="45.5" z="5" dI="0" dr="2" />
+          <f x="18.7" y="26.65" cocos2d_x="-20.5" cocos2d_y="27" kX="-52.73" kY="-52.73" cX="1" cY="1" pX="24" pY="31" z="5" dI="1" dr="2" />
+          <f x="21.8" y="34.3" cocos2d_x="13" cocos2d_y="4.5" kX="-44.24" kY="135.76" cX="1" cY="1" pX="14.5" pY="27.5" z="5" dI="2" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="szy/dhj">
+      <mov name="GHJKK" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="61.5" y="-14.1" cocos2d_x="0.5" cocos2d_y="-181.1" kX="0" kY="0" cX="1" cY="1" pX="61" pY="167" z="0" dI="0" dr="3" />
+          <f x="70.65" y="-56.4" cocos2d_x="8.65" cocos2d_y="-203.9" kX="0" kY="0" cX="1" cY="1" pX="62" pY="147.5" z="0" dI="1" dr="2" />
+          <f x="69.05" y="-65.65" cocos2d_x="13.05" cocos2d_y="-201.65" kX="0" kY="0" cX="1" cY="1" pX="56" pY="136" z="0" dI="2" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="szy/qilang">
+      <mov name="2" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="14.4" y="7.5" cocos2d_x="-31.6" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="46" pY="64.5" z="0" dI="0" dr="2" />
+          <f x="-4.4" y="3.15" cocos2d_x="-48.4" cocos2d_y="-77.35" kX="0" kY="0" cX="1" cY="1" pX="44" pY="80.5" z="0" dI="1" dr="2" />
+          <f x="-16.25" y="-5.65" cocos2d_x="-60.25" cocos2d_y="-88.15" kX="0" kY="0" cX="1" cY="1" pX="44" pY="82.5" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="162.55" y="-117.2" cocos2d_x="162.55" cocos2d_y="-117.2" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="5" />
+          <f dr="6" dI="-1" />
+          <f x="101" y="-110.55" cocos2d_x="-238.8" cocos2d_y="-1.35" kX="92.72" kY="-26.12" cX="3.59" cY="1.96" fst="0" pX="72.25" pY="-54.7" z="0" dI="1" dr="6" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="20.6" y="-100.1" cocos2d_x="-23.8" cocos2d_y="-104.15" kX="0" kY="-5.08" cX="3.05" cY="1.05" fst="0" pX="14.65" pY="7.6" z="1" dI="0" dr="6" />
+          <f dr="15" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="石中玉 普攻FX" width="512" height="512">
+    <SubTexture name="szy-fgjghk" width="88" height="144" x="331" y="0" cocos2d_pX="0.00" cocos2d_pY="-17.00" />
+    <SubTexture name="szy-fjhjk" width="88" height="134" x="420" y="0" cocos2d_pX="0.00" cocos2d_pY="-13.00" />
+    <SubTexture name="szy-gfjkdm" width="92" height="109" x="406" y="227" cocos2d_pX="0.00" cocos2d_pY="-12.00" />
+    <SubTexture name="szy-dfgdh" width="102" height="246" x="228" y="0" cocos2d_pX="-2.00" cocos2d_pY="-6.00" />
+    <SubTexture name="szy-njghdf" width="108" height="250" x="119" y="0" cocos2d_pX="-6.00" cocos2d_pY="-15.00" />
+    <SubTexture name="szy-sfgag" width="118" height="279" x="0" y="0" cocos2d_pX="-2.00" cocos2d_pY="-20.00" />
+    <SubTexture name="szy-sdfhh" width="48" height="62" x="331" y="145" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-dfhfh" width="71" height="91" x="420" y="135" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-sdhhd" width="29" height="55" x="228" y="247" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-sdghs" width="37" height="66" x="380" y="145" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-sdhd" width="31" height="68" x="374" y="212" cocos2d_pX="-1.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-asgh" width="28" height="48" x="296" y="247" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-daghh" width="37" height="45" x="258" y="247" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="szy-asdgg" width="42" height="60" x="331" y="208" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="szy-sdgh" width="26" height="46" x="119" y="251" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

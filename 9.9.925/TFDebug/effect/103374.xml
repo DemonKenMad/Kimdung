@@ -1,0 +1,141 @@
+<skeleton name="金蛇郎君 普攻捆绑角色上层输出提亮改蓝" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="60.85" y="-97.05" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart11" />
+        <d name="xxx-zhangweirinhart09" />
+        <d name="xxx-zhangweirinhart07" />
+        <d name="xxx-zhangweirinhart05" />
+        <d name="xxx-zhangweirinhart03" />
+        <d name="xxx/zhangweirinhart34" isArmature="1" />
+      </b>
+      <b name="图层 7" x="2.45" y="-76.3" kX="134.02" kY="177.83" cX="2.37" cY="1.3" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweirinhart34" isArmature="1" />
+      </b>
+      <b name="图层 8" x="43.75" y="-86.05" kX="-142.04" kY="157.96" cX="2.06" cY="1.28" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweirinhart34" isArmature="1" />
+      </b>
+      <b name="图层 9" x="-3.2" y="-101.5" kX="-89.12" kY="-147" cX="1.68" cY="1.73" pX="0" pY="0" z="3">
+        <d name="xxx/zhangweirinhart34" isArmature="1" />
+      </b>
+      <b name="图层 11" x="10.3" y="-82.35" kX="-23.34" kY="7.03" cX="1.71" cY="0.66" pX="0" pY="0" z="4">
+        <d name="xxx/zhangweirinhart39" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart34" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-10.8" y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweirinhart40" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart39" isLoop="loop" startFrame="4">
+      <b name="图层 4" x="-11.4" y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart23" />
+        <d name="xxx-zhangweirinhart21" />
+        <d name="xxx-zhangweirinhart19" />
+        <d name="xxx-zhangweirinhart17" />
+        <d name="xxx-zhangweirinhart15" />
+        <d name="xxx-zhangweirinhart13" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweirinhart34">
+      <mov name="dfsafasdgashgjn" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-10.8" y="4.3" cocos2d_x="-10.7" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="5" />
+          <f x="-10.8" y="4.3" cocos2d_x="-10.7" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="5" />
+          <f x="-10.8" y="4.3" cocos2d_x="-10.7" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="5" />
+          <f x="-10.8" y="4.3" cocos2d_x="-10.7" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-10.8" y="4.3" cocos2d_x="-10.7" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart39">
+      <mov name="dfasfsdagasdga" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-11.4" y="-7.85" cocos2d_x="-11.4" cocos2d_y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-11.4" y="-7.85" cocos2d_x="-11.4" cocos2d_y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-11.4" y="-7.85" cocos2d_x="-11.4" cocos2d_y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-11.4" y="-7.85" cocos2d_x="-11.4" cocos2d_y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-11.4" y="-7.85" cocos2d_x="-11.4" cocos2d_y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="-11.4" y="-7.85" cocos2d_x="-11.4" cocos2d_y="-7.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="5" dr="12" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="jhfhgjjgfkgkghjf" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="60.85" y="-97.05" cocos2d_x="60.85" cocos2d_y="-97.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="39.65" y="-91.45" cocos2d_x="39.65" cocos2d_y="-91.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="31.65" y="-58.45" cocos2d_x="31.65" cocos2d_y="-58.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="35.65" y="-54.45" cocos2d_x="35.65" cocos2d_y="-54.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-8.35" y="-69.45" cocos2d_x="-8.35" cocos2d_y="-69.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f dr="4" dI="-1" />
+          <f x="26.55" y="-90" cocos2d_x="26.55" cocos2d_y="-90" kX="-45.07" kY="-1.94" cX="1.7" cY="0.93" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="53.15" y="-94.5" cocos2d_x="53.15" cocos2d_y="-94.5" kX="-29.22" kY="-2.11" cX="2.53" cY="1.08" fst="0" pX="0" pY="0" z="0" dI="5" twE="0" dr="10" />
+          <f x="55.55" y="-95.45" cocos2d_x="55.55" cocos2d_y="-95.45" kX="-29.22" kY="-2.11" cX="2.75" cY="1.17" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="21" dI="-1" />
+          <f x="2.45" y="-76.3" cocos2d_x="2.45" cocos2d_y="-76.3" kX="134.02" kY="177.83" cX="2.37" cY="1.3" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="10.1" y="-79.6" cocos2d_x="10.1" cocos2d_y="-79.6" kX="150.83" kY="177.9" cX="2.67" cY="1.14" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="10" />
+          <f x="8.75" y="-79.25" cocos2d_x="8.75" cocos2d_y="-79.25" kX="150.83" kY="177.9" cX="2.9" cY="1.24" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="43.75" y="-86.05" cocos2d_x="43.75" cocos2d_y="-86.05" kX="-142.04" kY="157.96" cX="2.06" cY="1.28" fst="0" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f x="47" y="-89.65" cocos2d_x="47" cocos2d_y="-89.65" kX="-129.13" kY="-169.59" cX="1.37" cY="1.95" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="8" />
+          <f x="23.7" y="-72.15" cocos2d_x="23.7" cocos2d_y="-72.15" kX="-111.64" kY="-125.54" cX="1.21" cY="2.2" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+          <f x="42.35" y="-86.95" cocos2d_x="42.35" cocos2d_y="-86.95" kX="91.23" kY="33.32" cX="1.19" cY="1.26" fst="0" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f x="65.35" y="-76.15" cocos2d_x="65.35" cocos2d_y="-76.15" kX="90.76" kY="43.91" cX="1.39" cY="1.78" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="6" />
+          <f x="68.8" y="-75.5" cocos2d_x="68.8" cocos2d_y="-75.5" kX="90.76" kY="43.91" cX="1.51" cY="1.94" fst="0" pX="0" pY="0" z="2" dI="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="21" dI="-1" />
+          <f x="-3.2" y="-101.5" cocos2d_x="-3.2" cocos2d_y="-101.5" kX="-89.12" kY="-147" cX="1.68" cY="1.73" fst="0" pX="0" pY="0" z="3" dI="0" dr="2" />
+          <f x="20.45" y="-95.75" cocos2d_x="20.45" cocos2d_y="-95.75" kX="-89.22" kY="-136.07" cX="1.47" cY="1.88" fst="0" pX="0" pY="0" z="3" dI="0" twE="0" dr="6" />
+          <f x="20" y="-96.8" cocos2d_x="20" cocos2d_y="-96.8" kX="-89.22" kY="-136.07" cX="1.59" cY="2.04" fst="0" pX="0" pY="0" z="3" dI="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="10.3" y="-82.35" cocos2d_x="10.3" cocos2d_y="-82.35" kX="-23.34" kY="7.03" cX="1.71" cY="0.66" fst="3" pX="0" pY="0" z="4" dI="0" dr="2" />
+          <f x="35.15" y="-74.4" cocos2d_x="35.15" cocos2d_y="-74.4" kX="93.98" kY="53.35" cX="0.72" cY="1.47" fst="5" pX="0" pY="0" z="4" dI="0" twE="0" dr="3" />
+          <f x="50.3" y="-90.45" cocos2d_x="50.3" cocos2d_y="-90.45" kX="89.24" kY="53.4" cX="0.82" cY="1.47" fst="8" pX="0" pY="0" z="4" dI="0" twE="0" dr="2" />
+          <f x="60.4" y="-101.2" cocos2d_x="60.4" cocos2d_y="-101.2" kX="85.99" kY="53.35" cX="0.89" cY="1.47" fst="10" pX="0" pY="0" z="4" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="金蛇郎君 普攻捆绑角色上层输出提亮改蓝" width="512" height="512">
+    <SubTexture name="xxx-zhangweirinhart13" width="110" height="134" x="114" y="292" cocos2d_pX="30.00" cocos2d_pY="54.00" />
+    <SubTexture name="xxx-zhangweirinhart15" width="113" height="141" x="0" y="263" cocos2d_pX="33.00" cocos2d_pY="62.00" />
+    <SubTexture name="xxx-zhangweirinhart17" width="118" height="142" x="289" y="248" cocos2d_pX="38.00" cocos2d_pY="63.00" />
+    <SubTexture name="xxx-zhangweirinhart19" width="123" height="148" x="305" y="99" cocos2d_pX="43.00" cocos2d_pY="69.00" />
+    <SubTexture name="xxx-zhangweirinhart21" width="135" height="149" x="169" y="0" cocos2d_pX="55.00" cocos2d_pY="70.00" />
+    <SubTexture name="xxx-zhangweirinhart23" width="168" height="161" x="0" y="0" cocos2d_pX="82.00" cocos2d_pY="82.00" />
+    <SubTexture name="xxx-zhangweirinhart40" width="119" height="141" x="169" y="150" cocos2d_pX="60.55" cocos2d_pY="70.50" />
+    <SubTexture name="xxx-zhangweirinhart03" width="160" height="57" x="181" y="442" cocos2d_pX="80.25" cocos2d_pY="26.25" />
+    <SubTexture name="xxx-zhangweirinhart05" width="180" height="49" x="0" y="427" cocos2d_pX="98.25" cocos2d_pY="25.75" />
+    <SubTexture name="xxx-zhangweirinhart07" width="184" height="50" x="225" y="391" cocos2d_pX="93.25" cocos2d_pY="22.75" />
+    <SubTexture name="xxx-zhangweirinhart09" width="178" height="98" x="305" y="0" cocos2d_pX="91.25" cocos2d_pY="53.25" />
+    <SubTexture name="xxx-zhangweirinhart11" width="164" height="100" x="0" y="162" cocos2d_pX="83.00" cocos2d_pY="50.50" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,177 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CCrossGuildBattleMsg";
+import "s2c/GuildBattle_s2c.proto";
+
+message CrossGuildInfo{
+	required int32 guildId = 1; //公会编号
+	required string guildName = 2;//公会名称
+	required string bannerId = 3;//公会旗帜
+	required string serverName = 4;//服务器名称
+	required int32 score=5;//积分
+	required int32 winCount=6;//胜场
+	required int32 lostCount=7;//负场
+	required int32 cityId = 8;
+}
+
+message CrossGuildMemberInfo{
+	required string name=1;
+	required int32 useIcon = 2;
+	required int32 power = 3;
+	required int32 headPicFrame=4;
+	required int32 playerId = 5;
+	required int32 starHeroRanking = 6;
+	optional int32 ladderGrade = 7;				//天梯赛段位
+}
+
+message QualifyingInfo{
+	required CrossGuildInfo guildInfo = 1;
+	repeated CrossGuildMemberInfo members = 2;
+}
+
+//资格赛信息
+//code = 0x4433
+message QualifyingInfoList{
+	repeated QualifyingInfo infos =1;
+}
+
+//城市信息
+//code = 0x4434
+message CityInfo{
+	repeated CrossGuildInfo infos = 1;
+	optional int64 lastUpdateTime = 2;
+}
+
+message GuildBattleInfo{
+	required int32 warId = 1;
+	required int32 atkGuildId =2;
+	required int32 defGuildId = 3;
+	required int32 winGuildId = 4;
+	required int32 cityId = 5;
+	required int64 createTime =6;
+	optional int32 atkPeakAddition = 7;			//论剑峰属性加层 万分比
+	optional int32 defPeakAddition = 8;			//论剑峰属性加层 万分比
+}
+
+//城市对战信息
+// code = 0x4435
+message CityBattleInfos{
+	repeated CrossGuildInfo rankInfos = 1;
+	repeated int32 battleQueue = 2;
+	optional int32 updateCount = 3;
+}
+
+//公会战战斗信息
+//code = 0x4439
+message CrossGuildBattleWarInfosMsg{
+	repeated GuildBattleInfo battleInfos = 1;
+}
+
+message CrossGuildBattleTeamInfo{
+	required int32 eliteId = 1;//精英编号
+	repeated CrossGuildMemberInfo battleInfo = 2;
+	required int32 id=3;
+}
+
+message CrossGuildBattleReplayInfo{
+	required int32 index = 1;
+	required int32 team = 2;
+	required int32 atkPlayerId = 3;
+	required int32 defPlayerId = 4;
+	required int32 winPlayerId = 5;
+	required int32 replayId = 6;
+}
+
+//公会录像信息
+// code = 0x4436
+message CrossGuildBattleReplayInfos{
+	repeated CrossGuildBattleTeamInfo atkGuildTeamInfos = 1;
+	repeated CrossGuildBattleReplayInfo replays = 2;
+	required int32 warId = 3;
+}
+
+//城市对战简单信息
+// code = 0x4437
+message CityBattleSimpleInfo{
+	repeated BattleSimpleInfo simpleInfos = 1;
+	optional int32 cityId = 2;
+}
+
+message BattleSimpleInfo{
+	required int32 cityId = 1;
+	repeated CrossGuildInfo infos = 2;
+}
+//当前状态
+// code = 0x4438
+message GuildBattleCurrentState{
+	required int32 state = 1;//当前状态
+}
+//申请成功
+// code = 0x443A
+message ApplyCrossSucess{
+	required bool sucess = 1;
+}
+//取消申请
+// code = 0x443B
+message UnapplyCrossSucess{
+
+}
+//修改城市成功
+// code = 0x443D
+message UpdateCitySucess{
+
+}
+
+//获得上一次冠军
+// code = 0x443E
+message LastRankInfoMsg{
+	repeated CrossGuildRankInfoMsg infos = 1;
+	repeated CrossMemberRankInfoMsg members = 2;
+	optional CrossGuildRankInfoMsg serverInfo = 3;
+	optional int32 myRank = 4;
+	optional int32 serverRank = 5;
+	required int64 lastOpenTime = 6;
+}
+
+message CrossGuildRankInfoMsg{
+	required int32 guildId=1;
+	required string guildName=2;
+	required string bannerId=3;
+	required int32 serverId=4;
+	required string serverName=5;
+}
+
+message CrossMemberRankInfoMsg{
+	required string playerName=1;
+	required int32 useCoin=2;
+	required int32 frameId=3;
+	required int32 starHeroRanking = 4;
+}
+
+//申请简单信息
+//code = 0x443F
+message ApplySimpleInfo{
+	repeated SimpleCrossGuildInfo infos = 1;
+	optional int32 cityId =2;
+}
+
+message SimpleCrossGuildInfo{
+	required int32 count =1;
+	required CrossGuildInfo infos = 2;
+}
+//所有公会排名
+//code = 0x4440
+message AllCityInfo{
+	repeated CrossGuildInfo infos = 1;
+}
+//公会的成员信息
+// code = 0x4441
+message CrossGuildBattleMemberInfo{
+	repeated GuildBattleTeamInfo infos = 1;
+}
+
+//修改精英
+// code = 0x443c
+message UpdateCrossEliteSucess{
+	required bool sucess = 1;
+}

@@ -1,0 +1,90 @@
+<skeleton name="屏幕中间最底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="0.4" y="2.15" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart07" />
+      </b>
+      <b name="图层 5" x="-204.6" y="-65.9" kX="78.21" kY="78.21" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="1">
+        <d name="xxx-zhangweirinhart04" />
+        <d name="xxx/zhangweirinhart03" isArmature="1" />
+        <d name="xxx/zhangweirinhart02" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart03" isLoop="loop" startFrame="1">
+      <b name="元件 4" x="0.15" y="225.05" kX="-172.5" kY="-173.53" cX="2.11" cY="1.99" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweirinhart04" />
+      </b>
+      <b name="元件 40" x="122.4" y="0.2" kX="-65.22" kY="-67.94" cX="2.01" cY="1.99" pX="-0.15" pY="0" z="1">
+        <d name="xxx-zhangweirinhart04" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart02" isLoop="loop" startFrame="1">
+      <b name="元件 4" x="-262.7" y="43.9" kX="78.21" kY="78.21" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweirinhart04" />
+      </b>
+      <b name="元件 40" x="-337.8" y="-3.9" kX="-41.79" kY="-41.79" cX="2.17" cY="1.99" pX="-0.15" pY="-0.05" z="1">
+        <d name="xxx-zhangweirinhart04" />
+      </b>
+      <b name="元件 41" x="-0.35" y="-165.75" kX="25.21" kY="22.39" cX="3.83" cY="1.99" pX="-0.15" pY="-0.05" z="2">
+        <d name="xxx-zhangweirinhart04" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweirinhart03">
+      <mov name="fsdafasdhgashd" dr="1" to="0">
+        <b name="元件 4" sc="1" dl="0">
+          <f x="0.15" y="225.05" cocos2d_x="-0.05" cocos2d_y="225.05" kX="-172.5" kY="-173.53" cX="2.11" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 40" sc="1" dl="0">
+          <f x="122.4" y="0.2" cocos2d_x="122.5" cocos2d_y="-0.1" kX="-65.22" kY="-67.94" cX="2.01" cY="1.99" fst="0" pX="-0.15" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart02">
+      <mov name="dfsasdgashasfh" dr="1" to="0">
+        <b name="元件 4" sc="1" dl="0">
+          <f x="-262.7" y="43.9" cocos2d_x="-262.7" cocos2d_y="44" kX="78.21" kY="78.21" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 40" sc="1" dl="0">
+          <f x="-337.8" y="-3.9" cocos2d_x="-337.5" cocos2d_y="-4.05" kX="-41.79" kY="-41.79" cX="2.17" cY="1.99" fst="0" pX="-0.15" pY="-0.05" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="元件 41" sc="1" dl="0">
+          <f x="-0.35" y="-165.75" cocos2d_x="0.15" cocos2d_y="-165.45" kX="25.21" kY="22.39" cX="3.83" cY="1.99" fst="0" pX="-0.15" pY="-0.05" z="2" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="adsfasdfasdgasdg" dr="114" to="0" drTW="114" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.4" y="2.15" cocos2d_x="0.4" cocos2d_y="2.15" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="19.15" y="-25.85" cocos2d_x="19.15" cocos2d_y="-25.85" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="17">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.48" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="19.15" y="-25.85" cocos2d_x="19.15" cocos2d_y="-25.85" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.48" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="19.15" y="-25.85" cocos2d_x="19.15" cocos2d_y="-25.85" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="66" />
+          <f x="19.15" y="-25.85" cocos2d_x="19.15" cocos2d_y="-25.85" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="10" />
+          <f x="19.15" y="-25.85" cocos2d_x="19.15" cocos2d_y="-25.85" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="9">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="-204.6" y="-65.9" cocos2d_x="-204.6" cocos2d_y="-65.8" kX="78.21" kY="78.21" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="1" dI="0" dr="12" />
+          <f x="66.85" y="-65" cocos2d_x="66.85" cocos2d_y="-64.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="1" dI="1" dr="11" />
+          <f x="120.95" y="74.2" cocos2d_x="120.95" cocos2d_y="74.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="2" dr="8" />
+          <f dr="55" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="屏幕中间最底层" width="1024" height="64">
+    <SubTexture name="xxx-zhangweirinhart04" width="635" height="46" x="0" y="0" cocos2d_pX="318.05" cocos2d_pY="24.65" />
+    <SubTexture name="xxx-zhangweirinhart07" width="20" height="11" x="636" y="0" cocos2d_pX="9.65" cocos2d_pY="5.30" />
+  </TextureAtlas>
+</skeleton>

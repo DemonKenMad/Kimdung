@@ -1,0 +1,120 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SBibleOperation";
+
+//code = 0x6001
+//装备天书
+message EquipBilbleRequest{
+	required int64 roleId = 1; //角色实例id
+	required int64 bible = 2; //装备到身上的天书userid
+	required int32 itemid = 3; //装备到身上的天书的模板id
+}
+
+//code = 0x6002
+//卸除天书
+message UnequipBibleRequest{
+	required int64 roleId = 1; //角色实例id
+	required int64 bible = 2; //要脱下的天书userid
+}
+
+//code = 0x6004
+//镶嵌精要
+message EssentialMosaicRequest{
+	required int64 bible = 1; 	//镶嵌的天书id
+	required int32 essential = 2; //精要id
+	required int32 pos    = 3; //镶嵌的位置
+}
+
+
+//code = 0x6005
+//卸下精要
+message EssentialUnMosaicRequest{
+	required int64 bible = 1; 	//精要的天书id
+	required int32 pos = 2; 	//卸下的精要的位置
+}
+
+
+
+//code = 0x6006
+//天书突破请求
+message RequestBibleBreachRequest{
+	required int64 instanceId = 1;			//天书实例ID
+}
+
+//code = 0x6007
+//精要分解
+message EssentialExplodeRequest{
+	repeated EssentialExplodeStruct itemIdNum = 1; //分解id和数量
+}
+
+message EssentialExplodeStruct{
+	required int32 itemId = 1; //分解模板id
+	required int32 number = 2; //分解的数量
+}
+
+//code = 0x6008
+//重置天书
+message BibleResetRequest{
+	required int64 instanceId = 1; //id
+}
+
+//code = 0x6010
+//天书升重
+message BibleLevelUpRequest{
+	required int64 instanceId = 1; //id
+}
+
+//code = 0x6011
+//一键镶嵌精要
+message EssentialMosaicAll{
+	required int64 roleId = 1; //角色实例id
+}
+
+//code = 0x6012
+//天书宝石镶嵌
+message BibleGemMosaic{
+	required int64 bibleId = 1; 	//镶嵌的天书id
+	required int32 itemId = 2; //宝石id
+	required int32  pos    = 3; //镶嵌的位置
+}
+
+//code = 0x6013
+//宝石拆卸
+message BibleGemUnMosaic{
+	required int64 bibleId = 1; 	//卸下的天书id
+	required int32  pos    = 2; //卸下的位置
+}
+
+// 天书研修
+// code = 0x6015
+message BiblePracticeRequest {
+	required int64 bibleId = 1; 	// 研修的天书id
+	required int32 position = 2; 		// 位置
+}
+
+// 天书置换
+// code = 0x6019
+message BibleExchangeRequest {
+	required int64 bibleId = 1; 	// 置换的天书 id 1
+	required int64 exBibleId = 2; 	// 置换的天书 id 2
+}
+
+// 天书参悟信息
+// code = 0x6020
+message BibleComprehendInfoRequest {
+	required int64 bibleId = 1; 	// 天书 id 1
+}
+
+// 天书参悟
+// code = 0x6021
+message BibleComprehendRequest{
+	required int64 bibleId = 1; 	// 天书 id 1
+	required int32 stage = 2; 		// 阶段id
+}
+
+// 天书参悟-替换
+// code = 0x6022
+message BibleComprehendReplaceRequest{
+	required int64 bibleId = 1; 	// 天书 id 1
+	required int32 stage = 2; 		// 阶段id
+}

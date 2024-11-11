@@ -1,0 +1,118 @@
+<skeleton name="云中鹤 普工FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1 复制" x="-42.8" y="-88.4" kX="-134" kY="7" cX="1.03" cY="0.67" pX="160.95" pY="167.1" z="0">
+        <d name="dg2-0.png" />
+        <d name="dg2-45645" />
+        <d name="dg2-4356" />
+      </b>
+      <b name="图层 6 复制" x="238.4" y="-86.65" kX="0" kY="0" cX="1.57" cY="1.57" pX="56" pY="52" z="1">
+        <d name="dg2-DIREN_00000.png" />
+      </b>
+      <b name="图层 7" x="179" y="-78.25" kX="87" kY="87" cX="0.76" cY="0.76" pX="-1.15" pY="1.25" z="2">
+        <d name="dg2/bao_e" isArmature="1" />
+      </b>
+      <b name="图层 9  复制 2" x="179" y="-78.25" kX="25" kY="25" cX="0.4" cY="0.68" pX="-1.15" pY="1.45" z="3">
+        <d name="dg2/bao_e" isArmature="1" />
+      </b>
+      <b name="fx  复制 2" x="179" y="-78.25" kX="-63" kY="-63" cX="0.62" cY="0.29" pX="-0.9" pY="1.55" z="4">
+        <d name="dg2/bao_e" isArmature="1" />
+      </b>
+      <b name="图层 4" x="179" y="-78.25" kX="163" kY="-17" cX="0.62" cY="0.41" pX="-0.8" pY="1.5" z="5">
+        <d name="dg2/bao_e" isArmature="1" />
+      </b>
+      <b name="图层 3" x="189.2" y="-79.05" kX="-121.83" kY="-121.87" cX="2.23" cY="0.42" pX="49" pY="48.95" z="6">
+        <d name="dg2-3456" />
+      </b>
+      <b name="图层 22 复制" x="187.5" y="-79.95" kX="0" kY="0" cX="3.4" cY="3.4" pX="0" pY="0" z="7">
+        <d name="dg2-dian" />
+      </b>
+    </armature>
+    <armature name="dg2/bao_e" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="7" y="-110.3" kX="0" kY="0" cX="1" cY="1" pX="75" pY="114.5" z="0">
+        <d name="dg2-Sghjdf" />
+        <d name="dg2-dfhjhd" />
+        <d name="dg2-sdfjhjfd" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dg2/bao_e">
+      <mov name="5666" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="7" y="-110.3" cocos2d_x="-68" cocos2d_y="-224.8" kX="0" kY="0" cX="1" cY="1" pX="75" pY="114.5" z="0" dI="0" dr="2" />
+          <f x="7" y="-136.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="1" cY="1" pX="75" pY="100.5" z="0" dI="1" dr="2" />
+          <f x="7" y="-159.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="1" cY="1" pX="75" pY="77.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="788" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 1 复制" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-42.8" y="-88.4" cocos2d_x="-287.75" cocos2d_y="-30.85" kX="-134" kY="7" cX="1.03" cY="0.67" pX="160.95" pY="167.1" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-8.8" y="-58.4" cocos2d_x="-137.25" cocos2d_y="3.95" kX="-178" kY="-4" cX="0.79" cY="0.32" pX="160.6" pY="167.3" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="33.55" y="-126.4" cocos2d_x="-175.95" cocos2d_y="-240.95" kX="0" kY="0" cX="3.27" cY="3.27" pX="64" pY="35" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="-72.45" y="-190.45" cocos2d_x="-259.95" cocos2d_y="-237.3" kX="0" kY="0" cX="2.34" cY="2.34" pX="80.05" pY="20" z="0" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="-132.8" y="-179.45" cocos2d_x="-8.6" cocos2d_y="-249.6" kX="-5.81" kY="165.99" cX="0.82" cY="0.23" pX="161.25" pY="166.95" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 6 复制" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="238.4" y="-86.65" cocos2d_x="150.5" cocos2d_y="-168.3" kX="0" kY="0" cX="1.57" cY="1.57" pX="56" pY="52" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="179" y="-78.25" cocos2d_x="180" cocos2d_y="-77.4" kX="87" kY="87" cX="0.76" cY="0.76" fst="0" pX="-1.15" pY="1.25" z="2" dI="0" dr="5" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 9  复制 2" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="179" y="-78.25" cocos2d_x="179.8" cocos2d_y="-78.95" kX="25" kY="25" cX="0.4" cY="0.68" fst="0" pX="-1.15" pY="1.45" z="3" dI="0" dr="5" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="fx  复制 2" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="179" y="-78.25" cocos2d_x="178.85" cocos2d_y="-78.95" kX="-63" kY="-63" cX="0.62" cY="0.29" fst="0" pX="-0.9" pY="1.55" z="4" dI="0" dr="5" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="179" y="-78.25" cocos2d_x="179.65" cocos2d_y="-77.8" kX="163" kY="-17" cX="0.62" cY="0.41" fst="0" pX="-0.8" pY="1.5" z="5" dI="0" dr="5" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="189.2" y="-79.05" cocos2d_x="229.35" cocos2d_y="24.85" kX="-121.83" kY="-121.87" cX="2.23" cY="0.42" pX="49" pY="48.95" z="6" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="189.35" y="-78.25" cocos2d_x="248.15" cocos2d_y="73.9" kX="-121.87" kY="-121.87" cX="3.27" cY="0.62" pX="49" pY="49.05" z="6" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="189.4" y="-78" cocos2d_x="253.45" cocos2d_y="87.75" kX="-121.87" kY="-121.87" cX="3.56" cY="0.68" pX="49" pY="49" z="6" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 22 复制" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="187.5" y="-79.95" cocos2d_x="187.5" cocos2d_y="-79.95" kX="0" kY="0" cX="3.4" cY="3.4" pX="0" pY="0" z="7" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="187.5" y="-79.95" cocos2d_x="187.5" cocos2d_y="-79.95" kX="0" kY="0" cX="1.96" cY="1.96" pX="0" pY="0" z="7" dI="0" blend="add" twE="0" dr="6" />
+          <f x="187.5" y="-79.95" cocos2d_x="187.5" cocos2d_y="-79.95" kX="0" kY="0" cX="1.96" cY="1.96" pX="0" pY="0" z="7" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="云中鹤 普工FX" width="512" height="512">
+    <SubTexture name="dg2-sdfjhjfd" width="150" height="125" x="141" y="185" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="dg2-dfhjhd" width="140" height="165" x="0" y="185" cocos2d_pX="-2.00" cocos2d_pY="-18.00" />
+    <SubTexture name="dg2-Sghjdf" width="120" height="190" x="375" y="0" cocos2d_pX="-10.00" cocos2d_pY="-39.00" />
+    <SubTexture name="dg2-dian" width="42" height="44" x="292" y="264" cocos2d_pX="23.00" cocos2d_pY="22.25" />
+    <SubTexture name="dg2-3456" width="78" height="78" x="292" y="185" cocos2d_pX="-10.00" cocos2d_pY="-10.00" />
+    <SubTexture name="dg2-DIREN_00000.png" width="112" height="104" x="371" y="191" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dg2-4356" width="160" height="39" x="335" y="296" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="dg2-45645" width="125" height="66" x="141" y="311" cocos2d_pX="0.00" cocos2d_pY="-4.00" />
+    <SubTexture name="dg2-0.png" width="374" height="184" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

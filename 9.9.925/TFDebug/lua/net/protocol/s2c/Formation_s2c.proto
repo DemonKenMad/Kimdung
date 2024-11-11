@@ -1,0 +1,27 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CFormation";
+
+//code = 0x6700
+// 阵容
+message FormationResponse{
+
+}
+
+// 阵容
+// code = 0x6701
+message AllFormationData {
+	repeated FormationData data = 1; 			//所有阵容
+}
+
+// 阵容信息
+message FormationData {
+	required int32 type = 1;					//类型 1单阵容攻击 2单阵容防守 3双阵容攻击1阵容 4双阵容攻击2阵容
+	repeated int64 formation = 2;				// 阵容
+}
+
+//战力更新
+//code = 0x6702
+message FormationPower{
+	required int32 power = 1;
+}

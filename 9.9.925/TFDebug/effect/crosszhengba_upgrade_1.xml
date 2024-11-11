@@ -1,0 +1,82 @@
+<skeleton name="升段特效启动特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-2.85" y="-0.95" kX="0" kY="0" cX="0.5" cY="0.5" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweirinhart05" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart05" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="5.95" y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart06" />
+        <d name="xxx-zhangweirinhart07" />
+        <d name="xxx-zhangweirinhart08" />
+        <d name="xxx-zhangweirinhart09" />
+      </b>
+      <b name="图层 4" x="5.95" y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweirinhart06" />
+        <d name="xxx-zhangweirinhart07" />
+        <d name="xxx-zhangweirinhart08" />
+        <d name="xxx-zhangweirinhart09" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweirinhart05">
+      <mov name="dfsagaghasd" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="5.95" y="0.9" cocos2d_x="5.95" cocos2d_y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.99" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="5.95" y="0.9" cocos2d_x="5.95" cocos2d_y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="1" dr="2">
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="5.95" y="0.9" cocos2d_x="5.95" cocos2d_y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="2" dr="2">
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="-1.05" y="-2.1" cocos2d_x="-1.05" cocos2d_y="-2.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="3" dr="2">
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="5.95" y="0.9" cocos2d_x="5.95" cocos2d_y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.4" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="5.95" y="0.9" cocos2d_x="5.95" cocos2d_y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="1" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.4" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="5.95" y="0.9" cocos2d_x="5.95" cocos2d_y="0.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.4" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="-1.05" y="-2.1" cocos2d_x="-1.05" cocos2d_y="-2.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="3" twE="1" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.4" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="-1.05" y="-2.1" cocos2d_x="-1.05" cocos2d_y="-2.1" kX="0" kY="0" cX="2.98" cY="2.98" pX="0" pY="0" z="1" dI="3" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="adjustColorFilter" enabled="true" brightness="53" contrast="0" saturation="0" hue="0" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sfdagasgas" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-2.85" y="-0.95" cocos2d_x="-2.85" cocos2d_y="-0.95" kX="0" kY="0" cX="0.5" cY="0.5" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="-8.85" y="-5.95" cocos2d_x="-8.85" cocos2d_y="-5.95" kX="0" kY="0" cX="1" cY="1" fst="4" pX="0" pY="0" z="0" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="升段特效启动特效" width="1024" height="1024">
+    <SubTexture name="xxx-zhangweirinhart09" width="321" height="319" x="644" y="0" cocos2d_pX="160.50" cocos2d_pY="158.50" />
+    <SubTexture name="xxx-zhangweirinhart08" width="321" height="321" x="322" y="0" cocos2d_pX="160.50" cocos2d_pY="160.50" />
+    <SubTexture name="xxx-zhangweirinhart07" width="321" height="321" x="0" y="0" cocos2d_pX="160.50" cocos2d_pY="160.50" />
+    <SubTexture name="xxx-zhangweirinhart06" width="311" height="315" x="644" y="320" cocos2d_pX="152.50" cocos2d_pY="155.50" />
+  </TextureAtlas>
+</skeleton>

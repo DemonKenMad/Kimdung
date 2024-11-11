@@ -1,0 +1,51 @@
+<skeleton name="LV1 姜铁山 技能FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="79.9" y="-91.25" kX="-59.18" kY="120.82" cX="2.44" cY="2.41" pX="0.35" pY="0.35" z="0">
+        <d name="jts-daoguang3" />
+        <d name="jts-daoguang2" />
+      </b>
+      <b name="图层 3" x="185.3" y="-28.3" kX="-64.92" kY="-34.94" cX="1.47" cY="2.43" pX="24.45" pY="-17.25" z="1">
+        <d name="jts-guang" />
+        <d name="jts-sprite 35" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="skill" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="79.9" y="-91.25" cocos2d_x="79.6" cocos2d_y="-92.4" kX="-59.18" kY="120.82" cX="2.44" cY="2.41" fst="0" pX="0.35" pY="0.35" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="86.8" y="-104.35" cocos2d_x="87.65" cocos2d_y="-105.15" kX="0" kY="180" cX="2.37" cY="2.33" fst="0" pX="0.35" pY="0.35" z="0" dI="0" dr="2" />
+          <f x="73.25" y="-105.9" cocos2d_x="73.3" cocos2d_y="-106.45" kX="-50.96" kY="129.04" cX="1.5" cY="1.49" fst="0" pX="0.3" pY="0.15" z="0" dI="1" twE="0" dr="1" />
+          <f x="80.35" y="-100.85" cocos2d_x="81.2" cocos2d_y="-100.5" kX="50.53" kY="-129.47" cX="1.77" cY="1.76" fst="0" pX="0.45" pY="0.25" z="0" dI="1" twE="0" dr="1" />
+          <f x="84.35" y="-101.2" cocos2d_x="84.7" cocos2d_y="-102.35" kX="-35.7" kY="144.3" cX="2.12" cY="2.1" fst="0" pX="0.45" pY="0.35" z="0" dI="1" twE="0" dr="1" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="185.3" y="-28.3" cocos2d_x="193.75" cocos2d_y="10" kX="-64.92" kY="-34.94" cX="1.47" cY="2.43" pX="24.45" pY="-17.25" z="1" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="-105" g="49" b="90" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="207.85" y="16.95" cocos2d_x="207.85" cocos2d_y="16.95" kX="-15.77" kY="-180" cX="2.92" cY="2.13" pX="0" pY="0" z="1" dI="1" blend="normal" dr="2">
+            <colorTransform a="0" r="171" g="171" b="171" aM="1" rM="0.33" gM="0.33" bM="0.33" />
+          </f>
+          <f x="207.85" y="16.95" cocos2d_x="207.85" cocos2d_y="16.95" kX="-15.77" kY="-180" cX="2.92" cY="2.13" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="2">
+            <colorTransform a="0" r="189" g="189" b="189" aM="1" rM="0.26" gM="0.26" bM="0.26" />
+          </f>
+          <f x="207.85" y="16.95" cocos2d_x="207.85" cocos2d_y="16.95" kX="-15.77" kY="180" cX="0.07" cY="2.41" pX="0" pY="0" z="1" dI="1" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f dr="11" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="LV1 姜铁山 技能FX" width="256" height="512">
+    <SubTexture name="jts-sprite 35" width="72" height="172" x="134" y="0" cocos2d_pX="33.20" cocos2d_pY="180.00" />
+    <SubTexture name="jts-guang" width="98" height="102" x="107" y="173" cocos2d_pX="19.35" cocos2d_pY="77.10" />
+    <SubTexture name="jts-daoguang2" width="133" height="134" x="0" y="0" cocos2d_pX="66.65" cocos2d_pY="66.65" />
+    <SubTexture name="jts-daoguang3" width="106" height="108" x="0" y="135" cocos2d_pX="53.65" cocos2d_pY="53.65" />
+  </TextureAtlas>
+</skeleton>

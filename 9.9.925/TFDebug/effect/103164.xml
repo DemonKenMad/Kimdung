@@ -1,0 +1,79 @@
+<skeleton name="个人施法下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="xxx/zhangweifilesB05">
+      <b name="图层 1" x="3.8" y="11.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="anim" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="anim">
+      <b name="图层 3" x="11" y="2.1" kX="0" kY="0" cX="1.4" cY="1.4" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB07" />
+      </b>
+      <b name="图层 5" x="4.15" y="3.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifilesB09" />
+        <d name="xxx-zhangweifilesB08" />
+      </b>
+      <b name="图层 2" x="11" y="2.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="2">
+        <d name="xxx-zhangweifilesB07" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesB05">
+      <mov name="kjsdafyhkljash" dr="63" to="0" drTW="63" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="32" dI="-1" />
+          <f x="3.8" y="11.5" cocos2d_x="3.8" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="22" />
+          <f x="2.8" y="11.5" cocos2d_x="2.8" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="22" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="3.8" y="11.5" cocos2d_x="3.8" cocos2d_y="11.5" kX="0" kY="0" cX="1" cY="1" fst="29" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsafasdgasd" dr="50" to="0" drTW="50" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="11" y="2.1" cocos2d_x="11" cocos2d_y="2.1" kX="0" kY="0" cX="1.4" cY="1.4" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="14">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.88" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="11" y="2.1" cocos2d_x="11" cocos2d_y="2.1" kX="0" kY="0" cX="1.88" cY="1.88" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="35" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="4.15" y="3.5" cocos2d_x="4.15" cocos2d_y="3.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="14" />
+          <f x="4.15" y="3.5" cocos2d_x="4.15" cocos2d_y="3.5" kX="0" kY="0" cX="2.91" cY="2.91" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+          <f x="-4" y="107.25" cocos2d_x="-4" cocos2d_y="107.25" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="1" twE="0" dr="18">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.45" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="1" y="84.25" cocos2d_x="1" cocos2d_y="84.25" kX="0" kY="0" cX="1.44" cY="1.44" fst="0" pX="0" pY="0" z="1" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="11" y="2.1" cocos2d_x="11" cocos2d_y="2.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="0" twE="-1" dr="4" />
+          <f x="11" y="2.1" cocos2d_x="11" cocos2d_y="2.1" kX="0" kY="0" cX="2.98" cY="2.98" fst="0" pX="0" pY="0" z="2" dI="0" twE="1" dr="8" />
+          <f x="11" y="2.1" cocos2d_x="11" cocos2d_y="2.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="0" dr="19" />
+          <f x="11" y="2.1" cocos2d_x="11" cocos2d_y="2.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="5" />
+          <f x="8.5" y="2.1" cocos2d_x="8.5" cocos2d_y="2.1" kX="0" kY="0" cX="1.32" cY="1.32" fst="5" pX="0" pY="0" z="2" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.45" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="4.5" y="1.1" cocos2d_x="4.5" cocos2d_y="1.1" kX="0" kY="0" cX="0.36" cY="0.36" fst="11" pX="0" pY="0" z="2" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="个人施法下层" width="256" height="128">
+    <SubTexture name="xxx-zhangweifilesB08" width="131" height="31" x="0" y="69" cocos2d_pX="63.90" cocos2d_pY="69.35" />
+    <SubTexture name="xxx-zhangweifilesB09" width="170" height="37" x="0" y="0" cocos2d_pX="91.85" cocos2d_pY="19.90" />
+    <SubTexture name="xxx-zhangweifilesB07" width="134" height="30" x="0" y="38" cocos2d_pX="74.05" cocos2d_pY="16.55" />
+  </TextureAtlas>
+</skeleton>

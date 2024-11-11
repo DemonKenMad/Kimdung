@@ -1,0 +1,45 @@
+<skeleton name="受击下层(4)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="skdhaklfhaslkgj" x="-63.4" y="-10.45" kX="0" kY="-178.65" cX="1" cY="1" pX="-23.55" pY="-23.55" z="0">
+        <d name="xxx/pjkjfdslkjgkljasl;dg" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/pjkjfdslkjgkljasl;dg" isLoop="loop" startFrame="1">
+      <b name="zhangweiwidowmaker04 副本" x="-60" y="-13.3" kX="0" kY="-0.02" cX="2.27" cY="0.79" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiwidowmaker04 " />
+      </b>
+      <b name="zhangweiwidowmaker04 副本0" x="-58.65" y="32.4" kX="3.36" kY="-108.87" cX="1.1" cY="1.4" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweiwidowmaker04 " />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/pjkjfdslkjgkljasl;dg">
+      <mov name="dsfagashgah" dr="112" to="0" drTW="112" lp="0" twE="NaN">
+        <b name="zhangweiwidowmaker04 副本" sc="1" dl="0">
+          <f x="-60" y="-13.3" cocos2d_x="-60" cocos2d_y="-13.3" kX="0" kY="-0.02" cX="2.27" cY="0.79" fst="0" pX="0" pY="0" z="0" dI="0" dr="112" />
+        </b>
+        <b name="zhangweiwidowmaker04 副本0" sc="1" dl="0">
+          <f x="-58.65" y="32.4" cocos2d_x="-58.65" cocos2d_y="32.4" kX="3.36" kY="-108.87" cX="1.1" cY="1.4" fst="0" pX="0" pY="0" z="1" dI="0" dr="112" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsahsdgasdgfa" dr="79" to="0" drTW="79" lp="0" twE="NaN">
+        <b name="skdhaklfhaslkgj" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-63.4" y="-10.45" cocos2d_x="-86.95" cocos2d_y="12.55" kX="0" kY="-178.65" cX="1" cY="1" fst="0" pX="-23.55" pY="-23.55" z="0" dI="0" dr="41" />
+          <f x="-63.4" y="-10.45" cocos2d_x="-86.95" cocos2d_y="12.55" kX="0" kY="-178.65" cX="1" cY="1" fst="41" pX="-23.55" pY="-23.55" z="0" dI="0" twE="0" dr="12" />
+          <f x="-63.4" y="-10.45" cocos2d_x="-86.95" cocos2d_y="12.55" kX="0" kY="-178.65" cX="1" cY="1" fst="53" pX="-23.55" pY="-23.55" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="受击下层(4)" width="512" height="256">
+    <SubTexture name="xxx-zhangweiwidowmaker04 " width="450" height="243" x="0" y="0" cocos2d_pX="221.25" cocos2d_pY="180.90" />
+  </TextureAtlas>
+</skeleton>

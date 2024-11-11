@@ -1,0 +1,113 @@
+<skeleton name="段正淳技能特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="-17.25" y="-22.5" kX="0" kY="0" cX="1.23" cY="1.23" pX="0.25" pY="0.5" z="0">
+        <d name="sad/XL" isArmature="1" />
+        <d name="sad/jineng" isArmature="1" />
+      </b>
+      <b name="图层 8" x="-0.95" y="-95.15" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="1">
+        <d name="sad-xzXzX" />
+        <d name="sad-shape 1" />
+        <d name="sad-PG" />
+      </b>
+      <b name="Layer 1" x="-2.65" y="-95.5" kX="0" kY="0" cX="0.39" cY="0.39" pX="-0.35" pY="-0.25" z="2">
+        <d name="sad-zhenda" />
+      </b>
+    </armature>
+    <armature name="sad/XL" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="5.15" y="2.3" kX="0" kY="0" cX="1" cY="1" pX="76" pY="30.5" z="0">
+        <d name="sad-XL0001.png" />
+        <d name="sad-XL0002.png" />
+        <d name="sad-XL0003.png" />
+      </b>
+    </armature>
+    <armature name="sad/jineng" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-1" y="-1" kX="0" kY="0" cX="1" cY="1" pX="158" pY="51" z="0">
+        <d name="sad-JG0001.png" />
+        <d name="sad-JG0002.png" />
+        <d name="sad-JG0003.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sad/XL">
+      <mov name="dasdsa" dr="8" to="0" drTW="8" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="5.15" y="2.3" cocos2d_x="-70.85" cocos2d_y="-28.2" kX="0" kY="0" cX="1" cY="1" pX="76" pY="30.5" z="0" dI="0" dr="2" />
+          <f x="9" y="-23.3" cocos2d_x="-81" cocos2d_y="-98.3" kX="0" kY="0" cX="1" cY="1" pX="90" pY="75" z="0" dI="1" dr="2" />
+          <f x="1.1" y="-7.45" cocos2d_x="-71.4" cocos2d_y="-57.95" kX="0" kY="0" cX="1" cY="1" pX="72.5" pY="50.5" z="0" dI="2" dr="2" />
+          <f x="-1.2" y="9.25" cocos2d_x="74.8" cocos2d_y="-21.25" kX="0" kY="180" cX="1" cY="1" pX="76" pY="30.5" z="0" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sad/jineng">
+      <mov name="fdsf" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-1" y="-1" cocos2d_x="-159" cocos2d_y="-52" kX="0" kY="0" cX="1" cY="1" pX="158" pY="51" z="0" dI="0" dr="2" />
+          <f x="27.75" y="0" cocos2d_x="-146.75" cocos2d_y="-59" kX="0" kY="0" cX="1" cY="1" pX="174.5" pY="59" z="0" dI="1" dr="2" />
+          <f x="99.6" y="0.5" cocos2d_x="-39.9" cocos2d_y="-65" kX="0" kY="0" cX="1" cY="1" pX="139.5" pY="65.5" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsadsa" dr="32" to="0" drTW="32" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f x="-17.25" y="-22.5" cocos2d_x="-17.55" cocos2d_y="-23.1" kX="0" kY="0" cX="1.23" cY="1.23" pX="0.25" pY="0.5" z="0" dI="0" dr="15" />
+          <f dr="9" dI="-1" />
+          <f x="194.8" y="-102.05" cocos2d_x="171.1" cocos2d_y="-103.2" kX="0" kY="0" cX="2.26" cY="2.26" pX="10.5" pY="0.55" z="0" dI="1" dr="5" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="0.72" cY="0.72" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="0.96" cY="0.96" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="0.72" cY="0.72" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="1.32" cY="1.32" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-0.95" y="-95.15" cocos2d_x="-0.95" cocos2d_y="-95.15" kX="0" kY="0" cX="0.64" cY="0.64" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-5" y="-95.95" cocos2d_x="-5.45" cocos2d_y="-95.5" kX="0" kY="0" cX="1.27" cY="1.27" pX="0.35" pY="-0.35" z="1" dI="1" twE="0" dr="2" />
+          <f x="-5.05" y="-95.9" cocos2d_x="-5.2" cocos2d_y="-95.75" kX="0" kY="0" cX="0.49" cY="0.49" pX="0.3" pY="-0.3" z="1" dI="1" twE="0" dr="4" />
+          <f x="-5" y="-95.95" cocos2d_x="-5.15" cocos2d_y="-95.8" kX="0" kY="0" cX="0.45" cY="0.45" pX="0.3" pY="-0.35" z="1" dI="1" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+          <f x="251.9" y="-101.85" cocos2d_x="251.9" cocos2d_y="-103.2" kX="0" kY="0" cX="3.13" cY="2.7" pX="0" pY="0.5" z="1" dI="2" blend="normal" twE="0" dr="2" />
+          <f x="504.95" y="-101.85" cocos2d_x="504.95" cocos2d_y="-102.15" kX="0" kY="0" cX="2.54" cY="0.62" pX="0" pY="0.45" z="1" dI="2" blend="normal" twE="0" dr="2" />
+          <f x="774.9" y="-101.8" cocos2d_x="774.9" cocos2d_y="-101.95" kX="0" kY="0" cX="1.76" cY="0.26" pX="0" pY="0.55" z="1" dI="2" blend="normal" twE="0" dr="1" />
+          <f x="774.9" y="-101.8" cocos2d_x="774.9" cocos2d_y="-101.95" kX="0" kY="0" cX="1.76" cY="0.26" pX="0" pY="0.55" z="1" dI="2" blend="normal" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="Layer 1" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-2.65" y="-95.5" cocos2d_x="-2.5" cocos2d_y="-95.4" kX="0" kY="0" cX="0.39" cY="0.39" pX="-0.35" pY="-0.25" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="-2.65" y="-95.5" cocos2d_x="-2.55" cocos2d_y="-95.45" kX="0" kY="0" cX="0.25" cY="0.25" pX="-0.4" pY="-0.2" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="-2.65" y="-95.5" cocos2d_x="-2.5" cocos2d_y="-95.45" kX="0" kY="0" cX="0.34" cY="0.34" pX="-0.45" pY="-0.15" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="-2.65" y="-95.5" cocos2d_x="-2.5" cocos2d_y="-95.45" kX="0" kY="0" cX="0.37" cY="0.37" pX="-0.4" pY="-0.15" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+          <f x="-2.65" y="-95.5" cocos2d_x="-2.25" cocos2d_y="-95.3" kX="0" kY="0" cX="0.94" cY="0.94" pX="-0.4" pY="-0.2" z="2" dI="0" blend="add" twE="0" dr="3" />
+          <f x="-2.65" y="-95.5" cocos2d_x="-2.3" cocos2d_y="-95.35" kX="0" kY="0" cX="0.84" cY="0.84" pX="-0.4" pY="-0.2" z="2" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+        <f st="0" dr="31" />
+        <f st="31" dr="1" />
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="段正淳技能特效" width="1024" height="512">
+    <SubTexture name="sad-JG0003.png" width="279" height="131" x="568" y="222" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sad-JG0002.png" width="349" height="118" x="568" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sad-JG0001.png" width="316" height="102" x="568" y="119" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sad-XL0003.png" width="145" height="101" x="287" y="281" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sad-XL0002.png" width="153" height="124" x="848" y="226" cocos2d_pX="-8.00" cocos2d_pY="-14.00" />
+    <SubTexture name="sad-XL0001.png" width="152" height="61" x="0" y="288" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sad-zhenda" width="280" height="280" x="287" y="0" cocos2d_pX="140.15" cocos2d_pY="140.15" />
+    <SubTexture name="sad-PG" width="320" height="73" x="433" y="354" cocos2d_pX="160.00" cocos2d_pY="36.00" />
+    <SubTexture name="sad-shape 1" width="286" height="287" x="0" y="0" cocos2d_pX="142.65" cocos2d_pY="145.35" />
+    <SubTexture name="sad-xzXzX" width="106" height="106" x="885" y="119" cocos2d_pX="53.00" cocos2d_pY="52.95" />
+  </TextureAtlas>
+</skeleton>

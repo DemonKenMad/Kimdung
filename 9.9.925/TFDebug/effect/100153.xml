@@ -1,0 +1,70 @@
+<skeleton name="飞行道具" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="183.8" y="-102.85" kX="0" kY="0" cX="0.74" cY="1.44" pX="-43.35" pY="26.35" z="0">
+        <d name="xiaxiangxiang/feixing" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xiaxiangxiang/feixing" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-88.1" y="26.2" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0">
+        <d name="xiaxiangxiang-420544aaaa" />
+      </b>
+      <b name="图层 5" x="-81.5" y="-20.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1">
+        <d name="xiaxiangxiang-10454254" />
+        <d name="xiaxiangxiang-10204542" />
+        <d name="xiaxiangxiang-120244" />
+      </b>
+      <b name="图层 2" x="-158.15" y="75.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xiaxiangxiang-420544" />
+        <d name="xiaxiangxiang-205454" />
+        <d name="xiaxiangxiang-1200454" />
+      </b>
+      <b name="图层 3" x="-11.25" y="33.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="xiaxiangxiang-425054cccc" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xiaxiangxiang/feixing">
+      <mov name="ccasdasdas" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-88.1" y="26.2" cocos2d_x="-88.05" cocos2d_y="26.2" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-87.4" y="25.55" cocos2d_x="-87.35" cocos2d_y="25.55" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-88.1" y="26.2" cocos2d_x="-88.05" cocos2d_y="26.2" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0" dI="0" blend="normal" dr="2" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="-81.5" y="-20.25" cocos2d_x="-81.5" cocos2d_y="-20.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-59.6" y="-11.95" cocos2d_x="-59.6" cocos2d_y="-11.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="1" blend="normal" dr="2" />
+          <f x="-79" y="-11.55" cocos2d_x="-78.95" cocos2d_y="-11.55" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="1" dI="2" blend="normal" dr="2" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-158.15" y="75.4" cocos2d_x="-158.15" cocos2d_y="75.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f x="-173.95" y="79.55" cocos2d_x="-173.95" cocos2d_y="79.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="1" blend="normal" dr="2" />
+          <f x="-163.05" y="74" cocos2d_x="-163.05" cocos2d_y="74" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="2" blend="normal" dr="2" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-11.25" y="33.15" cocos2d_x="-11.25" cocos2d_y="33.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+          <f x="-11.25" y="33.15" cocos2d_x="-11.25" cocos2d_y="33.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+          <f x="-10.55" y="32.5" cocos2d_x="-10.55" cocos2d_y="32.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="anim" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="183.8" y="-102.85" cocos2d_x="215.85" cocos2d_y="-140.8" kX="0" kY="0" cX="0.74" cY="1.44" fst="0" pX="-43.35" pY="26.35" z="0" dI="0" dr="6" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="飞行道具" width="512" height="1024">
+    <SubTexture name="xiaxiangxiang-425054cccc" width="146" height="69" x="351" y="212" cocos2d_pX="71.50" cocos2d_pY="36.50" />
+    <SubTexture name="xiaxiangxiang-1200454" width="350" height="91" x="0" y="212" cocos2d_pX="175.50" cocos2d_pY="48.00" />
+    <SubTexture name="xiaxiangxiang-205454" width="350" height="86" x="0" y="304" cocos2d_pX="170.90" cocos2d_pY="46.15" />
+    <SubTexture name="xiaxiangxiang-420544" width="373" height="95" x="0" y="116" cocos2d_pX="185.20" cocos2d_pY="46.70" />
+    <SubTexture name="xiaxiangxiang-120244" width="252" height="82" x="250" y="486" cocos2d_pX="126.10" cocos2d_pY="45.25" />
+    <SubTexture name="xiaxiangxiang-10204542" width="249" height="87" x="0" y="486" cocos2d_pX="123.35" cocos2d_pY="41.60" />
+    <SubTexture name="xiaxiangxiang-10454254" width="271" height="94" x="0" y="391" cocos2d_pX="134.00" cocos2d_pY="47.80" />
+    <SubTexture name="xiaxiangxiang-420544aaaa" width="394" height="115" x="0" y="0" cocos2d_pX="196.15" cocos2d_pY="54.45" />
+  </TextureAtlas>
+</skeleton>

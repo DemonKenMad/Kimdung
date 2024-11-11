@@ -1,0 +1,74 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+option java_outer_classname="S2CBigCompetMsg";
+//大比拼信息
+//code = 0x3306
+message BigCompetAwardAll
+{
+	repeated BigCompetAward award = 1;
+}
+message BigCompetAward
+{
+	required int32 type = 1;  
+	required int32 step = 2;			//当前达到条件    1 
+	required int32 condition = 3;		//保底条件   格式    1;2;3   ;分割天数	
+	required int32 state = 4;			//保底 领取  0：未完成 1:已完成但未领取奖励  2:已完成并领取过奖励  
+	required string reward_1 = 5;		//结束时奖励     1,2001,12| 1,2001,12| 1,2001,12-1   |分割奖励
+	required string reward_2 = 6;		//排行榜奖励     1,2001,12| 1,2001,12| 1,2001,12&1,2001,12 |分割奖励 
+	required string reward_3 = 7;		//保底奖励       1;2;3     ;分割天数
+}
+//大比拼榜单个排名信息
+message RankInfoBigCompetInfo{
+	required int32 ranking = 1;						//排名，1~N
+	required string name = 2;						//玩家昵称
+	required int32 playerLevel = 3;					//玩家等级
+	required int32 icon = 4;						//头像
+	required int32 headPicFrame = 5;
+	required int32 playerId = 6;
+	required int32 curStep = 7;
+}
+//等级排行榜
+//code = 0x4085
+message RankingListLevel{
+	repeated RankInfoBigCompetInfo rankInfo = 1;	//排名信息
+	required int32 lastValue = 2;					//最低入榜层数
+	required int32 myRanking = 3;					//我的最佳排名,0表示未入榜
+	required int32 step = 4;
+}
+//累计充值排行榜
+//code = 0x4086
+message RankingListRecharge{
+	repeated RankInfoBigCompetInfo rankInfo = 1;	//排名信息
+	required int32 lastValue = 2;					//最低入榜层数
+	required int32 myRanking = 3;					//我的最佳排名,0表示未入榜
+	required int32 step = 4;
+}
+//战力排行榜
+//code = 0x4087
+message RankingListE{
+	repeated RankInfoBigCompetInfo rankInfo = 1;	//排名信息
+	required int32 lastValue = 2;					//最低入榜层数
+	required int32 myRanking = 3;					//我的最佳排名,0表示未入榜
+	required int32 step = 4;
+}
+//发送大比拼排行奖励
+//code = 0x3307
+message SendRankAward{
+
+}
+//发送大比拼排行
+//code = 0x3308
+message SendRank{
+
+}
+//领取保底奖励
+//code = 0x3309
+message GetMinResponse{
+ 	required int32 state = 1;						//是否领取成功 0:失败/1:成功
+}
+
+//code = 0x3310 通知成就进度变化
+message NotifySevenRankTaskStep
+{
+	required int32 type = 1;    //类型
+	required int32 currstep = 2;  //当前进度
+}

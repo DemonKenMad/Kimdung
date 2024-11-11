@@ -1,0 +1,116 @@
+<skeleton name="阳顶天skill02手上输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 8" x="91" y="-116.45" kX="0" kY="0" cX="1" cY="1" pX="-524.95" pY="-135.95" z="0">
+        <d name="xxx/重复项目文件夹/元件 78" isArmature="1" />
+      </b>
+      <b name="图层 7" x="91.45" y="-105.95" kX="0" kY="-173.47" cX="0.28" cY="1.81" pX="-273.4" pY="69.25" z="1">
+        <d name="xxx/重复项目文件夹/元件 79" isArmature="1" />
+      </b>
+      <b name="受击特效" x="103.3" y="-113.8" kX="0" kY="0" cX="0.36" cY="0.36" pX="0" pY="0" z="2">
+        <d name="xxx/重复项目文件夹/元件 17 副本" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/重复项目文件夹/元件 78" isLoop="loop" startFrame="1">
+      <b name="阳顶天特效上" x="-439.15" y="-148" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0">
+        <d name="xxx-元件 1" />
+        <d name="xxx-元件 2" />
+        <d name="xxx-元件 3" />
+        <d name="xxx-元件 4" />
+        <d name="xxx-元件 5" />
+        <d name="xxx-元件 6" />
+      </b>
+    </armature>
+    <armature name="xxx/重复项目文件夹/元件 79" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-222" y="64.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-元件 7" />
+        <d name="xxx-元件 8" />
+        <d name="xxx-元件 9" />
+      </b>
+    </armature>
+    <armature name="xxx/重复项目文件夹/元件 17 副本" isLoop="loop" startFrame="1">
+      <b name="图层 10" x="11.25" y="-10.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0">
+        <d name="xxx-元件 16" />
+        <d name="xxx-元件 17" />
+        <d name="xxx-元件 18" />
+        <d name="xxx-元件 19" />
+        <d name="xxx-元件 20" />
+        <d name="xxx-元件 21" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/重复项目文件夹/元件 78">
+      <mov name="gsdfhfjisdf" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="阳顶天特效上" sc="1" dl="0">
+          <f x="-439.15" y="-148" cocos2d_x="-439.05" cocos2d_y="-147.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-440.15" y="-148" cocos2d_x="-440.05" cocos2d_y="-147.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-441.15" y="-148" cocos2d_x="-441.05" cocos2d_y="-147.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-416.15" y="-148" cocos2d_x="-416.05" cocos2d_y="-147.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-414.65" y="-148" cocos2d_x="-414.55" cocos2d_y="-147.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-414.65" y="-148" cocos2d_x="-414.55" cocos2d_y="-147.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/重复项目文件夹/元件 79">
+      <mov name="gdfgsdfa" dr="3" to="0" drTW="3" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-222" y="64.7" cocos2d_x="-222" cocos2d_y="64.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-222" y="64.7" cocos2d_x="-222" cocos2d_y="64.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-222" y="64.7" cocos2d_x="-222" cocos2d_y="64.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/重复项目文件夹/元件 17 副本">
+      <mov name="gnjsdgiosf" dr="10" to="0" drTW="10" lp="1" twE="NaN">
+        <b name="图层 10" sc="1" dl="0">
+          <f x="11.25" y="-10.15" cocos2d_x="11.25" cocos2d_y="-10.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="11.25" y="-10.15" cocos2d_x="11.25" cocos2d_y="-10.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="11.25" y="-10.15" cocos2d_x="11.25" cocos2d_y="-10.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="11.25" y="-10.15" cocos2d_x="11.25" cocos2d_y="-10.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="3" dr="2" />
+          <f x="11.25" y="-10.15" cocos2d_x="11.25" cocos2d_y="-10.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="4" dr="2" />
+          <f x="11.25" y="-10.15" cocos2d_x="11.25" cocos2d_y="-10.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="5" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="91" y="-116.45" cocos2d_x="615.95" cocos2d_y="19.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-524.95" pY="-135.95" z="0" dI="0" twE="0" dr="11" />
+          <f x="91" y="-116.45" cocos2d_x="327.8" cocos2d_y="19.5" kX="0" kY="0" cX="0.45" cY="1" fst="5" pX="-525" pY="-135.95" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="91.45" y="-105.95" cocos2d_x="16.45" cocos2d_y="-240.15" kX="0" kY="-173.47" cX="0.28" cY="1.81" fst="0" pX="-273.4" pY="69.25" z="1" dI="0" dr="12" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="受击特效" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="103.3" y="-113.8" cocos2d_x="103.3" cocos2d_y="-113.8" kX="0" kY="0" cX="0.36" cY="0.36" fst="0" pX="0" pY="0" z="2" dI="0" dr="11" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阳顶天skill02手上输出" width="512" height="512">
+    <SubTexture name="xxx-元件 21" width="88" height="93" x="123" y="96" cocos2d_pX="41.95" cocos2d_pY="42.65" />
+    <SubTexture name="xxx-元件 20" width="90" height="91" x="412" y="94" cocos2d_pX="42.95" cocos2d_pY="41.65" />
+    <SubTexture name="xxx-元件 19" width="97" height="84" x="314" y="94" cocos2d_pX="46.95" cocos2d_pY="37.65" />
+    <SubTexture name="xxx-元件 18" width="95" height="91" x="218" y="63" cocos2d_pX="45.95" cocos2d_pY="41.65" />
+    <SubTexture name="xxx-元件 17" width="94" height="93" x="345" y="0" cocos2d_pX="45.95" cocos2d_pY="42.65" />
+    <SubTexture name="xxx-元件 16" width="94" height="95" x="123" y="0" cocos2d_pX="44.95" cocos2d_pY="43.65" />
+    <SubTexture name="xxx-元件 9" width="128" height="36" x="0" y="194" cocos2d_pX="67.80" cocos2d_pY="19.90" />
+    <SubTexture name="xxx-元件 8" width="120" height="32" x="0" y="231" cocos2d_pX="72.80" cocos2d_pY="16.90" />
+    <SubTexture name="xxx-元件 7" width="124" height="32" x="129" y="214" cocos2d_pX="75.80" cocos2d_pY="16.90" />
+    <SubTexture name="xxx-元件 6" width="122" height="68" x="0" y="0" cocos2d_pX="62.30" cocos2d_pY="33.75" />
+    <SubTexture name="xxx-元件 5" width="126" height="62" x="218" y="0" cocos2d_pX="61.30" cocos2d_pY="29.75" />
+    <SubTexture name="xxx-元件 4" width="122" height="62" x="0" y="69" cocos2d_pX="63.55" cocos2d_pY="29.75" />
+    <SubTexture name="xxx-元件 3" width="102" height="61" x="0" y="132" cocos2d_pX="52.05" cocos2d_pY="29.75" />
+    <SubTexture name="xxx-元件 2" width="95" height="58" x="212" y="155" cocos2d_pX="51.55" cocos2d_pY="28.75" />
+    <SubTexture name="xxx-元件 1" width="102" height="53" x="308" y="179" cocos2d_pX="51.05" cocos2d_pY="26.80" />
+  </TextureAtlas>
+</skeleton>

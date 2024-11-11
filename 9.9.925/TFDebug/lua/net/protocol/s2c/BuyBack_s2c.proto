@@ -1,0 +1,58 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname = "S2CBuyBackMsg";
+
+//code = 0x5b01
+//返现活动信息
+message BuyBackInfoResponse{
+	repeated BuyBackConfig config = 1;					//商品配置数据
+	repeated BuyBackRewardConfig rewardConfig = 2;		//返现奖励配置
+	repeated BuyBackDataHistory historyInfo = 3;		//返现购买历史
+	repeated BuyBackData buyBackData = 4;				//商品购买信息
+	optional int32 consumeNum = 5;						//消耗的元宝数
+	repeated int32 rewardId = 6;						//返现id
+	required string buyBack = 7;						//买几反几（num_num）
+}
+
+// code = 0x5b02
+// 购买
+message BuyBackBuyReponse{
+	repeated BuyBackDataHistory historyInfo = 1;			//限时抢购数据
+	required BuyBackData buyBackData = 2;					//商品购买信息
+	required int32 consumeNum = 3;							//消耗的元宝数
+
+}
+
+// code = 0x5b03
+// 返现推送
+message BuyBackRewardReponse{
+	repeated int32 rewardId = 1;							//返现奖励配置id
+}
+
+message BuyBackRewardConfig{
+	required int32 id = 1;						//配置id
+	required int32 consumeNum = 2;				//消耗元宝
+	required int32 rewardNum = 3;				//返现奖励的元宝
+}
+
+message BuyBackData{
+	required int32 id = 1;				//商品信息id
+	required int32 current = 2;			//玩家当前购买数量
+}
+
+message BuyBackConfig{
+	required int32 id = 1;				//商品信息id
+	required string goods = 2;			//商品数据(type,id,num)
+	required int32 price = 3;			//原价格
+	required int32 currentPrice = 4;	//现价格
+	required int32 discount = 5;		//商品折扣
+	required int32 customerLimit = 6;	//个人限购数量
+	required int32 beginTime = 7;		//上架时间
+	required int32 endTime = 8;			//下架时间
+}
+
+message BuyBackDataHistory{
+	required int32 id = 1;				//商品id
+	required int32 type = 2;			//类型(0:购买历史 1:获赠历史)
+	required int64 time = 3;			//时间
+}

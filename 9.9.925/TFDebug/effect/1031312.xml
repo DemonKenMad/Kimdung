@@ -1,0 +1,42 @@
+<skeleton name="神技  所有角色最底层01" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fasfsa" x="215.75" y="-94.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sdgdd02"/>
+      </b>
+      <b name="fasfsafas" x="220.1" y="-75.9" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="1">
+        <d name="xxx-fasfas"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ffsfsdfs" dr="114" to="0" drTW="114" lp="0" twE="NaN">
+        <b name="fasfsa" sc="1" dl="0">
+          <f x="215.75" y="-94.25" cocos2d_x="215.75" cocos2d_y="-94.25" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="9">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="215.75" y="-94.25" cocos2d_x="215.75" cocos2d_y="-94.25" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="72"/>
+          <f dr="33" dI="-1"/>
+        </b>
+        <b name="fasfsafas" sc="1" dl="0">
+          <f dr="81" dI="-1"/>
+          <f x="220.1" y="-75.9" cocos2d_x="220.1" cocos2d_y="-75.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" dr="16"/>
+          <f x="220.1" y="-75.9" cocos2d_x="220.1" cocos2d_y="-75.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" dr="11">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.71" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="220.1" y="-75.9" cocos2d_x="220.1" cocos2d_y="-75.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.71" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="220.1" y="-75.9" cocos2d_x="220.1" cocos2d_y="-75.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.02" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神技  所有角色最底层01" width="1024" height="512">
+    <SubTexture name="xxx-fasfas" width="16" height="10" x="755" y="0" cocos2d_pX="7.7" cocos2d_pY="4.7"/>
+    <SubTexture name="xxx-sdgdd02" width="753" height="424" x="0" y="0" cocos2d_pX="376.5" cocos2d_pY="212"/>
+  </TextureAtlas>
+</skeleton>

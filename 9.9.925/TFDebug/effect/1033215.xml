@@ -1,0 +1,30 @@
+<skeleton name="通用底图" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fdsfasfefes" x="97.95" y="-123.95" kX="0" kY="0" cX="3.13" cY="3.13" pX="0" pY="0" z="0">
+        <d name="xxx-sjf223"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="skill1" dr="76" to="0" drTW="76" lp="0" twE="NaN">
+        <b name="fdsfasfefes" sc="1" dl="0">
+          <f dr="14" dI="-1"/>
+          <f x="97.95" y="-123.95" cocos2d_x="97.95" cocos2d_y="-123.95" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="97.95" y="-123.95" cocos2d_x="97.95" cocos2d_y="-123.95" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="0" dr="27"/>
+          <f x="97.95" y="-123.95" cocos2d_x="97.95" cocos2d_y="-123.95" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="6"/>
+          <f x="97.95" y="-123.95" cocos2d_x="97.95" cocos2d_y="-123.95" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="20" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="通用底图" width="1024" height="512">
+    <SubTexture name="xxx-sjf223" width="531" height="298" x="0" y="0" cocos2d_pX="258.15" cocos2d_pY="154.75"/>
+  </TextureAtlas>
+</skeleton>

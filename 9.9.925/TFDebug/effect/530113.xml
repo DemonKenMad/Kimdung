@@ -1,0 +1,63 @@
+<skeleton name="一二三级蛇的特效输出受击" frameRate="20" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fasfas0" x="-1.1" y="-151.1" kX="36.89" kY="36.89" cX="0.51" cY="0.51" pX="673.55" pY="475.55" z="0">
+        <d name="xxx/sdff03/sdff28" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdff03/sdff28" isLoop="loop" startFrame="1">
+      <b name="fasfsafas" x="722.4" y="509.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sdff71" />
+        <d name="xxx-sdff73" />
+        <d name="xxx-sdff75" />
+        <d name="xxx-sdff77" />
+        <d name="xxx-sdff79" />
+        <d name="xxx-sdff81" />
+        <d name="xxx-sdff83" />
+        <d name="xxx-sdff85" />
+        <d name="xxx-sdff87" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdff03/sdff28">
+      <mov name="fdfafasfa" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="fasfsafas" sc="1" dl="0">
+          <f x="722.4" y="509.25" cocos2d_x="722.4" cocos2d_y="509.25" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="695.9" y="525.1" cocos2d_x="695.9" cocos2d_y="525.1" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="720.3" y="519.1" cocos2d_x="720.3" cocos2d_y="519.1" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="707.45" y="510.45" cocos2d_x="707.45" cocos2d_y="510.45" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="700.65" y="503.85" cocos2d_x="700.65" cocos2d_y="503.85" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="713" y="502.35" cocos2d_x="713" cocos2d_y="502.35" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="714.15" y="466.1" cocos2d_x="714.15" cocos2d_y="466.1" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="716.15" y="503" cocos2d_x="716.15" cocos2d_y="503" kX="0" kY="0" cX="3.13" cY="3.13" fst="0" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="778.5" y="533.8" cocos2d_x="778.5" cocos2d_y="533.8" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="8" twE="0" dr="2" />
+          <f x="778.5" y="533.8" cocos2d_x="778.5" cocos2d_y="533.8" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="cfsdtdsada" dr="92" to="0" drTW="92" lp="0" twE="NaN">
+        <b name="fasfas0" sc="1" dl="0">
+          <f dr="66" dI="-1" />
+          <f x="-1.1" y="-151.1" cocos2d_x="-129.85" cocos2d_y="-550.05" kX="36.89" kY="36.89" cX="0.51" cY="0.51" fst="0" pX="673.55" pY="475.55" z="0" dI="0" dr="11" />
+          <f dr="15" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="一二三级蛇的特效输出受击" width="1024" height="1024">
+    <SubTexture name="xxx-sdff87" width="234" height="225" x="0" y="509" cocos2d_pX="131.45" cocos2d_pY="114.95" />
+    <SubTexture name="xxx-sdff85" width="269" height="267" x="0" y="0" cocos2d_pX="134.55" cocos2d_pY="133.60" />
+    <SubTexture name="xxx-sdff83" width="265" height="265" x="270" y="263" cocos2d_pX="132.80" cocos2d_pY="120.70" />
+    <SubTexture name="xxx-sdff81" width="269" height="264" x="543" y="0" cocos2d_pX="134.30" cocos2d_pY="131.70" />
+    <SubTexture name="xxx-sdff79" width="272" height="262" x="270" y="0" cocos2d_pX="136.00" cocos2d_pY="131.05" />
+    <SubTexture name="xxx-sdff77" width="245" height="240" x="0" y="268" cocos2d_pX="122.30" cocos2d_pY="119.75" />
+    <SubTexture name="xxx-sdff75" width="222" height="231" x="786" y="520" cocos2d_pX="110.70" cocos2d_pY="115.50" />
+    <SubTexture name="xxx-sdff73" width="249" height="260" x="536" y="265" cocos2d_pX="124.45" cocos2d_pY="129.95" />
+    <SubTexture name="xxx-sdff71" width="223" height="254" x="786" y="265" cocos2d_pX="111.15" cocos2d_pY="126.70" />
+  </TextureAtlas>
+</skeleton>

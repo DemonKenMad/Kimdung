@@ -1,0 +1,45 @@
+<skeleton name="战争迷雾测试" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-1.05" y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0">
+        <d name="gsdegf-ghkghfl" />
+        <d name="gsdegf-sdg" />
+        <d name="gsdegf-l" />
+        <d name="gsdegf-seh" />
+        <d name="gsdegf-s34swgfsw" />
+        <d name="gsdegf-sdg42" />
+        <d name="gsdegf-dgs34sw3" />
+        <d name="gsdegf-segs" />
+        <d name="gsdegf-sdfw3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="frog" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-1.05" y="34.6" cocos2d_x="-1.05" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-1.05" y="34.6" cocos2d_x="-1.05" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-1.05" y="34.6" cocos2d_x="-1.05" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="106.1" y="34.6" cocos2d_x="106.1" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="106.1" y="34.6" cocos2d_x="106.1" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="187.05" y="34.6" cocos2d_x="187.05" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="214.05" y="34.6" cocos2d_x="214.05" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="214.05" y="34.6" cocos2d_x="214.05" cocos2d_y="34.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="214.05" y="-178.6" cocos2d_x="214.05" cocos2d_y="-178.6" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="战争迷雾测试" width="256" height="256">
+    <SubTexture name="gsdegf-sdfw3" width="71" height="15" x="72" y="177" cocos2d_pX="35.60" cocos2d_pY="7.50" />
+    <SubTexture name="gsdegf-segs" width="71" height="58" x="156" y="118" cocos2d_pX="35.60" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-dgs34sw3" width="71" height="58" x="0" y="177" cocos2d_pX="35.60" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-sdg42" width="77" height="58" x="78" y="118" cocos2d_pX="38.30" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-s34swgfsw" width="77" height="58" x="0" y="118" cocos2d_pX="30.35" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-seh" width="77" height="58" x="115" y="59" cocos2d_pX="30.35" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-l" width="114" height="58" x="0" y="0" cocos2d_pX="57.10" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-sdg" width="114" height="58" x="0" y="59" cocos2d_pX="57.10" cocos2d_pY="28.80" />
+    <SubTexture name="gsdegf-ghkghfl" width="114" height="58" x="115" y="0" cocos2d_pX="57.10" cocos2d_pY="28.80" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,47 @@
+<skeleton name="主动技能下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="0.85" y="1.4" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart06"/>
+      </b>
+      <b name="图层 4" x="6.65" y="-43.4" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweirinhart03"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sadfasjkdasdg" dr="73" to="0" drTW="73" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="40" dI="-1"/>
+          <f x="0.85" y="1.4" cocos2d_x="0.85" cocos2d_y="1.4" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0" dI="0" dr="16">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.63" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="0.85" y="-0.6" cocos2d_x="0.85" cocos2d_y="-0.6" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0" dI="0" twE="0" dr="15">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.63" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="0.85" y="1.4" cocos2d_x="0.85" cocos2d_y="1.4" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="11" dI="-1"/>
+          <f x="6.65" y="-43.4" cocos2d_x="6.65" cocos2d_y="-43.4" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="6.65" y="-43.4" cocos2d_x="6.65" cocos2d_y="-43.4" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="19"/>
+          <f x="6.65" y="-43.4" cocos2d_x="6.65" cocos2d_y="-43.4" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="6"/>
+          <f x="6.65" y="-43.4" cocos2d_x="6.65" cocos2d_y="-43.4" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="32" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="主动技能下层" width="32" height="32">
+    <SubTexture name="xxx-zhangweirinhart03" width="15" height="9" x="0" y="18" cocos2d_pX="7.15" cocos2d_pY="4.45"/>
+    <SubTexture name="xxx-zhangweirinhart06" width="27" height="16" x="0" y="0" cocos2d_pX="11.3" cocos2d_pY="8"/>
+  </TextureAtlas>
+</skeleton>

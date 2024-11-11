@@ -1,0 +1,92 @@
+<skeleton name="南海恶神特效4" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="sdfsg" x="411.35" y="-162.4" kX="0" kY="0" cX="3.12" cY="3.12" pX="0" pY="0" z="0">
+        <d name="file-g_1" />
+        <d name="file-g_2" />
+        <d name="file-g_4" />
+        <d name="file-g_5" />
+      </b>
+      <b name="3f" x="-1.6" y="-126.85" kX="0" kY="0" cX="2.13" cY="3.67" pX="0" pY="-0.05" z="1">
+        <d name="file-b1" />
+        <d name="file-b2" />
+        <d name="file-b3" />
+        <d name="file-b4" />
+      </b>
+      <b name="ga" x="-31.05" y="-137.4" kX="0" kY="0" cX="1.25" cY="2.16" pX="0" pY="-0.05" z="2">
+        <d name="file-h1" />
+        <d name="file-h2" />
+        <d name="file-h3" />
+        <d name="file-h4" />
+      </b>
+      <b name="图层 5" x="-1.65" y="-137.65" kX="0" kY="0" cX="1.23" cY="3.82" pX="0" pY="0" z="3">
+        <d name="file-b1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="2" dr="12" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="sdfsg" sc="1" dl="0">
+          <f x="411.35" y="-162.4" cocos2d_x="411.35" cocos2d_y="-162.4" kX="0" kY="0" cX="3.12" cY="3.12" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="40" blurY="40" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="326.1" y="-140.85" cocos2d_x="326.1" cocos2d_y="-140.85" kX="0" kY="0" cX="3.58" cY="3.58" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="40" blurY="40" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="285.55" y="-151.8" cocos2d_x="285.55" cocos2d_y="-151.8" kX="0" kY="0" cX="3.49" cY="3.49" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="40" blurY="40" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="270.1" y="-150.05" cocos2d_x="270.1" cocos2d_y="-149.7" kX="0" kY="0" cX="3.52" cY="3.52" pX="0" pY="-0.1" z="0" dI="3" twE="0" dr="3">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="40" blurY="40" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="270.1" y="-150.05" cocos2d_x="270.1" cocos2d_y="-149.7" kX="0" kY="0" cX="3.59" cY="3.59" pX="0" pY="-0.1" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.21" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="40" blurY="40" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="3f" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-1.6" y="-126.85" cocos2d_x="-1.6" cocos2d_y="-126.65" kX="0" kY="0" cX="2.13" cY="3.67" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-1.6" y="-126.85" cocos2d_x="-1.5" cocos2d_y="-126.65" kX="0" kY="0" cX="2.13" cY="3.67" pX="-0.05" pY="-0.05" z="1" dI="1" dr="2" />
+          <f x="-1.6" y="-126.85" cocos2d_x="-1.5" cocos2d_y="-126.65" kX="0" kY="0" cX="2.13" cY="3.67" pX="-0.05" pY="-0.05" z="1" dI="2" dr="2" />
+          <f x="-1.6" y="-126.85" cocos2d_x="-1.5" cocos2d_y="-126.65" kX="0" kY="0" cX="2.13" cY="3.67" pX="-0.05" pY="-0.05" z="1" dI="3" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="ga" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-31.05" y="-137.4" cocos2d_x="-31.05" cocos2d_y="-137.3" kX="0" kY="0" cX="1.25" cY="2.16" pX="0" pY="-0.05" z="2" dI="0" dr="2" />
+          <f x="-22.35" y="-137.4" cocos2d_x="-22.35" cocos2d_y="-137.3" kX="0" kY="0" cX="1.25" cY="2.16" pX="0" pY="-0.05" z="2" dI="1" dr="2" />
+          <f x="-22.35" y="-137.4" cocos2d_x="-22.35" cocos2d_y="-137.3" kX="0" kY="0" cX="1.25" cY="2.16" pX="0" pY="-0.05" z="2" dI="2" dr="2" />
+          <f x="-10.35" y="-156.6" cocos2d_x="-10.35" cocos2d_y="-156.4" kX="0" kY="0" cX="1.25" cY="2.16" pX="0" pY="-0.1" z="2" dI="3" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-1.65" y="-137.65" cocos2d_x="-1.65" cocos2d_y="-137.65" kX="0" kY="0" cX="1.23" cY="3.82" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-1.65" y="-144.65" cocos2d_x="-1.65" cocos2d_y="-144.65" kX="0" kY="0" cX="0.96" cY="3.78" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="194" b="144" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="南海恶神特效4" width="1024" height="512">
+    <SubTexture name="file-h4" width="164" height="118" x="0" y="329" cocos2d_pX="83.00" cocos2d_pY="74.00" />
+    <SubTexture name="file-h3" width="222" height="129" x="529" y="277" cocos2d_pX="106.00" cocos2d_pY="72.00" />
+    <SubTexture name="file-h2" width="248" height="139" x="580" y="137" cocos2d_pX="124.00" cocos2d_pY="71.00" />
+    <SubTexture name="file-h1" width="254" height="136" x="580" y="0" cocos2d_pX="122.00" cocos2d_pY="71.00" />
+    <SubTexture name="file-b4" width="186" height="116" x="217" y="326" cocos2d_pX="92.00" cocos2d_pY="58.50" />
+    <SubTexture name="file-b3" width="184" height="123" x="829" y="255" cocos2d_pX="91.00" cocos2d_pY="63.50" />
+    <SubTexture name="file-b2" width="184" height="126" x="835" y="128" cocos2d_pX="91.00" cocos2d_pY="64.50" />
+    <SubTexture name="file-b1" width="186" height="127" x="835" y="0" cocos2d_pX="92.00" cocos2d_pY="65.50" />
+    <SubTexture name="file-g_5" width="291" height="175" x="0" y="0" cocos2d_pX="145.50" cocos2d_pY="87.50" />
+    <SubTexture name="file-g_4" width="287" height="173" x="292" y="0" cocos2d_pX="143.50" cocos2d_pY="86.50" />
+    <SubTexture name="file-g_2" width="236" height="151" x="292" y="174" cocos2d_pX="118.00" cocos2d_pY="75.50" />
+    <SubTexture name="file-g_1" width="216" height="152" x="0" y="176" cocos2d_pX="108.00" cocos2d_pY="76.00" />
+  </TextureAtlas>
+</skeleton>

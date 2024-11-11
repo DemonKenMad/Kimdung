@@ -1,0 +1,143 @@
+<skeleton name="全冠清技能攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="104.45" y="-85" kX="0" kY="180" cX="0.67" cY="0.77" pX="-103.8" pY="-78.8" z="0">
+        <d name="file/yanchen2" isArmature="1"/>
+      </b>
+      <b name="图层 2" x="40.05" y="-43.65" kX="29.52" kY="0" cX="0.86" cY="0.99" pX="-1.25" pY="0.1" z="1">
+        <d name="file-yc_b"/>
+        <d name="file-huoqiang"/>
+      </b>
+      <b name="图层 14" x="193.15" y="-250.65" kX="-21.5" kY="-25.92" cX="1.16" cY="1.79" pX="0.4" pY="-0.55" z="2">
+        <d name="file-jineng"/>
+      </b>
+      <b name="图层 4" x="71.4" y="-99.15" kX="17.83" kY="-14.69" cX="1.23" cY="0.92" pX="-0.4" pY="-0.35" z="3">
+        <d name="file-jinengguang"/>
+        <d name="file-jineng"/>
+      </b>
+      <b name="图层 3" x="60.75" y="-106.25" kX="-120.73" kY="-40.48" cX="1.46" cY="4.04" pX="0.3" pY="-0.5" z="4">
+        <d name="file-jinengguang2"/>
+        <d name="file-jineng"/>
+      </b>
+      <b name="图层 6" x="87.45" y="-123.55" kX="122.63" kY="118.21" cX="0.65" cY="1" pX="0.4" pY="-0.6" z="5">
+        <d name="file-jineng"/>
+      </b>
+      <b name="图层 9" x="123.65" y="-145" kX="63.41" kY="58.98" cX="0.57" cY="1" pX="0.4" pY="-0.65" z="6">
+        <d name="file-jineng"/>
+      </b>
+    </armature>
+    <armature name="file/yanchen2" isLoop="loop" startFrame="1">
+      <b name="图层 21" x="71.65" y="40.05" kX="-6.77" kY="-6.77" cX="1.5" cY="1.5" pX="120.95" pY="70.1" z="0">
+        <d name="file-yc_b"/>
+      </b>
+      <b name="图层 21 复制" x="125.8" y="65.1" kX="0" kY="0" cX="1.5" cY="1.34" pX="121" pY="70.05" z="1">
+        <d name="file-yc_b"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="file/yanchen2">
+      <mov name="dfds" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 21" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="71.65" y="40.05" cocos2d_x="-121.15" cocos2d_y="-43" kX="-6.77" kY="-6.77" cX="1.5" cY="1.5" pX="120.95" pY="70.1" z="0" dI="0" twE="0" dr="2"/>
+          <f x="71.7" y="39.95" cocos2d_x="-180.9" cocos2d_y="-68.7" kX="-6.77" kY="-6.77" cX="1.97" cY="1.97" pX="121.05" pY="70" z="0" dI="0" twE="0" dr="9"/>
+          <f x="71.8" y="39.9" cocos2d_x="-198.25" cocos2d_y="-76.2" kX="-6.77" kY="-6.77" cX="2.1" cY="2.1" pX="121.05" pY="70" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="图层 21 复制" sc="1" dl="0">
+          <f x="125.8" y="65.1" cocos2d_x="-56.2" cocos2d_y="-29" kX="0" kY="0" cX="1.5" cY="1.34" pX="121" pY="70.05" z="1" dI="0" twE="0" dr="2"/>
+          <f x="125.8" y="65.1" cocos2d_x="-84.35" cocos2d_y="-43.55" kX="0" kY="0" cX="1.74" cY="1.55" pX="121" pY="70" z="1" dI="0" twE="0" dr="8"/>
+          <f x="125.8" y="65.1" cocos2d_x="-116.25" cocos2d_y="-60" kX="0" kY="0" cX="2" cY="1.79" pX="121" pY="69.95" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="104.45" y="-85" cocos2d_x="34.55" cocos2d_y="-24.15" kX="0" kY="180" cX="0.67" cY="0.77" pX="-103.8" pY="-78.8" z="0" dI="0" dr="13"/>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="40.05" y="-43.65" cocos2d_x="41.15" cocos2d_y="-43.75" kX="29.52" kY="0" cX="0.86" cY="0.99" pX="-1.25" pY="0.1" z="1" dI="0" dr="1" twE="NaN"/>
+          <f x="41.1" y="-44.6" cocos2d_x="42.15" cocos2d_y="-44.75" kX="29.53" kY="0" cX="0.87" cY="1" pX="-1.1" pY="0.2" z="1" dI="0" twE="0" dr="4"/>
+          <f x="41.1" y="-49.6" cocos2d_x="42.35" cocos2d_y="-49.8" kX="29.53" kY="0" cX="1.02" cY="1.17" pX="-1.15" pY="0.2" z="1" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="2" dI="-1"/>
+          <f x="168.1" y="-182.25" cocos2d_x="168.8" cocos2d_y="-181.85" kX="10.76" kY="-10.07" cX="1.47" cY="1.1" pX="-0.55" pY="-0.5" z="1" dI="1" twE="0" dr="3"/>
+          <f x="168.1" y="-182.25" cocos2d_x="168.8" cocos2d_y="-181.85" kX="10.76" kY="-10.07" cX="1.47" cY="1.1" pX="-0.55" pY="-0.5" z="1" dI="1" twE="0" dr="1"/>
+          <f dr="10" dI="-1"/>
+        </b>
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="193.15" y="-250.65" cocos2d_x="193.1" cocos2d_y="-249.55" kX="-21.5" kY="-25.92" cX="1.16" cY="1.79" pX="0.4" pY="-0.55" z="2" dI="0" blend="add" twE="0" dr="3"/>
+          <f x="193.15" y="-250.65" cocos2d_x="193.1" cocos2d_y="-249.55" kX="-21.34" kY="-25.83" cX="1.16" cY="1.78" pX="0.35" pY="-0.55" z="2" dI="0" blend="add" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.87" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="193.15" y="-250.65" cocos2d_x="193.1" cocos2d_y="-249.55" kX="-21.5" kY="-25.92" cX="1.16" cY="1.79" pX="0.4" pY="-0.55" z="2" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="7" dI="-1"/>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="71.4" y="-99.15" cocos2d_x="71.85" cocos2d_y="-99" kX="17.83" kY="-14.69" cX="1.23" cY="0.92" pX="-0.4" pY="-0.35" z="3" dI="0" twE="0" dr="1"/>
+          <f x="71.4" y="-99.15" cocos2d_x="71.85" cocos2d_y="-99" kX="17.83" kY="-14.69" cX="1.23" cY="0.92" pX="-0.4" pY="-0.35" z="3" dI="0" twE="0" dr="2"/>
+          <f x="71.4" y="-99.15" cocos2d_x="71.85" cocos2d_y="-99" kX="17.83" kY="-14.69" cX="1.23" cY="0.92" pX="-0.4" pY="-0.35" z="3" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="2" dI="-1"/>
+          <f x="190.2" y="-199.6" cocos2d_x="189.9" cocos2d_y="-198.9" kX="1.02" kY="-3.4" cX="0.8" cY="1.24" pX="0.35" pY="-0.6" z="3" dI="1" blend="add" twE="0" dr="1"/>
+          <f x="190.2" y="-199.6" cocos2d_x="189.9" cocos2d_y="-198.9" kX="1.02" kY="-3.4" cX="0.8" cY="1.24" pX="0.35" pY="-0.6" z="3" dI="1" blend="add" twE="0" dr="3"/>
+          <f x="190.25" y="-199.55" cocos2d_x="189.9" cocos2d_y="-198.9" kX="1.02" kY="-3.4" cX="0.8" cY="1.24" pX="0.4" pY="-0.55" z="3" dI="1" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.15" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="9" dI="-1"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="60.75" y="-106.25" cocos2d_x="62.15" cocos2d_y="-107" kX="-120.73" kY="-40.48" cX="1.46" cY="4.04" pX="0.3" pY="-0.5" z="4" dI="0" twE="0" dr="1"/>
+          <f x="60.75" y="-106.25" cocos2d_x="62.15" cocos2d_y="-107" kX="-120.73" kY="-40.48" cX="1.46" cY="4.04" pX="0.3" pY="-0.5" z="4" dI="0" twE="0" dr="2"/>
+          <f x="60.75" y="-106.25" cocos2d_x="62.15" cocos2d_y="-107" kX="-120.73" kY="-40.48" cX="1.46" cY="4.04" pX="0.3" pY="-0.5" z="4" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.36" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+          <f x="155.5" y="-171.65" cocos2d_x="154.95" cocos2d_y="-171.2" kX="25.74" kY="21.31" cX="0.74" cY="1.13" pX="0.4" pY="-0.6" z="4" dI="1" blend="add" twE="0" dr="3"/>
+          <f x="155.5" y="-171.65" cocos2d_x="154.95" cocos2d_y="-171.2" kX="25.74" kY="21.31" cX="0.74" cY="1.13" pX="0.4" pY="-0.6" z="4" dI="1" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="10" dI="-1"/>
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="87.45" y="-123.55" cocos2d_x="87.1" cocos2d_y="-124.1" kX="122.63" kY="118.21" cX="0.65" cY="1" pX="0.4" pY="-0.6" z="5" dI="0" blend="add" twE="0" dr="2"/>
+          <f x="87.45" y="-123.55" cocos2d_x="87.1" cocos2d_y="-124.1" kX="122.63" kY="118.21" cX="0.65" cY="1" pX="0.4" pY="-0.6" z="5" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.17" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="11" dI="-1"/>
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="123.65" y="-145" cocos2d_x="122.95" cocos2d_y="-144.9" kX="63.41" kY="58.98" cX="0.57" cY="1" pX="0.4" pY="-0.65" z="6" dI="0" blend="add" twE="0" dr="2"/>
+          <f x="123.65" y="-145" cocos2d_x="122.95" cocos2d_y="-144.9" kX="63.41" kY="58.98" cX="0.57" cY="1" pX="0.4" pY="-0.65" z="6" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.17" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="11" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="全冠清技能攻击" width="512" height="512">
+    <SubTexture name="file-jinengguang2" width="105" height="82" x="161" y="204" cocos2d_pX="52" cocos2d_pY="41.5"/>
+    <SubTexture name="file-jinengguang" width="193" height="157" x="252" y="0" cocos2d_pX="97" cocos2d_pY="79"/>
+    <SubTexture name="file-jineng" width="250" height="43" x="252" y="159" cocos2d_pX="124.5" cocos2d_pY="22"/>
+    <SubTexture name="file-huoqiang" width="250" height="195" x="0" y="0" cocos2d_pX="125.5" cocos2d_pY="98"/>
+    <SubTexture name="file-yc_b" width="159" height="113" x="0" y="197" cocos2d_pX="80.9" cocos2d_pY="56.45"/>
+  </TextureAtlas>
+</skeleton>

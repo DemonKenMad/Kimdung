@@ -1,0 +1,126 @@
+<skeleton name="天阶界面输出底层02" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fdhjtykj xx2" x="377.35" y="162.9" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/situ13" isArmature="1" />
+      </b>
+      <b name="disanceng" x="1.45" y="-0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/situ08" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/situ13" isLoop="loop" startFrame="1">
+      <b name="gkyu;iuxx2" x="-610" y="-260.4" kX="0" kY="0" cX="0.8" cY="0.59" pX="0" pY="0" z="0">
+        <d name="xxx/situ14" isArmature="1" />
+      </b>
+      <b name="gkyu;iuxx20" x="-580.25" y="-371.5" kX="0" kY="0" cX="0.8" cY="0.8" pX="0" pY="0" z="1">
+        <d name="xxx/situ14" isArmature="1" />
+      </b>
+      <b name="gkyu;iuxx21" x="-580.25" y="-371.5" kX="0" kY="0" cX="0.8" cY="0.48" pX="0" pY="0" z="2">
+        <d name="xxx/situ14" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/situ14" isLoop="loop" startFrame="501">
+      <b name="dasfasfs" x="2359.1" y="-10" kX="0" kY="0" cX="0.73" cY="0.73" pX="0" pY="0" z="0">
+        <d name="xxx-situ15" />
+      </b>
+    </armature>
+    <armature name="xxx/situ08" isLoop="loop" startFrame="1">
+      <b name="fsdfsd" x="728.55" y="222.35" kX="-88.5" kY="-88.5" cX="1" cY="0.97" pX="-59.05" pY="273.95" z="0">
+        <d name="xxx/situ06" isArmature="1" />
+      </b>
+      <b name="sd" x="460.2" y="142.25" kX="-0.71" kY="-0.71" cX="1" cY="0.47" pX="-59.1" pY="274" z="1">
+        <d name="xxx/situ06" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/situ06" isLoop="loop" startFrame="1">
+      <b name="czxcxzc" x="-1577.15" y="-179.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/situ07" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/situ07" isLoop="loop" startFrame="1">
+      <b name="sdfsdf" x="-838.55" y="-109.2" kX="0" kY="0" cX="3.13" cY="3.13" pX="0" pY="0" z="0">
+        <d name="xxx-situ12" />
+      </b>
+      <b name="fsdf" x="1284.15" y="-109.2" kX="0" kY="0" cX="3.13" cY="3.13" pX="0" pY="0" z="1">
+        <d name="xxx-situ10" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/situ14">
+      <mov name="fasfasfa" dr="501" to="0" drTW="501" lp="1" twE="NaN">
+        <b name="dasfasfs" sc="1" dl="0">
+          <f x="2359.1" y="-10" cocos2d_x="2359.1" cocos2d_y="-10" kX="0" kY="0" cX="0.73" cY="0.73" pX="0" pY="0" z="0" dI="0" twE="0" dr="217" />
+          <f x="1297.9" y="-10" cocos2d_x="1297.9" cocos2d_y="-10" kX="0" kY="0" cX="0.73" cY="0.73" pX="0" pY="0" z="0" dI="0" twE="0" dr="283" />
+          <f x="-86.05" y="-10" cocos2d_x="-86.05" cocos2d_y="-10" kX="0" kY="0" cX="0.73" cY="0.73" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/situ13">
+      <mov name="fasfsafafasf" dr="1500" to="0" drTW="1500" lp="1" twE="NaN">
+        <b name="gkyu;iuxx2" sc="1" dl="0">
+          <f x="-610" y="-260.4" cocos2d_x="-610" cocos2d_y="-260.4" kX="0" kY="0" cX="0.8" cY="0.59" fst="500" pX="0" pY="0" z="0" dI="0" dr="1500" />
+        </b>
+        <b name="gkyu;iuxx20" sc="1" dl="0">
+          <f x="-580.25" y="-371.5" cocos2d_x="-580.25" cocos2d_y="-371.5" kX="0" kY="0" cX="0.8" cY="0.8" fst="299" pX="0" pY="0" z="1" dI="0" dr="1500" />
+        </b>
+        <b name="gkyu;iuxx21" sc="1" dl="0">
+          <f x="-580.25" y="-371.5" cocos2d_x="-580.25" cocos2d_y="-371.5" kX="0" kY="0" cX="0.8" cY="0.48" fst="1199" pX="0" pY="0" z="2" dI="0" dr="1500" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/situ07">
+      <mov name="dsfd" dr="1" to="0">
+        <b name="sdfsdf" sc="1" dl="0">
+          <f x="-838.55" y="-109.2" cocos2d_x="-838.55" cocos2d_y="-109.2" kX="0" kY="0" cX="3.13" cY="3.13" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="143" g="143" b="143" aM="1" rM="0.44" gM="0.44" bM="0.44" />
+          </f>
+        </b>
+        <b name="fsdf" sc="1" dl="0">
+          <f x="1284.15" y="-109.2" cocos2d_x="1284.15" cocos2d_y="-109.2" kX="0" kY="0" cX="3.13" cY="3.13" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="143" g="143" b="143" aM="1" rM="0.44" gM="0.44" bM="0.44" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/situ06">
+      <mov name="dsafsa" dr="750" to="0" drTW="750" lp="1" twE="NaN">
+        <b name="czxcxzc" sc="1" dl="0">
+          <f x="-1577.15" y="-179.2" cocos2d_x="-1577.15" cocos2d_y="-179.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="749" />
+          <f x="541.4" y="-177.45" cocos2d_x="541.4" cocos2d_y="-177.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/situ08">
+      <mov name="sfasfa" dr="1500" to="0" drTW="1500" lp="1" twE="NaN">
+        <b name="fsdfsd" sc="1" dl="0">
+          <f x="728.55" y="222.35" cocos2d_x="463.6" cocos2d_y="156.25" kX="-88.5" kY="-88.5" cX="1" cY="0.97" fst="0" pX="-59.05" pY="273.95" z="0" dI="0" dr="1500">
+            <colorTransform a="0" r="255" g="210" b="146" aM="0.25" rM="0" gM="0" bM="0" />
+          </f>
+        </b>
+        <b name="sd" sc="1" dl="0">
+          <f x="460.2" y="142.25" cocos2d_x="517.7" cocos2d_y="11.4" kX="-0.71" kY="-0.71" cX="1" cY="0.47" fst="0" pX="-59.1" pY="274" z="1" dI="0" dr="1500">
+            <colorTransform a="0" r="255" g="255" b="255" aM="0.51" rM="0" gM="0" bM="0" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsadfad" dr="1500" to="0" drTW="1500" lp="0" twE="NaN">
+        <b name="fdhjtykj xx2" sc="1" dl="0">
+          <f x="377.35" y="162.9" cocos2d_x="377.35" cocos2d_y="162.9" kX="0" kY="180" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1500">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.82" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="disanceng" sc="1" dl="0">
+          <f x="1.45" y="-0.05" cocos2d_x="1.45" cocos2d_y="-0.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1500" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="天阶界面输出底层02" width="1024" height="1024">
+    <SubTexture name="xxx-situ10" width="763" height="265" x="0" y="0" cocos2d_pX="402.05" cocos2d_pY="132.25" />
+    <SubTexture name="xxx-situ12" width="763" height="265" x="0" y="266" cocos2d_pX="401.90" cocos2d_pY="132.25" />
+    <SubTexture name="xxx-situ15" width="448" height="176" x="0" y="532" cocos2d_pX="255.75" cocos2d_pY="102.45" />
+  </TextureAtlas>
+</skeleton>

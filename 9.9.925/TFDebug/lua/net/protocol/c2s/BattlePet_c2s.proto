@@ -1,0 +1,38 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SBattlePetMsg";
+
+//code = 0x4f02
+//战宠升品升星
+message BattlePetUpRequest{
+	required int32 type = 1;				//1升品，2升星
+	required int64 instanceId = 2;			//战宠id
+}
+
+//code = 0x4f03
+//战宠请求更换驯兽师
+message BattlePetTrainerReplaceRequest{
+	required int64 instanceId = 1;			//战宠id
+	required int64 xiakeId = 2;				//侠客id
+}
+
+//code = 0x4f04
+//战宠请求装备阵容上
+message BattlePetEquipFormationRequest{
+	required int64 instanceId = 1;			//战宠id
+	required int32 formationType = 2;		//阵型类型
+	required int32 type = 3;				//1 装备 2 卸下
+}
+
+//code = 0x4f05
+//战宠请求放生
+message BattlePetFreeRequest{
+	repeated int64 instanceId = 1;			//战宠id
+}
+
+//code = 0x4f06
+//战宠换功
+message BattlePetExchangeRequest{
+	required int64 instanceId = 1;			//战宠id
+	required int64 exInstanceId = 2;			//战宠id
+}

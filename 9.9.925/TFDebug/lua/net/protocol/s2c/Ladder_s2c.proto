@@ -1,0 +1,65 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+option java_outer_classname="S2CLadderMsg";
+import "s2c/UnitInfo_s2c.proto";
+//玩家天梯赛信息
+//code = 0x7901
+message PlayerLadderMessage{
+	required int32 grade = 1;
+	required int32 star = 2;
+	repeated PlayerLadderChallengersMessage challengers = 3;
+	required int64 lastSeasonTime = 4;
+	required int32 stopBattleCount = 5;
+	required string missionTypes = 6;//任务类型完成情况
+	required string drowMissions = 7;//领取过的奖励
+	optional LastSeasonGradeMessage lastSeasonGrade = 8;
+}
+
+message PlayerLadderChallengersMessage{
+	required int32 playerId = 1;
+	required string name = 2;
+	required int32 grade = 3;
+	required int32 star = 4;
+	required string serverName = 5;
+	required int32 useIcon = 6;
+	required int32 power = 7;
+	required int32 state = 8;
+	required int32 level =9;
+}
+
+message LastSeasonGradeMessage{
+	required int32 grade =1;
+	required int32 star=2;
+	required int32 rank=3;
+}
+//获得玩家天梯赛排名信息
+//code = 0x7902
+message LadderRank{
+	repeated LadderRankInfo infos = 1;
+	optional int32 grade = 2;
+	optional int32 star = 3;
+}
+
+message LadderRankInfo{
+	required int32 playerId = 1;
+	required string name = 2;
+	required int32 grade = 3;
+	required int32 star = 4;
+	required string serverName = 5;
+	required int32 useIcon = 6;
+	required int32 power = 7;
+	required int32 headPicFrame = 8;
+	required int32 level = 9;
+	required int32 starHeroRanking = 10;
+}
+//获取其他玩家阵容
+//code = 0x7906
+message LadderFormation{
+	required int32 grade = 1;
+	required OtherPlayerDetails details = 2;
+}
+//获得自己的天梯赛信息
+//code = 0x7907
+message MyLadderInfo{
+	optional int32 grade = 1;
+	optional int32 star = 2;
+}

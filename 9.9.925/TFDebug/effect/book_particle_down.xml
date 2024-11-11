@@ -1,0 +1,54 @@
+<skeleton name="粒子法阵下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-41.1" y="-18.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB13" />
+        <d name="xxx-zhangweifiltacerB12" />
+        <d name="xxx-zhangweifiltacerB11" />
+        <d name="xxx-zhangweifiltacerB10" />
+        <d name="xxx-zhangweifiltacerB09" />
+        <d name="xxx-zhangweifiltacerB08" />
+        <d name="xxx-zhangweifiltacerB07" />
+        <d name="xxx-zhangweifiltacerB06" />
+        <d name="xxx-zhangweifiltacerB05" />
+        <d name="xxx-zhangweifiltacerB04" />
+        <d name="xxx-zhangweifiltacerB03" />
+        <d name="xxx-zhangweifiltacerB02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdafgasgasdg" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-41.1" y="-18.1" cocos2d_x="-41.1" cocos2d_y="-18.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-29.4" y="-8.7" cocos2d_x="-29.3" cocos2d_y="-8.6" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="-2.2" y="4.3" cocos2d_x="-2.1" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-2.2" y="5.45" cocos2d_x="-2.1" cocos2d_y="5.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="3" dr="2" />
+          <f x="-2.2" y="4.3" cocos2d_x="-2.1" cocos2d_y="4.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="5" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="6" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="7" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="8" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="9" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="10" dr="2" />
+          <f x="-2.2" y="3.1" cocos2d_x="-2.1" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="11" dr="2" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="粒子法阵下层" width="2048" height="1024">
+    <SubTexture name="xxx-zhangweifiltacerB02" width="494" height="301" x="1487" y="0" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB03" width="494" height="301" x="495" y="301" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB04" width="494" height="301" x="0" y="603" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB05" width="494" height="301" x="990" y="302" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB06" width="494" height="301" x="0" y="301" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB07" width="494" height="301" x="1485" y="302" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB08" width="494" height="301" x="992" y="0" cocos2d_pX="247.20" cocos2d_pY="150.40" />
+    <SubTexture name="xxx-zhangweifiltacerB09" width="495" height="300" x="496" y="0" cocos2d_pX="247.20" cocos2d_pY="149.80" />
+    <SubTexture name="xxx-zhangweifiltacerB10" width="494" height="299" x="495" y="603" cocos2d_pX="247.20" cocos2d_pY="149.20" />
+    <SubTexture name="xxx-zhangweifiltacerB11" width="495" height="300" x="0" y="0" cocos2d_pX="247.20" cocos2d_pY="149.80" />
+    <SubTexture name="xxx-zhangweifiltacerB12" width="446" height="289" x="990" y="604" cocos2d_pX="223.00" cocos2d_pY="144.55" />
+    <SubTexture name="xxx-zhangweifiltacerB13" width="456" height="273" x="1437" y="604" cocos2d_pX="227.70" cocos2d_pY="136.25" />
+  </TextureAtlas>
+</skeleton>

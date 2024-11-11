@@ -1,0 +1,93 @@
+<skeleton name="沙广天技能特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="105.1" y="-102.4" kX="-78.11" kY="-17.9" cX="1.99" cY="2.46" pX="-2.2" pY="-0.2" z="0">
+        <d name="dsad/bianxing" isArmature="1" />
+      </b>
+      <b name="图层 2" x="121.05" y="-106.55" kX="-78.21" kY="-17.8" cX="2.86" cY="3.53" pX="-2.3" pY="-0.25" z="1">
+        <d name="dsad/bianxing" isArmature="1" />
+      </b>
+      <b name="图层 10" x="300.7" y="-105.9" kX="0" kY="0" cX="373.43" cY="373.43" pX="-0.9" pY="-13.75" z="2">
+        <d name="dsad-shanguang" />
+      </b>
+      <b name="图层 3" x="100.5" y="-71.85" kX="-107.57" kY="16.09" cX="1.35" cY="2.41" pX="0.4" pY="0.2" z="3">
+        <d name="dsad-jineng1" />
+      </b>
+      <b name="图层 5" x="217.9" y="-121.9" kX="92.46" kY="-128" cX="1.02" cY="3.87" pX="0.35" pY="0.55" z="4">
+        <d name="dsad-jineng1" />
+      </b>
+      <b name="图层 8" x="300" y="-102.2" kX="0" kY="0" cX="1.32" cY="1.32" pX="0" pY="0" z="5">
+        <d name="dsad-jineng2" />
+      </b>
+      <b name="图层 9" x="193.55" y="-149.3" kX="-96.41" kY="-96.41" cX="0.63" cY="0.63" pX="0" pY="0" z="6">
+        <d name="dsad-jineng2" />
+      </b>
+    </armature>
+    <armature name="dsad/bianxing" isLoop="loop" startFrame="2">
+      <b name="图层 1" x="-6.7" y="-3.1" kX="-123.68" kY="-123.68" cX="1" cY="1" pX="2.25" pY="7.15" z="0">
+        <d name="dsad-jineng3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dsad/bianxing">
+      <mov name="DSFDS" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-6.7" y="-3.1" cocos2d_x="-11.45" cocos2d_y="2.75" kX="-123.68" kY="-123.68" cX="1" cY="1" pX="2.25" pY="7.15" z="0" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="-6.6" y="-3.15" cocos2d_x="-0.2" cocos2d_y="-7.35" kX="74.45" kY="74.45" cX="1" cY="1" pX="2.35" pY="7.25" z="0" dI="0" blend="normal" twE="0" dr="1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsadsa" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="105.1" y="-102.4" cocos2d_x="109.95" cocos2d_y="-103.65" kX="-78.11" kY="-17.9" cX="1.99" cY="2.46" pX="-2.2" pY="-0.2" z="0" dI="0" dr="4" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="121.05" y="-106.55" cocos2d_x="128.15" cocos2d_y="-108.4" kX="-78.21" kY="-17.8" cX="2.86" cY="3.53" pX="-2.3" pY="-0.25" z="1" dI="0" dr="3" />
+          <f x="120.95" y="-106.55" cocos2d_x="128.05" cocos2d_y="-108.4" kX="-78.21" kY="-17.8" cX="2.86" cY="3.53" pX="-2.35" pY="-0.2" z="1" dI="0" dr="2" />
+          <f x="121.05" y="-106.55" cocos2d_x="128.15" cocos2d_y="-108.4" kX="-78.21" kY="-17.8" cX="2.86" cY="3.53" pX="-2.3" pY="-0.25" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="300.7" y="-105.9" cocos2d_x="636.8" cocos2d_y="5028.8" kX="0" kY="0" cX="373.43" cY="373.43" pX="-0.9" pY="-13.75" z="2" dI="0" blend="add" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.36" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="100.5" y="-71.85" cocos2d_x="99.4" cocos2d_y="-71.8" kX="-107.57" kY="16.09" cX="1.35" cY="2.41" pX="0.4" pY="0.2" z="3" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="221.05" y="-95.95" cocos2d_x="220.4" cocos2d_y="-95.25" kX="180" kY="0" cX="1.32" cY="1.41" pX="0.5" pY="0.5" z="3" dI="0" blend="add" dr="2" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="217.9" y="-121.9" cocos2d_x="220.2" cocos2d_y="-121.55" kX="92.46" kY="-128" cX="1.02" cY="3.87" pX="0.35" pY="0.55" z="4" dI="0" blend="add" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="300" y="-102.2" cocos2d_x="300" cocos2d_y="-102.2" kX="0" kY="0" cX="1.32" cY="1.32" pX="0" pY="0" z="5" dI="0" blend="normal" dr="2" />
+          <f x="264" y="-77.8" cocos2d_x="264" cocos2d_y="-77.8" kX="-96.41" kY="-96.41" cX="0.67" cY="0.67" pX="0" pY="0" z="5" dI="0" blend="normal" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="193.55" y="-149.3" cocos2d_x="193.55" cocos2d_y="-149.3" kX="-96.41" kY="-96.41" cX="0.63" cY="0.63" pX="0" pY="0" z="6" dI="0" blend="normal" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="沙广天技能特效" width="256" height="512">
+    <SubTexture name="dsad-jineng3" width="110" height="102" x="0" y="272" cocos2d_pX="54.65" cocos2d_pY="49.50" />
+    <SubTexture name="dsad-jineng2" width="150" height="150" x="0" y="0" cocos2d_pX="75.00" cocos2d_pY="75.00" />
+    <SubTexture name="dsad-jineng1" width="165" height="120" x="0" y="151" cocos2d_pX="74.50" cocos2d_pY="59.50" />
+    <SubTexture name="dsad-shanguang" width="2" height="1" x="151" y="0" cocos2d_pX="1.60" cocos2d_pY="13.45" />
+  </TextureAtlas>
+</skeleton>

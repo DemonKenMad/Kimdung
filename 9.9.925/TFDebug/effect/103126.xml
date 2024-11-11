@@ -1,0 +1,28 @@
+<skeleton name="破 1129 9" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="60.7" y="5.55" kX="0" kY="0" cX="10.87" cY="6.39" pX="0" pY="0" z="0">
+        <d name="xxx-bftrntrn"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="donghua" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="60.7" y="5.55" cocos2d_x="60.7" cocos2d_y="5.55" kX="0" kY="0" cX="10.87" cY="6.39" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="60.7" y="5.55" cocos2d_x="60.7" cocos2d_y="5.55" kX="0" kY="0" cX="10.87" cY="6.39" fst="0" pX="0" pY="0" z="0" dI="0" dr="17"/>
+          <f x="60.7" y="5.55" cocos2d_x="60.7" cocos2d_y="5.55" kX="0" kY="0" cX="10.87" cY="6.39" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4"/>
+          <f x="60.7" y="5.55" cocos2d_x="60.7" cocos2d_y="5.55" kX="0" kY="0" cX="10.87" cY="6.39" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="破 1129 9" width="256" height="256">
+    <SubTexture name="xxx-bftrntrn" width="150" height="150" x="0" y="0" cocos2d_pX="75" cocos2d_pY="75"/>
+  </TextureAtlas>
+</skeleton>

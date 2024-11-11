@@ -1,0 +1,130 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CSerdangMsg";
+import "s2c/Reward_s2c.proto";
+
+//西岭赛季信息
+//code = 0x7200
+message SerdangSeasonInfoReponse
+{
+	required int64 startTime = 1;				//赛季开始时间
+	required int64 endTime = 2;					//赛季结束时间
+	required bool isPassCave = 3;				//玩家是否通过北窟20层
+	required bool champions = 4;				//本服是否完成跨服战
+}
+
+//西岭关卡信息
+//code = 0x7201
+message SerdangInfoReponse
+{
+	required SerdangInfo serdangInfo = 1;		//玩家西岭数据
+	repeated FloorInfo floorInfo = 2;			//层信息
+	optional string playerName = 3;				//上赛季最佳玩家名字
+	optional string serverName = 4;				//上赛季最佳玩家服务器名字
+	optional int32 floorId = 5;					//上赛季最佳层数
+}
+
+//西岭关卡挑战结果
+//code = 0x7202
+message SerdangChallengeReponse
+{
+	required int32 curId = 1; 							//当前层id
+	required int32 challengeCount = 2;					//剩余挑战次数
+}
+
+//西岭关卡扫荡结果
+// code = 0x7203
+message SerdangSweepReponse{
+	required int32 floorId = 1; 					//关卡Id
+	repeated SerdangSweepResultItem result = 2;		//结果列表
+}
+
+//西岭购买挑战次数
+// code = 0x7205
+message SerdangBuyChallengeCountReponse{
+}
+
+//排行榜
+// code = 0x7206
+message SerdangRankReponse {
+	repeated RankInfo rankInfo = 1;				// 排行榜玩家信息
+	required int32 minValue = 2;				// 最低入榜排名
+	required int32 myRanking = 3;				// 我的最佳排名,0表示未入榜
+	required int32 floorId = 4;					// 玩家自己当前层id
+}
+
+//宝箱层信息
+// code = 0x7207
+message SerdangBoxReponse {
+	required int32 floorId = 1;					//层id
+	required bool isOpenBox = 2;				//是否开启
+	optional string boxPlayerName = 3;			//开启宝箱玩家名称
+	optional string boxServerName = 4;			//开启宝箱服务器名字
+}
+
+//层信息
+message FloorInfo{
+	required int32 floorId = 1;					//层id
+	required bool isBox = 2;					//是否宝箱层
+	required bool isOpenBox = 3;				//是否宝箱层
+	required bool isHistoryReward = 4;			//是否历史得奖
+	required bool isSeasonReward = 5;			//是否本赛季得奖
+	required Npc npc=6;							//npc信息
+	optional string boxPlayerName = 7;			//开启宝箱玩家名称
+	optional string boxServerName = 8;			//开启宝箱服务器名字
+}
+
+//npc信息
+message Npc{
+	required bool isBoss = 1;					//是否boss阵容
+	required NpcFormation npc = 2;				//NPC
+	optional string playerName = 3;				//玩家名称
+	optional string serverName = 4;				//服务器名字
+	optional int32 icon = 5;					// 头像
+	optional int32 headPicFrame = 6;			// 头像框
+}
+
+//npc阵容
+message NpcFormation{
+	required int32 npcId = 1;					//队长id
+	repeated int32 roleId = 2;					//角色id
+	repeated int32 index = 3;					//位置
+}
+
+//玩家西岭数据
+message SerdangInfo{
+	required int32 playerId = 1;				//玩家id
+	required int32 floorId = 2;					//玩家当前关卡id
+}
+
+//扫荡信息结构体
+message SerdangSweepResultItem
+{
+	required int32 exp = 1;					//增加团队经验
+	required int32 oldLevel = 2;  			//原先团队等级
+	required int32 currentLevel = 3;		//当前团队等级
+	required int32 coin = 4;				//获得的金币数量
+	repeated RewardItem item = 5;			//掉落列表
+}
+
+//排行信息
+message RankInfo{
+	required int32 playerId = 1;				//玩家信息
+	required string playerName = 2;				//玩家信息
+	required int32 icon = 3;					//头像
+	required int32 headPicFrame = 4;			//头像框
+	required int32 power = 5;					//战力
+	required int32 level = 6;					//玩家等级
+	required int32 rank = 7;					//排行
+	required int32 serverId = 8;				//服务器id
+	required string serverName = 9;				//服务器名称
+	required int32 floorId = 10;				//层id
+	repeated Formation formationInfo = 11;		//阵型信息
+}
+
+//布阵信息，只发送简单的信息，提供基础动画或者静态角色展示
+message Formation{
+	required int32 position = 1;				//阵形位置，0~8
+	required int32 templateId = 2;				//角色模版ID，对应配置表ID
+	required int32 quality = 3;					//品质
+}

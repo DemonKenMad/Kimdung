@@ -1,0 +1,60 @@
+<skeleton name="坚守删字output0609" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="dfdf" x="-0.4" y="-57.2" kX="0" kY="0" cX="1.24" cY="1.24" pX="0" pY="0" z="0">
+        <d name="jianshou-dfdf" />
+      </b>
+      <b name="shield" x="-0.35" y="-36.9" kX="0" kY="0" cX="0.78" cY="0.78" pX="0" pY="-0.05" z="1">
+        <d name="jianshou-shield" />
+      </b>
+      <b name="图层 2" x="-0.4" y="-58.6" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="2">
+        <d name="jianshou-dfdf" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="jianshou" dr="46" to="0" drTW="46" lp="0" twE="NaN">
+        <b name="dfdf" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-0.4" y="-57.2" cocos2d_x="-0.4" cocos2d_y="-57.2" kX="0" kY="0" cX="1.24" cY="1.24" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-0.4" y="-58.6" cocos2d_x="-0.4" cocos2d_y="-58.6" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="0" dr="10" />
+          <f x="-0.4" y="-58.6" cocos2d_x="-0.4" cocos2d_y="-58.6" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="-0.4" y="-58.6" cocos2d_x="-0.4" cocos2d_y="-58.6" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="18" dI="-1" />
+        </b>
+        <b name="shield" sc="1" dl="0">
+          <f x="-0.35" y="-36.9" cocos2d_x="-0.35" cocos2d_y="-36.85" kX="0" kY="0" cX="0.78" cY="0.78" pX="0" pY="-0.05" z="1" dI="0" twE="0" dr="4" />
+          <f x="-0.35" y="-63.5" cocos2d_x="-0.35" cocos2d_y="-63.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" twE="0" dr="3" />
+          <f x="-0.35" y="-56.5" cocos2d_x="-0.35" cocos2d_y="-56.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" twE="0" dr="2" />
+          <f x="-0.35" y="-57.9" cocos2d_x="-0.35" cocos2d_y="-57.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="13" />
+          <f x="-0.35" y="-57.9" cocos2d_x="-0.35" cocos2d_y="-57.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" twE="0" dr="5" />
+          <f x="-0.35" y="-57.9" cocos2d_x="-0.35" cocos2d_y="-57.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="18" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="-0.4" y="-58.6" cocos2d_x="-0.4" cocos2d_y="-58.6" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="2" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-0.35" y="-58.65" cocos2d_x="-0.35" cocos2d_y="-58.65" kX="0" kY="0" cX="2.03" cY="2.03" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" />
+          <f x="-0.35" y="-58.65" cocos2d_x="-0.35" cocos2d_y="-58.65" kX="0" kY="0" cX="2.85" cY="2.85" pX="0" pY="0" z="2" dI="0" twE="1" dr="6" />
+          <f x="-0.4" y="-58.6" cocos2d_x="-0.4" cocos2d_y="-58.6" kX="0" kY="0" cX="3.68" cY="3.68" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="24" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="坚守删字output0609" width="128" height="256">
+    <SubTexture name="jianshou-shield" width="75" height="96" x="0" y="99" cocos2d_pX="37.20" cocos2d_pY="48.05" />
+    <SubTexture name="jianshou-dfdf" width="81" height="98" x="0" y="0" cocos2d_pX="40.50" cocos2d_pY="49.00" />
+  </TextureAtlas>
+</skeleton>

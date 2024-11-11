@@ -1,0 +1,40 @@
+<skeleton name="方怡普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="145" y="-145" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="3423555-56756" />
+      </b>
+      <b name="图层 1" x="213.1" y="-92.95" kX="0" kY="0" cX="1" cY="1" pX="116" pY="116" z="1">
+        <d name="3423555-45654" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="4466" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="145" y="-145" cocos2d_x="145" cocos2d_y="-145" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="139.05" y="7" cocos2d_x="164.8" cocos2d_y="-94.55" kX="12.52" kY="0" cX="0.88" cY="0.69" pX="-3.65" pY="150.8" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="139.05" y="7" cocos2d_x="151.9" cocos2d_y="-55" kX="10.03" kY="0" cX="0.52" cY="0.42" pX="-3.6" pY="150.75" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="213.1" y="-92.95" cocos2d_x="97.1" cocos2d_y="-208.95" kX="0" kY="0" cX="1" cY="1" pX="116" pY="116" z="1" dI="0" twE="0" dr="1" />
+          <f x="213.05" y="-94.7" cocos2d_x="88.15" cocos2d_y="-227.65" kX="0" kY="0" cX="1.08" cY="1.15" pX="115.95" pY="116" z="1" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="213.05" y="-99.95" cocos2d_x="29.4" cocos2d_y="-283.7" kX="0" kY="0" cX="1.58" cY="1.58" pX="115.95" pY="116" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="方怡普工" width="512" height="1024">
+    <SubTexture name="3423555-45654" width="192" height="212" x="0" y="344" cocos2d_pX="-20.00" cocos2d_pY="-12.00" />
+    <SubTexture name="3423555-56756" width="326" height="343" x="0" y="0" cocos2d_pX="162.90" cocos2d_pY="174.85" />
+  </TextureAtlas>
+</skeleton>

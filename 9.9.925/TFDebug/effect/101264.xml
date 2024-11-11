@@ -1,0 +1,244 @@
+<skeleton name="技能2贝海石" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="122.9" y="-123.2" kX="0" kY="0" cX="0.42" cY="0.42" pX="0" pY="0" z="0">
+        <d name="35555/元件 3" isArmature="1" />
+      </b>
+      <b name="图层 6" x="494.75" y="-211.9" kX="0" kY="0" cX="0.72" cY="0.72" pX="0" pY="0" z="1">
+        <d name="35555/元件 3" isArmature="1" />
+      </b>
+      <b name="图层 4" x="274.1" y="-58" kX="0" kY="0" cX="0.99" cY="0.99" pX="0" pY="0" z="2">
+        <d name="35555/元件 3" isArmature="1" />
+      </b>
+      <b name="图层 3" x="303.45" y="-98.95" kX="0" kY="0" cX="3.38" cY="3.38" pX="70" pY="47" z="3">
+        <d name="35555-64564" />
+        <d name="35555-trret242" />
+        <d name="35555-4564" />
+      </b>
+      <b name="12530340" x="-40.45" y="-94.45" kX="0" kY="0" cX="1.58" cY="1.58" pX="0" pY="0" z="4">
+        <d name="35555-yyy" />
+      </b>
+    </armature>
+    <armature name="35555/元件 3" isLoop="loop" startFrame="3">
+      <b name="图层 2" x="146.45" y="-8.5" kX="0" kY="0" cX="6.33" cY="6.33" pX="21.5" pY="31.5" z="0">
+        <d name="35555-5534" />
+      </b>
+      <b name="图层 3" x="-124.5" y="-29.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1">
+        <d name="35555-h1" />
+        <d name="35555-h2" />
+        <d name="35555-h3" />
+        <d name="35555-h4" />
+      </b>
+      <b name="图层 5" x="161.15" y="-5.2" kX="0" kY="0" cX="3.09" cY="3.09" pX="30.5" pY="60.5" z="2">
+        <d name="35555-7567" />
+      </b>
+      <b name="图层 5 复制" x="169.65" y="-87.25" kX="0" kY="0" cX="1" cY="1" pX="32" pY="32" z="3">
+        <d name="35555-4564645" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="35555/元件 3">
+      <mov name="dsad" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="146.45" y="-8.5" cocos2d_x="10.3" cocos2d_y="-208" kX="0" kY="0" cX="6.33" cY="6.33" pX="21.5" pY="31.5" z="0" dI="0" dr="36" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-124.5" y="-29.7" cocos2d_x="-124.5" cocos2d_y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="26" blurY="26" distance="5" color="#330099" quality="high" strength="211" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-121.1" y="-28.7" cocos2d_x="-121.05" cocos2d_y="-28.65" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="-0.05" z="1" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-114.75" y="-26.9" cocos2d_x="-114.75" cocos2d_y="-26.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-127.65" y="-25.8" cocos2d_x="-127.65" cocos2d_y="-25.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#6600cc" quality="low" strength="221" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="161.15" y="-5.2" cocos2d_x="67" cocos2d_y="-192" kX="0" kY="0" cX="3.09" cY="3.09" pX="30.5" pY="60.5" z="2" dI="0" dr="36" />
+        </b>
+        <b name="图层 5 复制" sc="1" dl="0">
+          <f x="169.65" y="-87.25" cocos2d_x="137.65" cocos2d_y="-119.25" kX="0" kY="0" cX="1" cY="1" pX="32" pY="32" z="3" dI="0" dr="36" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2" dr="40" to="0" drTW="40" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="122.9" y="-123.2" cocos2d_x="122.9" cocos2d_y="-123.2" kX="0" kY="0" cX="0.42" cY="0.42" pX="0" pY="0" z="0" dI="0" twE="0" dr="26" />
+          <f x="1303.8" y="-136.15" cocos2d_x="1303.8" cocos2d_y="-136.15" kX="0" kY="0" cX="0.42" cY="0.42" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="494.75" y="-211.9" cocos2d_x="494.75" cocos2d_y="-211.9" kX="0" kY="0" cX="0.72" cY="0.72" pX="0" pY="0" z="1" dI="0" twE="0" dr="26" />
+          <f x="1192.15" y="-224.85" cocos2d_x="1192.15" cocos2d_y="-224.85" kX="0" kY="0" cX="0.72" cY="0.72" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="274.1" y="-58" cocos2d_x="274.1" cocos2d_y="-58" kX="0" kY="0" cX="0.99" cY="0.99" pX="0" pY="0" z="2" dI="0" twE="0" dr="16" />
+          <f x="995.85" y="-59.8" cocos2d_x="995.85" cocos2d_y="-59.8" kX="0" kY="0" cX="0.99" cY="0.99" pX="0" pY="0" z="2" dI="0" twE="0" dr="10" />
+          <f x="1446.9" y="-60.95" cocos2d_x="1446.9" cocos2d_y="-60.95" kX="0" kY="0" cX="0.99" cY="0.99" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="303.45" y="-98.95" cocos2d_x="66.8" cocos2d_y="-257.85" kX="0" kY="0" cX="3.38" cY="3.38" pX="70" pY="47" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="312.45" y="-99.95" cocos2d_x="75.8" cocos2d_y="-258.85" kX="0" kY="0" cX="3.38" cY="3.38" pX="70" pY="47" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="377.95" y="-112.95" cocos2d_x="67.25" cocos2d_y="-289" kX="0" kY="0" cX="5.18" cY="5.18" pX="60" pY="34" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="388.95" y="-112.95" cocos2d_x="78.25" cocos2d_y="-289" kX="0" kY="0" cX="5.18" cY="5.18" pX="60" pY="34" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="375" y="-132" cocos2d_x="107.75" cocos2d_y="-273.9" kX="0" kY="0" cX="4.73" cY="4.73" pX="56.5" pY="30" z="3" dI="2" dr="1" twE="NaN" />
+          <f x="385" y="-132" cocos2d_x="117.75" cocos2d_y="-273.9" kX="0" kY="0" cX="4.73" cY="4.73" pX="56.5" pY="30" z="3" dI="2" dr="1" twE="NaN" />
+          <f x="365" y="-121.95" cocos2d_x="229.95" cocos2d_y="-193.65" kX="0" kY="0" cX="2.39" cY="2.39" pX="56.5" pY="30" z="3" dI="2" dr="1" twE="NaN" />
+          <f dr="23" dI="-1" />
+        </b>
+        <b name="12530340" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-40.45" y="-94.45" cocos2d_x="-40.45" cocos2d_y="-94.45" kX="0" kY="0" cX="1.58" cY="1.58" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+          <f dr="30" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="技能2贝海石" width="1024" height="1024">
+    <SubTexture name="35555-4564645" width="64" height="64" x="952" y="121" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="35555-7567" width="61" height="120" x="952" y="0" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="35555-h4" width="475" height="260" x="0" y="265" cocos2d_pX="237.50" cocos2d_pY="129.75" />
+    <SubTexture name="35555-h3" width="454" height="262" x="476" y="265" cocos2d_pX="226.65" cocos2d_pY="130.65" />
+    <SubTexture name="35555-h2" width="474" height="264" x="477" y="0" cocos2d_pX="236.95" cocos2d_pY="131.90" />
+    <SubTexture name="35555-h1" width="476" height="264" x="0" y="0" cocos2d_pX="237.85" cocos2d_pY="131.70" />
+    <SubTexture name="35555-5534" width="42" height="63" x="952" y="186" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="35555-yyy" width="215" height="204" x="0" y="526" cocos2d_pX="106.50" cocos2d_pY="103.00" />
+    <SubTexture name="35555-4564" width="113" height="60" x="357" y="526" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="35555-trret242" width="120" height="68" x="471" y="528" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="35555-64564" width="140" height="94" x="216" y="526" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

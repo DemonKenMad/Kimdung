@@ -1,0 +1,16 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2STupu";
+
+//查询图谱
+// code = 0x3100
+message QueryTupuList
+{
+
+}
+
+//修改查看过的英雄谱
+// code = 0x3102
+message UpdateHeroPuWatchs{
+	required string val =1;
+}

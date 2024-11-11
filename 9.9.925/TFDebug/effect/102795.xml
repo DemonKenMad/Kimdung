@@ -1,0 +1,55 @@
+<skeleton name="小龙女技能大招底层(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="13.45" y="-2.15" kX="0" kY="0" cX="0.33" cY="0.33" pX="659.25" pY="479.85" z="0">
+        <d name="xxx/zhangweifilesB23" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB23" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="660.2" y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB18" />
+        <d name="xxx-zhangweifilesB19" />
+        <d name="xxx-zhangweifilesB20" />
+        <d name="xxx-zhangweifilesB21" />
+        <d name="xxx-zhangweifilesB22" />
+        <d name="xxx-zhangweifilesB10" />
+        <d name="xxx-zhangweifilesB25" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesB23">
+      <mov name="sadgagasdgfas" dr="14" to="0" drTW="14" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="660.2" y="499.45" cocos2d_x="660.2" cocos2d_y="499.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sdfasgagasfd" dr="87" to="0" drTW="87" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="36" dI="-1" />
+          <f x="13.45" y="-2.15" cocos2d_x="-200.9" cocos2d_y="-158.15" kX="0" kY="0" cX="0.33" cY="0.33" fst="0" pX="659.25" pY="479.85" z="0" dI="0" twE="0.58" dr="8" />
+          <f x="-4.15" y="-1.35" cocos2d_x="-663.35" cocos2d_y="-481.3" kX="0" kY="0" cX="1" cY="1" fst="8" pX="659.2" pY="479.95" z="0" dI="0" dr="32" />
+          <f x="-4.15" y="-1.35" cocos2d_x="-663.35" cocos2d_y="-481.3" kX="0" kY="0" cX="1" cY="1" fst="12" pX="659.2" pY="479.95" z="0" dI="0" twE="-1" dr="10" />
+          <f x="-4.15" y="-1.35" cocos2d_x="-56.35" cocos2d_y="-39.2" kX="0" kY="0" cX="0.08" cY="0.08" fst="8" pX="659.3" pY="479.15" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="小龙女技能大招底层(2)" width="1024" height="1024">
+    <SubTexture name="xxx-zhangweifilesB25" width="401" height="143" x="396" y="151" cocos2d_pX="197.00" cocos2d_pY="71.00" />
+    <SubTexture name="xxx-zhangweifilesB10" width="395" height="141" x="0" y="302" cocos2d_pX="192.00" cocos2d_pY="70.00" />
+    <SubTexture name="xxx-zhangweifilesB22" width="385" height="139" x="0" y="444" cocos2d_pX="187.00" cocos2d_pY="69.00" />
+    <SubTexture name="xxx-zhangweifilesB21" width="388" height="149" x="396" y="295" cocos2d_pX="190.00" cocos2d_pY="74.00" />
+    <SubTexture name="xxx-zhangweifilesB20" width="395" height="150" x="0" y="151" cocos2d_pX="191.00" cocos2d_pY="75.00" />
+    <SubTexture name="xxx-zhangweifilesB19" width="407" height="150" x="0" y="0" cocos2d_pX="203.00" cocos2d_pY="75.00" />
+    <SubTexture name="xxx-zhangweifilesB18" width="405" height="150" x="408" y="0" cocos2d_pX="201.00" cocos2d_pY="75.00" />
+  </TextureAtlas>
+</skeleton>

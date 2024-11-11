@@ -1,0 +1,129 @@
+<skeleton name="虚竹2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="93.9" y="-108.1" kX="0" kY="0" cX="8.14" cY="4.72" pX="0" pY="0" z="0">
+        <d name="jn_mrf_f-fx" />
+      </b>
+      <b name="图层 3 复制" x="-60.4" y="-106.1" kX="0" kY="0" cX="2.68" cY="3.14" pX="0" pY="0" z="1">
+        <d name="jn_mrf_f-fx" />
+      </b>
+      <b name="图层 1" x="179.2" y="-129.45" kX="0" kY="0" cX="0.45" cY="0.4" pX="0" pY="0" z="2">
+        <d name="jn_mrf_f-fw" />
+      </b>
+      <b name="图层 1 复制" x="179.2" y="-129.45" kX="0" kY="0" cX="0.86" cY="0.76" pX="0" pY="0" z="3">
+        <d name="jn_mrf_f-fw" />
+      </b>
+      <b name="图层 5" x="371.5" y="-135.45" kX="-1" kY="-1" cX="1.39" cY="1.39" pX="0" pY="0" z="4">
+        <d name="jn_mrf_f/xz" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="jn_mrf_f/xz" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="35" pY="120" z="0">
+        <d name="jn_mrf_f-xz_xz_00000.png" />
+        <d name="jn_mrf_f-xz_xz_00001.png" />
+        <d name="jn_mrf_f-xz_xz_00002.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="jn_mrf_f/xz">
+      <mov name="b" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="-35" cocos2d_y="-120" kX="0" kY="0" cX="1" cY="1" pX="35" pY="120" z="0" dI="0" dr="2" />
+          <f x="0" y="0" cocos2d_x="-35" cocos2d_y="-120" kX="0" kY="0" cX="1" cY="1" pX="35" pY="120" z="0" dI="1" dr="2" />
+          <f x="0" y="0" cocos2d_x="-35" cocos2d_y="-120" kX="0" kY="0" cX="1" cY="1" pX="35" pY="120" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="a" dr="32" to="0" drTW="32" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="93.9" y="-108.1" cocos2d_x="93.9" cocos2d_y="-108.1" kX="0" kY="0" cX="8.14" cY="4.72" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.1" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="12" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="104" y="-108" cocos2d_x="104" cocos2d_y="-108" kX="0" kY="0" cX="8.63" cY="4.8" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="12" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="156.75" y="-108" cocos2d_x="156.75" cocos2d_y="-108" kX="0" kY="0" cX="9.61" cY="4.95" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.73" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="12" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="181.25" y="-107.95" cocos2d_x="181.25" cocos2d_y="-107.95" kX="0" kY="0" cX="9.78" cY="5.18" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="11">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.3" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="12" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="225.7" y="-108.1" cocos2d_x="225.7" cocos2d_y="-108.1" kX="0" kY="0" cX="10.09" cY="5.59" pX="0" pY="0" z="0" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="12" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 3 复制" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-60.4" y="-106.1" cocos2d_x="-60.4" cocos2d_y="-106.1" kX="0" kY="0" cX="2.68" cY="3.14" pX="0" pY="0" z="1" dI="0" twE="0" dr="8">
+            <fl name="blurFilter" enabled="true" angle="45" blurX="10" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="1045.55" y="-106.1" cocos2d_x="1045.55" cocos2d_y="-106.1" kX="0" kY="0" cX="4.65" cY="3.91" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="blurFilter" enabled="true" angle="45" blurX="10" blurY="0" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="179.2" y="-129.45" cocos2d_x="179.2" cocos2d_y="-129.45" kX="0" kY="0" cX="0.45" cY="0.4" pX="0" pY="0" z="2" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.32" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.2" y="-129.45" cocos2d_x="179.2" cocos2d_y="-129.45" kX="0" kY="0" cX="0.85" cY="0.74" pX="0" pY="0" z="2" dI="0" twE="0" dr="4" />
+          <f x="179.2" y="-129.45" cocos2d_x="179.2" cocos2d_y="-129.45" kX="0" kY="0" cX="0.95" cY="0.83" pX="0" pY="0" z="2" dI="0" twE="0" dr="3" />
+          <f x="179.2" y="-129.45" cocos2d_x="179.2" cocos2d_y="-129.45" kX="0" kY="0" cX="0.97" cY="0.85" pX="0" pY="0" z="2" dI="0" twE="0" dr="6">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.25" y="-129.45" cocos2d_x="179.25" cocos2d_y="-129.45" kX="0" kY="0" cX="1.02" cY="0.9" pX="0" pY="0" z="2" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 1 复制" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="179.2" y="-129.45" cocos2d_x="179.2" cocos2d_y="-129.45" kX="0" kY="0" cX="0.86" cY="0.76" pX="0" pY="0" z="3" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.2" y="-129.45" cocos2d_x="179.2" cocos2d_y="-129.45" kX="0" kY="0" cX="1.38" cY="1.21" pX="0" pY="0" z="3" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="189" g="189" b="189" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.2" y="-129.5" cocos2d_x="179.2" cocos2d_y="-129.5" kX="0" kY="0" cX="1.58" cY="1.39" pX="0" pY="0" z="3" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.8" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.2" y="-129.5" cocos2d_x="179.2" cocos2d_y="-129.5" kX="0" kY="0" cX="1.85" cY="1.63" pX="0" pY="0" z="3" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.73" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.2" y="-129.4" cocos2d_x="179.2" cocos2d_y="-129.4" kX="0" kY="0" cX="1.91" cY="1.68" pX="0" pY="0" z="3" dI="0" twE="0" dr="14">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="179.2" y="-129.4" cocos2d_x="179.2" cocos2d_y="-129.4" kX="0" kY="0" cX="2.02" cY="1.78" pX="0" pY="0" z="3" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="371.5" y="-135.45" cocos2d_x="371.5" cocos2d_y="-135.45" kX="-1" kY="-1" cX="1.39" cY="1.39" pX="0" pY="0" z="4" dI="0" dr="2" />
+          <f x="371.5" y="-135.45" cocos2d_x="371.5" cocos2d_y="-135.45" kX="-0.84" kY="-0.84" cX="2.37" cY="2.37" pX="0" pY="0" z="4" dI="0" twE="0" dr="7" />
+          <f x="371.5" y="-135.45" cocos2d_x="371.5" cocos2d_y="-135.45" kX="-1" kY="-1" cX="3.42" cY="3.42" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.07" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="12" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="虚竹2" width="512" height="512">
+    <SubTexture name="jn_mrf_f-xz_xz_00002.png" width="61" height="205" x="113" y="122" cocos2d_pX="-7.00" cocos2d_pY="-12.00" />
+    <SubTexture name="jn_mrf_f-xz_xz_00001.png" width="58" height="218" x="0" y="122" cocos2d_pX="-7.00" cocos2d_pY="-12.00" />
+    <SubTexture name="jn_mrf_f-xz_xz_00000.png" width="53" height="222" x="59" y="122" cocos2d_pX="-7.00" cocos2d_pY="-11.00" />
+    <SubTexture name="jn_mrf_f-fw" width="204" height="198" x="288" y="0" cocos2d_pX="102.00" cocos2d_pY="99.00" />
+    <SubTexture name="jn_mrf_f-fx" width="287" height="121" x="0" y="0" cocos2d_pX="143.50" cocos2d_pY="60.50" />
+  </TextureAtlas>
+</skeleton>

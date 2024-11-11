@@ -1,0 +1,87 @@
+<skeleton name="闯阵宝箱" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="宝箱睁开" x="0.5" y="0.45" kX="0" kY="0" cX="0.95" cY="0.95" pX="0" pY="0" z="0">
+        <d name="xxx-siturenjiefilesB20" />
+        <d name="xxx-siturenjiefilesB21" />
+        <d name="xxx-siturenjiefilesB22" />
+      </b>
+      <b name="宝箱" x="0.5" y="-49.55" kX="0" kY="0" cX="1.45" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/siturenjiefilesB24" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/siturenjiefilesB24" isLoop="loop" startFrame="1">
+      <b name="图层 2 复制" x="-4" y="-128.95" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0">
+        <d name="xxx-siturenjiefilesB10" />
+        <d name="xxx-siturenjiefilesB07" />
+        <d name="xxx-siturenjiefilesB09" />
+        <d name="xxx-siturenjiefilesB08" />
+        <d name="xxx-siturenjiefilesB15" />
+        <d name="xxx-siturenjiefilesB14" />
+        <d name="xxx-siturenjiefilesB13" />
+        <d name="xxx-siturenjiefilesB12" />
+        <d name="xxx-siturenjiefilesB02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/siturenjiefilesB24">
+      <mov name="gfhfg" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 2 复制" sc="1" dl="0">
+          <f x="-4" y="-128.95" cocos2d_x="-4" cocos2d_y="-128.95" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-4.6" y="10.45" cocos2d_x="-4.6" cocos2d_y="10.45" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-30.25" y="97.15" cocos2d_x="-30.25" cocos2d_y="97.15" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-26.8" y="114.15" cocos2d_x="-26.8" cocos2d_y="114.15" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-13" y="100.55" cocos2d_x="-13" cocos2d_y="100.55" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="-10.3" y="98.85" cocos2d_x="-10.3" cocos2d_y="98.85" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="10.7" y="107.35" cocos2d_x="10.7" cocos2d_y="107.35" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="-2.2" y="96.3" cocos2d_x="-2.2" cocos2d_y="96.3" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="-8.05" y="107.35" cocos2d_x="-8.05" cocos2d_y="107.35" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="8" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gdsghr" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="宝箱睁开" sc="1" dl="0">
+          <f x="0.5" y="0.45" cocos2d_x="0.5" cocos2d_y="0.45" kX="0" kY="0" cX="0.95" cY="0.95" fst="0" pX="0" pY="0" z="0" dI="0" twE="-1" dr="4" />
+          <f x="0.5" y="-25.55" cocos2d_x="0.5" cocos2d_y="-25.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" twE="0" dr="1" />
+          <f x="0.5" y="0.45" cocos2d_x="0.5" cocos2d_y="0.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" twE="-0.6" dr="1" />
+          <f x="0.5" y="0.45" cocos2d_x="0.5" cocos2d_y="0.45" kX="2.93" kY="2.93" cX="1.05" cY="1.05" fst="0" pX="0" pY="0" z="0" dI="2" twE="0" dr="2">
+            <colorTransform a="0" r="22" g="22" b="0" aM="1" rM="0.91" gM="0.91" bM="0.91" />
+          </f>
+          <f x="0.5" y="0.45" cocos2d_x="0.5" cocos2d_y="0.45" kX="-2.86" kY="-2.86" cX="1.14" cY="1.14" fst="0" pX="0" pY="0" z="0" dI="2" twE="0" dr="2">
+            <colorTransform a="0" r="66" g="66" b="0" aM="1" rM="0.74" gM="0.74" bM="0.74" />
+          </f>
+          <f x="0.5" y="0.45" cocos2d_x="0.5" cocos2d_y="0.45" kX="0" kY="0" cX="1.23" cY="1.23" fst="0" pX="0" pY="0" z="0" dI="2" twE="0" dr="2">
+            <colorTransform a="0" r="110" g="110" b="0" aM="1" rM="0.57" gM="0.57" bM="0.57" />
+          </f>
+          <f x="0.5" y="0.45" cocos2d_x="0.5" cocos2d_y="0.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="8" />
+        </b>
+        <b name="宝箱" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="0.5" y="-49.55" cocos2d_x="0.5" cocos2d_y="-49.55" kX="0" kY="0" cX="1.45" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="2" />
+          <f x="0.5" y="-49.55" cocos2d_x="0.5" cocos2d_y="-49.55" kX="0" kY="0" cX="1.45" cY="1" fst="2" pX="0" pY="0" z="1" dI="0" twE="0" dr="7" />
+          <f x="0.5" y="-49.55" cocos2d_x="0.5" cocos2d_y="-49.55" kX="0" kY="0" cX="1.45" cY="1" fst="12" pX="0" pY="0" z="1" dI="0" twE="0" dr="4" />
+          <f x="0.5" y="-49.55" cocos2d_x="0.5" cocos2d_y="-49.55" kX="0" kY="0" cX="1.45" cY="1" fst="14" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="闯阵宝箱" width="256" height="512">
+    <SubTexture name="xxx-siturenjiefilesB02" width="40" height="83" x="211" y="83" cocos2d_pX="18.85" cocos2d_pY="75.45" />
+    <SubTexture name="xxx-siturenjiefilesB12" width="40" height="82" x="143" y="137" cocos2d_pX="21.15" cocos2d_pY="73.20" />
+    <SubTexture name="xxx-siturenjiefilesB13" width="40" height="82" x="184" y="167" cocos2d_pX="24.50" cocos2d_pY="76.20" />
+    <SubTexture name="xxx-siturenjiefilesB14" width="42" height="82" x="211" y="0" cocos2d_pX="19.35" cocos2d_pY="74.30" />
+    <SubTexture name="xxx-siturenjiefilesB15" width="40" height="83" x="102" y="137" cocos2d_pX="17.20" cocos2d_pY="74.30" />
+    <SubTexture name="xxx-siturenjiefilesB08" width="39" height="82" x="0" y="217" cocos2d_pX="12.60" cocos2d_pY="76.95" />
+    <SubTexture name="xxx-siturenjiefilesB09" width="36" height="80" x="40" y="217" cocos2d_pX="10.60" cocos2d_pY="73.55" />
+    <SubTexture name="xxx-siturenjiefilesB07" width="31" height="61" x="143" y="220" cocos2d_pX="14.85" cocos2d_pY="34.45" />
+    <SubTexture name="xxx-siturenjiefilesB10" width="28" height="35" x="225" y="167" cocos2d_pX="13.70" cocos2d_pY="-25.30" />
+    <SubTexture name="xxx-siturenjiefilesB22" width="119" height="121" x="0" y="0" cocos2d_pX="59.00" cocos2d_pY="60.50" />
+    <SubTexture name="xxx-siturenjiefilesB21" width="90" height="136" x="120" y="0" cocos2d_pX="49.00" cocos2d_pY="50.50" />
+    <SubTexture name="xxx-siturenjiefilesB20" width="101" height="94" x="0" y="122" cocos2d_pX="55.00" cocos2d_pY="36.50" />
+  </TextureAtlas>
+</skeleton>

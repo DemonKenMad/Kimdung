@@ -1,0 +1,57 @@
+<skeleton name="阿朱飞行特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="-31.95" y="10.7" kX="36.5" kY="1.28" cX="1.04" cY="0.47" pX="81.65" pY="120.5" z="0">
+        <d name="dsahj-bujian 12" />
+      </b>
+      <b name="图层 7 复制" x="-82.3" y="4.85" kX="44.78" kY="1.35" cX="1.25" cY="0.47" pX="88.65" pY="120.55" z="1">
+        <d name="dsahj-bujian 12" />
+      </b>
+      <b name="图层 7 复制0" x="-121.45" y="-34.45" kX="-68.78" kY="1.26" cX="1.4" cY="0.79" pX="95.6" pY="118.25" z="2">
+        <d name="dsahj-bujian 12" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sadsa" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f x="-31.95" y="10.7" cocos2d_x="-83.1" cocos2d_y="-36.65" kX="36.5" kY="1.28" cX="1.04" cY="0.47" pX="81.65" pY="120.5" z="0" dI="0" blend="add" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-31.85" y="10.7" cocos2d_x="-83.25" cocos2d_y="-36.65" kX="36.38" kY="1.26" cX="1.04" cY="0.47" pX="81.8" pY="120.6" z="0" dI="0" blend="add" twE="0" dr="4" />
+          <f x="-31.95" y="10.7" cocos2d_x="-83.25" cocos2d_y="-36.6" kX="36.37" kY="1.26" cX="1.04" cY="0.47" pX="81.65" pY="120.6" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="-31.95" y="10.7" cocos2d_x="-83.1" cocos2d_y="-36.65" kX="36.5" kY="1.28" cX="1.04" cY="0.47" pX="81.65" pY="120.5" z="0" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 7 复制" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-82.3" y="4.85" cocos2d_x="-153.1" cocos2d_y="-38.3" kX="44.78" kY="1.35" cX="1.25" cY="0.47" pX="88.65" pY="120.55" z="1" dI="0" blend="add" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-79.55" y="4.85" cocos2d_x="-150.35" cocos2d_y="-38.1" kX="44.85" kY="1.27" cX="1.25" cY="0.47" pX="88.65" pY="120.7" z="1" dI="0" blend="add" twE="0" dr="5" />
+          <f x="-72.75" y="4.85" cocos2d_x="-143.55" cocos2d_y="-38.05" kX="44.86" kY="1.27" cX="1.25" cY="0.47" pX="88.7" pY="120.7" z="1" dI="0" blend="add" twE="0" dr="2" />
+          <f x="-70.1" y="4.85" cocos2d_x="-140.9" cocos2d_y="-38.05" kX="44.86" kY="1.27" cX="1.25" cY="0.47" pX="88.65" pY="120.75" z="1" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 7 复制0" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-121.45" y="-34.45" cocos2d_x="-342.65" cocos2d_y="-71.4" kX="-68.78" kY="1.26" cX="1.4" cY="0.79" pX="95.6" pY="118.25" z="2" dI="0" blend="add" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-121.45" y="-34.45" cocos2d_x="-342.65" cocos2d_y="-71.4" kX="-68.78" kY="1.26" cX="1.4" cY="0.79" pX="95.6" pY="118.25" z="2" dI="0" blend="add" twE="0" dr="3" />
+          <f x="-121.45" y="-34.45" cocos2d_x="-342.65" cocos2d_y="-71.4" kX="-68.78" kY="1.26" cX="1.4" cY="0.79" pX="95.6" pY="118.25" z="2" dI="0" blend="add" twE="0" dr="2" />
+          <f x="-121.45" y="-34.45" cocos2d_x="-342.65" cocos2d_y="-71.4" kX="-68.78" kY="1.26" cX="1.4" cY="0.79" pX="95.6" pY="118.25" z="2" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阿朱飞行特效" width="512" height="512">
+    <SubTexture name="dsahj-bujian 12" width="310" height="322" x="0" y="0" cocos2d_pX="72.95" cocos2d_pY="39.55" />
+  </TextureAtlas>
+</skeleton>

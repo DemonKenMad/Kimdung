@@ -1,0 +1,26 @@
+<skeleton name="管家普攻特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-92.2" y="-89.95" kX="0" kY="0" cX="2.7" cY="2.28" pX="0" pY="0" z="0">
+        <d name="xzX-z"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsad" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-92.2" y="-89.95" cocos2d_x="-92.2" cocos2d_y="-89.95" kX="0" kY="0" cX="2.7" cY="2.28" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2"/>
+          <f x="37.8" y="-89.95" cocos2d_x="37.8" cocos2d_y="-89.95" kX="0" kY="0" cX="1.95" cY="0.8" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1"/>
+          <f x="132.8" y="-89.95" cocos2d_x="132.8" cocos2d_y="-89.95" kX="0" kY="0" cX="1.85" cY="0.64" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1"/>
+          <f x="164.8" y="-89.95" cocos2d_x="164.8" cocos2d_y="-89.95" kX="0" kY="0" cX="1.85" cY="0.32" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1"/>
+          <f x="164.8" y="-89.95" cocos2d_x="164.8" cocos2d_y="-89.95" kX="0" kY="0" cX="1.85" cY="0.32" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="管家普攻特效" width="256" height="64">
+    <SubTexture name="xzX-z" width="212" height="50" x="0" y="0" cocos2d_pX="106" cocos2d_pY="25"/>
+  </TextureAtlas>
+</skeleton>

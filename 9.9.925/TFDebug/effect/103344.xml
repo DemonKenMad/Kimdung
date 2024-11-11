@@ -1,0 +1,68 @@
+<skeleton name="主动技能BUFF上层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="元件 14" x="-5.15" y="-112" kX="150" kY="144.18" cX="1.03" cY="1.07" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifiltacerB12" isArmature="1" />
+      </b>
+      <b name="元件 140" x="-18.5" y="-59.5" kX="0" kY="0" cX="1.29" cY="1.29" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifiltacerB12" isArmature="1" />
+      </b>
+      <b name="元件 141" x="-21.15" y="-66.9" kX="-60" kY="-55.25" cX="1.54" cY="1.29" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweifiltacerB12" isArmature="1" />
+      </b>
+      <b name="元件 142" x="-3.5" y="-35.05" kX="5.12" kY="-152.97" cX="1.39" cY="1.09" pX="0" pY="0" z="3">
+        <d name="xxx/zhangweifiltacerB12" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB12" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="8" y="11.75" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB06" />
+        <d name="xxx-zhangweifiltacerB05" />
+        <d name="xxx-zhangweifiltacerB04" />
+        <d name="xxx-zhangweifiltacerB03" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifiltacerB12">
+      <mov name="fdsafsadghasdg" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="8" y="11.75" cocos2d_x="8" cocos2d_y="11.75" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="3.55" y="5.1" cocos2d_x="3.55" cocos2d_y="5.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="0.2" y="5.95" cocos2d_x="0.2" cocos2d_y="5.95" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-24.3" y="-3.4" cocos2d_x="-24.3" cocos2d_y="-3.4" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsafsadhsfhga" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="元件 14" sc="1" dl="0">
+          <f x="-5.15" y="-112" cocos2d_x="-5.15" cocos2d_y="-112" kX="150" kY="144.18" cX="1.03" cY="1.07" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="-7.8" y="-110.1" cocos2d_x="-7.8" cocos2d_y="-110.1" kX="150" kY="144.18" cX="1.7" cY="1.07" fst="7" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="13" dI="-1" />
+        </b>
+        <b name="元件 140" sc="1" dl="0">
+          <f x="-18.5" y="-59.5" cocos2d_x="-18.5" cocos2d_y="-59.5" kX="0" kY="0" cX="1.29" cY="1.29" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="7" />
+          <f x="-39.6" y="-72.05" cocos2d_x="-39.6" cocos2d_y="-72.05" kX="0" kY="0" cX="1.29" cY="1.29" fst="7" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="13" dI="-1" />
+        </b>
+        <b name="元件 141" sc="1" dl="0">
+          <f x="-21.15" y="-66.9" cocos2d_x="-21.15" cocos2d_y="-66.9" kX="-60" kY="-55.25" cX="1.54" cY="1.29" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="7" />
+          <f x="-19.8" y="-67.85" cocos2d_x="-19.8" cocos2d_y="-67.85" kX="-60" kY="-51.4" cX="1.87" cY="1.29" fst="7" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f dr="13" dI="-1" />
+        </b>
+        <b name="元件 142" sc="1" dl="0">
+          <f x="-3.5" y="-35.05" cocos2d_x="-3.5" cocos2d_y="-35.05" kX="5.12" kY="-152.97" cX="1.39" cY="1.09" fst="0" pX="0" pY="0" z="3" dI="0" twE="0" dr="7" />
+          <f x="-5.5" y="-35.3" cocos2d_x="-5.5" cocos2d_y="-35.3" kX="5.12" kY="-157.62" cX="1.81" cY="1.09" fst="7" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f dr="13" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="主动技能BUFF上层" width="128" height="128">
+    <SubTexture name="xxx-zhangweifiltacerB03" width="27" height="33" x="0" y="47" cocos2d_pX="18.50" cocos2d_pY="19.50" />
+    <SubTexture name="xxx-zhangweifiltacerB04" width="53" height="45" x="62" y="43" cocos2d_pX="30.25" cocos2d_pY="23.75" />
+    <SubTexture name="xxx-zhangweifiltacerB05" width="61" height="46" x="0" y="0" cocos2d_pX="31.75" cocos2d_pY="23.75" />
+    <SubTexture name="xxx-zhangweifiltacerB06" width="60" height="42" x="62" y="0" cocos2d_pX="30.75" cocos2d_pY="20.75" />
+  </TextureAtlas>
+</skeleton>

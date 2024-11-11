@@ -1,0 +1,63 @@
+<skeleton name="捆绑受击B" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-13.6" y="-38.05" kX="-65.73" kY="-65.73" cX="1.11" cY="1.11" pX="-67.4" pY="-117.65" z="0">
+        <d name="xxx/zhangweifilesB03" isArmature="1" />
+      </b>
+      <b name="图层 1" x="60.35" y="7.9" kX="0" kY="-15.76" cX="1.12" cY="0.85" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesB03" isArmature="1" />
+      </b>
+      <b name="图层 3" x="-22" y="-25.4" kX="34.82" kY="34.82" cX="1.01" cY="0.85" pX="-2.8" pY="-151.15" z="2">
+        <d name="xxx/zhangweifilesB03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB03" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="7.15" y="-155.45" kX="0" kY="0" cX="1.77" cY="1.38" pX="105.5" pY="91" z="0">
+        <d name="xxx-zhangweifilesB04" />
+        <d name="xxx-zhangweifilesB05" />
+        <d name="xxx-zhangweifilesB06" />
+        <d name="xxx-zhangweifilesB07" />
+        <d name="xxx-zhangweifilesB08" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesB03">
+      <mov name="fdsagasgda" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="7.15" y="-155.45" cocos2d_x="-180.1" cocos2d_y="-280.85" kX="0" kY="0" cX="1.77" cY="1.38" pX="105.5" pY="91" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="7.15" y="-155.45" cocos2d_x="-180.1" cocos2d_y="-280.85" kX="0" kY="0" cX="1.77" cY="1.38" pX="105.5" pY="91" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="7.15" y="-155.4" cocos2d_x="-271.7" cocos2d_y="-342.15" kX="0" kY="0" cX="2.64" cY="2.05" pX="105.5" pY="91" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="7.15" y="-155.45" cocos2d_x="-180.1" cocos2d_y="-280.85" kX="0" kY="0" cX="1.77" cY="1.38" pX="105.5" pY="91" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="7.15" y="-155.45" cocos2d_x="-180.1" cocos2d_y="-280.85" kX="0" kY="0" cX="1.77" cY="1.38" pX="105.5" pY="91" z="0" dI="4" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fasdgasgd" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-13.6" y="-38.05" cocos2d_x="136.3" cocos2d_y="-52.55" kX="-65.73" kY="-65.73" cX="1.11" cY="1.11" fst="0" pX="-67.4" pY="-117.65" z="0" dI="0" dr="5" />
+          <f x="6.4" y="-8.05" cocos2d_x="110.55" cocos2d_y="-18.1" kX="-65.73" kY="-65.73" cX="0.77" cY="0.77" fst="0" pX="-67.35" pY="-117.7" z="0" dI="0" dr="5" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="60.35" y="7.9" cocos2d_x="60.35" cocos2d_y="7.9" kX="0" kY="-15.76" cX="1.12" cY="0.85" fst="0" pX="0" pY="0" z="1" dI="0" dr="5" />
+          <f x="29.35" y="46.9" cocos2d_x="29.35" cocos2d_y="46.9" kX="0" kY="0" cX="1.08" cY="1.08" fst="0" pX="0" pY="0" z="1" dI="0" dr="5" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-22" y="-25.4" cocos2d_x="-92.8" cocos2d_y="81.35" kX="34.82" kY="34.82" cX="1.01" cY="0.85" fst="0" pX="-2.8" pY="-151.15" z="2" dI="0" dr="5" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="捆绑受击B" width="512" height="256">
+    <SubTexture name="xxx-zhangweifilesB08" width="118" height="101" x="0" y="113" cocos2d_pX="-34.00" cocos2d_pY="-42.00" />
+    <SubTexture name="xxx-zhangweifilesB07" width="156" height="113" x="175" y="0" cocos2d_pX="-25.00" cocos2d_pY="-33.00" />
+    <SubTexture name="xxx-zhangweifilesB06" width="174" height="112" x="0" y="0" cocos2d_pX="-24.00" cocos2d_pY="-31.00" />
+    <SubTexture name="xxx-zhangweifilesB05" width="119" height="133" x="332" y="0" cocos2d_pX="-31.00" cocos2d_pY="-28.00" />
+    <SubTexture name="xxx-zhangweifilesB04" width="118" height="97" x="119" y="114" cocos2d_pX="-34.00" cocos2d_pY="-45.00" />
+  </TextureAtlas>
+</skeleton>

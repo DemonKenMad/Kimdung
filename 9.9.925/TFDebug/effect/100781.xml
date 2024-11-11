@@ -1,0 +1,115 @@
+<skeleton name="男防御（张无忌）普攻FX_陈文明_0712" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 23" x="180.1" y="-86" kX="0" kY="0" cX="0.55" cY="0.89" pX="-69.6" pY="-65.05" z="0">
+        <d name="xxx-putonggongji" />
+        <d name="xxx/qilang" isArmature="1" />
+      </b>
+      <b name="图层 22" x="224.2" y="-82.7" kX="13.66" kY="13.66" cX="1" cY="1" pX="36.25" pY="-16.5" z="1">
+        <d name="xxx/qilang1" isArmature="1" />
+        <d name="xxx-DG1" />
+      </b>
+      <b name="图层 21" x="-26.65" y="-8.65" kX="0" kY="0" cX="0.79" cY="0.79" pX="-0.5" pY="-1.05" z="2">
+        <d name="xxx/yanchen" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/qilang" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="330.8" y="304.6" kX="0" kY="0" cX="3.35" cY="3.35" pX="20.5" pY="14.5" z="0">
+        <d name="xxx-位图 7" />
+        <d name="xxx-位图 8" />
+        <d name="xxx-位图 9" />
+        <d name="xxx-位图 10" />
+        <d name="xxx-位图 11" />
+      </b>
+    </armature>
+    <armature name="xxx/qilang1" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="22.6" y="-7.65" kX="0" kY="0" cX="2" cY="2" pX="26" pY="33" z="0">
+        <d name="xxx-位图 3 副本" />
+        <d name="xxx-位图 4 副本" />
+        <d name="xxx-位图 5 副本" />
+        <d name="xxx-位图 6" />
+      </b>
+    </armature>
+    <armature name="xxx/yanchen" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="15.5" y="-0.2" kX="0" kY="0" cX="2" cY="2" pX="91.5" pY="14.5" z="0">
+        <d name="xxx-位图 13" />
+        <d name="xxx-位图 14" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/qilang">
+      <mov name="vv" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="330.8" y="304.6" cocos2d_x="262.15" cocos2d_y="256.05" kX="0" kY="0" cX="3.35" cY="3.35" pX="20.5" pY="14.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="227.95" y="225.4" cocos2d_x="55.45" cocos2d_y="104.8" kX="0" kY="0" cX="3.35" cY="3.35" pX="51.5" pY="36" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="224.95" y="172.8" cocos2d_x="50.75" cocos2d_y="-1.4" kX="0" kY="0" cX="3.35" cY="3.35" pX="52" pY="52" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="224.95" y="171.1" cocos2d_x="50.75" cocos2d_y="-1.4" kX="0" kY="0" cX="3.35" cY="3.35" pX="52" pY="51.5" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="198" y="178.85" cocos2d_x="43.9" cocos2d_y="14.7" kX="0" kY="0" cX="3.35" cY="3.35" pX="46" pY="49" z="0" dI="4" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/qilang1">
+      <mov name="ewv" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="22.6" y="-7.65" cocos2d_x="-29.4" cocos2d_y="-73.65" kX="0" kY="0" cX="2" cY="2" pX="26" pY="33" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="29.7" y="-7.65" cocos2d_x="-34.3" cocos2d_y="-94.65" kX="0" kY="0" cX="2" cY="2" pX="32" pY="43.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="31.6" y="-12.65" cocos2d_x="-38.4" cocos2d_y="-104.65" kX="0" kY="0" cX="2" cY="2" pX="35" pY="46" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="36.7" y="-16.65" cocos2d_x="-39.3" cocos2d_y="-111.65" kX="0" kY="0" cX="2" cY="2" pX="38" pY="47.5" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/yanchen">
+      <mov name="vre" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="15.5" y="-0.2" cocos2d_x="-167.5" cocos2d_y="-29.2" kX="0" kY="0" cX="2" cY="2" pX="91.5" pY="14.5" z="0" dI="0" dr="2" />
+          <f x="118.9" y="7.6" cocos2d_x="-39.1" cocos2d_y="-15.4" kX="0" kY="0" cX="2" cY="2" pX="79" pY="11.5" z="0" dI="1" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="ptgj" dr="35" to="0" drTW="35" lp="0" twE="NaN">
+        <b name="图层 23" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="180.1" y="-86" cocos2d_x="218.15" cocos2d_y="-28.1" kX="0" kY="0" cX="0.55" cY="0.89" pX="-69.6" pY="-65.05" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="180.25" y="-86" cocos2d_x="240.45" cocos2d_y="-21.95" kX="0" kY="0" cX="0.87" cY="0.99" pX="-69.5" pY="-65" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f dr="5" dI="-1" />
+          <f x="141.35" y="-119.6" cocos2d_x="315.35" cocos2d_y="-293.6" kX="0" kY="180" cX="0.87" cY="0.87" pX="200" pY="200" z="0" dI="1" dr="5" />
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 22" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="224.2" y="-82.7" cocos2d_x="185.05" cocos2d_y="-75.25" kX="13.66" kY="13.66" cX="1" cY="1" pX="36.25" pY="-16.5" z="1" dI="0" dr="4" />
+          <f dr="6" dI="-1" />
+          <f x="162.9" y="-97.85" cocos2d_x="159.8" cocos2d_y="-97.9" kX="-3.21" kY="1.39" cX="1.34" cY="1.29" pX="2.3" pY="0" z="1" dI="1" twE="0" dr="1" />
+          <f x="303.95" y="-97.85" cocos2d_x="300.85" cocos2d_y="-97.9" kX="-3.21" kY="1.39" cX="1.34" cY="1.29" pX="2.35" pY="0" z="1" dI="1" twE="0" dr="1" />
+          <f x="323.85" y="-97.85" cocos2d_x="320.75" cocos2d_y="-97.9" kX="-3.05" kY="1.28" cX="1.34" cY="1.29" pX="2.3" pY="0" z="1" dI="1" twE="0" dr="2" />
+          <f x="363.95" y="-97.85" cocos2d_x="360.85" cocos2d_y="-97.9" kX="-3.21" kY="1.39" cX="1.34" cY="1.29" pX="2.3" pY="0" z="1" dI="1" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="图层 21" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="-26.65" y="-8.65" cocos2d_x="-26.25" cocos2d_y="-7.8" kX="0" kY="0" cX="0.79" cY="0.79" pX="-0.5" pY="-1.05" z="2" dI="0" dr="4" />
+          <f dr="16" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="男防御（张无忌）普攻FX_陈文明_0712" width="512" height="512">
+    <SubTexture name="xxx-位图 14" width="158" height="23" x="0" y="277" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 13" width="183" height="29" x="0" y="247" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 6" width="76" height="95" x="317" y="131" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 5 副本" width="70" height="92" x="228" y="227" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 4 副本" width="64" height="87" x="299" y="227" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 3 副本" width="52" height="66" x="364" y="264" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 11" width="88" height="95" x="228" y="131" cocos2d_pX="-1.00" cocos2d_pY="-2.00" />
+    <SubTexture name="xxx-位图 10" width="92" height="96" x="409" y="96" cocos2d_pX="-2.00" cocos2d_pY="-6.00" />
+    <SubTexture name="xxx-位图 9" width="100" height="95" x="409" y="0" cocos2d_pX="-2.00" cocos2d_pY="-7.00" />
+    <SubTexture name="xxx-位图 8" width="103" height="70" x="394" y="193" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="xxx-位图 7" width="40" height="27" x="184" y="247" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="xxx-DG1" width="227" height="246" x="0" y="0" cocos2d_pX="125.80" cocos2d_pY="152.25" />
+    <SubTexture name="xxx-putonggongji" width="180" height="130" x="228" y="0" cocos2d_pX="89.00" cocos2d_pY="130.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,28 @@
+<skeleton name="欧阳锋技能 受击 大场面底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="241.05" y="110.55" kX="0" kY="0" cX="1.79" cY="2.3" pX="0" pY="0" z="0">
+        <d name="xxx-btremyntyjku" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sadgagas" dr="46" to="0" drTW="46" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="241.05" y="110.55" cocos2d_x="241.05" cocos2d_y="110.55" kX="0" kY="0" cX="1.79" cY="2.3" fst="0" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="241.05" y="110.55" cocos2d_x="241.05" cocos2d_y="110.55" kX="0" kY="0" cX="1.79" cY="2.3" fst="0" pX="0" pY="0" z="0" dI="0" dr="38" />
+          <f x="241.05" y="110.55" cocos2d_x="241.05" cocos2d_y="110.55" kX="0" kY="0" cX="1.79" cY="2.3" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="241.05" y="110.55" cocos2d_x="241.05" cocos2d_y="110.55" kX="0" kY="0" cX="1.79" cY="2.3" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="欧阳锋技能 受击 大场面底层" width="1024" height="256">
+    <SubTexture name="xxx-btremyntyjku" width="641" height="138" x="0" y="0" cocos2d_pX="309.80" cocos2d_pY="64.00" />
+  </TextureAtlas>
+</skeleton>

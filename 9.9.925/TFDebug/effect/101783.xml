@@ -1,0 +1,59 @@
+<skeleton name="大理武士技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-27.3" y="-192.35" kX="-167.76" kY="12.24" cX="0.8" cY="0.59" pX="32.25" pY="130.7" z="0">
+        <d name="dsad-xz1" />
+      </b>
+      <b name="图层 5" x="220.45" y="-4" kX="0" kY="0" cX="0.22" cY="1" pX="0" pY="0" z="1">
+        <d name="dsad-q1" />
+      </b>
+      <b name="图层 4" x="213.5" y="-1" kX="0" kY="180" cX="1" cY="1.48" pX="17" pY="62.6" z="2">
+        <d name="dsad-yuanjian 1" />
+        <d name="dsad-DB0002.png" />
+        <d name="dsad-DB0003.png" />
+        <d name="dsad-DB0004.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsad" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-27.3" y="-192.35" cocos2d_x="-68.75" cocos2d_y="-122.9" kX="-167.76" kY="12.24" cX="0.8" cY="0.59" pX="32.25" pY="130.7" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="171.65" y="-131.35" cocos2d_x="53.95" cocos2d_y="-186.85" kX="-79" kY="86" cX="1.02" cY="0.9" pX="32.5" pY="130.6" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="203.65" y="-16.5" cocos2d_x="156.1" cocos2d_y="-127.85" kX="-40" kY="147" cX="1.1" cY="0.92" pX="32.2" pY="130.65" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="203.65" y="-13.5" cocos2d_x="200.95" cocos2d_y="-89.05" kX="-21" kY="160" cX="0.77" cY="0.55" pX="31.9" pY="130.75" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="209.6" y="-10.45" cocos2d_x="226.55" cocos2d_y="-55.7" kX="4" kY="176" cX="0.43" cY="0.34" pX="32.3" pY="130.6" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="220.45" y="-4" cocos2d_x="220.45" cocos2d_y="-4" kX="0" kY="0" cX="0.22" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f x="220.45" y="-4" cocos2d_x="220.45" cocos2d_y="-4" kX="0" kY="0" cX="0.63" cY="0.84" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f x="220.45" y="-4" cocos2d_x="220.45" cocos2d_y="-4" kX="0" kY="0" cX="1.03" cY="0.44" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="7" />
+          <f x="220.45" y="-4" cocos2d_x="220.45" cocos2d_y="-4" kX="0" kY="0" cX="1.32" cY="0.18" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="213.5" y="-1" cocos2d_x="230.5" cocos2d_y="-93.9" kX="0" kY="180" cX="1" cY="1.48" pX="17" pY="62.6" z="2" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="213.5" y="-1" cocos2d_x="230.5" cocos2d_y="-63.55" kX="0" kY="180" cX="1" cY="1" pX="17" pY="62.55" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="290.5" y="-59.15" cocos2d_x="76.5" cocos2d_y="-153.3" kX="0" kY="0" cX="1.71" cY="1.71" pX="125" pY="55" z="2" dI="1" dr="2" />
+          <f x="282.5" y="-62.15" cocos2d_x="68.5" cocos2d_y="-156.3" kX="0" kY="0" cX="1.71" cY="1.71" pX="125" pY="55" z="2" dI="2" dr="2" />
+          <f x="294.5" y="-62.15" cocos2d_x="80.5" cocos2d_y="-156.3" kX="0" kY="0" cX="1.71" cY="1.71" pX="125" pY="55" z="2" dI="3" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="大理武士技能" width="512" height="1024">
+    <SubTexture name="dsad-DB0004.png" width="222" height="27" x="204" y="265" cocos2d_pX="-11.00" cocos2d_pY="-68.00" />
+    <SubTexture name="dsad-DB0003.png" width="219" height="94" x="204" y="62" cocos2d_pX="-20.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsad-DB0002.png" width="202" height="107" x="204" y="157" cocos2d_pX="-23.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsad-yuanjian 1" width="329" height="179" x="0" y="389" cocos2d_pX="190.00" cocos2d_pY="84.15" />
+    <SubTexture name="dsad-q1" width="260" height="61" x="204" y="0" cocos2d_pX="130.00" cocos2d_pY="30.55" />
+    <SubTexture name="dsad-xz1" width="203" height="388" x="0" y="0" cocos2d_pX="79.35" cocos2d_pY="194.00" />
+  </TextureAtlas>
+</skeleton>

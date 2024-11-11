@@ -1,0 +1,33 @@
+<skeleton name="论剑峰场景动画 yun " frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="yun" x="0" y="-0.05" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/yun" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/yun" isLoop="loop" startFrame="1">
+      <b name="svgxcbergaw" x="0" y="-0.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-dshrtj" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/yun">
+      <mov name="shgjghk" dr="1000" to="0" drTW="1000" lp="1" twE="NaN">
+        <b name="svgxcbergaw" sc="1" dl="0">
+          <f x="0" y="-0.1" cocos2d_x="0" cocos2d_y="-0.1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1000" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="donghua1" dr="1000" to="0" drTW="1000" lp="0" twE="NaN">
+        <b name="yun" sc="1" dl="0">
+          <f x="0" y="-0.05" cocos2d_x="0" cocos2d_y="-0.05" kX="0" kY="180" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1000" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="论剑峰场景动画 yun " width="2048" height="1024">
+    <SubTexture name="xxx-dshrtj" width="1409" height="994" x="0" y="0" cocos2d_pX="696.60" cocos2d_pY="502.50" />
+  </TextureAtlas>
+</skeleton>

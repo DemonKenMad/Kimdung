@@ -1,0 +1,75 @@
+<skeleton name="张三丰skill01身上底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="1.95" y="14.05" kX="0" kY="0" cX="1" cY="0.54" pX="122.95" pY="194" z="0">
+        <d name="xxx/situjiefilesB178" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/situjiefilesB178" isLoop="loop" startFrame="3">
+      <b name="图层 1" x="108.85" y="183.35" kX="0" kY="0" cX="0.33" cY="0.15" pX="402.55" pY="410.7" z="0">
+        <d name="xxx/situjiefilesB03/situjiefilesB211" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/situjiefilesB03/situjiefilesB211" isLoop="loop" startFrame="3">
+      <b name="图层 4" x="394.5" y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0">
+        <d name="xxx-strjfilesB09" />
+        <d name="xxx-strjfilesB08" />
+        <d name="xxx-strjfilesB07" />
+        <d name="xxx-strjfilesB06" />
+        <d name="xxx-strjfilesB05" />
+        <d name="xxx-strjfilesB04" />
+        <d name="xxx-strjfilesB03" />
+        <d name="xxx-strjfilesB02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/situjiefilesB03/situjiefilesB211">
+      <mov name="dnfjksdfdjs" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="394.5" y="349.55" cocos2d_x="394.5" cocos2d_y="349.55" kX="0" kY="0" cX="2.21" cY="6.22" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/situjiefilesB178">
+      <mov name="fghghgh" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="108.85" y="183.35" cocos2d_x="-25.25" cocos2d_y="122.7" kX="0" kY="0" cX="0.33" cY="0.15" fst="2" pX="402.55" pY="410.7" z="0" dI="0" twE="0" dr="1" />
+          <f x="108.85" y="182.35" cocos2d_x="-108.3" cocos2d_y="84.15" kX="0" kY="0" cX="0.54" cY="0.24" fst="3" pX="402.6" pY="410.75" z="0" dI="0" twE="0" dr="9" />
+          <f x="108.85" y="173.3" cocos2d_x="-135.7" cocos2d_y="62.75" kX="0" kY="0" cX="0.61" cY="0.27" fst="12" pX="402.6" pY="410.55" z="0" dI="0" twE="0" dr="4" />
+          <f x="108.85" y="173.3" cocos2d_x="-171" cocos2d_y="46.8" kX="0" kY="0" cX="0.7" cY="0.31" fst="14" pX="402.6" pY="410.5" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.15" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill1" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="1.95" y="14.05" cocos2d_x="-121" cocos2d_y="-90.7" kX="0" kY="0" cX="1" cY="0.54" fst="2" pX="122.95" pY="194" z="0" dI="0" dr="14" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="张三丰skill01身上底层" width="512" height="512">
+    <SubTexture name="xxx-strjfilesB02" width="228" height="99" x="230" y="0" cocos2d_pX="114.25" cocos2d_pY="50.50" />
+    <SubTexture name="xxx-strjfilesB03" width="229" height="98" x="0" y="0" cocos2d_pX="113.25" cocos2d_pY="50.50" />
+    <SubTexture name="xxx-strjfilesB04" width="219" height="93" x="0" y="199" cocos2d_pX="108.25" cocos2d_pY="47.50" />
+    <SubTexture name="xxx-strjfilesB05" width="221" height="95" x="222" y="100" cocos2d_pX="109.25" cocos2d_pY="48.50" />
+    <SubTexture name="xxx-strjfilesB06" width="217" height="95" x="0" y="293" cocos2d_pX="107.25" cocos2d_pY="48.50" />
+    <SubTexture name="xxx-strjfilesB07" width="205" height="91" x="218" y="298" cocos2d_pX="101.25" cocos2d_pY="46.50" />
+    <SubTexture name="xxx-strjfilesB08" width="213" height="101" x="222" y="196" cocos2d_pX="104.25" cocos2d_pY="51.50" />
+    <SubTexture name="xxx-strjfilesB09" width="221" height="99" x="0" y="99" cocos2d_pX="109.25" cocos2d_pY="50.50" />
+  </TextureAtlas>
+</skeleton>

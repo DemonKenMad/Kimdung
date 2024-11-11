@@ -1,0 +1,46 @@
+<skeleton name="受击捆绑角色1" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-55" y="-80.3" kX="0" kY="180" cX="1.2" cY="1.2" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB18" />
+        <d name="xxx-zhangweifiltacerB16" />
+        <d name="xxx-zhangweifiltacerB14" />
+        <d name="xxx-zhangweifiltacerB12" />
+        <d name="xxx-zhangweifiltacerB10" />
+        <d name="xxx-zhangweifiltacerB08" />
+        <d name="xxx-zhangweifiltacerB06" />
+        <d name="xxx-zhangweifiltacerB04" />
+        <d name="xxx-zhangweifiltacerB02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdafasdfadsgas" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-55" y="-80.3" cocos2d_x="-55" cocos2d_y="-80.25" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-56.7" y="-125.15" cocos2d_x="-56.7" cocos2d_y="-125.1" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="-56.85" y="-148" cocos2d_x="-56.85" cocos2d_y="-148" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-57.1" y="-136.75" cocos2d_x="-57.1" cocos2d_y="-136.75" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-50.5" y="-134.05" cocos2d_x="-50.5" cocos2d_y="-134.05" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="-48.5" y="-141.95" cocos2d_x="-48.5" cocos2d_y="-141.85" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="-0.1" z="0" dI="5" dr="2" />
+          <f x="-45.65" y="-76.6" cocos2d_x="-45.65" cocos2d_y="-76.6" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="-79.2" y="-82.2" cocos2d_x="-79.2" cocos2d_y="-82.2" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="-55.95" y="-89.95" cocos2d_x="-55.95" cocos2d_y="-89.95" kX="0" kY="180" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="受击捆绑角色1" width="1024" height="2048">
+    <SubTexture name="xxx-zhangweifiltacerB02" width="184" height="122" x="801" y="185" cocos2d_pX="91.80" cocos2d_pY="60.90" />
+    <SubTexture name="xxx-zhangweifiltacerB04" width="285" height="162" x="0" y="791" cocos2d_pX="142.50" cocos2d_pY="81.10" />
+    <SubTexture name="xxx-zhangweifiltacerB06" width="296" height="288" x="693" y="781" cocos2d_pX="147.75" cocos2d_pY="143.75" />
+    <SubTexture name="xxx-zhangweifiltacerB08" width="344" height="396" x="0" y="394" cocos2d_pX="171.85" cocos2d_pY="197.75" />
+    <SubTexture name="xxx-zhangweifiltacerB10" width="347" height="406" x="405" y="374" cocos2d_pX="173.25" cocos2d_pY="202.75" />
+    <SubTexture name="xxx-zhangweifiltacerB12" width="404" height="393" x="0" y="0" cocos2d_pX="201.75" cocos2d_pY="196.50" />
+    <SubTexture name="xxx-zhangweifiltacerB14" width="395" height="373" x="405" y="0" cocos2d_pX="197.50" cocos2d_pY="186.25" />
+    <SubTexture name="xxx-zhangweifiltacerB16" width="347" height="324" x="345" y="781" cocos2d_pX="173.40" cocos2d_pY="161.65" />
+    <SubTexture name="xxx-zhangweifiltacerB18" width="208" height="184" x="801" y="0" cocos2d_pX="103.70" cocos2d_pY="91.70" />
+  </TextureAtlas>
+</skeleton>

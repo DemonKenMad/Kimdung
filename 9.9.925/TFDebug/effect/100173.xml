@@ -1,0 +1,174 @@
+<skeleton name="枯荣技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="158.5" y="-101.35" kX="0" kY="0" cX="0.31" cY="1" pX="0" pY="0" z="0">
+        <d name="6546u8/元件 9" isArmature="1" />
+      </b>
+      <b name="图层 6" x="-7.35" y="-77.2" kX="0" kY="0" cX="0.61" cY="0.61" pX="0" pY="-0.1" z="1">
+        <d name="6546u8/元件 3" isArmature="1" />
+      </b>
+      <b name="图层 5" x="128.75" y="-93.3" kX="90" kY="90" cX="0.33" cY="0.51" pX="0" pY="0" z="2">
+        <d name="6546u8/元件 16" isArmature="1" />
+      </b>
+      <b name="图层 4" x="128.9" y="-90.6" kX="0" kY="0" cX="1" cY="1" pX="-9" pY="-0.15" z="3">
+        <d name="6546u8/jiguang" isArmature="1" />
+      </b>
+      <b name="图层 3" x="215.4" y="-53.4" kX="140" kY="-160.96" cX="1.71" cY="1.5" pX="-22.55" pY="49.65" z="4">
+        <d name="6546u8/87y0987yihkl98zsrt" isArmature="1" />
+      </b>
+      <b name="图层 2" x="262.25" y="-124.15" kX="55.81" kY="169.52" cX="1.39" cY="1.57" pX="-22.65" pY="49.45" z="5">
+        <d name="6546u8/87y0987yihkl98zsrt" isArmature="1" />
+      </b>
+      <b name="图层 1" x="547.45" y="-59.3" kX="101.03" kY="-145.26" cX="1.39" cY="1.57" pX="-22.5" pY="49.35" z="6">
+        <d name="6546u8/87y0987yihkl98zsrt" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="6546u8/元件 9" isLoop="play once" startFrame="1">
+      <b name="图层 2" x="-12.55" y="-1.55" kX="0" kY="0" cX="2.88" cY="2.96" pX="74" pY="74" z="0">
+        <d name="6546u8-436546" />
+      </b>
+    </armature>
+    <armature name="6546u8/元件 3" isLoop="play once" startFrame="1">
+      <b name="图层 3" x="176.1" y="-39.05" kX="0" kY="0" cX="2.01" cY="2.01" pX="59.5" pY="130.95" z="0">
+        <d name="6546u8-456546" />
+        <d name="6546u8-8678" />
+      </b>
+    </armature>
+    <armature name="6546u8/元件 16" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="13.7" y="-2.05" kX="-90" kY="-90" cX="0.51" cY="2.56" pX="74" pY="74" z="0">
+        <d name="6546u8-436546" />
+      </b>
+      <b name="图层 1" x="10" y="23" kX="0" kY="0" cX="1" cY="1" pX="146.1" pY="119.2" z="1">
+        <d name="6546u8-tutyu" />
+      </b>
+    </armature>
+    <armature name="6546u8/jiguang" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-63.3" y="-24.4" kX="90" kY="90" cX="2.89" cY="49.23" pX="46.2" pY="38.2" z="0">
+        <d name="6546u8-57567" />
+      </b>
+      <b name="图层 2" x="-34" y="0.5" kX="90" kY="90" cX="1.2" cY="1.2" pX="0" pY="0" z="1">
+        <d name="6546u8-yuanjian" />
+      </b>
+    </armature>
+    <armature name="6546u8/87y0987yihkl98zsrt" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-21.45" y="52" kX="0" kY="0" cX="1" cY="1" pX="73" pY="63" z="0">
+        <d name="6546u8-6546" />
+        <d name="6546u8-6757" />
+        <d name="6546u8-567567" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="6546u8/元件 9">
+      <mov name="dsadsa" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-12.55" y="-1.55" cocos2d_x="-225.45" cocos2d_y="-220.45" kX="0" kY="0" cX="2.88" cY="2.96" pX="74" pY="74" z="0" dI="0" twE="0.5" dr="4" />
+          <f x="-15.3" y="-1.5" cocos2d_x="-282.65" cocos2d_y="-276.45" kX="0" kY="0" cX="3.61" cY="3.71" pX="74" pY="74" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="6546u8/元件 3">
+      <mov name="dasdsa" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="176.1" y="-39.05" cocos2d_x="56.6" cocos2d_y="-302.05" kX="0" kY="0" cX="2.01" cY="2.01" pX="59.5" pY="130.95" z="0" dI="0" dr="2" />
+          <f x="170.05" y="287" cocos2d_x="101.75" cocos2d_y="-361" kX="0" kY="0" cX="1.66" cY="1.66" pX="41.25" pY="391.35" z="0" dI="1" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="6546u8/元件 16">
+      <mov name="dsad" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="13.7" y="-2.05" cocos2d_x="-175.9" cocos2d_y="35.35" kX="-90" kY="-90" cX="0.51" cY="2.56" pX="74" pY="74" z="0" dI="0" dr="4" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="10" y="23" cocos2d_x="-136.1" cocos2d_y="-96.2" kX="0" kY="0" cX="1" cY="1" pX="146.1" pY="119.2" z="1" dI="0" twE="0" dr="3" />
+          <f x="8" y="24" cocos2d_x="-155.75" cocos2d_y="-109.65" kX="0" kY="0" cX="1.12" cY="1.12" pX="146.1" pY="119.2" z="1" dI="0" twE="0" dr="1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="6546u8/jiguang">
+      <mov name="ssadsa" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-63.3" y="-24.4" cocos2d_x="1817.3" cocos2d_y="-157.95" kX="90" kY="90" cX="2.89" cY="49.23" pX="46.2" pY="38.2" z="0" dI="0" twE="0" dr="2" />
+          <f x="-26.15" y="-12" cocos2d_x="1795.15" cocos2d_y="-51.1" kX="90" kY="90" cX="0.85" cY="47.68" pX="46.2" pY="38.2" z="0" dI="0" twE="0" dr="3" />
+          <f x="-66.1" y="-19.75" cocos2d_x="1810.55" cocos2d_y="-89.05" kX="90" kY="90" cX="1.5" cY="49.13" pX="46.15" pY="38.2" z="0" dI="0" twE="0" dr="7" />
+          <f x="-15.25" y="-1.65" cocos2d_x="1729.45" cocos2d_y="-6.7" kX="90" kY="90" cX="0.11" cY="45.67" pX="46.55" pY="38.2" z="0" dI="0" twE="0" dr="4" />
+          <f x="-68.45" y="-0.8" cocos2d_x="3348.6" cocos2d_y="-2.95" kX="90" kY="90" cX="0.05" cY="89.45" pX="45.85" pY="38.15" z="0" dI="0" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-34" y="0.5" cocos2d_x="-34" cocos2d_y="0.5" kX="90" kY="90" cX="1.2" cY="1.2" pX="0" pY="0" z="1" dI="0" blend="add" dr="9" />
+          <f x="-6" y="0.5" cocos2d_x="-6" cocos2d_y="0.5" kX="90" kY="90" cX="0.72" cY="0.72" pX="0" pY="0" z="1" dI="0" blend="add" twE="0" dr="5" />
+          <f x="-16" y="1.5" cocos2d_x="-16" cocos2d_y="1.5" kX="90" kY="90" cX="0.47" cY="0.75" pX="0" pY="0" z="1" dI="0" blend="add" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="6546u8/87y0987yihkl98zsrt">
+      <mov name="dsad" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-21.45" y="52" cocos2d_x="-94.45" cocos2d_y="-11" kX="0" kY="0" cX="1" cY="1" pX="73" pY="63" z="0" dI="0" dr="2" />
+          <f x="-26.05" y="30.25" cocos2d_x="-160" cocos2d_y="-88.85" kX="0" kY="0" cX="2.48" cY="2.48" pX="54" pY="48" z="0" dI="1" dr="2" />
+          <f x="-43" y="-25.3" cocos2d_x="-155.15" cocos2d_y="-97.55" kX="0" kY="0" cX="2.16" cY="2.16" pX="52" pY="33.5" z="0" dI="2" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="6768" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="158.5" y="-101.35" cocos2d_x="158.5" cocos2d_y="-101.35" kX="0" kY="0" cX="0.31" cY="1" pX="0" pY="0" z="0" dI="0" dr="7" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="-7.35" y="-77.2" cocos2d_x="-7.35" cocos2d_y="-77.15" kX="0" kY="0" cX="0.61" cY="0.61" pX="0" pY="-0.1" z="1" dI="0" dr="6" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="128.75" y="-93.3" cocos2d_x="128.75" cocos2d_y="-93.3" kX="90" kY="90" cX="0.33" cY="0.51" pX="0" pY="0" z="2" dI="0" dr="9" />
+          <f x="128.75" y="-93.3" cocos2d_x="128.75" cocos2d_y="-93.3" kX="90" kY="90" cX="0.33" cY="0.51" pX="0" pY="0" z="2" dI="0" twE="0" dr="5" />
+          <f x="128.75" y="-93.3" cocos2d_x="128.75" cocos2d_y="-93.3" kX="90" kY="90" cX="0.18" cY="0.28" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="128.9" y="-90.6" cocos2d_x="137.9" cocos2d_y="-90.45" kX="0" kY="0" cX="1" cY="1" pX="-9" pY="-0.15" z="3" dI="0" dr="15" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="215.4" y="-53.4" cocos2d_x="226.8" cocos2d_y="-9" kX="140" kY="-160.96" cX="1.71" cY="1.5" pX="-22.55" pY="49.65" z="4" dI="0" dr="5" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="262.25" y="-124.15" cocos2d_x="295.7" cocos2d_y="-162.15" kX="55.81" kY="169.52" cX="1.39" cY="1.57" pX="-22.65" pY="49.45" z="5" dI="0" dr="5" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="17" dI="-1" />
+          <f x="547.45" y="-59.3" cocos2d_x="597.9" cocos2d_y="-62.25" kX="101.03" kY="-145.26" cX="1.39" cY="1.57" pX="-22.5" pY="49.35" z="6" dI="0" dr="5" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="枯荣技能" width="512" height="512">
+    <SubTexture name="6546u8-567567" width="97" height="61" x="321" y="356" cocos2d_pX="-3.00" cocos2d_pY="-3.00" />
+    <SubTexture name="6546u8-6757" width="96" height="85" x="224" y="299" cocos2d_pX="-6.00" cocos2d_pY="-6.00" />
+    <SubTexture name="6546u8-6546" width="112" height="93" x="368" y="262" cocos2d_pX="-18.00" cocos2d_pY="-15.00" />
+    <SubTexture name="6546u8-yuanjian" width="112" height="108" x="368" y="153" cocos2d_pX="56.00" cocos2d_pY="75.00" />
+    <SubTexture name="6546u8-57567" width="110" height="38" x="0" y="393" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="6546u8-tutyu" width="302" height="152" x="120" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="6546u8-8678" width="119" height="392" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="6546u8-456546" width="103" height="262" x="120" y="153" cocos2d_pX="-10.00" cocos2d_pY="0.00" />
+    <SubTexture name="6546u8-436546" width="143" height="145" x="224" y="153" cocos2d_pX="-2.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

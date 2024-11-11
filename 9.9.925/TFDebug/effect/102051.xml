@@ -1,0 +1,54 @@
+<skeleton name="和尚11棍 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="124.65" y="-77.3" kX="-3.69" kY="-3.69" cX="0.72" cY="1.07" pX="-12.2" pY="-92.85" z="0">
+        <d name="heshang/3452" isArmature="1" />
+      </b>
+      <b name="图层 4" x="225.5" y="-91.95" kX="0" kY="0" cX="1.48" cY="1.48" pX="173.35" pY="146" z="1">
+        <d name="heshang-45622" />
+      </b>
+    </armature>
+    <armature name="heshang/3452">
+      <b name="图层 1" x="-106.3" y="-88.95" kX="-0.63" kY="-0.63" cX="2.7" cY="2.28" pX="0" pY="0" z="0">
+        <d name="heshang-dfg" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="124.65" y="-77.3" cocos2d_x="139.75" cocos2d_y="20.9" kX="-3.69" kY="-3.69" cX="0.72" cY="1.07" fst="0" pX="-12.2" pY="-92.85" z="0" dI="0" twE="0" dr="3" />
+          <f x="119.65" y="-77.3" cocos2d_x="134.75" cocos2d_y="20.9" kX="-3.69" kY="-3.69" cX="0.72" cY="1.07" fst="3" pX="-12.2" pY="-92.85" z="0" dI="0" twE="0" dr="3" />
+          <f x="119.65" y="-79.3" cocos2d_x="134.75" cocos2d_y="18.9" kX="-3.69" kY="-3.69" cX="0.72" cY="1.07" fst="6" pX="-12.25" pY="-92.9" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="225.5" y="-91.95" cocos2d_x="-31" cocos2d_y="-307.95" kX="0" kY="0" cX="1.48" cY="1.48" pX="173.35" pY="146" z="1" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="226.5" y="-91.95" cocos2d_x="-150.5" cocos2d_y="-409.35" kX="0" kY="0" cX="2.17" cY="2.17" pX="173.35" pY="145.95" z="1" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="227.55" y="-92.9" cocos2d_x="-220.85" cocos2d_y="-470.3" kX="0" kY="0" cX="2.58" cY="2.58" pX="173.5" pY="146" z="1" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="heshang/3452">
+      <mov name="6768" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-106.3" y="-88.95" cocos2d_x="-106.3" cocos2d_y="-88.95" kX="-0.63" kY="-0.63" cX="2.7" cY="2.28" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="-18.3" y="-91.35" cocos2d_x="-18.3" cocos2d_y="-91.35" kX="-1.45" kY="-1.45" cX="1.95" cY="1.21" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="-6.45" y="-91.4" cocos2d_x="-6.45" cocos2d_y="-91.4" kX="0" kY="0" cX="1.85" cY="0.64" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="-3.9" y="-92.6" cocos2d_x="-3.9" cocos2d_y="-92.6" kX="-0.94" kY="-0.94" cX="1.85" cY="0.32" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="和尚11棍 普攻FX" width="256" height="256">
+    <SubTexture name="heshang-dfg" width="212" height="50" x="0" y="0" cocos2d_pX="108.65" cocos2d_pY="24.80" />
+    <SubTexture name="heshang-45622" width="105" height="87" x="0" y="51" cocos2d_pX="-109.40" cocos2d_pY="-103.10" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,100 @@
+<skeleton name="霸王丸风buff输出底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9" x="23.5" y="-12.95" kX="0" kY="0" cX="0.27" cY="0.29" pX="1.65" pY="1.75" z="0">
+        <d name="xxx/ssjjffilesB03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/ssjjffilesB03" isLoop="loop" startFrame="3">
+      <b name="ssjjffilesB17" x="-191" y="-71.45" kX="90" kY="-90" cX="1.58" cY="3.26" pX="0" pY="0" z="0">
+        <d name="xxx/ssjjffilesB17" isArmature="1" />
+      </b>
+      <b name="ssjjffilesB170" x="-185.35" y="-71.45" kX="90" kY="-90" cX="1.58" cY="3.26" pX="0" pY="0" z="1">
+        <d name="xxx/ssjjffilesB17" isArmature="1" />
+      </b>
+      <b name="图层 2" x="-112.75" y="-12.65" kX="0" kY="0" cX="3.08" cY="3.23" pX="0" pY="0" z="2">
+        <d name="xxx/ssjjffilesB18" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/ssjjffilesB17" isLoop="loop" startFrame="4">
+      <b name="图层 3" x="-50.95" y="-3.15" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0">
+        <d name="xxx-ssjjffilesB19" />
+        <d name="xxx-ssjjffilesB20" />
+        <d name="xxx-ssjjffilesB21" />
+        <d name="xxx-ssjjffilesB22" />
+        <d name="xxx-ssjjffilesB23" />
+        <d name="xxx-ssjjffilesB24" />
+      </b>
+    </armature>
+    <armature name="xxx/ssjjffilesB18" isLoop="loop" startFrame="5">
+      <b name="图层 2" x="10.5" y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-ssjjffilesB25" />
+        <d name="xxx-ssjjffilesB26" />
+        <d name="xxx-ssjjffilesB27" />
+        <d name="xxx-ssjjffilesB28" />
+        <d name="xxx-ssjjffilesB29" />
+        <d name="xxx-ssjjffilesB30" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/ssjjffilesB17">
+      <mov name="gghsdfgs" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-50.95" y="-3.15" cocos2d_x="-50.85" cocos2d_y="-3.05" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-60.8" y="-21.9" cocos2d_x="-60.8" cocos2d_y="-21.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-69.55" y="-32.7" cocos2d_x="-69.55" cocos2d_y="-32.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-60.8" y="-20.15" cocos2d_x="-60.8" cocos2d_y="-20.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-67.4" y="-20.15" cocos2d_x="-67.3" cocos2d_y="-20.15" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-59.7" y="-40.65" cocos2d_x="-59.7" cocos2d_y="-40.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/ssjjffilesB18">
+      <mov name="fdfgktyfg" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="10.5" y="-24" cocos2d_x="10.5" cocos2d_y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="10.5" y="-24" cocos2d_x="10.5" cocos2d_y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="10.5" y="-24" cocos2d_x="10.5" cocos2d_y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="10.5" y="-24" cocos2d_x="10.5" cocos2d_y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="10.5" y="-24" cocos2d_x="10.5" cocos2d_y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="10.5" y="-24" cocos2d_x="10.5" cocos2d_y="-24" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/ssjjffilesB03">
+      <mov name="dgfhgsdrhre" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="ssjjffilesB17" sc="1" dl="0">
+          <f x="-191" y="-71.45" cocos2d_x="-191" cocos2d_y="-71.45" kX="90" kY="-90" cX="1.58" cY="3.26" fst="3" pX="0" pY="0" z="0" dI="0" dr="6" />
+        </b>
+        <b name="ssjjffilesB170" sc="1" dl="0">
+          <f x="-185.35" y="-71.45" cocos2d_x="-185.35" cocos2d_y="-71.45" kX="90" kY="-90" cX="1.58" cY="3.26" fst="0" pX="0" pY="0" z="1" dI="0" dr="6" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-112.75" y="-12.65" cocos2d_x="-112.75" cocos2d_y="-12.65" kX="0" kY="0" cX="3.08" cY="3.23" fst="4" pX="0" pY="0" z="2" dI="0" dr="6" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsgdfhsdgad" dr="37" to="0" drTW="37" lp="1" twE="NaN">
+        <b name="图层 9" sc="1" dl="0">
+          <f x="23.5" y="-12.95" cocos2d_x="23.05" cocos2d_y="-13.45" kX="0" kY="0" cX="0.27" cY="0.29" fst="2" pX="1.65" pY="1.75" z="0" dI="0" dr="37" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="霸王丸风buff输出底层" width="512" height="512">
+    <SubTexture name="xxx-ssjjffilesB30" width="153" height="63" x="0" y="305" cocos2d_pX="76.00" cocos2d_pY="31.75" />
+    <SubTexture name="xxx-ssjjffilesB29" width="153" height="62" x="308" y="332" cocos2d_pX="77.00" cocos2d_pY="31.75" />
+    <SubTexture name="xxx-ssjjffilesB28" width="153" height="63" x="154" y="304" cocos2d_pX="77.00" cocos2d_pY="31.75" />
+    <SubTexture name="xxx-ssjjffilesB27" width="153" height="63" x="154" y="240" cocos2d_pX="77.00" cocos2d_pY="31.75" />
+    <SubTexture name="xxx-ssjjffilesB26" width="153" height="64" x="0" y="240" cocos2d_pX="76.00" cocos2d_pY="31.75" />
+    <SubTexture name="xxx-ssjjffilesB25" width="153" height="64" x="102" y="175" cocos2d_pX="76.00" cocos2d_pY="31.75" />
+    <SubTexture name="xxx-ssjjffilesB24" width="102" height="174" x="102" y="0" cocos2d_pX="50.15" cocos2d_pY="84.35" />
+    <SubTexture name="xxx-ssjjffilesB23" width="101" height="180" x="0" y="0" cocos2d_pX="46.35" cocos2d_pY="91.95" />
+    <SubTexture name="xxx-ssjjffilesB22" width="100" height="173" x="205" y="0" cocos2d_pX="48.30" cocos2d_pY="85.25" />
+    <SubTexture name="xxx-ssjjffilesB21" width="93" height="174" x="306" y="0" cocos2d_pX="36.45" cocos2d_pY="81.85" />
+    <SubTexture name="xxx-ssjjffilesB20" width="97" height="164" x="400" y="0" cocos2d_pX="47.40" cocos2d_pY="82.20" />
+    <SubTexture name="xxx-ssjjffilesB19" width="76" height="166" x="400" y="165" cocos2d_pX="47.80" cocos2d_pY="87.20" />
+  </TextureAtlas>
+</skeleton>

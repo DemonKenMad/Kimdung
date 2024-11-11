@@ -1,0 +1,113 @@
+<skeleton name="石破天普攻FX输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-50.45" y="6.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-trbfnrtgbnet" />
+        <d name="xxx-b w ntntcf" />
+        <d name="xxx-b frtnw btert" />
+      </b>
+      <b name="图层 9" x="70.85" y="-28.9" kX="0" kY="0" cX="0.71" cY="0.71" pX="0" pY="0" z="1">
+        <d name="xxx/vbreabn fetnbet" isArmature="1" />
+      </b>
+      <b name="图层 3" x="215.05" y="-113.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2">
+        <d name="xxx-vrebatbre" />
+        <d name="xxx-nb trnrt" />
+        <d name="xxx-v dreb areb" />
+      </b>
+      <b name="图层 5" x="-94.45" y="-103" kX="0" kY="0" cX="1.32" cY="1.32" pX="48.5" pY="56" z="3">
+        <d name="xxx-63543" />
+        <d name="xxx-345435" />
+        <d name="xxx-454" />
+      </b>
+    </armature>
+    <armature name="xxx/vbreabn fetnbet" isLoop="loop" startFrame="1">
+      <b name="图层 14" x="-16.85" y="-89.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx- btfegrn tgrntr" />
+        <d name="xxx-vbrtfn mty" />
+        <d name="xxx-bvtrn rrt" />
+      </b>
+      <b name="图层 1" x="242.25" y="-93.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-b ftnwtr" />
+        <d name="xxx-b rtfn stsntr" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/vbreabn fetnbet">
+      <mov name="bfte" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 14" sc="1" dl="0">
+          <f x="-16.85" y="-89.7" cocos2d_x="-16.85" cocos2d_y="-89.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="32.35" y="-87" cocos2d_x="32.35" cocos2d_y="-87" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2" />
+          <f x="228.5" y="-96.8" cocos2d_x="228.5" cocos2d_y="-96.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" blend="normal" twE="0" dr="2" />
+          <f x="228.5" y="-96.8" cocos2d_x="228.5" cocos2d_y="-96.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.09" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="242.25" y="-93.3" cocos2d_x="242.25" cocos2d_y="-93.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f x="229.1" y="-96.95" cocos2d_x="229.1" cocos2d_y="-96.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="3" />
+          <f x="229.1" y="-96.95" cocos2d_x="229.1" cocos2d_y="-96.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.09" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="17" to="0" drTW="17" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-50.45" y="6.3" cocos2d_x="-50.45" cocos2d_y="6.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-79" y="3.25" cocos2d_x="-79" cocos2d_y="3.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2" />
+          <f x="-155.85" y="-32.75" cocos2d_x="-155.85" cocos2d_y="-32.75" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" blend="normal" dr="2" />
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="70.85" y="-28.9" cocos2d_x="70.85" cocos2d_y="-28.9" kX="0" kY="0" cX="0.71" cY="0.71" pX="0" pY="0" z="1" dI="0" dr="7">
+            <colorTransform a="0" r="79" g="16" b="0" aM="1" rM="0.69" gM="0.69" bM="0.69" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="215.05" y="-113.7" cocos2d_x="215.05" cocos2d_y="-113.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="205.05" y="-117.2" cocos2d_x="205.05" cocos2d_y="-117.2" kX="0" kY="0" cX="2.69" cY="2.69" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="156.85" y="-97.1" cocos2d_x="156.85" cocos2d_y="-97.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="1" blend="normal" dr="2" />
+          <f x="125.9" y="-124.65" cocos2d_x="125.9" cocos2d_y="-124.65" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="2" blend="normal" twE="0" dr="2" />
+          <f x="125.9" y="-124.65" cocos2d_x="125.9" cocos2d_y="-124.65" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="2" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.09" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="-94.45" y="-103" cocos2d_x="-158.55" cocos2d_y="-177" kX="0" kY="0" cX="1.32" cY="1.32" pX="48.5" pY="56" z="3" dI="0" dr="2" />
+          <f x="-119.45" y="-99.4" cocos2d_x="-226.3" cocos2d_y="-221" kX="0" kY="0" cX="2.46" cY="2.46" pX="43.5" pY="49.5" z="3" dI="1" dr="2" />
+          <f x="-107.95" y="-115" cocos2d_x="-231.55" cocos2d_y="-241" kX="0" kY="0" cX="2.42" cY="2.42" pX="51" pY="52" z="3" dI="2" dr="2" />
+          <f x="-109" y="-124" cocos2d_x="-246.35" cocos2d_y="-264.05" kX="0" kY="0" cX="2.69" cY="2.69" pX="51" pY="52" z="3" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.37" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="石破天普攻FX输出" width="512" height="512">
+    <SubTexture name="xxx-b rtfn stsntr" width="76" height="88" x="431" y="142" cocos2d_pX="38.00" cocos2d_pY="44.00" />
+    <SubTexture name="xxx-b ftnwtr" width="92" height="97" x="103" y="215" cocos2d_pX="46.00" cocos2d_pY="48.50" />
+    <SubTexture name="xxx-bvtrn rrt" width="110" height="87" x="281" y="201" cocos2d_pX="60.50" cocos2d_pY="45.65" />
+    <SubTexture name="xxx-vbrtfn mty" width="307" height="77" x="0" y="0" cocos2d_pX="154.85" cocos2d_pY="44.65" />
+    <SubTexture name="xxx- btfegrn tgrntr" width="306" height="65" x="0" y="78" cocos2d_pX="154.90" cocos2d_pY="34.70" />
+    <SubTexture name="xxx-454" width="102" height="104" x="0" y="144" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-345435" width="87" height="99" x="392" y="231" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-63543" width="97" height="112" x="307" y="88" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-v dreb areb" width="43" height="89" x="237" y="144" cocos2d_pX="18.05" cocos2d_pY="44.50" />
+    <SubTexture name="xxx-nb trnrt" width="50" height="141" x="444" y="0" cocos2d_pX="23.30" cocos2d_pY="71.00" />
+    <SubTexture name="xxx-vrebatbre" width="25" height="77" x="405" y="88" cocos2d_pX="19.80" cocos2d_pY="30.50" />
+    <SubTexture name="xxx-b frtnw btert" width="91" height="68" x="0" y="249" cocos2d_pX="45.25" cocos2d_pY="33.65" />
+    <SubTexture name="xxx-b w ntntcf" width="135" height="87" x="308" y="0" cocos2d_pX="70.25" cocos2d_pY="47.25" />
+    <SubTexture name="xxx-trbfnrtgbnet" width="133" height="70" x="103" y="144" cocos2d_pX="69.15" cocos2d_pY="38.00" />
+  </TextureAtlas>
+</skeleton>

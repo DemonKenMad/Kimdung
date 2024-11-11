@@ -1,0 +1,192 @@
+<skeleton name="南海恶神技能2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gre" x="237.35" y="18.4" kX="0" kY="0" cX="1.35" cY="1" pX="0" pY="0" z="0">
+        <d name="file-bgq" />
+      </b>
+      <b name="gre0" x="237.35" y="8.4" kX="0" kY="0" cX="0.85" cY="0.63" pX="0" pY="0" z="1">
+        <d name="file-bgq" />
+      </b>
+      <b name="dg" x="227.35" y="22.3" kX="0" kY="0" cX="1.69" cY="1.16" pX="0" pY="0" z="2">
+        <d name="file-dm" />
+      </b>
+      <b name="图层 11" x="53.85" y="-88.5" kX="27.85" kY="27.85" cX="3.89" cY="3.89" pX="0" pY="0" z="3">
+        <d name="file-dga" />
+      </b>
+      <b name="图层 6 复制" x="249.75" y="28.3" kX="28.82" kY="28.82" cX="2.51" cY="2.18" pX="-0.7" pY="-1" z="4">
+        <d name="file-lg" />
+      </b>
+      <b name="图层 20  复制 2" x="218.25" y="22.15" kX="-29.65" kY="150.35" cX="0.87" cY="0.76" pX="-0.75" pY="-1" z="5">
+        <d name="file-lg" />
+      </b>
+      <b name="图层 8" x="235.85" y="17.65" kX="0" kY="0" cX="1.6" cY="0.4" pX="0" pY="0" z="6">
+        <d name="file-gy" />
+      </b>
+      <b name="图层 20 复制" x="233.85" y="-9.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="7">
+        <d name="file-gy" />
+      </b>
+      <b name="图层 12  复制 2" x="105.75" y="-35.4" kX="-64.86" kY="119.34" cX="1.24" cY="1.31" pX="0" pY="0" z="8">
+        <d name="file-gfdg" />
+      </b>
+      <b name="图层 12 复制" x="364.85" y="-40.55" kX="64.86" kY="60.66" cX="1.24" cY="1.31" pX="0" pY="0" z="9">
+        <d name="file-gfdg" />
+      </b>
+      <b name="图层 7 复制" x="240.4" y="14.05" kX="0" kY="0" cX="2.87" cY="2.68" pX="0" pY="167.15" z="10">
+        <d name="file-gfgg" />
+      </b>
+      <b name="图层 7  复制 2" x="242.05" y="33.65" kX="0" kY="0" cX="2.09" cY="1.44" pX="0" pY="167.05" z="11">
+        <d name="file-gfgg" />
+      </b>
+      <b name="图层 1" x="244.85" y="-39.4" kX="0" kY="0" cX="3.88" cY="3.88" pX="0" pY="0" z="12">
+        <d name="file-gy" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="skill2" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="gre" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="237.35" y="18.4" cocos2d_x="237.35" cocos2d_y="18.4" kX="0" kY="0" cX="1.35" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="237.35" y="18.4" cocos2d_x="237.35" cocos2d_y="18.4" kX="0" kY="0" cX="2.38" cY="1.76" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="237.35" y="18.4" cocos2d_x="237.35" cocos2d_y="18.4" kX="0" kY="0" cX="2.86" cY="2.12" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="gre0" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="237.35" y="8.4" cocos2d_x="237.35" cocos2d_y="8.4" kX="0" kY="0" cX="0.85" cY="0.63" pX="0" pY="0" z="1" dI="0" twE="0" dr="8" />
+          <f x="237.35" y="8.4" cocos2d_x="237.35" cocos2d_y="8.4" kX="0" kY="0" cX="1.12" cY="0.83" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="13" dI="-1" />
+        </b>
+        <b name="dg" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="227.35" y="22.3" cocos2d_x="227.35" cocos2d_y="22.3" kX="0" kY="0" cX="1.69" cY="1.16" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="227.35" y="9.3" cocos2d_x="227.35" cocos2d_y="9.3" kX="0" kY="0" cX="1.69" cY="1.16" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" />
+          <f x="227.35" y="9.3" cocos2d_x="227.35" cocos2d_y="9.3" kX="0" kY="0" cX="1.69" cY="1.16" pX="0" pY="0" z="2" dI="0" twE="0" dr="3" />
+          <f x="227.35" y="9.3" cocos2d_x="227.35" cocos2d_y="9.3" kX="0" kY="0" cX="1.69" cY="1.16" pX="0" pY="0" z="2" dI="0" twE="0" dr="12" />
+          <f x="227.35" y="9.3" cocos2d_x="227.35" cocos2d_y="9.3" kX="0" kY="0" cX="1.69" cY="1.16" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="53.85" y="-88.5" cocos2d_x="53.85" cocos2d_y="-88.5" kX="27.85" kY="27.85" cX="3.89" cY="3.89" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f dr="24" dI="-1" />
+        </b>
+        <b name="图层 6 复制" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="249.75" y="28.3" cocos2d_x="250.25" cocos2d_y="31.05" kX="28.82" kY="28.82" cX="2.51" cY="2.18" pX="-0.7" pY="-1" z="4" dI="0" twE="0" dr="2" />
+          <f x="249.55" y="28.35" cocos2d_x="250" cocos2d_y="30.3" kX="28.81" kY="28.81" cX="1.57" cY="1.77" pX="-0.85" pY="-0.85" z="4" dI="0" twE="0" dr="10" />
+          <f x="249.8" y="28.3" cocos2d_x="250.4" cocos2d_y="30.2" kX="28.82" kY="28.82" cX="2.24" cY="1.46" pX="-0.65" pY="-0.9" z="4" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="-19" b="-118" aM="0.17" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 20  复制 2" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="218.25" y="22.15" cocos2d_x="218.05" cocos2d_y="23.1" kX="-29.65" kY="150.35" cX="0.87" cY="0.76" pX="-0.75" pY="-1" z="5" dI="0" twE="0" dr="2" />
+          <f x="218.2" y="22.3" cocos2d_x="218.1" cocos2d_y="23.35" kX="-29.65" kY="150.35" cX="0.96" cY="1.08" pX="-0.6" pY="-0.8" z="5" dI="0" twE="0" dr="6" />
+          <f x="218.25" y="22.2" cocos2d_x="217.75" cocos2d_y="23.4" kX="-29.65" kY="150.35" cX="1.56" cY="1.01" pX="-0.65" pY="-0.75" z="5" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="-19" b="-118" aM="0.65" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="235.85" y="17.65" cocos2d_x="235.85" cocos2d_y="17.65" kX="0" kY="0" cX="1.6" cY="0.4" pX="0" pY="0" z="6" dI="0" blend="add" twE="0" dr="2" />
+          <f x="235.85" y="17.65" cocos2d_x="235.85" cocos2d_y="17.65" kX="0" kY="0" cX="2.8" cY="0.7" pX="0" pY="0" z="6" dI="0" blend="add" twE="0" dr="6" />
+          <f x="235.85" y="17.65" cocos2d_x="235.85" cocos2d_y="17.65" kX="0" kY="0" cX="1.36" cY="0.34" pX="0" pY="0" z="6" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.22" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 20 复制" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="233.85" y="-9.4" cocos2d_x="233.85" cocos2d_y="-9.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="7" dI="0" blend="add" dr="6">
+            <colorTransform a="0" r="114" g="-36" b="-66" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="232.85" y="-11.4" cocos2d_x="232.85" cocos2d_y="-11.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="7" dI="0" blend="add" twE="0" dr="6">
+            <colorTransform a="0" r="114" g="-36" b="-66" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="220.85" y="-12.4" cocos2d_x="220.85" cocos2d_y="-12.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="7" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="114" g="-36" b="-66" aM="0.13" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 12  复制 2" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="105.75" y="-35.4" cocos2d_x="105.75" cocos2d_y="-35.4" kX="-64.86" kY="119.34" cX="1.24" cY="1.31" pX="0" pY="0" z="8" dI="0" blend="add" twE="0" dr="4" />
+          <f x="53.2" y="-68.05" cocos2d_x="53.2" cocos2d_y="-68.05" kX="-64.93" kY="119.32" cX="1.47" cY="1.55" pX="0" pY="0" z="8" dI="0" blend="add" twE="0" dr="3" />
+          <f x="43.8" y="-69.75" cocos2d_x="43.8" cocos2d_y="-69.75" kX="-64.85" kY="119.34" cX="1.64" cY="1.73" pX="0" pY="0" z="8" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 12 复制" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="364.85" y="-40.55" cocos2d_x="364.85" cocos2d_y="-40.55" kX="64.86" kY="60.66" cX="1.24" cY="1.31" pX="0" pY="0" z="9" dI="0" blend="add" twE="0" dr="4" />
+          <f x="402.7" y="-73.35" cocos2d_x="402.7" cocos2d_y="-73.35" kX="64.93" kY="60.68" cX="1.47" cY="1.55" pX="0" pY="0" z="9" dI="0" blend="add" twE="0" dr="3" />
+          <f x="418.8" y="-76.85" cocos2d_x="418.8" cocos2d_y="-76.85" kX="64.85" kY="60.66" cX="1.64" cY="1.73" pX="0" pY="0" z="9" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="图层 7 复制" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="240.4" y="14.05" cocos2d_x="240.4" cocos2d_y="-433.9" kX="0" kY="0" cX="2.87" cY="2.68" pX="0" pY="167.15" z="10" dI="0" blend="add" twE="0" dr="2">
+            <colorTransform a="0" r="71" g="-127" b="-127" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="240.4" y="14.1" cocos2d_x="240.4" cocos2d_y="-544.2" kX="0" kY="0" cX="3.28" cY="3.34" pX="0" pY="167.15" z="10" dI="0" blend="add" twE="0" dr="3">
+            <colorTransform a="0" r="71" g="-127" b="-127" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="240.35" y="6.45" cocos2d_x="240.35" cocos2d_y="-561.1" kX="0" kY="0" cX="3.33" cY="3.39" pX="0" pY="167.2" z="10" dI="0" blend="add" twE="0" dr="8">
+            <colorTransform a="0" r="71" g="-127" b="-127" aM="0.43" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="240.4" y="-13.9" cocos2d_x="240.4" cocos2d_y="-605.6" kX="0" kY="0" cX="3.48" cY="3.54" pX="0" pY="167.1" z="10" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="71" g="-127" b="-127" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 7  复制 2" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="242.05" y="33.65" cocos2d_x="242.05" cocos2d_y="-207.5" kX="0" kY="0" cX="2.09" cY="1.44" pX="0" pY="167.05" z="11" dI="0" blend="add" twE="0" dr="3" />
+          <f x="244.05" y="13.95" cocos2d_x="244.05" cocos2d_y="-286.6" kX="0" kY="0" cX="2.38" cY="1.8" pX="0" pY="167.1" z="11" dI="0" blend="add" twE="0" dr="3" />
+          <f x="240.05" y="5.55" cocos2d_x="240.05" cocos2d_y="-299.9" kX="0" kY="0" cX="2.42" cY="1.83" pX="0" pY="167.1" z="11" dI="0" blend="add" twE="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.28" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="240.05" y="-5.4" cocos2d_x="240.05" cocos2d_y="-324.05" kX="0" kY="0" cX="2.52" cY="1.91" pX="0" pY="167.15" z="11" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="244.85" y="-39.4" cocos2d_x="244.85" cocos2d_y="-39.4" kX="0" kY="0" cX="3.88" cY="3.88" pX="0" pY="0" z="12" dI="0" blend="add" dr="8">
+            <colorTransform a="0" r="114" g="-36" b="-66" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="244.85" y="-29.4" cocos2d_x="244.85" cocos2d_y="-29.4" kX="0" kY="0" cX="3.88" cY="3.88" pX="0" pY="0" z="12" dI="0" blend="add" twE="0" dr="8">
+            <colorTransform a="0" r="114" g="-36" b="-66" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="219.85" y="-40.4" cocos2d_x="219.85" cocos2d_y="-40.4" kX="0" kY="0" cX="1.94" cY="1.94" pX="0" pY="0" z="12" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="南海恶神技能2" width="512" height="256">
+    <SubTexture name="file-gfgg" width="96" height="239" x="0" y="0" cocos2d_pX="50.05" cocos2d_pY="52.60" />
+    <SubTexture name="file-gfdg" width="88" height="45" x="376" y="151" cocos2d_pX="44.25" cocos2d_pY="19.50" />
+    <SubTexture name="file-gy" width="90" height="90" x="285" y="124" cocos2d_pX="45.00" cocos2d_pY="45.00" />
+    <SubTexture name="file-lg" width="57" height="150" x="431" y="0" cocos2d_pX="22.10" cocos2d_pY="136.75" />
+    <SubTexture name="file-dga" width="138" height="123" x="292" y="0" cocos2d_pX="69.00" cocos2d_pY="61.25" />
+    <SubTexture name="file-dm" width="194" height="98" x="97" y="0" cocos2d_pX="97.00" cocos2d_pY="49.00" />
+    <SubTexture name="file-bgq" width="187" height="53" x="97" y="99" cocos2d_pX="93.50" cocos2d_pY="22.00" />
+  </TextureAtlas>
+</skeleton>

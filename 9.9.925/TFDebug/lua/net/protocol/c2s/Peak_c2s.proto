@@ -1,0 +1,60 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SPeakMsg";
+
+//打开论剑峰
+//code = 0x7100
+message OpenPeakRequest {
+	required int32 layer = 1; 			// 层数 层数为0的时候 为默认打开论剑峰
+	required int32 page = 2; 			// 页数
+}
+
+//占领阵眼 或者 攻击阵眼
+//code = 0x7101
+message OccupiedPeakRequest {
+	required int32 layer = 1; 			// 层数
+	required int32 pos = 2; 			// 位置
+	required int32 playerId = 3; 		// 要攻击的玩家ID 为0时为占领
+}
+
+//放弃阵眼
+//code = 0x7102
+message AbandonPeakRequest {
+
+}
+
+//查看论剑峰战斗日志
+//code = 0x7104
+message PeakBattleLogRequest {
+
+}
+
+//论剑峰复仇
+//code = 0x7105
+message PeakRevengeRequest {
+	required int32 playerId = 1; 		// 要复仇的玩家ID
+	required int32 pos = 2; 			// 位置
+	required int32 layer = 3; 			// 层数
+}
+
+//开始论剑峰战斗
+//code = 0x7106
+message StartPeakBattleRequest {
+	required int32 playerId = 1; 		// 要复仇的玩家ID
+	required int32 serverId = 2; 		// 要复仇的玩家的服务器ID
+	required int32 result = 3; 			// 是否回复2次确认框 0不回复 1回复
+	required int32 pos = 4; 			// 位置
+	required int32 layer = 5; 			// 层数
+}
+
+//论剑峰排行榜
+//code = 0x7107
+message PeakRankingRequest {
+	required int32 startRank = 1;		// 其实排名的10组数据
+}
+
+//论剑峰上一届最佳排名
+//code = 0x7109
+message PeakRankingHistoryRequest {
+
+}

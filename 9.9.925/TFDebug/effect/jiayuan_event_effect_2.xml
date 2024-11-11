@@ -1,0 +1,130 @@
+<skeleton name="浇水动画输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fasfasfasfasf" x="-0.45" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sitt14" isArmature="1" />
+        <d name="xxx/sitt13" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sitt14" isLoop="loop" startFrame="1">
+      <b name="fasfsaffasfasf" x="-48.25" y="-37" kX="-9.44" kY="-9.44" cX="0.67" cY="0.67" pX="-37.55" pY="7.55" z="0">
+        <d name="xxx-sitt23" />
+      </b>
+      <b name="fasfasfa" x="0.65" y="-40.55" kX="0" kY="180" cX="0.26" cY="0.29" pX="115.75" pY="18.4" z="1">
+        <d name="xxx/sitt15" isArmature="1" />
+      </b>
+      <b name="fasfasfa0" x="36.6" y="-59.3" kX="0" kY="0" cX="0.38" cY="0.43" pX="37.85" pY="81.1" z="2">
+        <d name="xxx/sitt16" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sitt15" isLoop="loop" startFrame="1">
+      <b name="asfasfa" x="83.4" y="66.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-sitt05" />
+        <d name="xxx-sitt04" />
+        <d name="xxx-sitt03" />
+      </b>
+    </armature>
+    <armature name="xxx/sitt16" isLoop="loop" startFrame="5">
+      <b name="fasdgadgfa" x="-1.5" y="195.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-sitt08" />
+        <d name="xxx-sitt10" />
+        <d name="xxx-sitt06" />
+      </b>
+    </armature>
+    <armature name="xxx/sitt13" isLoop="loop" startFrame="1">
+      <b name="fasfsaffasfasf" x="-48.25" y="-37" kX="1.45" kY="1.45" cX="0.67" cY="0.67" pX="-37.55" pY="7.45" z="0">
+        <d name="xxx-sitt23" />
+      </b>
+      <b name="fasfasfa" x="0.65" y="-40.55" kX="0" kY="180" cX="0.26" cY="0.29" pX="115.75" pY="18.4" z="1">
+        <d name="xxx/sitt15" isArmature="1" />
+      </b>
+      <b name="fasfasfa0" x="36.6" y="-59.3" kX="0" kY="0" cX="0.38" cY="0.43" pX="37.85" pY="81.1" z="2">
+        <d name="xxx/sitt16" isArmature="1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sitt15">
+      <mov name="gdsgsdga" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="asfasfa" sc="1" dl="0">
+          <f x="83.4" y="66.95" cocos2d_x="83.4" cocos2d_y="66.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="83.4" y="66.95" cocos2d_x="83.4" cocos2d_y="66.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="83.4" y="66.95" cocos2d_x="83.4" cocos2d_y="66.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sitt16">
+      <mov name="fsdgsadga" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="fasdgadgfa" sc="1" dl="0">
+          <f x="-1.5" y="195.6" cocos2d_x="-1.5" cocos2d_y="195.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="hardLight" dr="2" />
+          <f x="7.6" y="192.65" cocos2d_x="7.6" cocos2d_y="192.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="hardLight" dr="2" />
+          <f x="5" y="184.45" cocos2d_x="5" cocos2d_y="184.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" blend="hardLight" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sitt14">
+      <mov name="gsdgasgfasf" dr="41" to="0" drTW="41" lp="1" twE="NaN">
+        <b name="fasfsaffasfasf" sc="1" dl="0">
+          <f x="-48.25" y="-37" cocos2d_x="-24.4" cocos2d_y="-46.05" kX="-9.44" kY="-9.44" cX="0.67" cY="0.67" fst="0" pX="-37.55" pY="7.55" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-48.25" y="-37" cocos2d_x="-23.1" cocos2d_y="-41.35" kX="1.45" kY="1.45" cX="0.67" cY="0.67" fst="0" pX="-37.55" pY="7.45" z="0" dI="0" dr="37" />
+        </b>
+        <b name="fasfasfa" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="0.65" y="-40.55" cocos2d_x="30.45" cocos2d_y="-45.9" kX="0" kY="180" cX="0.26" cY="0.29" fst="0" pX="115.75" pY="18.4" z="1" dI="0" dr="36" />
+        </b>
+        <b name="fasfasfa0" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="36.6" y="-59.3" cocos2d_x="22.05" cocos2d_y="-93.85" kX="0" kY="0" cX="0.38" cY="0.43" fst="4" pX="37.85" pY="81.1" z="2" dI="0" dr="36" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sitt13">
+      <mov name="fgsadgsdgsga" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="fasfsaffasfasf" sc="1" dl="0">
+          <f x="-48.25" y="-37" cocos2d_x="-23.1" cocos2d_y="-41.35" kX="1.45" kY="1.45" cX="0.67" cY="0.67" fst="0" pX="-37.55" pY="7.45" z="0" dI="0" twE="0" dr="11" />
+          <f x="-48.25" y="-37" cocos2d_x="-23.1" cocos2d_y="-41.35" kX="1.45" kY="1.45" cX="0.67" cY="0.67" fst="0" pX="-37.55" pY="7.45" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="fasfasfa" sc="1" dl="0">
+          <f x="0.65" y="-40.55" cocos2d_x="30.45" cocos2d_y="-45.9" kX="0" kY="180" cX="0.26" cY="0.29" fst="0" pX="115.75" pY="18.4" z="1" dI="0" twE="0" dr="6" />
+          <f x="0.65" y="-40.55" cocos2d_x="30.45" cocos2d_y="-45.9" kX="0" kY="180" cX="0.26" cY="0.29" fst="0" pX="115.75" pY="18.4" z="1" dI="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="fasfasfa0" sc="1" dl="0">
+          <f x="36.6" y="-59.3" cocos2d_x="22.05" cocos2d_y="-93.85" kX="0" kY="0" cX="0.38" cY="0.43" fst="5" pX="37.85" pY="81.1" z="2" dI="0" twE="0" dr="6" />
+          <f x="36.6" y="-59.3" cocos2d_x="22.05" cocos2d_y="-93.85" kX="0" kY="0" cX="0.38" cY="0.43" fst="4" pX="37.85" pY="81.1" z="2" dI="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="1" dr="41" to="0" drTW="41" lp="1" twE="NaN">
+        <b name="fasfasfasfasf" sc="1" dl="0">
+          <f x="-0.45" y="0.05" cocos2d_x="-0.45" cocos2d_y="0.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="41" />
+        </b>
+      </mov>
+      <mov name="2" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="fasfasfasfasf" sc="1" dl="0">
+          <f x="-0.5" y="-0.1" cocos2d_x="-0.5" cocos2d_y="-0.1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="14" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="浇水动画输出" width="512" height="256">
+    <SubTexture name="xxx-sitt06" width="160" height="73" x="320" y="150" cocos2d_pX="81.55" cocos2d_pY="31.70" />
+    <SubTexture name="xxx-sitt10" width="116" height="65" x="121" y="154" cocos2d_pX="64.55" cocos2d_pY="33.00" />
+    <SubTexture name="xxx-sitt08" width="120" height="81" x="0" y="152" cocos2d_pX="53.85" cocos2d_pY="46.65" />
+    <SubTexture name="xxx-sitt03" width="160" height="151" x="0" y="0" cocos2d_pX="84.90" cocos2d_pY="62.90" />
+    <SubTexture name="xxx-sitt04" width="158" height="153" x="161" y="0" cocos2d_pX="77.90" cocos2d_pY="68.90" />
+    <SubTexture name="xxx-sitt05" width="157" height="149" x="320" y="0" cocos2d_pX="71.90" cocos2d_pY="66.90" />
+    <SubTexture name="xxx-sitt23" width="84" height="33" x="121" y="220" cocos2d_pX="42.00" cocos2d_pY="16.50" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,30 @@
+<skeleton name="秦红棉普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="135" y="-114.65" kX="4.44" kY="4.44" cX="1.28" cY="1.28" pX="1" pY="0.35" z="0">
+        <d name="dsadsa-PG-"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="135" y="-114.65" cocos2d_x="133.7" cocos2d_y="-115.2" kX="4.44" kY="4.44" cX="1.28" cY="1.28" fst="0" pX="1" pY="0.35" z="0" dI="0" twE="0" dr="2"/>
+          <f x="135" y="-114.65" cocos2d_x="133.7" cocos2d_y="-115.2" kX="4.44" kY="4.44" cX="1.28" cY="1.28" fst="0" pX="1" pY="0.35" z="0" dI="0" twE="0" dr="3"/>
+          <f x="135" y="-114.65" cocos2d_x="133.7" cocos2d_y="-115.2" kX="4.3" kY="4.3" cX="1.28" cY="1.28" fst="0" pX="1.05" pY="0.35" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.4" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="135" y="-114.65" cocos2d_x="133.7" cocos2d_y="-115.2" kX="4.44" kY="4.44" cX="1.28" cY="1.28" fst="0" pX="1" pY="0.35" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="3" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="秦红棉普攻" width="256" height="512">
+    <SubTexture name="dsadsa-PG-" width="146" height="280" x="0" y="0" cocos2d_pX="62.2" cocos2d_pY="158.35"/>
+  </TextureAtlas>
+</skeleton>

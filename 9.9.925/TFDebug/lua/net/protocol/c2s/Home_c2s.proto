@@ -1,0 +1,54 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SHomeMsg";
+
+// 打开家园
+// code = 0x7400
+message OpenHomeRequest {
+
+}
+
+// 家园升级
+// code = 0x7401
+message HomeLevelUpRequest {
+	repeated ConsumeItem consume = 1;			// 消耗
+}
+
+// 选择消耗的道具 结构体
+message ConsumeItem {
+	required int32 id = 1;   					// 道具的id
+	required int32 num = 2;   					// 道具的数量
+}
+
+// 转盘
+// code = 0x7402
+message HomeTurntableRequest {
+
+}
+
+// 客户端分享成功后告知服务器
+// code = 0x7403
+message HomeShareRequest {
+
+}
+
+// 升级分享
+// code = 0x7405
+message HomeLevelShareRequest {
+
+}
+
+//好友点赞排行
+// code = 0x7406
+message GainFriendPraiseRanks{
+}
+//点赞
+// code = 0x7407
+message HomePraise{
+	required int32 friendId = 1;
+}
+//领取家园奖励
+// code = 0x7408
+message DrawHomeAward{
+
+}

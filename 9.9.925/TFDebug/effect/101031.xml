@@ -1,0 +1,25 @@
+<skeleton name="陈家洛普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="147.25" y="-81.25" kX="-45.21" kY="-9.43" cX="1.48" cY="3.2" pX="159.85" pY="45.15" z="0">
+        <d name="4353-677"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="3444" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="147.25" y="-81.25" cocos2d_x="-188.6" cocos2d_y="-144.25" kX="-45.21" kY="-9.43" cX="1.48" cY="3.2" pX="159.85" pY="45.15" z="0" dI="0" dr="2"/>
+          <f x="133" y="-78.45" cocos2d_x="-125.95" cocos2d_y="-152" kX="-25.87" kY="0" cX="1.4" cY="1.82" pX="159.75" pY="45" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="123" y="-88" cocos2d_x="-31" cocos2d_y="-139" kX="0" kY="2.97" cX="0.97" cY="0.96" pX="159.8" pY="44.95" z="0" dI="0" dr="1" twE="NaN"/>
+          <f dr="4" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="陈家洛普工" width="256" height="64">
+    <SubTexture name="4353-677" width="204" height="49" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

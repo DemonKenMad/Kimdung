@@ -1,0 +1,60 @@
+<skeleton name="五色蛇pg_gai" frameRate="24" version="2.2.3">
+ <armatures>
+  <armature name="anim">
+   <b name="图层 3" x="198.75" y="-99.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="zxz-656"/>
+   </b>
+   <b name="图层 4" x="233.95" y="-58.5" kX="0" kY="0" cX="1" cY="1" pX="78.1" pY="1.5" z="1">
+    <d name="zxz/gongji" isArmature="1"/>
+   </b>
+  </armature>
+  <armature name="zxz/gongji">
+   <b name="图层 1" x="78.1" y="1.5" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0">
+    <d name="zxz-GJ0001.png"/>
+    <d name="zxz-GJ0002.png"/>
+    <d name="zxz-tyy"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="zxz/gongji">
+   <mov name="grtt" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="78.1" y="1.5" cocos2d_x="-17.4" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0" dI="0" dr="2"/>
+     <f x="94.35" y="2.6" cocos2d_x="4.85" cocos2d_y="-58.4" kX="0" kY="0" cX="1" cY="1" pX="89.5" pY="61" z="0" dI="1" dr="2"/>
+     <f x="117.1" y="-0.9" cocos2d_x="117.1" cocos2d_y="-0.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" twE="0" dr="5"/>
+     <f x="117.1" y="-0.9" cocos2d_x="117.1" cocos2d_y="-0.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+     </f>
+    </b>
+   </mov>
+  </animation>
+  <animation name="anim">
+   <mov name="attack" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="198.75" y="-99.5" cocos2d_x="198.75" cocos2d_y="-99.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0.8" rM="1" gM="1" bM="1"/>
+     </f>
+     <f x="198.75" y="-99.5" cocos2d_x="198.75" cocos2d_y="-99.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+     </f>
+     <f dr="6" dI="-1"/>
+    </b>
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="233.95" y="-58.5" cocos2d_x="155.85" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="78.1" pY="1.5" z="1" dI="0" blend="normal" dr="10">
+      <colorTransform a="0" r="-194" g="49" b="-249" aM="1" rM="1" gM="1" bM="1"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="五色蛇pg_gai" width="512" height="256">
+  <SubTexture name="zxz-tyy" width="149" height="125" x="359" y="124" cocos2d_pX="74.5" cocos2d_pY="62.5"/>
+  <SubTexture name="zxz-GJ0002.png" width="179" height="122" x="193" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  <SubTexture name="zxz-GJ0001.png" width="191" height="123" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  <SubTexture name="zxz-656" width="164" height="112" x="193" y="124" cocos2d_pX="81.7" cocos2d_pY="17.5"/>
+ </TextureAtlas>
+</skeleton>

@@ -1,0 +1,35 @@
+<skeleton name="破 1129  8" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fvrebrenbre" x="1.55" y="0.45" kX="0" kY="0" cX="0.77" cY="0.77" pX="-7.75" pY="-49" z="0">
+        <d name="xxx-fvrebrenbre" />
+      </b>
+      <b name="brebarenbrenrebtrn" x="-1.05" y="-5.4" kX="0" kY="0" cX="2.92" cY="2.92" pX="-13.05" pY="-52.4" z="1">
+        <d name="xxx-brebarenbrenre" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="donghua" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="fvrebrenbre" sc="1" dl="0">
+          <f x="1.55" y="0.45" cocos2d_x="7.5" cocos2d_y="38.25" kX="0" kY="0" cX="0.77" cY="0.77" pX="-7.75" pY="-49" z="0" dI="0" twE="0" dr="2" />
+          <f x="1.45" y="0.45" cocos2d_x="14" cocos2d_y="80.25" kX="0" kY="0" cX="1.63" cY="1.63" pX="-7.7" pY="-49" z="0" dI="0" twE="0.25" dr="6" />
+          <f x="1.4" y="0.45" cocos2d_x="13.7" cocos2d_y="78.15" kX="0" kY="0" cX="1.59" cY="1.59" pX="-7.75" pY="-49" z="0" dI="0" dr="4" />
+        </b>
+        <b name="brebarenbrenrebtrn" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-1.05" y="-5.4" cocos2d_x="37.1" cocos2d_y="147.85" kX="0" kY="0" cX="2.92" cY="2.92" pX="-13.05" pY="-52.4" z="1" dI="0" twE="0" dr="8" />
+          <f x="-1" y="-5.3" cocos2d_x="70.8" cocos2d_y="283.1" kX="0" kY="0" cX="5.5" cY="5.5" pX="-13.05" pY="-52.4" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="破 1129  8" width="512" height="256">
+    <SubTexture name="xxx-brebarenbrenre" width="146" height="90" x="278" y="0" cocos2d_pX="91.60" cocos2d_pY="97.90" />
+    <SubTexture name="xxx-fvrebrenbre" width="277" height="167" x="0" y="0" cocos2d_pX="160.60" cocos2d_pY="138.65" />
+  </TextureAtlas>
+</skeleton>

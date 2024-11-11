@@ -1,0 +1,70 @@
+<skeleton name="丁春秋普通攻击2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="174.35" y="-79.6" kX="0" kY="0" cX="0.57" cY="0.57" pX="-19.5" pY="-20.55" z="0">
+        <d name="fgs-xigaibeiji" />
+        <d name="fgs-shanguang" />
+      </b>
+      <b name="图层 8" x="187.65" y="-80.35" kX="37.77" kY="-23.62" cX="3.53" cY="2.63" pX="0.25" pY="-0.15" z="1">
+        <d name="fgs-daoguang" />
+        <d name="fgs-qi" />
+      </b>
+      <b name="图层 5" x="294.2" y="-143.25" kX="46.23" kY="-23.15" cX="2.97" cY="2.44" pX="0.35" pY="-0.05" z="2">
+        <d name="fgs-daoguang" />
+      </b>
+      <b name="图层 7" x="252.55" y="-123.5" kX="42.83" kY="-23.08" cX="1.44" cY="1.24" pX="0.35" pY="0.1" z="3">
+        <d name="fgs-daoguang" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="174.35" y="-79.6" cocos2d_x="185.55" cocos2d_y="-67.8" kX="0" kY="0" cX="0.57" cY="0.57" pX="-19.5" pY="-20.55" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="174.4" y="-79.65" cocos2d_x="202.65" cocos2d_y="-49.9" kX="0" kY="0" cX="1.45" cY="1.45" pX="-19.5" pY="-20.55" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="178.95" y="-73.9" cocos2d_x="179.95" cocos2d_y="-75" kX="0" kY="0" cX="1.96" cY="1.96" pX="-0.55" pY="0.55" z="0" dI="1" blend="add" dr="2" />
+          <f dr="9" dI="-1" />
+          <f x="252.8" y="-114.6" cocos2d_x="268.2" cocos2d_y="-126.45" kX="-83.97" kY="-83.97" cX="0.69" cY="0.69" pX="-19.5" pY="-20.45" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="252.85" y="-114.6" cocos2d_x="273.5" cocos2d_y="-130.5" kX="-83.97" kY="-83.97" cX="0.92" cY="0.92" pX="-19.5" pY="-20.45" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="252.95" y="-114.65" cocos2d_x="279.85" cocos2d_y="-135.4" kX="-83.97" kY="-83.97" cX="1.21" cY="1.21" pX="-19.45" pY="-20.4" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="249.95" y="-118.9" cocos2d_x="250.55" cocos2d_y="-119.5" kX="0.67" kY="0" cX="1.18" cY="1.18" pX="-0.5" pY="0.5" z="0" dI="1" blend="add" dr="2" />
+          <f x="252.9" y="-114.55" cocos2d_x="282.8" cocos2d_y="-137.65" kX="-83.97" kY="-83.97" cX="1.34" cY="1.34" pX="-19.5" pY="-20.45" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="187.65" y="-80.35" cocos2d_x="186.45" cocos2d_y="-79.6" kX="37.77" kY="-23.62" cX="3.53" cY="2.63" pX="0.25" pY="-0.15" z="1" dI="0" blend="add" twE="0" dr="3" />
+          <f x="199.6" y="-86.35" cocos2d_x="198.4" cocos2d_y="-85.6" kX="37.83" kY="-23.56" cX="3.52" cY="2.62" pX="0.25" pY="-0.15" z="1" dI="0" blend="add" twE="0" dr="2" />
+          <f x="207.65" y="-90.35" cocos2d_x="206.45" cocos2d_y="-89.6" kX="37.77" kY="-23.62" cX="3.53" cY="2.63" pX="0.3" pY="-0.2" z="1" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+          <f x="252.05" y="-126.4" cocos2d_x="171" cocos2d_y="-173.45" kX="-149.73" kY="-149.73" cX="1.36" cY="0.76" pX="-68.7" pY="0.25" z="1" dI="1" blend="add" twE="0" dr="2" />
+          <f x="252" y="-126.35" cocos2d_x="102.95" cocos2d_y="-213.15" kX="-149.73" kY="-149.73" cX="2.51" cY="0.76" pX="-68.75" pY="0.2" z="1" dI="1" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="294.2" y="-143.25" cocos2d_x="293.25" cocos2d_y="-142.85" kX="46.23" kY="-23.15" cX="2.97" cY="2.44" pX="0.35" pY="-0.05" z="2" dI="0" blend="add" twE="0" dr="3" />
+          <f x="298.2" y="-146.25" cocos2d_x="297.25" cocos2d_y="-145.85" kX="46.23" kY="-23.15" cX="2.97" cY="2.44" pX="0.4" pY="0" z="2" dI="0" blend="add" twE="0" dr="1" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="252.55" y="-123.5" cocos2d_x="252.15" cocos2d_y="-123.4" kX="42.83" kY="-23.08" cX="1.44" cY="1.24" pX="0.35" pY="0.1" z="3" dI="0" blend="add" twE="0" dr="5" />
+          <f x="270.55" y="-133.5" cocos2d_x="270.15" cocos2d_y="-133.4" kX="42.83" kY="-23.08" cX="1.44" cY="1.24" pX="0.4" pY="0.15" z="3" dI="0" blend="add" twE="0" dr="1" />
+          <f dr="10" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="丁春秋普通攻击2" width="256" height="512">
+    <SubTexture name="fgs-qi" width="139" height="171" x="0" y="0" cocos2d_pX="69.15" cocos2d_pY="85.50" />
+    <SubTexture name="fgs-daoguang" width="140" height="72" x="0" y="293" cocos2d_pX="69.65" cocos2d_pY="36.00" />
+    <SubTexture name="fgs-shanguang" width="120" height="120" x="0" y="172" cocos2d_pX="59.50" cocos2d_pY="60.50" />
+    <SubTexture name="fgs-xigaibeiji" width="72" height="78" x="140" y="0" cocos2d_pX="53.50" cocos2d_pY="60.50" />
+  </TextureAtlas>
+</skeleton>

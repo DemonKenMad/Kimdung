@@ -1,0 +1,37 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname = "S2CCustomSkill";
+
+
+//所有阵型的自定义技能
+// code = 0x0f2a
+message CustomSkillStrategyInfo{
+	repeated CustomSkillInfo infos = 1;
+}
+
+message CustomSkillInfo{
+	required int32 strategyType=1;//阵型
+	required bool isUse=2;//是否使用自定义
+	repeated int32 baseOrder=3;//常规顺序
+	repeated SpecialOrderInfo specialOrder=4;//特殊顺序
+}
+
+message SpecialOrderInfo{
+	required int32 roleId=1;//角色ID
+	required bool isCheckBox=2;//是否勾选
+	required int32 specialOrderType=3;
+	optional int32 percentNum=4;//百分比数字
+}
+
+//修改自定义技能成功
+//code = 0x0f2b
+message UpdateCustomSkillSucess{
+
+}
+
+//修改自定义技能成功
+//code = 0x0f2c
+message BattleCustomSkill{
+	optional CustomSkillInfo atkInfo = 1;
+	optional CustomSkillInfo defInfo = 2;
+}

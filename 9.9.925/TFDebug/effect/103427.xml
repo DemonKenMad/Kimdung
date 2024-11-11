@@ -1,0 +1,44 @@
+<skeleton name="所有人底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-34.2" y="-23.65" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-元件 6" />
+      </b>
+      <b name="图层 1" x="93.8" y="170.05" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-元件 3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdafsdafasdgfasdg" dr="148" to="0" drTW="148" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="39" dI="-1" />
+          <f x="-34.2" y="-23.65" cocos2d_x="-34.2" cocos2d_y="-23.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-34.2" y="-23.65" cocos2d_x="-34.2" cocos2d_y="-23.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="95" />
+          <f x="-34.2" y="-23.65" cocos2d_x="-34.2" cocos2d_y="-23.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="8" />
+          <f x="-34.2" y="-23.65" cocos2d_x="-34.2" cocos2d_y="-23.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="39" dI="-1" />
+          <f x="93.8" y="170.05" cocos2d_x="93.8" cocos2d_y="170.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="93.8" y="170.05" cocos2d_x="93.8" cocos2d_y="170.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" dr="95" />
+          <f x="93.8" y="170.05" cocos2d_x="93.8" cocos2d_y="170.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="8" />
+          <f x="93.8" y="170.05" cocos2d_x="93.8" cocos2d_y="170.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="所有人底层" width="1024" height="1024">
+    <SubTexture name="xxx-元件 3" width="524" height="155" x="0" y="379" cocos2d_pX="238.80" cocos2d_pY="97.20" />
+    <SubTexture name="xxx-元件 6" width="700" height="378" x="0" y="0" cocos2d_pX="350.50" cocos2d_pY="189.75" />
+  </TextureAtlas>
+</skeleton>

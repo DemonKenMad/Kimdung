@@ -1,0 +1,29 @@
+<skeleton name="黑屏分离" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="17" y="-134.75" kX="0" kY="0" cX="124.34" cY="124.34" pX="0" pY="-0.05" z="0">
+        <d name="xxx-zhangweifiltacerB28"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sadfsadgasdgasg" dr="94" to="0" drTW="94" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="18" dI="-1"/>
+          <f x="17" y="-134.75" cocos2d_x="17" cocos2d_y="-128.55" kX="0" kY="0" cX="124.34" cY="124.34" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="17" y="-134.75" cocos2d_x="17" cocos2d_y="-128.55" kX="0" kY="0" cX="124.34" cY="124.34" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="48"/>
+          <f x="17" y="-134.75" cocos2d_x="17" cocos2d_y="-128.55" kX="0" kY="0" cX="124.34" cY="124.34" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="7"/>
+          <f x="17" y="-134.75" cocos2d_x="17" cocos2d_y="-128.55" kX="0" kY="0" cX="124.34" cY="124.34" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="17">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="黑屏分离" width="32" height="32">
+    <SubTexture name="xxx-zhangweifiltacerB28" width="20" height="16" x="0" y="0" cocos2d_pX="9.9" cocos2d_pY="7.65"/>
+  </TextureAtlas>
+</skeleton>

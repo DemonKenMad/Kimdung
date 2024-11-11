@@ -1,0 +1,258 @@
+<skeleton name="被动受击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="-17.5" y="-52.25" kX="0" kY="0" cX="1.7" cY="1.7" pX="198" pY="158.1" z="0">
+        <d name="xxx/zhangweifilesCG03" isArmature="1" />
+      </b>
+      <b name="图层 6" x="-239.85" y="-64.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesCG04" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG03" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="201.65" y="157.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesCG20" />
+        <d name="xxx-zhangweifilesCG21" />
+        <d name="xxx-zhangweifilesCG22" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG04" isLoop="loop" startFrame="1">
+      <b name="新版冰块B9_00000.png" x="195.45" y="69.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesCG19" />
+      </b>
+      <b name="图层 16" x="245.15" y="67.75" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifilesCG18" />
+      </b>
+      <b name="图层 15" x="272.4" y="62.85" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="2">
+        <d name="xxx-zhangweifilesCG17" />
+      </b>
+      <b name="新版冰块B9_00001.png" x="227.5" y="56.25" kX="0" kY="0" cX="0.59" cY="0.59" pX="-51" pY="23.25" z="3">
+        <d name="xxx-zhangweifilesCG16" />
+      </b>
+      <b name="新版冰块B9_00002.png" x="229.75" y="57.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="4">
+        <d name="xxx-zhangweifilesCG15" />
+      </b>
+      <b name="新版冰块B9_00003.png" x="211.9" y="58.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="5">
+        <d name="xxx-zhangweifilesCG14" />
+      </b>
+      <b name="新版冰块B9_00004.png" x="249.9" y="43.35" kX="0" kY="0" cX="0.61" cY="0.61" pX="0" pY="0" z="6">
+        <d name="xxx-zhangweifilesCG13" />
+      </b>
+      <b name="新版冰块B9_00012.png" x="215.8" y="64.45" kX="0" kY="0" cX="0.33" cY="0.33" pX="5.65" pY="93.3" z="7">
+        <d name="xxx-zhangweifilesCG05" />
+      </b>
+      <b name="新版冰块B9_00005.png" x="243.85" y="-1.5" kX="0" kY="0" cX="0.59" cY="0.59" pX="0" pY="0" z="8">
+        <d name="xxx-zhangweifilesCG12" />
+      </b>
+      <b name="新版冰块B9_00006.png" x="215.9" y="55.8" kX="0" kY="0" cX="0.59" cY="0.59" pX="6.75" pY="106.6" z="9">
+        <d name="xxx-zhangweifilesCG11" />
+      </b>
+      <b name="新版冰块B9_00007.png" x="239.15" y="36.9" kX="14.21" kY="14.21" cX="0.53" cY="0.53" pX="0" pY="0" z="10">
+        <d name="xxx-zhangweifilesCG10" />
+      </b>
+      <b name="新版冰块B9_00008.png" x="202.6" y="11" kX="0" kY="0" cX="0.59" cY="0.59" pX="0" pY="0" z="11">
+        <d name="xxx-zhangweifilesCG09" />
+      </b>
+      <b name="新版冰块B9_00009.png" x="193.25" y="17.65" kX="0" kY="0" cX="0.59" cY="0.59" pX="0" pY="0" z="12">
+        <d name="xxx-zhangweifilesCG08" />
+      </b>
+      <b name="新版冰块B9_00010.png" x="189.7" y="30.55" kX="0" kY="0" cX="0.56" cY="0.56" pX="0" pY="0" z="13">
+        <d name="xxx-zhangweifilesCG07" />
+      </b>
+      <b name="新版冰块B9_00011.png" x="191.5" y="41.55" kX="0" kY="0" cX="0.29" cY="0.29" pX="0" pY="0" z="14">
+        <d name="xxx-zhangweifilesCG06" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesCG03">
+      <mov name="ghjghjllgklj" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="201.65" y="157.65" cocos2d_x="201.65" cocos2d_y="157.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="202.7" y="160.3" cocos2d_x="202.7" cocos2d_y="160.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="200.35" y="160.5" cocos2d_x="200.35" cocos2d_y="160.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifilesCG04">
+      <mov name="dskjfhag" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="新版冰块B9_00000.png" sc="1" dl="0">
+          <f x="195.45" y="69.05" cocos2d_x="195.45" cocos2d_y="69.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0.98" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="195.45" y="69.05" cocos2d_x="195.45" cocos2d_y="69.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="14" />
+          <f x="195.45" y="69.05" cocos2d_x="195.45" cocos2d_y="69.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0.93" dr="4" />
+          <f x="195.45" y="69.05" cocos2d_x="195.45" cocos2d_y="69.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 16" sc="1" dl="0">
+          <f x="245.15" y="67.75" cocos2d_x="245.15" cocos2d_y="67.75" kX="0" kY="0" cX="0.37" cY="0.37" fst="0" pX="0" pY="0" z="1" dI="0" twE="0.98" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="248" y="80.35" cocos2d_x="248" cocos2d_y="80.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="11" />
+          <f x="248" y="80.35" cocos2d_x="248" cocos2d_y="80.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0.93" dr="5" />
+          <f x="248" y="80.35" cocos2d_x="248" cocos2d_y="80.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 15" sc="1" dl="0">
+          <f x="272.4" y="62.85" cocos2d_x="272.4" cocos2d_y="62.85" kX="0" kY="0" cX="0.68" cY="0.68" fst="0" pX="0" pY="0" z="2" dI="0" twE="0.98" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="276.3" y="69.8" cocos2d_x="276.3" cocos2d_y="69.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="13" />
+          <f x="276.3" y="69.8" cocos2d_x="276.3" cocos2d_y="69.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" twE="0.93" dr="4" />
+          <f x="276.3" y="69.8" cocos2d_x="276.3" cocos2d_y="69.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00001.png" sc="1" dl="0">
+          <f x="227.5" y="56.25" cocos2d_x="257.85" cocos2d_y="42.4" kX="0" kY="0" cX="0.59" cY="0.59" fst="0" pX="-51" pY="23.25" z="3" dI="0" twE="0.98" dr="2" />
+          <f x="244.7" y="67.25" cocos2d_x="292.75" cocos2d_y="45.3" kX="0" kY="0" cX="0.94" cY="0.94" fst="0" pX="-51" pY="23.3" z="3" dI="0" twE="0.98" dr="5" />
+          <f x="247.55" y="69.1" cocos2d_x="298.6" cocos2d_y="45.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-51.05" pY="23.3" z="3" dI="0" dr="8" />
+          <f x="247.55" y="69.1" cocos2d_x="298.6" cocos2d_y="45.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-51.05" pY="23.3" z="3" dI="0" twE="0.93" dr="6" />
+          <f x="247.55" y="69.1" cocos2d_x="298.6" cocos2d_y="45.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-51.05" pY="23.3" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00002.png" sc="1" dl="0">
+          <f x="229.75" y="57.6" cocos2d_x="229.75" cocos2d_y="57.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="4" dI="0" twE="0.98" dr="9" />
+          <f x="229.75" y="57.6" cocos2d_x="229.75" cocos2d_y="57.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="4" dI="0" dr="8" />
+          <f x="229.75" y="57.6" cocos2d_x="229.75" cocos2d_y="57.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="4" dI="0" twE="0.93" dr="6" />
+          <f x="229.75" y="57.6" cocos2d_x="229.75" cocos2d_y="57.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00003.png" sc="1" dl="0">
+          <f x="211.9" y="58.2" cocos2d_x="211.9" cocos2d_y="58.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="5" dI="0" twE="0.98" dr="5" />
+          <f x="211.9" y="58.2" cocos2d_x="211.9" cocos2d_y="58.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="5" dI="0" dr="12" />
+          <f x="211.9" y="58.2" cocos2d_x="211.9" cocos2d_y="58.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="5" dI="0" twE="0.93" dr="5" />
+          <f x="211.9" y="58.2" cocos2d_x="211.9" cocos2d_y="58.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="5" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00004.png" sc="1" dl="0">
+          <f x="249.9" y="43.35" cocos2d_x="249.9" cocos2d_y="43.35" kX="0" kY="0" cX="0.61" cY="0.61" fst="0" pX="0" pY="0" z="6" dI="0" twE="0.98" dr="10" />
+          <f x="293.55" y="28.9" cocos2d_x="293.55" cocos2d_y="28.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="6" dI="0" dr="4" />
+          <f x="293.55" y="28.9" cocos2d_x="293.55" cocos2d_y="28.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="6" dI="0" twE="0.93" dr="5" />
+          <f x="293.55" y="28.9" cocos2d_x="293.55" cocos2d_y="28.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="6" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00012.png" sc="1" dl="0">
+          <f x="215.8" y="64.45" cocos2d_x="213.95" cocos2d_y="33.75" kX="0" kY="0" cX="0.33" cY="0.33" fst="0" pX="5.65" pY="93.3" z="7" dI="0" twE="0.98" dr="5" />
+          <f x="233.4" y="62.95" cocos2d_x="227.85" cocos2d_y="-30.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="5.55" pY="93.25" z="7" dI="0" dr="11" />
+          <f x="233.4" y="62.95" cocos2d_x="227.85" cocos2d_y="-30.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="5.55" pY="93.25" z="7" dI="0" twE="0.93" dr="6" />
+          <f x="233.4" y="62.95" cocos2d_x="227.85" cocos2d_y="-30.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="5.55" pY="93.25" z="7" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00005.png" sc="1" dl="0">
+          <f x="243.85" y="-1.5" cocos2d_x="243.85" cocos2d_y="-1.5" kX="0" kY="0" cX="0.59" cY="0.59" fst="0" pX="0" pY="0" z="8" dI="0" twE="0.98" dr="1" />
+          <f x="264.65" y="-2.25" cocos2d_x="264.65" cocos2d_y="-2.25" kX="0" kY="0" cX="0.8" cY="0.8" fst="0" pX="0" pY="0" z="8" dI="0" twE="0.98" dr="3" />
+          <f x="285.35" y="-3.05" cocos2d_x="285.35" cocos2d_y="-3.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="8" dI="0" dr="14" />
+          <f x="285.35" y="-3.05" cocos2d_x="285.35" cocos2d_y="-3.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="8" dI="0" twE="0.93" dr="4" />
+          <f x="285.35" y="-3.05" cocos2d_x="285.35" cocos2d_y="-3.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="8" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00006.png" sc="1" dl="0">
+          <f x="215.9" y="55.8" cocos2d_x="211.9" cocos2d_y="-7.6" kX="0" kY="0" cX="0.59" cY="0.59" fst="0" pX="6.75" pY="106.6" z="9" dI="0" twE="0.98" dr="1" />
+          <f x="224.75" y="52.15" cocos2d_x="219.35" cocos2d_y="-32.85" kX="0" kY="0" cX="0.8" cY="0.8" fst="0" pX="6.8" pY="106.6" z="9" dI="0" twE="0.98" dr="3" />
+          <f x="233.6" y="48.45" cocos2d_x="226.95" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="6.65" pY="106.6" z="9" dI="0" dr="11" />
+          <f x="233.6" y="48.45" cocos2d_x="226.95" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="6.65" pY="106.6" z="9" dI="0" twE="0.93" dr="5" />
+          <f x="233.6" y="48.45" cocos2d_x="226.95" cocos2d_y="-58.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="6.65" pY="106.6" z="9" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00007.png" sc="1" dl="0">
+          <f x="239.15" y="36.9" cocos2d_x="239.15" cocos2d_y="36.9" kX="14.21" kY="14.21" cX="0.53" cY="0.53" fst="0" pX="0" pY="0" z="10" dI="0" twE="0.98" dr="6" />
+          <f x="268.25" y="-18.85" cocos2d_x="268.25" cocos2d_y="-18.85" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="10" dI="0" dr="11" />
+          <f x="268.25" y="-18.85" cocos2d_x="268.25" cocos2d_y="-18.85" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="10" dI="0" twE="0.93" dr="4" />
+          <f x="268.25" y="-18.85" cocos2d_x="268.25" cocos2d_y="-18.85" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="10" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00008.png" sc="1" dl="0">
+          <f x="202.6" y="11" cocos2d_x="202.6" cocos2d_y="11" kX="0" kY="0" cX="0.59" cY="0.59" fst="0" pX="0" pY="0" z="11" dI="0" twE="0.98" dr="2" />
+          <f x="192.1" y="-25.8" cocos2d_x="192.1" cocos2d_y="-25.8" kX="0" kY="0" cX="0.9" cY="0.9" fst="0" pX="0" pY="0" z="11" dI="0" twE="0.98" dr="2" />
+          <f x="188.5" y="-38" cocos2d_x="188.5" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="11" dI="0" dr="12" />
+          <f x="188.5" y="-38" cocos2d_x="188.5" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="11" dI="0" twE="0.93" dr="8" />
+          <f x="188.5" y="-38" cocos2d_x="188.5" cocos2d_y="-38" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="11" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="新版冰块B9_00009.png" sc="1" dl="0">
+          <f x="193.25" y="17.65" cocos2d_x="193.25" cocos2d_y="17.65" kX="0" kY="0" cX="0.59" cY="0.59" fst="0" pX="0" pY="0" z="12" dI="0" twE="0.98" dr="2" />
+          <f x="181.65" y="1" cocos2d_x="181.65" cocos2d_y="1" kX="0" kY="0" cX="0.9" cY="0.9" fst="0" pX="0" pY="0" z="12" dI="0" twE="0.98" dr="2" />
+          <f x="177.8" y="-4.55" cocos2d_x="177.8" cocos2d_y="-4.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="12" dI="0" dr="11" />
+          <f x="177.8" y="-4.55" cocos2d_x="177.8" cocos2d_y="-4.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="12" dI="0" twE="0.93" dr="5" />
+          <f x="177.8" y="-4.55" cocos2d_x="177.8" cocos2d_y="-4.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="12" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00010.png" sc="1" dl="0">
+          <f x="189.7" y="30.55" cocos2d_x="189.7" cocos2d_y="30.55" kX="0" kY="0" cX="0.56" cY="0.56" fst="0" pX="0" pY="0" z="13" dI="0" twE="0.98" dr="7" />
+          <f x="176.85" y="23.9" cocos2d_x="176.85" cocos2d_y="23.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="13" dI="0" dr="11" />
+          <f x="176.85" y="23.9" cocos2d_x="176.85" cocos2d_y="23.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="13" dI="0" twE="0.93" dr="3" />
+          <f x="176.85" y="23.9" cocos2d_x="176.85" cocos2d_y="23.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="13" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="新版冰块B9_00011.png" sc="1" dl="0">
+          <f x="191.5" y="41.55" cocos2d_x="191.5" cocos2d_y="41.55" kX="0" kY="0" cX="0.29" cY="0.29" fst="0" pX="0" pY="0" z="14" dI="0" twE="0.98" dr="5" />
+          <f x="155.3" y="41.5" cocos2d_x="155.3" cocos2d_y="41.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="14" dI="0" dr="9" />
+          <f x="155.3" y="41.5" cocos2d_x="155.3" cocos2d_y="41.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="14" dI="0" twE="0.93" dr="9" />
+          <f x="155.3" y="41.5" cocos2d_x="155.3" cocos2d_y="41.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="14" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsfdafdg" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="-17.5" y="-52.25" cocos2d_x="-353.05" cocos2d_y="-320.3" kX="0" kY="0" cX="1.7" cY="1.7" fst="0" pX="198" pY="158.1" z="0" dI="0" twE="-1" dr="5" />
+          <f x="-4.8" y="-60.75" cocos2d_x="-735.55" cocos2d_y="-644.55" kX="0" kY="0" cX="3.69" cY="3.69" fst="5" pX="197.95" pY="158.15" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="19" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f x="-239.85" y="-64.85" cocos2d_x="-239.85" cocos2d_y="-64.85" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="25" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="被动受击特效" width="512" height="512">
+    <SubTexture name="xxx-zhangweifilesCG06" width="133" height="58" x="364" y="0" cocos2d_pX="63.55" cocos2d_pY="31.00" />
+    <SubTexture name="xxx-zhangweifilesCG07" width="119" height="66" x="364" y="59" cocos2d_pX="60.30" cocos2d_pY="34.55" />
+    <SubTexture name="xxx-zhangweifilesCG08" width="87" height="113" x="276" y="0" cocos2d_pX="44.95" cocos2d_pY="56.40" />
+    <SubTexture name="xxx-zhangweifilesCG09" width="64" height="177" x="211" y="0" cocos2d_pX="33.15" cocos2d_pY="88.45" />
+    <SubTexture name="xxx-zhangweifilesCG10" width="55" height="95" x="437" y="126" cocos2d_pX="27.35" cocos2d_pY="45.60" />
+    <SubTexture name="xxx-zhangweifilesCG11" width="102" height="232" x="0" y="0" cocos2d_pX="50.10" cocos2d_pY="115.35" />
+    <SubTexture name="xxx-zhangweifilesCG12" width="64" height="118" x="276" y="114" cocos2d_pX="30.45" cocos2d_pY="60.40" />
+    <SubTexture name="xxx-zhangweifilesCG05" width="107" height="199" x="103" y="0" cocos2d_pX="54.50" cocos2d_pY="96.65" />
+    <SubTexture name="xxx-zhangweifilesCG13" width="86" height="64" x="420" y="222" cocos2d_pX="41.20" cocos2d_pY="32.35" />
+    <SubTexture name="xxx-zhangweifilesCG14" width="45" height="35" x="211" y="178" cocos2d_pX="21.50" cocos2d_pY="17.00" />
+    <SubTexture name="xxx-zhangweifilesCG15" width="47" height="28" x="0" y="233" cocos2d_pX="23.35" cocos2d_pY="15.25" />
+    <SubTexture name="xxx-zhangweifilesCG16" width="103" height="55" x="0" y="284" cocos2d_pX="49.95" cocos2d_pY="29.90" />
+    <SubTexture name="xxx-zhangweifilesCG17" width="68" height="35" x="198" y="214" cocos2d_pX="32.45" cocos2d_pY="15.70" />
+    <SubTexture name="xxx-zhangweifilesCG18" width="27" height="18" x="484" y="59" cocos2d_pX="13.65" cocos2d_pY="6.75" />
+    <SubTexture name="xxx-zhangweifilesCG19" width="109" height="53" x="198" y="250" cocos2d_pX="56.10" cocos2d_pY="22.95" />
+    <SubTexture name="xxx-zhangweifilesCG22" width="95" height="83" x="341" y="126" cocos2d_pX="49.00" cocos2d_pY="44.00" />
+    <SubTexture name="xxx-zhangweifilesCG21" width="94" height="83" x="103" y="200" cocos2d_pX="50.00" cocos2d_pY="43.50" />
+    <SubTexture name="xxx-zhangweifilesCG20" width="78" height="74" x="341" y="210" cocos2d_pX="40.50" cocos2d_pY="38.50" />
+  </TextureAtlas>
+</skeleton>

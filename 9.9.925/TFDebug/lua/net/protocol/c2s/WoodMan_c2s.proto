@@ -1,0 +1,53 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SWoodManMsg";
+
+// code = 0x6306
+//木人桩奖励配置信息
+message WoodManRewardConfigMsg
+{
+}
+
+
+// code = 0x6307
+//木人桩玩家进度信息
+message WoodManOwnProgressMsg
+{
+}
+
+// code = 0x6308
+//木人桩
+message WoodManRequest
+{
+	required int32 count = 1; 				//木人桩档次 1/10/30
+}
+
+// code = 0x6309
+//请求木人桩历史信息
+message WoodManHistoryRequest
+{
+	required int32 curCount  = 1; 			//当前数量
+	required int32 count = 2; 				//拉取数量
+	required int32 type = 3;				//1个人历史2玩家历史
+}
+
+// code = 0x6310
+//请求寻宝额外宝箱
+message WoodManExtraReward
+{
+	required int32 id  = 1; 				//宝箱档次id
+}
+
+//code = 0x6311
+//请求刷新排行
+message FreshWoodManRank
+{
+}
+
+//code = 0x6312
+//新增需求  领取特殊宝箱
+message WoodManSpecialReward
+{
+	required int32 id  = 1; 				//宝箱标识id
+	required int32 length  = 2; 			//该档次定位距离
+}

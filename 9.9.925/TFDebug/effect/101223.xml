@@ -1,0 +1,102 @@
+<skeleton name="天龙门弟子技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="115.45" y="-66.3" kX="17.82" kY="17.82" cX="0.3" cY="0.36" pX="-56.55" pY="0.05" z="0">
+        <d name="dfsxcx/jineng" isArmature="1" />
+      </b>
+      <b name="图层 10" x="67.2" y="-94.25" kX="127.01" kY="19.09" cX="0.96" cY="1.98" pX="127.35" pY="-60.15" z="1">
+        <d name="dfsxcx/daopian" isArmature="1" />
+      </b>
+      <b name="图层 3" x="75.2" y="-55.3" kX="75.93" kY="0.04" cX="0.83" cY="2.52" pX="127.05" pY="-60.2" z="2">
+        <d name="dfsxcx/daopian" isArmature="1" />
+      </b>
+      <b name="图层 6" x="41.35" y="-60.7" kX="68.11" kY="0" cX="1.73" cY="1.02" pX="0.3" pY="0.3" z="3">
+        <d name="dfsxcx-su-d1" />
+      </b>
+      <b name="图层 6 复制" x="49.4" y="-96.65" kX="-45.48" kY="22" cX="1.62" cY="0.99" pX="0.4" pY="0.05" z="4">
+        <d name="dfsxcx-su-d1" />
+      </b>
+    </armature>
+    <armature name="dfsxcx/jineng" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="105.2" y="-1.45" kX="0" kY="0" cX="3.15" cY="1.92" pX="68.1" pY="-0.25" z="0">
+        <d name="dfsxcx-guang" />
+      </b>
+    </armature>
+    <armature name="dfsxcx/daopian" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="101.8" y="-35.65" kX="0" kY="0" cX="1.73" cY="1.31" pX="48.5" pY="0" z="0">
+        <d name="dfsxcx-daoguang" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dfsxcx/jineng">
+      <mov name="cvxv" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="105.2" y="-1.45" cocos2d_x="-109.4" cocos2d_y="-0.95" kX="0" kY="0" cX="3.15" cY="1.92" pX="68.1" pY="-0.25" z="0" dI="0" blend="normal" twE="0" dr="5">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffff00" quality="high" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="168.5" y="-0.65" cocos2d_x="38.8" cocos2d_y="-0.15" kX="0" kY="0" cX="1.91" cY="1.92" pX="68.05" pY="-0.25" z="0" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.74" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="0" blurY="5" distance="5" color="#ffff00" quality="high" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="dfsxcx/daopian">
+      <mov name="cvxv" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="101.8" y="-35.65" cocos2d_x="17.95" cocos2d_y="-35.6" kX="0" kY="0" cX="1.73" cY="1.31" pX="48.5" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="202.4" y="-58.7" cocos2d_x="143.95" cocos2d_y="-58.65" kX="0" kY="0" cX="1.2" cY="1" pX="48.55" pY="-0.05" z="0" dI="0" blend="normal" twE="0" dr="3">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffff00" quality="high" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="230.3" y="-61.8" cocos2d_x="175.55" cocos2d_y="-61.75" kX="0" kY="0" cX="1.13" cY="1" pX="48.55" pY="-0.05" z="0" dI="0" blend="normal" twE="0" dr="4">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffff6d" quality="medium" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="267.65" y="-65.95" cocos2d_x="217.85" cocos2d_y="-65.9" kX="0" kY="0" cX="1.03" cY="1" pX="48.5" pY="-0.05" z="0" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sadas" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="115.45" y="-66.3" cocos2d_x="131.55" cocos2d_y="-61.15" kX="17.82" kY="17.82" cX="0.3" cY="0.36" pX="-56.55" pY="0.05" z="0" dI="0" dr="6" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 10" sc="1" dl="0">
+          <f x="67.2" y="-94.25" cocos2d_x="-142.85" cocos2d_y="-205.65" kX="127.01" kY="19.09" cX="0.96" cY="1.98" pX="127.35" pY="-60.15" z="1" dI="0" dr="10" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="75.2" y="-55.3" cocos2d_x="-176.9" cocos2d_y="-18.55" kX="75.93" kY="0.04" cX="0.83" cY="2.52" pX="127.05" pY="-60.2" z="2" dI="0" dr="10" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="41.35" y="-60.7" cocos2d_x="41.05" cocos2d_y="-60.8" kX="68.11" kY="0" cX="1.73" cY="1.02" pX="0.3" pY="0.3" z="3" dI="0" twE="0" dr="10" />
+          <f x="91.35" y="-59.7" cocos2d_x="91.05" cocos2d_y="-59.8" kX="68.11" kY="0" cX="1.73" cY="1.02" pX="0.3" pY="0.25" z="3" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 6 复制" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="49.4" y="-96.65" cocos2d_x="48.75" cocos2d_y="-96.95" kX="-45.48" kY="22" cX="1.62" cY="0.99" pX="0.4" pY="0.05" z="4" dI="0" twE="0" dr="10" />
+          <f x="92.4" y="-90.65" cocos2d_x="91.75" cocos2d_y="-90.95" kX="-45.48" kY="22" cX="1.62" cY="0.99" pX="0.35" pY="0.1" z="4" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="天龙门弟子技能" width="256" height="256">
+    <SubTexture name="dfsxcx-daoguang" width="89" height="35" x="123" y="0" cocos2d_pX="40.65" cocos2d_pY="17.95" />
+    <SubTexture name="dfsxcx-guang" width="147" height="15" x="0" y="188" cocos2d_pX="79.10" cocos2d_pY="7.05" />
+    <SubTexture name="dfsxcx-su-d1" width="122" height="187" x="0" y="0" cocos2d_pX="60.65" cocos2d_pY="93.15" />
+  </TextureAtlas>
+</skeleton>

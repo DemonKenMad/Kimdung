@@ -1,0 +1,47 @@
+<skeleton name="lv1星宿派弟子普攻fx_陈文明" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="176.4" y="-8.95" kX="-31.96" kY="-31.96" cX="2" cY="2" pX="12.95" pY="96.7" z="0">
+        <d name="xxx-vreb erbt" />
+        <d name="xxx-vwreb erbre" />
+        <d name="xxx-bvr eberte" />
+      </b>
+      <b name="图层 10     复制 5" x="152.35" y="-206.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-vbreb ebt" />
+      </b>
+      <b name="图层 9" x="168.7" y="-105.65" kX="-96.76" kY="-96.76" cX="1.55" cY="1.55" pX="24.85" pY="-3.35" z="2">
+        <d name="xxx-vbreb ebt" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ptgj" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="176.4" y="-8.95" cocos2d_x="52.15" cocos2d_y="-159.3" kX="-31.96" kY="-31.96" cX="2" cY="2" pX="12.95" pY="96.7" z="0" dI="0" blend="normal" dr="3" />
+          <f x="5" y="-284.75" cocos2d_x="91.8" cocos2d_y="-145.75" kX="-27.96" kY="-27.96" cX="2" cY="2" pX="-5.75" pY="-81.75" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="146.55" y="1.8" cocos2d_x="123.85" cocos2d_y="-108.45" kX="2.97" kY="2.97" cX="2" cY="2" pX="14.2" pY="54.45" z="0" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 10     复制 5" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="152.35" y="-206.45" cocos2d_x="152.35" cocos2d_y="-206.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f x="169.8" y="-138.6" cocos2d_x="169.8" cocos2d_y="-138.6" kX="-97.51" kY="-97.51" cX="1.04" cY="1.04" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="168.7" y="-105.65" cocos2d_x="178.4" cocos2d_y="-67.9" kX="-96.76" kY="-96.76" cX="1.55" cY="1.55" pX="24.85" pY="-3.35" z="2" dI="0" blend="normal" dr="2" />
+          <f dr="11" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="lv1星宿派弟子普攻fx_陈文明" width="256" height="512">
+    <SubTexture name="xxx-vbreb ebt" width="67" height="69" x="0" y="230" cocos2d_pX="34.90" cocos2d_pY="36.80" />
+    <SubTexture name="xxx-bvr eberte" width="65" height="123" x="123" y="174" cocos2d_pX="32.70" cocos2d_pY="61.80" />
+    <SubTexture name="xxx-vwreb erbre" width="79" height="173" x="123" y="0" cocos2d_pX="36.35" cocos2d_pY="89.50" />
+    <SubTexture name="xxx-vreb erbt" width="122" height="229" x="0" y="0" cocos2d_pX="48.75" cocos2d_pY="116.35" />
+  </TextureAtlas>
+</skeleton>

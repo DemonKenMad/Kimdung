@@ -1,0 +1,38 @@
+<skeleton name="黄蓉技能1下层输出" frameRate="20" version="2.2.3">
+ <armatures>
+  <armature name="anim">
+   <b name="afdsfasfd" x="430.5" y="-87.3" kX="0" kY="0" cX="22.64" cY="22.64" pX="0" pY="0" z="0">
+    <d name="xxx-nbtrynmdetrymty"/>
+   </b>
+   <b name="图层 2" x="614.4" y="-113.6" kX="0" kY="0" cX="22.64" cY="22.64" pX="0" pY="0" z="1">
+    <d name="xxx-nbtrynmdetrymty"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="anim">
+   <mov name="sdfsd" dr="88" to="0" drTW="88" lp="0" twE="NaN">
+    <b name="afdsfasfd" sc="1" dl="0">
+     <f x="430.5" y="-87.3" cocos2d_x="430.5" cocos2d_y="-87.3" kX="0" kY="0" cX="22.64" cY="22.64" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="12">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+     </f>
+     <f x="430.5" y="-87.3" cocos2d_x="430.5" cocos2d_y="-87.3" kX="0" kY="0" cX="22.64" cY="22.64" fst="0" pX="0" pY="0" z="0" dI="0" dr="9">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0.74" rM="1" gM="1" bM="1"/>
+     </f>
+     <f dr="67" dI="-1"/>
+    </b>
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="62" dI="-1"/>
+     <f x="614.4" y="-113.6" cocos2d_x="614.4" cocos2d_y="-113.6" kX="0" kY="0" cX="22.64" cY="22.64" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="10"/>
+     <f x="614.4" y="-113.6" cocos2d_x="614.4" cocos2d_y="-113.6" kX="0" kY="0" cX="22.64" cY="22.64" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+     </f>
+     <f dr="15" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="黄蓉技能1下层输出" width="256" height="128">
+  <SubTexture name="xxx-nbtrynmdetrymty" width="183" height="96" x="0" y="0" cocos2d_pX="91.5" cocos2d_pY="48"/>
+ </TextureAtlas>
+</skeleton>

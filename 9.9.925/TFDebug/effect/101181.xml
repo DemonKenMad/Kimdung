@@ -1,0 +1,70 @@
+<skeleton name="田归农普攻特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-6" y="1" kX="0" kY="0" cX="1" cY="1" pX="55" pY="17" z="0">
+        <d name="dsad-gdr"/>
+      </b>
+      <b name="图层 3" x="-21.65" y="-67.65" kX="-89.99" kY="-90" cX="2" cY="1.13" pX="0" pY="0" z="1">
+        <d name="dsad-gr"/>
+      </b>
+      <b name="图层 5" x="-147.45" y="-73" kX="0" kY="0" cX="6.6" cY="0.33" pX="0" pY="0" z="2">
+        <d name="dsad-grd"/>
+      </b>
+      <b name="图层 5 复制" x="29.5" y="-73" kX="0" kY="0" cX="4.5" cY="0.4" pX="0" pY="0" z="3">
+        <d name="dsad-grd"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="adsad" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="-6" y="1" cocos2d_x="-61" cocos2d_y="-16" kX="0" kY="0" cX="1" cY="1" pX="55" pY="17" z="0" dI="0" twE="0" dr="2"/>
+          <f x="-6" y="1" cocos2d_x="-98.95" cocos2d_y="-27.75" kX="0" kY="0" cX="1.69" cY="1.69" pX="55" pY="17" z="0" dI="0" twE="0" dr="8"/>
+          <f x="-6" y="1" cocos2d_x="-109.95" cocos2d_y="-31.15" kX="0" kY="0" cX="1.89" cY="1.89" pX="55" pY="17.05" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="-21.65" y="-67.65" cocos2d_x="-21.65" cocos2d_y="-67.65" kX="-89.99" kY="-90" cX="2" cY="1.13" pX="0" pY="0" z="1" dI="0" twE="0" dr="2"/>
+          <f x="49.35" y="-67.65" cocos2d_x="49.35" cocos2d_y="-67.65" kX="-90" kY="-90" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="34" g="148" b="255" aM="1" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="163.35" y="-67.65" cocos2d_x="163.35" cocos2d_y="-67.65" kX="-90" kY="-90" cX="2" cY="1.28" pX="0" pY="0" z="1" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="4" dI="-1"/>
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="-147.45" y="-73" cocos2d_x="-147.45" cocos2d_y="-73" kX="0" kY="0" cX="6.6" cY="0.33" pX="0" pY="0" z="2" dI="0" twE="0" dr="2"/>
+          <f x="5.1" y="-73" cocos2d_x="5.1" cocos2d_y="-73" kX="0" kY="0" cX="5.79" cY="0.46" pX="0" pY="0" z="2" dI="0" twE="0" dr="8">
+            <colorTransform a="0" r="128" g="92" b="0" aM="1" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="45.6" y="-73" cocos2d_x="45.6" cocos2d_y="-73" kX="0" kY="0" cX="4.7" cY="0.37" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 5 复制" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="29.5" y="-73" cocos2d_x="29.5" cocos2d_y="-73" kX="0" kY="0" cX="4.5" cY="0.4" pX="0" pY="0" z="3" dI="0" twE="0" dr="2"/>
+          <f x="142.35" y="-73" cocos2d_x="142.35" cocos2d_y="-73" kX="0" kY="0" cX="2.88" cY="0.61" pX="0" pY="0" z="3" dI="0" twE="0" dr="8">
+            <colorTransform a="0" r="120" g="114" b="0" aM="1" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="165.95" y="-73" cocos2d_x="165.95" cocos2d_y="-73" kX="0" kY="0" cX="2.47" cY="0.52" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="田归农普攻特效" width="256" height="256">
+    <SubTexture name="dsad-grd" width="98" height="158" x="52" y="0" cocos2d_pX="49" cocos2d_pY="79"/>
+    <SubTexture name="dsad-gr" width="50" height="221" x="0" y="0" cocos2d_pX="25" cocos2d_pY="110.5"/>
+    <SubTexture name="dsad-gdr" width="150" height="62" x="52" y="160" cocos2d_pX="75" cocos2d_pY="31"/>
+  </TextureAtlas>
+</skeleton>

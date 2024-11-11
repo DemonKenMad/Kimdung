@@ -1,0 +1,38 @@
+<skeleton name="岳不群 主动技能颜色 所有角色底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gsdgsdg" x="27.05" y="-102.85" kX="0" kY="0" cX="100" cY="100" pX="963.7" pY="647.7" z="0">
+        <d name="xxx-sdghfd03"/>
+      </b>
+      <b name="fdsfaf" x="45.05" y="-54.95" kX="0" kY="0" cX="2.69" cY="2.74" pX="0" pY="0" z="1">
+        <d name="xxx-sdghfd06"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="fsdgfa" dr="91" to="0" drTW="91" lp="0" twE="NaN">
+        <b name="gsdgsdg" sc="1" dl="0">
+          <f dr="24" dI="-1"/>
+          <f x="27.05" y="-102.85" cocos2d_x="-96397.95" cocos2d_y="-64912.85" kX="0" kY="0" cX="100" cY="100" pX="963.7" pY="647.7" z="0" dI="0" dr="2"/>
+          <f x="27.05" y="-102.85" cocos2d_x="-96397.95" cocos2d_y="-64912.85" kX="0" kY="0" cX="100" cY="100" pX="963.7" pY="647.7" z="0" dI="0" dr="37">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.82" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="28" dI="-1"/>
+        </b>
+        <b name="fdsfaf" sc="1" dl="0">
+          <f dr="66" dI="-1"/>
+          <f x="45.05" y="-54.95" cocos2d_x="45.05" cocos2d_y="-54.95" kX="0" kY="0" cX="2.69" cY="2.74" fst="0" pX="0" pY="0" z="1" dI="0" dr="22"/>
+          <f x="45.05" y="-54.95" cocos2d_x="45.05" cocos2d_y="-54.95" kX="0" kY="0" cX="2.69" cY="2.74" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="2"/>
+          <f x="45.05" y="-54.95" cocos2d_x="45.05" cocos2d_y="-54.95" kX="0" kY="0" cX="2.69" cY="2.74" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="岳不群 主动技能颜色 所有角色底层" width="512" height="512">
+    <SubTexture name="xxx-sdghfd06" width="482" height="272" x="0" y="0" cocos2d_pX="240.8" cocos2d_pY="135.65"/>
+    <SubTexture name="xxx-sdghfd03" width="20" height="13" x="484" y="0" cocos2d_pX="-954.6" cocos2d_pY="-641.6"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,101 @@
+<skeleton name="普通攻击(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="42.85" y="-19.45" kX="1.45" kY="1.45" cX="1" cY="1" pX="367.35" pY="478.7" z="0">
+        <d name="xxx/zhangweifilesCG03" isArmature="1" />
+        <d name="xxx/zhangweifilesCG05" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG03" isLoop="loop" startFrame="1">
+      <b name="元件 9" x="254.5" y="548.15" kX="29.1" kY="4.82" cX="2.09" cY="1.71" pX="325.6" pY="370.6" z="0">
+        <d name="xxx/zhangweifilesCG04" isArmature="1" />
+        <d name="xxx-n bfrtesrnmrtymy" />
+      </b>
+      <b name="元件 90" x="221" y="577" kX="45.7" kY="30.49" cX="1.94" cY="2.43" pX="325.6" pY="370.55" z="1">
+        <d name="xxx/zhangweifilesCG04" isArmature="1" />
+        <d name="xxx-n bfrtesrnmrtymy" />
+      </b>
+      <b name="元件 91" x="159.1" y="599.45" kX="56.29" kY="27.05" cX="2.38" cY="3.39" pX="325.15" pY="370.35" z="2">
+        <d name="xxx/zhangweifilesCG04" isArmature="1" />
+        <d name="xxx-n bfrtesrnmrtymy" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG04" isLoop="loop" startFrame="1">
+      <b name="刀光A 01.png" x="294.75" y="269.2" kX="0" kY="0" cX="1" cY="1" pX="64.5" pY="59" z="0">
+        <d name="xxx-zhangweifilesCG09" />
+        <d name="xxx-zhangweifilesCG08" />
+        <d name="xxx-zhangweifilesCG06" />
+        <d name="xxx-n bfrtesrnmrtymy" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesCG05" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="569.15" y="427.65" kX="-79.15" kY="124.49" cX="0.62" cY="2.19" pX="367.35" pY="478.8" z="0">
+        <d name="xxx/zhangweifilesCG03" isArmature="1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesCG04">
+      <mov name="sdafagasdfa" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="刀光A 01.png" sc="1" dl="0">
+          <f x="294.75" y="269.2" cocos2d_x="230.25" cocos2d_y="210.2" kX="0" kY="0" cX="1" cY="1" pX="64.5" pY="59" z="0" dI="0" dr="2" />
+          <f x="299.1" y="269.1" cocos2d_x="235.1" cocos2d_y="206.1" kX="0" kY="0" cX="1" cY="1" pX="64" pY="63" z="0" dI="1" dr="2" />
+          <f x="304.05" y="269.6" cocos2d_x="243.05" cocos2d_y="208.6" kX="0" kY="0" cX="1" cY="1" pX="61" pY="61" z="0" dI="2" dr="2" />
+          <f x="283.9" y="275.65" cocos2d_x="283.9" cocos2d_y="275.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifilesCG03">
+      <mov name="sdagfasdfas" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="元件 9" sc="1" dl="0">
+          <f x="254.5" y="548.15" cocos2d_x="-115.4" cocos2d_y="-61.3" kX="29.1" kY="4.82" cX="2.09" cY="1.71" fst="0" pX="325.6" pY="370.6" z="0" dI="0" dr="6" />
+          <f x="246.45" y="399.3" cocos2d_x="246.45" cocos2d_y="399.3" kX="29.1" kY="4.82" cX="2.09" cY="1.71" fst="0" pX="0" pY="0" z="0" dI="1" twE="0" dr="4" />
+          <f x="245.35" y="397.35" cocos2d_x="245.35" cocos2d_y="397.35" kX="29.1" kY="4.82" cX="2.09" cY="1.71" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="元件 90" sc="1" dl="0">
+          <f x="221" y="577" cocos2d_x="319.85" cocos2d_y="-371.2" kX="45.7" kY="30.49" cX="1.94" cY="2.43" fst="0" pX="325.6" pY="370.55" z="1" dI="0" dr="6" />
+          <f x="316.05" y="375.25" cocos2d_x="316.05" cocos2d_y="375.25" kX="45.7" kY="30.49" cX="1.94" cY="2.43" fst="0" pX="0" pY="0" z="1" dI="1" twE="0" dr="4" />
+          <f x="314.95" y="373.3" cocos2d_x="314.95" cocos2d_y="373.3" kX="45.7" kY="30.49" cX="1.94" cY="2.43" fst="0" pX="0" pY="0" z="1" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="元件 91" sc="1" dl="0">
+          <f x="159.1" y="599.45" cocos2d_x="513.2" cocos2d_y="-448.65" kX="56.29" kY="27.05" cX="2.38" cY="3.39" fst="0" pX="325.15" pY="370.35" z="2" dI="0" dr="6" />
+          <f x="338.35" y="376.75" cocos2d_x="338.35" cocos2d_y="376.75" kX="56.29" kY="27.05" cX="2.38" cY="3.39" fst="0" pX="0" pY="0" z="2" dI="1" twE="0" dr="4" />
+          <f x="337.25" y="374.8" cocos2d_x="337.25" cocos2d_y="374.8" kX="56.29" kY="27.05" cX="2.38" cY="3.39" fst="0" pX="0" pY="0" z="2" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifilesCG05">
+      <mov name="rwhsdfgdafgf" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="569.15" y="427.65" cocos2d_x="-333.15" cocos2d_y="41.95" kX="-79.15" kY="124.49" cX="0.62" cY="2.19" fst="0" pX="367.35" pY="478.8" z="0" dI="0" dr="10" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="ksdjkfkqsdflk" dr="32" to="0" drTW="32" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="42.85" y="-19.45" cocos2d_x="-312.25" cocos2d_y="-507.3" kX="1.45" kY="1.45" cX="1" cY="1" fst="0" pX="367.35" pY="478.7" z="0" dI="0" dr="10" />
+          <f dr="3" dI="-1" />
+          <f x="-42.1" y="-140.95" cocos2d_x="-411.55" cocos2d_y="-510.4" kX="0" kY="0" cX="1" cY="1" fst="0" pX="369.45" pY="369.45" z="0" dI="1" dr="7" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普通攻击(1)" width="256" height="256">
+    <SubTexture name="xxx-zhangweifilesCG06" width="118" height="97" x="125" y="0" cocos2d_pX="-1.00" cocos2d_pY="-23.00" />
+    <SubTexture name="xxx-zhangweifilesCG08" width="96" height="116" x="125" y="98" cocos2d_pX="-28.00" cocos2d_pY="-5.00" />
+    <SubTexture name="xxx-zhangweifilesCG09" width="124" height="111" x="0" y="0" cocos2d_pX="-5.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-n bfrtesrnmrtymy" width="115" height="45" x="0" y="112" cocos2d_pX="57.50" cocos2d_pY="-3.50" />
+  </TextureAtlas>
+</skeleton>

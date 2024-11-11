@@ -1,0 +1,49 @@
+<skeleton name="战斗内优输出内部光圈" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="0.9" y="2.85" kX="0" kY="0" cX="1.15" cY="1.15" pX="0" pY="0" z="0">
+        <d name="未命名文件夹 1-025054"/>
+        <d name="未命名文件夹 1-340545"/>
+        <d name="未命名文件夹 1-254340554"/>
+        <d name="未命名文件夹 1-452054"/>
+        <d name="未命名文件夹 1-54320534"/>
+        <d name="未命名文件夹 1-54054354"/>
+        <d name="未命名文件夹 1-54230454"/>
+        <d name="未命名文件夹 1-54320543"/>
+        <d name="未命名文件夹 1-2543405354"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="anim" dr="50" to="0" drTW="50" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0.9" y="2.85" cocos2d_x="0.9" cocos2d_y="2.85" kX="0" kY="0" cX="1.15" cY="1.15" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.9" y="2.8" cocos2d_x="0.9" cocos2d_y="2.8" kX="0" kY="0" cX="1.15" cY="1.15" pX="0" pY="0" z="0" dI="1" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" blend="normal" dr="1" twE="NaN"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" blend="normal" twE="1" dr="7"/>
+          <f x="0.4" y="-0.4" cocos2d_x="0.4" cocos2d_y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="34" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="战斗内优输出内部光圈" width="512" height="256">
+    <SubTexture name="未命名文件夹 1-2543405354" width="93" height="92" x="0" y="94" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-54320543" width="93" height="92" x="190" y="0" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-54230454" width="93" height="92" x="95" y="94" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-54054354" width="93" height="92" x="380" y="0" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-54320534" width="93" height="92" x="0" y="0" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-452054" width="93" height="92" x="95" y="0" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-254340554" width="93" height="92" x="285" y="0" cocos2d_pX="46.1" cocos2d_pY="45.65"/>
+    <SubTexture name="未命名文件夹 1-340545" width="69" height="69" x="190" y="94" cocos2d_pX="34.2" cocos2d_pY="34.15"/>
+    <SubTexture name="未命名文件夹 1-025054" width="40" height="40" x="261" y="94" cocos2d_pX="19.95" cocos2d_pY="19.95"/>
+  </TextureAtlas>
+</skeleton>

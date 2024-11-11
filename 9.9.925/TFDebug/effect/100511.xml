@@ -1,0 +1,26 @@
+<skeleton name="枯荣普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="158" y="-117.95" kX="0" kY="0" cX="1.6" cY="1.6" pX="32" pY="70.5" z="0">
+        <d name="3246-67867" />
+        <d name="3246-678675" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="456788" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="158" y="-117.95" cocos2d_x="106.7" cocos2d_y="-231" kX="0" kY="0" cX="1.6" cY="1.6" pX="32" pY="70.5" z="0" dI="0" dr="2" />
+          <f x="173.25" y="-114" cocos2d_x="131.6" cocos2d_y="-249" kX="0" kY="0" cX="1.67" cY="1.67" pX="25" pY="81" z="0" dI="1" dr="2" />
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="枯荣普工" width="128" height="256">
+    <SubTexture name="3246-678675" width="50" height="162" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="3246-67867" width="56" height="141" x="51" y="0" cocos2d_pX="-5.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

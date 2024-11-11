@@ -1,0 +1,37 @@
+<skeleton name="子弹飞星" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-55.4" y="-0.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/btrn btr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/btrn btr" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-9.65" y="1.65" kX="0" kY="0" cX="1" cY="0.35" pX="81" pY="64" z="0">
+        <d name="xxx-sdafasgasfa" />
+        <d name="xxx-asdasgfvasf" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/btrn btr">
+      <mov name="daasdga" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-9.65" y="1.65" cocos2d_x="-90.65" cocos2d_y="-20.6" kX="0" kY="0" cX="1" cY="0.35" pX="81" pY="64" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-9.65" y="1.65" cocos2d_x="-90.65" cocos2d_y="-20.6" kX="0" kY="0" cX="1" cY="0.35" pX="81" pY="64" z="0" dI="1" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="asdfasgas" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-55.4" y="-0.7" cocos2d_x="-55.4" cocos2d_y="-0.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-55.4" y="-0.7" cocos2d_x="-55.4" cocos2d_y="-0.7" kX="0" kY="0" cX="1" cY="1" fst="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="子弹飞星" width="256" height="256">
+    <SubTexture name="xxx-asdasgfvasf" width="162" height="127" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-sdafasgasfa" width="161" height="126" x="0" y="128" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

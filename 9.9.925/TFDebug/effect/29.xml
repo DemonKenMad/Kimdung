@@ -1,0 +1,72 @@
+<skeleton name="闪避" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="0.95" y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0">
+        <d name="donzuo-vvxxcvx" />
+      </b>
+      <b name="图层 2" x="-53.7" y="-31.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="donzuo-56" />
+        <d name="donzuo-453204354" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="start" dr="32" to="0" drTW="32" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="0.95" y="-32.6" cocos2d_x="1.05" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="3.65" y="-32.6" cocos2d_x="3.75" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="1.85" y="-32.6" cocos2d_x="1.95" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="1" dr="4" />
+          <f x="2.6" y="-32.9" cocos2d_x="2.75" cocos2d_y="-32.9" kX="0" kY="0" cX="1.36" cY="1.36" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="2.6" y="-32.9" cocos2d_x="2.75" cocos2d_y="-32.9" kX="0" kY="0" cX="1.36" cY="1.36" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="9" />
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" dr="4" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-53.7" y="-31.25" cocos2d_x="-53.7" cocos2d_y="-31.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-3.9" y="-31.25" cocos2d_x="-3.9" cocos2d_y="-31.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" blend="normal" twE="1" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1.36" cY="1.36" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="1" />
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1.36" cY="1.36" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="9" />
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" blend="normal" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+      <mov name="xunhuan" dr="13" to="0" drTW="13" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1.05" cY="1.05" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1.05" cY="1.05" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="6" />
+          <f x="2.45" y="-32.6" cocos2d_x="2.55" cocos2d_y="-32.6" kX="0" kY="0" cX="1" cY="1" pX="-0.1" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1.05" cY="1.05" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1.05" cY="1.05" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="2" y="-31.85" cocos2d_x="2" cocos2d_y="-31.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="闪避" width="128" height="256">
+    <SubTexture name="donzuo-453204354" width="62" height="64" x="0" y="64" cocos2d_pX="31.55" cocos2d_pY="32.55" />
+    <SubTexture name="donzuo-56" width="66" height="63" x="0" y="0" cocos2d_pX="34.40" cocos2d_pY="33.20" />
+    <SubTexture name="donzuo-vvxxcvx" width="62" height="64" x="63" y="64" cocos2d_pX="32.10" cocos2d_pY="31.75" />
+  </TextureAtlas>
+</skeleton>

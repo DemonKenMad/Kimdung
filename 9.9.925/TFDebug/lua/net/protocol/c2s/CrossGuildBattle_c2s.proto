@@ -1,0 +1,102 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SCrossGuildBattleMsg";
+
+//获得资格赛信息
+//code = 0x4433
+message GainQualifyingInfoList{
+
+}
+//城市信息
+//code = 0x4434
+message GainCityInfo{
+	required int32 cityId = 1;
+}
+
+//城市对战信息
+// code = 0x4435
+message GainCityBattleInfos{
+	required int32 cityId = 1;
+}
+
+//公会录像信息
+// code = 0x4436
+message GainCrossGuildBattleReplayInfos{
+	required int32 warId = 1;
+}
+
+//城市对战简单信息
+// code = 0x4437
+message GainCityBattleSimpleInfo{
+
+}
+
+//当前状态
+// code = 0x4438
+message GainGuildBattleCurrentState{
+
+}
+
+//公会战战斗信息
+//code = 0x4439
+message GainGuildBattleWarInfos{
+	required int32 cityId = 1;
+}
+//申请成功
+// code = 0x443A
+message ApplyCrossGuildBattle{
+	required int32 index =1;
+}
+//取消申请
+// code = 0x443B
+message UnapplyCrossGuildBattle{
+
+}
+//修改精英
+// code = 0x443C
+message UpdateEliteCrossGuildBattle{
+	required int32 index = 1;
+	required int32 playerId = 2;
+}
+
+//修改城市
+// code = 0x443D
+message UpdateCity{
+	required int32 cityId = 1;
+}
+
+//获得上一次冠军
+// code = 0x443E
+message GainLastRankInfo{
+
+}
+
+//申请简单信息
+//code = 0x443F
+message GainApplySimpleInfo{
+
+}
+//申请简单信息
+//code = 0x4440
+message GainAllCityInfo{
+
+}
+
+//公会的成员信息
+// code = 0x4441
+message QueryCrossGuildBattleMemberInfo{
+
+}
+
+//修改申请
+//code = 0x4442
+message UpdateCrossApply{
+
+	repeated ApplyCrossTeam teams =1;
+
+}
+
+message ApplyCrossTeam{
+	repeated int32 members = 1;
+	required int32 flag = 2;
+}

@@ -1,0 +1,37 @@
+<skeleton name="未命名-4" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="171.45" y="-99.3" kX="0" kY="0" cX="2.68" cY="2.26" pX="0.5" pY="0.05" z="0">
+        <d name="sdas-putonggongji" />
+      </b>
+      <b name="图层 4" x="302.3" y="-104" kX="0" kY="0" cX="1.19" cY="1.19" pX="0.35" pY="0" z="1">
+        <d name="sdas-guangquan" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dfs" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f x="171.45" y="-99.3" cocos2d_x="170.1" cocos2d_y="-99.4" kX="0" kY="0" cX="2.68" cY="2.26" pX="0.5" pY="0.05" z="0" dI="0" twE="0" dr="1" />
+          <f x="171.5" y="-99.35" cocos2d_x="170.15" cocos2d_y="-99.45" kX="0" kY="0" cX="2.68" cY="2.26" pX="0.5" pY="0.05" z="0" dI="0" twE="0" dr="2" />
+          <f x="171.45" y="-99.35" cocos2d_x="169.15" cocos2d_y="-99.4" kX="0" kY="0" cX="4.64" cY="0.9" pX="0.5" pY="0.05" z="0" dI="0" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="302.3" y="-104" cocos2d_x="301.9" cocos2d_y="-104" kX="0" kY="0" cX="1.19" cY="1.19" pX="0.35" pY="0" z="1" dI="0" blend="add" twE="0" dr="1" />
+          <f x="302.25" y="-104" cocos2d_x="301.65" cocos2d_y="-104" kX="0" kY="0" cX="1.76" cY="1.76" pX="0.35" pY="0" z="1" dI="0" blend="add" twE="0" dr="1" />
+          <f x="302.25" y="-104" cocos2d_x="301.65" cocos2d_y="-104" kX="0" kY="0" cX="1.76" cY="1.76" pX="0.35" pY="0" z="1" dI="0" blend="add" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+        <f st="0" dr="6" />
+        <f st="6" dr="1" />
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="未命名-4" width="256" height="256">
+    <SubTexture name="sdas-guangquan" width="115" height="117" x="0" y="81" cocos2d_pX="58.15" cocos2d_pY="59.50" />
+    <SubTexture name="sdas-putonggongji" width="159" height="80" x="0" y="0" cocos2d_pX="73.50" cocos2d_pY="39.95" />
+  </TextureAtlas>
+</skeleton>

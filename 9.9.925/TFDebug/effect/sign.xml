@@ -1,0 +1,42 @@
+<skeleton name="签到中状态" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="3.95" y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="csvvv-540553"/>
+        <d name="csvvv-24054"/>
+        <d name="csvvv-42504254"/>
+        <d name="csvvv-2054324"/>
+        <d name="csvvv-54303454"/>
+        <d name="csvvv-4204"/>
+        <d name="csvvv-402254"/>
+        <d name="csvvv-530.3540"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="anim" dr="16" to="0" drTW="16" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" blend="normal" dr="2"/>
+          <f x="3.95" y="-43.05" cocos2d_x="3.95" cocos2d_y="-43.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" blend="normal" dr="2"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="签到中状态" width="512" height="512">
+    <SubTexture name="csvvv-530.3540" width="137" height="165" x="139" y="0" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-402254" width="137" height="165" x="0" y="334" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-4204" width="137" height="165" x="0" y="167" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-54303454" width="137" height="165" x="139" y="334" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-2054324" width="137" height="165" x="0" y="0" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-42504254" width="137" height="165" x="278" y="0" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-24054" width="137" height="165" x="139" y="167" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+    <SubTexture name="csvvv-540553" width="137" height="165" x="278" y="167" cocos2d_pX="68.5" cocos2d_pY="82.5"/>
+  </TextureAtlas>
+</skeleton>

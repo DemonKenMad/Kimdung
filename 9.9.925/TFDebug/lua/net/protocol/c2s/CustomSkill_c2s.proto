@@ -1,0 +1,18 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+option java_outer_classname="C2SCustomSkill";
+
+//保存阵型的自定义技能
+// code = 0x0f2b
+message CustomSkillInfoClient{
+	required int32 strategyType=1;//阵型
+	required bool isUse=2;//是否使用自定义
+	repeated int32 baseOrder=3;//常规顺序
+	repeated SpecialOrderInfoClient specialOrder=4;//特殊顺序
+}
+
+message SpecialOrderInfoClient{
+	required int32 roleId=1;//角色ID
+	required bool isCheckBox=2;//是否勾选
+	required int32 specialOrderType=3;
+	required int32 percentNum=4;//百分比数字
+}

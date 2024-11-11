@@ -1,0 +1,37 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2STianJiLunMsg";
+
+//天机轮获取信息
+//code = 0x7500
+message TianJiLunInfoRequest
+{
+
+}
+
+//天机轮投币
+//code = 0x7501
+message TianJiLunCoinRequest
+{
+	required int32 type = 1;
+}
+
+//天机轮开启
+//code = 0x7502
+message TianJiLunOpenRequest
+{
+
+}
+
+//天机轮请求排名
+//code = 0x7503
+message TianJiLunRankRequest
+{
+
+}
+
+//天机轮请求奖励池
+//code = 0x7504
+message TianJiLunBonusPoolRequest{
+
+}

@@ -1,0 +1,65 @@
+<skeleton name="逍遥子主技能受击输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="xcwxcw" x="0.7" y="0.6" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0">
+        <d name="xxx/xcwsxcw" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/xcwsxcw" isLoop="loop" startFrame="1">
+      <b name="xcwcqw" x="-2.3" y="-191.05" kX="0" kY="0" cX="1" cY="1" pX="80" pY="230.5" z="0">
+        <d name="xxx-xcwrw"/>
+        <d name="xxx-xcwcw"/>
+        <d name="xxx-xcwxcwxcw"/>
+        <d name="xxx-frwscwx"/>
+        <d name="xxx-fwcxcw"/>
+        <d name="xxx-cxcw"/>
+        <d name="xxx-xcw"/>
+        <d name="xxx-cwxcw"/>
+        <d name="xxx-xcwxcw"/>
+        <d name="xxx-cwscw"/>
+        <d name="xxx-frwcw"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/xcwsxcw">
+      <mov name="xcwcw" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="xcwcqw" sc="1" dl="0">
+          <f x="-2.3" y="-191.05" cocos2d_x="-82.3" cocos2d_y="-421.55" kX="0" kY="0" cX="1" cY="1" pX="80" pY="230.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="-0.05" y="-196.9" cocos2d_x="-156.05" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="156" pY="244" z="0" dI="1" dr="1" twE="NaN"/>
+          <f x="-6.45" y="-199.15" cocos2d_x="-136.95" cocos2d_y="-430.65" kX="0" kY="0" cX="1" cY="1" pX="130.5" pY="231.5" z="0" dI="2" dr="1" twE="NaN"/>
+          <f x="-0.05" y="-196.9" cocos2d_x="-156.05" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="156" pY="244" z="0" dI="3" dr="1" twE="NaN"/>
+          <f x="-10.15" y="-201.4" cocos2d_x="-144.65" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="134.5" pY="239.5" z="0" dI="4" dr="2"/>
+          <f x="-6.15" y="-205.9" cocos2d_x="-140.65" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="134.5" pY="235" z="0" dI="5" dr="2"/>
+          <f x="-4.35" y="-212.9" cocos2d_x="-134.35" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="130" pY="228" z="0" dI="6" dr="2"/>
+          <f x="-5.45" y="-212.9" cocos2d_x="-130.45" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="125" pY="228" z="0" dI="7" dr="2"/>
+          <f x="-2.5" y="-205.85" cocos2d_x="-94" cocos2d_y="-422.85" kX="0" kY="0" cX="1" cY="1" pX="91.5" pY="217" z="0" dI="8" dr="2"/>
+          <f x="-2.4" y="-220.4" cocos2d_x="-84.9" cocos2d_y="-440.9" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="220.5" z="0" dI="9" dr="2"/>
+          <f x="-14.15" y="-148.35" cocos2d_x="-70.65" cocos2d_y="-217.35" kX="0" kY="0" cX="1" cY="1" pX="56.5" pY="69" z="0" dI="10" dr="2"/>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sdwcwfr" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="xcwxcw" sc="1" dl="0">
+          <f x="0.7" y="0.6" cocos2d_x="0.7" cocos2d_y="0.6" kX="0" kY="0" cX="1.5" cY="1.5" fst="0" pX="0" pY="0" z="0" dI="0" dr="18"/>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="逍遥子主技能受击输出" width="2048" height="1024">
+    <SubTexture name="xxx-frwcw" width="113" height="138" x="1170" y="465" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-cwscw" width="165" height="441" x="1780" y="458" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-xcwxcw" width="183" height="434" x="1595" y="458" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-cwxcw" width="250" height="456" x="1695" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-xcw" width="260" height="456" x="1433" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-cxcw" width="269" height="470" x="899" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-fwcxcw" width="269" height="479" x="628" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-frwscwx" width="312" height="488" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-xcwxcwxcw" width="261" height="463" x="1170" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-xcwcw" width="312" height="488" x="314" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-xcwrw" width="160" height="461" x="1433" y="458" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,72 @@
+<skeleton name="林远图  神技 被动部分输出受击" frameRate="23" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="faga" x="0.2" y="-71.9" kX="0" kY="0" cX="0.24" cY="0.24" pX="708.25" pY="711.8" z="0">
+        <d name="xxx/shfff02" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shfff02" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="724.15" y="703.85" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0">
+        <d name="xxx-shfff06" />
+        <d name="xxx-shfff08" />
+        <d name="xxx-shfff10" />
+        <d name="xxx-shfff12" />
+        <d name="xxx-shfff14" />
+        <d name="xxx-shfff16" />
+        <d name="xxx-shfff18" />
+        <d name="xxx-shfff20" />
+        <d name="xxx-shfff22" />
+        <d name="xxx-shfff24" />
+      </b>
+      <b name="图层 3" x="697.7" y="712.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-shfff04" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shfff02">
+      <mov name="gsgsdfggf" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="724.15" y="703.85" cocos2d_x="724.15" cocos2d_y="703.85" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="715.1" y="731.5" cocos2d_x="715.1" cocos2d_y="731.5" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="689.8" y="679.5" cocos2d_x="689.8" cocos2d_y="679.5" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="695.2" y="702.7" cocos2d_x="695.2" cocos2d_y="702.7" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="701" y="701" cocos2d_x="701" cocos2d_y="701" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="702.5" y="718.4" cocos2d_x="702.5" cocos2d_y="718.4" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="729.5" y="728" cocos2d_x="729.5" cocos2d_y="728" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="693" y="700.75" cocos2d_x="693" cocos2d_y="700.75" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="700.9" y="704.45" cocos2d_x="700.9" cocos2d_y="704.45" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+          <f x="701.1" y="701.5" cocos2d_x="701.1" cocos2d_y="701.5" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="9" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="697.7" y="712.45" cocos2d_x="697.7" cocos2d_y="712.45" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f dr="13" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gsgddsfaf" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="faga" sc="1" dl="0">
+          <f x="0.2" y="-71.9" cocos2d_x="-167.25" cocos2d_y="-240.2" kX="0" kY="0" cX="0.24" cY="0.24" fst="0" pX="708.25" pY="711.8" z="0" dI="0" dr="2" />
+          <f x="0.2" y="-71.9" cocos2d_x="-261.2" cocos2d_y="-334.65" kX="0" kY="0" cX="0.37" cY="0.37" fst="2" pX="708.2" pY="711.85" z="0" dI="0" dr="11" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="林远图  神技 被动部分输出受击" width="1024" height="1024">
+    <SubTexture name="xxx-shfff04" width="482" height="307" x="0" y="0" cocos2d_pX="242.00" cocos2d_pY="154.75" />
+    <SubTexture name="xxx-shfff24" width="271" height="185" x="656" y="669" cocos2d_pX="135.00" cocos2d_pY="92.85" />
+    <SubTexture name="xxx-shfff22" width="234" height="164" x="0" y="852" cocos2d_pX="116.75" cocos2d_pY="82.40" />
+    <SubTexture name="xxx-shfff20" width="225" height="154" x="656" y="855" cocos2d_pX="114.00" cocos2d_pY="76.90" />
+    <SubTexture name="xxx-shfff18" width="321" height="202" x="0" y="649" cocos2d_pX="162.85" cocos2d_pY="101.00" />
+    <SubTexture name="xxx-shfff16" width="339" height="312" x="333" y="352" cocos2d_pX="170.35" cocos2d_pY="155.85" />
+    <SubTexture name="xxx-shfff14" width="340" height="351" x="483" y="0" cocos2d_pX="167.25" cocos2d_pY="175.25" />
+    <SubTexture name="xxx-shfff12" width="332" height="340" x="0" y="308" cocos2d_pX="165.95" cocos2d_pY="169.90" />
+    <SubTexture name="xxx-shfff10" width="333" height="306" x="322" y="665" cocos2d_pX="166.55" cocos2d_pY="152.85" />
+    <SubTexture name="xxx-shfff08" width="331" height="316" x="673" y="352" cocos2d_pX="165.45" cocos2d_pY="157.85" />
+    <SubTexture name="xxx-shfff06" width="114" height="87" x="824" y="0" cocos2d_pX="57.60" cocos2d_pY="44.10" />
+  </TextureAtlas>
+</skeleton>

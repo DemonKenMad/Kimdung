@@ -1,0 +1,162 @@
+<skeleton name="李四技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="124" y="-137.05" kX="0" kY="180" cX="1.5" cY="1.5" pX="33.05" pY="-0.95" z="0">
+        <d name="xzx/gongji" isArmature="1" />
+        <d name="xzx-hth 1" />
+      </b>
+      <b name="图层 3" x="216.65" y="4.25" kX="0" kY="0" cX="2.08" cY="2.08" pX="0" pY="0" z="1">
+        <d name="xzx-PO" />
+      </b>
+      <b name="图层 4" x="-118.65" y="-102.65" kX="93" kY="93" cX="1" cY="1" pX="-3" pY="17.05" z="2">
+        <d name="xzx/quanguang" isArmature="1" />
+      </b>
+      <b name="天堂411" x="215.4" y="-2.35" kX="0" kY="0" cX="0.8" cY="0.85" pX="8.45" pY="135.2" z="3">
+        <d name="xzx/v 1" isArmature="1" />
+      </b>
+      <b name="图层 6" x="216.65" y="4.25" kX="0" kY="0" cX="2.08" cY="2.08" pX="0" pY="0" z="4">
+        <d name="xzx-PO" />
+      </b>
+    </armature>
+    <armature name="xzx/gongji" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="33" y="-0.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0">
+        <d name="xzx-bingbao_01.png" />
+        <d name="xzx-bingbao_05.png" />
+        <d name="xzx-bingbao_07.png" />
+        <d name="xzx-bingbao_09.png" />
+        <d name="xzx-bingbao_11.png" />
+      </b>
+    </armature>
+    <armature name="xzx/quanguang">
+      <b name="图层 1" x="3.55" y="28.15" kX="0" kY="0" cX="1" cY="1" pX="76.5" pY="70.5" z="0">
+        <d name="xzx-n2" />
+        <d name="xzx-n1" />
+        <d name="xzx-n3" />
+        <d name="xzx-n" />
+      </b>
+    </armature>
+    <armature name="xzx/v 1" isLoop="play once" startFrame="1">
+      <b name="图层 4" x="32.15" y="114.95" kX="29.32" kY="29.32" cX="3.53" cY="1.45" pX="0.9" pY="62.8" z="0">
+        <d name="xzx-n 4" />
+      </b>
+      <b name="图层 3" x="-85.65" y="135.45" kX="18.43" kY="18.43" cX="1.96" cY="0.95" pX="0.75" pY="62.7" z="1">
+        <d name="xzx-n 4" />
+      </b>
+      <b name="图层 2" x="-82.05" y="128.25" kX="-13.72" kY="-13.72" cX="1.01" cY="1.01" pX="2" pY="40.45" z="2">
+        <d name="xzx-n 3" />
+      </b>
+      <b name="天堂406" x="4.5" y="141.6" kX="0" kY="0" cX="1.55" cY="1.55" pX="2.4" pY="36.7" z="3">
+        <d name="xzx-n 1 g" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xzx/gongji">
+      <mov name="65" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="0" dr="2" />
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="1" dr="2" />
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="2" dr="2" />
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="3" dr="2" />
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="4" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/quanguang">
+      <mov name="fdsfsd" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="3.55" y="28.15" cocos2d_x="-72.95" cocos2d_y="-42.35" kX="0" kY="0" cX="1" cY="1" pX="76.5" pY="70.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="2.15" y="22.7" cocos2d_x="-60.85" cocos2d_y="-45.3" kX="0" kY="0" cX="1" cY="1" pX="63" pY="68" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="3.85" y="17.25" cocos2d_x="-52.15" cocos2d_y="-53.75" kX="0" kY="0" cX="1" cY="1" pX="56" pY="71" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="5.65" y="1.95" cocos2d_x="-25.85" cocos2d_y="-44.55" kX="0" kY="0" cX="1" cY="1" pX="31.5" pY="46.5" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/v 1">
+      <mov name="21" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="32.15" y="114.95" cocos2d_x="73.9" cocos2d_y="34.1" kX="29.32" kY="29.32" cX="3.53" cY="1.45" pX="0.9" pY="62.8" z="0" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="33.65" y="113.9" cocos2d_x="126.45" cocos2d_y="-64.7" kX="28.14" kY="28.14" cX="3.2" cY="3.2" pX="0.8" pY="62.85" z="0" dI="0" blend="normal" dr="25" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-85.65" y="135.45" cocos2d_x="-68.1" cocos2d_y="78.45" kX="18.43" kY="18.43" cX="1.96" cY="0.95" pX="0.75" pY="62.7" z="1" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="-88.05" y="135.15" cocos2d_x="-52.35" cocos2d_y="24.55" kX="18.43" kY="18.43" cX="1.85" cY="1.85" pX="0.6" pY="62.65" z="1" dI="0" blend="normal" dr="25" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-82.05" y="128.25" cocos2d_x="-93.65" cocos2d_y="89.15" kX="-13.72" kY="-13.72" cX="1.01" cY="1.01" pX="2" pY="40.45" z="2" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="-77.85" y="138.4" cocos2d_x="-101.65" cocos2d_y="58.3" kX="-13.72" kY="-13.72" cX="2.06" cY="2.06" pX="2.05" pY="40.6" z="2" dI="0" blend="normal" dr="25" />
+        </b>
+        <b name="天堂406" sc="1" dl="0">
+          <f x="4.5" y="141.6" cocos2d_x="0.75" cocos2d_y="84.55" kX="0" kY="0" cX="1.55" cY="1.55" pX="2.4" pY="36.7" z="3" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="4.5" y="140.55" cocos2d_x="0.75" cocos2d_y="73.2" kX="0" kY="0" cX="1.55" cY="1.83" pX="2.4" pY="36.7" z="3" dI="0" blend="normal" dr="25" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="51" to="0" drTW="51" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="124" y="-137.05" cocos2d_x="173.45" cocos2d_y="-135.65" kX="0" kY="180" cX="1.5" cY="1.5" fst="0" pX="33.05" pY="-0.95" z="0" dI="0" dr="8" />
+          <f dr="8" dI="-1" />
+          <f x="246.45" y="-177.1" cocos2d_x="246.45" cocos2d_y="-177" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="1" blend="normal" twE="0" dr="21" />
+          <f x="255.45" y="-178.1" cocos2d_x="255.45" cocos2d_y="-178" kX="0" kY="0" cX="2.26" cY="2.26" pX="0" pY="-0.05" z="0" dI="1" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.08" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="29" dI="-1" />
+          <f x="216.65" y="4.25" cocos2d_x="216.65" cocos2d_y="4.25" kX="0" kY="0" cX="2.08" cY="2.08" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="217.9" y="5.75" cocos2d_x="217.9" cocos2d_y="5.75" kX="23.16" kY="0" cX="2.68" cY="3.65" pX="0" pY="0" z="1" dI="0" blend="normal" dr="7" />
+          <f x="217.9" y="5.75" cocos2d_x="217.9" cocos2d_y="5.75" kX="23.16" kY="0" cX="2.68" cY="3.65" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="10" />
+          <f x="217.9" y="5.75" cocos2d_x="217.9" cocos2d_y="5.75" kX="23.16" kY="0" cX="2.68" cY="3.65" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.08" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-118.65" y="-102.65" cocos2d_x="-101.8" cocos2d_y="-98.8" kX="93" kY="93" cX="1" cY="1" pX="-3" pY="17.05" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="48.35" y="-55.6" cocos2d_x="84.85" cocos2d_y="-49.75" kX="93" kY="93" cX="1.33" cY="2.16" fst="0" pX="-2.95" pY="17" z="2" dI="0" dr="4" />
+          <f dr="9" dI="-1" />
+          <f x="48.5" y="-116.5" cocos2d_x="94.8" cocos2d_y="-140.05" kX="57.13" kY="57.13" cX="1.88" cY="3.04" fst="0" pX="-2.85" pY="17" z="2" dI="0" dr="4" />
+          <f dr="29" dI="-1" />
+        </b>
+        <b name="天堂411" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="215.4" y="-2.35" cocos2d_x="208.65" cocos2d_y="-117.2" kX="0" kY="0" cX="0.8" cY="0.85" fst="0" pX="8.45" pY="135.2" z="3" dI="0" dr="12" />
+          <f x="215.4" y="-2.35" cocos2d_x="208.65" cocos2d_y="-117.2" kX="0" kY="0" cX="0.8" cY="0.85" fst="6" pX="8.45" pY="135.2" z="3" dI="0" twE="0" dr="9" />
+          <f x="215.4" y="-2.35" cocos2d_x="208.65" cocos2d_y="-117.2" kX="0" kY="0" cX="0.8" cY="0.85" fst="3" pX="8.45" pY="135.2" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="216.65" y="4.25" cocos2d_x="216.65" cocos2d_y="4.25" kX="0" kY="0" cX="2.08" cY="2.08" pX="0" pY="0" z="4" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="217.9" y="5.75" cocos2d_x="217.9" cocos2d_y="5.75" kX="23.16" kY="0" cX="2.68" cY="3.65" pX="0" pY="0" z="4" dI="0" blend="normal" dr="7" />
+          <f x="217.9" y="5.75" cocos2d_x="217.9" cocos2d_y="5.75" kX="23.16" kY="0" cX="2.68" cY="3.65" pX="0" pY="0" z="4" dI="0" blend="normal" twE="0" dr="9" />
+          <f x="217.9" y="5.75" cocos2d_x="217.9" cocos2d_y="5.75" kX="23.16" kY="0" cX="2.68" cY="3.65" pX="0" pY="0" z="4" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.08" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="李四技能" width="512" height="1024">
+    <SubTexture name="xzx-n 1 g" width="228" height="129" x="199" y="0" cocos2d_pX="113.70" cocos2d_pY="64.15" />
+    <SubTexture name="xzx-n 3" width="34" height="108" x="425" y="153" cocos2d_pX="16.60" cocos2d_pY="54.05" />
+    <SubTexture name="xzx-n 4" width="49" height="152" x="428" y="0" cocos2d_pX="24.15" cocos2d_pY="75.85" />
+    <SubTexture name="xzx-n" width="41" height="87" x="460" y="153" cocos2d_pX="-11.00" cocos2d_pY="-3.00" />
+    <SubTexture name="xzx-n3" width="100" height="127" x="324" y="130" cocos2d_pX="-7.00" cocos2d_pY="-7.00" />
+    <SubTexture name="xzx-n1" width="114" height="131" x="248" y="419" cocos2d_pX="-7.00" cocos2d_pY="-2.00" />
+    <SubTexture name="xzx-n2" width="130" height="132" x="117" y="289" cocos2d_pX="-15.00" cocos2d_pY="-5.00" />
+    <SubTexture name="xzx-bingbao_11.png" width="106" height="62" x="0" y="420" cocos2d_pX="-18.00" cocos2d_pY="-29.00" />
+    <SubTexture name="xzx-bingbao_09.png" width="109" height="69" x="363" y="419" cocos2d_pX="-15.00" cocos2d_pY="-24.00" />
+    <SubTexture name="xzx-bingbao_07.png" width="116" height="155" x="0" y="264" cocos2d_pX="-8.00" cocos2d_pY="-3.00" />
+    <SubTexture name="xzx-bingbao_05.png" width="124" height="158" x="199" y="130" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzx-bingbao_01.png" width="124" height="156" x="324" y="262" cocos2d_pX="0.00" cocos2d_pY="-2.00" />
+    <SubTexture name="xzx-PO" width="119" height="13" x="107" y="422" cocos2d_pX="60.60" cocos2d_pY="6.75" />
+    <SubTexture name="xzx-hth 1" width="198" height="263" x="0" y="0" cocos2d_pX="99.45" cocos2d_pY="131.80" />
+  </TextureAtlas>
+</skeleton>

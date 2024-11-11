@@ -1,0 +1,117 @@
+<skeleton name="狄云 普攻fx" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 10" x="8.25" y="-152.35" kX="0" kY="0" cX="2" cY="2" pX="7.85" pY="-147.9" z="0">
+        <d name="diyun/SGdsfh" isArmature="1" />
+      </b>
+      <b name="图层 12" x="79.6" y="-235.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="diyun-66" />
+        <d name="diyun-777" />
+        <d name="diyun-666" />
+      </b>
+      <b name="图层 6" x="262.65" y="-107.7" kX="0" kY="0" cX="2.19" cY="2.19" pX="0" pY="-0.05" z="2">
+        <d name="diyun/ghjl" isArmature="1" />
+      </b>
+      <b name="图层 5" x="237.35" y="-79.45" kX="115.24" kY="115.24" cX="2.19" cY="2.19" pX="-0.05" pY="-0.05" z="3">
+        <d name="diyun/ghjl" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="diyun/SGdsfh" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="9.9" y="-145.7" kX="0" kY="0" cX="2" cY="2" pX="102" pY="58.25" z="0">
+        <d name="diyun-Zbbdg" />
+        <d name="diyun-Zdggjh" />
+        <d name="diyun-zxgdafh" />
+        <d name="diyun-Zhbxn" />
+        <d name="diyun-xxghgj" />
+        <d name="diyun-sdgfh" />
+        <d name="diyun-sdgdfh" />
+        <d name="diyun-sdsfjgj" />
+        <d name="diyun-dzgsdfj" />
+      </b>
+    </armature>
+    <armature name="diyun/ghjl" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="6.2" y="1.1" kX="50.22" kY="50.22" cX="2" cY="2" pX="0" pY="-0.05" z="0">
+        <d name="diyun-tz6677885685685685" />
+        <d name="diyun-tz5yu5685dfgdf" />
+        <d name="diyun-tz66778856856895695" />
+        <d name="diyun-tz667788547458458458" />
+        <d name="diyun-tz119919547547457" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="diyun/SGdsfh">
+      <mov name="dsh" dr="13" to="0" drTW="13" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="9.9" y="-145.7" cocos2d_x="-194.1" cocos2d_y="-262.2" kX="0" kY="0" cX="2" cY="2" pX="102" pY="58.25" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="54.1" y="-116.8" cocos2d_x="-242.9" cocos2d_y="-260.8" kX="0" kY="0" cX="2" cY="2" pX="148.5" pY="72" z="0" dI="1" dr="2" />
+          <f x="59.85" y="-126.7" cocos2d_x="-202.15" cocos2d_y="-253.7" kX="0" kY="0" cX="2" cY="2" pX="131" pY="63.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="69.85" y="-125.2" cocos2d_x="-172.15" cocos2d_y="-259.2" kX="0" kY="0" cX="2" cY="2" pX="121" pY="67" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="68.85" y="-150.2" cocos2d_x="-177.15" cocos2d_y="-226.2" kX="0" kY="0" cX="2" cY="2" pX="123" pY="38" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="102.85" y="-132.15" cocos2d_x="-63.15" cocos2d_y="-246.15" kX="0" kY="0" cX="2" cY="2" pX="83" pY="57" z="0" dI="5" dr="2" />
+          <f x="61.1" y="-121.35" cocos2d_x="-209.7" cocos2d_y="-257.65" kX="0" kY="0" cX="2" cY="2" pX="135.4" pY="68.15" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="57.85" y="-123.7" cocos2d_x="-214.15" cocos2d_y="-258.7" kX="0" kY="0" cX="2" cY="2" pX="136" pY="67.5" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="53.35" y="-116.7" cocos2d_x="-207.65" cocos2d_y="-249.7" kX="0" kY="0" cX="2" cY="2" pX="130.5" pY="66.5" z="0" dI="8" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="diyun/ghjl">
+      <mov name="ertg" dr="8" to="0" drTW="8" lp="1" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="6.2" y="1.1" cocos2d_x="6.1" cocos2d_y="1.15" kX="50.22" kY="50.22" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-5.55" y="-0.25" cocos2d_x="-5.55" cocos2d_y="-0.25" kX="48.22" kY="48.22" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-24.25" y="-95.85" cocos2d_x="-24.25" cocos2d_y="-95.85" kX="-103.22" kY="-103.22" cX="2" cY="2.43" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="9.2" y="-25.7" cocos2d_x="9.2" cocos2d_y="-25.7" kX="57.23" kY="57.23" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="22" y="-30.6" cocos2d_x="22" cocos2d_y="-30.6" kX="59.62" kY="59.62" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="8.25" y="-152.35" cocos2d_x="-7.45" cocos2d_y="143.45" kX="0" kY="0" cX="2" cY="2" pX="7.85" pY="-147.9" z="0" dI="0" dr="12" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 12" sc="1" dl="0">
+          <f x="79.6" y="-235.45" cocos2d_x="79.6" cocos2d_y="-235.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="55.8" y="-241.35" cocos2d_x="55.8" cocos2d_y="-241.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="1" dr="2" />
+          <f x="62.25" y="-240.45" cocos2d_x="62.25" cocos2d_y="-240.45" kX="0" kY="0" cX="2.04" cY="2.04" pX="0" pY="0" z="1" dI="2" dr="2" />
+          <f dr="21" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="262.65" y="-107.7" cocos2d_x="262.65" cocos2d_y="-107.6" kX="0" kY="0" cX="2.19" cY="2.19" pX="0" pY="-0.05" z="2" dI="0" dr="6" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="237.35" y="-79.45" cocos2d_x="237.25" cocos2d_y="-79.5" kX="115.24" kY="115.24" cX="2.19" cY="2.19" pX="-0.05" pY="-0.05" z="3" dI="0" dr="6" />
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="狄云 普攻fx" width="512" height="512">
+    <SubTexture name="diyun-tz119919547547457" width="67" height="39" x="78" y="339" cocos2d_pX="33.35" cocos2d_pY="19.45" />
+    <SubTexture name="diyun-tz667788547458458458" width="64" height="51" x="443" y="308" cocos2d_pX="31.80" cocos2d_pY="28.35" />
+    <SubTexture name="diyun-tz66778856856895695" width="64" height="40" x="0" y="343" cocos2d_pX="32.00" cocos2d_pY="19.90" />
+    <SubTexture name="diyun-tz5yu5685dfgdf" width="119" height="61" x="199" y="297" cocos2d_pX="59.60" cocos2d_pY="30.50" />
+    <SubTexture name="diyun-tz6677885685685685" width="76" height="45" x="122" y="293" cocos2d_pX="37.80" cocos2d_pY="22.15" />
+    <SubTexture name="diyun-dzgsdfj" width="129" height="66" x="221" y="230" cocos2d_pX="-65.25" cocos2d_pY="-33.25" />
+    <SubTexture name="diyun-sdsfjgj" width="136" height="68" x="360" y="120" cocos2d_pX="-68.00" cocos2d_pY="-33.75" />
+    <SubTexture name="diyun-sdgdfh" width="134" height="68" x="221" y="161" cocos2d_pX="-67.70" cocos2d_pY="-35.10" />
+    <SubTexture name="diyun-sdgfh" width="83" height="57" x="122" y="235" cocos2d_pX="-41.50" cocos2d_pY="-28.50" />
+    <SubTexture name="diyun-xxghgj" width="123" height="38" x="319" y="308" cocos2d_pX="-61.50" cocos2d_pY="-19.00" />
+    <SubTexture name="diyun-Zhbxn" width="121" height="67" x="0" y="235" cocos2d_pX="-60.50" cocos2d_pY="-33.50" />
+    <SubTexture name="diyun-zxgdafh" width="131" height="64" x="356" y="189" cocos2d_pX="-65.50" cocos2d_pY="-31.75" />
+    <SubTexture name="diyun-Zdggjh" width="128" height="53" x="351" y="254" cocos2d_pX="-80.50" cocos2d_pY="-47.10" />
+    <SubTexture name="diyun-Zbbdg" width="77" height="39" x="0" y="303" cocos2d_pX="-61.20" cocos2d_pY="-34.25" />
+    <SubTexture name="diyun-666" width="121" height="119" x="360" y="0" cocos2d_pX="60.50" cocos2d_pY="59.50" />
+    <SubTexture name="diyun-777" width="220" height="234" x="0" y="0" cocos2d_pX="110.00" cocos2d_pY="117.00" />
+    <SubTexture name="diyun-66" width="138" height="160" x="221" y="0" cocos2d_pX="69.00" cocos2d_pY="80.00" />
+  </TextureAtlas>
+</skeleton>

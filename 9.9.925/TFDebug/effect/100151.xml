@@ -1,0 +1,52 @@
+<skeleton name="普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="95.85" y="-82.1" kX="6.59" kY="-178.44" cX="1.55" cY="0.97" pX="0" pY="0" z="0">
+        <d name="sdasasas/yanwu" isArmature="1" />
+      </b>
+      <b name="图层 1" x="28.15" y="-84.2" kX="6.85" kY="2.1" cX="0.19" cY="0.39" pX="0" pY="0" z="1">
+        <d name="sdasasas-xawwww" />
+      </b>
+    </armature>
+    <armature name="sdasasas/yanwu" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="sdasasas-asdadd" />
+        <d name="sdasasas-cawwww" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sdasasas/yanwu">
+      <mov name="vsdvsvsvds" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="normal" twE="0" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="anim" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="95.85" y="-82.1" cocos2d_x="95.85" cocos2d_y="-82.1" kX="6.59" kY="-178.44" cX="1.55" cY="0.97" fst="0" pX="0" pY="0" z="0" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="28.15" y="-84.2" cocos2d_x="28.15" cocos2d_y="-84.2" kX="6.85" kY="2.1" cX="0.19" cY="0.39" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="63.15" y="-84.2" cocos2d_x="63.15" cocos2d_y="-84.2" kX="6.78" kY="2.02" cX="0.2" cY="0.41" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="95.15" y="-84.2" cocos2d_x="95.15" cocos2d_y="-84.2" kX="6.85" kY="2.1" cX="0.21" cY="0.43" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="139.15" y="-84.2" cocos2d_x="139.15" cocos2d_y="-84.2" kX="6.85" kY="2.11" cX="0.21" cY="0.43" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普攻" width="2048" height="512">
+    <SubTexture name="sdasasas-cawwww" width="91" height="131" x="1522" y="0" cocos2d_pX="57.00" cocos2d_pY="66.00" />
+    <SubTexture name="sdasasas-asdadd" width="106" height="133" x="1415" y="0" cocos2d_pX="63.00" cocos2d_pY="67.00" />
+    <SubTexture name="sdasasas-xawwww" width="1414" height="301" x="0" y="0" cocos2d_pX="692.25" cocos2d_pY="138.95" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,53 @@
+<skeleton name="普通攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="39.7" y="-72.2" kX="107" kY="107" cX="0.89" cY="0.89" pX="0" pY="0" z="0">
+        <d name="file-sp_cm" />
+      </b>
+      <b name="图层 6" x="-92" y="-124.15" kX="27.82" kY="27.82" cX="1.15" cY="0.85" pX="53.95" pY="29" z="1">
+        <d name="file-guang_blue_00003.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="xvf" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="39.7" y="-72.2" cocos2d_x="39.7" cocos2d_y="-72.2" kX="107" kY="107" cX="0.89" cY="0.89" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.38" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="40.2" y="-71.2" cocos2d_x="40.2" cocos2d_y="-71.2" kX="105" kY="105" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-120.75" y="-120.7" cocos2d_x="-120.75" cocos2d_y="-120.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f x="-83.75" y="-146.7" cocos2d_x="-83.75" cocos2d_y="-146.7" kX="8" kY="8" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="217.2" y="-60.2" cocos2d_x="217.2" cocos2d_y="-60.2" kX="173" kY="173" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="217.2" y="-60.2" cocos2d_x="217.2" cocos2d_y="-60.2" kX="173" kY="173" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="189" y="-5.5" cocos2d_x="189" cocos2d_y="-5.5" kX="-157" kY="-157" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="188.35" y="-3.8" cocos2d_x="188.35" cocos2d_y="-3.8" kX="-149.64" kY="-149.64" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="141.7" y="13.8" cocos2d_x="141.7" cocos2d_y="13.8" kX="-142" kY="-142" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="141.7" y="13.8" cocos2d_x="141.7" cocos2d_y="13.8" kX="-142" kY="-142" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="151" y="3.4" cocos2d_x="151" cocos2d_y="3.4" kX="-149" kY="-149" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.67" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="151.7" y="3.3" cocos2d_x="151.7" cocos2d_y="3.3" kX="-142" kY="-142" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.02" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-92" y="-124.15" cocos2d_x="-135.45" cocos2d_y="-175.1" kX="27.82" kY="27.82" cX="1.15" cY="0.85" pX="53.95" pY="29" z="1" dI="0" dr="2" />
+          <f x="-103.55" y="-132.15" cocos2d_x="-125.55" cocos2d_y="-176" kX="38.89" kY="38.89" cX="0.83" cY="0.7" pX="53.95" pY="28.9" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-80.2" y="-141.05" cocos2d_x="-43.75" cocos2d_y="-142.85" kX="137" kY="137" cX="0.52" cY="0.81" pX="54.05" pY="29.05" z="1" dI="0" dr="2" />
+          <f x="162.7" y="-62.15" cocos2d_x="260.25" cocos2d_y="24.8" kX="-158.97" kY="-158.97" cX="2.26" cY="1.59" pX="54.2" pY="29.05" z="1" dI="0" dr="2" />
+          <f x="172.5" y="-26.85" cocos2d_x="112.75" cocos2d_y="-0.95" kX="-67" kY="-67" cX="0.87" cY="1.55" pX="54.2" pY="29" z="1" dI="0" dr="2" />
+          <f x="145.5" y="-13.15" cocos2d_x="81.2" cocos2d_y="-29.05" kX="-16" kY="-16" cX="1.06" cY="1.14" pX="54.15" pY="28.95" z="1" dI="0" dr="2" />
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普通攻击" width="256" height="128">
+    <SubTexture name="file-guang_blue_00003.png" width="189" height="98" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="file-sp_cm" width="63" height="39" x="190" y="0" cocos2d_pX="33.00" cocos2d_pY="21.00" />
+  </TextureAtlas>
+</skeleton>

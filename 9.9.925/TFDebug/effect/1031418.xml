@@ -1,0 +1,62 @@
+<skeleton name="神技能受击捆绑角色下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-57.9" y="-105.85" kX="0" kY="0" cX="2.14" cY="2.14" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifiltacerB19" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB19" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-6" y="0.05" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB09" />
+        <d name="xxx-zhangweifiltacerB08" />
+        <d name="xxx-zhangweifiltacerB07" />
+        <d name="xxx-zhangweifiltacerB06" />
+        <d name="xxx-zhangweifiltacerB05" />
+        <d name="xxx-zhangweifiltacerB04" />
+        <d name="xxx-zhangweifiltacerB03" />
+        <d name="xxx-zhangweifiltacerB20" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifiltacerB19">
+      <mov name="fsadfsaasfdasdfagsdsgd" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-6" y="0.05" cocos2d_x="-5.9" cocos2d_y="0.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="6.95" y="-8.55" cocos2d_x="6.95" cocos2d_y="-8.55" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="8.9" y="2.5" cocos2d_x="8.9" cocos2d_y="2.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="10.95" y="2.5" cocos2d_x="10.95" cocos2d_y="2.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="10.45" y="2.5" cocos2d_x="10.45" cocos2d_y="2.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="4.45" y="2.5" cocos2d_x="4.45" cocos2d_y="2.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="8.45" y="2.5" cocos2d_x="8.45" cocos2d_y="2.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="-0.05" y="-1.95" cocos2d_x="-0.05" cocos2d_y="-1.95" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="7" twE="0" dr="6" />
+          <f x="-0.05" y="-1.95" cocos2d_x="-0.05" cocos2d_y="-1.95" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="7" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="asfdafsdasdg" dr="34" to="0" drTW="34" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="-57.9" y="-105.85" cocos2d_x="-57.9" cocos2d_y="-105.85" kX="0" kY="0" cX="2.14" cY="2.14" fst="0" pX="0" pY="0" z="0" dI="0" dr="4" />
+          <f x="-57.9" y="-105.85" cocos2d_x="-57.9" cocos2d_y="-105.85" kX="0" kY="0" cX="2.14" cY="2.14" fst="4" pX="0" pY="0" z="0" dI="0" dr="5" />
+          <f x="-57.9" y="-105.85" cocos2d_x="-57.9" cocos2d_y="-105.85" kX="0" kY="0" cX="2.14" cY="2.14" fst="9" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-57.9" y="-105.85" cocos2d_x="-57.9" cocos2d_y="-105.85" kX="0" kY="0" cX="2.14" cY="2.14" fst="10" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神技能受击捆绑角色下层" width="512" height="1024">
+    <SubTexture name="xxx-zhangweifiltacerB20" width="256" height="185" x="0" y="0" cocos2d_pX="128.00" cocos2d_pY="92.25" />
+    <SubTexture name="xxx-zhangweifiltacerB03" width="233" height="178" x="257" y="0" cocos2d_pX="116.25" cocos2d_pY="88.90" />
+    <SubTexture name="xxx-zhangweifiltacerB04" width="212" height="178" x="0" y="186" cocos2d_pX="105.75" cocos2d_pY="88.90" />
+    <SubTexture name="xxx-zhangweifiltacerB05" width="217" height="178" x="257" y="179" cocos2d_pX="108.25" cocos2d_pY="88.90" />
+    <SubTexture name="xxx-zhangweifiltacerB06" width="199" height="178" x="213" y="358" cocos2d_pX="99.50" cocos2d_pY="88.90" />
+    <SubTexture name="xxx-zhangweifiltacerB07" width="178" height="178" x="0" y="365" cocos2d_pX="88.95" cocos2d_pY="88.90" />
+    <SubTexture name="xxx-zhangweifiltacerB08" width="141" height="162" x="179" y="537" cocos2d_pX="70.50" cocos2d_pY="80.95" />
+    <SubTexture name="xxx-zhangweifiltacerB09" width="81" height="91" x="413" y="358" cocos2d_pX="40.55" cocos2d_pY="45.35" />
+  </TextureAtlas>
+</skeleton>

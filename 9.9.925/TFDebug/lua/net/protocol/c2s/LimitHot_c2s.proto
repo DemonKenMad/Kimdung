@@ -1,0 +1,17 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SLimitHotMsg";
+
+
+//code = 0x5a01
+//限时抢购信息
+message LimitHotInfoRequest{
+
+}
+
+// code = 0x5a02
+// 限时购买
+message LimitHotBuyRequest{
+	required int32 goodsId = 1;			//商品id
+	required int32 num = 2;				//数量
+}

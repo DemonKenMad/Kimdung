@@ -1,0 +1,76 @@
+<skeleton name="水生普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-83.2" y="-13.55" kX="116.98" kY="116.98" cX="1.1" cY="1.53" pX="143.95" pY="-131.3" z="0">
+        <d name="MovieClip/sprite 154" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="MovieClip/sprite 154" isLoop="loop" startFrame="1">
+      <b name="Layer 6" x="105.3" y="-192" kX="0" kY="0" cX="1.72" cY="1.72" pX="49" pY="50" z="0">
+        <d name="MovieClip-4645644" />
+        <d name="MovieClip-354" />
+      </b>
+      <b name="Layer 8" x="-63" y="-248.65" kX="0" kY="0" cX="2.29" cY="2.29" pX="120" pY="87" z="1">
+        <d name="MovieClip-7567" />
+        <d name="MovieClip-546546444" />
+        <d name="MovieClip-354" />
+      </b>
+      <b name="Layer 10" x="8.1" y="-125.95" kX="0" kY="0" cX="2.85" cY="2.85" pX="59" pY="46" z="2">
+        <d name="MovieClip-678678" />
+        <d name="MovieClip-43435" />
+        <d name="MovieClip-79888" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="MovieClip/sprite 154">
+      <mov name="5678" dr="21" to="0" drTW="21" lp="0" twE="NaN">
+        <b name="Layer 6" sc="1" dl="0">
+          <f x="105.3" y="-192" cocos2d_x="21" cocos2d_y="-278" kX="0" kY="0" cX="1.72" cY="1.72" pX="49" pY="50" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="7" dI="-1" />
+          <f x="-31.85" y="-284" cocos2d_x="-95.75" cocos2d_y="-339" kX="0" kY="0" cX="2.06" cY="1.83" pX="31" pY="30" z="0" dI="1" twE="0" dr="5" />
+          <f x="-32.4" y="-288.85" cocos2d_x="-104.85" cocos2d_y="-351.25" kX="0" kY="0" cX="2.34" cY="2.08" pX="31" pY="30.05" z="0" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.07" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="Layer 8" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-63" y="-248.65" cocos2d_x="-338" cocos2d_y="-448" kX="0" kY="0" cX="2.29" cY="2.29" pX="120" pY="87" z="1" dI="0" dr="2" />
+          <f x="-38.1" y="-156.85" cocos2d_x="-213" cocos2d_y="-345" kX="0" kY="0" cX="2.43" cY="2.43" pX="72" pY="77.5" z="1" dI="1" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+          <f x="-29.75" y="-174.9" cocos2d_x="-93.65" cocos2d_y="-229.9" kX="0" kY="0" cX="2.06" cY="1.83" pX="31" pY="30" z="1" dI="2" twE="0" dr="5" />
+          <f x="-41.1" y="-174.55" cocos2d_x="-127.15" cocos2d_y="-248.65" kX="0" kY="0" cX="2.78" cY="2.47" pX="31" pY="30" z="1" dI="2" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.07" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="Layer 10" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="8.1" y="-125.95" cocos2d_x="-160" cocos2d_y="-257" kX="0" kY="0" cX="2.85" cY="2.85" pX="59" pY="46" z="2" dI="0" dr="2" />
+          <f x="14.1" y="-113.95" cocos2d_x="-146.3" cocos2d_y="-247.8" kX="0" kY="0" cX="2.04" cY="2.04" pX="78.5" pY="65.5" z="2" dI="1" dr="2" />
+          <f x="146.8" y="-101.7" cocos2d_x="91.8" cocos2d_y="-142.2" kX="0" kY="0" cX="1" cY="1" pX="55" pY="40.5" z="2" dI="2" dr="2" />
+          <f dr="11" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="eeee4" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-83.2" y="-13.55" cocos2d_x="-190.3" cocos2d_y="-245.05" kX="116.98" kY="116.98" cX="1.1" cY="1.53" pX="143.95" pY="-131.3" z="0" dI="0" dr="11" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="水生普工" width="512" height="256">
+    <SubTexture name="MovieClip-79888" width="68" height="58" x="271" y="131" cocos2d_pX="-17.00" cocos2d_pY="-8.00" />
+    <SubTexture name="MovieClip-43435" width="156" height="130" x="183" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="MovieClip-678678" width="117" height="90" x="340" y="124" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="MovieClip-546546444" width="108" height="123" x="340" y="0" cocos2d_pX="-14.00" cocos2d_pY="-13.00" />
+    <SubTexture name="MovieClip-7567" width="182" height="165" x="0" y="0" cocos2d_pX="-41.00" cocos2d_pY="-7.00" />
+    <SubTexture name="MovieClip-354" width="38" height="48" x="449" y="0" cocos2d_pX="-9.00" cocos2d_pY="-9.00" />
+    <SubTexture name="MovieClip-4645644" width="87" height="64" x="183" y="131" cocos2d_pX="-1.00" cocos2d_pY="-17.00" />
+  </TextureAtlas>
+</skeleton>

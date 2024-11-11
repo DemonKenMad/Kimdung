@@ -1,0 +1,133 @@
+<skeleton name="奇侠 主动技能02输出主动部分所有角色最底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gsdgsdg" x="350.15" y="-65.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/shghf04" isArmature="1" />
+      </b>
+      <b name="gsdgsd" x="596.55" y="-96.35" kX="20" kY="20" cX="4.95" cY="4.95" pX="0" pY="0" z="1">
+        <d name="xxx/shghf03" isArmature="1" />
+      </b>
+      <b name="gsdgsdg0" x="350.15" y="-65.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/shghf04" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf04" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-shghf07" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf03" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-shghf09" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shghf04">
+      <mov name="sdfdfsafaf" dr="35" to="0" drTW="35" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="31" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="4" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/shghf03">
+      <mov name="ssgsgsdg" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="11" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="14" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fhsdfgsdgsdg" dr="127" to="0" drTW="127" lp="0" twE="NaN">
+        <b name="gsdgsdg" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="12">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.35" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="15">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.31" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.43" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.18" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.43" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.51" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.43" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.51" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.43" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.06" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.53" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.51" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="40">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.26" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="19" dI="-1" />
+        </b>
+        <b name="gsdgsd" sc="1" dl="0">
+          <f dr="30" dI="-1" />
+          <f x="596.55" y="-96.35" cocos2d_x="596.55" cocos2d_y="-96.35" kX="20" kY="20" cX="4.95" cY="4.95" fst="0" pX="0" pY="0" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+          <f x="766.15" y="-139.55" cocos2d_x="766.15" cocos2d_y="-139.55" kX="20" kY="20" cX="4.79" cY="4.79" fst="0" pX="0" pY="0" z="1" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+          <f x="615.75" y="-197.15" cocos2d_x="615.75" cocos2d_y="-197.15" kX="20" kY="20" cX="4.45" cY="4.45" fst="0" pX="0" pY="0" z="1" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.72" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+          <f x="735.75" y="-46.75" cocos2d_x="735.75" cocos2d_y="-46.75" kX="20" kY="20" cX="5.05" cY="5.05" fst="0" pX="0" pY="0" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.72" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+          <f x="703.75" y="-117.15" cocos2d_x="703.75" cocos2d_y="-117.15" kX="20" kY="20" cX="6.43" cY="6.43" fst="0" pX="0" pY="0" z="1" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.74" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="662.95" y="-355.15" cocos2d_x="662.95" cocos2d_y="-355.15" kX="20" kY="20" cX="4.12" cY="4.12" fst="0" pX="0" pY="0" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.83" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="58" dI="-1" />
+        </b>
+        <b name="gsdgsdg0" sc="1" dl="0">
+          <f dr="106" dI="-1" />
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.57" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="350.15" y="-65.95" cocos2d_x="350.15" cocos2d_y="-65.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="15">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.79" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="奇侠 主动技能02输出主动部分所有角色最底层" width="16" height="16">
+    <SubTexture name="xxx-shghf09" width="7" height="4" x="0" y="10" cocos2d_pX="3.40" cocos2d_pY="2.10" />
+    <SubTexture name="xxx-shghf07" width="14" height="9" x="0" y="0" cocos2d_pX="6.75" cocos2d_pY="4.25" />
+  </TextureAtlas>
+</skeleton>

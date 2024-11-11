@@ -1,0 +1,66 @@
+<skeleton name="免疫buff输出(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="hfghfh" x="0.2" y="-87.95" kX="0" kY="0" cX="1.11" cY="1.11" pX="160.05" pY="-14.5" z="0">
+        <d name="xxx/sjf03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sjf03" isLoop="loop" startFrame="1">
+      <b name="fdsf" x="161.7" y="-14.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0">
+        <d name="xxx-sjf04" />
+        <d name="xxx-sjf06" />
+        <d name="xxx-sjf08" />
+        <d name="xxx-sjf10" />
+        <d name="xxx-sjf12" />
+        <d name="xxx-sjf14" />
+        <d name="xxx-sjf16" />
+        <d name="xxx-sjf18" />
+        <d name="xxx-sjf20" />
+        <d name="xxx-sjf22" />
+        <d name="xxx-sjf24" />
+        <d name="xxx-sjf26" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sjf03">
+      <mov name="dsgdfaff" dr="20" to="0" drTW="20" lp="1" twE="NaN">
+        <b name="fdsf" sc="1" dl="0">
+          <f x="161.7" y="-14.35" cocos2d_x="161.7" cocos2d_y="-14.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="162.6" y="-13.55" cocos2d_x="162.6" cocos2d_y="-13.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="168.1" y="-15.4" cocos2d_x="168.1" cocos2d_y="-15.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="168.1" y="-15.4" cocos2d_x="168.1" cocos2d_y="-15.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="168.1" y="-15.4" cocos2d_x="168.1" cocos2d_y="-15.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="163.95" y="-14.7" cocos2d_x="163.95" cocos2d_y="-14.7" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="164.1" y="-15.35" cocos2d_x="164.1" cocos2d_y="-15.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="164.45" y="-15.05" cocos2d_x="164.45" cocos2d_y="-14.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="7" dr="2" />
+          <f x="163.95" y="-13.45" cocos2d_x="163.95" cocos2d_y="-13.45" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f x="160.3" y="-14.2" cocos2d_x="160.3" cocos2d_y="-14.2" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="9" dr="2" />
+          <f x="160.45" y="-14.05" cocos2d_x="160.45" cocos2d_y="-13.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="10" dr="2" />
+          <f x="160.65" y="-14" cocos2d_x="160.65" cocos2d_y="-14" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="11" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="stand" dr="19" to="0" drTW="19" lp="1" twE="NaN">
+        <b name="hfghfh" sc="1" dl="0">
+          <f x="0.2" y="-87.95" cocos2d_x="-177.3" cocos2d_y="-71.85" kX="0" kY="0" cX="1.11" cY="1.11" fst="0" pX="160.05" pY="-14.5" z="0" dI="0" dr="19" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="免疫buff输出(1)" width="256" height="256">
+    <SubTexture name="xxx-sjf26" width="62" height="13" x="0" y="104" cocos2d_pX="30.75" cocos2d_pY="6.15" />
+    <SubTexture name="xxx-sjf24" width="69" height="14" x="178" y="103" cocos2d_pX="34.25" cocos2d_pY="7.05" />
+    <SubTexture name="xxx-sjf22" width="70" height="14" x="107" y="103" cocos2d_pX="35.00" cocos2d_pY="7.05" />
+    <SubTexture name="xxx-sjf20" width="106" height="21" x="0" y="82" cocos2d_pX="52.80" cocos2d_pY="10.10" />
+    <SubTexture name="xxx-sjf18" width="120" height="25" x="126" y="51" cocos2d_pX="59.90" cocos2d_pY="12.35" />
+    <SubTexture name="xxx-sjf16" width="119" height="25" x="136" y="0" cocos2d_pX="59.55" cocos2d_pY="12.15" />
+    <SubTexture name="xxx-sjf14" width="118" height="24" x="136" y="26" cocos2d_pX="58.80" cocos2d_pY="11.95" />
+    <SubTexture name="xxx-sjf12" width="125" height="27" x="0" y="28" cocos2d_pX="66.60" cocos2d_pY="13.05" />
+    <SubTexture name="xxx-sjf10" width="120" height="25" x="0" y="56" cocos2d_pX="64.60" cocos2d_pY="12.05" />
+    <SubTexture name="xxx-sjf08" width="115" height="25" x="121" y="77" cocos2d_pX="61.60" cocos2d_pY="12.05" />
+    <SubTexture name="xxx-sjf06" width="135" height="27" x="0" y="0" cocos2d_pX="67.30" cocos2d_pY="13.10" />
+    <SubTexture name="xxx-sjf04" width="54" height="12" x="0" y="118" cocos2d_pX="27.25" cocos2d_pY="5.70" />
+  </TextureAtlas>
+</skeleton>

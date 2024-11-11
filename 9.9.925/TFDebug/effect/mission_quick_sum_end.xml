@@ -1,0 +1,67 @@
+<skeleton name="扫荡结算越南版" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="ewfewf" x="191.05" y="-108.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0">
+        <d name="xxx/vb re bqtrentrntr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/vb re bqtrentrntr" isLoop="loop" startFrame="1">
+      <b name="xvgeswgfwe" x="0.35" y="-2.6" kX="0" kY="0" cX="0.47" cY="0.57" pX="0.95" pY="0.25" z="0">
+        <d name="xxx/vrvbftrnb vdervbrevbrxxxxx" isArmature="1" />
+      </b>
+      <b name="asdfaewf" x="0" y="-0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1">
+        <d name="xxx-jn bftgenbtr" />
+      </b>
+    </armature>
+    <armature name="xxx/vrvbftrnb vdervbrevbrxxxxx" isLoop="loop" startFrame="1">
+      <b name="dsfwef" x="13.45" y="3.45" kX="0" kY="0" cX="0.81" cY="0.81" pX="0" pY="0" z="0">
+        <d name="xxx-B VDFRETN BFTREN" />
+        <d name="xxx-B VFRET BETR" />
+        <d name="xxx-HB VFB FTB" />
+        <d name="xxx- BTRGWN TRGNR" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/vrvbftrnb vdervbrevbrxxxxx">
+      <mov name="eeverwe" dr="15" to="0" drTW="15" lp="1" twE="NaN">
+        <b name="dsfwef" sc="1" dl="0">
+          <f x="13.45" y="3.45" cocos2d_x="13.45" cocos2d_y="3.45" kX="0" kY="0" cX="0.81" cY="0.81" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="13.45" y="3.45" cocos2d_x="13.45" cocos2d_y="3.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="4.15" y="-2.95" cocos2d_x="4.15" cocos2d_y="-2.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="1.1" y="6.95" cocos2d_x="1.1" cocos2d_y="6.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="8" y="5" cocos2d_x="8" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" twE="0" dr="5" />
+          <f x="8" y="5" cocos2d_x="8" cocos2d_y="5" kX="0" kY="0" cX="0.91" cY="0.91" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/vb re bqtrentrntr">
+      <mov name="VRGETHBRE" dr="15" to="0" drTW="15" lp="1" twE="NaN">
+        <b name="xvgeswgfwe" sc="1" dl="0">
+          <f x="0.35" y="-2.6" cocos2d_x="-0.1" cocos2d_y="-2.75" kX="0" kY="0" cX="0.47" cY="0.57" fst="0" pX="0.95" pY="0.25" z="0" dI="0" dr="15" />
+        </b>
+        <b name="asdfaewf" sc="1" dl="0">
+          <f x="0" y="-0.05" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="1" dI="0" dr="15" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dh" dr="15" to="0" drTW="15" lp="1" twE="NaN">
+        <b name="ewfewf" sc="1" dl="0">
+          <f x="191.05" y="-108.95" cocos2d_x="191.05" cocos2d_y="-108.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="15" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="扫荡结算越南版" width="512" height="1024">
+    <SubTexture name="xxx- BTRGWN TRGNR" width="287" height="190" x="0" y="590" cocos2d_pX="151.00" cocos2d_pY="103.00" />
+    <SubTexture name="xxx-HB VFB FTB" width="288" height="189" x="0" y="400" cocos2d_pX="146.50" cocos2d_pY="101.00" />
+    <SubTexture name="xxx-B VFRET BETR" width="299" height="197" x="0" y="202" cocos2d_pX="152.00" cocos2d_pY="97.00" />
+    <SubTexture name="xxx-B VDFRETN BFTREN" width="307" height="201" x="0" y="0" cocos2d_pX="167.00" cocos2d_pY="106.50" />
+    <SubTexture name="xxx-jn bftgenbtr" width="103" height="34" x="308" y="0" cocos2d_pX="52.10" cocos2d_pY="18.80" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,173 @@
+<skeleton name="李寻欢skill3特效上层01" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="刀绕身" x="0.05" y="0.95" kX="0" kY="0" cX="1.22" cY="1.16" pX="0" pY="0" z="0">
+        <d name="adada/元件 13" isArmature="1" />
+      </b>
+      <b name="图层 14" x="0.05" y="0.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="adada/元件 23" isArmature="1" />
+      </b>
+      <b name="释放" x="-0.75" y="-96.15" kX="0" kY="180" cX="0.43" cY="0.43" pX="0" pY="0" z="2">
+        <d name="adada/重复项目文件夹/元件 66 副本" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="adada/元件 13" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.69" pX="0" pY="0" z="0">
+        <d name="adada-补间 63" />
+        <d name="adada-补间 64" />
+        <d name="adada-补间 65" />
+        <d name="adada-补间 66" />
+        <d name="adada-补间 67" />
+        <d name="adada-补间 68" />
+        <d name="adada-补间 69" />
+      </b>
+      <b name="图层 3" x="155.75" y="-60.95" kX="0" kY="0" cX="0.41" cY="0.41" pX="0" pY="0" z="1">
+        <d name="adada-元件 19" />
+      </b>
+    </armature>
+    <armature name="adada/元件 23" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="7" y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="adada-补间 71" />
+        <d name="adada-补间 72" />
+        <d name="adada-补间 74" />
+        <d name="adada-补间 75" />
+        <d name="adada-补间 76" />
+        <d name="adada-补间 77" />
+        <d name="adada-补间 78" />
+        <d name="adada-补间 79" />
+        <d name="adada-补间 80" />
+        <d name="adada-补间 81" />
+        <d name="adada-补间 82" />
+      </b>
+    </armature>
+    <armature name="adada/重复项目文件夹/元件 66 副本" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-2.55" y="10.5" kX="0" kY="0" cX="1.21" cY="1.21" pX="4.9" pY="12.45" z="0">
+        <d name="adada/重复项目文件夹/元件 131 副本 2" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="adada/重复项目文件夹/元件 131 副本 2" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-0.15" y="-0.2" kX="0" kY="0" cX="3.8" cY="3.8" pX="0" pY="0" z="0">
+        <d name="adada-补间 45" />
+        <d name="adada-补间 47" />
+        <d name="adada-补间 49" />
+        <d name="adada-补间 51" />
+        <d name="adada-补间 53" />
+        <d name="adada-补间 55" />
+        <d name="adada-补间 57" />
+        <d name="adada-补间 59" />
+        <d name="adada-补间 61" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="adada/元件 13">
+      <mov name="kfdfsg" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.69" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.28" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.28" pX="0" pY="0" z="0" dI="2" blend="add" dr="2" />
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.28" pX="0" pY="0" z="0" dI="3" blend="add" dr="2" />
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.28" pX="0" pY="0" z="0" dI="4" blend="add" dr="2" />
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.28" pX="0" pY="0" z="0" dI="5" blend="add" dr="2" />
+          <f x="0" y="-53.5" cocos2d_x="0" cocos2d_y="-53.5" kX="2.9" kY="4.77" cX="1" cY="1.28" pX="0" pY="0" z="0" dI="6" blend="add" dr="2" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="155.75" y="-60.95" cocos2d_x="155.75" cocos2d_y="-60.95" kX="0" kY="0" cX="0.41" cY="0.41" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="128.75" y="-137.95" cocos2d_x="128.75" cocos2d_y="-137.95" kX="-30" kY="-30" cX="0.41" cY="0.41" fst="2" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="35" y="-162.95" cocos2d_x="35" cocos2d_y="-162.95" kX="-75" kY="-75" cX="0.41" cY="0.41" fst="4" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="-70.95" y="-139.95" cocos2d_x="-70.95" cocos2d_y="-139.95" kX="-111.04" kY="-111.04" cX="0.41" cY="0.41" fst="6" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="-157.95" y="-54.95" cocos2d_x="-157.95" cocos2d_y="-54.95" kX="-155.02" kY="-155.02" cX="0.41" cY="0.41" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="-122.95" y="8" cocos2d_x="-122.95" cocos2d_y="8" kX="128.51" kY="128.51" cX="0.41" cY="0.41" fst="2" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="-16.95" y="43" cocos2d_x="-16.95" cocos2d_y="43" kX="94.56" kY="94.56" cX="0.41" cY="0.41" fst="4" pX="0" pY="0" z="1" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="adada/元件 23">
+      <mov name="hdgsf" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="9" blend="add" dr="2" />
+          <f x="7" y="-174.95" cocos2d_x="7" cocos2d_y="-174.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" blend="add" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="adada/重复项目文件夹/元件 131 副本 2">
+      <mov name="hdgsd" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="3.8" cY="3.8" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="-0.15" y="-0.2" cocos2d_x="-0.15" cocos2d_y="-0.2" kX="0" kY="0" cX="1.9" cY="1.9" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="adada/重复项目文件夹/元件 66 副本">
+      <mov name="fafaad" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-2.55" y="10.5" cocos2d_x="-8.45" cocos2d_y="-4.55" kX="0" kY="0" cX="1.21" cY="1.21" fst="0" pX="4.9" pY="12.45" z="0" dI="0" dr="15" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill3-shangceng01" dr="33" to="0" drTW="33" lp="0" twE="NaN">
+        <b name="刀绕身" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="0.05" y="0.95" cocos2d_x="0.05" cocos2d_y="0.95" kX="0" kY="0" cX="1.22" cY="1.16" fst="0" pX="0" pY="0" z="0" dI="0" dr="14" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="0.05" y="0.95" cocos2d_x="0.05" cocos2d_y="0.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="19" />
+        </b>
+        <b name="释放" sc="1" dl="0">
+          <f x="-0.75" y="-96.15" cocos2d_x="-0.75" cocos2d_y="-96.15" kX="0" kY="180" cX="0.43" cY="0.43" fst="0" pX="0" pY="0" z="2" dI="0" dr="14" />
+          <f dr="19" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="李寻欢skill3特效上层01" width="2048" height="2048">
+    <SubTexture name="adada-补间 61" width="202" height="196" x="0" y="1110" cocos2d_pX="196.00" cocos2d_pY="23.00" />
+    <SubTexture name="adada-补间 59" width="299" height="357" x="1250" y="800" cocos2d_pX="205.00" cocos2d_pY="173.00" />
+    <SubTexture name="adada-补间 57" width="380" height="392" x="434" y="441" cocos2d_pX="218.00" cocos2d_pY="202.00" />
+    <SubTexture name="adada-补间 55" width="418" height="410" x="860" y="0" cocos2d_pX="222.00" cocos2d_pY="215.00" />
+    <SubTexture name="adada-补间 53" width="425" height="440" x="434" y="0" cocos2d_pX="223.00" cocos2d_pY="226.00" />
+    <SubTexture name="adada-补间 51" width="433" height="449" x="0" y="0" cocos2d_pX="223.00" cocos2d_pY="229.00" />
+    <SubTexture name="adada-补间 49" width="389" height="403" x="860" y="411" cocos2d_pX="201.00" cocos2d_pY="206.00" />
+    <SubTexture name="adada-补间 47" width="300" height="310" x="347" y="834" cocos2d_pX="155.00" cocos2d_pY="159.00" />
+    <SubTexture name="adada-补间 45" width="107" height="108" x="1550" y="800" cocos2d_pX="52.55" cocos2d_pY="56.10" />
+    <SubTexture name="adada-补间 82" width="342" height="258" x="1550" y="1097" cocos2d_pX="142.00" cocos2d_pY="136.00" />
+    <SubTexture name="adada-补间 81" width="346" height="287" x="0" y="822" cocos2d_pX="146.00" cocos2d_pY="150.00" />
+    <SubTexture name="adada-补间 80" width="352" height="349" x="1675" y="400" cocos2d_pX="152.00" cocos2d_pY="185.00" />
+    <SubTexture name="adada-补间 79" width="387" height="371" x="0" y="450" cocos2d_pX="187.00" cocos2d_pY="188.00" />
+    <SubTexture name="adada-补间 78" width="400" height="399" x="1279" y="0" cocos2d_pX="200.00" cocos2d_pY="199.00" />
+    <SubTexture name="adada-补间 77" width="395" height="399" x="1279" y="400" cocos2d_pX="200.00" cocos2d_pY="199.00" />
+    <SubTexture name="adada-补间 76" width="364" height="399" x="1680" y="0" cocos2d_pX="192.00" cocos2d_pY="199.00" />
+    <SubTexture name="adada-补间 75" width="351" height="346" x="1675" y="750" cocos2d_pX="196.00" cocos2d_pY="146.00" />
+    <SubTexture name="adada-补间 74" width="343" height="292" x="815" y="815" cocos2d_pX="200.00" cocos2d_pY="92.00" />
+    <SubTexture name="adada-补间 72" width="331" height="200" x="795" y="1108" cocos2d_pX="175.00" cocos2d_pY="0.00" />
+    <SubTexture name="adada-补间 71" width="146" height="159" x="648" y="1093" cocos2d_pX="79.00" cocos2d_pY="-41.00" />
+    <SubTexture name="adada-元件 19" width="159" height="258" x="648" y="834" cocos2d_pX="80.00" cocos2d_pY="130.00" />
+    <SubTexture name="adada-补间 69" width="172" height="100" x="1372" y="1158" cocos2d_pX="173.00" cocos2d_pY="13.00" />
+    <SubTexture name="adada-补间 68" width="129" height="136" x="1893" y="1097" cocos2d_pX="180.00" cocos2d_pY="75.00" />
+    <SubTexture name="adada-补间 67" width="217" height="95" x="203" y="1145" cocos2d_pX="170.00" cocos2d_pY="92.00" />
+    <SubTexture name="adada-补间 66" width="244" height="45" x="1127" y="1158" cocos2d_pX="97.00" cocos2d_pY="97.00" />
+    <SubTexture name="adada-补间 65" width="168" height="103" x="1127" y="1204" cocos2d_pX="-12.00" cocos2d_pY="97.00" />
+    <SubTexture name="adada-补间 64" width="79" height="131" x="1159" y="815" cocos2d_pX="-102.00" cocos2d_pY="81.00" />
+    <SubTexture name="adada-补间 63" width="199" height="106" x="421" y="1145" cocos2d_pX="23.00" cocos2d_pY="25.00" />
+  </TextureAtlas>
+</skeleton>

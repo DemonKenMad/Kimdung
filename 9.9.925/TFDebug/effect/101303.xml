@@ -1,0 +1,104 @@
+<skeleton name="五色蛇技能特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="191.05" y="-49.15" kX="0" kY="0" cX="1" cY="1" pX="77" pY="5.85" z="0">
+        <d name="sadsaf/duyan" isArmature="1" />
+      </b>
+      <b name="图层 4" x="176.4" y="-50.2" kX="0" kY="0" cX="0.6" cY="0.6" pX="-31" pY="-1" z="1">
+        <d name="sadsaf-bujian 6" />
+      </b>
+    </armature>
+    <armature name="sadsaf/duyan" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="56" y="9" kX="0" kY="0" cX="1.2" cY="1.2" pX="130.05" pY="-77.45" z="0">
+        <d name="sadsaf/du" isArmature="1" />
+      </b>
+      <b name="图层 2" x="83.95" y="4.5" kX="0" kY="0" cX="0.8" cY="0.8" pX="78.05" pY="1.5" z="1">
+        <d name="sadsaf/gongji" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="sadsaf/du" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="144.55" y="-78.35" kX="0" kY="0" cX="1" cY="1" pX="83" pY="40.5" z="0">
+        <d name="sadsaf-weitu 1-1.png" />
+        <d name="sadsaf-weitu2.png" />
+        <d name="sadsaf-weitu 3.png" />
+        <d name="sadsaf-fsdsf" />
+      </b>
+    </armature>
+    <armature name="sadsaf/gongji">
+      <b name="图层 1" x="78.1" y="1.5" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0">
+        <d name="sadsaf-GJ0001.png" />
+        <d name="sadsaf-bujian 2" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sadsaf/du">
+      <mov name="dsadsa" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="144.55" y="-78.35" cocos2d_x="61.55" cocos2d_y="-118.85" kX="0" kY="0" cX="1" cY="1" pX="83" pY="40.5" z="0" dI="0" dr="3" />
+          <f x="159.5" y="-83.5" cocos2d_x="48" cocos2d_y="-135" kX="0" kY="0" cX="1" cY="1" pX="111.5" pY="51.5" z="0" dI="1" dr="3" />
+          <f x="170.6" y="-83.4" cocos2d_x="43.1" cocos2d_y="-143.4" kX="0" kY="0" cX="1" cY="1" pX="127.5" pY="60" z="0" dI="2" dr="3" />
+          <f x="203.1" y="-83.4" cocos2d_x="203.1" cocos2d_y="-83.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.56" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="sadsaf/gongji">
+      <mov name="dsadas" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="78.1" y="1.5" cocos2d_x="-17.4" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0" dI="0" dr="2" />
+          <f x="14.35" y="5.1" cocos2d_x="94.35" cocos2d_y="2.6" kX="0" kY="0" cX="1" cY="1" pX="-80" pY="2.5" z="0" dI="1" twE="0" dr="5" />
+          <f x="14.35" y="5.1" cocos2d_x="155.1" cocos2d_y="2.05" kX="0" kY="0" cX="1.76" cY="1.22" pX="-80" pY="2.5" z="0" dI="1" twE="0" dr="1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sadsaf/duyan">
+      <mov name="xzXzX" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="56" y="9" cocos2d_x="-99.9" cocos2d_y="101.85" kX="0" kY="0" cX="1.2" cY="1.2" pX="130.05" pY="-77.45" z="0" dI="0" dr="11">
+            <colorTransform a="-46" r="-37" g="220" b="-109" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="83.95" y="4.5" cocos2d_x="21.5" cocos2d_y="3.3" kX="0" kY="0" cX="0.8" cY="0.8" pX="78.05" pY="1.5" z="1" dI="0" blend="normal" dr="10">
+            <colorTransform a="0" r="141" g="255" b="142" aM="1" rM="0.3" gM="0.3" bM="0.3" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="191.05" y="-49.15" cocos2d_x="114.05" cocos2d_y="-55" kX="0" kY="0" cX="1" cY="1" pX="77" pY="5.85" z="0" dI="0" dr="12" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="176.4" y="-50.2" cocos2d_x="195" cocos2d_y="-49.6" kX="0" kY="0" cX="0.6" cY="0.6" pX="-31" pY="-1" z="1" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.6" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="176.4" y="-50.25" cocos2d_x="200.55" cocos2d_y="-49.4" kX="0" kY="0" cX="0.78" cY="0.78" pX="-30.95" pY="-1.05" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.3" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="176.4" y="-50.2" cocos2d_x="201.2" cocos2d_y="-49.4" kX="0" kY="0" cX="0.8" cY="0.8" pX="-31" pY="-1" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="五色蛇技能特效" width="512" height="512">
+    <SubTexture name="sadsaf-bujian 2" width="179" height="122" x="0" y="308" cocos2d_pX="89.50" cocos2d_pY="61.00" />
+    <SubTexture name="sadsaf-GJ0001.png" width="191" height="123" x="0" y="184" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sadsaf-fsdsf" width="255" height="120" x="220" y="121" cocos2d_pX="127.50" cocos2d_pY="60.00" />
+    <SubTexture name="sadsaf-weitu 3.png" width="255" height="120" x="220" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sadsaf-weitu2.png" width="223" height="103" x="192" y="242" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sadsaf-weitu 1-1.png" width="166" height="81" x="180" y="346" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sadsaf-bujian 6" width="219" height="183" x="0" y="0" cocos2d_pX="109.00" cocos2d_pY="94.00" />
+  </TextureAtlas>
+</skeleton>

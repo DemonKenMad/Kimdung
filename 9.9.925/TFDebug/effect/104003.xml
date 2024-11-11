@@ -1,0 +1,32 @@
+<skeleton name="霸王丸龙卷风输出底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 19" x="353.2" y="-168.35" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-ssjjffvilesB03"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="fdsgdfgsdfs" dr="60" to="0" drTW="60" lp="0" twE="NaN">
+        <b name="图层 19" sc="1" dl="0">
+          <f dr="28" dI="-1"/>
+          <f x="353.2" y="-168.35" cocos2d_x="353.2" cocos2d_y="-168.35" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+          <f x="353.2" y="-168.35" cocos2d_x="353.2" cocos2d_y="-168.35" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="26">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.53" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="353.2" y="-168.35" cocos2d_x="353.2" cocos2d_y="-168.35" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.53" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="353.2" y="-168.35" cocos2d_x="353.2" cocos2d_y="-168.35" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="霸王丸龙卷风输出底层" width="32" height="16">
+    <SubTexture name="xxx-ssjjffvilesB03" width="21" height="12" x="0" y="0" cocos2d_pX="10.4" cocos2d_pY="5.85"/>
+  </TextureAtlas>
+</skeleton>

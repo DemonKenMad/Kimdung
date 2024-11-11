@@ -1,0 +1,146 @@
+<skeleton name="技能输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="129.75" y="-46.1" kX="0" kY="-0.63" cX="0.85" cY="1.64" pX="699.45" pY="-109.75" z="0">
+        <d name="xiaxiangxiang/fdsfds" isArmature="1" />
+      </b>
+      <b name="图层 4" x="5.9" y="-76.5" kX="0" kY="0" cX="0.88" cY="0.88" pX="100" pY="99.9" z="1">
+        <d name="xiaxiangxiang/jineng2" isArmature="1" />
+      </b>
+      <b name="图层 3" x="5.75" y="-104.15" kX="0" kY="0" cX="1.14" cY="0.54" pX="-34.4" pY="-59.8" z="2">
+        <d name="xiaxiangxiang/xianfengdao2" isArmature="1" />
+        <d name="xiaxiangxiang/yanwu" isArmature="1" />
+      </b>
+      <b name="图层 2" x="111.2" y="-98.15" kX="0" kY="0" cX="0.3" cY="0.26" pX="0" pY="0" z="3">
+        <d name="xiaxiangxiang-2.34.45" />
+      </b>
+    </armature>
+    <armature name="xiaxiangxiang/fdsfds" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="656.45" y="-106.5" kX="0" kY="0" cX="1" cY="1" pX="150" pY="36.5" z="0">
+        <d name="xiaxiangxiang-DL1 7.png" />
+        <d name="xiaxiangxiang-FDSFDSFDSF" />
+        <d name="xiaxiangxiang-DSFDS" />
+      </b>
+    </armature>
+    <armature name="xiaxiangxiang/jineng2" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="100" y="100" kX="0" kY="180" cX="1.02" cY="1" pX="0" pY="0" z="0">
+        <d name="xiaxiangxiang-adasdac" />
+        <d name="xiaxiangxiang-casccccssw" />
+      </b>
+    </armature>
+    <armature name="xiaxiangxiang/xianfengdao2" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-34.45" y="-59.65" kX="0" kY="0" cX="1" cY="1" pX="0.25" pY="-0.15" z="0">
+        <d name="xiaxiangxiang-xuanfengdao" />
+      </b>
+      <b name="图层 1 复制" x="-34.45" y="-59.65" kX="0" kY="0" cX="1" cY="1" pX="0.25" pY="-0.15" z="1">
+        <d name="xiaxiangxiang-xuanfengdao" />
+      </b>
+    </armature>
+    <armature name="xiaxiangxiang/yanwu" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xiaxiangxiang-cscc" />
+        <d name="xiaxiangxiang-cascssc" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xiaxiangxiang/fdsfds">
+      <mov name="unnamed" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="656.45" y="-106.5" cocos2d_x="506.45" cocos2d_y="-143" kX="0" kY="0" cX="1" cY="1" pX="150" pY="36.5" z="0" dI="0" dr="2" />
+          <f x="712.95" y="-111" cocos2d_x="712.95" cocos2d_y="-111" kX="5.06" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="734.9" y="-106" cocos2d_x="734.9" cocos2d_y="-106" kX="11.46" kY="0" cX="1" cY="1.03" fst="0" pX="0" pY="0" z="0" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.62" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xiaxiangxiang/jineng2">
+      <mov name="dadasdasd" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="100" y="100" cocos2d_x="100" cocos2d_y="100" kX="0" kY="180" cX="1.02" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="100" y="100" cocos2d_x="100" cocos2d_y="100" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="100" y="100" cocos2d_x="100" cocos2d_y="100" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" twE="0" dr="1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xiaxiangxiang/xianfengdao2">
+      <mov name="unnamed" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-34.45" y="-59.65" cocos2d_x="-34.7" cocos2d_y="-59.5" kX="0" kY="0" cX="1" cY="1" pX="0.25" pY="-0.15" z="0" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="-34.45" y="-59.65" cocos2d_x="-34.2" cocos2d_y="-59.8" kX="-176.25" kY="-176.25" cX="1" cY="1" pX="0.25" pY="-0.15" z="0" dI="0" blend="normal" twE="0" dr="1" />
+        </b>
+        <b name="图层 1 复制" sc="1" dl="0">
+          <f x="-34.45" y="-59.65" cocos2d_x="-34.7" cocos2d_y="-59.5" kX="0" kY="0" cX="1" cY="1" pX="0.25" pY="-0.15" z="1" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="-34.45" y="-59.65" cocos2d_x="-34.2" cocos2d_y="-59.8" kX="-176.25" kY="-176.25" cX="1" cY="1" pX="0.25" pY="-0.15" z="1" dI="0" blend="normal" twE="0" dr="1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xiaxiangxiang/yanwu">
+      <mov name="vsdvsvsvds" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="normal" twE="0" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="anim" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="129.75" y="-46.1" cocos2d_x="-464.05" cocos2d_y="140.4" kX="0" kY="-0.63" cX="0.85" cY="1.64" fst="0" pX="699.45" pY="-109.75" z="0" dI="0" dr="6" />
+          <f x="196.1" y="-49.8" cocos2d_x="-520.45" cocos2d_y="119.9" kX="0" kY="0.82" cX="1.02" cY="1.64" fst="5" pX="699.4" pY="-109.7" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="5.9" y="-76.5" cocos2d_x="-82.05" cocos2d_y="-164.35" kX="0" kY="0" cX="0.88" cY="0.88" fst="0" pX="100" pY="99.9" z="1" dI="0" dr="10" />
+          <f x="52.2" y="-57.7" cocos2d_x="4.95" cocos2d_y="-172.7" kX="22.7" kY="22.7" cX="0.88" cY="0.88" fst="3" pX="100.05" pY="99.85" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.45" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="5.75" y="-104.15" cocos2d_x="44.9" cocos2d_y="-71.8" kX="0" kY="0" cX="1.14" cY="0.54" fst="0" pX="-34.4" pY="-59.8" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.3" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="5.7" y="-119.15" cocos2d_x="48.55" cocos2d_y="-86.8" kX="0" kY="0" cX="1.25" cY="0.54" fst="1" pX="-34.4" pY="-59.8" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.53" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="5.75" y="-127.15" cocos2d_x="63.4" cocos2d_y="-83.65" kX="0" kY="0" cX="1.68" cY="0.73" fst="0" pX="-34.4" pY="-59.8" z="2" dI="0" dr="7" />
+          <f x="5.75" y="-136.15" cocos2d_x="54" cocos2d_y="-99.75" kX="0" kY="0" cX="1.4" cY="0.61" fst="3" pX="-34.4" pY="-59.8" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="130.85" y="-95.85" cocos2d_x="130.85" cocos2d_y="-95.85" kX="6.59" kY="-178.44" cX="1.93" cY="1.21" fst="0" pX="0" pY="0" z="2" dI="1" dr="4" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="111.2" y="-98.15" cocos2d_x="111.2" cocos2d_y="-98.15" kX="0" kY="0" cX="0.3" cY="0.26" pX="0" pY="0" z="3" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="261" y="-98.65" cocos2d_x="261" cocos2d_y="-98.65" kX="0" kY="0" cX="0.93" cY="0.74" pX="0" pY="0" z="3" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="259" y="-98.65" cocos2d_x="259" cocos2d_y="-98.65" kX="0" kY="0" cX="0.93" cY="0.74" pX="0" pY="0" z="3" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="技能输出" width="1024" height="512">
+    <SubTexture name="xiaxiangxiang-cascssc" width="91" height="131" x="908" y="142" cocos2d_pX="57.00" cocos2d_pY="66.00" />
+    <SubTexture name="xiaxiangxiang-cscc" width="106" height="133" x="801" y="142" cocos2d_pX="63.00" cocos2d_pY="67.00" />
+    <SubTexture name="xiaxiangxiang-xuanfengdao" width="225" height="221" x="575" y="0" cocos2d_pX="112.50" cocos2d_pY="110.15" />
+    <SubTexture name="xiaxiangxiang-casccccssw" width="196" height="141" x="801" y="0" cocos2d_pX="98.00" cocos2d_pY="71.00" />
+    <SubTexture name="xiaxiangxiang-adasdac" width="199" height="134" x="301" y="113" cocos2d_pX="100.00" cocos2d_pY="65.00" />
+    <SubTexture name="xiaxiangxiang-DSFDS" width="300" height="73" x="301" y="248" cocos2d_pX="150.00" cocos2d_pY="36.50" />
+    <SubTexture name="xiaxiangxiang-FDSFDSFDSF" width="300" height="79" x="0" y="113" cocos2d_pX="150.00" cocos2d_pY="39.50" />
+    <SubTexture name="xiaxiangxiang-DL1 7.png" width="300" height="73" x="0" y="193" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xiaxiangxiang-2.34.45" width="574" height="112" x="0" y="0" cocos2d_pX="274.05" cocos2d_pY="55.05" />
+  </TextureAtlas>
+</skeleton>

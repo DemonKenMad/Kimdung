@@ -1,0 +1,60 @@
+<skeleton name="虚竹升红输出A下层(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9 复制" x="-3.35" y="2.75" kX="0" kY="0" cX="0.72" cY="0.42" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifilesB03" isArmature="1" />
+      </b>
+      <b name="图层 1" x="0" y="2.3" kX="0" kY="0" cX="0.61" cY="0.36" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesB03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB03" isLoop="loop" startFrame="1">
+      <b name="zhangweifilesB04" x="96.55" y="3" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB04" />
+      </b>
+      <b name="zhangweifilesB040" x="-96.5" y="3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifilesB04" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesB03">
+      <mov name="jdfasjjasjldgj" dr="1" to="0">
+        <b name="zhangweifilesB04" sc="1" dl="0">
+          <f x="96.55" y="3" cocos2d_x="96.55" cocos2d_y="3" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="zhangweifilesB040" sc="1" dl="0">
+          <f x="-96.5" y="3" cocos2d_x="-96.5" cocos2d_y="3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsfahasdfag" dr="37" to="0" drTW="37" lp="0" twE="NaN">
+        <b name="图层 9 复制" sc="1" dl="0">
+          <f dr="26" dI="-1" />
+          <f x="-3.35" y="2.75" cocos2d_x="-3.35" cocos2d_y="2.75" kX="0" kY="0" cX="0.72" cY="0.42" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="-3.35" y="2.7" cocos2d_x="-3.35" cocos2d_y="2.7" kX="0" kY="0" cX="0.78" cY="0.46" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-3.35" y="2.75" cocos2d_x="-3.35" cocos2d_y="2.75" kX="0" kY="0" cX="0.95" cY="0.56" fst="0" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="26" dI="-1" />
+          <f x="0" y="2.3" cocos2d_x="0" cocos2d_y="2.3" kX="0" kY="0" cX="0.61" cY="0.36" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="2" />
+          <f x="-0.45" y="-0.1" cocos2d_x="-0.45" cocos2d_y="-0.1" kX="0" kY="0" cX="0.88" cY="0.52" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="3" />
+          <f x="-1.15" y="-3.7" cocos2d_x="-1.15" cocos2d_y="-3.7" kX="0" kY="0" cX="1.28" cY="0.75" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="4" />
+          <f x="-1.15" y="-3.7" cocos2d_x="-1.15" cocos2d_y="-3.7" kX="0" kY="0" cX="1.54" cY="0.91" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="虚竹升红输出A下层(1)" width="256" height="128">
+    <SubTexture name="xxx-zhangweifilesB04" width="187" height="106" x="0" y="0" cocos2d_pX="90.50" cocos2d_pY="50.00" />
+  </TextureAtlas>
+</skeleton>

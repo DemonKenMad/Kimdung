@@ -1,0 +1,185 @@
+<skeleton name="钟灵技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="86.35" y="-54.4" kX="0" kY="0" cX="1.8" cY="1.8" pX="61.5" pY="-31.55" z="0">
+        <d name="sucaibao-ss" />
+      </b>
+      <b name="图层 4 复制" x="-77.75" y="-57.4" kX="0" kY="180" cX="1.8" cY="1.8" pX="61.5" pY="-31.55" z="1">
+        <d name="sucaibao-ss" />
+      </b>
+      <b name="图层 5" x="-20.65" y="-167.75" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="2">
+        <d name="sucaibao/s" isArmature="1" />
+        <d name="sucaibao/ds" isArmature="1" />
+      </b>
+      <b name="图层 5 复制" x="-54.65" y="-190.75" kX="-164" kY="-164" cX="0.43" cY="0.43" pX="0" pY="0" z="3">
+        <d name="sucaibao/s" isArmature="1" />
+        <d name="sucaibao/ds" isArmature="1" />
+      </b>
+      <b name="图层 6" x="73" y="-221.45" kX="0" kY="0" cX="0.5" cY="0.5" pX="64" pY="64" z="4">
+        <d name="sucaibao/qq" isArmature="1" />
+      </b>
+      <b name="图层 3" x="77" y="-137.85" kX="0" kY="0" cX="0.75" cY="0.75" pX="0.5" pY="-4" z="5">
+        <d name="sucaibao-bofang" />
+      </b>
+      <b name="图层 30" x="211" y="-174.65" kX="49.11" kY="49.11" cX="2.07" cY="2.07" pX="83.95" pY="93.45" z="6">
+        <d name="sucaibao/guangqiu2" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="sucaibao/s">
+      <b name="图层 1" x="0" y="0" kX="180" kY="0" cX="1" cY="1" pX="81.5" pY="46" z="0">
+        <d name="sucaibao-0_00.png" />
+      </b>
+    </armature>
+    <armature name="sucaibao/ds" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="180" kY="0" cX="1.66" cY="1.66" pX="81.5" pY="46" z="0">
+        <d name="sucaibao-0_00.png" />
+      </b>
+    </armature>
+    <armature name="sucaibao/qq">
+      <b name="图层 1" x="0.5" y="1.05" kX="0" kY="0" cX="1.67" cY="1.67" pX="64" pY="64.05" z="0">
+        <d name="sucaibao-1_001.png" />
+      </b>
+    </armature>
+    <armature name="sucaibao/guangqiu2">
+      <b name="图层 1" x="84" y="93.5" kX="0" kY="0" cX="1" cY="1" pX="84" pY="93.5" z="0">
+        <d name="sucaibao-2_003.png" />
+        <d name="sucaibao-2_012.png" />
+        <d name="sucaibao-2_02d.png" />
+        <d name="sucaibao-2_04.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sucaibao/s">
+      <mov name="ds" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="-81.5" cocos2d_y="46" kX="180" kY="0" cX="1" cY="1" pX="81.5" pY="46" z="0" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sucaibao/ds">
+      <mov name="dwqe" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="-135.3" cocos2d_y="76.35" kX="180" kY="0" cX="1.66" cY="1.66" pX="81.5" pY="46" z="0" dI="0" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sucaibao/qq">
+      <mov name="ss" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.5" y="1.05" cocos2d_x="-106.4" cocos2d_y="-105.85" kX="0" kY="0" cX="1.67" cY="1.67" pX="64" pY="64.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0.5" y="1" cocos2d_x="-63.5" cocos2d_y="-63" kX="0" kY="0" cX="1" cY="1" pX="64" pY="64" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sucaibao/guangqiu2">
+      <mov name="ssda" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="84" y="93.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="84" pY="93.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="84" y="93.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="84" pY="93.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="84" y="93.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="84" pY="93.5" z="0" dI="2" dr="2" />
+          <f x="84" y="93.5" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="84" pY="93.5" z="0" dI="3" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="48" to="0" drTW="48" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="86.35" y="-54.4" cocos2d_x="-24.35" cocos2d_y="2.4" kX="0" kY="0" cX="1.8" cY="1.8" pX="61.5" pY="-31.55" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="86.35" y="-54.35" cocos2d_x="-28.45" cocos2d_y="4.55" kX="0" kY="0" cX="1.87" cY="1.87" pX="61.5" pY="-31.55" z="0" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="-30" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="86.35" y="-54.35" cocos2d_x="-36.65" cocos2d_y="8.75" kX="0" kY="0" cX="2" cY="2" pX="61.5" pY="-31.55" z="0" dI="0" blend="normal" dr="3">
+            <colorTransform a="-255" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="37" dI="-1" />
+        </b>
+        <b name="图层 4 复制" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-77.75" y="-57.4" cocos2d_x="32.95" cocos2d_y="-0.6" kX="0" kY="180" cX="1.8" cY="1.8" pX="61.5" pY="-31.55" z="1" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="-77.7" y="-57.4" cocos2d_x="37.1" cocos2d_y="1.5" kX="0" kY="180" cX="1.87" cY="1.87" pX="61.55" pY="-31.55" z="1" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="-30" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-77.75" y="-57.35" cocos2d_x="45.25" cocos2d_y="5.75" kX="0" kY="180" cX="2" cY="2" pX="61.5" pY="-31.55" z="1" dI="0" blend="normal" dr="3">
+            <colorTransform a="-255" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="37" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="-20.65" y="-167.75" cocos2d_x="-20.65" cocos2d_y="-167.75" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="2" />
+          <f x="-29.65" y="-167.75" cocos2d_x="-29.65" cocos2d_y="-167.75" kX="3.5" kY="3.5" cX="1.1" cY="1.08" pX="0" pY="0" z="2" dI="0" twE="0" dr="2">
+            <colorTransform a="-27" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-29.65" y="-167.75" cocos2d_x="-29.65" cocos2d_y="-167.75" kX="7" kY="7" cX="1.2" cY="1.17" pX="0" pY="0" z="2" dI="1" dr="1" twE="NaN">
+            <colorTransform a="-255" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="28" dI="-1" />
+        </b>
+        <b name="图层 5 复制" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="-54.65" y="-190.75" cocos2d_x="-54.65" cocos2d_y="-190.75" kX="-164" kY="-164" cX="0.43" cY="0.43" pX="0" pY="0" z="3" dI="0" blend="add" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-45.65" y="-192.8" cocos2d_x="-45.65" cocos2d_y="-192.8" kX="-170" kY="-170" cX="0.48" cY="0.47" pX="0" pY="0" z="3" dI="0" twE="0" dr="2">
+            <colorTransform a="-27" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-33.7" y="-199.8" cocos2d_x="-33.7" cocos2d_y="-199.8" kX="-175" kY="-175" cX="0.59" cY="0.58" pX="0" pY="0" z="3" dI="1" dr="1" twE="NaN" />
+          <f dr="33" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="73" y="-221.45" cocos2d_x="41" cocos2d_y="-253.45" kX="0" kY="0" cX="0.5" cY="0.5" pX="64" pY="64" z="4" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="114" y="-180.95" cocos2d_x="37.2" cocos2d_y="-257.75" kX="0" kY="0" cX="1.2" cY="1.2" pX="64" pY="64" z="4" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="394" y="19.55" cocos2d_x="253.2" cocos2d_y="-121.25" kX="0" kY="0" cX="2.2" cY="2.2" pX="64" pY="64" z="4" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="249" g="212" b="226" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="394" y="19.6" cocos2d_x="243.6" cocos2d_y="-130.8" kX="0" kY="0" cX="2.35" cY="2.35" pX="64" pY="64" z="4" dI="0" blend="add" twE="0" dr="1" />
+          <f x="428.55" y="47.3" cocos2d_x="238.15" cocos2d_y="-143.1" kX="0" kY="0" cX="2.97" cY="2.97" pX="64" pY="64" z="4" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="-127" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="392.95" y="19.15" cocos2d_x="162.55" cocos2d_y="-211.25" kX="0" kY="0" cX="3.6" cY="3.6" pX="64" pY="64" z="4" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="-255" r="0" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="29" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="16" dI="-1" />
+          <f x="77" y="-137.85" cocos2d_x="76.6" cocos2d_y="-134.85" kX="0" kY="0" cX="0.75" cY="0.75" pX="0.5" pY="-4" z="5" dI="0" blend="add" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="184" cocos2d_y="-133.35" kX="89.99" kY="89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="188.55" cocos2d_y="-136.9" kX="180" kY="180" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="192.1" cocos2d_y="-132.35" kX="-89.99" kY="-89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="187.55" cocos2d_y="-128.8" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="184" cocos2d_y="-133.35" kX="89.99" kY="89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="188.55" cocos2d_y="-136.9" kX="180" kY="180" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="192.1" cocos2d_y="-132.35" kX="-89.99" kY="-89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="187.55" cocos2d_y="-128.8" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="184" cocos2d_y="-133.35" kX="89.99" kY="89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="188.55" cocos2d_y="-136.9" kX="180" kY="180" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="192.1" cocos2d_y="-132.35" kX="-89.99" kY="-89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="187.55" cocos2d_y="-128.8" kX="0" kY="0" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="184" cocos2d_y="-133.35" kX="89.99" kY="89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="188.55" cocos2d_y="-136.9" kX="180" kY="180" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="188.05" y="-132.85" cocos2d_x="192.1" cocos2d_y="-132.35" kX="-89.99" kY="-89.99" cX="1" cY="1" pX="0.5" pY="-4.05" z="5" dI="0" blend="normal" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 30" sc="1" dl="0">
+          <f dr="20" dI="-1" />
+          <f x="211" y="-174.65" cocos2d_x="243.4" cocos2d_y="-432.2" kX="49.11" kY="49.11" cX="2.07" cY="2.07" pX="83.95" pY="93.45" z="6" dI="0" blend="add" dr="27" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="钟灵技能" width="512" height="1024">
+    <SubTexture name="sucaibao-2_04.png" width="104" height="185" x="0" y="308" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="sucaibao-2_02d.png" width="130" height="183" x="307" y="184" cocos2d_pX="-3.00" cocos2d_pY="-4.00" />
+    <SubTexture name="sucaibao-2_012.png" width="144" height="183" x="307" y="0" cocos2d_pX="0.00" cocos2d_pY="-4.00" />
+    <SubTexture name="sucaibao-2_003.png" width="135" height="145" x="105" y="308" cocos2d_pX="-33.00" cocos2d_pY="-33.00" />
+    <SubTexture name="sucaibao-1_001.png" width="128" height="128" x="241" y="368" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sucaibao-0_00.png" width="158" height="92" x="0" y="494" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sucaibao-bofang" width="306" height="307" x="0" y="0" cocos2d_pX="152.50" cocos2d_pY="156.55" />
+    <SubTexture name="sucaibao-ss" width="134" height="87" x="370" y="368" cocos2d_pX="2.00" cocos2d_pY="83.85" />
+  </TextureAtlas>
+</skeleton>

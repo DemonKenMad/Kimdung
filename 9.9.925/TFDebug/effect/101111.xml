@@ -1,0 +1,47 @@
+<skeleton name="李文秀普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-178" y="-98" kX="0" kY="0" cX="1" cY="1" pX="-231.6" pY="-57.05" z="0">
+        <d name="5555-5465" />
+      </b>
+      <b name="图层 1" x="54.65" y="5.1" kX="0" kY="0" cX="1" cY="1" pX="136" pY="35" z="1">
+        <d name="5555-54" />
+        <d name="5555-56" />
+        <d name="5555-678" />
+        <d name="5555-6456" />
+        <d name="5555-345" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="546" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="-178" y="-98" cocos2d_x="53.6" cocos2d_y="-40.95" kX="0" kY="0" cX="1" cY="1" pX="-231.6" pY="-57.05" z="0" dI="0" twE="0" dr="2" />
+          <f x="-297.9" y="-98" cocos2d_x="270.95" cocos2d_y="-40.95" kX="0" kY="0" cX="2.46" cY="1" pX="-231.6" pY="-57.05" z="0" dI="0" twE="0" dr="2" />
+          <f x="-297.9" y="-98" cocos2d_x="270.95" cocos2d_y="-77.75" kX="0" kY="0" cX="2.46" cY="0.36" pX="-231.6" pY="-56.9" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="54.65" y="5.1" cocos2d_x="-81.35" cocos2d_y="-29.9" kX="0" kY="0" cX="1" cY="1" pX="136" pY="35" z="1" dI="0" dr="2" />
+          <f x="56.05" y="5.5" cocos2d_x="-79.95" cocos2d_y="-30" kX="0" kY="0" cX="1" cY="1" pX="136" pY="35.5" z="1" dI="1" dr="2" />
+          <f x="52.65" y="3.15" cocos2d_x="-92.35" cocos2d_y="-38.35" kX="0" kY="0" cX="1" cY="1" pX="145" pY="41.5" z="1" dI="2" dr="2" />
+          <f x="45" y="-2.4" cocos2d_x="-112" cocos2d_y="-39.9" kX="0" kY="0" cX="1" cY="1" pX="157" pY="37.5" z="1" dI="3" dr="2" />
+          <f dr="3" dI="-1" />
+          <f x="-41.2" y="-98.65" cocos2d_x="-216.75" cocos2d_y="-194.45" kX="0" kY="0" cX="2.08" cY="2.37" pX="84.5" pY="40.5" z="1" dI="4" twE="0" dr="3" />
+          <f x="98.8" y="-99.5" cocos2d_x="-76.75" cocos2d_y="-141.7" kX="0" kY="0" cX="2.08" cY="1.04" pX="84.5" pY="40.45" z="1" dI="4" twE="0" dr="1" />
+          <f dr="15" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="李文秀普工" width="512" height="512">
+    <SubTexture name="5555-345" width="169" height="79" x="338" y="0" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="5555-6456" width="296" height="64" x="0" y="94" cocos2d_pX="-7.00" cocos2d_pY="-4.00" />
+    <SubTexture name="5555-678" width="276" height="74" x="0" y="159" cocos2d_pX="-5.00" cocos2d_pY="-3.00" />
+    <SubTexture name="5555-56" width="260" height="59" x="0" y="234" cocos2d_pX="-5.00" cocos2d_pY="-3.00" />
+    <SubTexture name="5555-54" width="258" height="60" x="0" y="294" cocos2d_pX="-5.00" cocos2d_pY="-3.00" />
+    <SubTexture name="5555-5465" width="337" height="93" x="0" y="0" cocos2d_pX="260.00" cocos2d_pY="96.70" />
+  </TextureAtlas>
+</skeleton>

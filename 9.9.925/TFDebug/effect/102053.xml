@@ -1,0 +1,147 @@
+<skeleton name="和尚11棍 技能FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7  复制 2" x="150.5" y="9.2" kX="-0.5" kY="0" cX="1.31" cY="1.19" pX="98" pY="20.15" z="0">
+        <d name="heshang-sprite 101" />
+      </b>
+      <b name="图层 3" x="1.15" y="7.25" kX="0" kY="0" cX="1.02" cY="0.44" pX="0" pY="0" z="1">
+        <d name="heshang/hq1" isArmature="1" />
+      </b>
+      <b name="图层 4" x="94.4" y="18.6" kX="52.51" kY="36.2" cX="2.58" cY="3.98" pX="123.3" pY="63.55" z="2">
+        <d name="heshang-65466" />
+        <d name="heshang-456" />
+      </b>
+      <b name="图层 7  复制 20" x="-49.55" y="-129.55" kX="0" kY="0" cX="1.8" cY="1.8" pX="109.35" pY="163.45" z="3">
+        <d name="heshang-5767" />
+        <d name="heshang-bujian" />
+      </b>
+      <b name="图层 7 复制" x="-30.6" y="5.75" kX="0.64" kY="0.83" cX="1.88" cY="1.45" pX="-2.15" pY="15.65" z="4">
+        <d name="heshang/DJ" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="heshang/hq1" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="2.85" y="3.7" kX="0" kY="0" cX="1" cY="1" pX="80" pY="44.5" z="0">
+        <d name="heshang-jdfh" />
+        <d name="heshang-fdjj" />
+        <d name="heshang-djdfj" />
+      </b>
+    </armature>
+    <armature name="heshang/DJ" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-0.5" y="-1.5" kX="0" kY="0" cX="1" cY="1" pX="40" pY="25" z="0">
+        <d name="heshang-hdfh" />
+        <d name="heshang-fjhf" />
+        <d name="heshang-fgjjhf" />
+        <d name="heshang-dfhjgj" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="heshang/hq1">
+      <mov name="1" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="2.85" y="3.7" cocos2d_x="-77.15" cocos2d_y="-40.8" kX="0" kY="0" cX="1" cY="1" pX="80" pY="44.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="3" y="3" cocos2d_x="-72.5" cocos2d_y="-39.5" kX="0" kY="0" cX="1" cY="1" pX="75.5" pY="42.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="5.55" y="-0.9" cocos2d_x="-87.45" cocos2d_y="-59.9" kX="0" kY="0" cX="1" cY="1" pX="93" pY="59" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="2.85" y="3.7" cocos2d_x="-77.15" cocos2d_y="-40.8" kX="0" kY="0" cX="1" cY="1" pX="80" pY="44.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="3" y="3" cocos2d_x="-72.5" cocos2d_y="-39.5" kX="0" kY="0" cX="1" cY="1" pX="75.5" pY="42.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="5.55" y="-0.9" cocos2d_x="-87.45" cocos2d_y="-59.9" kX="0" kY="0" cX="1" cY="1" pX="93" pY="59" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="2.85" y="3.7" cocos2d_x="-77.15" cocos2d_y="-40.8" kX="0" kY="0" cX="1" cY="1" pX="80" pY="44.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="3" y="3" cocos2d_x="-72.5" cocos2d_y="-39.5" kX="0" kY="0" cX="1" cY="1" pX="75.5" pY="42.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="5.55" y="-0.9" cocos2d_x="-87.45" cocos2d_y="-59.9" kX="0" kY="0" cX="1" cY="1" pX="93" pY="59" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="2.85" y="3.7" cocos2d_x="-77.15" cocos2d_y="-40.8" kX="0" kY="0" cX="1" cY="1" pX="80" pY="44.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="3" y="3" cocos2d_x="-72.5" cocos2d_y="-39.5" kX="0" kY="0" cX="1" cY="1" pX="75.5" pY="42.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="5.55" y="-0.9" cocos2d_x="-87.45" cocos2d_y="-59.9" kX="0" kY="0" cX="1" cY="1" pX="93" pY="59" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="2.85" y="3.7" cocos2d_x="-77.15" cocos2d_y="-40.8" kX="0" kY="0" cX="1" cY="1" pX="80" pY="44.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="3" y="3" cocos2d_x="-72.5" cocos2d_y="-39.5" kX="0" kY="0" cX="1" cY="1" pX="75.5" pY="42.5" z="0" dI="1" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="heshang/DJ">
+      <mov name="2" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.5" y="-1.5" cocos2d_x="-40.5" cocos2d_y="-26.5" kX="0" kY="0" cX="1" cY="1" pX="40" pY="25" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-0.6" y="-2.75" cocos2d_x="-44.1" cocos2d_y="-30.25" kX="0" kY="0" cX="1" cY="1" pX="43.5" pY="27.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-0.5" y="-1.5" cocos2d_x="-40.5" cocos2d_y="-26.5" kX="0" kY="0" cX="1" cY="1" pX="40" pY="25" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-0.55" y="-2.8" cocos2d_x="-50.05" cocos2d_y="-33.8" kX="0" kY="0" cX="1" cY="1" pX="49.5" pY="31" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 7  复制 2" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="150.5" y="9.2" cocos2d_x="22.35" cocos2d_y="-14.7" kX="-0.5" kY="0" cX="1.31" cY="1.19" pX="98" pY="20.15" z="0" dI="0" blend="normal" twE="0" dr="3">
+            <fl name="adjustColorFilter" enabled="true" brightness="10" contrast="12" saturation="10" hue="0" />
+          </f>
+          <f x="150.55" y="8.2" cocos2d_x="15.8" cocos2d_y="-16.9" kX="-0.5" kY="0" cX="1.37" cY="1.25" pX="98.2" pY="20.15" z="0" dI="0" blend="normal" twE="0" dr="5">
+            <fl name="adjustColorFilter" enabled="true" brightness="10" contrast="12" saturation="10" hue="0" />
+          </f>
+          <f x="150.6" y="8.15" cocos2d_x="6.05" cocos2d_y="-18.7" kX="-0.5" kY="0" cX="1.47" cY="1.34" fst="0" pX="98.15" pY="20.1" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.46" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="1.15" y="7.25" cocos2d_x="1.15" cocos2d_y="7.25" kX="0" kY="0" cX="1.02" cY="0.44" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-16.15" y="2.15" cocos2d_x="-16.15" cocos2d_y="2.15" kX="0" kY="0" cX="2.05" cY="0.88" fst="2" pX="0" pY="0" z="1" dI="0" dr="6" />
+          <f x="-16.15" y="5.9" cocos2d_x="-16.15" cocos2d_y="5.9" kX="0" kY="0" cX="2.75" cY="0.59" fst="2" pX="0" pY="0" z="1" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-16.15" y="10.4" cocos2d_x="-16.15" cocos2d_y="10.4" kX="0" kY="0" cX="3.32" cY="0.52" fst="2" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="94.4" y="18.6" cocos2d_x="38.3" cocos2d_y="-323.25" kX="52.51" kY="36.2" cX="2.58" cY="3.98" pX="123.3" pY="63.55" z="2" dI="0" blend="normal" dr="2" />
+          <f x="136.1" y="-22.45" cocos2d_x="36.05" cocos2d_y="-6.1" kX="-88.68" kY="-88.68" cX="2.04" cY="2.04" pX="9.15" pY="48.75" z="2" dI="1" blend="normal" dr="2" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 7  复制 20" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="-49.55" y="-129.55" cocos2d_x="-246.45" cocos2d_y="-423.75" kX="0" kY="0" cX="1.8" cY="1.8" pX="109.35" pY="163.45" z="3" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="-55.5" y="-149.45" cocos2d_x="-275.55" cocos2d_y="-478.2" kX="0" kY="0" cX="2.01" cY="2.01" pX="109.4" pY="163.45" z="3" dI="0" blend="normal" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.4" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-59.6" y="-162.55" cocos2d_x="-294.95" cocos2d_y="-514.35" kX="0" kY="0" cX="2.15" cY="2.15" pX="109.35" pY="163.45" z="3" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+          <f x="161.65" y="14.3" cocos2d_x="101.35" cocos2d_y="-224" kX="-52.15" kY="-37.34" cX="2.44" cY="2.58" fst="0" pX="-64.15" pY="90.55" z="3" dI="1" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.92" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="201.5" y="29.35" cocos2d_x="160.35" cocos2d_y="-251.25" kX="-46.86" kY="-31.32" cX="2.86" cY="2.99" fst="0" pX="-64.2" pY="90.5" z="3" dI="1" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.68" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="243.4" y="34.25" cocos2d_x="258" cocos2d_y="-234.5" kX="-36.14" kY="-19.34" cX="2.77" cY="2.87" fst="0" pX="-64.15" pY="90.6" z="3" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.19" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 7 复制" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-30.6" y="5.75" cocos2d_x="-26.3" cocos2d_y="-16.85" kX="0.64" kY="0.83" cX="1.88" cY="1.45" fst="0" pX="-2.15" pY="15.65" z="4" dI="0" dr="4" />
+          <f dr="17" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="和尚11棍 技能FX" width="512" height="512">
+    <SubTexture name="heshang-dfhjgj" width="90" height="28" x="351" y="213" cocos2d_pX="-5.00" cocos2d_pY="-30.00" />
+    <SubTexture name="heshang-fgjjhf" width="73" height="22" x="432" y="107" cocos2d_pX="-4.00" cocos2d_pY="-24.00" />
+    <SubTexture name="heshang-fjhf" width="77" height="49" x="432" y="57" cocos2d_pX="-5.00" cocos2d_pY="-1.00" />
+    <SubTexture name="heshang-hdfh" width="70" height="41" x="97" y="104" cocos2d_pX="-5.00" cocos2d_pY="-4.00" />
+    <SubTexture name="heshang-djdfj" width="170" height="103" x="0" y="0" cocos2d_pX="-5.00" cocos2d_pY="-5.00" />
+    <SubTexture name="heshang-fdjj" width="142" height="75" x="97" y="165" cocos2d_pX="-2.00" cocos2d_pY="-2.00" />
+    <SubTexture name="heshang-jdfh" width="145" height="74" x="281" y="138" cocos2d_pX="-5.00" cocos2d_pY="-5.00" />
+    <SubTexture name="heshang-bujian" width="96" height="132" x="0" y="104" cocos2d_pX="80.75" cocos2d_pY="38.30" />
+    <SubTexture name="heshang-5767" width="109" height="164" x="171" y="0" cocos2d_pX="-58.65" cocos2d_pY="-94.85" />
+    <SubTexture name="heshang-456" width="110" height="84" x="240" y="213" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="heshang-65466" width="150" height="80" x="281" y="57" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="heshang-sprite 101" width="213" height="56" x="281" y="0" cocos2d_pX="34.65" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

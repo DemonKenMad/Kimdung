@@ -1,0 +1,40 @@
+<skeleton name="鸠摩智普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="110.25" y="-87.95" kX="0" kY="180" cX="1.23" cY="1.23" pX="0" pY="0" z="0">
+        <d name="dsadsa-gdr"/>
+      </b>
+      <b name="图层 4" x="4" y="-11" kX="0" kY="180" cX="0.85" cY="0.85" pX="-102.35" pY="48.25" z="1">
+        <d name="dsadsa-grr"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="cxzcz" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="110.25" y="-87.95" cocos2d_x="110.25" cocos2d_y="-87.95" kX="0" kY="180" cX="1.23" cY="1.23" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+          <f x="163.25" y="-87.95" cocos2d_x="163.25" cocos2d_y="-87.95" kX="0" kY="180" cX="2.42" cY="2.42" pX="0" pY="0" z="0" dI="0" twE="0" dr="12"/>
+          <f x="175.25" y="-87.95" cocos2d_x="175.25" cocos2d_y="-87.95" kX="0" kY="180" cX="2.65" cY="2.65" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="4" y="-11" cocos2d_x="-83" cocos2d_y="-52" kX="0" kY="180" cX="0.85" cY="0.85" pX="-102.35" pY="48.25" z="1" dI="0" twE="0" dr="2"/>
+          <f x="-6" y="-11" cocos2d_x="-112.45" cocos2d_y="-61.15" kX="0" kY="180" cX="1.04" cY="1.04" pX="-102.4" pY="48.2" z="1" dI="0" twE="0" dr="10"/>
+          <f x="-6" y="-11" cocos2d_x="-138.05" cocos2d_y="-73.2" kX="0" kY="180" cX="1.29" cY="1.29" pX="-102.35" pY="48.2" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="2" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="鸠摩智普通攻击特效" width="256" height="512">
+    <SubTexture name="dsadsa-grr" width="232" height="115" x="0" y="0" cocos2d_pX="116.1" cocos2d_pY="49.55"/>
+    <SubTexture name="dsadsa-gdr" width="96" height="150" x="0" y="117" cocos2d_pX="48" cocos2d_pY="75"/>
+  </TextureAtlas>
+</skeleton>

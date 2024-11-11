@@ -1,0 +1,77 @@
+<skeleton name="何足道神技颜色最底层输出 (1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fafas" x="0.4" y="-3" kX="0" kY="0" cX="10.19" cY="8.85" pX="0" pY="0" z="0">
+        <d name="xxx-sdf04"/>
+      </b>
+      <b name="faf" x="221.05" y="-105.9" kX="0" kY="0" cX="10.63" cY="9.14" pX="0" pY="0" z="1">
+        <d name="xxx-sdf06"/>
+      </b>
+      <b name="ffaafsa" x="123.7" y="-66.05" kX="0" kY="0" cX="2.49" cY="1.8" pX="0" pY="0" z="2">
+        <d name="xxx/sdf07" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/sdf07" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="18.6" y="-7.85" kX="0" kY="0" cX="108.05" cY="108.05" pX="0" pY="0" z="0">
+        <d name="xxx-sdf11"/>
+      </b>
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1">
+        <d name="xxx-sdf09"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdf07">
+      <mov name="sdgdffdsadsadfa" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="18.6" y="-7.85" cocos2d_x="18.6" cocos2d_y="-7.85" kX="0" kY="0" cX="108.05" cY="108.05" fst="0" pX="0" pY="0" z="0" dI="0" dr="30"/>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1" dI="0" blend="multiply" dr="30"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill3" dr="90" to="0" drTW="90" lp="0" twE="NaN">
+        <b name="fafas" sc="1" dl="0">
+          <f x="0.4" y="-3" cocos2d_x="0.4" cocos2d_y="-3" kX="0" kY="0" cX="10.19" cY="8.85" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="0.4" y="-3" cocos2d_x="0.4" cocos2d_y="-3" kX="0" kY="0" cX="10.19" cY="8.85" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.02" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="0.4" y="-3" cocos2d_x="0.4" cocos2d_y="-3" kX="0" kY="0" cX="10.19" cY="8.85" fst="0" pX="0" pY="0" z="0" dI="0" dr="50"/>
+          <f x="0.4" y="-3" cocos2d_x="0.4" cocos2d_y="-3" kX="0" kY="0" cX="10.19" cY="8.85" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="11"/>
+          <f x="0.4" y="-3" cocos2d_x="0.4" cocos2d_y="-3" kX="0" kY="0" cX="10.19" cY="8.85" fst="0" pX="0" pY="0" z="0" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.26" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="18" dI="-1"/>
+        </b>
+        <b name="faf" sc="1" dl="0">
+          <f x="221.05" y="-105.9" cocos2d_x="221.05" cocos2d_y="-105.9" kX="0" kY="0" cX="10.63" cY="9.14" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="221.05" y="-105.9" cocos2d_x="221.05" cocos2d_y="-105.9" kX="0" kY="0" cX="10.63" cY="9.14" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="47"/>
+          <f x="155.9" y="-105.9" cocos2d_x="155.9" cocos2d_y="-105.9" kX="0" kY="0" cX="10.63" cY="9.14" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="9"/>
+          <f x="155.9" y="-105.9" cocos2d_x="155.9" cocos2d_y="-105.9" kX="0" kY="0" cX="10.63" cY="9.14" fst="0" pX="0" pY="0" z="1" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="27" dI="-1"/>
+        </b>
+        <b name="ffaafsa" sc="1" dl="0">
+          <f x="123.7" y="-66.05" cocos2d_x="123.7" cocos2d_y="-66.05" kX="0" kY="0" cX="2.49" cY="1.8" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="123.7" y="-66.05" cocos2d_x="123.7" cocos2d_y="-66.05" kX="0" kY="0" cX="2.49" cY="1.8" fst="10" pX="0" pY="0" z="2" dI="0" dr="44"/>
+          <f dr="36" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="何足道神技颜色最底层输出 (1)" width="512" height="512">
+    <SubTexture name="xxx-sdf09" width="284" height="160" x="0" y="324" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-sdf11" width="12" height="7" x="286" y="0" cocos2d_pX="5.9" cocos2d_pY="3.3"/>
+    <SubTexture name="xxx-sdf06" width="284" height="160" x="0" y="0" cocos2d_pX="142" cocos2d_pY="80"/>
+    <SubTexture name="xxx-sdf04" width="284" height="160" x="0" y="162" cocos2d_pX="142" cocos2d_pY="80"/>
+  </TextureAtlas>
+</skeleton>

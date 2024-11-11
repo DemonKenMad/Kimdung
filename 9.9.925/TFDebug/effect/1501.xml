@@ -1,0 +1,82 @@
+<skeleton name="叶二娘普通攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="38.35" y="-90.6" kX="72.72" kY="0" cX="1.66" cY="3.34" pX="0.35" pY="0.35" z="0">
+        <d name="Shape-guang" />
+      </b>
+      <b name="图层 5" x="111.35" y="-93.45" kX="58.74" kY="0.64" cX="1.61" cY="2.47" pX="0.3" pY="0.35" z="1">
+        <d name="Shape-guang" />
+      </b>
+      <b name="图层 6" x="83.35" y="-99.65" kX="34.48" kY="-0.29" cX="1.11" cY="1.21" pX="0.35" pY="0.35" z="2">
+        <d name="Shape-guang" />
+      </b>
+      <b name="图层 4" x="11.95" y="-93.7" kX="38.08" kY="-176.15" cX="3.26" cY="1.17" pX="0" pY="0" z="3">
+        <d name="Shape/yanwu" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="Shape/yanwu" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="Shape-bujian 11" />
+        <d name="Shape-bujian 12" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="Shape/yanwu">
+      <mov name="f" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" twE="0" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="38.35" y="-90.6" cocos2d_x="38.85" cocos2d_y="-90.95" kX="72.72" kY="0" cX="1.66" cY="3.34" pX="0.35" pY="0.35" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="77.3" y="-93.3" cocos2d_x="77.95" cocos2d_y="-93.7" kX="72.21" kY="1.28" cX="1.42" cY="3.39" pX="0.45" pY="0.4" z="0" dI="0" blend="add" twE="0" dr="4" />
+          <f x="116.1" y="-96.05" cocos2d_x="117" cocos2d_y="-96.5" kX="71.58" kY="2.76" cX="1.19" cY="3.44" pX="0.3" pY="0.35" z="0" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.29" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="111.35" y="-93.45" cocos2d_x="111.6" cocos2d_y="-93.9" kX="58.74" kY="0.64" cX="1.61" cY="2.47" pX="0.3" pY="0.35" z="1" dI="0" blend="add" twE="0" dr="3">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="179.85" y="-96.45" cocos2d_x="180.1" cocos2d_y="-96.9" kX="58.7" kY="0.53" cX="1.61" cY="2.47" pX="0.3" pY="0.35" z="1" dI="0" blend="add" twE="0" dr="4">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="270.35" y="-96.45" cocos2d_x="270.6" cocos2d_y="-96.9" kX="58.74" kY="0.64" cX="1.61" cY="2.47" pX="0.3" pY="0.3" z="1" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f x="83.35" y="-99.65" cocos2d_x="83.2" cocos2d_y="-100" kX="34.48" kY="-0.29" cX="1.11" cY="1.21" pX="0.35" pY="0.35" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="145.8" y="-103.15" cocos2d_x="145.65" cocos2d_y="-103.5" kX="34.48" kY="-0.29" cX="1.11" cY="1.21" pX="0.4" pY="0.35" z="2" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="195.35" y="-101.15" cocos2d_x="195.15" cocos2d_y="-101.5" kX="34.48" kY="-0.29" cX="1.11" cY="1.21" pX="0.4" pY="0.35" z="2" dI="0" blend="add" dr="2" />
+          <f x="195.3" y="-101.15" cocos2d_x="195.15" cocos2d_y="-101.5" kX="34.48" kY="-0.29" cX="1.11" cY="1.21" pX="0.35" pY="0.35" z="2" dI="0" blend="add" twE="0" dr="2" />
+          <f x="205.9" y="-101.1" cocos2d_x="205.75" cocos2d_y="-101.45" kX="34.37" kY="-0.26" cX="1.15" cY="1.25" pX="0.35" pY="0.3" z="2" dI="0" blend="add" twE="0" dr="4" />
+          <f x="221.8" y="-101.15" cocos2d_x="221.7" cocos2d_y="-101.55" kX="34.48" kY="-0.29" cX="1.19" cY="1.3" pX="0.3" pY="0.35" z="2" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.2" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="11.95" y="-93.7" cocos2d_x="11.95" cocos2d_y="-93.7" kX="38.08" kY="-176.15" cX="3.26" cY="1.17" pX="0" pY="0" z="3" dI="0" dr="4" />
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="叶二娘普通攻击" width="256" height="256">
+    <SubTexture name="Shape-bujian 12" width="91" height="131" x="107" y="84" cocos2d_pX="57.00" cocos2d_pY="66.00" />
+    <SubTexture name="Shape-bujian 11" width="106" height="133" x="0" y="84" cocos2d_pX="63.00" cocos2d_pY="67.00" />
+    <SubTexture name="Shape-guang" width="200" height="83" x="0" y="0" cocos2d_pX="99.65" cocos2d_pY="41.15" />
+  </TextureAtlas>
+</skeleton>

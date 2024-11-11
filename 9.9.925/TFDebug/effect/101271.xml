@@ -1,0 +1,35 @@
+<skeleton name="香香侍女(奶妈) 普攻特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="104.85" y="-68.35" kX="0" kY="0" cX="1" cY="1" pX="120.5" pY="29.5" z="0">
+        <d name="gongzhushiwei-位图 1" />
+        <d name="gongzhushiwei-位图 2" />
+        <d name="gongzhushiwei-位图 3" />
+        <d name="gongzhushiwei-位图 4" />
+        <d name="gongzhushiwei-位图 5" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ptgj" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="104.85" y="-68.35" cocos2d_x="-15.65" cocos2d_y="-97.85" kX="0" kY="0" cX="1" cY="1" pX="120.5" pY="29.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="135.3" y="-74.3" cocos2d_x="-2.2" cocos2d_y="-89.8" kX="0" kY="0" cX="1" cY="1" pX="137.5" pY="15.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="179.8" y="-69.5" cocos2d_x="18.3" cocos2d_y="-103.5" kX="0" kY="0" cX="1" cY="1" pX="161.5" pY="34" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="224.9" y="-74.2" cocos2d_x="92.4" cocos2d_y="-149.7" kX="0" kY="0" cX="1" cY="1" pX="132.5" pY="75.5" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="240.4" y="-77.2" cocos2d_x="191.9" cocos2d_y="-120.7" kX="0" kY="0" cX="1" cY="1" pX="48.5" pY="43.5" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="香香侍女(奶妈) 普攻特效" width="512" height="256">
+    <SubTexture name="gongzhushiwei-位图 5" width="79" height="71" x="250" y="54" cocos2d_pX="-8.00" cocos2d_pY="-8.00" />
+    <SubTexture name="gongzhushiwei-位图 4" width="249" height="134" x="0" y="0" cocos2d_pX="-7.00" cocos2d_pY="-5.00" />
+    <SubTexture name="gongzhushiwei-位图 3" width="272" height="51" x="0" y="135" cocos2d_pX="-45.00" cocos2d_pY="-4.00" />
+    <SubTexture name="gongzhushiwei-位图 2" width="263" height="25" x="0" y="187" cocos2d_pX="-5.00" cocos2d_pY="-1.00" />
+    <SubTexture name="gongzhushiwei-位图 1" width="232" height="53" x="250" y="0" cocos2d_pX="-4.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

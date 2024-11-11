@@ -1,0 +1,54 @@
+<skeleton name="阳顶天skill01受击下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fsddsaf" x="-14.7" y="8.45" kX="0" kY="0" cX="1.08" cY="1.08" pX="0" pY="0" z="0">
+        <d name="xxx/siturenjfilesB04" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/siturenjfilesB04" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="7.2" y="-16.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-siturenjfilesB14" />
+        <d name="xxx-siturenjfilesB15" />
+        <d name="xxx-siturenjfilesB16" />
+        <d name="xxx-siturenjfilesB17" />
+        <d name="xxx-siturenjfilesB18" />
+        <d name="xxx-siturenjfilesB19" />
+        <d name="xxx-siturenjfilesB20" />
+        <d name="xxx-siturenjfilesB21" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/siturenjfilesB04">
+      <mov name="fdsfasdawda" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="7.2" y="-16.1" cocos2d_x="7.2" cocos2d_y="-16.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="8.1" y="-10.55" cocos2d_x="8.1" cocos2d_y="-10.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="6" y="-9.15" cocos2d_x="6" cocos2d_y="-9.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="3.2" y="-6.85" cocos2d_x="3.2" cocos2d_y="-6.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="8.55" y="-9.85" cocos2d_x="8.55" cocos2d_y="-9.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="9.05" y="-8.7" cocos2d_x="9.05" cocos2d_y="-8.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="5" dr="2" />
+          <f x="9.5" y="-9.4" cocos2d_x="9.5" cocos2d_y="-9.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="6" dr="2" />
+          <f x="9.25" y="-4.3" cocos2d_x="9.25" cocos2d_y="-4.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="7" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill1" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="fsddsaf" sc="1" dl="0">
+          <f x="-14.7" y="8.45" cocos2d_x="-14.7" cocos2d_y="8.45" kX="0" kY="0" cX="1.08" cY="1.08" fst="0" pX="0" pY="0" z="0" dI="0" dr="25" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阳顶天skill01受击下层" width="256" height="256">
+    <SubTexture name="xxx-siturenjfilesB21" width="141" height="37" x="102" y="136" cocos2d_pX="70.55" cocos2d_pY="19.20" />
+    <SubTexture name="xxx-siturenjfilesB20" width="137" height="44" x="0" y="0" cocos2d_pX="69.10" cocos2d_pY="21.75" />
+    <SubTexture name="xxx-siturenjfilesB19" width="133" height="43" x="0" y="45" cocos2d_pX="66.80" cocos2d_pY="21.40" />
+    <SubTexture name="xxx-siturenjfilesB18" width="126" height="41" x="0" y="89" cocos2d_pX="63.30" cocos2d_pY="20.75" />
+    <SubTexture name="xxx-siturenjfilesB17" width="112" height="47" x="138" y="0" cocos2d_pX="54.95" cocos2d_pY="24.35" />
+    <SubTexture name="xxx-siturenjfilesB16" width="105" height="44" x="134" y="48" cocos2d_pX="53.25" cocos2d_pY="22.00" />
+    <SubTexture name="xxx-siturenjfilesB15" width="104" height="42" x="127" y="93" cocos2d_pX="52.10" cocos2d_pY="21.10" />
+    <SubTexture name="xxx-siturenjfilesB14" width="101" height="45" x="0" y="131" cocos2d_pX="50.35" cocos2d_pY="22.50" />
+  </TextureAtlas>
+</skeleton>

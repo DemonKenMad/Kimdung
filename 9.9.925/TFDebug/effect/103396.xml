@@ -1,0 +1,189 @@
+<skeleton name="香香公主主技能所有角色顶层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 11" x="334" y="-110.55" kX="0" kY="0" cX="121.3" cY="121.3" pX="0" pY="0" z="0">
+        <d name="xxx-shfff05" />
+      </b>
+      <b name="图层 10" x="353.7" y="364.9" kX="0" kY="0" cX="2.13" cY="1" pX="28.45" pY="575.9" z="1">
+        <d name="xxx/shfff09" isArmature="1" />
+      </b>
+      <b name="图层 9" x="331.1" y="-85.85" kX="0" kY="0" cX="100" cY="100" pX="0" pY="-0.05" z="2">
+        <d name="xxx-shfff07" />
+      </b>
+      <b name="图层 8" x="334" y="-110.55" kX="0" kY="0" cX="121.3" cY="121.3" pX="0" pY="0" z="3">
+        <d name="xxx-shfff05" />
+      </b>
+    </armature>
+    <armature name="xxx/shfff09" isLoop="loop" startFrame="14">
+      <b name="btrnetymtymtyu" x="241.3" y="604.85" kX="0" kY="13.57" cX="1.2" cY="1" pX="0" pY="610.25" z="0">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu0" x="96.25" y="573.85" kX="0" kY="-175.91" cX="0.41" cY="1" pX="0" pY="610.25" z="1">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu1" x="28.3" y="592.65" kX="0" kY="-3.14" cX="3.29" cY="1" pX="0" pY="610.25" z="2">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu2" x="-103.85" y="633.6" kX="0" kY="-25.87" cX="0.13" cY="1" pX="0" pY="610.25" z="3">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu3" x="-266.6" y="571.1" kX="0" kY="-10.47" cX="0.3" cY="1" pX="0" pY="610.25" z="4">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu4" x="-201.1" y="582.25" kX="0" kY="0.06" cX="1.76" cY="1" pX="0" pY="610.25" z="5">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu5" x="-157.65" y="663.1" kX="0" kY="-14.79" cX="1.06" cY="1" pX="0" pY="610.25" z="6">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu6" x="140.3" y="654.45" kX="0" kY="-165.21" cX="2.07" cY="1" pX="0" pY="610.25" z="7">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu7" x="188" y="604.85" kX="0" kY="13.57" cX="0.28" cY="1" pX="0" pY="610.25" z="8">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+      <b name="btrnetymtymtyu8" x="-157.65" y="663.1" kX="0" kY="-14.79" cX="1.06" cY="1" pX="0" pY="610.25" z="9">
+        <d name="xxx/shfff10" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shfff10" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="-0.15" kX="0" kY="0" cX="1.82" cY="4.71" pX="0" pY="-0.05" z="0">
+        <d name="xxx/shfff11" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shfff11">
+      <b name="图层 2 复制" x="-0.85" y="4.7" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0">
+        <d name="xxx-shfff02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shfff11">
+      <mov name="sdzfsdfasfas" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 2 复制" sc="1" dl="0">
+          <f x="-0.85" y="4.7" cocos2d_x="-0.75" cocos2d_y="4.7" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="23" />
+          <f x="-0.85" y="4.7" cocos2d_x="-0.75" cocos2d_y="4.7" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/shfff10">
+      <mov name="dvsfsdfasd" dr="11" to="0" drTW="11" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="-0.15" cocos2d_x="0" cocos2d_y="0.1" kX="0" kY="0" cX="1.82" cY="4.71" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="9" />
+          <f x="0" y="-0.15" cocos2d_x="0" cocos2d_y="0.1" kX="0" kY="0" cX="0.17" cY="4.71" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/shfff09">
+      <mov name="sdfsafasfafa" dr="20" to="0" drTW="20" lp="1" twE="NaN">
+        <b name="btrnetymtymtyu" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="241.3" y="604.85" cocos2d_x="241.3" cocos2d_y="-5.4" kX="0" kY="13.57" cX="1.2" cY="1" fst="0" pX="0" pY="610.25" z="0" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu0" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="96.25" y="573.85" cocos2d_x="96.25" cocos2d_y="-36.4" kX="0" kY="-175.91" cX="0.41" cY="1" fst="0" pX="0" pY="610.25" z="1" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu1" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="28.3" y="592.65" cocos2d_x="28.3" cocos2d_y="-17.6" kX="0" kY="-3.14" cX="3.29" cY="1" fst="0" pX="0" pY="610.25" z="2" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu2" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-103.85" y="633.6" cocos2d_x="-103.85" cocos2d_y="23.35" kX="0" kY="-25.87" cX="0.13" cY="1" fst="0" pX="0" pY="610.25" z="3" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu3" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-266.6" y="571.1" cocos2d_x="-266.6" cocos2d_y="-39.15" kX="0" kY="-10.47" cX="0.3" cY="1" fst="0" pX="0" pY="610.25" z="4" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu4" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-201.1" y="582.25" cocos2d_x="-201.1" cocos2d_y="-28" kX="0" kY="0.06" cX="1.76" cY="1" fst="0" pX="0" pY="610.25" z="5" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu5" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-157.65" y="663.1" cocos2d_x="-157.65" cocos2d_y="52.85" kX="0" kY="-14.79" cX="1.06" cY="1" fst="0" pX="0" pY="610.25" z="6" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu6" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="140.3" y="654.45" cocos2d_x="140.3" cocos2d_y="44.2" kX="0" kY="-165.21" cX="2.07" cY="1" fst="0" pX="0" pY="610.25" z="7" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="btrnetymtymtyu7" sc="1" dl="0">
+          <f x="188" y="604.85" cocos2d_x="188" cocos2d_y="-5.4" kX="0" kY="13.57" cX="0.28" cY="1" fst="7" pX="0" pY="610.25" z="8" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+          <f x="188" y="604.85" cocos2d_x="188" cocos2d_y="-5.4" kX="0" kY="13.57" cX="0.28" cY="1" fst="0" pX="0" pY="610.25" z="8" dI="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="btrnetymtymtyu8" sc="1" dl="0">
+          <f x="-157.65" y="663.1" cocos2d_x="-157.65" cocos2d_y="52.85" kX="0" kY="-14.79" cX="1.06" cY="1" fst="4" pX="0" pY="610.25" z="9" dI="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+          <f x="-157.65" y="663.1" cocos2d_x="-157.65" cocos2d_y="52.85" kX="0" kY="-14.79" cX="1.06" cY="1" fst="0" pX="0" pY="610.25" z="9" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.54" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="78" to="0" drTW="78" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f dr="69" dI="-1" />
+          <f x="334" y="-110.55" cocos2d_x="334" cocos2d_y="-110.55" kX="0" kY="0" cX="121.3" cY="121.3" fst="0" pX="0" pY="0" z="0" dI="0" twE="-1" dr="4" />
+          <f x="334" y="-110.55" cocos2d_x="334" cocos2d_y="-110.55" kX="0" kY="0" cX="121.3" cY="121.3" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.11" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="46" dI="-1" />
+          <f x="353.7" y="364.9" cocos2d_x="293.2" cocos2d_y="-211" kX="0" kY="0" cX="2.13" cY="1" fst="13" pX="28.45" pY="575.9" z="1" dI="0" dr="9" />
+          <f dr="23" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="42" dI="-1" />
+          <f x="331.1" y="-85.85" cocos2d_x="331.1" cocos2d_y="-80.85" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="2" dI="0" dr="1" twE="NaN" />
+          <f dr="35" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="43" dI="-1" />
+          <f x="334" y="-110.55" cocos2d_x="334" cocos2d_y="-110.55" kX="0" kY="0" cX="121.3" cY="121.3" fst="0" pX="0" pY="0" z="3" dI="0" dr="2" />
+          <f dr="33" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="香香公主主技能所有角色顶层输出" width="128" height="256">
+    <SubTexture name="xxx-shfff02" width="26" height="162" x="0" y="0" cocos2d_pX="13.00" cocos2d_pY="80.45" />
+    <SubTexture name="xxx-shfff07" width="17" height="10" x="27" y="0" cocos2d_pX="8.35" cocos2d_pY="5.10" />
+    <SubTexture name="xxx-shfff05" width="13" height="7" x="45" y="0" cocos2d_pX="6.20" cocos2d_pY="3.55" />
+  </TextureAtlas>
+</skeleton>

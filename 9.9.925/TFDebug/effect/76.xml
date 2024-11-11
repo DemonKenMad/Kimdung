@@ -1,0 +1,64 @@
+<skeleton name="倍耗buff输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fasfasf" x="5.8" y="-31.05" kX="0" kY="0" cX="0.12" cY="0.12" pX="412.15" pY="585.2" z="0">
+        <d name="xxx/sdjdf25" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdjdf25" isLoop="loop" startFrame="1">
+      <b name="safas" x="407.1" y="456.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sdjdf12" />
+        <d name="xxx-sdjdf11" />
+        <d name="xxx-sdjdf10" />
+        <d name="xxx-sdjdf09" />
+        <d name="xxx-sdjdf08" />
+        <d name="xxx-sdjdf07" />
+        <d name="xxx-sdjdf06" />
+        <d name="xxx-sdjdf05" />
+        <d name="xxx-sdjdf04" />
+        <d name="xxx-sdjdf03" />
+        <d name="xxx-sdjdf02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdjdf25">
+      <mov name="dsgdaga" dr="21" to="0" drTW="21" lp="1" twE="NaN">
+        <b name="safas" sc="1" dl="0">
+          <f x="407.1" y="456.45" cocos2d_x="407.1" cocos2d_y="456.45" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="386.2" y="389.6" cocos2d_x="386.2" cocos2d_y="389.6" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="390.4" y="351.95" cocos2d_x="390.4" cocos2d_y="351.95" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="398.75" y="339.45" cocos2d_x="398.75" cocos2d_y="339.45" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="398.75" y="347.8" cocos2d_x="398.75" cocos2d_y="347.8" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="394.55" y="320" cocos2d_x="394.55" cocos2d_y="320" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="394.6" y="320" cocos2d_x="394.6" cocos2d_y="320" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="411.3" y="320" cocos2d_x="411.3" cocos2d_y="320" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="382.05" y="320" cocos2d_x="382.05" cocos2d_y="320" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f x="440.55" y="320" cocos2d_x="440.55" cocos2d_y="320" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="9" dr="2" />
+          <f x="423.85" y="320" cocos2d_x="423.85" cocos2d_y="320" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="0" pY="0" z="0" dI="10" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="stand" dr="35" to="0" drTW="35" lp="1" twE="NaN">
+        <b name="fasfasf" sc="1" dl="0">
+          <f x="5.8" y="-31.05" cocos2d_x="-43.5" cocos2d_y="-101.05" kX="0" kY="0" cX="0.12" cY="0.12" fst="0" pX="412.15" pY="585.2" z="0" dI="0" dr="21" />
+          <f dr="14" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="倍耗buff输出" width="1024" height="1024">
+    <SubTexture name="xxx-sdjdf02" width="183" height="242" x="623" y="243" cocos2d_pX="93.65" cocos2d_pY="128.00" />
+    <SubTexture name="xxx-sdjdf03" width="204" height="242" x="219" y="242" cocos2d_pX="113.65" cocos2d_pY="128.00" />
+    <SubTexture name="xxx-sdjdf04" width="218" height="243" x="0" y="0" cocos2d_pX="102.10" cocos2d_pY="128.00" />
+    <SubTexture name="xxx-sdjdf05" width="218" height="241" x="219" y="0" cocos2d_pX="114.05" cocos2d_pY="124.00" />
+    <SubTexture name="xxx-sdjdf06" width="215" height="242" x="438" y="0" cocos2d_pX="106.75" cocos2d_pY="119.00" />
+    <SubTexture name="xxx-sdjdf07" width="209" height="242" x="654" y="0" cocos2d_pX="101.35" cocos2d_pY="115.00" />
+    <SubTexture name="xxx-sdjdf08" width="198" height="232" x="424" y="243" cocos2d_pX="97.30" cocos2d_pY="115.85" />
+    <SubTexture name="xxx-sdjdf09" width="184" height="217" x="807" y="243" cocos2d_pX="90.35" cocos2d_pY="97.25" />
+    <SubTexture name="xxx-sdjdf10" width="165" height="227" x="807" y="461" cocos2d_pX="80.25" cocos2d_pY="112.20" />
+    <SubTexture name="xxx-sdjdf11" width="169" height="228" x="0" y="244" cocos2d_pX="77.40" cocos2d_pY="104.20" />
+    <SubTexture name="xxx-sdjdf12" width="111" height="149" x="864" y="0" cocos2d_pX="55.85" cocos2d_pY="57.75" />
+  </TextureAtlas>
+</skeleton>

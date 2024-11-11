@@ -1,0 +1,45 @@
+<skeleton name="穆人清普攻颜色受击底层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gagaga" x="0.1" y="4" kX="0" kY="0" cX="0.25" cY="0.25" pX="-372" pY="-34.1" z="0">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdgh03" isLoop="single frame" startFrame="1">
+      <b name="图层 1" x="-370.15" y="-33.75" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0">
+        <d name="xxx-sdgh05" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdgh03">
+      <mov name="fsfafasfasfaf" dr="33" to="0" drTW="33" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-370.15" y="-33.75" cocos2d_x="-370.05" cocos2d_y="-33.75" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="0" blend="add" dr="30" />
+          <f x="-370.15" y="-33.75" cocos2d_x="-370.05" cocos2d_y="-33.75" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="0" blend="add" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="46" to="0" drTW="46" lp="0" twE="NaN">
+        <b name="gagaga" sc="1" dl="0">
+          <f dr="24" dI="-1" />
+          <f x="0.1" y="4" cocos2d_x="93.95" cocos2d_y="12.6" kX="0" kY="0" cX="0.25" cY="0.25" fst="0" pX="-372" pY="-34.1" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.1" y="4" cocos2d_x="321.25" cocos2d_y="33.45" kX="0" kY="0" cX="0.86" cY="0.86" fst="0" pX="-372.05" pY="-34.1" z="0" dI="0" twE="0" dr="7" />
+          <f x="0.1" y="4" cocos2d_x="395.85" cocos2d_y="40.25" kX="0" kY="0" cX="1.06" cY="1.06" fst="0" pX="-372" pY="-34.1" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.15" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.1" y="4" cocos2d_x="395.85" cocos2d_y="40.25" kX="0" kY="0" cX="1.06" cY="1.06" fst="0" pX="-372" pY="-34.1" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="12" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="穆人清普攻颜色受击底层输出" width="256" height="64">
+    <SubTexture name="xxx-sdgh05" width="217" height="54" x="0" y="0" cocos2d_pX="108.80" cocos2d_pY="26.65" />
+  </TextureAtlas>
+</skeleton>

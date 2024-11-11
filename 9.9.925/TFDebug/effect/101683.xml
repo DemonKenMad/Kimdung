@@ -1,0 +1,80 @@
+<skeleton name="lv1星宿派弟子技能fx_陈文明" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="202.95" y="-1.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-vbredb rebzre" />
+      </b>
+      <b name="图层 10     复制 5" x="75.6" y="-121.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-rvbe bntrn tr" />
+        <d name="xxx-bvntrnt" />
+      </b>
+      <b name="图层 5" x="202.9" y="-112.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2">
+        <d name="xxx-vbetnbrtny" />
+      </b>
+      <b name="图层 9" x="206.55" y="-73.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3">
+        <d name="xxx-vbetrn rytnt" />
+        <d name="xxx-bvtvrnrytr" />
+        <d name="xxx-v brenb rt" />
+      </b>
+      <b name="图层 6" x="-70.05" y="-168.75" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4">
+        <d name="xxx-btrn btrnr" />
+        <d name="xxx-vbrewbtrb" />
+        <d name="xxx-v tb rt" />
+        <d name="xxx-vrwebvre" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="jngj" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="202.95" y="-1.15" cocos2d_x="202.95" cocos2d_y="-1.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 10     复制 5" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="75.6" y="-121.15" cocos2d_x="75.6" cocos2d_y="-121.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="normal" dr="2" />
+          <f x="120.35" y="-123.5" cocos2d_x="120.35" cocos2d_y="-123.5" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" blend="normal" dr="3" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="17" dI="-1" />
+          <f x="202.9" y="-112.4" cocos2d_x="202.9" cocos2d_y="-112.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="202.9" y="-112.4" cocos2d_x="202.9" cocos2d_y="-112.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="206.55" y="-73.05" cocos2d_x="206.55" cocos2d_y="-73.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+          <f x="243.2" y="-74.6" cocos2d_x="243.2" cocos2d_y="-74.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="239.6" y="-105.6" cocos2d_x="239.6" cocos2d_y="-105.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f dr="12" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-70.05" y="-168.75" cocos2d_x="-70.05" cocos2d_y="-168.75" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="0" blend="normal" dr="2" />
+          <f x="-71.55" y="-168.85" cocos2d_x="-71.55" cocos2d_y="-168.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="1" blend="normal" dr="2" />
+          <f x="-71.45" y="-168.75" cocos2d_x="-71.45" cocos2d_y="-168.75" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="2" blend="normal" dr="2" />
+          <f x="-71.45" y="-168.75" cocos2d_x="-71.45" cocos2d_y="-168.75" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="3" blend="normal" dr="2" />
+          <f dr="19" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="lv1星宿派弟子技能fx_陈文明" width="512" height="512">
+    <SubTexture name="xxx-vrwebvre" width="103" height="112" x="120" y="330" cocos2d_pX="53.35" cocos2d_pY="55.75" />
+    <SubTexture name="xxx-v tb rt" width="115" height="107" x="374" y="314" cocos2d_pX="57.10" cocos2d_pY="49.05" />
+    <SubTexture name="xxx-vbrewbtrb" width="209" height="192" x="0" y="0" cocos2d_pX="110.05" cocos2d_pY="89.85" />
+    <SubTexture name="xxx-btrn btrnr" width="80" height="80" x="427" y="128" cocos2d_pX="39.30" cocos2d_pY="39.20" />
+    <SubTexture name="xxx-v brenb rt" width="108" height="131" x="0" y="193" cocos2d_pX="33.05" cocos2d_pY="64.75" />
+    <SubTexture name="xxx-bvtvrnrytr" width="133" height="104" x="374" y="209" cocos2d_pX="66.50" cocos2d_pY="52.00" />
+    <SubTexture name="xxx-vbetrn rytnt" width="119" height="101" x="0" y="325" cocos2d_pX="59.50" cocos2d_pY="50.50" />
+    <SubTexture name="xxx-vbetnbrtny" width="68" height="127" x="427" y="0" cocos2d_pX="29.85" cocos2d_pY="67.00" />
+    <SubTexture name="xxx-bvntrnt" width="163" height="162" x="210" y="167" cocos2d_pX="72.25" cocos2d_pY="87.40" />
+    <SubTexture name="xxx-rvbe bntrn tr" width="216" height="166" x="210" y="0" cocos2d_pX="103.85" cocos2d_pY="91.40" />
+    <SubTexture name="xxx-vbredb rebzre" width="140" height="31" x="224" y="330" cocos2d_pX="67.50" cocos2d_pY="15.50" />
+  </TextureAtlas>
+</skeleton>

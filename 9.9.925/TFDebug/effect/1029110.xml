@@ -1,0 +1,49 @@
+<skeleton name="恢复_角色BUFF启动下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="sadgasdfashas" x="-0.85" y="0.7" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB03" />
+        <d name="xxx-zhangweifiltacerB05" />
+        <d name="xxx-zhangweifiltacerB07" />
+        <d name="xxx-zhangweifiltacerB09" />
+        <d name="xxx-zhangweifiltacerB11" />
+        <d name="xxx-zhangweifiltacerB13" />
+        <d name="xxx-zhangweifiltacerB15" />
+        <d name="xxx-zhangweifiltacerB17" />
+        <d name="xxx-zhangweifiltacerB19" />
+        <d name="xxx-zhangweifiltacerB21" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dfsagashgashg" dr="44" to="0" drTW="44" lp="0" twE="NaN">
+        <b name="sadgasdfashas" sc="1" dl="0">
+          <f x="-0.85" y="0.7" cocos2d_x="-0.85" cocos2d_y="0.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-2.9" y="5.9" cocos2d_x="-2.8" cocos2d_y="5.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="1" dr="2" />
+          <f x="-1.25" y="3.1" cocos2d_x="-1.25" cocos2d_y="3.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-7.7" y="5.1" cocos2d_x="-7.6" cocos2d_y="5.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="3" dr="2" />
+          <f x="-1.7" y="1.1" cocos2d_x="-1.6" cocos2d_y="1.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+          <f x="-3.3" y="2.3" cocos2d_x="-3.2" cocos2d_y="2.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="5" dr="2" />
+          <f x="-15.75" y="2.3" cocos2d_x="-15.65" cocos2d_y="2.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="6" dr="2" />
+          <f x="-16.15" y="-0.95" cocos2d_x="-16.05" cocos2d_y="-0.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="0" dI="7" dr="2" />
+          <f x="-9.3" y="2.7" cocos2d_x="-9.3" cocos2d_y="2.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f x="-13.35" y="1.5" cocos2d_x="-13.25" cocos2d_y="1.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="9" dr="2" />
+          <f dr="24" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="恢复_角色BUFF启动下层" width="512" height="512">
+    <SubTexture name="xxx-zhangweifiltacerB21" width="161" height="65" x="345" y="141" cocos2d_pX="80.15" cocos2d_pY="34.10" />
+    <SubTexture name="xxx-zhangweifiltacerB19" width="173" height="66" x="0" y="138" cocos2d_pX="87.55" cocos2d_pY="32.30" />
+    <SubTexture name="xxx-zhangweifiltacerB17" width="188" height="68" x="0" y="69" cocos2d_pX="93.80" cocos2d_pY="33.40" />
+    <SubTexture name="xxx-zhangweifiltacerB15" width="190" height="70" x="196" y="0" cocos2d_pX="94.60" cocos2d_pY="35.15" />
+    <SubTexture name="xxx-zhangweifiltacerB13" width="182" height="69" x="189" y="71" cocos2d_pX="91.40" cocos2d_pY="33.75" />
+    <SubTexture name="xxx-zhangweifiltacerB11" width="195" height="68" x="0" y="0" cocos2d_pX="97.45" cocos2d_pY="34.30" />
+    <SubTexture name="xxx-zhangweifiltacerB09" width="170" height="60" x="174" y="141" cocos2d_pX="84.60" cocos2d_pY="29.90" />
+    <SubTexture name="xxx-zhangweifiltacerB07" width="153" height="58" x="174" y="202" cocos2d_pX="76.70" cocos2d_pY="29.30" />
+    <SubTexture name="xxx-zhangweifiltacerB05" width="127" height="49" x="372" y="71" cocos2d_pX="65.50" cocos2d_pY="24.30" />
+    <SubTexture name="xxx-zhangweifiltacerB03" width="80" height="40" x="387" y="0" cocos2d_pX="40.35" cocos2d_pY="19.45" />
+  </TextureAtlas>
+</skeleton>

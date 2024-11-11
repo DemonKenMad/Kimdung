@@ -1,0 +1,66 @@
+<skeleton name="温家老二" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="8" y="-68.25" kX="12.38" kY="12.38" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dassa-254324" />
+      </b>
+      <b name="图层 2" x="47.65" y="-57.85" kX="31.19" kY="15.62" cX="0.5" cY="1.01" pX="0" pY="0" z="1">
+        <d name="dassa-53054" />
+      </b>
+      <b name="图层 1" x="41.25" y="-80.15" kX="0" kY="180" cX="0.64" cY="0.8" pX="0" pY="0" z="2">
+        <d name="dassa-3540554" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="4355" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="8" y="-68.25" cocos2d_x="8" cocos2d_y="-68.25" kX="12.38" kY="12.38" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="180.5" y="-84.25" cocos2d_x="180.5" cocos2d_y="-84.25" kX="1.01" kY="1.01" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="186.9" y="-82.5" cocos2d_x="186.9" cocos2d_y="-82.5" kX="0.16" kY="0.16" cX="1.52" cY="1.78" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.65" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="198" y="-87.75" cocos2d_x="198" cocos2d_y="-87.75" kX="-1.26" kY="-1.26" cX="1.87" cY="2.29" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.48" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="47.65" y="-57.85" cocos2d_x="47.65" cocos2d_y="-57.85" kX="31.19" kY="15.62" cX="0.5" cY="1.01" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffff66" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="184.9" y="-83.6" cocos2d_x="184.9" cocos2d_y="-83.6" kX="5.93" kY="5.93" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffff66" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="228.55" y="-79.1" cocos2d_x="228.55" cocos2d_y="-79.1" kX="0" kY="0" cX="1.33" cY="1.33" pX="0" pY="0" z="1" dI="0" twE="0" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffff66" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="258.05" y="-86.6" cocos2d_x="258.05" cocos2d_y="-86.6" kX="0" kY="0" cX="1.29" cY="1.29" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.06" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffff66" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="41.25" y="-80.15" cocos2d_x="41.25" cocos2d_y="-80.15" kX="0" kY="180" cX="0.64" cY="0.8" pX="0" pY="0" z="2" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-8.25" y="-88.15" cocos2d_x="-8.25" cocos2d_y="-88.15" kX="0" kY="180" cX="1.2" cY="1.71" pX="0" pY="0" z="2" dI="0" twE="0" dr="3" />
+          <f x="-72.25" y="-100.15" cocos2d_x="-72.25" cocos2d_y="-100.15" kX="0" kY="180" cX="1.35" cY="1.64" pX="0" pY="0" z="2" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="温家老二" width="256" height="256">
+    <SubTexture name="dassa-3540554" width="125" height="134" x="0" y="0" cocos2d_pX="57.95" cocos2d_pY="68.95" />
+    <SubTexture name="dassa-53054" width="122" height="45" x="126" y="0" cocos2d_pX="48.40" cocos2d_pY="22.50" />
+    <SubTexture name="dassa-254324" width="168" height="55" x="0" y="135" cocos2d_pX="84.00" cocos2d_pY="25.00" />
+  </TextureAtlas>
+</skeleton>

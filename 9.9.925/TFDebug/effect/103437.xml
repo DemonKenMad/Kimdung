@@ -1,0 +1,80 @@
+<skeleton name="奇侠 主动技能被动部分buff" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="hgdfhd" x="-28.2" y="-14.85" kX="0" kY="0" cX="1" cY="1" pX="5.4" pY="29.7" z="0">
+        <d name="xxx/sagrehjrtj 副本" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sagrehjrtj 副本" isLoop="loop" startFrame="1">
+      <b name="图层 21" x="142.5" y="-108.55" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-元件 230" />
+      </b>
+      <b name="图层 19" x="24.6" y="-6.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1">
+        <d name="xxx-元件 450" />
+        <d name="xxx-元件 452" />
+        <d name="xxx-元件 454" />
+        <d name="xxx-元件 456" />
+        <d name="xxx-元件 461" />
+        <d name="xxx-元件 464" />
+        <d name="xxx-元件 467" />
+        <d name="xxx-元件 469" />
+        <d name="xxx-元件 471" />
+        <d name="xxx-元件 473" />
+        <d name="xxx-元件 475" />
+        <d name="xxx-元件 477" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sagrehjrtj 副本">
+      <mov name="fdggsd" dr="353" to="0" drTW="353" lp="0" twE="NaN">
+        <b name="图层 21" sc="1" dl="0">
+          <f x="142.5" y="-108.55" cocos2d_x="142.5" cocos2d_y="-108.55" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="22" />
+          <f dr="331" dI="-1" />
+        </b>
+        <b name="图层 19" sc="1" dl="0">
+          <f x="24.6" y="-6.1" cocos2d_x="24.6" cocos2d_y="-6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="22.75" y="-68.8" cocos2d_x="22.75" cocos2d_y="-68.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="1" blend="add" dr="1" twE="NaN" />
+          <f x="20.45" y="-88" cocos2d_x="20.45" cocos2d_y="-87.9" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="1" dI="2" blend="add" dr="1" twE="NaN" />
+          <f x="21.6" y="-142.2" cocos2d_x="21.6" cocos2d_y="-142.2" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="3" blend="add" dr="1" twE="NaN" />
+          <f x="26.65" y="-169.55" cocos2d_x="26.65" cocos2d_y="-169.55" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="4" dr="2" />
+          <f x="24.45" y="-169.55" cocos2d_x="24.45" cocos2d_y="-169.55" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="5" dr="2" />
+          <f x="27.5" y="-172.25" cocos2d_x="27.5" cocos2d_y="-172.25" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="6" dr="2" />
+          <f x="25.3" y="-185.55" cocos2d_x="25.3" cocos2d_y="-185.45" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="1" dI="7" dr="2" />
+          <f x="22.8" y="-191.65" cocos2d_x="22.8" cocos2d_y="-191.65" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="8" dr="2" />
+          <f x="23.25" y="-187.2" cocos2d_x="23.25" cocos2d_y="-187.1" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="1" dI="9" dr="2" />
+          <f x="23.1" y="-193.9" cocos2d_x="23.1" cocos2d_y="-193.9" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="10" dr="2" />
+          <f x="22.7" y="-207.95" cocos2d_x="22.7" cocos2d_y="-207.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="11" twE="0" dr="3" />
+          <f x="22.7" y="-207.95" cocos2d_x="22.7" cocos2d_y="-207.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="11" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.05" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="331" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fhsdfgsdgsdg" dr="68" to="0" drTW="68" lp="0" twE="NaN">
+        <b name="hgdfhd" sc="1" dl="0">
+          <f dr="34" dI="-1" />
+          <f x="-28.2" y="-14.85" cocos2d_x="-33.6" cocos2d_y="-44.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="5.4" pY="29.7" z="0" dI="0" dr="10" />
+          <f x="-28.2" y="-14.85" cocos2d_x="-33.6" cocos2d_y="-44.55" kX="0" kY="0" cX="1" cY="1" fst="10" pX="5.4" pY="29.7" z="0" dI="0" dr="24" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="奇侠 主动技能被动部分buff" width="1024" height="1024">
+    <SubTexture name="xxx-元件 477" width="218" height="310" x="233" y="0" cocos2d_pX="108.95" cocos2d_pY="154.85" />
+    <SubTexture name="xxx-元件 475" width="210" height="303" x="682" y="0" cocos2d_pX="105.10" cocos2d_pY="151.20" />
+    <SubTexture name="xxx-元件 473" width="205" height="300" x="452" y="297" cocos2d_pX="102.45" cocos2d_pY="150.20" />
+    <SubTexture name="xxx-元件 471" width="199" height="299" x="658" y="304" cocos2d_pX="99.50" cocos2d_pY="149.10" />
+    <SubTexture name="xxx-元件 469" width="200" height="306" x="0" y="297" cocos2d_pX="100.10" cocos2d_pY="152.25" />
+    <SubTexture name="xxx-元件 467" width="196" height="292" x="201" y="311" cocos2d_pX="98.05" cocos2d_pY="146.50" />
+    <SubTexture name="xxx-元件 464" width="232" height="296" x="0" y="0" cocos2d_pX="111.90" cocos2d_pY="147.85" />
+    <SubTexture name="xxx-元件 461" width="229" height="296" x="452" y="0" cocos2d_pX="117.00" cocos2d_pY="147.85" />
+    <SubTexture name="xxx-元件 456" width="194" height="260" x="398" y="598" cocos2d_pX="97.00" cocos2d_pY="130.05" />
+    <SubTexture name="xxx-元件 454" width="174" height="196" x="0" y="604" cocos2d_pX="86.85" cocos2d_pY="97.25" />
+    <SubTexture name="xxx-元件 452" width="120" height="162" x="893" y="0" cocos2d_pX="60.60" cocos2d_pY="81.25" />
+    <SubTexture name="xxx-元件 450" width="58" height="84" x="893" y="163" cocos2d_pX="28.65" cocos2d_pY="42.10" />
+    <SubTexture name="xxx-元件 230" width="0" height="0" x="1014" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

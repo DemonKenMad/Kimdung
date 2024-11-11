@@ -1,0 +1,26 @@
+<skeleton name="波斯三使人物神技上层白屏" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 25" x="349.5" y="-148.6" kX="0" kY="0" cX="15" cY="15" pX="750" pY="427.5" z="0">
+        <d name="xxx-元件 10"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="wsadffsdagasgasg" dr="133" to="0" drTW="133" lp="0" twE="NaN">
+        <b name="图层 25" sc="1" dl="0">
+          <f dr="66" dI="-1"/>
+          <f x="349.5" y="-148.6" cocos2d_x="-10900.5" cocos2d_y="-6561.1" kX="0" kY="0" cX="15" cY="15" pX="750" pY="427.5" z="0" dI="0" twE="0" dr="5"/>
+          <f x="349.5" y="-148.6" cocos2d_x="-10900.5" cocos2d_y="-6561.1" kX="0" kY="0" cX="15" cY="15" pX="750" pY="427.5" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="61" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="波斯三使人物神技上层白屏" width="256" height="128">
+    <SubTexture name="xxx-元件 10" width="150" height="86" x="0" y="0" cocos2d_pX="-675" cocos2d_pY="-384.75"/>
+  </TextureAtlas>
+</skeleton>

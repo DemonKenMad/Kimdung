@@ -1,0 +1,73 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CRedPacketMsg";
+
+// 玩家自己的红包积分和代币
+message PlayerRedPacketInfo {
+	required int32 integral = 1;						// 红包积分
+	required int32 currency = 2;						// 红包代币
+}
+
+// 玩家的一些简单信息
+message PlayerShowInfo {
+	required int32 playerId = 1;						// 玩家ID
+	required string name = 2;							// 玩家昵称
+	required int32 icon = 3;							// 玩家头像
+	required int32 frame = 4;							// 玩家头像框
+	required int32 level = 5;							// 玩家等级
+	required int32 sycee = 6;							// 玩家领取的元宝数量
+	required int32 vipLevel = 7;						// 玩家VIP等级
+	required string guildName = 8;						// 帮派名称
+	required int32 ranking = 9;							// 排名
+	required int32 competence = 10;						// 公会职位 1会长 2副会长 3成员
+	required int32 starHeroRanking = 11;			//名人堂排名
+	optional int32 ladderGrade = 12;				//天梯赛段位
+}
+
+// 红包信息
+message RedPacketInfo {
+	required int64 id = 1;								// 红包唯一ID
+	required int32 guildId = 2;							// 帮派ID
+	required PlayerShowInfo sendPlayer = 3;				// 发送红包的玩家信息
+	required int32 redPacketId = 4;						// 红包ID
+	required int32 totalSycee = 5;						// 红包总共的元宝数量
+	required int32 surplusSycee = 6;					// 红包的剩余元宝数量
+	required int64 startTime = 7;						// 红包的发放时间
+	required int32 personNum = 8;						// 红包可领取的人员数量
+	required string desc = 9;							// 红包的发放描述
+	repeated PlayerShowInfo receiver = 10;				// 领取红包的玩家信息
+}
+
+
+// 帮派红包排行榜信息
+// code = 0x6b03
+message RedPacketRankingReponse {
+	repeated PlayerShowInfo info = 1;					// 排名的玩家信息
+	required int32 ranking = 2;							// 我的排名
+	optional int32 lessIntegral = 3;					// 离入榜差多少积分
+}
+
+// 我的红包积分信息
+// code = 0x6b04
+message MyRedPacketReponse {
+	required PlayerRedPacketInfo info = 1;				// 我的红包积分信息
+}
+
+// 帮派红包信息
+// code = 0x6b05
+message RedPacketReponse {
+	repeated RedPacketInfo info = 1;					// 帮派所有红包信息
+}
+
+// 单个帮派红包信息
+// code = 0x6b06
+message SingleRedPacketReponse {
+	required RedPacketInfo info = 1;					// 帮派红包信息
+}
+
+// 红包属性加成
+// code = 0x6b07
+message RedPacketAttributeReponse {
+	required int32 id = 1;								// 红包ID
+	required int64 startTime = 2;						// 开始时间
+}

@@ -1,0 +1,101 @@
+<skeleton name="阳顶天skill02输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fasfed" x="-254.05" y="-486" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/siturenjfilesB23" isArmature="1" />
+      </b>
+      <b name="gdgs" x="313.15" y="-169.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/siturenjfilesB04" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/siturenjfilesB23" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="392.45" y="365.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-siturenjfilesB24" />
+        <d name="xxx-siturenjfilesB26" />
+        <d name="xxx-siturenjfilesB28" />
+        <d name="xxx-siturenjfilesB30" />
+        <d name="xxx-siturenjfilesB32" />
+        <d name="xxx-siturenjfilesB34" />
+        <d name="xxx-siturenjfilesB36" />
+      </b>
+    </armature>
+    <armature name="xxx/siturenjfilesB04" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-115.9" y="95.5" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0">
+        <d name="xxx-siturenjfilesB05" />
+        <d name="xxx-siturenjfilesB07" />
+        <d name="xxx-siturenjfilesB09" />
+        <d name="xxx-siturenjfilesB11" />
+        <d name="xxx-siturenjfilesB13" />
+        <d name="xxx-siturenjfilesB15" />
+        <d name="xxx-siturenjfilesB17" />
+        <d name="xxx-siturenjfilesB19" />
+        <d name="xxx-siturenjfilesB21" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/siturenjfilesB23">
+      <mov name="gfdgsdfdsfa" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="392.45" y="365.85" cocos2d_x="392.45" cocos2d_y="365.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="374.7" y="361.45" cocos2d_x="374.7" cocos2d_y="361.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="378.1" y="360.3" cocos2d_x="378.1" cocos2d_y="360.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="380.05" y="366.85" cocos2d_x="380.05" cocos2d_y="366.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="380.55" y="371.7" cocos2d_x="380.55" cocos2d_y="371.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="379.55" y="384.3" cocos2d_x="379.55" cocos2d_y="384.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="382.95" y="380.55" cocos2d_x="382.95" cocos2d_y="380.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/siturenjfilesB04">
+      <mov name="sdfggsageeer" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-115.9" y="95.5" cocos2d_x="-115.8" cocos2d_y="95.5" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-109.55" y="85.55" cocos2d_x="-109.55" cocos2d_y="85.55" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-122.15" y="3" cocos2d_x="-122.05" cocos2d_y="3" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-106.85" y="34.7" cocos2d_x="-106.85" cocos2d_y="34.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-124.25" y="28.85" cocos2d_x="-124.15" cocos2d_y="28.85" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-112.75" y="77.75" cocos2d_x="-112.65" cocos2d_y="77.75" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="-130.2" y="59.9" cocos2d_x="-130.1" cocos2d_y="59.9" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="-142.5" y="64.65" cocos2d_x="-142.4" cocos2d_y="64.65" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="-157.35" y="67.25" cocos2d_x="-157.35" cocos2d_y="67.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="fasfed" sc="1" dl="0">
+          <f x="-254.05" y="-486" cocos2d_x="-254.05" cocos2d_y="-486" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="14" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="gdgs" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="313.15" y="-169.45" cocos2d_x="313.15" cocos2d_y="-169.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="12" />
+          <f dr="1" dI="-1" />
+        </b>
+        <f st="0" dr="14" />
+        <f st="14" dr="1" />
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阳顶天skill02输出" width="512" height="512">
+    <SubTexture name="xxx-siturenjfilesB21" width="57" height="60" x="178" y="227" cocos2d_pX="25.90" cocos2d_pY="34.45" />
+    <SubTexture name="xxx-siturenjfilesB19" width="69" height="77" x="84" y="315" cocos2d_pX="33.75" cocos2d_pY="43.50" />
+    <SubTexture name="xxx-siturenjfilesB17" width="83" height="98" x="0" y="227" cocos2d_pX="39.55" cocos2d_pY="51.45" />
+    <SubTexture name="xxx-siturenjfilesB15" width="92" height="97" x="0" y="129" cocos2d_pX="47.40" cocos2d_pY="53.05" />
+    <SubTexture name="xxx-siturenjfilesB13" width="86" height="85" x="424" y="239" cocos2d_pX="41.55" cocos2d_pY="39.10" />
+    <SubTexture name="xxx-siturenjfilesB11" width="102" height="113" x="376" y="125" cocos2d_pX="50.90" cocos2d_pY="54.35" />
+    <SubTexture name="xxx-siturenjfilesB09" width="89" height="98" x="237" y="211" cocos2d_pX="41.10" cocos2d_pY="48.00" />
+    <SubTexture name="xxx-siturenjfilesB07" width="86" height="80" x="178" y="310" cocos2d_pX="46.45" cocos2d_pY="40.75" />
+    <SubTexture name="xxx-siturenjfilesB05" width="109" height="79" x="237" y="131" cocos2d_pX="51.95" cocos2d_pY="35.25" />
+    <SubTexture name="xxx-siturenjfilesB36" width="113" height="130" x="262" y="0" cocos2d_pX="64.45" cocos2d_pY="69.50" />
+    <SubTexture name="xxx-siturenjfilesB34" width="129" height="128" x="0" y="0" cocos2d_pX="61.10" cocos2d_pY="71.00" />
+    <SubTexture name="xxx-siturenjfilesB32" width="131" height="125" x="130" y="0" cocos2d_pX="61.55" cocos2d_pY="61.70" />
+    <SubTexture name="xxx-siturenjfilesB30" width="109" height="124" x="376" y="0" cocos2d_pX="58.80" cocos2d_pY="59.60" />
+    <SubTexture name="xxx-siturenjfilesB28" width="106" height="100" x="130" y="126" cocos2d_pX="52.60" cocos2d_pY="49.55" />
+    <SubTexture name="xxx-siturenjfilesB26" width="96" height="82" x="327" y="239" cocos2d_pX="46.05" cocos2d_pY="40.90" />
+    <SubTexture name="xxx-siturenjfilesB24" width="93" height="87" x="84" y="227" cocos2d_pX="46.65" cocos2d_pY="43.10" />
+  </TextureAtlas>
+</skeleton>

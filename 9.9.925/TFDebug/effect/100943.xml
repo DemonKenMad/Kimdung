@@ -1,0 +1,204 @@
+<skeleton name="技能胡一刀" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="38.2" y="-7.8" kX="0" kY="0" cX="2.23" cY="1.47" pX="0" pY="0" z="0">
+        <d name="MovieClip-567567" />
+        <d name="MovieClip/天堂52" isArmature="1" />
+      </b>
+      <b name="图层 7" x="103.8" y="-78.15" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="1">
+        <d name="MovieClip/天堂52" isArmature="1" />
+      </b>
+      <b name="图层 8" x="103.8" y="-78.15" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="2">
+        <d name="MovieClip/天堂52" isArmature="1" />
+      </b>
+      <b name="图层 4" x="103.8" y="-78.15" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="3">
+        <d name="MovieClip/天堂52" isArmature="1" />
+      </b>
+      <b name="图层 3" x="8.9" y="-9.7" kX="0.25" kY="0" cX="1.22" cY="1.16" pX="0" pY="0" z="4">
+        <d name="MovieClip/67459879054" isArmature="1" />
+        <d name="MovieClip/天堂52" isArmature="1" />
+      </b>
+      <b name="图层 2" x="-66.35" y="-369.35" kX="17.95" kY="17.95" cX="0.66" cY="0.66" pX="120.9" pY="-116.1" z="5">
+        <d name="MovieClip-98750986-" />
+        <d name="MovieClip/hy" isArmature="1" />
+      </b>
+      <b name="图层 6 复制" x="40.55" y="-1" kX="0" kY="0" cX="1.11" cY="0.85" pX="0" pY="0" z="6">
+        <d name="MovieClip-567567" />
+        <d name="MovieClip/hy" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="MovieClip/天堂52" isLoop="loop" startFrame="2">
+      <b name="Layer 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="MovieClip-天堂40" />
+        <d name="MovieClip-天堂41" />
+        <d name="MovieClip-天堂42" />
+        <d name="MovieClip-天堂43" />
+        <d name="MovieClip-天堂44" />
+        <d name="MovieClip-天堂45" />
+      </b>
+    </armature>
+    <armature name="MovieClip/67459879054">
+      <b name="图层 1" x="5.25" y="8.5" kX="0" kY="0" cX="1" cY="1" pX="182.5" pY="50.5" z="0">
+        <d name="MovieClip-位图 1" />
+        <d name="MovieClip-位图 2" />
+        <d name="MovieClip-位图 3" />
+        <d name="MovieClip-位图 4" />
+      </b>
+    </armature>
+    <armature name="MovieClip/hy" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-4" y="-8.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="MovieClip-dsaddsad" />
+        <d name="MovieClip-dfdsfa" />
+        <d name="MovieClip-bujian 1" />
+        <d name="MovieClip-bujian 2" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="MovieClip/天堂52">
+      <mov name="464566" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="Layer 1" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="39" blurY="39" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="1.5" blurY="1.5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="39" blurY="39" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="1.5" blurY="1.5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="39" blurY="39" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="1.5" blurY="1.5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="39" blurY="39" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="1.5" blurY="1.5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="39" blurY="39" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="1.5" blurY="1.5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="39" blurY="39" distance="5" color="#ff0000" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="1.5" blurY="1.5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="MovieClip/67459879054">
+      <mov name="dsadas" dr="32" to="0" drTW="32" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="5.25" y="8.5" cocos2d_x="-177.25" cocos2d_y="-42" kX="0" kY="0" cX="1" cY="1" pX="182.5" pY="50.5" z="0" dI="0" dr="2" />
+          <f x="7.75" y="8.25" cocos2d_x="-175.25" cocos2d_y="-42.25" kX="0" kY="0" cX="1" cY="1" pX="183" pY="50.5" z="0" dI="1" dr="2" />
+          <f x="2.5" y="4.5" cocos2d_x="-192.5" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="195" pY="61.5" z="0" dI="2" dr="2" />
+          <f x="-8.8" y="-5.25" cocos2d_x="-217.8" cocos2d_y="-59.75" kX="0" kY="0" cX="1" cY="1" pX="209" pY="54.5" z="0" dI="3" dr="2" />
+          <f x="5.25" y="8.5" cocos2d_x="-177.25" cocos2d_y="-42" kX="0" kY="0" cX="1" cY="1" pX="182.5" pY="50.5" z="0" dI="0" dr="2" />
+          <f x="7.75" y="8.25" cocos2d_x="-175.25" cocos2d_y="-42.25" kX="0" kY="0" cX="1" cY="1" pX="183" pY="50.5" z="0" dI="1" dr="2" />
+          <f x="2.5" y="4.5" cocos2d_x="-192.5" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="195" pY="61.5" z="0" dI="2" dr="2" />
+          <f x="-8.8" y="-5.25" cocos2d_x="-217.8" cocos2d_y="-59.75" kX="0" kY="0" cX="1" cY="1" pX="209" pY="54.5" z="0" dI="3" dr="2" />
+          <f x="5.25" y="8.5" cocos2d_x="-177.25" cocos2d_y="-42" kX="0" kY="0" cX="1" cY="1" pX="182.5" pY="50.5" z="0" dI="0" dr="2" />
+          <f x="7.75" y="8.25" cocos2d_x="-175.25" cocos2d_y="-42.25" kX="0" kY="0" cX="1" cY="1" pX="183" pY="50.5" z="0" dI="1" dr="2" />
+          <f x="2.5" y="4.5" cocos2d_x="-192.5" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="195" pY="61.5" z="0" dI="2" dr="2" />
+          <f x="-8.8" y="-5.25" cocos2d_x="-217.8" cocos2d_y="-59.75" kX="0" kY="0" cX="1" cY="1" pX="209" pY="54.5" z="0" dI="3" dr="2" />
+          <f x="5.25" y="8.5" cocos2d_x="-177.25" cocos2d_y="-42" kX="0" kY="0" cX="1" cY="1" pX="182.5" pY="50.5" z="0" dI="0" dr="2" />
+          <f x="7.75" y="8.25" cocos2d_x="-175.25" cocos2d_y="-42.25" kX="0" kY="0" cX="1" cY="1" pX="183" pY="50.5" z="0" dI="1" dr="2" />
+          <f x="2.5" y="4.5" cocos2d_x="-192.5" cocos2d_y="-57" kX="0" kY="0" cX="1" cY="1" pX="195" pY="61.5" z="0" dI="2" dr="2" />
+          <f x="-8.8" y="-5.25" cocos2d_x="-217.8" cocos2d_y="-59.75" kX="0" kY="0" cX="1" cY="1" pX="209" pY="54.5" z="0" dI="3" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="MovieClip/hy">
+      <mov name="hgh" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-4" y="-8.5" cocos2d_x="-4" cocos2d_y="-8.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="-6" y="-17" cocos2d_x="-6" cocos2d_y="-17" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" dr="2">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="19" />
+          </f>
+          <f x="0.5" y="1" cocos2d_x="-1.5" cocos2d_y="-14" kX="0" kY="0" cX="1" cY="1" pX="2" pY="15" z="0" dI="2" blend="add" twE="0" dr="4" />
+          <f x="-0.5" y="0" cocos2d_x="-2.25" cocos2d_y="-24.2" kX="0" kY="0" cX="1.73" cY="1.73" pX="1" pY="14" z="0" dI="3" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.26" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="38" to="0" drTW="38" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="38.2" y="-7.8" cocos2d_x="38.2" cocos2d_y="-7.8" kX="0" kY="0" cX="2.23" cY="1.47" pX="0" pY="0" z="0" dI="0" twE="0" dr="6" />
+          <f x="35" y="-9.35" cocos2d_x="35" cocos2d_y="-9.35" kX="0" kY="0" cX="3.76" cY="2.74" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="103.8" y="-78.15" cocos2d_x="-92.85" cocos2d_y="527.45" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="0" dI="1" dr="8" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="20" dI="-1" />
+          <f x="103.8" y="-78.15" cocos2d_x="-92.85" cocos2d_y="527.45" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="1" dI="0" dr="8" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="20" dI="-1" />
+          <f x="103.8" y="-78.15" cocos2d_x="-92.85" cocos2d_y="527.45" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="2" dI="0" dr="8" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="20" dI="-1" />
+          <f x="103.8" y="-78.15" cocos2d_x="-92.85" cocos2d_y="527.45" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="3" dI="0" dr="8" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="8.9" y="-9.7" cocos2d_x="8.9" cocos2d_y="-9.7" kX="0.25" kY="0" cX="1.22" cY="1.16" pX="0" pY="0" z="4" dI="0" twE="0" dr="3" />
+          <f x="6" y="-8.25" cocos2d_x="6" cocos2d_y="-8.25" kX="0.25" kY="0" cX="1.72" cY="1.63" pX="0" pY="0" z="4" dI="0" dr="3" />
+          <f x="6" y="-8.25" cocos2d_x="6" cocos2d_y="-8.25" kX="0.25" kY="0" cX="1.72" cY="1.63" pX="0" pY="0" z="4" dI="0" twE="0" dr="4" />
+          <f x="6" y="-14.15" cocos2d_x="6" cocos2d_y="-14.15" kX="0.25" kY="0" cX="2.37" cY="2.02" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.09" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+          <f x="103.8" y="-78.15" cocos2d_x="-92.85" cocos2d_y="527.45" kX="60" kY="60" cX="11.18" cY="11.18" pX="-38.1" pY="-42.3" z="4" dI="1" dr="8" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="-66.35" y="-369.35" cocos2d_x="-166.4" cocos2d_y="-320.8" kX="17.95" kY="17.95" cX="0.66" cY="0.66" pX="120.9" pY="-116.1" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="40.9" y="-328.05" cocos2d_x="-117.1" cocos2d_y="-382.25" kX="62.74" kY="62.74" cX="1" cY="1" pX="121.05" pY="-116.1" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="104.05" y="-314.05" cocos2d_x="-25.4" cocos2d_y="-442.7" kX="83.68" kY="83.68" cX="1.07" cY="1.07" pX="133.25" pY="-107.4" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="107.05" y="-302.05" cocos2d_x="-14.9" cocos2d_y="-437.8" kX="86.93" kY="86.93" cX="1.07" cY="1.07" pX="133.25" pY="-107.4" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="156" y="-236.9" cocos2d_x="60.8" cocos2d_y="-399.05" kX="99.18" kY="99.18" cX="0.96" cY="0.96" pX="150.75" pY="-124.7" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="84.5" y="-105.95" cocos2d_x="98.3" cocos2d_y="-76.6" kX="0" kY="0" cX="3.45" cY="3.45" pX="-4" pY="-8.5" z="5" dI="1" dr="9" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 6 复制" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="40.55" y="-1" cocos2d_x="40.55" cocos2d_y="-1" kX="0" kY="0" cX="1.11" cY="0.85" pX="0" pY="0" z="6" dI="0" dr="2" />
+          <f x="38.2" y="0.2" cocos2d_x="38.2" cocos2d_y="0.2" kX="0" kY="0" cX="2.23" cY="1.47" pX="0" pY="0" z="6" dI="0" dr="2" />
+          <f x="35.8" y="2.7" cocos2d_x="35.8" cocos2d_y="2.7" kX="0" kY="0" cX="3.37" cY="1.9" pX="0" pY="0" z="6" dI="0" dr="2" />
+          <f dr="10" dI="-1" />
+          <f x="84.5" y="-105.95" cocos2d_x="98.3" cocos2d_y="-76.6" kX="0" kY="0" cX="3.45" cY="3.45" pX="-4" pY="-8.5" z="6" dI="1" dr="9" />
+          <f dr="10" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="技能胡一刀" width="1024" height="512">
+    <SubTexture name="MovieClip-bujian 2" width="168" height="166" x="722" y="0" cocos2d_pX="84.00" cocos2d_pY="84.00" />
+    <SubTexture name="MovieClip-bujian 1" width="168" height="166" x="695" y="167" cocos2d_pX="84.00" cocos2d_pY="84.00" />
+    <SubTexture name="MovieClip-dfdsfa" width="157" height="156" x="864" y="204" cocos2d_pX="78.50" cocos2d_pY="78.00" />
+    <SubTexture name="MovieClip-dsaddsad" width="139" height="157" x="0" y="304" cocos2d_pX="69.50" cocos2d_pY="78.50" />
+    <SubTexture name="MovieClip-位图 4" width="404" height="98" x="317" y="0" cocos2d_pX="-6.00" cocos2d_pY="-4.00" />
+    <SubTexture name="MovieClip-位图 3" width="377" height="114" x="317" y="99" cocos2d_pX="-5.00" cocos2d_pY="-3.00" />
+    <SubTexture name="MovieClip-位图 2" width="355" height="89" x="317" y="307" cocos2d_pX="-4.00" cocos2d_pY="-3.00" />
+    <SubTexture name="MovieClip-位图 1" width="353" height="92" x="317" y="214" cocos2d_pX="-4.00" cocos2d_pY="-3.00" />
+    <SubTexture name="MovieClip-天堂45" width="1" height="1" x="1022" y="0" cocos2d_pX="16.50" cocos2d_pY="18.05" />
+    <SubTexture name="MovieClip-天堂44" width="58" height="52" x="958" y="151" cocos2d_pX="70.00" cocos2d_pY="69.75" />
+    <SubTexture name="MovieClip-天堂43" width="61" height="79" x="960" y="0" cocos2d_pX="73.45" cocos2d_pY="88.20" />
+    <SubTexture name="MovieClip-天堂42" width="68" height="78" x="891" y="0" cocos2d_pX="72.60" cocos2d_pY="87.70" />
+    <SubTexture name="MovieClip-天堂41" width="66" height="76" x="891" y="79" cocos2d_pX="71.65" cocos2d_pY="86.65" />
+    <SubTexture name="MovieClip-天堂40" width="63" height="70" x="958" y="80" cocos2d_pX="70.50" cocos2d_pY="83.45" />
+    <SubTexture name="MovieClip-98750986-" width="316" height="303" x="0" y="0" cocos2d_pX="160.70" cocos2d_pY="148.75" />
+    <SubTexture name="MovieClip-567567" width="176" height="37" x="140" y="304" cocos2d_pX="89.00" cocos2d_pY="19.50" />
+  </TextureAtlas>
+</skeleton>

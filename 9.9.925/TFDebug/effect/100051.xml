@@ -1,0 +1,53 @@
+<skeleton name="阿紫普攻FX输出_陈文明_0919" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="3.5" y="-98.6" kX="0" kY="-0.48" cX="2" cY="2.08" pX="0" pY="0" z="0">
+        <d name="xxx-b rtfn bstrntrn" />
+        <d name="xxx-trynmytmnyt" />
+        <d name="xxx-btrnt tr" />
+      </b>
+      <b name="图层 3" x="-146.05" y="-124.7" kX="-31.68" kY="-31.68" cX="2" cY="2" pX="2.35" pY="-37.7" z="1">
+        <d name="xxx-btrnb trntr" />
+        <d name="xxx-vbrebnftrn btrntr" />
+        <d name="xxx-b rtfn bstrntrn" />
+        <d name="xxx-b rtbtrn rtny tr" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ptgj" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="3.5" y="-98.6" cocos2d_x="3.5" cocos2d_y="-98.6" kX="0" kY="-0.48" cX="2" cY="2.08" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.46" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+          <f x="4.2" y="-97.85" cocos2d_x="4.2" cocos2d_y="-97.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" blend="normal" dr="2" />
+          <f x="5.35" y="-98.45" cocos2d_x="5.35" cocos2d_y="-98.45" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" blend="normal" dr="2" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-146.05" y="-124.7" cocos2d_x="-110.45" cocos2d_y="-58" kX="-31.68" kY="-31.68" cX="2" cY="2" pX="2.35" pY="-37.7" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-12.05" y="-217.2" cocos2d_x="-80.45" cocos2d_y="-125.4" kX="32.48" kY="23.5" cX="3.61" cY="2.99" pX="2.35" pY="-37.7" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="99.3" y="-184.2" cocos2d_x="-28.2" cocos2d_y="-138.9" kX="66.31" kY="60.47" cX="4.13" cY="3.55" pX="2.35" pY="-37.7" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="94.45" y="-19.85" cocos2d_x="20.5" cocos2d_y="-117" kX="30.11" kY="30.11" cX="2" cY="2" pX="56.35" pY="23.45" z="1" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="39.25" y="13.3" cocos2d_x="3.45" cocos2d_y="-107.25" kX="50.33" kY="45.07" cX="2.06" cY="2.56" pX="56.4" pY="23.5" z="1" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="4.45" y="-93.9" cocos2d_x="4.45" cocos2d_y="-93.9" kX="0" kY="-1.93" cX="1.98" cY="2.02" pX="0" pY="0" z="1" dI="2" blend="normal" dr="2" />
+          <f x="-103.2" y="-20.1" cocos2d_x="27.65" cocos2d_y="-76.65" kX="-33.72" kY="-33.72" cX="2" cY="2" pX="-70.05" pY="-12.75" z="1" dI="3" blend="normal" dr="2" />
+          <f x="-107.75" y="-55.55" cocos2d_x="-18.6" cocos2d_y="-28.45" kX="32.42" kY="9.51" cX="1.39" cY="1.01" pX="-70.15" pY="-12.85" z="1" dI="3" blend="normal" dr="2" />
+          <f dr="15" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阿紫普攻FX输出_陈文明_0919" width="512" height="512">
+    <SubTexture name="xxx-b rtbtrn rtny tr" width="173" height="100" x="0" y="302" cocos2d_pX="86.30" cocos2d_pY="32.00" />
+    <SubTexture name="xxx-vbrebnftrn btrntr" width="174" height="119" x="0" y="182" cocos2d_pX="86.30" cocos2d_pY="78.65" />
+    <SubTexture name="xxx-btrnb trntr" width="65" height="104" x="442" y="0" cocos2d_pX="43.15" cocos2d_pY="54.40" />
+    <SubTexture name="xxx-btrnt tr" width="204" height="160" x="222" y="175" cocos2d_pX="105.95" cocos2d_pY="82.75" />
+    <SubTexture name="xxx-trynmytmnyt" width="219" height="174" x="222" y="0" cocos2d_pX="108.95" cocos2d_pY="86.05" />
+    <SubTexture name="xxx-b rtfn bstrntrn" width="221" height="181" x="0" y="0" cocos2d_pX="111.15" cocos2d_pY="91.25" />
+  </TextureAtlas>
+</skeleton>

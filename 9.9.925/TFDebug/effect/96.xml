@@ -1,0 +1,108 @@
+<skeleton name="西施标记颜色输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fsafa" x="3.15" y="-208.4" kX="0" kY="0" cX="0.11" cY="0.11" pX="0" pY="0" z="0">
+        <d name="xxx/sdfff21" isArmature="1" />
+      </b>
+      <b name="fasfsaf" x="130.65" y="-166.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/sdfff20" isArmature="1" />
+      </b>
+      <b name="hfghfh" x="3.95" y="-208.9" kX="0" kY="0" cX="1.11" cY="1.11" pX="160.05" pY="-14.5" z="2">
+        <d name="xxx/sdfff02/sdfff22" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdfff21" isLoop="single frame" startFrame="1">
+      <b name="dasda" x="7" y="-7.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sdfff03" />
+      </b>
+    </armature>
+    <armature name="xxx/sdfff20" isLoop="loop" startFrame="1">
+      <b name="dfafsaf" x="-126.85" y="-44.4" kX="0" kY="0" cX="0.22" cY="0.22" pX="0" pY="0" z="0">
+        <d name="xxx/sdfff21" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdfff02/sdfff22" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="161.25" y="-13.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0">
+        <d name="xxx-sdfff17" />
+        <d name="xxx-sdfff15" />
+        <d name="xxx-sdfff13" />
+        <d name="xxx-sdfff11" />
+        <d name="xxx-sdfff09" />
+        <d name="xxx-sdfff07" />
+        <d name="xxx-sdfff05" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdfff21">
+      <mov name="fasfsadfas" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="dasda" sc="1" dl="0">
+          <f x="7" y="-7.8" cocos2d_x="7" cocos2d_y="-7.8" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="24" />
+          <f x="7" y="-7.8" cocos2d_x="7" cocos2d_y="-7.8" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sdfff20">
+      <mov name="fadasdfaf" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+        <b name="dfafsaf" sc="1" dl="0">
+          <f x="-126.85" y="-44.4" cocos2d_x="-126.85" cocos2d_y="-44.4" kX="0" kY="0" cX="0.22" cY="0.22" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="15" />
+          <f x="-126.85" y="-49.4" cocos2d_x="-126.85" cocos2d_y="-49.4" kX="0" kY="0" cX="0.22" cY="0.22" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="14">
+            <colorTransform a="0" r="87" g="87" b="87" aM="1" rM="0.66" gM="0.66" bM="0.66" />
+          </f>
+          <f x="-126.85" y="-44.4" cocos2d_x="-126.85" cocos2d_y="-44.4" kX="0" kY="0" cX="0.22" cY="0.22" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sdfff02/sdfff22">
+      <mov name="dsgdfaff" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="161.25" y="-13.85" cocos2d_x="161.25" cocos2d_y="-13.75" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="161.3" y="-13.2" cocos2d_x="161.3" cocos2d_y="-13.2" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="164.25" y="-14.2" cocos2d_x="164.25" cocos2d_y="-14.2" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="161.5" y="-14.55" cocos2d_x="161.5" cocos2d_y="-14.55" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="163.25" y="-14.75" cocos2d_x="163.25" cocos2d_y="-14.75" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="162.25" y="-15.45" cocos2d_x="162.25" cocos2d_y="-15.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="163.55" y="-15.55" cocos2d_x="163.55" cocos2d_y="-15.45" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="6" twE="0" dr="3" />
+          <f x="163.55" y="-15.55" cocos2d_x="163.55" cocos2d_y="-15.45" kX="0" kY="0" cX="2.18" cY="2.18" fst="0" pX="0" pY="-0.05" z="0" dI="6" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsdsafadfasfasfafa" dr="85" to="0" drTW="85" lp="0" twE="NaN">
+        <b name="fsafa" sc="1" dl="0">
+          <f x="3.15" y="-208.4" cocos2d_x="3.15" cocos2d_y="-208.4" kX="0" kY="0" cX="0.11" cY="0.11" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="255" g="255" b="255" aM="0.69" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="3.15" y="-208.4" cocos2d_x="3.15" cocos2d_y="-208.4" kX="0" kY="0" cX="0.25" cY="0.25" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="0.69" rM="0" gM="0" bM="0" />
+          </f>
+          <f dr="80" dI="-1" />
+        </b>
+        <b name="fasfsaf" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="130.65" y="-166.2" cocos2d_x="130.65" cocos2d_y="-166.2" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="80" />
+        </b>
+        <b name="hfghfh" sc="1" dl="0">
+          <f x="3.95" y="-208.9" cocos2d_x="-173.55" cocos2d_y="-192.8" kX="0" kY="0" cX="1.11" cY="1.11" fst="0" pX="160.05" pY="-14.5" z="2" dI="0" dr="2">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="5.7" y="-208.9" cocos2d_x="-171.8" cocos2d_y="-192.8" kX="0" kY="0" cX="1.11" cY="1.11" fst="2" pX="160.05" pY="-14.5" z="2" dI="0" dr="8" />
+          <f dr="75" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="西施标记颜色输出" width="256" height="256">
+    <SubTexture name="xxx-sdfff05" width="119" height="25" x="0" y="121" cocos2d_pX="59.55" cocos2d_pY="12.10" />
+    <SubTexture name="xxx-sdfff07" width="119" height="24" x="120" y="121" cocos2d_pX="59.25" cocos2d_pY="12.00" />
+    <SubTexture name="xxx-sdfff09" width="111" height="23" x="120" y="146" cocos2d_pX="55.25" cocos2d_pY="11.25" />
+    <SubTexture name="xxx-sdfff11" width="108" height="22" x="0" y="147" cocos2d_pX="53.85" cocos2d_pY="10.95" />
+    <SubTexture name="xxx-sdfff13" width="107" height="21" x="0" y="170" cocos2d_pX="53.25" cocos2d_pY="10.55" />
+    <SubTexture name="xxx-sdfff15" width="65" height="13" x="166" y="0" cocos2d_pX="32.70" cocos2d_pY="6.05" />
+    <SubTexture name="xxx-sdfff17" width="26" height="6" x="166" y="14" cocos2d_pX="13.25" cocos2d_pY="2.85" />
+    <SubTexture name="xxx-sdfff03" width="165" height="120" x="0" y="0" cocos2d_pX="82.50" cocos2d_pY="58.25" />
+  </TextureAtlas>
+</skeleton>

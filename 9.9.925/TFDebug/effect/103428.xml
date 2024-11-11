@@ -1,0 +1,63 @@
+<skeleton name="需要捆绑到角色上的" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="106.7" y="-67.15" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-元件 3" />
+        <d name="xxx-元件 5" />
+        <d name="xxx-元件 7" />
+        <d name="xxx-元件 9" />
+        <d name="xxx-元件 11" />
+        <d name="xxx-元件 13" />
+        <d name="xxx-元件 15" />
+        <d name="xxx-元件 17" />
+        <d name="xxx-元件 19" />
+        <d name="xxx-元件 21" />
+        <d name="xxx-元件 23" />
+      </b>
+      <b name="图层 2" x="73.7" y="-81.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1">
+        <d name="xxx-元件 25" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="anim" dr="33" to="0" drTW="33" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="106.7" y="-67.15" cocos2d_x="106.7" cocos2d_y="-67.15" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="69.55" y="-84.35" cocos2d_x="69.55" cocos2d_y="-84.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="40.7" y="-87.8" cocos2d_x="40.7" cocos2d_y="-87.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="16.6" y="-78" cocos2d_x="16.6" cocos2d_y="-78" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-22.3" y="-66.35" cocos2d_x="-22.3" cocos2d_y="-66.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="4.7" y="-61.85" cocos2d_x="4.7" cocos2d_y="-61.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="-10.4" y="-66.5" cocos2d_x="-10.4" cocos2d_y="-66.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="4.8" y="-61.35" cocos2d_x="4.8" cocos2d_y="-61.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="5.3" y="-63.55" cocos2d_x="5.3" cocos2d_y="-63.55" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f x="5.3" y="-62.1" cocos2d_x="5.3" cocos2d_y="-62.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="9" dr="2" />
+          <f x="2.2" y="-61.95" cocos2d_x="2.2" cocos2d_y="-61.95" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="10" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="73.7" y="-81.75" cocos2d_x="73.7" cocos2d_y="-81.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="1" dI="0" twE="0" dr="5" />
+          <f x="35.7" y="-93.75" cocos2d_x="35.7" cocos2d_y="-93.55" kX="0" kY="0" cX="3.66" cY="3.66" fst="0" pX="0" pY="-0.05" z="1" dI="0" twE="0" dr="5" />
+          <f x="35.7" y="-93.75" cocos2d_x="35.7" cocos2d_y="-93.75" kX="0" kY="0" cX="0.4" cY="0.4" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="22" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="需要捆绑到角色上的" width="1024" height="1024">
+    <SubTexture name="xxx-元件 25" width="364" height="103" x="0" y="412" cocos2d_pX="181.70" cocos2d_pY="51.00" />
+    <SubTexture name="xxx-元件 23" width="404" height="411" x="0" y="0" cocos2d_pX="202.25" cocos2d_pY="205.25" />
+    <SubTexture name="xxx-元件 21" width="325" height="326" x="405" y="0" cocos2d_pX="162.20" cocos2d_pY="162.75" />
+    <SubTexture name="xxx-元件 19" width="270" height="271" x="731" y="0" cocos2d_pX="134.80" cocos2d_pY="135.20" />
+    <SubTexture name="xxx-元件 17" width="264" height="265" x="731" y="272" cocos2d_pX="131.80" cocos2d_pY="132.40" />
+    <SubTexture name="xxx-元件 15" width="257" height="261" x="405" y="327" cocos2d_pX="122.00" cocos2d_pY="128.05" />
+    <SubTexture name="xxx-元件 13" width="188" height="188" x="0" y="516" cocos2d_pX="93.80" cocos2d_pY="93.90" />
+    <SubTexture name="xxx-元件 11" width="42" height="37" x="663" y="461" cocos2d_pX="21.00" cocos2d_pY="18.40" />
+    <SubTexture name="xxx-元件 9" width="65" height="69" x="663" y="327" cocos2d_pX="32.55" cocos2d_pY="34.60" />
+    <SubTexture name="xxx-元件 7" width="83" height="81" x="288" y="516" cocos2d_pX="41.50" cocos2d_pY="40.30" />
+    <SubTexture name="xxx-元件 5" width="98" height="78" x="189" y="516" cocos2d_pX="48.75" cocos2d_pY="38.90" />
+    <SubTexture name="xxx-元件 3" width="62" height="63" x="663" y="397" cocos2d_pX="30.50" cocos2d_pY="31.50" />
+  </TextureAtlas>
+</skeleton>

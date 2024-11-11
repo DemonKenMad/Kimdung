@@ -1,0 +1,35 @@
+<skeleton name="梅兰竹被击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-0.75" y="-75.3" kX="0" kY="0" cX="0.65" cY="0.65" pX="0" pY="0" z="0">
+        <d name="sdasd-beiji"/>
+      </b>
+      <b name="图层 4" x="-49.05" y="-53.5" kX="-35.19" kY="-31.05" cX="0.54" cY="0.5" pX="0" pY="0" z="1">
+        <d name="sdasd-bujian1"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="hit" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-0.75" y="-75.3" cocos2d_x="-0.75" cocos2d_y="-75.3" kX="0" kY="0" cX="0.65" cY="0.65" pX="0" pY="0" z="0" dI="0" twE="0" dr="1"/>
+          <f x="-0.75" y="-75.3" cocos2d_x="-0.75" cocos2d_y="-75.3" kX="0" kY="0" cX="1.42" cY="1.42" pX="0" pY="0" z="0" dI="0" twE="0" dr="2"/>
+          <f x="-0.75" y="-75.3" cocos2d_x="-0.75" cocos2d_y="-75.3" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="0" z="0" dI="0" twE="0" dr="1"/>
+          <f dr="4" dI="-1"/>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="-49.05" y="-53.5" cocos2d_x="-49.05" cocos2d_y="-53.5" kX="-35.19" kY="-31.05" cX="0.54" cY="0.5" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="1"/>
+          <f x="-1.85" y="-84.3" cocos2d_x="-1.85" cocos2d_y="-84.3" kX="-35.11" kY="-31.06" cX="1.66" cY="0.42" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="2"/>
+          <f x="23.95" y="-100.5" cocos2d_x="23.95" cocos2d_y="-100.5" kX="-35.19" kY="-31.05" cX="1.47" cY="0.08" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="1"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="梅兰竹被击" width="256" height="256">
+    <SubTexture name="sdasd-bujian1" width="228" height="67" x="0" y="145" cocos2d_pX="132.5" cocos2d_pY="33"/>
+    <SubTexture name="sdasd-beiji" width="180" height="143" x="0" y="0" cocos2d_pX="75" cocos2d_pY="75.15"/>
+  </TextureAtlas>
+</skeleton>

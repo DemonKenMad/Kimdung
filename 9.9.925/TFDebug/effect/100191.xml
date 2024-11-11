@@ -1,0 +1,114 @@
+<skeleton name="李秋水普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xzx/attack111" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/attack111" isLoop="loop" startFrame="1">
+      <b name="sdaghdh" x="151.1" y="-87" kX="0" kY="0" cX="2.47" cY="2.47" pX="0" pY="-0.05" z="1">
+        <d name="xzx- 1" />
+        <d name="xzx- 2" />
+        <d name="xzx- 3" />
+        <d name="xzx- 4" />
+        <d name="xzx- 5" />
+        <d name="xzx- 6" />
+        <d name="xzx- 7" />
+        <d name="xzx- 8" />
+        <d name="xzx- 9" />
+        <d name="xzx- 10" />
+        <d name="xzx- 11" />
+      </b>
+      <b name="sdaghdh0" x="-91.5" y="-79.9" kX="-48.65" kY="-48.65" cX="1.66" cY="1.66" pX="0" pY="0" z="2">
+        <d name="xzx/sdaghdh" isArmature="1" />
+      </b>
+      <b name="图层 1" x="-6.7" y="-120.85" kX="49.64" kY="49.64" cX="1.66" cY="1.66" pX="0" pY="0" z="3">
+        <d name="xzx/sdaghdh" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/sdaghdh" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="6.35" y="3.3" kX="0" kY="0" cX="1" cY="1" pX="41" pY="49" z="0">
+        <d name="xzx-Media 3" />
+        <d name="xzx-Media 4" />
+        <d name="xzx-Media 6" />
+        <d name="xzx-Media 7" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xzx/sdaghdh">
+      <mov name="43" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="6.35" y="3.3" cocos2d_x="-34.65" cocos2d_y="-45.7" kX="0" kY="0" cX="1" cY="1" pX="41" pY="49" z="0" dI="0" dr="2" />
+          <f x="-4.65" y="3.3" cocos2d_x="-74.15" cocos2d_y="-75.2" kX="0" kY="0" cX="1" cY="1" pX="69.5" pY="78.5" z="0" dI="1" dr="2" />
+          <f x="-3.65" y="-4" cocos2d_x="-82.15" cocos2d_y="-82" kX="0" kY="0" cX="1" cY="1" pX="78.5" pY="78" z="0" dI="2" dr="2" />
+          <f x="0" y="0" cocos2d_x="-90" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="90" pY="90" z="0" dI="3" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/attack111">
+      <mov name="wq" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="sdaghdh" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="151.1" y="-87" cocos2d_x="151.1" cocos2d_y="-86.9" kX="0" kY="0" cX="2.47" cY="2.47" pX="0" pY="-0.05" z="1" dI="0" blend="normal" dr="2" />
+          <f x="152.25" y="-84.85" cocos2d_x="152.25" cocos2d_y="-84.85" kX="0" kY="0" cX="2.45" cY="2.45" pX="0" pY="0" z="1" dI="1" blend="normal" dr="2" />
+          <f dr="1" dI="-1" />
+          <f x="96.5" y="-115.25" cocos2d_x="96.5" cocos2d_y="-115.25" kX="0" kY="0" cX="2.1" cY="2.1" pX="0" pY="0" z="1" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="83.75" y="-142.75" cocos2d_x="83.75" cocos2d_y="-142.75" kX="0" kY="0" cX="2.42" cY="2.42" pX="0" pY="0" z="1" dI="3" blend="normal" dr="1" twE="NaN" />
+          <f x="141" y="-127" cocos2d_x="141" cocos2d_y="-127" kX="0" kY="0" cX="3.33" cY="3.33" pX="0" pY="0" z="1" dI="4" blend="normal" dr="1" twE="NaN" />
+          <f x="213.5" y="-115.25" cocos2d_x="213.5" cocos2d_y="-115.25" kX="0" kY="0" cX="3.64" cY="3.64" pX="0" pY="0" z="1" dI="5" blend="normal" dr="2" />
+          <f x="291.45" y="-159" cocos2d_x="291.45" cocos2d_y="-158.9" kX="0" kY="0" cX="2.26" cY="2.26" pX="0" pY="-0.05" z="1" dI="6" blend="normal" dr="1" twE="NaN" />
+          <f x="401.45" y="-166.4" cocos2d_x="401.45" cocos2d_y="-166.25" kX="0" kY="0" cX="2.78" cY="2.78" pX="0" pY="-0.05" z="1" dI="7" blend="normal" dr="1" twE="NaN" />
+          <f x="413.45" y="-169.6" cocos2d_x="413.45" cocos2d_y="-169.4" kX="0" kY="0" cX="3.75" cY="3.75" pX="0" pY="-0.05" z="1" dI="8" blend="normal" dr="2" />
+          <f x="446.95" y="-164.95" cocos2d_x="446.95" cocos2d_y="-164.95" kX="0" kY="0" cX="4.56" cY="4.56" pX="0" pY="0" z="1" dI="9" blend="normal" dr="2" />
+          <f x="440.3" y="-174.5" cocos2d_x="440.3" cocos2d_y="-174.5" kX="0" kY="0" cX="3.88" cY="3.88" pX="0" pY="0" z="1" dI="10" blend="normal" dr="2" />
+        </b>
+        <b name="sdaghdh0" sc="1" dl="0">
+          <f x="-91.5" y="-79.9" cocos2d_x="-91.5" cocos2d_y="-79.9" kX="-48.65" kY="-48.65" cX="1.66" cY="1.66" fst="0" pX="0" pY="0" z="2" dI="0" dr="11">
+            <colorTransform a="0" r="-8" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+          <f x="120.25" y="-92.45" cocos2d_x="120.25" cocos2d_y="-92.45" kX="-48.65" kY="-48.65" cX="1.66" cY="1.66" fst="3" pX="0" pY="0" z="2" dI="0" dr="10">
+            <colorTransform a="0" r="-8" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-6.7" y="-120.85" cocos2d_x="-6.7" cocos2d_y="-120.85" kX="49.64" kY="49.64" cX="1.66" cY="1.66" fst="0" pX="0" pY="0" z="3" dI="0" dr="11">
+            <colorTransform a="0" r="-8" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="120.25" y="-92.45" cocos2d_x="120.25" cocos2d_y="-92.45" kX="-48.65" kY="-48.65" cX="1.66" cY="1.66" fst="0" pX="0" pY="0" z="3" dI="0" dr="3">
+            <colorTransform a="0" r="-8" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="260" y="-161.6" cocos2d_x="260" cocos2d_y="-161.6" kX="43.58" kY="43.58" cX="1.66" cY="1.66" fst="0" pX="0" pY="0" z="3" dI="0" dr="10">
+            <colorTransform a="0" r="-8" g="0" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="24" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="李秋水普攻" width="1024" height="512">
+    <SubTexture name="xzx-Media 7" width="168" height="166" x="443" y="0" cocos2d_pX="-6.00" cocos2d_pY="-6.00" />
+    <SubTexture name="xzx-Media 6" width="157" height="156" x="612" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzx-Media 4" width="139" height="157" x="0" y="147" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzx-Media 3" width="82" height="98" x="842" y="203" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzx- 11" width="147" height="90" x="612" y="157" cocos2d_pX="73.35" cocos2d_pY="45.50" />
+    <SubTexture name="xzx- 10" width="132" height="85" x="420" y="167" cocos2d_pX="67.35" cocos2d_pY="42.50" />
+    <SubTexture name="xzx- 9" width="198" height="105" x="770" y="0" cocos2d_pX="98.75" cocos2d_pY="52.05" />
+    <SubTexture name="xzx- 8" width="254" height="146" x="0" y="0" cocos2d_pX="125.50" cocos2d_pY="72.35" />
+    <SubTexture name="xzx- 7" width="187" height="163" x="255" y="0" cocos2d_pX="93.50" cocos2d_pY="81.00" />
+    <SubTexture name="xzx- 6" width="96" height="79" x="925" y="203" cocos2d_pX="47.95" cocos2d_pY="38.75" />
+    <SubTexture name="xzx- 5" width="96" height="63" x="553" y="248" cocos2d_pX="48.00" cocos2d_pY="31.50" />
+    <SubTexture name="xzx- 4" width="81" height="111" x="760" y="203" cocos2d_pX="40.25" cocos2d_pY="55.75" />
+    <SubTexture name="xzx- 3" width="81" height="111" x="140" y="147" cocos2d_pX="40.50" cocos2d_pY="58.25" />
+    <SubTexture name="xzx- 2" width="205" height="96" x="770" y="106" cocos2d_pX="103.30" cocos2d_pY="48.00" />
+    <SubTexture name="xzx- 1" width="197" height="97" x="222" y="164" cocos2d_pX="98.15" cocos2d_pY="49.00" />
+  </TextureAtlas>
+</skeleton>

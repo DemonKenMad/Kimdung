@@ -1,0 +1,67 @@
+<skeleton name="司空玄普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="189.35" y="-74.95" kX="0" kY="0" cX="1.38" cY="1.17" pX="111" pY="0" z="0">
+        <d name="dsad/GUANG" isArmature="1"/>
+      </b>
+      <b name="图层 8" x="172" y="-69.6" kX="0" kY="0" cX="0.5" cY="0.5" pX="12.3" pY="5.35" z="1">
+        <d name="dsad/GJ" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="dsad/GUANG" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="96.5" y="1.5" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0">
+        <d name="dsad-GJ0001.png"/>
+        <d name="dsad-GJ0002.png"/>
+        <d name="dsad-GJ0003.png"/>
+      </b>
+    </armature>
+    <armature name="dsad/GJ" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="10.1" y="-6.3" kX="0" kY="0" cX="2.39" cY="2.39" pX="47.9" pY="49" z="0">
+        <d name="dsad-GJ 1.png"/>
+        <d name="dsad-GJ 1-1.png"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dsad/GUANG">
+      <mov name="DDASA" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="96.5" y="1.5" cocos2d_x="1" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="61.5" z="0" dI="0" dr="2"/>
+          <f x="129.5" y="1" cocos2d_x="40" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="89.5" pY="61" z="0" dI="1" dr="2"/>
+          <f x="122.5" y="1.5" cocos2d_x="48" cocos2d_y="-61" kX="0" kY="0" cX="1" cY="1" pX="74.5" pY="62.5" z="0" dI="2" dr="2"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="dsad/GJ">
+      <mov name="dsad" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="10.1" y="-6.3" cocos2d_x="-104.6" cocos2d_y="-123.55" kX="0" kY="0" cX="2.39" cY="2.39" pX="47.9" pY="49" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="11.4" y="4" cocos2d_x="-136.9" cocos2d_y="-148.75" kX="0" kY="0" cX="2.23" cY="2.23" pX="66.5" pY="68.5" z="0" dI="1" dr="2"/>
+          <f x="10.05" y="-6.4" cocos2d_x="-90.25" cocos2d_y="-108.8" kX="0" kY="0" cX="2.09" cY="2.09" pX="47.95" pY="48.95" z="0" dI="0" dr="2"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsad" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="1" dI="-1"/>
+          <f x="189.35" y="-74.95" cocos2d_x="35.8" cocos2d_y="-74.95" kX="0" kY="0" cX="1.38" cY="1.17" pX="111" pY="0" z="0" dI="0" dr="5"/>
+          <f dr="2" dI="-1"/>
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="172" y="-69.6" cocos2d_x="165.9" cocos2d_y="-72.25" kX="0" kY="0" cX="0.5" cY="0.5" pX="12.3" pY="5.35" z="1" dI="0" dr="5"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="司空玄普通攻击特效" width="512" height="256">
+    <SubTexture name="dsad-GJ 1-1.png" width="133" height="137" x="374" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="dsad-GJ 1.png" width="96" height="98" x="0" y="125" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="dsad-GJ0003.png" width="149" height="125" x="193" y="124" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="dsad-GJ0002.png" width="179" height="122" x="193" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="dsad-GJ0001.png" width="191" height="123" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,49 @@
+<skeleton name="LV1 姜铁山 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="188.05" y="-97.1" kX="0" kY="0" cX="1.86" cY="1.86" pX="90" pY="71.6" z="0">
+        <d name="jts/sdgdfg" isArmature="1" />
+      </b>
+      <b name="图层 3" x="56.9" y="-91.5" kX="0" kY="0" cX="1" cY="1" pX="109.1" pY="117.2" z="1">
+        <d name="jts-sdhh" />
+      </b>
+    </armature>
+    <armature name="jts/sdgdfg" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="90.1" y="72" kX="0" kY="0" cX="1" cY="1" pX="50.5" pY="40" z="0">
+        <d name="jts-reshh" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="jts/sdgdfg">
+      <mov name="11" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="90.1" y="72" cocos2d_x="39.6" cocos2d_y="32" kX="0" kY="0" cX="1" cY="1" pX="50.5" pY="40" z="0" dI="0" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="188.05" y="-97.1" cocos2d_x="21.1" cocos2d_y="-229.9" kX="0" kY="0" cX="1.86" cY="1.86" fst="0" pX="90" pY="71.6" z="0" dI="0" dr="4">
+            <colorTransform a="0" r="69" g="69" b="69" aM="1" rM="0.73" gM="0.73" bM="0.73" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="56.9" y="-91.5" cocos2d_x="-52.2" cocos2d_y="-208.7" kX="0" kY="0" cX="1" cY="1" pX="109.1" pY="117.2" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-68.2" y="-94" cocos2d_x="125.75" cocos2d_y="34.1" kX="-170.74" kY="170.5" cX="2.05" cY="1.43" pX="109.2" pY="117.2" z="1" dI="0" blend="normal" dr="2" />
+          <f x="-138.1" y="-98.5" cocos2d_x="-29" cocos2d_y="23.1" kX="180" kY="-170.63" cX="1.01" cY="0.88" pX="109.1" pY="117.2" z="1" dI="0" blend="normal" dr="2" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="LV1 姜铁山 普攻FX" width="256" height="256">
+    <SubTexture name="jts-reshh" width="101" height="80" x="0" y="101" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="jts-sdhh" width="212" height="100" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="-70.00" />
+  </TextureAtlas>
+</skeleton>

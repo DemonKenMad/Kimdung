@@ -1,0 +1,117 @@
+<skeleton name="钟灵爆炸" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="5.65" y="-82.9" kX="0" kY="0" cX="6.02" cY="6.02" pX="0" pY="0" z="0">
+        <d name="tjujkk-sfdasa" />
+      </b>
+      <b name="图层 5" x="3.1" y="-101.95" kX="0" kY="0" cX="1.53" cY="1.53" pX="0" pY="0" z="1">
+        <d name="tjujkk/e" isArmature="1" />
+      </b>
+      <b name="图层 4" x="4.95" y="-83.55" kX="0" kY="0" cX="0.83" cY="0.83" pX="0" pY="0" z="2">
+        <d name="tjujkk-dsad" />
+      </b>
+      <b name="图层 3" x="7.6" y="-79.3" kX="0" kY="0" cX="2.56" cY="2.56" pX="0" pY="0" z="3">
+        <d name="tjujkk-guanyun" />
+      </b>
+      <b name="图层 2" x="10.1" y="-84.95" kX="0" kY="0" cX="3.55" cY="3.55" pX="29.5" pY="29.5" z="4">
+        <d name="tjujkk/4654" isArmature="1" />
+        <d name="tjujkk-34543" />
+      </b>
+    </armature>
+    <armature name="tjujkk/e" />
+    <armature name="tjujkk/4654">
+      <b name="sfdasa" x="28.15" y="28.1" kX="0" kY="0" cX="1" cY="1" pX="16.5" pY="16" z="0">
+        <d name="tjujkk-54654" />
+      </b>
+      <b name="c" x="28.5" y="28.2" kX="0" kY="0" cX="0.64" cY="0.64" pX="0" pY="0" z="1">
+        <d name="tjujkk-c" />
+      </b>
+      <b name="guanyun" x="29.5" y="29.5" kX="0" kY="0" cX="0.39" cY="0.39" pX="0" pY="0" z="2">
+        <d name="tjujkk-guanyun" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="tjujkk/e">
+      <mov name="unnamed" dr="3" to="0" drTW="3" lp="0" twE="NaN" />
+    </animation>
+    <animation name="tjujkk/4654">
+      <mov name="u889" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="sfdasa" sc="1" dl="0">
+          <f x="28.15" y="28.1" cocos2d_x="11.65" cocos2d_y="12.1" kX="0" kY="0" cX="1" cY="1" pX="16.5" pY="16" z="0" dI="0" dr="20" />
+        </b>
+        <b name="c" sc="1" dl="0">
+          <f x="28.5" y="28.2" cocos2d_x="28.5" cocos2d_y="28.2" kX="0" kY="0" cX="0.64" cY="0.64" pX="0" pY="0" z="1" dI="0" blend="add" dr="20">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="10" blurY="10" distance="5" color="#ff33ff" quality="high" strength="332" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+        <b name="guanyun" sc="1" dl="0">
+          <f x="29.5" y="29.5" cocos2d_x="29.5" cocos2d_y="29.5" kX="0" kY="0" cX="0.39" cY="0.39" pX="0" pY="0" z="2" dI="0" blend="add" dr="20" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="anim" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="5.65" y="-82.9" cocos2d_x="5.65" cocos2d_y="-82.9" kX="0" kY="0" cX="6.02" cY="6.02" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="10" blurY="10" distance="5" color="#ff00ff" quality="low" strength="103" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="5.65" y="-82.9" cocos2d_x="5.65" cocos2d_y="-82.9" kX="0" kY="0" cX="9.15" cY="9.15" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="10" blurY="10" distance="5" color="#ff00ff" quality="low" strength="103" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="3.1" y="-101.95" cocos2d_x="3.1" cocos2d_y="-101.95" kX="0" kY="0" cX="1.53" cY="1.53" pX="0" pY="0" z="1" dI="0" blend="add" twE="0" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="10" blurY="10" distance="5" color="#ff33ff" quality="high" strength="163" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-9.85" y="-105.5" cocos2d_x="-9.85" cocos2d_y="-105.5" kX="0" kY="0" cX="2.28" cY="2.28" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="10" blurY="10" distance="5" color="#ff33ff" quality="high" strength="163" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="4.95" y="-83.55" cocos2d_x="4.95" cocos2d_y="-83.55" kX="0" kY="0" cX="0.83" cY="0.83" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="1">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="20" blurY="20" distance="5" color="#ff33ff" quality="high" strength="159" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="7.6" y="-79.3" cocos2d_x="7.6" cocos2d_y="-79.3" kX="0" kY="0" cX="2.56" cY="2.56" pX="0" pY="0" z="3" dI="0" blend="add" twE="0" dr="1" />
+          <f x="7.5" y="-79.75" cocos2d_x="7.5" cocos2d_y="-79.75" kX="0" kY="0" cX="2.79" cY="2.79" pX="0" pY="0" z="3" dI="0" blend="add" twE="0" dr="2" />
+          <f x="7.5" y="-79.75" cocos2d_x="7.5" cocos2d_y="-79.75" kX="0" kY="0" cX="3.49" cY="3.49" pX="0" pY="0" z="3" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="10.1" y="-84.95" cocos2d_x="-94.5" cocos2d_y="-189.55" kX="0" kY="0" cX="3.55" cY="3.55" pX="29.5" pY="29.5" z="4" dI="0" twE="0" dr="1" />
+          <f x="9.6" y="-84.9" cocos2d_x="-119.5" cocos2d_y="-214" kX="0" kY="0" cX="4.38" cY="4.38" pX="29.5" pY="29.5" z="4" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="0.9" y="-80.3" cocos2d_x="-123.6" cocos2d_y="-200.05" kX="0" kY="0" cX="1.92" cY="1.92" pX="64.95" pY="62.55" z="4" dI="1" dr="1" twE="NaN" />
+          <f x="0.7" y="-79.2" cocos2d_x="-140.05" cocos2d_y="-214.55" kX="0" kY="0" cX="2.17" cY="2.17" pX="65" pY="62.5" z="4" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.45" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.55" y="-78.45" cocos2d_x="-150.75" cocos2d_y="-223.95" kX="0" kY="0" cX="2.33" cY="2.33" pX="65" pY="62.5" z="4" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.03" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="钟灵爆炸" width="512" height="512">
+    <SubTexture name="tjujkk-c" width="74" height="70" x="382" y="0" cocos2d_pX="36.80" cocos2d_pY="35.05" />
+    <SubTexture name="tjujkk-54654" width="33" height="32" x="457" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="tjujkk-34543" width="130" height="125" x="231" y="151" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="tjujkk-guanyun" width="150" height="150" x="231" y="0" cocos2d_pX="75.00" cocos2d_pY="75.00" />
+    <SubTexture name="tjujkk-dsad" width="230" height="230" x="0" y="0" cocos2d_pX="116.75" cocos2d_pY="115.00" />
+    <SubTexture name="tjujkk-sfdasa" width="26" height="27" x="457" y="33" cocos2d_pX="12.90" cocos2d_pY="13.30" />
+  </TextureAtlas>
+</skeleton>

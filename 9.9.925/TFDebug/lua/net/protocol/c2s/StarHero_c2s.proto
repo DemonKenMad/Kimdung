@@ -1,0 +1,22 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SStarHeroMsg";
+
+// 名人堂排名
+// code = 0x6d00
+message StarHeroRankingRequest {
+	required int32 id = 1;							// 序号 1代表1-10 2代表11-20 以此类推
+}
+
+// 名人堂点赞
+// code = 0x6d01
+message StarHeroPraiseRequest {
+	required int32 ranking = 1;						// 排名
+	required int32 playerId = 2;					// 玩家ID
+}
+
+// 领取名人堂集赞奖励
+// code = 0x6d02
+message StarHeroPraiseRewardRequest {
+
+}

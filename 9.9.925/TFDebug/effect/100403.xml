@@ -1,0 +1,70 @@
+<skeleton name="黑衣刺客技能攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="texiao 复制" x="30.4" y="-88.2" kX="-11" kY="-11" cX="1" cY="1" pX="165.95" pY="66.05" z="0">
+        <d name="xzX-aerg4.png" />
+        <d name="xzX-gar-1.png" />
+      </b>
+      <b name="图层 4 复制" x="193" y="-70.55" kX="103" kY="135" cX="0.96" cY="0.94" pX="111.5" pY="62.6" z="1">
+        <d name="xzX-dsadsad" />
+      </b>
+      <b name="texiao 复制0" x="214" y="-80.05" kX="121.87" kY="121.87" cX="1.34" cY="1.34" pX="-27.85" pY="0.85" z="2">
+        <d name="xzX-df" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsadsa" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="texiao 复制" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="30.4" y="-88.2" cocos2d_x="-145.05" cocos2d_y="-121.4" kX="-11" kY="-11" cX="1" cY="1" pX="165.95" pY="66.05" z="0" dI="0" dr="2" />
+          <f x="64.95" y="-95.7" cocos2d_x="-14.35" cocos2d_y="-230.95" kX="18" kY="39" cX="0.78" cY="0.94" pX="161" pY="62.85" z="0" dI="1" dr="2" />
+          <f x="30.4" y="-88.2" cocos2d_x="-145.05" cocos2d_y="-121.4" kX="-11" kY="-11" cX="1" cY="1" pX="165.95" pY="66.05" z="0" dI="0" dr="2" />
+          <f x="49.45" y="-89.7" cocos2d_x="49.95" cocos2d_y="-237.3" kX="57.13" kY="67" cX="0.78" cY="0.94" pX="160.95" pY="62.8" z="0" dI="1" dr="2" />
+          <f x="30.4" y="-88.2" cocos2d_x="-145.05" cocos2d_y="-121.4" kX="-11" kY="-11" cX="1" cY="1" pX="165.95" pY="66.05" z="0" dI="0" dr="2" />
+          <f x="64.95" y="-95.7" cocos2d_x="-14.35" cocos2d_y="-230.95" kX="18" kY="39" cX="0.78" cY="0.94" pX="161" pY="62.85" z="0" dI="1" dr="2" />
+          <f x="30.4" y="-88.2" cocos2d_x="-145.05" cocos2d_y="-121.4" kX="-11" kY="-11" cX="1" cY="1" pX="165.95" pY="66.05" z="0" dI="0" dr="2" />
+          <f x="49.45" y="-89.7" cocos2d_x="49.95" cocos2d_y="-237.3" kX="57.13" kY="67" cX="0.78" cY="0.94" pX="160.95" pY="62.8" z="0" dI="1" dr="2" />
+          <f x="30.4" y="-88.2" cocos2d_x="-145.05" cocos2d_y="-121.4" kX="-11" kY="-11" cX="1" cY="1" pX="165.95" pY="66.05" z="0" dI="0" dr="2" />
+          <f x="64.95" y="-95.7" cocos2d_x="-14.35" cocos2d_y="-230.95" kX="18" kY="39" cX="0.78" cY="0.94" pX="161" pY="62.85" z="0" dI="1" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4 复制" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="193" y="-70.55" cocos2d_x="326" cocos2d_y="-133" kX="103" kY="135" cX="0.96" cY="0.94" pX="111.5" pY="62.6" z="1" dI="0" dr="2" />
+          <f x="162.2" y="-71.25" cocos2d_x="236.25" cocos2d_y="7.75" kX="77.83" kY="-108.89" cX="0.84" cY="0.71" pX="111.55" pY="62.65" z="1" dI="0" dr="2" />
+          <f x="193" y="-70.55" cocos2d_x="326" cocos2d_y="-133" kX="103" kY="135" cX="0.96" cY="0.94" pX="111.5" pY="62.6" z="1" dI="0" dr="2" />
+          <f x="122.7" y="-31.25" cocos2d_x="150.8" cocos2d_y="67.05" kX="98" kY="-80" cX="0.84" cY="0.71" pX="111.6" pY="62.65" z="1" dI="0" dr="2" />
+          <f x="193" y="-70.55" cocos2d_x="326" cocos2d_y="-133" kX="103" kY="135" cX="0.96" cY="0.94" pX="111.5" pY="62.6" z="1" dI="0" dr="2" />
+          <f x="162.2" y="-71.25" cocos2d_x="236.25" cocos2d_y="7.75" kX="77.83" kY="-108.89" cX="0.84" cY="0.71" pX="111.55" pY="62.65" z="1" dI="0" dr="2" />
+          <f x="193" y="-70.55" cocos2d_x="326" cocos2d_y="-133" kX="103" kY="135" cX="0.96" cY="0.94" pX="111.5" pY="62.6" z="1" dI="0" dr="2" />
+          <f x="122.7" y="-31.25" cocos2d_x="150.8" cocos2d_y="67.05" kX="98" kY="-80" cX="0.84" cY="0.71" pX="111.6" pY="62.65" z="1" dI="0" dr="2" />
+          <f x="193" y="-70.55" cocos2d_x="326" cocos2d_y="-133" kX="103" kY="135" cX="0.96" cY="0.94" pX="111.5" pY="62.6" z="1" dI="0" dr="2" />
+          <f x="162.2" y="-71.25" cocos2d_x="236.25" cocos2d_y="7.75" kX="77.83" kY="-108.89" cX="0.84" cY="0.71" pX="111.55" pY="62.65" z="1" dI="0" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="texiao 复制0" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="214" y="-80.05" cocos2d_x="195.3" cocos2d_y="-47.8" kX="121.87" kY="121.87" cX="1.34" cY="1.34" pX="-27.85" pY="0.85" z="2" dI="0" dr="2" />
+          <f x="187" y="-77.1" cocos2d_x="157.5" cocos2d_y="-92.8" kX="-150" kY="-150" cX="1.2" cY="1.2" pX="-27.85" pY="1" z="2" dI="0" dr="2" />
+          <f x="275.75" y="-109.05" cocos2d_x="257.05" cocos2d_y="-76.8" kX="121.87" kY="121.87" cX="1.34" cY="1.34" pX="-27.85" pY="0.85" z="2" dI="0" dr="2" />
+          <f x="168.5" y="-74.6" cocos2d_x="139" cocos2d_y="-90.3" kX="-150" kY="-150" cX="1.2" cY="1.2" pX="-27.8" pY="1" z="2" dI="0" dr="2" />
+          <f x="214" y="-80.05" cocos2d_x="195.3" cocos2d_y="-47.8" kX="121.87" kY="121.87" cX="1.34" cY="1.34" pX="-27.85" pY="0.85" z="2" dI="0" dr="2" />
+          <f x="187" y="-77.1" cocos2d_x="157.5" cocos2d_y="-92.8" kX="-150" kY="-150" cX="1.2" cY="1.2" pX="-27.85" pY="1" z="2" dI="0" dr="2" />
+          <f x="275.75" y="-109.05" cocos2d_x="257.05" cocos2d_y="-76.8" kX="121.87" kY="121.87" cX="1.34" cY="1.34" pX="-27.85" pY="0.85" z="2" dI="0" dr="2" />
+          <f x="168.5" y="-74.6" cocos2d_x="139" cocos2d_y="-90.3" kX="-150" kY="-150" cX="1.2" cY="1.2" pX="-27.8" pY="1" z="2" dI="0" dr="2" />
+          <f x="214" y="-80.05" cocos2d_x="195.3" cocos2d_y="-47.8" kX="121.87" kY="121.87" cX="1.34" cY="1.34" pX="-27.85" pY="0.85" z="2" dI="0" dr="2" />
+          <f x="187" y="-77.1" cocos2d_x="157.5" cocos2d_y="-92.8" kX="-150" kY="-150" cX="1.2" cY="1.2" pX="-27.85" pY="1" z="2" dI="0" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="黑衣刺客技能攻击" width="512" height="512">
+    <SubTexture name="xzX-df" width="192" height="123" x="224" y="272" cocos2d_pX="106.00" cocos2d_pY="61.50" />
+    <SubTexture name="xzX-dsadsad" width="223" height="125" x="0" y="272" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzX-gar-1.png" width="322" height="121" x="0" y="150" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xzX-aerg4.png" width="357" height="149" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

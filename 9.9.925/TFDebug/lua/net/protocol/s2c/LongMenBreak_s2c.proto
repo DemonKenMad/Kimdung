@@ -1,0 +1,130 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CLongMenBreakMsg";
+
+import "s2c/Reward_s2c.proto";
+//龙门破获取信息
+//code = 0x6900
+message LongMenBreakInfoResponse
+{
+	required LongMenBreakInfo  info = 1; 				// 玩家龙门破数据
+	repeated LongMenBreakFloorInfo floorInfo = 2;		// 玩家龙门破地图数据
+	repeated LongMenBreakConsumeInfo consumeInfo = 3;	// 消耗配置
+}
+
+//开始破阵
+//code = 0x6901
+message LongMenBreakStartResponse
+{
+
+}
+
+//点击阵位
+//code = 0x6902
+message LongMenBreakClickResponse
+{
+	required int32 pointType = 1;
+	repeated int32 pointTypes = 2;
+}
+
+//使用璇玑镜
+//code = 0x6903
+message LongMenBreakUseXuanJiJingResponse
+{
+	required int32 index = 1;						// 下标
+	required int32 floorId = 2;						// 层id
+}
+
+//刷新
+//code = 0x6904
+message LongMenBreakRefreshResponse
+{
+	repeated RewardItem items = 1;					// 玩家龙门破地图数据
+}
+
+//是否复活
+//code = 0x6905
+message LongMenBreakReviverResponse
+{
+	required int32 ReviveCount = 1;					//复活次数
+}
+
+//是否重置
+//code = 0x6906
+message LongMenBreakResetResponse
+{
+	required LongMenBreakFloorInfo info  = 1;		// 当前关卡
+	repeated int32 befPointType = 2;
+}
+
+
+
+//0点更新
+//code = 0x6907
+message LongMenBreakClearResponse
+{
+	required int32 challengeCount  = 1;				// 玩家龙门破挑战次数
+}
+
+//获奖信息
+//code = 0x6908
+message LongMenBreakPushRewardResponse
+{
+	required int32 type = 1;						// 类型(0:覆盖 1：更新推送)
+	repeated PushRewardInfo rewardInfo = 2; 		// 获奖信息
+}
+
+//玩家当天挑战次数(登陆推送,用于红点)
+//code = 0x6909
+message LongMenBreakRedResponse
+{
+	required int32 challengeCount  = 1;				// 玩家龙门破挑战次数
+}
+
+message PushRewardInfo
+{
+	 required int32 playerId = 1;					//玩家id
+	 required string playerName = 2;				//玩家名称
+	 required RewardItem item = 3;					//奖励物品
+	 required int32 floorId = 4;					//层id
+}
+
+message LongMenBreakInfo
+{
+	required int32 floorId = 1;						//层数id
+	required int32 minedCount = 2;					//排雷次数
+	required int32 reviveCount = 3;					//复活次数
+	required int32 resetCount = 4;					//重置次数
+	required int32 challengeCount = 5;				//挑战次数
+	required int32 die = 6;							//是否死亡
+	required int32 start = 7;						//是否开始
+	repeated int32 point = 8;						//开启下标
+}
+
+message LongMenBreakFloorInfo
+{
+	required int32 floorId = 1;						//层id
+	required RewardItem item = 2;					//稀有奖励
+	required int32 minedCount = 3;					//排雷次数
+	required int32 reviveCount = 4;					//复活次数
+	required int32 resetCount = 5;					//重置次数
+	repeated RewardItem luckyBag = 6;				//福袋
+}
+
+message LongMenBreakPointInfo
+{
+	required int32 index = 1;						//位置
+	required int32 type = 2;						//0:破阵位  1:阵眼位 2:机关位
+	required int32 value = 3;						//位置相应的值(0:未开启  1:开启过)
+}
+
+message LongMenBreakConsumeInfo
+{
+	required int32 type = 1;						//1:刷新  2:每日挑战 3:购买物品
+	required string value= 2;						//type为0时：只有一个整型表示消耗元宝数量    type为1时：xx_xx_xx_xx_xx type为2时：goodsId_xx(元宝)|goodsId_xx(元宝)
+}
+//获取龙门破阵眼信息
+//code = 0x6910
+message GainLongMenTypeInfo{
+	repeated int32 pointTypes = 1;
+}

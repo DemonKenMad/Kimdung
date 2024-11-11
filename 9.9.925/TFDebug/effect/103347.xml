@@ -1,0 +1,55 @@
+<skeleton name="西施skill02受击输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fasfasfas" x="16.1" y="-102.8" kX="0" kY="0" cX="0.53" cY="0.53" pX="-1.45" pY="-28.5" z="0">
+        <d name="xxx/sdfff83" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdfff83" isLoop="loop" startFrame="16">
+      <b name="图层 2" x="-5.2" y="-17.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-sdfff15" />
+        <d name="xxx-sdfff13" />
+        <d name="xxx-sdfff11" />
+        <d name="xxx-sdfff09" />
+        <d name="xxx-sdfff07" />
+        <d name="xxx-sdfff05" />
+        <d name="xxx-sdfff03" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdfff83">
+      <mov name="dasrasdadasda" dr="33" to="0" drTW="33" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="13" dI="-1" />
+          <f x="-5.2" y="-17.25" cocos2d_x="-5.2" cocos2d_y="-17.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-6.5" y="-21.8" cocos2d_x="-6.5" cocos2d_y="-21.7" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-5.75" y="-17.4" cocos2d_x="-5.75" cocos2d_y="-17.3" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-4.15" y="-28.8" cocos2d_x="-4.15" cocos2d_y="-28.8" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-13.4" y="-15.25" cocos2d_x="-13.4" cocos2d_y="-15.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="4" dr="2" />
+          <f x="-20.3" y="-2.55" cocos2d_x="-20.3" cocos2d_y="-2.55" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="-14.25" y="-8.9" cocos2d_x="-14.25" cocos2d_y="-8.9" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="stand" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="fasfasfas" sc="1" dl="0">
+          <f x="16.1" y="-102.8" cocos2d_x="16.85" cocos2d_y="-87.65" kX="0" kY="0" cX="0.53" cY="0.53" fst="15" pX="-1.45" pY="-28.5" z="0" dI="0" dr="4" />
+          <f x="16.1" y="-102.8" cocos2d_x="17.1" cocos2d_y="-83" kX="0" kY="-0.59" cX="0.7" cY="0.7" fst="19" pX="-1.45" pY="-28.4" z="0" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="西施skill02受击输出" width="512" height="256">
+    <SubTexture name="xxx-sdfff03" width="118" height="102" x="280" y="103" cocos2d_pX="59.00" cocos2d_pY="51.25" />
+    <SubTexture name="xxx-sdfff05" width="112" height="96" x="149" y="133" cocos2d_pX="56.00" cocos2d_pY="48.00" />
+    <SubTexture name="xxx-sdfff07" width="119" height="102" x="280" y="0" cocos2d_pX="59.75" cocos2d_pY="50.65" />
+    <SubTexture name="xxx-sdfff09" width="148" height="142" x="0" y="0" cocos2d_pX="73.75" cocos2d_pY="70.70" />
+    <SubTexture name="xxx-sdfff11" width="130" height="132" x="149" y="0" cocos2d_pX="65.10" cocos2d_pY="65.80" />
+    <SubTexture name="xxx-sdfff13" width="92" height="92" x="400" y="0" cocos2d_pX="46.15" cocos2d_pY="46.00" />
+    <SubTexture name="xxx-sdfff15" width="50" height="49" x="400" y="93" cocos2d_pX="24.75" cocos2d_pY="24.55" />
+  </TextureAtlas>
+</skeleton>

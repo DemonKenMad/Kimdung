@@ -1,0 +1,31 @@
+<skeleton name="神技能二段反击所有人底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="73.8" y="-1.1" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart04"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sadffdasfsdafgasdg" dr="45" to="0" drTW="45" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="73.8" y="-1.1" cocos2d_x="73.8" cocos2d_y="-1.1" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="34" aM="0" rM="0.33" gM="0.33" bM="0.33"/>
+          </f>
+          <f x="82.7" y="22.9" cocos2d_x="82.7" cocos2d_y="22.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="16">
+            <colorTransform a="0" r="0" g="0" b="34" aM="1" rM="0.33" gM="0.33" bM="0.33"/>
+          </f>
+          <f x="82.7" y="22.9" cocos2d_x="82.7" cocos2d_y="22.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="20">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.61" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="3" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神技能二段反击所有人底层" width="16" height="16">
+    <SubTexture name="xxx-zhangweirinhart04" width="14" height="8" x="0" y="0" cocos2d_pX="6.75" cocos2d_pY="4.1"/>
+  </TextureAtlas>
+</skeleton>

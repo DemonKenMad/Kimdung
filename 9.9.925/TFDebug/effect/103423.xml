@@ -1,0 +1,546 @@
+<skeleton name="玄明道人神技能捆绑自身" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="btrntr" x="-5.75" y="2.85" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0">
+        <d name="xxx/zhangweirinhart14" isArmature="1" />
+      </b>
+      <b name="nytm" x="31.75" y="-8.9" kX="0" kY="0" cX="1.41" cY="1.41" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweirinhart43" isArmature="1" />
+      </b>
+      <b name="mytmyt" x="5.65" y="17.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweirinhart244" isArmature="1" />
+      </b>
+      <b name="mytumyt" x="-11.9" y="-108.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="3">
+        <d name="xxx/zhangweirinhart293" isArmature="1" />
+      </b>
+      <b name="dtfjtryj" x="-391.05" y="-263.75" kX="0" kY="0" cX="1" cY="1" pX="-150" pY="-80.95" z="4">
+        <d name="xxx/zhangweirinhart309" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart14" isLoop="loop" startFrame="1">
+      <b name="btnstrntr" x="-49.3" y="-94" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart16" />
+        <d name="xxx-zhangweirinhart18" />
+        <d name="xxx-zhangweirinhart24" />
+        <d name="xxx-zhangweirinhart26" />
+        <d name="xxx-zhangweirinhart28" />
+        <d name="xxx-zhangweirinhart30" />
+        <d name="xxx-zhangweirinhart32" />
+        <d name="xxx-zhangweirinhart34" />
+        <d name="xxx-zhangweirinhart36" />
+        <d name="xxx-zhangweirinhart38" />
+        <d name="xxx-zhangweirinhart40" />
+        <d name="xxx-zhangweirinhart42" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart43" isLoop="loop" startFrame="1">
+      <b name="nmfygmyt" x="-349.95" y="-249.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="-0.05" z="0">
+        <d name="xxx-zhangweirinhart201" />
+        <d name="xxx-zhangweirinhart203" />
+        <d name="xxx-zhangweirinhart205" />
+        <d name="xxx-zhangweirinhart207" />
+        <d name="xxx-zhangweirinhart209" />
+        <d name="xxx-zhangweirinhart211" />
+        <d name="xxx-zhangweirinhart213" />
+        <d name="xxx-zhangweirinhart215" />
+        <d name="xxx-zhangweirinhart217" />
+      </b>
+      <b name="nytmytytmyt" x="-33.2" y="-228.5" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="1">
+        <d name="xxx-zhangweirinhart183" />
+        <d name="xxx-zhangweirinhart185" />
+        <d name="xxx-zhangweirinhart187" />
+        <d name="xxx-zhangweirinhart189" />
+        <d name="xxx-zhangweirinhart191" />
+        <d name="xxx-zhangweirinhart193" />
+        <d name="xxx-zhangweirinhart195" />
+        <d name="xxx-zhangweirinhart197" />
+        <d name="xxx-zhangweirinhart199" />
+      </b>
+      <b name="mytmyt" x="276.8" y="-213.6" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="-0.05" z="2">
+        <d name="xxx-zhangweirinhart165" />
+        <d name="xxx-zhangweirinhart167" />
+        <d name="xxx-zhangweirinhart169" />
+        <d name="xxx-zhangweirinhart171" />
+        <d name="xxx-zhangweirinhart173" />
+        <d name="xxx-zhangweirinhart175" />
+        <d name="xxx-zhangweirinhart177" />
+        <d name="xxx-zhangweirinhart179" />
+        <d name="xxx-zhangweirinhart181" />
+      </b>
+      <b name="mytmyt0" x="400.55" y="-64" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="-0.05" z="3">
+        <d name="xxx-zhangweirinhart147" />
+        <d name="xxx-zhangweirinhart149" />
+        <d name="xxx-zhangweirinhart151" />
+        <d name="xxx-zhangweirinhart153" />
+        <d name="xxx-zhangweirinhart155" />
+        <d name="xxx-zhangweirinhart157" />
+        <d name="xxx-zhangweirinhart159" />
+        <d name="xxx-zhangweirinhart161" />
+        <d name="xxx-zhangweirinhart163" />
+      </b>
+      <b name="ntryjm" x="-50" y="70" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="4">
+        <d name="xxx-zhangweirinhart129" />
+        <d name="xxx-zhangweirinhart131" />
+        <d name="xxx-zhangweirinhart133" />
+        <d name="xxx-zhangweirinhart135" />
+        <d name="xxx-zhangweirinhart137" />
+        <d name="xxx-zhangweirinhart139" />
+        <d name="xxx-zhangweirinhart141" />
+        <d name="xxx-zhangweirinhart143" />
+        <d name="xxx-zhangweirinhart145" />
+      </b>
+      <b name="ntryndtry" x="-320" y="-3.3" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="-0.05" z="5">
+        <d name="xxx-zhangweirinhart111" />
+        <d name="xxx-zhangweirinhart113" />
+        <d name="xxx-zhangweirinhart115" />
+        <d name="xxx-zhangweirinhart117" />
+        <d name="xxx-zhangweirinhart119" />
+        <d name="xxx-zhangweirinhart121" />
+        <d name="xxx-zhangweirinhart123" />
+        <d name="xxx-zhangweirinhart125" />
+        <d name="xxx-zhangweirinhart127" />
+      </b>
+      <b name="retntr" x="-205.9" y="207" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="0" z="6">
+        <d name="xxx-zhangweirinhart93" />
+        <d name="xxx-zhangweirinhart95" />
+        <d name="xxx-zhangweirinhart97" />
+        <d name="xxx-zhangweirinhart99" />
+        <d name="xxx-zhangweirinhart101" />
+        <d name="xxx-zhangweirinhart103" />
+        <d name="xxx-zhangweirinhart105" />
+        <d name="xxx-zhangweirinhart107" />
+        <d name="xxx-zhangweirinhart109" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart244" isLoop="loop" startFrame="1">
+      <b name="ntrynytmdyt" x="-2.5" y="-32.15" kX="0" kY="0" cX="0.9" cY="1.15" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweirinhart243" isArmature="1" />
+      </b>
+      <b name="nbtry" x="-2.1" y="-129.15" kX="0" kY="0" cX="1" cY="1.14" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweirinhart243" isArmature="1" />
+      </b>
+      <b name="nytmyt" x="-3.25" y="-182.3" kX="0" kY="0" cX="0.64" cY="0.55" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweirinhart243" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart243" isLoop="loop" startFrame="1">
+      <b name="df bgtjtr" x="12.7" y="2.75" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart246" />
+        <d name="xxx-zhangweirinhart248" />
+        <d name="xxx-zhangweirinhart250" />
+        <d name="xxx-zhangweirinhart252" />
+        <d name="xxx-zhangweirinhart254" />
+        <d name="xxx-zhangweirinhart256" />
+        <d name="xxx-zhangweirinhart258" />
+        <d name="xxx-zhangweirinhart260" />
+        <d name="xxx-zhangweirinhart262" />
+        <d name="xxx-zhangweirinhart264" />
+        <d name="xxx-zhangweirinhart266" />
+        <d name="xxx-zhangweirinhart268" />
+        <d name="xxx-zhangweirinhart270" />
+        <d name="xxx-zhangweirinhart272" />
+        <d name="xxx-zhangweirinhart274" />
+        <d name="xxx-zhangweirinhart276" />
+        <d name="xxx-zhangweirinhart278" />
+        <d name="xxx-zhangweirinhart280" />
+        <d name="xxx-zhangweirinhart282" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart293" isLoop="loop" startFrame="1">
+      <b name="myhtu,mtyu" x="5.1" y="-31.15" kX="45" kY="45" cX="1.75" cY="1.75" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweirinhart243" isArmature="1" />
+      </b>
+      <b name="ngyfrm" x="-35.3" y="9.55" kX="-45" kY="-45" cX="1.75" cY="1.75" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweirinhart243" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart309" isLoop="loop" startFrame="1">
+      <b name="mytmdyt" x="218.65" y="316.5" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0.25" z="0">
+        <d name="xxx/zhangweirinhart308" isArmature="1" />
+      </b>
+      <b name="nyftgmy" x="168.05" y="198.15" kX="-84.99" kY="-40.2" cX="1" cY="1.41" pX="-0.05" pY="0.25" z="1">
+        <d name="xxx/zhangweirinhart308" isArmature="1" />
+      </b>
+      <b name="nytmy" x="252.65" y="193.2" kX="-48.78" kY="-36.22" cX="0.43" cY="0.69" pX="0.05" pY="0.2" z="2">
+        <d name="xxx/zhangweirinhart308" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart308" isLoop="loop" startFrame="1">
+      <b name="myghtmyt" x="10.9" y="90.95" kX="-165" kY="-165" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweirinhart294" isArmature="1" />
+      </b>
+      <b name="nyt" x="-39.9" y="176.35" kX="-152.04" kY="150" cX="1.6" cY="1.89" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweirinhart294" isArmature="1" />
+      </b>
+      <b name="nytmy" x="129.45" y="-122.2" kX="14.76" kY="10.24" cX="1.18" cY="1.77" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweirinhart294" isArmature="1" />
+      </b>
+      <b name="btrynm" x="-243.1" y="-71.4" kX="-79.79" kY="-67.7" cX="0.8" cY="2.07" pX="0" pY="0" z="3">
+        <d name="xxx/zhangweirinhart294" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart294" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-782.3" y="62.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart296" />
+        <d name="xxx-zhangweirinhart298" />
+        <d name="xxx-zhangweirinhart300" />
+        <d name="xxx-zhangweirinhart302" />
+        <d name="xxx-zhangweirinhart305" />
+        <d name="xxx-zhangweirinhart307" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweirinhart14">
+      <mov name="asdgsadgasdg" dr="26" to="0" drTW="26" lp="0" twE="NaN">
+        <b name="btnstrntr" sc="1" dl="0">
+          <f x="-49.3" y="-94" cocos2d_x="-49.3" cocos2d_y="-94" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-20.6" y="-106.6" cocos2d_x="-20.5" cocos2d_y="-106.6" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="1" dr="2" />
+          <f x="-35.9" y="-118.5" cocos2d_x="-35.8" cocos2d_y="-118.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-97.6" y="-123.15" cocos2d_x="-97.5" cocos2d_y="-123.15" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="3" dr="2" />
+          <f x="34.7" y="-113.4" cocos2d_x="34.7" cocos2d_y="-113.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="4" dr="2" />
+          <f x="68.75" y="-91.85" cocos2d_x="68.75" cocos2d_y="-91.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="88.75" y="-56.7" cocos2d_x="88.75" cocos2d_y="-56.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="59.2" y="-43.5" cocos2d_x="59.2" cocos2d_y="-43.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="141.8" y="-57" cocos2d_x="141.8" cocos2d_y="-57" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="8" dr="2" />
+          <f x="-87.3" y="-60.6" cocos2d_x="-87.3" cocos2d_y="-60.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="9" dr="2" />
+          <f x="-108.05" y="-64.4" cocos2d_x="-108.05" cocos2d_y="-64.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="10" dr="2" />
+          <f x="-137.8" y="-71" cocos2d_x="-137.8" cocos2d_y="-71" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="11" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart43">
+      <mov name="sadsagsadg" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="nmfygmyt" sc="1" dl="0">
+          <f x="-349.95" y="-249.9" cocos2d_x="-349.95" cocos2d_y="-249.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="2" />
+          <f x="-367.25" y="-273.5" cocos2d_x="-367.25" cocos2d_y="-273.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-93.9" y="-325" cocos2d_x="-93.8" cocos2d_y="-325" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-112.95" y="-377.1" cocos2d_x="-112.95" cocos2d_y="-377" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="3" dr="2" />
+          <f x="-118.6" y="-414.8" cocos2d_x="-118.5" cocos2d_y="-414.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+          <f x="708.65" y="-413.2" cocos2d_x="708.65" cocos2d_y="-413.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="5" dr="2" />
+          <f x="785.85" y="-455.5" cocos2d_x="785.85" cocos2d_y="-455.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="-214.95" y="-506.8" cocos2d_x="-214.95" cocos2d_y="-506.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="7" dr="2" />
+          <f x="-217.55" y="-505.7" cocos2d_x="-217.55" cocos2d_y="-505.6" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="8" dr="2" />
+        </b>
+        <b name="nytmytytmyt" sc="1" dl="0">
+          <f x="-33.2" y="-228.5" cocos2d_x="-33.1" cocos2d_y="-228.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="1" dI="0" dr="2" />
+          <f x="-74.45" y="-268" cocos2d_x="-74.45" cocos2d_y="-267.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="1" dI="1" dr="2" />
+          <f x="453.35" y="-344.75" cocos2d_x="453.35" cocos2d_y="-344.75" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="2" dr="2" />
+          <f x="-379.75" y="-309.3" cocos2d_x="-379.65" cocos2d_y="-309.2" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="1" dI="3" dr="2" />
+          <f x="-386.8" y="-330.2" cocos2d_x="-386.7" cocos2d_y="-330.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="1" dI="4" dr="2" />
+          <f x="915.55" y="-155.6" cocos2d_x="915.55" cocos2d_y="-155.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="1" dI="5" dr="2" />
+          <f x="965.8" y="-160.6" cocos2d_x="965.8" cocos2d_y="-160.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="1" dI="6" dr="2" />
+          <f x="-432.15" y="-457.15" cocos2d_x="-432.15" cocos2d_y="-457.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="1" dI="7" dr="2" />
+          <f x="-445.5" y="-498" cocos2d_x="-445.4" cocos2d_y="-498" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="1" dI="8" dr="2" />
+        </b>
+        <b name="mytmyt" sc="1" dl="0">
+          <f x="276.8" y="-213.6" cocos2d_x="276.8" cocos2d_y="-213.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="2" dI="0" dr="2" />
+          <f x="-337.95" y="1.35" cocos2d_x="-337.95" cocos2d_y="1.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="1" dr="2" />
+          <f x="605.55" y="-108" cocos2d_x="605.55" cocos2d_y="-108" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="2" dr="2" />
+          <f x="542.95" y="-371.8" cocos2d_x="542.95" cocos2d_y="-371.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="2" dI="3" dr="2" />
+          <f x="-399.55" y="2.9" cocos2d_x="-399.55" cocos2d_y="2.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="4" dr="2" />
+          <f x="224.85" y="281.7" cocos2d_x="224.85" cocos2d_y="281.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="5" dr="2" />
+          <f x="-195.7" y="-488.7" cocos2d_x="-195.6" cocos2d_y="-488.6" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="2" dI="6" dr="2" />
+          <f x="-529.45" y="30.45" cocos2d_x="-529.45" cocos2d_y="30.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="7" dr="2" />
+          <f x="-582.35" y="33.3" cocos2d_x="-582.35" cocos2d_y="33.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="2" dI="8" dr="2" />
+        </b>
+        <b name="mytmyt0" sc="1" dl="0">
+          <f x="400.55" y="-64" cocos2d_x="400.55" cocos2d_y="-63.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="3" dI="0" dr="2" />
+          <f x="-176.35" y="252.1" cocos2d_x="-176.35" cocos2d_y="252.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="3" dI="1" dr="2" />
+          <f x="121" y="200.9" cocos2d_x="121" cocos2d_y="200.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="3" dI="2" dr="2" />
+          <f x="674.55" y="-116.4" cocos2d_x="674.55" cocos2d_y="-116.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="3" dI="3" dr="2" />
+          <f x="196.95" y="257" cocos2d_x="196.95" cocos2d_y="257" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="3" dI="4" dr="2" />
+          <f x="125.55" y="487.9" cocos2d_x="125.55" cocos2d_y="487.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="3" dI="5" dr="2" />
+          <f x="-418" y="-415.1" cocos2d_x="-417.9" cocos2d_y="-415.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="3" dI="6" dr="2" />
+          <f x="849.05" y="-507.5" cocos2d_x="849.05" cocos2d_y="-507.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="3" dI="7" dr="2" />
+          <f x="225.8" y="539.55" cocos2d_x="225.8" cocos2d_y="539.55" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="3" dI="8" dr="2" />
+        </b>
+        <b name="ntryjm" sc="1" dl="0">
+          <f x="-50" y="70" cocos2d_x="-49.9" cocos2d_y="70" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="4" dI="0" dr="2" />
+          <f x="46.05" y="147.6" cocos2d_x="46.05" cocos2d_y="147.6" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="1" dr="2" />
+          <f x="-95.25" y="328" cocos2d_x="-95.25" cocos2d_y="328" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="2" dr="2" />
+          <f x="173.25" y="229.3" cocos2d_x="173.25" cocos2d_y="229.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="3" dr="2" />
+          <f x="84.05" y="452.3" cocos2d_x="84.05" cocos2d_y="452.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="4" dr="2" />
+          <f x="-427.45" y="12.1" cocos2d_x="-427.45" cocos2d_y="12.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="5" dr="2" />
+          <f x="-476.95" y="22.5" cocos2d_x="-476.95" cocos2d_y="22.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="6" dr="2" />
+          <f x="949.55" y="-159" cocos2d_x="949.55" cocos2d_y="-158.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="4" dI="7" dr="2" />
+          <f x="403.65" y="428.9" cocos2d_x="403.65" cocos2d_y="428.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="4" dI="8" dr="2" />
+        </b>
+        <b name="ntryndtry" sc="1" dl="0">
+          <f x="-320" y="-3.3" cocos2d_x="-319.9" cocos2d_y="-3.2" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="5" dI="0" dr="2" />
+          <f x="509.05" y="-89" cocos2d_x="509.05" cocos2d_y="-88.9" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="5" dI="1" dr="2" />
+          <f x="-381.25" y="11" cocos2d_x="-381.25" cocos2d_y="11" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="5" dI="2" dr="2" />
+          <f x="44.05" y="418.5" cocos2d_x="44.05" cocos2d_y="418.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="5" dI="3" dr="2" />
+          <f x="766.85" y="-128.9" cocos2d_x="766.85" cocos2d_y="-128.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="5" dI="4" dr="2" />
+          <f x="-401.7" y="-374.2" cocos2d_x="-401.6" cocos2d_y="-374.2" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="5" dI="5" dr="2" />
+          <f x="341.8" y="380" cocos2d_x="341.8" cocos2d_y="380" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="5" dI="6" dr="2" />
+          <f x="405.05" y="428.8" cocos2d_x="405.05" cocos2d_y="428.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="5" dI="7" dr="2" />
+          <f x="947.05" y="-162" cocos2d_x="947.05" cocos2d_y="-162" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="5" dI="8" dr="2" />
+        </b>
+        <b name="retntr" sc="1" dl="0">
+          <f x="-205.9" y="207" cocos2d_x="-205.8" cocos2d_y="207" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="6" dI="0" dr="2" />
+          <f x="361.55" y="-283.8" cocos2d_x="361.55" cocos2d_y="-283.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="6" dI="1" dr="2" />
+          <f x="-373.6" y="-292.55" cocos2d_x="-373.4" cocos2d_y="-292.55" kX="0" kY="0" cX="3.96" cY="3.96" fst="0" pX="-0.05" pY="0" z="6" dI="2" dr="2" />
+          <f x="-394.95" y="3.6" cocos2d_x="-394.95" cocos2d_y="3.6" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="6" dI="3" dr="2" />
+          <f x="623.4" y="-387.05" cocos2d_x="623.4" cocos2d_y="-387.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="6" dI="4" dr="2" />
+          <f x="-151.4" y="-452.15" cocos2d_x="-151.3" cocos2d_y="-452.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="6" dI="5" dr="2" />
+          <f x="159.85" y="517.7" cocos2d_x="159.85" cocos2d_y="517.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="6" dI="6" dr="2" />
+          <f x="200.3" y="532.35" cocos2d_x="200.3" cocos2d_y="532.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="6" dI="7" dr="2" />
+          <f x="905.95" y="-547.35" cocos2d_x="905.95" cocos2d_y="-547.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="6" dI="8" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart243">
+      <mov name="asdfsadfasdgasdg" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="df bgtjtr" sc="1" dl="0">
+          <f x="12.7" y="2.75" cocos2d_x="12.7" cocos2d_y="2.75" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="12.1" y="5.95" cocos2d_x="12.1" cocos2d_y="5.95" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="12.65" y="9.05" cocos2d_x="12.65" cocos2d_y="9.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="12.05" y="11.05" cocos2d_x="12.05" cocos2d_y="11.05" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="12.45" y="11.5" cocos2d_x="12.45" cocos2d_y="11.5" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="12.75" y="11.65" cocos2d_x="12.75" cocos2d_y="11.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="12.95" y="12.15" cocos2d_x="12.95" cocos2d_y="12.15" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="12.65" y="11.65" cocos2d_x="12.65" cocos2d_y="11.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="12.05" y="11.65" cocos2d_x="12.05" cocos2d_y="11.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+          <f x="12.05" y="11.65" cocos2d_x="12.05" cocos2d_y="11.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="9" dr="1" twE="NaN" />
+          <f x="13.15" y="12.95" cocos2d_x="13.15" cocos2d_y="12.95" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="10" dr="1" twE="NaN" />
+          <f x="15.85" y="8.7" cocos2d_x="15.85" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="11" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="12" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="13" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="14" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="15" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="16" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="17" dr="1" twE="NaN" />
+          <f x="12.15" y="8.7" cocos2d_x="12.15" cocos2d_y="8.7" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="18" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart244">
+      <mov name="sfdafsdasdagasga" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="ntrynytmdyt" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-2.5" y="-32.15" cocos2d_x="-2.5" cocos2d_y="-32.15" kX="0" kY="0" cX="0.9" cY="1.15" fst="0" pX="0" pY="0" z="0" dI="0" dr="17" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="nbtry" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-2.1" y="-129.15" cocos2d_x="-2.1" cocos2d_y="-129.15" kX="0" kY="0" cX="1" cY="1.14" fst="0" pX="0" pY="0" z="1" dI="0" dr="16" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="nytmyt" sc="1" dl="0">
+          <f x="-3.25" y="-182.3" cocos2d_x="-3.25" cocos2d_y="-182.3" kX="0" kY="0" cX="0.64" cY="0.55" fst="0" pX="0" pY="0" z="2" dI="0" dr="18" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart293">
+      <mov name="fsadfdsafadsafsdga" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="myhtu,mtyu" sc="1" dl="0">
+          <f x="5.1" y="-31.15" cocos2d_x="5.1" cocos2d_y="-31.15" kX="45" kY="45" cX="1.75" cY="1.75" fst="7" pX="0" pY="0" z="0" dI="0" twE="0" dr="9" />
+          <f x="15.05" y="-91.7" cocos2d_x="15.05" cocos2d_y="-91.7" kX="30" kY="30" cX="5.16" cY="5.16" fst="16" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="ngyfrm" sc="1" dl="0">
+          <f x="-35.3" y="9.55" cocos2d_x="-35.3" cocos2d_y="9.55" kX="-45" kY="-45" cX="1.75" cY="1.75" fst="7" pX="0" pY="0" z="1" dI="0" twE="0" dr="9" />
+          <f x="-104.05" y="28.25" cocos2d_x="-104.05" cocos2d_y="28.25" kX="-26.58" kY="-26.58" cX="5.16" cY="5.16" fst="16" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart294">
+      <mov name="dfsasdsdagfasgd" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-782.3" y="62.9" cocos2d_x="-782.3" cocos2d_y="62.9" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="-581.7" y="8.65" cocos2d_x="-581.7" cocos2d_y="8.65" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="1" blend="add" dr="1" twE="NaN" />
+          <f x="-349.9" y="-38.1" cocos2d_x="-349.9" cocos2d_y="-38.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="2" blend="add" dr="1" twE="NaN" />
+          <f x="-217.9" y="-42.1" cocos2d_x="-217.9" cocos2d_y="-42.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="3" blend="add" dr="1" twE="NaN" />
+          <f x="-85.9" y="-35.6" cocos2d_x="-85.9" cocos2d_y="-35.6" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="4" blend="add" dr="2" />
+          <f x="-34.45" y="-27.1" cocos2d_x="-34.45" cocos2d_y="-27.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0" dI="5" blend="add" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart308">
+      <mov name="sdafgasdgasg" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="myghtmyt" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="10.9" y="90.95" cocos2d_x="10.9" cocos2d_y="90.95" kX="-165" kY="-165" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="9" />
+        </b>
+        <b name="nyt" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-39.9" y="176.35" cocos2d_x="-39.9" cocos2d_y="176.35" kX="-152.04" kY="150" cX="1.6" cY="1.89" fst="0" pX="0" pY="0" z="1" dI="0" dr="9" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="nytmy" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="129.45" y="-122.2" cocos2d_x="129.45" cocos2d_y="-122.2" kX="14.76" kY="10.24" cX="1.18" cY="1.77" fst="0" pX="0" pY="0" z="2" dI="0" dr="9" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="btrynm" sc="1" dl="0">
+          <f x="-243.1" y="-71.4" cocos2d_x="-243.1" cocos2d_y="-71.4" kX="-79.79" kY="-67.7" cX="0.8" cY="2.07" fst="0" pX="0" pY="0" z="3" dI="0" dr="9" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart309">
+      <mov name="asdfsdfasdsgasdg" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="mytmdyt" sc="1" dl="0">
+          <f x="218.65" y="316.5" cocos2d_x="218.7" cocos2d_y="316.25" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-0.05" pY="0.25" z="0" dI="0" dr="11" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="nyftgmy" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="168.05" y="198.15" cocos2d_x="167.75" cocos2d_y="198.1" kX="-84.99" kY="-40.2" cX="1" cY="1.41" fst="0" pX="-0.05" pY="0.25" z="1" dI="0" dr="11" />
+        </b>
+        <b name="nytmy" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="252.65" y="193.2" cocos2d_x="252.5" cocos2d_y="193.1" kX="-48.78" kY="-36.22" cX="0.43" cY="0.69" fst="0" pX="0.05" pY="0.2" z="2" dI="0" dr="11" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fsdaafdssdafgasg" dr="43" to="0" drTW="43" lp="0" twE="NaN">
+        <b name="btrntr" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-5.75" y="2.85" cocos2d_x="-5.7" cocos2d_y="2.85" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="24" />
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="nytm" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="31.75" y="-8.9" cocos2d_x="31.75" cocos2d_y="-8.9" kX="0" kY="0" cX="1.41" cY="1.41" fst="0" pX="0" pY="0" z="1" dI="0" dr="10" />
+          <f x="31.75" y="-8.9" cocos2d_x="31.75" cocos2d_y="-8.9" kX="0" kY="0" cX="1.41" cY="1.41" fst="10" pX="0" pY="0" z="1" dI="0" twE="0" dr="6" />
+          <f x="31.75" y="-8.9" cocos2d_x="31.75" cocos2d_y="-8.9" kX="0" kY="0" cX="1.41" cY="1.41" fst="16" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="16" dI="-1" />
+        </b>
+        <b name="mytmyt" sc="1" dl="0">
+          <f dr="21" dI="-1" />
+          <f x="5.65" y="17.8" cocos2d_x="5.65" cocos2d_y="17.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="11" />
+          <f x="5.65" y="17.8" cocos2d_x="5.65" cocos2d_y="17.8" kX="0" kY="0" cX="1" cY="1" fst="11" pX="0" pY="0" z="2" dI="0" twE="0" dr="5" />
+          <f x="-16.45" y="58.5" cocos2d_x="-16.45" cocos2d_y="58.5" kX="0" kY="0" cX="1.44" cY="1.44" fst="16" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="mytumyt" sc="1" dl="0">
+          <f dr="26" dI="-1" />
+          <f x="-11.9" y="-108.4" cocos2d_x="-11.9" cocos2d_y="-108.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="3" dI="0" twE="0" dr="6" />
+          <f x="-11.9" y="-108.4" cocos2d_x="-11.9" cocos2d_y="-108.35" kX="0" kY="0" cX="1.22" cY="1.23" fst="6" pX="0" pY="-0.05" z="3" dI="0" twE="0" dr="3" />
+          <f x="-11.9" y="-108.4" cocos2d_x="-11.9" cocos2d_y="-108.35" kX="0" kY="0" cX="1.32" cY="1.35" fst="9" pX="0" pY="-0.05" z="3" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="dtfjtryj" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="-391.05" y="-263.75" cocos2d_x="-241.05" cocos2d_y="-182.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-150" pY="-80.95" z="4" dI="0" dr="24" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="玄明道人神技能捆绑自身" width="2048" height="2048">
+    <SubTexture name="xxx-zhangweirinhart307" width="126" height="126" x="529" y="1405" cocos2d_pX="63.30" cocos2d_pY="63.10" />
+    <SubTexture name="xxx-zhangweirinhart305" width="146" height="115" x="0" y="1423" cocos2d_pX="73.00" cocos2d_pY="57.35" />
+    <SubTexture name="xxx-zhangweirinhart302" width="155" height="88" x="363" y="1486" cocos2d_pX="77.50" cocos2d_pY="44.10" />
+    <SubTexture name="xxx-zhangweirinhart300" width="167" height="80" x="1098" y="1488" cocos2d_pX="83.50" cocos2d_pY="40.10" />
+    <SubTexture name="xxx-zhangweirinhart298" width="294" height="178" x="1669" y="0" cocos2d_pX="146.85" cocos2d_pY="89.00" />
+    <SubTexture name="xxx-zhangweirinhart296" width="395" height="291" x="0" y="770" cocos2d_pX="197.30" cocos2d_pY="145.50" />
+    <SubTexture name="xxx-zhangweirinhart282" width="229" height="81" x="1706" y="1253" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart280" width="229" height="81" x="897" y="1262" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart278" width="229" height="81" x="977" y="1180" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart276" width="229" height="81" x="1476" y="1182" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart274" width="229" height="81" x="1207" y="1210" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart272" width="229" height="81" x="0" y="1259" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart270" width="229" height="81" x="667" y="1262" cocos2d_pX="114.70" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart268" width="228" height="81" x="0" y="1341" cocos2d_pX="115.85" cocos2d_pY="38.60" />
+    <SubTexture name="xxx-zhangweirinhart266" width="229" height="81" x="1437" y="1264" cocos2d_pX="115.05" cocos2d_pY="40.45" />
+    <SubTexture name="xxx-zhangweirinhart264" width="229" height="80" x="1667" y="1335" cocos2d_pX="114.60" cocos2d_pY="39.75" />
+    <SubTexture name="xxx-zhangweirinhart262" width="229" height="80" x="1127" y="1292" cocos2d_pX="114.60" cocos2d_pY="39.75" />
+    <SubTexture name="xxx-zhangweirinhart260" width="232" height="81" x="744" y="1180" cocos2d_pX="116.25" cocos2d_pY="40.25" />
+    <SubTexture name="xxx-zhangweirinhart258" width="237" height="82" x="1238" y="1127" cocos2d_pX="118.45" cocos2d_pY="41.00" />
+    <SubTexture name="xxx-zhangweirinhart256" width="240" height="84" x="1787" y="1048" cocos2d_pX="120.30" cocos2d_pY="41.75" />
+    <SubTexture name="xxx-zhangweirinhart254" width="245" height="85" x="1238" y="1041" cocos2d_pX="122.30" cocos2d_pY="42.25" />
+    <SubTexture name="xxx-zhangweirinhart252" width="249" height="85" x="1798" y="962" cocos2d_pX="124.25" cocos2d_pY="42.45" />
+    <SubTexture name="xxx-zhangweirinhart250" width="180" height="63" x="1266" y="1490" cocos2d_pX="89.75" cocos2d_pY="31.45" />
+    <SubTexture name="xxx-zhangweirinhart248" width="111" height="39" x="1936" y="1253" cocos2d_pX="55.70" cocos2d_pY="19.50" />
+    <SubTexture name="xxx-zhangweirinhart246" width="43" height="16" x="1909" y="306" cocos2d_pX="21.40" cocos2d_pY="7.80" />
+    <SubTexture name="xxx-zhangweirinhart109" width="241" height="156" x="574" y="461" cocos2d_pX="120.20" cocos2d_pY="78.10" />
+    <SubTexture name="xxx-zhangweirinhart107" width="115" height="129" x="1781" y="1416" cocos2d_pX="57.35" cocos2d_pY="64.40" />
+    <SubTexture name="xxx-zhangweirinhart105" width="133" height="131" x="229" y="1401" cocos2d_pX="66.15" cocos2d_pY="65.10" />
+    <SubTexture name="xxx-zhangweirinhart103" width="173" height="148" x="396" y="798" cocos2d_pX="86.55" cocos2d_pY="73.85" />
+    <SubTexture name="xxx-zhangweirinhart101" width="239" height="158" x="1594" y="522" cocos2d_pX="119.40" cocos2d_pY="79.25" />
+    <SubTexture name="xxx-zhangweirinhart99" width="132" height="49" x="1493" y="1489" cocos2d_pX="65.85" cocos2d_pY="24.55" />
+    <SubTexture name="xxx-zhangweirinhart97" width="64" height="102" x="1834" y="635" cocos2d_pX="31.85" cocos2d_pY="51.00" />
+    <SubTexture name="xxx-zhangweirinhart95" width="229" height="115" x="1813" y="846" cocos2d_pX="114.50" cocos2d_pY="57.40" />
+    <SubTexture name="xxx-zhangweirinhart93" width="165" height="130" x="829" y="1344" cocos2d_pX="82.45" cocos2d_pY="64.75" />
+    <SubTexture name="xxx-zhangweirinhart127" width="268" height="79" x="1537" y="848" cocos2d_pX="134.00" cocos2d_pY="39.25" />
+    <SubTexture name="xxx-zhangweirinhart125" width="135" height="143" x="1357" y="1346" cocos2d_pX="67.75" cocos2d_pY="71.65" />
+    <SubTexture name="xxx-zhangweirinhart123" width="131" height="143" x="995" y="1344" cocos2d_pX="65.35" cocos2d_pY="71.75" />
+    <SubTexture name="xxx-zhangweirinhart121" width="44" height="125" x="1594" y="252" cocos2d_pX="22.15" cocos2d_pY="62.15" />
+    <SubTexture name="xxx-zhangweirinhart119" width="262" height="80" x="1535" y="928" cocos2d_pX="130.65" cocos2d_pY="39.90" />
+    <SubTexture name="xxx-zhangweirinhart117" width="153" height="102" x="829" y="1475" cocos2d_pX="76.75" cocos2d_pY="51.00" />
+    <SubTexture name="xxx-zhangweirinhart115" width="118" height="39" x="129" y="1569" cocos2d_pX="58.95" cocos2d_pY="19.75" />
+    <SubTexture name="xxx-zhangweirinhart113" width="267" height="83" x="1545" y="681" cocos2d_pX="133.75" cocos2d_pY="41.30" />
+    <SubTexture name="xxx-zhangweirinhart111" width="93" height="39" x="1936" y="1293" cocos2d_pX="46.80" cocos2d_pY="19.65" />
+    <SubTexture name="xxx-zhangweirinhart145" width="137" height="144" x="1897" y="1335" cocos2d_pX="68.50" cocos2d_pY="71.75" />
+    <SubTexture name="xxx-zhangweirinhart143" width="267" height="82" x="1545" y="765" cocos2d_pX="133.50" cocos2d_pY="40.80" />
+    <SubTexture name="xxx-zhangweirinhart141" width="128" height="34" x="1447" y="1539" cocos2d_pX="64.25" cocos2d_pY="17.00" />
+    <SubTexture name="xxx-zhangweirinhart139" width="128" height="35" x="147" y="1533" cocos2d_pX="64.00" cocos2d_pY="17.65" />
+    <SubTexture name="xxx-zhangweirinhart137" width="154" height="107" x="1626" y="1416" cocos2d_pX="76.25" cocos2d_pY="53.45" />
+    <SubTexture name="xxx-zhangweirinhart135" width="161" height="137" x="667" y="1344" cocos2d_pX="80.35" cocos2d_pY="68.40" />
+    <SubTexture name="xxx-zhangweirinhart133" width="151" height="97" x="656" y="1482" cocos2d_pX="75.60" cocos2d_pY="48.25" />
+    <SubTexture name="xxx-zhangweirinhart131" width="140" height="108" x="1897" y="1480" cocos2d_pX="69.75" cocos2d_pY="54.05" />
+    <SubTexture name="xxx-zhangweirinhart129" width="114" height="87" x="983" y="1488" cocos2d_pX="56.75" cocos2d_pY="43.75" />
+    <SubTexture name="xxx-zhangweirinhart163" width="106" height="122" x="467" y="521" cocos2d_pX="53.10" cocos2d_pY="60.80" />
+    <SubTexture name="xxx-zhangweirinhart161" width="239" height="171" x="1669" y="179" cocos2d_pX="119.25" cocos2d_pY="85.50" />
+    <SubTexture name="xxx-zhangweirinhart159" width="45" height="126" x="1909" y="179" cocos2d_pX="22.25" cocos2d_pY="62.70" />
+    <SubTexture name="xxx-zhangweirinhart157" width="156" height="114" x="1127" y="1373" cocos2d_pX="78.00" cocos2d_pY="56.70" />
+    <SubTexture name="xxx-zhangweirinhart155" width="140" height="141" x="230" y="1259" cocos2d_pX="69.80" cocos2d_pY="70.25" />
+    <SubTexture name="xxx-zhangweirinhart153" width="260" height="78" x="1271" y="962" cocos2d_pX="130.00" cocos2d_pY="39.10" />
+    <SubTexture name="xxx-zhangweirinhart151" width="157" height="124" x="381" y="1253" cocos2d_pX="78.20" cocos2d_pY="61.70" />
+    <SubTexture name="xxx-zhangweirinhart149" width="157" height="107" x="371" y="1378" cocos2d_pX="78.55" cocos2d_pY="53.30" />
+    <SubTexture name="xxx-zhangweirinhart147" width="295" height="93" x="1484" y="1088" cocos2d_pX="147.50" cocos2d_pY="46.30" />
+    <SubTexture name="xxx-zhangweirinhart181" width="128" height="34" x="1266" y="1554" cocos2d_pX="64.95" cocos2d_pY="17.10" />
+    <SubTexture name="xxx-zhangweirinhart179" width="128" height="35" x="0" y="1539" cocos2d_pX="64.50" cocos2d_pY="17.20" />
+    <SubTexture name="xxx-zhangweirinhart177" width="174" height="148" x="569" y="1082" cocos2d_pX="87.15" cocos2d_pY="74.10" />
+    <SubTexture name="xxx-zhangweirinhart175" width="132" height="142" x="1493" y="1346" cocos2d_pX="65.80" cocos2d_pY="71.15" />
+    <SubTexture name="xxx-zhangweirinhart173" width="128" height="39" x="519" y="1532" cocos2d_pX="64.05" cocos2d_pY="19.20" />
+    <SubTexture name="xxx-zhangweirinhart171" width="245" height="147" x="1306" y="530" cocos2d_pX="122.80" cocos2d_pY="73.45" />
+    <SubTexture name="xxx-zhangweirinhart169" width="254" height="78" x="1532" y="1009" cocos2d_pX="127.00" cocos2d_pY="39.25" />
+    <SubTexture name="xxx-zhangweirinhart167" width="102" height="38" x="467" y="759" cocos2d_pX="51.25" cocos2d_pY="18.95" />
+    <SubTexture name="xxx-zhangweirinhart165" width="198" height="119" x="1780" y="1133" cocos2d_pX="99.10" cocos2d_pY="59.55" />
+    <SubTexture name="xxx-zhangweirinhart199" width="93" height="255" x="1924" y="419" cocos2d_pX="46.55" cocos2d_pY="127.50" />
+    <SubTexture name="xxx-zhangweirinhart197" width="45" height="127" x="1964" y="126" cocos2d_pX="22.35" cocos2d_pY="63.25" />
+    <SubTexture name="xxx-zhangweirinhart195" width="265" height="83" x="1271" y="798" cocos2d_pX="132.85" cocos2d_pY="41.50" />
+    <SubTexture name="xxx-zhangweirinhart193" width="263" height="79" x="1271" y="882" cocos2d_pX="131.50" cocos2d_pY="39.55" />
+    <SubTexture name="xxx-zhangweirinhart191" width="47" height="121" x="1876" y="351" cocos2d_pX="23.55" cocos2d_pY="60.20" />
+    <SubTexture name="xxx-zhangweirinhart189" width="55" height="112" x="1834" y="522" cocos2d_pX="27.30" cocos2d_pY="56.15" />
+    <SubTexture name="xxx-zhangweirinhart187" width="238" height="119" x="1306" y="678" cocos2d_pX="118.90" cocos2d_pY="59.90" />
+    <SubTexture name="xxx-zhangweirinhart185" width="90" height="164" x="1955" y="254" cocos2d_pX="45.00" cocos2d_pY="81.80" />
+    <SubTexture name="xxx-zhangweirinhart183" width="70" height="125" x="1964" y="0" cocos2d_pX="34.65" cocos2d_pY="62.50" />
+    <SubTexture name="xxx-zhangweirinhart217" width="177" height="150" x="570" y="784" cocos2d_pX="88.55" cocos2d_pY="74.95" />
+    <SubTexture name="xxx-zhangweirinhart215" width="172" height="149" x="396" y="947" cocos2d_pX="85.75" cocos2d_pY="74.40" />
+    <SubTexture name="xxx-zhangweirinhart213" width="237" height="170" x="574" y="290" cocos2d_pX="118.85" cocos2d_pY="85.00" />
+    <SubTexture name="xxx-zhangweirinhart211" width="236" height="170" x="1639" y="351" cocos2d_pX="118.05" cocos2d_pY="84.85" />
+    <SubTexture name="xxx-zhangweirinhart209" width="157" height="155" x="381" y="1097" cocos2d_pX="78.65" cocos2d_pY="77.65" />
+    <SubTexture name="xxx-zhangweirinhart207" width="141" height="170" x="1899" y="675" cocos2d_pX="70.25" cocos2d_pY="85.30" />
+    <SubTexture name="xxx-zhangweirinhart205" width="127" height="173" x="539" y="1231" cocos2d_pX="63.25" cocos2d_pY="87.25" />
+    <SubTexture name="xxx-zhangweirinhart203" width="61" height="104" x="1813" y="738" cocos2d_pX="30.15" cocos2d_pY="52.00" />
+    <SubTexture name="xxx-zhangweirinhart201" width="52" height="114" x="467" y="644" cocos2d_pX="26.25" cocos2d_pY="56.90" />
+    <SubTexture name="xxx-zhangweirinhart42" width="488" height="204" x="749" y="975" cocos2d_pX="243.75" cocos2d_pY="102.05" />
+    <SubTexture name="xxx-zhangweirinhart40" width="489" height="218" x="816" y="530" cocos2d_pX="244.40" cocos2d_pY="108.85" />
+    <SubTexture name="xxx-zhangweirinhart38" width="482" height="225" x="788" y="749" cocos2d_pX="241.00" cocos2d_pY="112.25" />
+    <SubTexture name="xxx-zhangweirinhart36" width="573" height="230" x="0" y="290" cocos2d_pX="286.35" cocos2d_pY="114.70" />
+    <SubTexture name="xxx-zhangweirinhart34" width="813" height="251" x="855" y="0" cocos2d_pX="406.25" cocos2d_pY="125.25" />
+    <SubTexture name="xxx-zhangweirinhart32" width="854" height="289" x="0" y="0" cocos2d_pX="426.55" cocos2d_pY="144.15" />
+    <SubTexture name="xxx-zhangweirinhart30" width="738" height="277" x="855" y="252" cocos2d_pX="368.70" cocos2d_pY="138.20" />
+    <SubTexture name="xxx-zhangweirinhart28" width="466" height="248" x="0" y="521" cocos2d_pX="233.00" cocos2d_pY="123.85" />
+    <SubTexture name="xxx-zhangweirinhart26" width="380" height="196" x="0" y="1062" cocos2d_pX="142.40" cocos2d_pY="97.95" />
+    <SubTexture name="xxx-zhangweirinhart24" width="213" height="165" x="574" y="618" cocos2d_pX="106.30" cocos2d_pY="82.25" />
+    <SubTexture name="xxx-zhangweirinhart18" width="178" height="146" x="570" y="935" cocos2d_pX="88.65" cocos2d_pY="72.80" />
+    <SubTexture name="xxx-zhangweirinhart16" width="152" height="91" x="1626" y="1524" cocos2d_pX="76.00" cocos2d_pY="45.50" />
+  </TextureAtlas>
+</skeleton>

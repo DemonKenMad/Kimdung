@@ -1,0 +1,54 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SBattleArrayMsg";
+
+// 装备阵法
+// code = 0x6a00
+message EquipBattleArrayRequest {
+	required int64 instanceId = 1;						// 阵法唯一ID
+	required int32 type = 2;							// 阵容类型
+}
+
+// 卸下阵法
+// code = 0x6a01
+message UnEquipBattleArrayRequest {
+	required int32 type = 1;							// 阵容类型
+}
+
+// 阵法强化
+// code = 0x6a02
+message BattleArrayIntensifyRequest {
+	required int64 instanceId = 1;						// 阵法唯一ID
+	repeated IntensifyConsumeItem consume = 2;			// 消耗
+}
+
+// 选择消耗的道具 结构体
+message IntensifyConsumeItem {
+	required int32 id = 1;   							// 道具的id
+	required int32 num = 2;   							// 道具的数量
+}
+
+// 阵法升星
+// code = 0x6a03
+message BattleArrayStarUpRequest {
+	required int64 instanceId = 1;						// 阵法唯一ID
+}
+
+// 阵法易位
+// code = 0x6a04
+message ChangePositionRequest {
+	required int64 instanceId = 1;						// 阵法唯一ID
+	repeated int32 position = 2;						// 锁定位置
+}
+
+// 合成阵法
+// code = 0x6a05
+message ComposeRequest {
+	required int32 fragmentId = 1;						// 碎片ID
+}
+
+// 出售阵法
+// code = 0x6a06
+message SaleBattleArrayRequest {
+	required int64 instanceId = 1;						// 阵法唯一ID
+}

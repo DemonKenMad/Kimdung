@@ -1,0 +1,42 @@
+<skeleton name="点穴飞行你给(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 19" x="-0.95" y="-81.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifilesB07" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesB07" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-56.9" y="3.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesB05" />
+        <d name="xxx-zhangweifilesB04" />
+        <d name="xxx-zhangweifilesB03" />
+        <d name="xxx-zhangweifilesB02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesB07">
+      <mov name="asdfasg" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-56.9" y="3.9" cocos2d_x="-56.9" cocos2d_y="3.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-56.9" y="3.9" cocos2d_x="-56.9" cocos2d_y="3.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-56.9" y="4.9" cocos2d_x="-56.9" cocos2d_y="4.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-56.9" y="4.65" cocos2d_x="-56.9" cocos2d_y="4.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="adsfhjnhvcbvfgfeqrweq" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 19" sc="1" dl="0">
+          <f x="-0.95" y="-81.65" cocos2d_x="-0.95" cocos2d_y="-81.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="4" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="点穴飞行你给(1)" width="256" height="128">
+    <SubTexture name="xxx-zhangweifilesB02" width="121" height="34" x="0" y="37" cocos2d_pX="56.40" cocos2d_pY="15.10" />
+    <SubTexture name="xxx-zhangweifilesB03" width="122" height="36" x="0" y="0" cocos2d_pX="56.40" cocos2d_pY="18.85" />
+    <SubTexture name="xxx-zhangweifilesB04" width="122" height="34" x="123" y="36" cocos2d_pX="56.40" cocos2d_pY="19.85" />
+    <SubTexture name="xxx-zhangweifilesB05" width="122" height="35" x="123" y="0" cocos2d_pX="56.40" cocos2d_pY="19.85" />
+  </TextureAtlas>
+</skeleton>

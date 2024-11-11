@@ -1,0 +1,61 @@
+<skeleton name="扫地僧pg" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="tx4" x="-98.5" y="-256.55" kX="0" kY="0" cX="2.54" cY="2.54" pX="0" pY="0" z="0">
+        <d name="xzz-w 6" />
+      </b>
+      <b name="tx40" x="-79.75" y="-239.95" kX="0" kY="0" cX="2.14" cY="2.14" pX="0" pY="0" z="1">
+        <d name="xzz-w 6" />
+        <d name="xzz-w 7" />
+      </b>
+      <b name="图层 13" x="107.95" y="-309.2" kX="0" kY="0" cX="1.43" cY="1.43" pX="0" pY="0" z="2">
+        <d name="xzz-w 4" />
+        <d name="xzz-w 5" />
+      </b>
+      <b name="图层 12" x="319.3" y="-107.8" kX="0" kY="0" cX="2.26" cY="2.26" pX="0" pY="0" z="3">
+        <d name="xzz-w 1" />
+        <d name="xzz-w 2" />
+        <d name="xzz-w 3" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="tx4" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-98.5" y="-256.55" cocos2d_x="-98.5" cocos2d_y="-256.55" kX="0" kY="0" cX="2.54" cY="2.54" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="tx40" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-79.75" y="-239.95" cocos2d_x="-79.75" cocos2d_y="-239.95" kX="0" kY="0" cX="2.14" cY="2.14" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="69.6" y="-238.55" cocos2d_x="69.75" cocos2d_y="-238.3" kX="-60.19" kY="-60.19" cX="2.61" cY="2.61" pX="0.05" pY="-0.1" z="1" dI="1" blend="normal" dr="2" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 13" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="107.95" y="-309.2" cocos2d_x="107.95" cocos2d_y="-309.15" kX="0" kY="0" cX="1.43" cY="1.43" pX="0" pY="0" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="257.55" y="-129.7" cocos2d_x="257.55" cocos2d_y="-129.5" kX="0" kY="0" cX="2.01" cY="2.01" pX="0" pY="-0.1" z="2" dI="1" blend="normal" dr="2" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 12" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="319.3" y="-107.8" cocos2d_x="319.3" cocos2d_y="-107.8" kX="0" kY="0" cX="2.26" cY="2.26" pX="0" pY="0" z="3" dI="0" blend="normal" dr="4" />
+          <f x="316.3" y="-102.15" cocos2d_x="316.3" cocos2d_y="-102.15" kX="0" kY="0" cX="2.81" cY="2.81" pX="0" pY="0" z="3" dI="1" blend="normal" dr="2" />
+          <f x="249.25" y="-98.6" cocos2d_x="249.25" cocos2d_y="-98.6" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="3" dI="2" blend="normal" dr="2" />
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="扫地僧pg" width="512" height="512">
+    <SubTexture name="xzz-w 3" width="112" height="236" x="331" y="0" cocos2d_pX="55.15" cocos2d_pY="119.35" />
+    <SubTexture name="xzz-w 2" width="142" height="224" x="188" y="0" cocos2d_pX="70.30" cocos2d_pY="112.80" />
+    <SubTexture name="xzz-w 1" width="112" height="182" x="188" y="225" cocos2d_pX="57.70" cocos2d_pY="91.00" />
+    <SubTexture name="xzz-w 5" width="90" height="97" x="301" y="380" cocos2d_pX="45.60" cocos2d_pY="48.55" />
+    <SubTexture name="xzz-w 4" width="134" height="142" x="301" y="237" cocos2d_pX="66.70" cocos2d_pY="70.55" />
+    <SubTexture name="xzz-w 7" width="187" height="235" x="0" y="0" cocos2d_pX="93.50" cocos2d_pY="116.50" />
+    <SubTexture name="xzz-w 6" width="139" height="150" x="0" y="236" cocos2d_pX="69.75" cocos2d_pY="75.00" />
+  </TextureAtlas>
+</skeleton>

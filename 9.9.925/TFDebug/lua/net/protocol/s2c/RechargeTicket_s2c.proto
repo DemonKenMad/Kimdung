@@ -1,0 +1,24 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname = "S2CRechargeTicketMsg";
+
+// 充值券
+//code = 0x7701
+message RechargeTicketInfoResponse {
+	repeated RechargeTicketInfo rechargeTicketInfo = 1;		//充值券
+}
+
+
+// 充值券变更
+//code = 0x7702
+message RechargeTicketChangeResponse{
+	required int32 type = 1;						//类型(1:添加 2:删除)
+	repeated RechargeTicketInfo rechargeTicketInfo = 2;		//充值券实例id
+}
+
+message RechargeTicketInfo{
+	required int64 instanceId = 1;					//物品实例id
+	optional int32 templateId = 2;					//物品模版id
+	optional int32 createTime = 3;					//创建时间
+	optional int32 endTime = 4;						//结束时间
+}

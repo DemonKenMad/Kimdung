@@ -1,0 +1,44 @@
+<skeleton name="郭靖  小技能 箭" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-129.4" y="-76.25" kX="-1.2" kY="-1.2" cX="1" cY="1" pX="-161.25" pY="3.9" z="0">
+        <d name="xxx/stjiefilesB92" isArmature="1" />
+      </b>
+      <b name="图层 2 复制" x="-129.4" y="-116.35" kX="-1.2" kY="-1.2" cX="1" cY="1" pX="-161.25" pY="3.75" z="1">
+        <d name="xxx/stjiefilesB92" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/stjiefilesB92" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-26.75" y="-1.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-元件 1" />
+        <d name="xxx-元件 2" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/stjiefilesB92">
+      <mov name="djioghgfijohgd" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-26.75" y="-1.55" cocos2d_x="-26.75" cocos2d_y="-1.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-58.2" y="4.05" cocos2d_x="-58.2" cocos2d_y="4.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2" dr="7" to="0" drTW="7" lp="1" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-129.4" y="-76.25" cocos2d_x="31.75" cocos2d_y="-83.5" kX="-1.2" kY="-1.2" cX="1" cY="1" fst="0" pX="-161.25" pY="3.9" z="0" dI="0" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2 复制" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-129.4" y="-116.35" cocos2d_x="31.75" cocos2d_y="-123.5" kX="-1.2" kY="-1.2" cX="1" cY="1" fst="0" pX="-161.25" pY="3.75" z="1" dI="0" dr="6" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郭靖  小技能 箭" width="512" height="128">
+    <SubTexture name="xxx-元件 2" width="484" height="53" x="0" y="0" cocos2d_pX="240.00" cocos2d_pY="26.95" />
+    <SubTexture name="xxx-元件 1" width="416" height="61" x="0" y="54" cocos2d_pX="210.60" cocos2d_pY="29.30" />
+  </TextureAtlas>
+</skeleton>

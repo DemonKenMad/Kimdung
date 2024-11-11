@@ -1,0 +1,62 @@
+<skeleton name="貂技能上层白屏" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-136.55" y="0.45" kX="0" kY="0" cX="500" cY="500" pX="2.5" pY="1.5" z="0">
+        <d name="xxx-zhangweirinhart04"/>
+        <d name="xxx-zhangweirinhart16"/>
+        <d name="xxx-zhangweirinhart18"/>
+        <d name="xxx-zhangweirinhart20"/>
+        <d name="xxx-zhangweirinhart22"/>
+        <d name="xxx-zhangweirinhart24"/>
+        <d name="xxx-zhangweirinhart26"/>
+        <d name="xxx-zhangweirinhart28"/>
+        <d name="xxx-zhangweirinhart30"/>
+        <d name="xxx-zhangweirinhart32"/>
+        <d name="xxx-zhangweirinhart34"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdsadddd" dr="87" to="0" drTW="87" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="11" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="0" twE="0" dr="5"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="36" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="1" dr="1" twE="NaN"/>
+          <f dr="3" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="2" dr="1" twE="NaN"/>
+          <f dr="1" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="3" dr="1" twE="NaN"/>
+          <f dr="3" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="4" dr="1" twE="NaN"/>
+          <f dr="4" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="5" dr="1" twE="NaN"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="6" dr="1" twE="NaN"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="7" dr="1" twE="NaN"/>
+          <f dr="12" dI="-1"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="8" dr="1" twE="NaN"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="9" dr="1" twE="NaN"/>
+          <f x="-136.55" y="0.45" cocos2d_x="-1386.55" cocos2d_y="-749.55" kX="0" kY="0" cX="500" cY="500" fst="0" pX="2.5" pY="1.5" z="0" dI="10" dr="1" twE="NaN"/>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="貂技能上层白屏" width="16" height="32">
+    <SubTexture name="xxx-zhangweirinhart34" width="5" height="3" x="0" y="15" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart32" width="5" height="3" x="0" y="5" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart30" width="5" height="3" x="0" y="25" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart28" width="5" height="3" x="0" y="10" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart26" width="5" height="3" x="7" y="20" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart24" width="5" height="3" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart22" width="5" height="3" x="7" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart20" width="5" height="3" x="7" y="5" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart18" width="5" height="3" x="7" y="10" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart16" width="5" height="3" x="7" y="15" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-zhangweirinhart04" width="5" height="3" x="0" y="20" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

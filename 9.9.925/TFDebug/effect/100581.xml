@@ -1,0 +1,31 @@
+<skeleton name="丐帮长老2普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="80.9" y="-78.15" kX="-5.96" kY="-5.96" cX="1.56" cY="1.56" pX="114.35" pY="46.85" z="0">
+        <d name="huoyanqiang00001.png" />
+        <d name="1a" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="80.9" y="-78.15" cocos2d_x="-103.8" cocos2d_y="-132.25" kX="-5.96" kY="-5.96" cX="1.56" cY="1.56" pX="114.35" pY="46.85" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="151.15" y="-84.65" cocos2d_x="151.15" cocos2d_y="-84.55" kX="-9.73" kY="-9.73" cX="1.79" cY="1.79" pX="0" pY="-0.05" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="232.4" y="-96.4" cocos2d_x="232.4" cocos2d_y="-96.35" kX="-7.77" kY="-7.77" cX="2.35" cY="0.86" pX="0" pY="-0.05" z="0" dI="1" blend="normal" twE="0" dr="2" />
+          <f x="298.35" y="-108.25" cocos2d_x="298.35" cocos2d_y="-108.2" kX="-5.13" kY="-5.12" cX="1.79" cY="0.26" pX="0" pY="-0.2" z="0" dI="1" blend="normal" twE="0" dr="2" />
+          <f x="319.35" y="-109.25" cocos2d_x="319.35" cocos2d_y="-109.2" kX="-5.13" kY="-5.12" cX="1.79" cY="0.26" pX="0" pY="-0.2" z="0" dI="1" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="丐帮长老2普攻" width="256" height="256">
+    <SubTexture name="1a" width="186" height="79" x="0" y="0" cocos2d_pX="92.00" cocos2d_pY="39.00" />
+    <SubTexture name="huoyanqiang00001.png" width="159" height="80" x="0" y="80" cocos2d_pX="-11.00" cocos2d_pY="-10.00" />
+  </TextureAtlas>
+</skeleton>

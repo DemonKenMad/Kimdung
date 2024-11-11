@@ -1,0 +1,110 @@
+<skeleton name="东瀛岛抽奖翻牌 输出 10226" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="mvhx bfdtnst" x="15.25" y="-25.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiwidowmaker15" />
+      </b>
+      <b name="bn ftgrsnmt" x="6.5" y="-11.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweiwidowmaker13" isArmature="1" />
+      </b>
+      <b name="b ftrsanz" x="-0.3" y="0.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweiwidowmaker10" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiwidowmaker13" isLoop="loop" startFrame="1">
+      <b name="v trn" x="0.05" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweiwidowmaker12" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiwidowmaker12" isLoop="loop" startFrame="1">
+      <b name="n rymdtym" x="-0.7" y="-2.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-n btgry" />
+        <d name="xxx-mytu" />
+        <d name="xxx-mn huy" />
+        <d name="xxx-n hyt" />
+        <d name="xxx-nygrt" />
+        <d name="xxx-n ytu" />
+        <d name="xxx-ntgt" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiwidowmaker10" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-0.3" y="0.2" kX="0" kY="0" cX="1.51" cY="1.51" pX="-0.05" pY="0" z="0">
+        <d name="xxx-zhangweiwidowmaker11" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweiwidowmaker12">
+      <mov name="dfafjodsuoigapafg" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+        <b name="n rymdtym" sc="1" dl="0">
+          <f x="-0.7" y="-2.6" cocos2d_x="-0.7" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-0.7" y="-2.6" cocos2d_x="-0.7" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-0.7" y="-2.6" cocos2d_x="-0.7" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-0.7" y="-2.6" cocos2d_x="-0.7" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-0.5" y="-2.6" cocos2d_x="-0.5" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-0.5" y="-2.6" cocos2d_x="-0.5" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="-0.5" y="-2.6" cocos2d_x="-0.5" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="6" dr="20" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweiwidowmaker13">
+      <mov name="dsafjkdsj" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="v trn" sc="1" dl="0">
+          <f x="0.05" y="0.05" cocos2d_x="0.05" cocos2d_y="0.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="1" dr="5" />
+          <f x="0.05" y="0.05" cocos2d_x="0.05" cocos2d_y="0.05" kX="0" kY="0" cX="2.19" cY="2.19" fst="5" pX="0" pY="0" z="0" dI="0" twE="-1" dr="3" />
+          <f x="0.05" y="0.05" cocos2d_x="0.05" cocos2d_y="0.05" kX="0" kY="0" cX="0.82" cY="0.82" fst="8" pX="0" pY="0" z="0" dI="0" twE="1" dr="3" />
+          <f x="0.05" y="0.05" cocos2d_x="0.05" cocos2d_y="0.05" kX="0" kY="0" cX="0.98" cY="0.98" fst="11" pX="0" pY="0" z="0" dI="0" dr="4" />
+          <f x="0.05" y="0.05" cocos2d_x="0.05" cocos2d_y="0.05" kX="0" kY="0" cX="0.98" cY="0.98" fst="15" pX="0" pY="0" z="0" dI="0" twE="0" dr="6" />
+          <f x="0.05" y="0.05" cocos2d_x="0.05" cocos2d_y="0.05" kX="0" kY="0" cX="0.98" cY="0.98" fst="21" pX="0" pY="0" z="0" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweiwidowmaker10">
+      <mov name="dsfkjsghfh" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.3" y="0.2" cocos2d_x="-0.2" cocos2d_y="0.2" kX="0" kY="0" cX="1.51" cY="1.51" fst="0" pX="-0.05" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-0.1" y="-0.05" cocos2d_x="0.35" cocos2d_y="-0.05" kX="0" kY="0" cX="8.88" cY="8.88" fst="3" pX="-0.05" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="0.4" y="-0.15" cocos2d_x="0.8" cocos2d_y="-0.15" kX="0" kY="0" cX="7.71" cY="7.71" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="9">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsFdssdagafga" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="mvhx bfdtnst" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="15.25" y="-25.5" cocos2d_x="15.25" cocos2d_y="-25.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="15.25" y="-25.5" cocos2d_x="15.25" cocos2d_y="-25.5" kX="0" kY="0" cX="2.92" cY="2.92" pX="0" pY="0" z="0" dI="0" twE="0" dr="3" />
+          <f x="15.25" y="-25.5" cocos2d_x="15.25" cocos2d_y="-25.5" kX="0" kY="0" cX="2.96" cY="2.96" pX="0" pY="0" z="0" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="bn ftgrsnmt" sc="1" dl="0">
+          <f x="6.5" y="-11.5" cocos2d_x="6.5" cocos2d_y="-11.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="24" />
+        </b>
+        <b name="b ftrsanz" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-0.3" y="0.85" cocos2d_x="-0.3" cocos2d_y="0.85" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="9" />
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="东瀛岛抽奖翻牌 输出 10226" width="1024" height="512">
+    <SubTexture name="xxx-zhangweiwidowmaker11" width="184" height="183" x="375" y="235" cocos2d_pX="93.55" cocos2d_pY="89.90" />
+    <SubTexture name="xxx-ntgt" width="178" height="234" x="256" y="0" cocos2d_pX="89.00" cocos2d_pY="118.00" />
+    <SubTexture name="xxx-n ytu" width="164" height="240" x="614" y="0" cocos2d_pX="84.00" cocos2d_pY="121.00" />
+    <SubTexture name="xxx-nygrt" width="104" height="244" x="256" y="235" cocos2d_pX="54.00" cocos2d_pY="123.00" />
+    <SubTexture name="xxx-n hyt" width="13" height="246" x="361" y="235" cocos2d_pX="6.80" cocos2d_pY="124.00" />
+    <SubTexture name="xxx-mn huy" width="83" height="246" x="933" y="0" cocos2d_pX="38.80" cocos2d_pY="124.00" />
+    <SubTexture name="xxx-mytu" width="153" height="240" x="779" y="0" cocos2d_pX="73.80" cocos2d_pY="121.00" />
+    <SubTexture name="xxx-n btgry" width="178" height="234" x="435" y="0" cocos2d_pX="88.80" cocos2d_pY="118.00" />
+    <SubTexture name="xxx-zhangweiwidowmaker15" width="255" height="240" x="0" y="0" cocos2d_pX="131.75" cocos2d_pY="121.00" />
+  </TextureAtlas>
+</skeleton>

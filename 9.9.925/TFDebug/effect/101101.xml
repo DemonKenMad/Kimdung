@@ -1,0 +1,62 @@
+<skeleton name="萧中慧普通特效_陈文明_0617" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 10" x="-61.35" y="-49.35" kX="-86.04" kY="-32.62" cX="0.69" cY="1.2" pX="-99.6" pY="-81" z="0">
+        <d name="yuanjian-dg2" />
+        <d name="yuanjian-dg7" />
+      </b>
+      <b name="图层 13" x="209.6" y="-61.45" kX="-90.22" kY="-92.32" cX="0.37" cY="1.04" pX="14.6" pY="92.5" z="1">
+        <d name="yuanjian-dg4" />
+        <d name="yuanjian-dg7" />
+      </b>
+      <b name="图层 10     复制 5" x="126.1" y="-18.1" kX="0" kY="0" cX="0.93" cY="0.93" pX="0" pY="0" z="2">
+        <d name="yuanjian-jineng2" />
+      </b>
+      <b name="图层 8" x="228.3" y="-73.85" kX="-96.41" kY="-96.41" cX="0.74" cY="0.74" pX="0" pY="0" z="3">
+        <d name="yuanjian-jineng2" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="pg" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 10" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="-61.35" y="-49.35" cocos2d_x="93.8" cocos2d_y="-79.9" kX="-86.04" kY="-32.62" cX="0.69" cY="1.2" pX="-99.6" pY="-81" z="0" dI="0" blend="normal" dr="2" />
+          <f x="-57.8" y="-57.35" cocos2d_x="5.95" cocos2d_y="-86.05" kX="-71.32" kY="-39.8" cX="0.55" cY="0.48" pX="-101" pY="-46.1" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="-69.7" y="-56.95" cocos2d_x="-58.85" cocos2d_y="-68.45" kX="-89.98" kY="-70.12" cX="0.12" cY="0.15" pX="-101.2" pY="-45.7" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 13" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="209.6" y="-61.45" cocos2d_x="114" cocos2d_y="-55.7" kX="-90.22" kY="-92.32" cX="0.37" cY="1.04" pX="14.6" pY="92.5" z="1" dI="0" blend="normal" dr="2" />
+          <f x="224.8" y="-56.7" cocos2d_x="152.55" cocos2d_y="-46.9" kX="107.81" kY="158.08" cX="0.49" cY="0.6" pX="-101.05" pY="-46.75" z="1" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="224.65" y="-58.55" cocos2d_x="190.75" cocos2d_y="-46.25" kX="87.5" kY="139.58" cX="0.18" cY="0.44" pX="-100.3" pY="-47.15" z="1" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="图层 10     复制 5" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="126.1" y="-18.1" cocos2d_x="126.1" cocos2d_y="-18.1" kX="0" kY="0" cX="0.93" cY="0.93" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f x="183.45" y="-28.35" cocos2d_x="183.45" cocos2d_y="-28.35" kX="-96.41" kY="-96.41" cX="0.47" cY="0.47" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f dr="5" dI="-1" />
+          <f x="157.1" y="-106" cocos2d_x="157.1" cocos2d_y="-106" kX="0" kY="0" cX="0.93" cY="0.93" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f x="98.95" y="-116.6" cocos2d_x="98.95" cocos2d_y="-116.6" kX="-96.41" kY="-96.41" cX="0.47" cY="0.47" pX="0" pY="0" z="2" dI="0" blend="normal" dr="2" />
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="228.3" y="-73.85" cocos2d_x="228.3" cocos2d_y="-73.85" kX="-96.41" kY="-96.41" cX="0.74" cY="0.74" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+          <f dr="7" dI="-1" />
+          <f x="154.15" y="-89.1" cocos2d_x="154.15" cocos2d_y="-89.1" kX="-96.41" kY="-96.41" cX="0.34" cY="0.34" pX="0" pY="0" z="3" dI="0" blend="normal" dr="2" />
+          <f dr="8" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="萧中慧普通特效_陈文明_0617" width="512" height="512">
+    <SubTexture name="yuanjian-jineng2" width="150" height="150" x="0" y="266" cocos2d_pX="75.00" cocos2d_pY="75.00" />
+    <SubTexture name="yuanjian-dg4" width="225" height="265" x="0" y="0" cocos2d_pX="118.55" cocos2d_pY="134.85" />
+    <SubTexture name="yuanjian-dg7" width="254" height="176" x="226" y="239" cocos2d_pX="123.95" cocos2d_pY="93.40" />
+    <SubTexture name="yuanjian-dg2" width="219" height="238" x="226" y="0" cocos2d_pX="104.70" cocos2d_pY="121.60" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,26 @@
+<skeleton name="神技能二段反击角色底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-29" y="-100" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-asdgasdasdg" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sfadfassadgasgas" dr="36" to="0" drTW="36" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-29" y="-100" cocos2d_x="-29" cocos2d_y="-100" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-29" y="-100" cocos2d_x="-29" cocos2d_y="-100" kX="0" kY="0" cX="2.06" cY="2.06" fst="0" pX="0" pY="0" z="0" dI="0" dr="16" />
+          <f dr="14" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神技能二段反击角色底层" width="256" height="256">
+    <SubTexture name="xxx-asdgasdasdg" width="245" height="245" x="0" y="0" cocos2d_pX="122.55" cocos2d_pY="122.55" />
+  </TextureAtlas>
+</skeleton>

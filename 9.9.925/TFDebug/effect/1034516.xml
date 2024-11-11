@@ -1,0 +1,90 @@
+<skeleton name="何足道主技能受击上层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fsadsa" x="4.15" y="-27.05" kX="0" kY="0" cX="2.39" cY="4.94" pX="676.15" pY="180.05" z="0">
+        <d name="xxx/sdf55" isArmature="1" />
+      </b>
+      <b name="fasfasfsa" x="27.8" y="-28.05" kX="0" kY="0" cX="1.63" cY="4.18" pX="694.25" pY="181.9" z="1">
+        <d name="xxx/sdf44" isArmature="1" />
+      </b>
+      <b name="dasdas" x="27.75" y="-28.05" kX="0" kY="0" cX="0.82" cY="2.1" pX="694.25" pY="181.85" z="2">
+        <d name="xxx/sdf44" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdf55" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="667.5" y="175" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0">
+        <d name="xxx-sdf46" />
+        <d name="xxx-sdf48" />
+        <d name="xxx-sdf50" />
+        <d name="xxx-sdf52" />
+      </b>
+    </armature>
+    <armature name="xxx/sdf44" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="682.1" y="175.05" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-sdf54" />
+      </b>
+      <b name="图层 1" x="667.5" y="175" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1">
+        <d name="xxx-sdf46" />
+        <d name="xxx-sdf48" />
+        <d name="xxx-sdf50" />
+        <d name="xxx-sdf52" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdf55">
+      <mov name="sfasdasda" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="667.5" y="175" cocos2d_x="667.5" cocos2d_y="175" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="3" twE="0" dr="3" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sdf44">
+      <mov name="sfasdasda" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="682.1" y="175.05" cocos2d_x="682.1" cocos2d_y="175.05" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="10" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="667.5" y="175" cocos2d_x="667.5" cocos2d_y="175" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="1" blend="add" dr="2" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="2" blend="add" dr="2" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1" dI="3" blend="add" twE="0" dr="3" />
+          <f x="656.1" y="176.05" cocos2d_x="656.1" cocos2d_y="176.05" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1" dI="3" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill3" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="fsadsa" sc="1" dl="0">
+          <f x="4.15" y="-27.05" cocos2d_x="-1611.8" cocos2d_y="-917.4" kX="0" kY="0" cX="2.39" cY="4.94" fst="0" pX="676.15" pY="180.05" z="0" dI="0" dr="9">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="fasfasfsa" sc="1" dl="0">
+          <f x="27.8" y="-28.05" cocos2d_x="-1104.7" cocos2d_y="-789.15" kX="0" kY="0" cX="1.63" cY="4.18" fst="0" pX="694.25" pY="181.9" z="1" dI="0" dr="10" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="dasdas" sc="1" dl="0">
+          <f x="27.75" y="-28.05" cocos2d_x="-539.7" cocos2d_y="-409.4" kX="0" kY="0" cX="0.82" cY="2.1" fst="0" pX="694.25" pY="181.85" z="2" dI="0" dr="10" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="何足道主技能受击上层输出" width="256" height="512">
+    <SubTexture name="xxx-sdf54" width="7" height="5" x="229" y="0" cocos2d_pX="3.45" cocos2d_pY="2.30" />
+    <SubTexture name="xxx-sdf52" width="139" height="55" x="0" y="269" cocos2d_pX="66.75" cocos2d_pY="26.25" />
+    <SubTexture name="xxx-sdf50" width="228" height="90" x="0" y="0" cocos2d_pX="111.60" cocos2d_pY="42.60" />
+    <SubTexture name="xxx-sdf48" width="220" height="90" x="0" y="91" cocos2d_pX="107.60" cocos2d_pY="43.60" />
+    <SubTexture name="xxx-sdf46" width="208" height="86" x="0" y="182" cocos2d_pX="103.60" cocos2d_pY="43.20" />
+  </TextureAtlas>
+</skeleton>

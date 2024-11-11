@@ -1,0 +1,90 @@
+<skeleton name="段延庆 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-41.45" y="-68.6" kX="-1.66" kY="-1.66" cX="1.47" cY="0.68" pX="-76.05" pY="-1.05" z="0">
+        <d name="duanyanqing-rgg" />
+      </b>
+      <b name="图层 4" x="-7.2" y="-69.65" kX="4.2" kY="4.2" cX="1" cY="1" pX="88" pY="61.5" z="1">
+        <d name="duanyanqing-xfdrr" />
+        <d name="duanyanqing-dsfhdfj" />
+      </b>
+      <b name="图层 5" x="282.55" y="-81.6" kX="0" kY="0" cX="2" cY="2" pX="74" pY="79.5" z="2">
+        <d name="duanyanqing-sadhsj" />
+        <d name="duanyanqing-sagsdh" />
+        <d name="duanyanqing-asgsdh" />
+        <d name="duanyanqing-dszhdfj" />
+      </b>
+      <b name="图层 6" x="111.65" y="-90.45" kX="-160.99" kY="19.01" cX="2.3" cY="1.65" pX="-34.7" pY="-82.8" z="3">
+        <d name="duanyanqing/dfgfgggd" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="duanyanqing/dfgfgggd" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="-74.2" y="-80.15" kX="0" kY="0" cX="1" cY="1" pX="19.5" pY="37" z="0">
+        <d name="duanyanqing-dfshhg" />
+        <d name="duanyanqing-hajh" />
+        <d name="duanyanqing-dshfsj" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="duanyanqing/dfgfgggd">
+      <mov name="1" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-74.2" y="-80.15" cocos2d_x="-93.7" cocos2d_y="-117.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="19.5" pY="37" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-75.75" y="-76.6" cocos2d_x="-100" cocos2d_y="-118.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="24.25" pY="41.75" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-94.8" y="-78.6" cocos2d_x="-127.3" cocos2d_y="-132.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="32.5" pY="54" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-41.45" y="-68.6" cocos2d_x="70.4" cocos2d_y="-71.1" kX="-1.66" kY="-1.66" cX="1.47" cY="0.68" pX="-76.05" pY="-1.05" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="103.85" y="-74" cocos2d_x="252.05" cocos2d_y="-78.65" kX="-2.11" kY="-2.11" cX="1.95" cY="0.68" pX="-75.95" pY="-1.15" z="0" dI="0" blend="add" twE="0" dr="6" />
+          <f x="220.2" y="-74" cocos2d_x="314.05" cocos2d_y="-76.65" kX="-2.11" kY="-2.11" cX="1.24" cY="0.68" pX="-76.05" pY="-1.15" z="0" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.16" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-7.2" y="-69.65" cocos2d_x="-90.45" cocos2d_y="-137.4" kX="4.2" kY="4.2" cX="1" cY="1" pX="88" pY="61.5" z="1" dI="0" dr="2" />
+          <f x="147.25" y="-74.6" cocos2d_x="64.9" cocos2d_y="-143.5" kX="4.98" kY="4.98" cX="1" cY="1" pX="88" pY="61.5" z="1" dI="0" dr="2" />
+          <f x="259.2" y="-78.65" cocos2d_x="172" cocos2d_y="-149.65" kX="3.21" kY="3.21" cX="1" cY="1" fst="0" pX="91.05" pY="66" z="1" dI="1" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.48" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="312.2" y="-82.65" cocos2d_x="224.1" cocos2d_y="-152.55" kX="2.47" kY="2.47" cX="1" cY="1" fst="0" pX="91.05" pY="66.05" z="1" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="282.55" y="-81.6" cocos2d_x="134.55" cocos2d_y="-240.6" kX="0" kY="0" cX="2" cY="2" fst="0" pX="74" pY="79.5" z="2" dI="0" dr="2" />
+          <f x="219.4" y="-87.5" cocos2d_x="-5.6" cocos2d_y="-289.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="112.5" pY="101" z="2" dI="1" dr="2" />
+          <f x="192" y="-86.5" cocos2d_x="-80" cocos2d_y="-324.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="136" pY="119" z="2" dI="2" dr="2" />
+          <f x="169.2" y="-84.85" cocos2d_x="-107.8" cocos2d_y="-340.85" kX="0" kY="0" cX="2" cY="2" fst="0" pX="138.5" pY="128" z="2" dI="3" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="111.65" y="-90.45" cocos2d_x="231.65" cocos2d_y="-193.55" kX="-160.99" kY="19.01" cX="2.3" cY="1.65" fst="0" pX="-34.7" pY="-82.8" z="3" dI="0" dr="3" />
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="段延庆 普攻FX" width="512" height="256">
+    <SubTexture name="duanyanqing-dshfsj" width="61" height="105" x="444" y="0" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="duanyanqing-hajh" width="44" height="79" x="444" y="106" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="duanyanqing-dfshhg" width="35" height="71" x="240" y="119" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="duanyanqing-dszhdfj" width="125" height="118" x="192" y="0" cocos2d_pX="-75.25" cocos2d_pY="-68.00" />
+    <SubTexture name="duanyanqing-asgsdh" width="125" height="109" x="318" y="0" cocos2d_pX="-73.00" cocos2d_pY="-62.50" />
+    <SubTexture name="duanyanqing-sagsdh" width="98" height="91" x="318" y="110" cocos2d_pX="-64.25" cocos2d_pY="-53.50" />
+    <SubTexture name="duanyanqing-sadhsj" width="47" height="63" x="192" y="119" cocos2d_pX="-51.00" cocos2d_pY="-46.75" />
+    <SubTexture name="duanyanqing-dsfhdfj" width="155" height="42" x="0" y="124" cocos2d_pX="-16.00" cocos2d_pY="-41.00" />
+    <SubTexture name="duanyanqing-xfdrr" width="154" height="42" x="0" y="167" cocos2d_pX="-13.00" cocos2d_pY="-36.00" />
+    <SubTexture name="duanyanqing-rgg" width="191" height="123" x="0" y="0" cocos2d_pX="95.50" cocos2d_pY="61.50" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,174 @@
+<skeleton name="慕容龙城杀意技改下层输出改01" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gsdgdsfsf" x="-46.95" y="27.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sidttu28" isArmature="1" />
+      </b>
+      <b name="gsddgsdgsd" x="-9.05" y="-63" kX="0" kY="0" cX="0.33" cY="0.33" pX="11.8" pY="-91.4" z="1">
+        <d name="xxx/sidttu21" isArmature="1" />
+      </b>
+      <b name="gsdgsdgs" x="-34.35" y="-73.9" kX="0" kY="0" cX="2.34" cY="2.34" pX="0" pY="0" z="2">
+        <d name="xxx/sidttu23" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sidttu28" isLoop="loop" startFrame="1">
+      <b name="szfadsdfasdfa" x="5.1" y="-53.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sidttu04" isArmature="1" />
+        <d name="xxx-sidttu34" />
+        <d name="xxx/sidttu06" isArmature="1" />
+        <d name="xxx-sidttu37" />
+        <d name="xxx-sidttu38" />
+        <d name="xxx-sidttu39" />
+        <d name="xxx-sidttu40" />
+      </b>
+    </armature>
+    <armature name="xxx/sidttu04" isLoop="loop" startFrame="1">
+      <b name="fasfasfasf" x="-81.35" y="0" kX="0" kY="0" cX="1" cY="1" pX="-0.05" pY="0" z="0">
+        <d name="xxx-sidttu33" />
+      </b>
+      <b name="safafasf" x="91.2" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-sidttu31" />
+      </b>
+    </armature>
+    <armature name="xxx/sidttu06" isLoop="loop" startFrame="1">
+      <b name="dfsdfggsadfasfa" x="-89.9" y="19.8" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0">
+        <d name="xxx-sidttu36" />
+      </b>
+      <b name="fasfasf" x="87.8" y="9.4" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-sidttu35" />
+      </b>
+    </armature>
+    <armature name="xxx/sidttu21" isLoop="single frame" startFrame="1">
+      <b name="fsdfsdfsd" x="-3.95" y="-95.75" kX="0" kY="0" cX="5.24" cY="5.24" pX="0" pY="0" z="0">
+        <d name="xxx-sidttu02/sidttu57" />
+      </b>
+    </armature>
+    <armature name="xxx/sidttu23" isLoop="loop" startFrame="1">
+      <b name="fasfaf" x="-1.45" y="7.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sidttu47" />
+        <d name="xxx-sidttu48" />
+        <d name="xxx-sidttu49" />
+        <d name="xxx-sidttu50" />
+        <d name="xxx-sidttu51" />
+        <d name="xxx-sidttu52" />
+        <d name="xxx-sidttu53" />
+        <d name="xxx-sidttu54" />
+        <d name="xxx-sidttu55" />
+        <d name="xxx-sidttu56" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sidttu04">
+      <mov name="hdfgdgd" dr="1" to="0">
+        <b name="fasfasfasf" sc="1" dl="0">
+          <f x="-81.35" y="0" cocos2d_x="-81.3" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="safafasf" sc="1" dl="0">
+          <f x="91.2" y="0" cocos2d_x="91.2" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sidttu06">
+      <mov name="fgfasfasgfa" dr="1" to="0">
+        <b name="dfsdfggsadfasfa" sc="1" dl="0">
+          <f x="-89.9" y="19.8" cocos2d_x="-89.8" cocos2d_y="19.8" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-0.05" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="fasfasf" sc="1" dl="0">
+          <f x="87.8" y="9.4" cocos2d_x="87.8" cocos2d_y="9.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sidttu28">
+      <mov name="dsgsdfgs" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="szfadsdfasdfa" sc="1" dl="0">
+          <f x="5.1" y="-53.5" cocos2d_x="5.1" cocos2d_y="-53.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-42.9" y="-77.5" cocos2d_x="-42.9" cocos2d_y="-77.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-8.35" y="-73.5" cocos2d_x="-8.35" cocos2d_y="-73.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="10.6" y="-110.05" cocos2d_x="10.6" cocos2d_y="-109.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="3" dr="2" />
+          <f x="5.1" y="-134.65" cocos2d_x="5.1" cocos2d_y="-134.65" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="11.05" y="-124.25" cocos2d_x="11.05" cocos2d_y="-124.25" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="-33.4" y="-147.8" cocos2d_x="-33.4" cocos2d_y="-147.8" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sidttu21">
+      <mov name="fgsfasfa" dr="10" to="0" drTW="10" lp="1" twE="NaN">
+        <b name="fsdfsdfsd" sc="1" dl="0">
+          <f x="-3.95" y="-95.75" cocos2d_x="-3.95" cocos2d_y="-95.75" kX="0" kY="0" cX="5.24" cY="5.24" fst="4" pX="0" pY="0" z="0" dI="0" twE="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.38" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="9.95" y="-90.05" cocos2d_x="9.95" cocos2d_y="-90.05" kX="0" kY="0" cX="9.81" cY="9.81" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sidttu23">
+      <mov name="hgfgfdszgsd" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="fasfaf" sc="1" dl="0">
+          <f x="-1.45" y="7.95" cocos2d_x="-1.45" cocos2d_y="7.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-1.45" y="16.55" cocos2d_x="-1.45" cocos2d_y="16.55" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-1.45" y="16.55" cocos2d_x="-1.45" cocos2d_y="16.55" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-1.45" y="1.35" cocos2d_x="-1.45" cocos2d_y="1.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-1.45" y="-18.4" cocos2d_x="-1.45" cocos2d_y="-18.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="-1.2" y="12.75" cocos2d_x="-1.1" cocos2d_y="12.75" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-0.05" pY="0" z="0" dI="5" dr="2" />
+          <f x="-2.3" y="-2.3" cocos2d_x="-2.2" cocos2d_y="-2.2" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-0.05" pY="-0.05" z="0" dI="6" dr="2" />
+          <f x="4.65" y="-7.8" cocos2d_x="4.65" cocos2d_y="-7.7" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="7" dr="2" />
+          <f x="10.5" y="-1.2" cocos2d_x="10.5" cocos2d_y="-1.1" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="8" dr="2" />
+          <f x="12.7" y="-0.45" cocos2d_x="12.7" cocos2d_y="-0.45" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="9" dr="2" />
+          <f x="12.7" y="-0.45" cocos2d_x="12.7" cocos2d_y="-0.45" kX="0" kY="0" cX="1.45" cY="1.45" fst="0" pX="0" pY="0" z="0" dI="9" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.5" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dfjkjkkgfyhuf" dr="44" to="0" drTW="44" lp="0" twE="NaN">
+        <b name="gsdgdsfsf" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="-46.95" y="27.9" cocos2d_x="-46.95" cocos2d_y="27.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="15" />
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="gsddgsdgsd" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-9.05" y="-63" cocos2d_x="-12.95" cocos2d_y="-32.8" kX="0" kY="0" cX="0.33" cY="0.33" fst="0" pX="11.8" pY="-91.4" z="1" dI="0" twE="0" dr="5" />
+          <f x="-9.05" y="-63" cocos2d_x="-14.65" cocos2d_y="-19.5" kX="0" kY="0" cX="0.48" cY="0.48" fst="9" pX="11.75" pY="-91.5" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.3" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="31" dI="-1" />
+        </b>
+        <b name="gsdgsdgs" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-34.35" y="-73.9" cocos2d_x="-34.35" cocos2d_y="-73.9" kX="0" kY="0" cX="2.34" cY="2.34" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="23" />
+          <f x="-34.35" y="-73.9" cocos2d_x="-34.35" cocos2d_y="-73.9" kX="-29.22" kY="-29.22" cX="2.34" cY="2.34" fst="23" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f dr="14" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="慕容龙城杀意技改下层输出改01" width="1024" height="1024">
+    <SubTexture name="xxx-sidttu56" width="69" height="66" x="923" y="146" cocos2d_pX="38.20" cocos2d_pY="31.20" />
+    <SubTexture name="xxx-sidttu55" width="91" height="91" x="923" y="0" cocos2d_pX="45.55" cocos2d_pY="43.20" />
+    <SubTexture name="xxx-sidttu54" width="128" height="116" x="660" y="466" cocos2d_pX="66.40" cocos2d_pY="55.25" />
+    <SubTexture name="xxx-sidttu53" width="157" height="143" x="188" y="337" cocos2d_pX="78.05" cocos2d_pY="69.90" />
+    <SubTexture name="xxx-sidttu52" width="187" height="172" x="0" y="223" cocos2d_pX="95.65" cocos2d_pY="88.30" />
+    <SubTexture name="xxx-sidttu51" width="206" height="184" x="512" y="212" cocos2d_pX="103.45" cocos2d_pY="87.25" />
+    <SubTexture name="xxx-sidttu50" width="206" height="211" x="532" y="0" cocos2d_pX="103.45" cocos2d_pY="106.10" />
+    <SubTexture name="xxx-sidttu49" width="183" height="226" x="739" y="0" cocos2d_pX="96.45" cocos2d_pY="113.70" />
+    <SubTexture name="xxx-sidttu48" width="181" height="226" x="223" y="110" cocos2d_pX="92.45" cocos2d_pY="113.70" />
+    <SubTexture name="xxx-sidttu47" width="195" height="139" x="719" y="227" cocos2d_pX="101.45" cocos2d_pY="69.85" />
+    <SubTexture name="xxx-sidttu02/sidttu57" width="222" height="222" x="0" y="0" cocos2d_pX="110.20" cocos2d_pY="112.70" />
+    <SubTexture name="xxx-sidttu35" width="106" height="63" x="405" y="188" cocos2d_pX="53.60" cocos2d_pY="35.25" />
+    <SubTexture name="xxx-sidttu36" width="82" height="53" x="923" y="92" cocos2d_pX="38.65" cocos2d_pY="31.10" />
+    <SubTexture name="xxx-sidttu31" width="134" height="84" x="789" y="466" cocos2d_pX="63.35" cocos2d_pY="49.00" />
+    <SubTexture name="xxx-sidttu33" width="119" height="77" x="405" y="110" cocos2d_pX="41.20" cocos2d_pY="41.00" />
+    <SubTexture name="xxx-sidttu40" width="150" height="140" x="346" y="337" cocos2d_pX="74.50" cocos2d_pY="69.05" />
+    <SubTexture name="xxx-sidttu39" width="178" height="98" x="719" y="367" cocos2d_pX="85.00" cocos2d_pY="43.85" />
+    <SubTexture name="xxx-sidttu38" width="136" height="126" x="0" y="396" cocos2d_pX="67.75" cocos2d_pY="63.95" />
+    <SubTexture name="xxx-sidttu37" width="162" height="87" x="497" y="397" cocos2d_pX="68.50" cocos2d_pY="34.80" />
+    <SubTexture name="xxx-sidttu34" width="308" height="109" x="223" y="0" cocos2d_pX="153.55" cocos2d_pY="51.00" />
+  </TextureAtlas>
+</skeleton>

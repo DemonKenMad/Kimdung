@@ -1,0 +1,196 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname = "S2CBibleMsg";
+
+//code = 0x6001
+//装备天书
+message EquipBibleResult{
+	required int32 result = 1; 	//是否成功
+	optional int64 roleId = 2; 	//角色实例id
+	optional int64 bible = 3; 	//装备到身上的天书userid
+	optional int64 drop = 4; 	//如果有替换下来的天书则发送卸下的天书userid
+}
+
+//code = 0x6002
+//卸除天书
+message UnequipBibleResult{
+	required int32 result = 1; 	//是否成功
+	optional int64 drop = 2; 	//成功则字段有效卸除的天书
+}
+
+
+//code = 0x6004
+//镶嵌精要
+message EssentialMosaicResult{
+	required int32 result = 1; 		//是否成功
+	optional int64 roleId = 2; 		//成功则字段有效 角色实例id
+	optional int64 essential = 3; 	//成功则字段有效 镶嵌的天书id
+	optional int32 itemId = 4; 		//成功则字段有效 精要模板id
+	optional int32 pos    = 5; 		//成功则字段有效 镶嵌的位置
+}
+
+//code = 0x6005
+//卸下精要
+message EssentialUnMosaicResult{
+	required int32 result = 1; //是否成功
+	optional int64 bible = 2; 	//成功则字段有效 卸下的天书实例id
+	optional int32 pos = 3;  //卸下的天书所在位置
+}
+
+//code = 0x6006
+//天书突破
+message BibleBreachResult{
+	required int32 result = 1; //是否成功
+	optional int64 instanceId = 2;			//成功则字段有效 天书实例ID
+}
+
+//code = 0x6007
+//精要分解
+message EssentialExplodeResult{
+	required int32 result = 1; //是否成功
+	optional string itemId = 2; //成功时有效 精要模板ids 逗号隔开
+}
+
+//code = 0x6008
+//重置天书
+message BibleResetResult{
+	required int32 result = 1; //是否成功
+	optional int64 bible = 2; 	//成功时有效 天书id
+}
+
+//code = 0x6009
+//合成天书成功
+message BibleAddResult{
+	required int32 result = 1; 	//是否成功
+	required int64 instanceId = 2; //唯一id
+	required int32 id 	  = 3;    		//模板id
+}
+
+//code = 0x6010
+//天书升重
+message BibleLevelUpResult{
+	required int32 result = 1; 	//是否成功
+	required int64 instanceId = 2; //唯一id
+	required int32 level = 3;//当前重数
+}
+
+//code = 0x6011
+//一键镶嵌精要
+message EssentialMosaicAllResult{
+	repeated EssentialMosaicResult mosaic = 1; //镶嵌精要结果
+}
+
+//code = 0x6012
+//天书镶嵌宝石
+message BibleGemResult{
+	required int64 bibleId = 1; 	//镶嵌的天书id
+	required int32 result = 2; // 0成功 1失败
+	required BibleAllGemInfo info = 3; // 宝石信息
+}
+
+// 天书宝石信息
+message BibleAllGemInfo {
+	required int64 bibleId = 1; 	//镶嵌的天书id
+	repeated BibleGemInfo info = 2; // 宝石信息
+}
+
+//天书宝石位置信息
+message BibleGemInfo {
+	required int32 pos = 1; // 位置
+	required int32 itemId = 2; // 宝石ID
+}
+
+//code = 0x6013
+//天书卸下宝石
+message BibleGemUnResult{
+	required int32 result = 1; // 0成功 1失败
+	required int32 pos = 2; // 位置
+	required int64 bibleId = 3; 	//镶嵌的天书id
+}
+
+//code = 0x6014
+//天书宝石
+message BibleGemReponse {
+	repeated BibleAllGemInfo info = 1;  // 天书宝石信息
+}
+
+// 天书研修信息
+message BiblePracticeInfo {
+	required int64 bibleId = 1; 	// 天书id
+	repeated BiblePracticeData data = 2; // 天书研修孔位信息
+}
+
+// 天书研修孔位信息
+message BiblePracticeData {
+	required int32 position = 1; 		// 位置
+	required int32 level = 2; 			// 等级
+}
+
+// 所有天书研修信息
+// code = 0x6016
+message AllBiblePracticeReponse {
+	repeated BiblePracticeInfo info = 1; // 天书研修信息
+}
+
+// 单个天书研修信息
+// code = 0x6017
+message SingleBiblePracticeReponse {
+	required BiblePracticeInfo info = 1; // 天书研修信息
+}
+
+//code = 0x6018
+//天书宝石
+message SingleBibleGemReponse {
+	required BibleAllGemInfo info = 1;  // 天书宝石信息
+	required int32 star = 2;			// 天书星级
+}
+
+// 天书置换 弹出框物品信息
+// code = 0x6019
+message BibleExchangeReponse {
+	repeated BibleItemInfo info = 1;	// 所有资源
+}
+
+// 天书参悟信息
+// code = 0x6020
+message BibleComprehendInfoReponse {
+	repeated BibleComprehendInfo info = 1; 				//天书数据
+	repeated BibleComprehendInfo changeInfo = 2; 		//天书参悟之后的属性
+}
+
+// 天书参悟
+// code = 0x6021
+message BibleComprehendReponse{
+	required BibleComprehendInfo info = 1;  		//天书数据
+}
+
+// 天书参悟-替换
+// code = 0x6022
+message BibleComprehendReplaceReponse{
+	required BibleComprehendInfo info = 1;			//天书数据
+}
+
+// 天书置换之后放入背包的物品信息
+message BibleItemInfo {
+	required int32 type = 1; 			// 资源类型
+	required int32 id = 2; 				// 资源ID
+	required int32 number = 3; 			// 资源数量
+}
+
+// 天书参悟数据
+message BibleComprehendInfo{
+	required int64 bibleId = 1; 							//天书id
+	required int32 stageId = 2;								//阶段id
+	required int32 useCount = 3;							//参悟丹使用次数
+	required int32 reachId = 4;								//达成的id
+	repeated int32 useCountReachId = 5;						//使用次数达到的id
+	repeated BibleStageInfo bibleStageInfo = 6;				//阶段属性
+}
+
+// 天书阶段数据
+message BibleStageInfo{
+	required int32 stage = 1;						//阶段id
+	required int32 isReplace = 2;					//是否替换过（0：没有 1：有）
+	repeated int32 attIndex = 3;					//属性下标
+	repeated int32 value = 4;						//属性值
+}

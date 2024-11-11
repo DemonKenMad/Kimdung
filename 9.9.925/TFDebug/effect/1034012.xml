@@ -1,0 +1,36 @@
+<skeleton name="林远图  神技 被动部分输出最顶层" frameRate="23" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gagag0" x="15.1" y="-78.9" kX="0" kY="0" cX="2.05" cY="2.05" pX="-176" pY="8" z="0">
+        <d name="xxx/shfff04" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/shfff04">
+      <b name="图层 1" x="147.75" y="63.55" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0">
+        <d name="xxx-shfff03"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shfff04">
+      <mov name="gsdfgdsffa" dr="30" to="0" drTW="30" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="147.75" y="63.55" cocos2d_x="147.75" cocos2d_y="63.55" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0" dI="0" blend="add" dr="21"/>
+          <f x="147.75" y="63.55" cocos2d_x="147.75" cocos2d_y="63.55" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="0" dI="0" blend="add" dr="9"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gsgddsfaf" dr="32" to="0" drTW="32" lp="0" twE="NaN">
+        <b name="gagag0" sc="1" dl="0">
+          <f dr="14" dI="-1"/>
+          <f x="15.1" y="-78.9" cocos2d_x="376" cocos2d_y="-95.3" kX="0" kY="0" cX="2.05" cY="2.05" pX="-176" pY="8" z="0" dI="0" blend="add" dr="1" twE="NaN"/>
+          <f dr="17" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="林远图  神技 被动部分输出最顶层" width="1024" height="512">
+    <SubTexture name="xxx-shfff03" width="576" height="453" x="0" y="0" cocos2d_pX="287.9" cocos2d_pY="226.2"/>
+  </TextureAtlas>
+</skeleton>

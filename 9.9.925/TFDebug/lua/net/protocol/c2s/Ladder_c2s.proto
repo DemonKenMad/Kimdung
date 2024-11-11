@@ -1,0 +1,32 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+option java_outer_classname="C2SLadderMsg";
+//获得玩家天梯赛信息
+//code = 0x7901
+message GainPlayerLadderMessage{
+
+}
+//获得玩家天梯赛排名信息
+//code = 0x7902
+message GainLadderRank{
+
+}
+//挑战天梯赛
+//code = 0x7903
+message ChallengeLadder{
+	required int32 index = 1;//要挑战的索引 0开始
+}
+//挑战天梯赛
+//code = 0x7904
+message LadderStopBattle{
+	required int32 index = 1;//要挑战的索引 0开始
+}
+//领取任务奖励
+//code = 0x7905
+message DrowLadderMission{
+	required int32 id = 1;
+}
+//获取其他玩家阵容
+//code = 0x7906
+message GainLadderFormation{
+	required int32 index = 1;
+}

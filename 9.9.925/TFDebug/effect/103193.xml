@@ -1,0 +1,117 @@
+<skeleton name="黄杉女小技能颜色受击输出02" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fsdfsdfsdf" x="604.55" y="94.5" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/ssffilesB47" isArmature="1" />
+      </b>
+      <b name="fsdfdsfsd" x="155.15" y="-105.75" kX="0" kY="180" cX="1.62" cY="1.67" pX="0" pY="0" z="1">
+        <d name="xxx-ssffilesB48" />
+      </b>
+    </armature>
+    <armature name="xxx/ssffilesB47" isLoop="loop" startFrame="1">
+      <b name="gfdgdfgsgs" x="534.85" y="-248.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0">
+        <d name="xxx-ssffilesB05" />
+        <d name="xxx-ssffilesB04" />
+      </b>
+      <b name="gsgdsg" x="545.2" y="-246.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-ssffilesB08" />
+        <d name="xxx-ssffilesB06" />
+        <d name="xxx-ssffilesB07" />
+      </b>
+      <b name="gfdsgsgs" x="664.95" y="-254.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx-ssffilesB11" />
+        <d name="xxx-ssffilesB10" />
+        <d name="xxx-ssffilesB09" />
+      </b>
+      <b name="gsdgsdg" x="546.7" y="-133.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="3">
+        <d name="xxx-ssffilesB14" />
+        <d name="xxx-ssffilesB13" />
+        <d name="xxx-ssffilesB12" />
+      </b>
+      <b name="gdsgsdgsd" x="605.95" y="-194.1" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="4">
+        <d name="xxx-ssffilesB20" />
+        <d name="xxx-ssffilesB19" />
+        <d name="xxx-ssffilesB18" />
+        <d name="xxx-ssffilesB17" />
+        <d name="xxx-ssffilesB16" />
+        <d name="xxx-ssffilesB15" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/ssffilesB47">
+      <mov name="hgfhfghfghdf" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="gfdgdfgsgs" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="534.85" y="-248.15" cocos2d_x="534.85" cocos2d_y="-248.1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="709.45" y="-282.95" cocos2d_x="709.45" cocos2d_y="-282.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+        </b>
+        <b name="gsgdsg" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="545.2" y="-246.05" cocos2d_x="545.2" cocos2d_y="-246.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="625.9" y="-278.45" cocos2d_x="625.9" cocos2d_y="-278.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="535.55" y="-258.95" cocos2d_x="535.55" cocos2d_y="-258.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="2" dr="2" />
+        </b>
+        <b name="gfdsgsgs" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="664.95" y="-254.5" cocos2d_x="664.95" cocos2d_y="-254.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="678.45" y="-252.95" cocos2d_x="678.45" cocos2d_y="-252.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="565.45" y="-152.45" cocos2d_x="565.45" cocos2d_y="-152.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="2" dr="2" />
+        </b>
+        <b name="gsdgsdg" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="546.7" y="-133.05" cocos2d_x="546.7" cocos2d_y="-133" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="534.45" y="-131.35" cocos2d_x="534.45" cocos2d_y="-131.3" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="656.7" y="-145" cocos2d_x="656.7" cocos2d_y="-144.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="3" dI="2" dr="2" />
+        </b>
+        <b name="gdsgsdgsd" sc="1" dl="0">
+          <f x="605.95" y="-194.1" cocos2d_x="605.95" cocos2d_y="-194" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="602.45" y="-189.6" cocos2d_x="602.45" cocos2d_y="-189.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="4" dI="1" dr="1" twE="NaN" />
+          <f x="615.95" y="-203.6" cocos2d_x="615.95" cocos2d_y="-203.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="4" dI="2" dr="1" twE="NaN" />
+          <f x="661.2" y="-131.85" cocos2d_x="661.2" cocos2d_y="-131.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="4" dI="3" dr="1" twE="NaN" />
+          <f x="661.95" y="-134.5" cocos2d_x="661.95" cocos2d_y="-134.45" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="4" dI="4" dr="1" twE="NaN" />
+          <f x="689.95" y="-110.5" cocos2d_x="689.95" cocos2d_y="-110.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="4" dI="5" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="hgfhfghh" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="fsdfsdfsdf" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="604.55" y="94.5" cocos2d_x="604.55" cocos2d_y="94.5" kX="0" kY="180" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="7" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="fsdfdsfsd" sc="1" dl="0">
+          <f x="155.15" y="-105.75" cocos2d_x="155.15" cocos2d_y="-105.75" kX="0" kY="180" cX="1.62" cY="1.67" pX="0" pY="0" z="1" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="160.15" y="-105.75" cocos2d_x="160.15" cocos2d_y="-105.75" kX="0" kY="180" cX="2.83" cY="1.67" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" />
+          <f x="156.1" y="-103" cocos2d_x="156.1" cocos2d_y="-103" kX="0" kY="180" cX="2.73" cY="1.32" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" />
+          <f x="140.85" y="-96.8" cocos2d_x="140.85" cocos2d_y="-96.8" kX="0" kY="180" cX="2.41" cY="0.29" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="黄杉女小技能颜色受击输出02" width="512" height="256">
+    <SubTexture name="xxx-ssffilesB15" width="24" height="25" x="179" y="90" cocos2d_pX="9.00" cocos2d_pY="8.50" />
+    <SubTexture name="xxx-ssffilesB16" width="72" height="66" x="106" y="90" cocos2d_pX="28.00" cocos2d_pY="28.50" />
+    <SubTexture name="xxx-ssffilesB17" width="74" height="78" x="307" y="85" cocos2d_pX="35.25" cocos2d_pY="41.75" />
+    <SubTexture name="xxx-ssffilesB18" width="105" height="103" x="0" y="0" cocos2d_pX="50.70" cocos2d_pY="50.25" />
+    <SubTexture name="xxx-ssffilesB19" width="69" height="65" x="0" y="104" cocos2d_pX="32.95" cocos2d_pY="32.25" />
+    <SubTexture name="xxx-ssffilesB20" width="64" height="57" x="382" y="155" cocos2d_pX="32.20" cocos2d_pY="28.50" />
+    <SubTexture name="xxx-ssffilesB12" width="28" height="28" x="477" y="57" cocos2d_pX="16.20" cocos2d_pY="11.00" />
+    <SubTexture name="xxx-ssffilesB13" width="85" height="84" x="307" y="0" cocos2d_pX="39.50" cocos2d_pY="33.80" />
+    <SubTexture name="xxx-ssffilesB14" width="75" height="78" x="393" y="76" cocos2d_pX="37.25" cocos2d_pY="38.95" />
+    <SubTexture name="xxx-ssffilesB09" width="32" height="24" x="477" y="32" cocos2d_pX="20.50" cocos2d_pY="4.50" />
+    <SubTexture name="xxx-ssffilesB10" width="91" height="87" x="215" y="0" cocos2d_pX="43.50" cocos2d_pY="51.00" />
+    <SubTexture name="xxx-ssffilesB11" width="108" height="89" x="106" y="0" cocos2d_pX="54.00" cocos2d_pY="46.55" />
+    <SubTexture name="xxx-ssffilesB07" width="61" height="56" x="447" y="155" cocos2d_pX="23.60" cocos2d_pY="26.00" />
+    <SubTexture name="xxx-ssffilesB06" width="23" height="27" x="469" y="86" cocos2d_pX="8.00" cocos2d_pY="14.50" />
+    <SubTexture name="xxx-ssffilesB08" width="72" height="71" x="215" y="88" cocos2d_pX="31.75" cocos2d_pY="31.90" />
+    <SubTexture name="xxx-ssffilesB04" width="33" height="31" x="477" y="0" cocos2d_pX="22.50" cocos2d_pY="18.00" />
+    <SubTexture name="xxx-ssffilesB05" width="83" height="75" x="393" y="0" cocos2d_pX="37.90" cocos2d_pY="40.85" />
+    <SubTexture name="xxx-ssffilesB48" width="151" height="14" x="70" y="160" cocos2d_pX="68.45" cocos2d_pY="-0.55" />
+  </TextureAtlas>
+</skeleton>

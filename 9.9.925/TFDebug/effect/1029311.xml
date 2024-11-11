@@ -1,0 +1,50 @@
+<skeleton name="郭靖 新增红技能 飞弹  输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-50" y="-60.7" kX="-9.39" kY="-9.39" cX="0.67" cY="0.67" pX="-122.4" pY="9.55" z="0">
+        <d name="xxx/bftrnstr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/bftrnstr" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-92.9" y="-2.65" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0">
+        <d name="xxx-元件 45" />
+        <d name="xxx-元件 46" />
+        <d name="xxx-元件 47" />
+      </b>
+      <b name="图层 4" x="-69.15" y="-0.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-元件 43" />
+        <d name="xxx-元件 44" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/bftrnstr">
+      <mov name="cbshadfjeshd" dr="3" to="0" drTW="3" lp="1" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-92.9" y="-2.65" cocos2d_x="-92.8" cocos2d_y="-2.55" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="-0.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-95.2" y="-2.25" cocos2d_x="-95.1" cocos2d_y="-2.25" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-97.5" y="-1.95" cocos2d_x="-97.5" cocos2d_y="-1.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-69.15" y="-0.95" cocos2d_x="-69.15" cocos2d_y="-0.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-118.5" y="-6.85" cocos2d_x="-118.4" cocos2d_y="-6.85" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="1" dI="1" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gfndfjkgkfjgsdv" dr="9" to="0" drTW="9" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-50" y="-60.7" cocos2d_x="30.45" cocos2d_y="-80.55" kX="-9.39" kY="-9.39" cX="0.67" cY="0.67" fst="0" pX="-122.4" pY="9.55" z="0" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郭靖 新增红技能 飞弹  输出" width="256" height="512">
+    <SubTexture name="xxx-元件 44" width="145" height="58" x="0" y="219" cocos2d_pX="73.80" cocos2d_pY="29.70" />
+    <SubTexture name="xxx-元件 43" width="109" height="46" x="146" y="219" cocos2d_pX="55.35" cocos2d_pY="19.75" />
+    <SubTexture name="xxx-元件 47" width="158" height="69" x="0" y="80" cocos2d_pX="76.80" cocos2d_pY="29.90" />
+    <SubTexture name="xxx-元件 46" width="155" height="68" x="0" y="150" cocos2d_pX="74.80" cocos2d_pY="29.40" />
+    <SubTexture name="xxx-元件 45" width="167" height="79" x="0" y="0" cocos2d_pX="82.85" cocos2d_pY="36.75" />
+  </TextureAtlas>
+</skeleton>

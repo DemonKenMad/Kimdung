@@ -1,0 +1,87 @@
+<skeleton name="托管越南版" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="asggergerg" x="27.5" y="-10" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dfgsre-dsagrw" />
+      </b>
+      <b name="asdgdfgdegr" x="123.7" y="-9.6" kX="0" kY="0" cX="1" cY="1" pX="12.4" pY="0.4" z="1">
+        <d name="dfgsre/adsgerhtyjk" isArmature="1" />
+      </b>
+      <b name="asgfdgdfged" x="0" y="46.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="dfgsre-dsgarg" />
+      </b>
+      <b name="sdgdfgdfbgf" x="-76.5" y="-12.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="dfgsre/dasgerhrtjtyjtyk" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dfgsre/adsgerhtyjk" isLoop="loop" startFrame="1">
+      <b name="sadgregege" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dfgsre-dsgaerhgteht" />
+      </b>
+      <b name="sadgregege1" x="20.15" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dfgsre-dsgaerhgteht" />
+      </b>
+      <b name="sadgregege2" x="39.75" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dfgsre-dsgaerhgteht" />
+      </b>
+    </armature>
+    <armature name="dfgsre/dasgerhrtjtyjtyk" isLoop="loop" startFrame="14">
+      <b name="sdghrtjtyjtsg" x="0" y="0.1" kX="0" kY="0" cX="0.5" cY="0.5" pX="0" pY="0" z="0">
+        <d name="dfgsre-asdgrehtyjy" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dfgsre/adsgerhtyjk">
+      <mov name="donghua2" dr="25" to="0" drTW="25" lp="1" twE="NaN">
+        <b name="sadgregege" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="5" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="5" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="11" />
+        </b>
+        <b name="sadgregege1" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="20.15" y="0" cocos2d_x="20.15" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="5" />
+          <f x="20.15" y="0" cocos2d_x="20.15" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="11" />
+        </b>
+        <b name="sadgregege2" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="39.75" y="0" cocos2d_x="39.75" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="11" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dfgsre/dasgerhrtjtyjtyk">
+      <mov name="donghua1" dr="20" to="0" drTW="20" lp="1" twE="NaN">
+        <b name="sdghrtjtyjtsg" sc="1" dl="0">
+          <f x="0" y="0.1" cocos2d_x="0" cocos2d_y="0.1" kX="0" kY="0" cX="0.5" cY="0.5" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="0" y="-1.7" cocos2d_x="0" cocos2d_y="-1.7" kX="0" kY="0" cX="0.5" cY="0.5" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="10" />
+          <f x="0" y="2" cocos2d_x="0" cocos2d_y="2" kX="0" kY="0" cX="0.5" cY="0.5" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="0" y="0.1" cocos2d_x="0" cocos2d_y="0.1" kX="0" kY="0" cX="0.5" cY="0.5" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="donghua" dr="100" to="0" drTW="100" lp="1" twE="NaN">
+        <b name="asggergerg" sc="1" dl="0">
+          <f x="27.5" y="-10" cocos2d_x="27.5" cocos2d_y="-10" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="100" />
+        </b>
+        <b name="asdgdfgdegr" sc="1" dl="0">
+          <f x="123.7" y="-9.6" cocos2d_x="111.3" cocos2d_y="-10" kX="0" kY="0" cX="1" cY="1" fst="0" pX="12.4" pY="0.4" z="1" dI="0" dr="100" />
+        </b>
+        <b name="asgfdgdfged" sc="1" dl="0">
+          <f x="0" y="46.5" cocos2d_x="0" cocos2d_y="46.5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="100" />
+        </b>
+        <b name="sdgdfgdfbgf" sc="1" dl="0">
+          <f x="-76.5" y="-12.5" cocos2d_x="-76.5" cocos2d_y="-12.5" kX="0" kY="0" cX="1" cY="1" fst="13" pX="0" pY="0" z="3" dI="0" dr="100" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="托管越南版" width="256" height="256">
+    <SubTexture name="dfgsre-asdgrehtyjy" width="134" height="182" x="0" y="0" cocos2d_pX="67.00" cocos2d_pY="91.00" />
+    <SubTexture name="dfgsre-dsgaerhgteht" width="23" height="21" x="135" y="55" cocos2d_pX="12.00" cocos2d_pY="10.50" />
+    <SubTexture name="dfgsre-dsgarg" width="150" height="30" x="0" y="183" cocos2d_pX="76.75" cocos2d_pY="16.55" />
+    <SubTexture name="dfgsre-dsagrw" width="108" height="54" x="135" y="0" cocos2d_pX="50.80" cocos2d_pY="22.50" />
+  </TextureAtlas>
+</skeleton>

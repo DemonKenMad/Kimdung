@@ -1,0 +1,181 @@
+<skeleton name="穆人清主动技能颜色   所有角色顶层" frameRate="21" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fgdfaf" x="398.6" y="13.75" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" pX="1710.2" pY="621.45" z="0">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasfsa" x="389.95" y="-264.75" kX="34.14" kY="34.14" cX="0.9" cY="1.03" pX="1710.25" pY="621.5" z="1">
+        <d name="xxx/sdgh03" isArmature="1" />
+        <d name="xxx-sdgh15" />
+      </b>
+      <b name="fasfs" x="620.25" y="25.7" kX="59.88" kY="59.88" cX="0.9" cY="0.64" pX="1710.3" pY="621.65" z="2">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasfa" x="730.25" y="-190.9" kX="-29.84" kY="-29.84" cX="1.08" cY="0.67" pX="1710.25" pY="621.45" z="3">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fsafs" x="367.8" y="-256.8" kX="-152.61" kY="-152.61" cX="0.92" cY="0.41" pX="1710.15" pY="621.5" z="4">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasfas" x="508.2" y="-130.5" kX="75.85" kY="75.85" cX="0.92" cY="0.52" pX="1710.15" pY="621.45" z="6">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasf" x="440.05" y="7.85" kX="13.47" kY="13.47" cX="1.1" cY="0.82" pX="1710.05" pY="621.35" z="7">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fsafsa" x="618.5" y="241.95" kX="129.51" kY="129.51" cX="0.92" cY="0.75" pX="1710.15" pY="621.2" z="8">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasfas0" x="606.45" y="-48.4" kX="103.82" kY="103.82" cX="0.92" cY="0.51" pX="1710.15" pY="621.15" z="9">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasf0" x="510.3" y="-190.5" kX="38.32" kY="38.32" cX="0.92" cY="0.8" pX="1710.15" pY="621.15" z="10">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fasfsa0" x="577.35" y="-272.55" kX="24" kY="24" cX="1.06" cY="0.85" pX="1710.1" pY="620.95" z="12">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+      <b name="fsafasf" x="379.8" y="-112.65" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="15">
+        <d name="xxx-sdgh15" />
+      </b>
+      <b name="fgasdfafas" x="638.2" y="-90" kX="0" kY="0" cX="7.17" cY="4.25" pX="0" pY="0" z="16">
+        <d name="xxx-sdgh17" />
+        <d name="xxx-sdgh19" />
+        <d name="xxx-sdgh21" />
+        <d name="xxx-sdgh23" />
+      </b>
+    </armature>
+    <armature name="xxx/sdgh03" isLoop="single frame" startFrame="1">
+      <b name="fasfsaf" x="1013.5" y="620.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sdgh05" />
+        <d name="xxx-sdgh07" />
+        <d name="xxx-sdgh09" />
+        <d name="xxx-sdgh11" />
+        <d name="xxx-sdgh13" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdgh03">
+      <mov name="fsdgdsgsdfgsdgsdgsdgsdgsdgv" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="fasfsaf" sc="1" dl="0">
+          <f x="1013.5" y="620.35" cocos2d_x="1013.5" cocos2d_y="620.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="1615" y="618.9" cocos2d_x="1615" cocos2d_y="618.9" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="1" blend="hardLight" dr="1" twE="NaN" />
+          <f x="1615" y="618.9" cocos2d_x="1615" cocos2d_y="618.9" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="1635" y="619.4" cocos2d_x="1635" cocos2d_y="619.4" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="1636.15" y="619.35" cocos2d_x="1636.15" cocos2d_y="619.35" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="1644.5" y="620.65" cocos2d_x="1644.5" cocos2d_y="620.65" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="93" to="0" drTW="93" lp="0" twE="NaN">
+        <b name="fgdfaf" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="0" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="0" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="1" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="1" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="1" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="3" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="4" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="398.6" y="13.75" cocos2d_x="-1266.25" cocos2d_y="79.7" kX="-24.76" kY="-24.76" cX="0.9" cY="1.03" fst="5" pX="1710.2" pY="621.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="57" dI="-1" />
+        </b>
+        <b name="fasfsa" sc="1" dl="0">
+          <f dr="28" dI="-1" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="0" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="0" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="1" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="1" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="1" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="3" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="4" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="389.95" y="-264.75" cocos2d_x="-526.45" cocos2d_y="-1656.3" kX="34.14" kY="34.14" cX="0.9" cY="1.03" fst="5" pX="1710.25" pY="621.5" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+          <f x="267.75" y="-126.6" cocos2d_x="1872.7" cocos2d_y="-341.25" kX="158.19" kY="158.19" cX="0.92" cY="0.64" fst="0" pX="1710.1" pY="621.4" z="5" dI="0" dr="7" />
+          <f dr="2" dI="-1" />
+          <f x="622.45" y="-88.4" cocos2d_x="2254.55" cocos2d_y="-225.15" kX="158.63" kY="158.62" cX="0.92" cY="0.75" fst="0" pX="1710.15" pY="621.15" z="11" dI="0" dr="7" />
+          <f dr="2" dI="-1" />
+          <f x="379.8" y="-112.65" cocos2d_x="379.8" cocos2d_y="-112.65" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="14" dI="1" dr="2" />
+          <f dr="16" dI="-1" />
+          <f x="379.8" y="-112.65" cocos2d_x="379.8" cocos2d_y="-112.65" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="14" dI="1" dr="2" />
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="fasfs" sc="1" dl="0">
+          <f dr="32" dI="-1" />
+          <f x="620.25" y="25.7" cocos2d_x="194.45" cocos2d_y="-1507.1" kX="59.88" kY="59.88" cX="0.9" cY="0.64" fst="0" pX="1710.3" pY="621.65" z="2" dI="0" dr="7" />
+          <f dr="54" dI="-1" />
+        </b>
+        <b name="fasfa" sc="1" dl="0">
+          <f dr="35" dI="-1" />
+          <f x="730.25" y="-190.9" cocos2d_x="-1073.1" cocos2d_y="366.25" kX="-29.84" kY="-29.84" cX="1.08" cY="0.67" fst="0" pX="1710.25" pY="621.45" z="3" dI="0" dr="7" />
+          <f dr="51" dI="-1" />
+        </b>
+        <b name="fsafs" sc="1" dl="0">
+          <f dr="37" dI="-1" />
+          <f x="367.8" y="-256.8" cocos2d_x="1645.85" cocos2d_y="689" kX="-152.61" kY="-152.61" cX="0.92" cY="0.41" fst="0" pX="1710.15" pY="621.5" z="4" dI="0" dr="7" />
+          <f dr="49" dI="-1" />
+        </b>
+        <b name="fasfas" sc="1" dl="0">
+          <f dr="39" dI="-1" />
+          <f x="508.2" y="-130.5" cocos2d_x="439.85" cocos2d_y="-1732.25" kX="75.85" kY="75.85" cX="0.92" cY="0.52" fst="0" pX="1710.15" pY="621.45" z="6" dI="0" dr="7" />
+          <f dr="3" dI="-1" />
+          <f x="557.35" y="-40.55" cocos2d_x="2327.7" cocos2d_y="-2535.85" kX="89.68" kY="89.68" cX="1.45" cY="2.87" fst="0" pX="1710" pY="620.85" z="13" dI="0" dr="7" />
+          <f dr="37" dI="-1" />
+        </b>
+        <b name="fasf" sc="1" dl="0">
+          <f dr="42" dI="-1" />
+          <f x="440.05" y="7.85" cocos2d_x="-1274.05" cocos2d_y="-926.55" kX="13.47" kY="13.47" cX="1.1" cY="0.82" fst="0" pX="1710.05" pY="621.35" z="7" dI="0" dr="7" />
+          <f dr="44" dI="-1" />
+        </b>
+        <b name="fsafsa" sc="1" dl="0">
+          <f dr="42" dI="-1" />
+          <f x="618.5" y="241.95" cocos2d_x="1977.95" cocos2d_y="-671.7" kX="129.51" kY="129.51" cX="0.92" cY="0.75" fst="0" pX="1710.15" pY="621.2" z="8" dI="0" dr="7" />
+          <f dr="44" dI="-1" />
+        </b>
+        <b name="fasfas0" sc="1" dl="0">
+          <f dr="44" dI="-1" />
+          <f x="606.45" y="-48.4" cocos2d_x="1291.6" cocos2d_y="-1496.4" kX="103.82" kY="103.82" cX="0.92" cY="0.51" fst="0" pX="1710.15" pY="621.15" z="9" dI="0" dr="7" />
+          <f dr="42" dI="-1" />
+        </b>
+        <b name="fasf0" sc="1" dl="0">
+          <f dr="46" dI="-1" />
+          <f x="510.3" y="-190.5" cocos2d_x="-413.15" cocos2d_y="-1553.6" kX="38.32" kY="38.32" cX="0.92" cY="0.8" fst="0" pX="1710.15" pY="621.15" z="10" dI="0" dr="7" />
+          <f dr="40" dI="-1" />
+        </b>
+        <b name="fasfsa0" sc="1" dl="0">
+          <f dr="50" dI="-1" />
+          <f x="577.35" y="-272.55" cocos2d_x="-866.9" cocos2d_y="-1489.85" kX="24" kY="24" cX="1.06" cY="0.85" fst="0" pX="1710.1" pY="620.95" z="12" dI="0" dr="7" />
+          <f dr="36" dI="-1" />
+        </b>
+        <b name="fsafasf" sc="1" dl="0">
+          <f dr="70" dI="-1" />
+          <f x="379.8" y="-112.65" cocos2d_x="379.8" cocos2d_y="-112.65" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="15" dI="0" dr="1" twE="NaN" />
+          <f dr="22" dI="-1" />
+        </b>
+        <b name="fgasdfafas" sc="1" dl="0">
+          <f dr="71" dI="-1" />
+          <f x="638.2" y="-90" cocos2d_x="638.2" cocos2d_y="-90" kX="0" kY="0" cX="7.17" cY="4.25" fst="0" pX="0" pY="0" z="16" dI="0" dr="1" twE="NaN" />
+          <f x="642.15" y="-90" cocos2d_x="642.15" cocos2d_y="-90" kX="0" kY="0" cX="8.32" cY="4.25" fst="0" pX="0" pY="0" z="16" dI="1" dr="1" twE="NaN" />
+          <f x="629.55" y="-90" cocos2d_x="629.55" cocos2d_y="-90" kX="0" kY="0" cX="11.96" cY="4.25" fst="0" pX="0" pY="0" z="16" dI="2" dr="1" twE="NaN" />
+          <f x="366" y="-90" cocos2d_x="366" cocos2d_y="-90" kX="0" kY="0" cX="6.47" cY="6.86" pX="0" pY="0" z="16" dI="3" dr="1" twE="NaN" />
+          <f dr="18" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="穆人清主动技能颜色   所有角色顶层" width="1024" height="512">
+    <SubTexture name="xxx-sdgh13" width="725" height="13" x="0" y="149" cocos2d_pX="363.10" cocos2d_pY="6.60" />
+    <SubTexture name="xxx-sdgh11" width="726" height="25" x="0" y="123" cocos2d_pX="363.00" cocos2d_pY="12.55" />
+    <SubTexture name="xxx-sdgh09" width="728" height="38" x="0" y="84" cocos2d_pX="364.00" cocos2d_pY="19.10" />
+    <SubTexture name="xxx-sdgh07" width="728" height="52" x="0" y="31" cocos2d_pX="364.00" cocos2d_pY="25.95" />
+    <SubTexture name="xxx-sdgh05" width="777" height="30" x="0" y="0" cocos2d_pX="388.75" cocos2d_pY="14.65" />
+    <SubTexture name="xxx-sdgh23" width="291" height="164" x="0" y="163" cocos2d_pX="145.40" cocos2d_pY="81.90" />
+    <SubTexture name="xxx-sdgh21" width="51" height="256" x="902" y="0" cocos2d_pX="24.75" cocos2d_pY="128.00" />
+    <SubTexture name="xxx-sdgh19" width="64" height="256" x="778" y="0" cocos2d_pX="31.60" cocos2d_pY="128.00" />
+    <SubTexture name="xxx-sdgh17" width="58" height="256" x="843" y="0" cocos2d_pX="28.00" cocos2d_pY="128.00" />
+    <SubTexture name="xxx-sdgh15" width="18" height="11" x="954" y="0" cocos2d_pX="9.05" cocos2d_pY="5.20" />
+  </TextureAtlas>
+</skeleton>

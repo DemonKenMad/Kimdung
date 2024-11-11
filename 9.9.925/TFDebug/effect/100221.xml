@@ -1,0 +1,46 @@
+<skeleton name="段正淳普攻特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="Layer 5" x="134.4" y="-97.15" kX="0" kY="0" cX="1.22" cY="1" pX="53.8" pY="1.5" z="0">
+        <d name="sadsa-BO"/>
+      </b>
+      <b name="图层 3" x="93.25" y="-98.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0.5" z="1">
+        <d name="sadsa-PG"/>
+      </b>
+      <b name="图层 6" x="93.25" y="-98.65" kX="0" kY="0" cX="1" cY="1.22" pX="0" pY="0.5" z="2">
+        <d name="sadsa-PG"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsadsa" dr="24" to="0" drTW="24" lp="0" twE="NaN">
+        <b name="Layer 5" sc="1" dl="0">
+          <f dr="8" dI="-1"/>
+          <f x="134.4" y="-97.15" cocos2d_x="68.9" cocos2d_y="-98.65" kX="0" kY="0" cX="1.22" cY="1" pX="53.8" pY="1.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="30.3" y="-98.15" cocos2d_x="32.05" cocos2d_y="-98.65" kX="0" kY="0" cX="1.77" cY="1" pX="-1" pY="0.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f x="14.4" y="-98.15" cocos2d_x="16.25" cocos2d_y="-98.65" kX="0" kY="0" cX="1.97" cY="1" pX="-0.95" pY="0.5" z="0" dI="0" dr="1" twE="NaN"/>
+          <f dr="13" dI="-1"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="93.25" y="-98.65" cocos2d_x="93.25" cocos2d_y="-99.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0.5" z="1" dI="0" dr="1" twE="NaN"/>
+          <f x="170.25" y="-98.65" cocos2d_x="170.25" cocos2d_y="-99.2" kX="0" kY="0" cX="0.93" cY="1.06" pX="0" pY="0.55" z="1" dI="0" dr="1" twE="NaN"/>
+          <f x="231.25" y="-98.65" cocos2d_x="231.25" cocos2d_y="-98.8" kX="0" kY="0" cX="1.05" cY="0.32" pX="0" pY="0.5" z="1" dI="0" dr="1" twE="NaN"/>
+          <f x="259.25" y="-98.6" cocos2d_x="259.25" cocos2d_y="-98.7" kX="0" kY="0" cX="0.85" cY="0.15" pX="0" pY="0.7" z="1" dI="0" blend="add" dr="1" twE="NaN"/>
+          <f dr="13" dI="-1"/>
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="93.25" y="-98.65" cocos2d_x="93.25" cocos2d_y="-99.25" kX="0" kY="0" cX="1" cY="1.22" pX="0" pY="0.5" z="2" dI="0" blend="add" dr="2"/>
+          <f x="154.25" y="-98.65" cocos2d_x="154.25" cocos2d_y="-98.9" kX="0" kY="0" cX="1.39" cY="0.51" pX="0" pY="0.5" z="2" dI="0" blend="add" dr="1" twE="NaN"/>
+          <f dr="14" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="段正淳普攻特效" width="512" height="128">
+    <SubTexture name="sadsa-PG" width="320" height="73" x="0" y="0" cocos2d_pX="160" cocos2d_pY="36"/>
+    <SubTexture name="sadsa-BO" width="179" height="122" x="322" y="0" cocos2d_pX="90.5" cocos2d_pY="60.5"/>
+  </TextureAtlas>
+</skeleton>

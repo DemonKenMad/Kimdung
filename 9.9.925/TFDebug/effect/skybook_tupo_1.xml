@@ -1,0 +1,80 @@
+<skeleton name="突破星星变色" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-0.35" y="0.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/补间 1" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/补间 1" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="0.65" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-补间 3" />
+      </b>
+      <b name="图层 3" x="1.5" y="-0.25" kX="0" kY="0" cX="0.5" cY="0.5" pX="0" pY="0" z="1">
+        <d name="xxx/元件 7" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/元件 7" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-5.3" y="3.8" kX="0" kY="0" cX="1.15" cY="1.15" pX="0" pY="0" z="0">
+        <d name="xxx-补间 6" />
+        <d name="xxx-补间 7" />
+      </b>
+      <b name="图层 2" x="-6.95" y="-2.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="1">
+        <d name="xxx-元件 14" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/元件 7">
+      <mov name="sfdaasdfasdf" dr="900" to="0" drTW="900" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-5.3" y="3.8" cocos2d_x="-5.3" cocos2d_y="3.8" kX="0" kY="0" cX="1.15" cY="1.15" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" />
+          <f x="-5.3" y="3.8" cocos2d_x="-5.3" cocos2d_y="3.8" kX="0" kY="0" cX="1.27" cY="1.27" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="6" />
+          <f x="-5.3" y="3.8" cocos2d_x="-5.3" cocos2d_y="3.8" kX="0" kY="0" cX="1.96" cY="1.96" fst="0" pX="0" pY="0" z="0" dI="1" twE="0" dr="19" />
+          <f x="-5.3" y="3.8" cocos2d_x="-5.3" cocos2d_y="3.8" kX="0" kY="0" cX="0.6" cY="0.6" fst="0" pX="0" pY="0" z="0" dI="1" dr="874">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-6.95" y="-2.5" cocos2d_x="-6.95" cocos2d_y="-2.5" kX="0" kY="0" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-6.95" y="-2.5" cocos2d_x="-6.95" cocos2d_y="-2.5" kX="0" kY="0" cX="0.62" cY="0.62" fst="0" pX="0" pY="0" z="1" dI="0" dr="5" />
+          <f x="-6.95" y="-2.5" cocos2d_x="-6.95" cocos2d_y="-2.5" kX="0" kY="0" cX="0.62" cY="0.62" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="7" />
+          <f x="-6.95" y="-2.5" cocos2d_x="-6.95" cocos2d_y="-2.5" kX="0" kY="0" cX="0.62" cY="0.62" fst="0" pX="0" pY="0" z="1" dI="0" dr="883">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/补间 1">
+      <mov name="fdsaasdgasgd" dr="647" to="0" drTW="647" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="0.65" y="0" cocos2d_x="0.65" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.65" y="0" cocos2d_x="0.65" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="636" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="1.5" y="-0.25" cocos2d_x="1.5" cocos2d_y="-0.25" kX="0" kY="0" cX="0.5" cY="0.5" fst="0" pX="0" pY="0" z="1" dI="0" dr="647" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdasfasdfa" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-0.35" y="0.05" cocos2d_x="-0.35" cocos2d_y="0.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.6" y="-0.05" cocos2d_x="0.6" cocos2d_y="-0.05" kX="0" kY="0" cX="1" cY="1" fst="6" pX="0" pY="0" z="0" dI="0" dr="22" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="突破星星变色" width="512" height="512">
+    <SubTexture name="xxx-元件 14" width="177" height="174" x="260" y="0" cocos2d_pX="75.90" cocos2d_pY="80.20" />
+    <SubTexture name="xxx-补间 7" width="259" height="212" x="0" y="213" cocos2d_pX="129.30" cocos2d_pY="112.30" />
+    <SubTexture name="xxx-补间 6" width="259" height="212" x="0" y="0" cocos2d_pX="129.30" cocos2d_pY="112.30" />
+    <SubTexture name="xxx-补间 3" width="42" height="37" x="438" y="0" cocos2d_pX="22.15" cocos2d_pY="18.85" />
+  </TextureAtlas>
+</skeleton>

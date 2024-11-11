@@ -1,0 +1,37 @@
+<skeleton name="神技能所有角色底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-25.3" y="1.05" kX="0" kY="0" cX="10" cY="10" pX="0" pY="0" z="0">
+        <d name="xxx-元件 127" />
+      </b>
+      <b name="图层 1" x="-8.8" y="1.85" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-sadgfasdgasdhgadfh" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="fgfdfdgafdsaf" dr="86" to="0" drTW="86" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-25.3" y="1.05" cocos2d_x="-25.3" cocos2d_y="1.05" kX="0" kY="0" cX="10" cY="10" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-6.3" y="1.05" cocos2d_x="-6.3" cocos2d_y="1.05" kX="0" kY="0" cX="10" cY="10" fst="0" pX="0" pY="0" z="0" dI="0" dr="41">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.72" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="40" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="39" dI="-1" />
+          <f x="-8.8" y="1.85" cocos2d_x="-8.8" cocos2d_y="1.85" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" dr="37" />
+          <f dr="10" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神技能所有角色底层" width="1024" height="512">
+    <SubTexture name="xxx-sadgfasdgasdhgadfh" width="690" height="389" x="0" y="0" cocos2d_pX="346.00" cocos2d_pY="195.25" />
+    <SubTexture name="xxx-元件 127" width="132" height="76" x="691" y="0" cocos2d_pX="65.60" cocos2d_pY="37.95" />
+  </TextureAtlas>
+</skeleton>

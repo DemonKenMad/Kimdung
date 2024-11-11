@@ -1,0 +1,105 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CWoodManMsg";
+
+// code = 0x6306
+//木人桩配置信息
+message WoodManRewardConfigResult
+{
+	required string consumeSycee = 1;			//消耗元宝数量 10|100|300
+	required string consumeGoods = 2;			//代替元宝的消耗道具id xxx|xxx|xxx
+	required string boxCount = 3;				//距离可以循环领取的宝箱   5|20|50|100|200
+	repeated WoodManRewardConfig configList = 4;   //奖励配置列表
+	repeated WoodManBoxRewardConfig boxRewardList = 5;	//额外宝箱奖励
+	repeated WoodManSpecialRewardConfig specialRewardList = 6;   //特殊奖励配置列表
+}
+
+message WoodManRewardConfig
+{	
+	required int32 resType = 1;			//奖励资源类型
+	required int32 resId = 2;			//奖励资源ID
+	required int32 number = 3;			//奖励资源个数
+}
+
+message WoodManBoxRewardConfig
+{	
+	required int32 count = 1;				//对应距离
+ 	repeated WoodManRewardConfig boxReward = 2;  //奖励
+}
+
+message WoodManSpecialRewardConfig
+{
+	required int32 length = 1;				//特殊宝箱位置距离
+	required int32 index = 2;				//奖励标识id  用于玩家选择同一距离的奖励
+ 	repeated WoodManRewardConfig specialReward = 3;  //奖励
+}
+
+// code = 0x6307
+//木人桩玩家进度信息
+message WoodManOwnProgressResult
+{
+	required int32 zongjuli = 1;			//玩家当前距离
+	required int32 isFirstFree = 2;			//玩家是否免费
+	required int32 boxIndex = 3;				//开启到哪个宝箱
+	required int32 round = 4;					//当前宝箱轮次
+	required int64 actTime = 5;					//剩余时间
+	required int32 historyBest = 6;				//历史最佳
+	required int32 specialLength = 7;			//特殊宝箱领取距离
+}
+
+// code = 0x6308
+//木人桩结果
+message WoodManResult
+{	
+	required int32 juli = 1;		//玩家本次前进的距离
+	required int32 boxNum = 2;		//撞了多少宝箱
+	repeated WoodManRewardConfig rewardList = 3;  //奖励列表
+}
+
+// code = 0x6309
+//木人桩历史
+message WoodManHistoryResult
+{
+	required int32 type = 1;						//1个人历史2玩家历史
+	repeated WoodManHistory HistoryList = 2;   //历史列表
+}
+
+message WoodManHistory
+{	
+	required int32 playerId = 1;			//玩家ID
+	required string playerName = 2;			//玩家名
+	repeated WoodManRewardConfig rewardList = 3;	//奖励资源
+	required int64 createTime = 4;			//记录时间
+}
+
+// code = 0x6310
+//木人桩额外宝箱奖励
+message WoodManExtraReward
+{
+	required int32 success = 1;				//1yes 2no
+	required int32 boxIndex = 2;			//开启到哪个宝箱
+	required int32 round = 3;				//当前宝箱轮次
+}
+
+//code = 0x6311
+//刷新排行结果
+message FreshWoodManRankResult
+{
+	required WoodManRankInfo own = 1;			//玩家自己
+	repeated WoodManRankInfo list = 2;			//排行
+}
+
+message WoodManRankInfo
+{
+	required int32 rank = 1;				//排行
+	required string name = 2;				//玩家名
+	required int32 score = 3;				//积分
+	optional string serverName = 4;			//服务器名称
+}
+
+//code = 0x6312
+//新增需求  领取特殊宝箱结果  并通知一个进度信息
+message WoodManSpecialRewardResult
+{
+	required int32 success = 1;				//1yes 2no
+}

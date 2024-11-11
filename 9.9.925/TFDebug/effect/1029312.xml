@@ -1,0 +1,57 @@
+<skeleton name="郭靖 新增红技能  受击 输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="元件 15" x="0.75" y="-82.2" kX="0.3" kY="-179.7" cX="1.33" cY="1.36" pX="-7.6" pY="-0.7" z="0">
+        <d name="xxx/stjiefilesB18" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/stjiefilesB18" isLoop="play once" startFrame="1">
+      <b name="图层 2" x="-2.75" y="1.7" kX="0" kY="0" cX="0.58" cY="1.2" pX="-32.15" pY="0.55" z="0">
+        <d name="xxx-stjiefilesB19" />
+        <d name="xxx-stjiefilesB24" />
+        <d name="xxx-stjiefilesB25" />
+      </b>
+      <b name="图层 4" x="-1.35" y="4.3" kX="0" kY="0" cX="2" cY="2" pX="-31.45" pY="1.85" z="1">
+        <d name="xxx-stjiefilesB23" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/stjiefilesB18">
+      <mov name="gfjdiogtiherg" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-2.75" y="1.7" cocos2d_x="15.9" cocos2d_y="1" kX="0" kY="0" cX="0.58" cY="1.2" pX="-32.15" pY="0.55" z="0" dI="0" blend="hardLight" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="61.55" y="0.6" cocos2d_x="61.55" cocos2d_y="0.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" blend="hardLight" dr="2" />
+          <f x="61.55" y="0.6" cocos2d_x="61.55" cocos2d_y="0.6" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" blend="hardLight" dr="2" />
+          <f x="0.15" y="0.3" cocos2d_x="61.55" cocos2d_y="0.6" kX="0" kY="0" cX="2" cY="2" pX="-30.7" pY="-0.15" z="0" dI="2" blend="hardLight" twE="0" dr="4" />
+          <f x="0.15" y="0.3" cocos2d_x="63.55" cocos2d_y="0.6" kX="0" kY="0" cX="2.06" cY="2.03" pX="-30.75" pY="-0.15" z="0" dI="2" blend="hardLight" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-1.35" y="4.3" cocos2d_x="61.55" cocos2d_y="0.6" kX="0" kY="0" cX="2" cY="2" pX="-31.45" pY="1.85" z="1" dI="0" blend="hardLight" twE="0" dr="2" />
+          <f x="-1.4" y="4.3" cocos2d_x="64.35" cocos2d_y="0.6" kX="0" kY="0" cX="2.09" cY="2" pX="-31.45" pY="1.85" z="1" dI="0" blend="hardLight" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gfndfjkgkfjgsdv" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="元件 15" sc="1" dl="0">
+          <f x="0.75" y="-82.2" cocos2d_x="-9.35" cocos2d_y="-81.35" kX="0.3" kY="-179.7" cX="1.33" cY="1.36" fst="0" pX="-7.6" pY="-0.7" z="0" dI="0" dr="14" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郭靖 新增红技能  受击 输出" width="256" height="256">
+    <SubTexture name="xxx-stjiefilesB23" width="101" height="110" x="0" y="0" cocos2d_pX="48.75" cocos2d_pY="55.75" />
+    <SubTexture name="xxx-stjiefilesB25" width="96" height="82" x="102" y="0" cocos2d_pX="50.75" cocos2d_pY="41.75" />
+    <SubTexture name="xxx-stjiefilesB24" width="94" height="78" x="102" y="83" cocos2d_pX="49.75" cocos2d_pY="39.75" />
+    <SubTexture name="xxx-stjiefilesB19" width="71" height="61" x="0" y="111" cocos2d_pX="55.75" cocos2d_pY="31.75" />
+  </TextureAtlas>
+</skeleton>

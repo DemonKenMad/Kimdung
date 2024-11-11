@@ -1,0 +1,66 @@
+<skeleton name="阿紫技能受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="73.15" y="-74.95" kX="0" kY="0" cX="0.75" cY="0.75" pX="81" pY="-2.5" z="0">
+        <d name="sucai/shouji2" isArmature="1" />
+      </b>
+      <b name="图层 5 复制" x="40.6" y="-138.85" kX="0" kY="0" cX="0.8" cY="0.8" pX="81" pY="-2.5" z="1">
+        <d name="sucai/shouji2" isArmature="1" />
+      </b>
+      <b name="图层 5  复制 2" x="138.35" y="-113.7" kX="0" kY="0" cX="1.2" cY="1.2" pX="81" pY="-2.4" z="2">
+        <d name="sucai/shouji2" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="sucai/shouji2">
+      <b name="图层 2" x="-21" y="-16.5" kX="0" kY="0" cX="1" cY="1" pX="95" pY="72.5" z="0">
+        <d name="sucai-sucai2/sr_00.png" />
+        <d name="sucai-sucai2/sr_01.png" />
+        <d name="sucai-sucai2/sr_02.png" />
+        <d name="sucai-sucai2/sr_03.png" />
+        <d name="sucai-sucai2/sr_04.png" />
+        <d name="sucai-sucai2/sr_05.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sucai/shouji2">
+      <mov name="sd" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-21" y="-16.5" cocos2d_x="-116" cocos2d_y="-89" kX="0" kY="0" cX="1" cY="1" pX="95" pY="72.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-4.35" y="-12.5" cocos2d_x="-99.35" cocos2d_y="-105" kX="0" kY="0" cX="1" cY="1" pX="95" pY="92.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-21" y="-8.5" cocos2d_x="-116" cocos2d_y="-89" kX="0" kY="0" cX="1" cY="1" pX="95" pY="80.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-21" y="-8.5" cocos2d_x="-116" cocos2d_y="-89" kX="0" kY="0" cX="1" cY="1" pX="95" pY="80.5" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-21" y="-8.5" cocos2d_x="-116" cocos2d_y="-89" kX="0" kY="0" cX="1" cY="1" pX="95" pY="80.5" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-21" y="-8.5" cocos2d_x="-116" cocos2d_y="-89" kX="0" kY="0" cX="1" cY="1" pX="95" pY="80.5" z="0" dI="5" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sssqq" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="73.15" y="-74.95" cocos2d_x="12.4" cocos2d_y="-73.1" kX="0" kY="0" cX="0.75" cY="0.75" pX="81" pY="-2.5" z="0" dI="0" blend="normal" dr="6" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 5 复制" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="40.6" y="-138.85" cocos2d_x="-24.2" cocos2d_y="-136.85" kX="0" kY="0" cX="0.8" cY="0.8" pX="81" pY="-2.5" z="1" dI="0" blend="normal" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5  复制 2" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="138.35" y="-113.7" cocos2d_x="41.15" cocos2d_y="-110.8" kX="0" kY="0" cX="1.2" cY="1.2" pX="81" pY="-2.4" z="2" dI="0" blend="normal" dr="6" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阿紫技能受击" width="512" height="512">
+    <SubTexture name="sucai-sucai2/sr_05.png" width="151" height="144" x="356" y="146" cocos2d_pX="-36.00" cocos2d_pY="-6.00" />
+    <SubTexture name="sucai-sucai2/sr_04.png" width="167" height="155" x="0" y="186" cocos2d_pX="-23.00" cocos2d_pY="-1.00" />
+    <SubTexture name="sucai-sucai2/sr_03.png" width="164" height="160" x="191" y="146" cocos2d_pX="-26.00" cocos2d_pY="0.00" />
+    <SubTexture name="sucai-sucai2/sr_02.png" width="162" height="160" x="168" y="307" cocos2d_pX="-28.00" cocos2d_pY="0.00" />
+    <SubTexture name="sucai-sucai2/sr_01.png" width="190" height="185" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sucai-sucai2/sr_00.png" width="190" height="145" x="191" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

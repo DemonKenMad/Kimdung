@@ -1,0 +1,67 @@
+<skeleton name="风清扬主技能颜色底部输出(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 15" x="-0.05" y="0.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/strjfilesB91" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB91" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="-21.8" y="-8.35" kX="93.53" kY="93.53" cX="1" cY="1" pX="186.05" pY="194.05" z="0">
+        <d name="xxx/strjfilesB102" isArmature="1" />
+      </b>
+      <b name="图层 23 复制" x="14.45" y="-9.85" kX="-93.53" kY="86.47" cX="1" cY="1" pX="186.05" pY="194.05" z="1">
+        <d name="xxx/strjfilesB102" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/strjfilesB102" isLoop="loop" startFrame="1">
+      <b name="图层 11" x="47.75" y="48.65" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-strjfilesB134" />
+        <d name="xxx-strjfilesB135" />
+        <d name="xxx-strjfilesB136" />
+        <d name="xxx-strjfilesB137" />
+        <d name="xxx-strjfilesB138" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/strjfilesB102">
+      <mov name="gfasfgd" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f x="47.75" y="48.65" cocos2d_x="47.75" cocos2d_y="48.65" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="14.4" y="43.7" cocos2d_x="14.4" cocos2d_y="43.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-10.45" y="25.25" cocos2d_x="-10.35" cocos2d_y="25.25" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-41.3" y="21.05" cocos2d_x="-41.3" cocos2d_y="21.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-58.65" y="32.1" cocos2d_x="-58.55" cocos2d_y="32.1" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/strjfilesB91">
+      <mov name="trryrtyryryr" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-21.8" y="-8.35" cocos2d_x="183.35" cocos2d_y="-182.1" kX="93.53" kY="93.53" cX="1" cY="1" fst="0" pX="186.05" pY="194.05" z="0" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 23 复制" sc="1" dl="0">
+          <f x="14.45" y="-9.85" cocos2d_x="-190.7" cocos2d_y="-183.6" kX="-93.53" kY="86.47" cX="1" cY="1" fst="0" pX="186.05" pY="194.05" z="1" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdghdgs" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 15" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-0.05" y="0.15" cocos2d_x="-0.05" cocos2d_y="0.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="风清扬主技能颜色底部输出(2)" width="512" height="512">
+    <SubTexture name="xxx-strjfilesB138" width="137" height="119" x="317" y="153" cocos2d_pX="69.95" cocos2d_pY="68.10" />
+    <SubTexture name="xxx-strjfilesB137" width="154" height="144" x="0" y="151" cocos2d_pX="80.55" cocos2d_pY="77.75" />
+    <SubTexture name="xxx-strjfilesB136" width="163" height="150" x="0" y="0" cocos2d_pX="85.55" cocos2d_pY="80.20" />
+    <SubTexture name="xxx-strjfilesB135" width="154" height="152" x="317" y="0" cocos2d_pX="78.75" cocos2d_pY="81.85" />
+    <SubTexture name="xxx-strjfilesB134" width="152" height="155" x="164" y="0" cocos2d_pX="77.25" cocos2d_pY="81.90" />
+  </TextureAtlas>
+</skeleton>

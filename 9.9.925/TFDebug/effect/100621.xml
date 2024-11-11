@@ -1,0 +1,94 @@
+<skeleton name="少林高僧 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-71.55" y="-80.3" kX="0" kY="0" cX="2" cY="2" pX="-71.55" pY="-80.3" z="0">
+        <d name="slgs/dxgjmkk" isArmature="1" />
+        <d name="slgs/fgkfll" isArmature="1" />
+      </b>
+      <b name="图层 5" x="129" y="-75.75" kX="-2.29" kY="-2.29" cX="1.53" cY="1.53" pX="203.5" pY="142.5" z="1">
+        <d name="slgs/fdhdgkh" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="slgs/dxgjmkk" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-73.55" y="-81.85" kX="0" kY="0" cX="1" cY="1" pX="22.5" pY="30" z="0">
+        <d name="slgs-dhhj" />
+        <d name="slgs-sdfjhj" />
+        <d name="slgs-dfgfde" />
+      </b>
+    </armature>
+    <armature name="slgs/fgkfll" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="46.7" y="-47.95" kX="0" kY="0" cX="1" cY="1" pX="67" pY="44" z="0">
+        <d name="slgs-sfhhf" />
+        <d name="slgs-sdfhj" />
+        <d name="slgs-dfhh" />
+      </b>
+    </armature>
+    <armature name="slgs/fdhdgkh" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="207.8" y="141.8" kX="0" kY="0" cX="1" cY="1" pX="76" pY="70" z="0">
+        <d name="slgs-fjhjkj" />
+        <d name="slgs-1.png" />
+        <d name="slgs-3.png" />
+        <d name="slgs-4.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="slgs/dxgjmkk">
+      <mov name="unnamed" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-73.55" y="-81.85" cocos2d_x="-96.05" cocos2d_y="-111.85" kX="0" kY="0" cX="1" cY="1" pX="22.5" pY="30" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-71.5" y="-84.2" cocos2d_x="-94" cocos2d_y="-111.7" kX="0" kY="0" cX="1" cY="1" pX="22.5" pY="27.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-70.55" y="-95.2" cocos2d_x="-92.05" cocos2d_y="-110.2" kX="0" kY="0" cX="1" cY="1" pX="21.5" pY="15" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="slgs/fgkfll">
+      <mov name="unnamed" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="46.7" y="-47.95" cocos2d_x="-20.3" cocos2d_y="-91.95" kX="0" kY="0" cX="1" cY="1" pX="67" pY="44" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="49.05" y="-46.8" cocos2d_x="-18.45" cocos2d_y="-91.8" kX="0" kY="0" cX="1" cY="1" pX="67.5" pY="45" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="50.4" y="-50.55" cocos2d_x="-11.6" cocos2d_y="-88.05" kX="0" kY="0" cX="1" cY="1" pX="62" pY="37.5" z="0" dI="2" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="slgs/fdhdgkh">
+      <mov name="1" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="207.8" y="141.8" cocos2d_x="131.8" cocos2d_y="71.8" kX="0" kY="0" cX="1" cY="1" pX="76" pY="70" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="216" y="127.45" cocos2d_x="113.5" cocos2d_y="39.95" kX="0" kY="0" cX="1" cY="1" pX="102.5" pY="87.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="220.3" y="124.6" cocos2d_x="106.8" cocos2d_y="26.6" kX="0" kY="0" cX="1" cY="1" pX="113.5" pY="98" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="223.9" y="116.95" cocos2d_x="110.4" cocos2d_y="18.95" kX="0" kY="0" cX="1" cY="1" pX="113.5" pY="98" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-71.55" y="-80.3" cocos2d_x="71.55" cocos2d_y="80.3" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-71.55" pY="-80.3" z="0" dI="0" dr="3" />
+          <f dr="3" dI="-1" />
+          <f x="44.5" y="-46.95" cocos2d_x="-44.5" cocos2d_y="47.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="44.5" pY="-47.45" z="0" dI="1" dr="3" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="129" y="-75.75" cocos2d_x="-191.55" cocos2d_y="-281.65" kX="-2.29" kY="-2.29" cX="1.53" cY="1.53" fst="0" pX="203.5" pY="142.5" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="13" b="0" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="少林高僧 普攻FX" width="512" height="512">
+    <SubTexture name="slgs-4.png" width="217" height="190" x="226" y="0" cocos2d_pX="-5.00" cocos2d_pY="-3.00" />
+    <SubTexture name="slgs-3.png" width="225" height="194" x="0" y="0" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="slgs-1.png" width="200" height="171" x="226" y="191" cocos2d_pX="-3.00" cocos2d_pY="-3.00" />
+    <SubTexture name="slgs-fjhjkj" width="151" height="138" x="0" y="195" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="slgs-dfhh" width="105" height="48" x="115" y="334" cocos2d_pX="-9.00" cocos2d_pY="-10.00" />
+    <SubTexture name="slgs-sdfhj" width="115" height="51" x="221" y="363" cocos2d_pX="-7.00" cocos2d_pY="-16.00" />
+    <SubTexture name="slgs-sfhhf" width="114" height="54" x="0" y="334" cocos2d_pX="-8.00" cocos2d_pY="-15.00" />
+    <SubTexture name="slgs-dfgfde" width="38" height="25" x="444" y="108" cocos2d_pX="-2.00" cocos2d_pY="-1.00" />
+    <SubTexture name="slgs-sdfjhj" width="40" height="50" x="444" y="57" cocos2d_pX="-2.00" cocos2d_pY="-1.00" />
+    <SubTexture name="slgs-dhhj" width="41" height="56" x="444" y="0" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

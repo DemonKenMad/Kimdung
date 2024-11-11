@@ -1,0 +1,46 @@
+<skeleton name="天龙门弟子普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="146.95" y="-62.55" kX="37.34" kY="0" cX="0.88" cY="0.75" pX="100" pY="0.9" z="0">
+        <d name="sdasa-bujian 1" />
+      </b>
+      <b name="图层 7" x="115.4" y="-61.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1">
+        <d name="sdasa-daoguang" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="fdsf" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="146.95" y="-62.55" cocos2d_x="59.6" cocos2d_y="-63.1" kX="37.34" kY="0" cX="0.88" cY="0.75" pX="100" pY="0.9" z="0" dI="0" twE="0" dr="2" />
+          <f x="146.95" y="-62.55" cocos2d_x="43.3" cocos2d_y="-63.1" kX="37.34" kY="0" cX="1.04" cY="0.75" pX="100.05" pY="0.9" z="0" dI="0" twE="0" dr="3" />
+          <f x="146.95" y="-62.55" cocos2d_x="34.5" cocos2d_y="-63.1" kX="37.34" kY="0" cX="1.13" cY="0.75" pX="100.05" pY="0.9" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.45" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="115.4" y="-61.8" cocos2d_x="115.4" cocos2d_y="-61.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" blend="normal" twE="0" dr="3">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="136.25" y="-61.8" cocos2d_x="136.25" cocos2d_y="-61.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" blend="normal" twE="0" dr="4">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="136.25" y="-61.8" cocos2d_x="136.25" cocos2d_y="-61.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="1" dI="0" blend="normal" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.17" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="19" blurY="11" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <f st="0" dr="9" />
+        <f st="9" dr="1" />
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="天龙门弟子普攻" width="256" height="128">
+    <SubTexture name="sdasa-daoguang" width="89" height="35" x="0" y="79" cocos2d_pX="40.65" cocos2d_pY="17.95" />
+    <SubTexture name="sdasa-bujian 1" width="200" height="78" x="0" y="0" cocos2d_pX="100.00" cocos2d_pY="39.00" />
+  </TextureAtlas>
+</skeleton>

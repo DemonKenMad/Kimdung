@@ -1,0 +1,118 @@
+<skeleton name="捆绑角色底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="22.2" y="-16.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifiltacerB07" isArmature="1" />
+        <d name="xxx/zhangweifiltacerB23" isArmature="1" />
+      </b>
+      <b name="图层 2" x="6.9" y="-194.75" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifiltacerB03" />
+        <d name="xxx/zhangweifiltacerB07" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB07" isLoop="loop" startFrame="5">
+      <b name="图层 2" x="0.95" y="-5.2" kX="0" kY="0" cX="8.05" cY="3.61" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB20" />
+      </b>
+      <b name="图层 1" x="1.15" y="0.85" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifiltacerB08" />
+        <d name="xxx-zhangweifiltacerB10" />
+        <d name="xxx-zhangweifiltacerB12" />
+        <d name="xxx-zhangweifiltacerB14" />
+        <d name="xxx-zhangweifiltacerB16" />
+        <d name="xxx-zhangweifiltacerB18" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB23" isLoop="loop" startFrame="5">
+      <b name="图层 2" x="0.95" y="-5.2" kX="0" kY="0" cX="8.05" cY="3.61" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB22" />
+      </b>
+      <b name="图层 1" x="1.15" y="0.85" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifiltacerB31" />
+        <d name="xxx-zhangweifiltacerB32" />
+        <d name="xxx-zhangweifiltacerB33" />
+        <d name="xxx-zhangweifiltacerB34" />
+        <d name="xxx-zhangweifiltacerB35" />
+        <d name="xxx-zhangweifiltacerB36" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifiltacerB07">
+      <mov name="dsffasdfasdgs" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0.95" y="-5.2" cocos2d_x="0.95" cocos2d_y="-5.2" kX="0" kY="0" cX="8.05" cY="3.61" fst="0" pX="0" pY="0" z="0" dI="0" dr="14">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.15" y="0.85" cocos2d_x="1.15" cocos2d_y="0.85" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f x="-0.75" y="4.25" cocos2d_x="-0.75" cocos2d_y="4.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="1" blend="add" dr="2" />
+          <f x="0" y="3.7" cocos2d_x="0" cocos2d_y="3.7" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="2" blend="add" dr="2" />
+          <f x="-0.85" y="4.25" cocos2d_x="-0.85" cocos2d_y="4.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="3" blend="add" dr="2" />
+          <f x="-2.35" y="5.75" cocos2d_x="-2.35" cocos2d_y="5.75" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="4" blend="add" dr="2" />
+          <f x="-1.85" y="4.1" cocos2d_x="-1.85" cocos2d_y="4.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="5" blend="add" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifiltacerB23">
+      <mov name="dsffasdfasdgs" dr="14" to="0" drTW="14" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0.95" y="-5.2" cocos2d_x="0.95" cocos2d_y="-5.2" kX="0" kY="0" cX="8.05" cY="3.61" fst="0" pX="0" pY="0" z="0" dI="0" dr="14">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.15" y="0.85" cocos2d_x="1.15" cocos2d_y="0.85" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f x="-0.75" y="4.25" cocos2d_x="-0.75" cocos2d_y="4.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="1" blend="add" dr="2" />
+          <f x="0" y="3.7" cocos2d_x="0" cocos2d_y="3.7" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="2" blend="add" dr="2" />
+          <f x="-0.85" y="4.25" cocos2d_x="-0.85" cocos2d_y="4.25" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="3" blend="add" dr="2" />
+          <f x="-2.35" y="5.75" cocos2d_x="-2.35" cocos2d_y="5.75" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="4" blend="add" dr="2" />
+          <f x="-1.85" y="4.1" cocos2d_x="-1.85" cocos2d_y="4.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1" dI="5" blend="add" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sadfasgasga" dr="100" to="0" drTW="100" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="22.2" y="-16.8" cocos2d_x="22.2" cocos2d_y="-16.8" kX="0" kY="0" cX="1" cY="1" fst="4" pX="0" pY="0" z="0" dI="0" dr="10" />
+          <f dr="11" dI="-1" />
+          <f x="148" y="-102.9" cocos2d_x="148" cocos2d_y="-102.9" kX="0" kY="0" cX="0.69" cY="0.69" fst="4" pX="0" pY="0" z="0" dI="0" dr="8" />
+          <f dr="50" dI="-1" />
+          <f x="4.15" y="1.25" cocos2d_x="4.15" cocos2d_y="1.25" kX="0" kY="0" cX="1" cY="1" fst="4" pX="0" pY="0" z="0" dI="1" dr="10" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="6.9" y="-194.75" cocos2d_x="6.9" cocos2d_y="-194.75" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="1" dI="0" twE="0" dr="8" />
+          <f x="6.9" y="-194.75" cocos2d_x="6.9" cocos2d_y="-194.75" kX="0" kY="0" cX="7.74" cY="7.74" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+          <f x="109.6" y="16.3" cocos2d_x="109.6" cocos2d_y="16.3" kX="0" kY="0" cX="0.69" cY="0.69" fst="4" pX="0" pY="0" z="1" dI="1" dr="8" />
+          <f dr="61" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="捆绑角色底层" width="512" height="256">
+    <SubTexture name="xxx-zhangweifiltacerB36" width="106" height="31" x="404" y="86" cocos2d_pX="52.75" cocos2d_pY="16.05" />
+    <SubTexture name="xxx-zhangweifiltacerB35" width="113" height="38" x="0" y="130" cocos2d_pX="56.50" cocos2d_pY="19.40" />
+    <SubTexture name="xxx-zhangweifiltacerB34" width="123" height="55" x="244" y="124" cocos2d_pX="61.25" cocos2d_pY="27.65" />
+    <SubTexture name="xxx-zhangweifiltacerB33" width="129" height="61" x="274" y="0" cocos2d_pX="64.30" cocos2d_pY="30.55" />
+    <SubTexture name="xxx-zhangweifiltacerB32" width="136" height="65" x="137" y="0" cocos2d_pX="67.80" cocos2d_pY="32.15" />
+    <SubTexture name="xxx-zhangweifiltacerB31" width="121" height="63" x="122" y="66" cocos2d_pX="60.25" cocos2d_pY="31.45" />
+    <SubTexture name="xxx-zhangweifiltacerB22" width="39" height="38" x="40" y="169" cocos2d_pX="19.55" cocos2d_pY="18.75" />
+    <SubTexture name="xxx-zhangweifiltacerB18" width="106" height="31" x="404" y="118" cocos2d_pX="52.75" cocos2d_pY="16.05" />
+    <SubTexture name="xxx-zhangweifiltacerB16" width="113" height="38" x="368" y="150" cocos2d_pX="56.50" cocos2d_pY="19.40" />
+    <SubTexture name="xxx-zhangweifiltacerB14" width="122" height="55" x="114" y="130" cocos2d_pX="61.25" cocos2d_pY="27.65" />
+    <SubTexture name="xxx-zhangweifiltacerB12" width="129" height="61" x="274" y="62" cocos2d_pX="64.30" cocos2d_pY="30.55" />
+    <SubTexture name="xxx-zhangweifiltacerB10" width="136" height="65" x="0" y="0" cocos2d_pX="67.80" cocos2d_pY="32.15" />
+    <SubTexture name="xxx-zhangweifiltacerB08" width="121" height="63" x="0" y="66" cocos2d_pX="60.25" cocos2d_pY="31.45" />
+    <SubTexture name="xxx-zhangweifiltacerB20" width="39" height="38" x="0" y="169" cocos2d_pX="19.55" cocos2d_pY="18.75" />
+    <SubTexture name="xxx-zhangweifiltacerB03" width="85" height="85" x="404" y="0" cocos2d_pX="41.65" cocos2d_pY="41.50" />
+  </TextureAtlas>
+</skeleton>

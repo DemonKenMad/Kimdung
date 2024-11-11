@@ -1,0 +1,53 @@
+<skeleton name="穆人清普攻颜色角色底层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gagasg" x="503.95" y="-109.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sdgh03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdgh03" isLoop="loop" startFrame="8">
+      <b name="图层 1" x="-473.5" y="122.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sdgh05" />
+        <d name="xxx-sdgh07" />
+        <d name="xxx-sdgh09" />
+        <d name="xxx-sdgh11" />
+        <d name="xxx-sdgh13" />
+        <d name="xxx-sdgh15" />
+        <d name="xxx-sdgh17" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdgh03">
+      <mov name="fsdfsafasfas" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-473.5" y="122.3" cocos2d_x="-473.5" cocos2d_y="122.3" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-512" y="108.5" cocos2d_x="-512" cocos2d_y="108.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-528" y="98.65" cocos2d_x="-528" cocos2d_y="98.65" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-535.3" y="88.5" cocos2d_x="-535.3" cocos2d_y="88.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-539.15" y="72.15" cocos2d_x="-539.15" cocos2d_y="72.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="-562" y="72.35" cocos2d_x="-562" cocos2d_y="72.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="5" dr="2" />
+          <f x="-556.1" y="47.8" cocos2d_x="-556.1" cocos2d_y="47.8" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="46" to="0" drTW="46" lp="0" twE="NaN">
+        <b name="gagasg" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="503.95" y="-109.1" cocos2d_x="503.95" cocos2d_y="-109.1" kX="0" kY="0" cX="1" cY="1" fst="7" pX="0" pY="0" z="0" dI="0" dr="4" />
+          <f dr="34" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="穆人清普攻颜色角色底层输出" width="256" height="256">
+    <SubTexture name="xxx-sdgh17" width="107" height="35" x="135" y="86" cocos2d_pX="54.05" cocos2d_pY="17.40" />
+    <SubTexture name="xxx-sdgh15" width="116" height="56" x="139" y="0" cocos2d_pX="58.00" cocos2d_pY="28.10" />
+    <SubTexture name="xxx-sdgh13" width="138" height="60" x="0" y="0" cocos2d_pX="69.05" cocos2d_pY="30.00" />
+    <SubTexture name="xxx-sdgh11" width="142" height="48" x="0" y="122" cocos2d_pX="71.35" cocos2d_pY="23.75" />
+    <SubTexture name="xxx-sdgh09" width="134" height="36" x="0" y="61" cocos2d_pX="68.00" cocos2d_pY="17.80" />
+    <SubTexture name="xxx-sdgh07" width="116" height="28" x="139" y="57" cocos2d_pX="58.00" cocos2d_pY="13.85" />
+    <SubTexture name="xxx-sdgh05" width="78" height="18" x="0" y="98" cocos2d_pX="38.75" cocos2d_pY="8.65" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,70 @@
+<skeleton name="钟灵技能受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6  复制 2" x="-85.05" y="-84.85" kX="0" kY="180" cX="1.3" cY="1.3" pX="79.5" pY="-38" z="0">
+        <d name="sucaibao/shouji " isArmature="1" />
+      </b>
+      <b name="图层 6 复制" x="-26.1" y="-73.9" kX="32" kY="-148" cX="1.3" cY="1.37" pX="1.95" pY="0.1" z="1">
+        <d name="sucaibao/xixian" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="sucaibao/shouji ">
+      <b name="图层 1" x="79.5" y="-38" kX="0" kY="0" cX="1" cY="1" pX="102.5" pY="75" z="0">
+        <d name="sucaibao-1_00.png" />
+        <d name="sucaibao-1_01.png" />
+        <d name="sucaibao-1_02.png" />
+        <d name="sucaibao-1_03.png" />
+      </b>
+    </armature>
+    <armature name="sucaibao/xixian" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-29.95" y="0" kX="0" kY="0" cX="0.38" cY="1" pX="130" pY="21" z="0">
+        <d name="sucaibao-2_00.png" />
+        <d name="sucaibao-2_01.png" />
+        <d name="sucaibao-2_02.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sucaibao/shouji ">
+      <mov name="fdse" dr="4" to="0" drTW="4" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="79.5" y="-38" cocos2d_x="-23" cocos2d_y="-113" kX="0" kY="0" cX="1" cY="1" pX="102.5" pY="75" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="79.5" y="-38" cocos2d_x="-23" cocos2d_y="-113" kX="0" kY="0" cX="1" cY="1" pX="102.5" pY="75" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="79.5" y="-38" cocos2d_x="-23" cocos2d_y="-113" kX="0" kY="0" cX="1" cY="1" pX="102.5" pY="75" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="79.5" y="-38" cocos2d_x="-23" cocos2d_y="-113" kX="0" kY="0" cX="1" cY="1" pX="102.5" pY="75" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sucaibao/xixian">
+      <mov name="sd" dr="8" to="0" drTW="8" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-29.95" y="0" cocos2d_x="-79.35" cocos2d_y="-21" kX="0" kY="0" cX="0.38" cY="1" pX="130" pY="21" z="0" dI="0" dr="2" />
+          <f x="2" y="0" cocos2d_x="-128" cocos2d_y="-21" kX="0" kY="0" cX="1" cY="1" pX="130" pY="21" z="0" dI="1" dr="2" />
+          <f x="2" y="0" cocos2d_x="-252.8" cocos2d_y="-21" kX="0" kY="0" cX="1.96" cY="1" pX="130" pY="21" z="0" dI="2" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="shouji" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 6  复制 2" sc="1" dl="0">
+          <f x="-85.05" y="-84.85" cocos2d_x="18.3" cocos2d_y="-35.45" kX="0" kY="180" cX="1.3" cY="1.3" pX="79.5" pY="-38" z="0" dI="0" blend="normal" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 6 复制" sc="1" dl="0">
+          <f x="-26.1" y="-73.9" cocos2d_x="-23.85" cocos2d_y="-72.6" kX="32" kY="-148" cX="1.3" cY="1.37" pX="1.95" pY="0.1" z="1" dI="0" dr="8" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="钟灵技能受击" width="512" height="512">
+    <SubTexture name="sucaibao-2_02.png" width="186" height="32" x="257" y="299" cocos2d_pX="-37.00" cocos2d_pY="-5.00" />
+    <SubTexture name="sucaibao-2_01.png" width="256" height="38" x="0" y="299" cocos2d_pX="-2.00" cocos2d_pY="-2.00" />
+    <SubTexture name="sucaibao-2_00.png" width="158" height="28" x="0" y="150" cocos2d_pX="-51.00" cocos2d_pY="-7.00" />
+    <SubTexture name="sucaibao-1_03.png" width="175" height="150" x="185" y="148" cocos2d_pX="-30.00" cocos2d_pY="0.00" />
+    <SubTexture name="sucaibao-1_02.png" width="184" height="149" x="0" y="0" cocos2d_pX="-21.00" cocos2d_pY="-1.00" />
+    <SubTexture name="sucaibao-1_01.png" width="182" height="147" x="185" y="0" cocos2d_pX="-16.00" cocos2d_pY="-3.00" />
+    <SubTexture name="sucaibao-1_00.png" width="150" height="116" x="361" y="148" cocos2d_pX="-8.00" cocos2d_pY="-34.00" />
+  </TextureAtlas>
+</skeleton>

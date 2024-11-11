@@ -1,0 +1,433 @@
+<skeleton name="洪教主技能2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 9" x="-9" y="-101" kX="0" kY="0" cX="0.53" cY="0.51" pX="113.95" pY="115.6" z="0">
+        <d name="435y6-56756756756" />
+      </b>
+      <b name="图层 15" x="-9.05" y="-98.3" kX="0" kY="0" cX="3.27" cY="3.27" pX="24.5" pY="25" z="1">
+        <d name="435y6-68686768" />
+        <d name="435y6/guangquan" isArmature="1" />
+        <d name="435y6/diliang" isArmature="1" />
+      </b>
+      <b name="图层 14" x="-13.85" y="-192.9" kX="0" kY="0" cX="2.05" cY="2.05" pX="79" pY="41.95" z="2">
+        <d name="435y6-56756" />
+        <d name="435y6-567" />
+        <d name="435y6-654654" />
+        <d name="435y6-7567" />
+      </b>
+      <b name="图层 12" x="-22.5" y="-99" kX="0" kY="0" cX="2.42" cY="2.42" pX="42.5" pY="33" z="3">
+        <d name="435y6-876867" />
+        <d name="435y6-5654" />
+        <d name="435y6-75675" />
+        <d name="435y6-5676" />
+      </b>
+      <b name="图层 8" x="206.35" y="-114.6" kX="0" kY="0" cX="1" cY="1" pX="202.65" pY="-100.95" z="4">
+        <d name="435y6/feixing" isArmature="1" />
+      </b>
+      <b name="图层 7" x="827.1" y="-156.05" kX="0" kY="0" cX="1" cY="1" pX="336.8" pY="168.75" z="5">
+        <d name="435y6/vaesvewer" isArmature="1" />
+      </b>
+      <b name="图层 6" x="894.4" y="-276.35" kX="180" kY="167.45" cX="1.59" cY="2.77" pX="336.75" pY="168.65" z="6">
+        <d name="435y6/vaesvewer" isArmature="1" />
+      </b>
+      <b name="图层 5" x="700.15" y="-69.4" kX="69.19" kY="-153.53" cX="1.39" cY="3.7" pX="336.8" pY="168.8" z="7">
+        <d name="435y6/vaesvewer" isArmature="1" />
+      </b>
+      <b name="图层 4" x="820.8" y="-170.1" kX="175.29" kY="-4.71" cX="1.4" cY="1.27" pX="336.75" pY="168.65" z="8">
+        <d name="435y6/vaesvewer" isArmature="1" />
+      </b>
+      <b name="图层 3" x="827.1" y="-156.05" kX="0" kY="0" cX="1" cY="1" pX="30" pY="-20" z="9">
+        <d name="435y6/v reb tn tr" isArmature="1" />
+      </b>
+      <b name="图层 1" x="319.15" y="-75.85" kX="0" kY="0" cX="57.07" cY="57.07" pX="22.5" pY="12" z="10">
+        <d name="435y6-554666555" />
+        <d name="435y6-34545" />
+      </b>
+    </armature>
+    <armature name="435y6/guangquan" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="1.5" y="-9.5" kX="0" kY="0" cX="1" cY="1" pX="41" pY="49" z="0">
+        <d name="435y6-666" />
+        <d name="435y6-55565555" />
+        <d name="435y6-777" />
+      </b>
+    </armature>
+    <armature name="435y6/diliang" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-4" y="-1.9" kX="0" kY="0" cX="1.81" cY="1.81" pX="55" pY="26" z="0">
+        <d name="435y6-67867" />
+        <d name="435y6-54654" />
+      </b>
+    </armature>
+    <armature name="435y6/feixing" isLoop="loop" startFrame="1">
+      <b name="图层 6" x="204.05" y="-100.5" kX="0" kY="0" cX="1" cY="1" pX="35" pY="36" z="0">
+        <d name="435y6-6664" />
+      </b>
+      <b name="图层 3" x="204" y="-100" kX="0" kY="0" cX="0.3" cY="0.3" pX="154.75" pY="155.6" z="1">
+        <d name="435y6-56756444" />
+        <d name="435y6-6787855544" />
+        <d name="435y6-8877" />
+      </b>
+    </armature>
+    <armature name="435y6/vaesvewer" isLoop="play once" startFrame="1">
+      <b name="图层 2" x="-25.9" y="-13.7" kX="0" kY="0" cX="3" cY="3" pX="159" pY="83.45" z="0">
+        <d name="435y6-6578444" />
+        <d name="435y6-678555444" />
+        <d name="435y6-6767855444" />
+        <d name="435y6-676855544" />
+      </b>
+    </armature>
+    <armature name="435y6/v reb tn tr" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="30.65" y="-45.45" kX="0" kY="0" cX="2.16" cY="2.16" pX="114" pY="115.45" z="0">
+        <d name="435y6-56756756756" />
+        <d name="435y6-7567" />
+      </b>
+      <b name="图层 4" x="46.65" y="-9.65" kX="0" kY="0" cX="12.55" cY="12.55" pX="24.5" pY="25" z="1">
+        <d name="435y6-68686768" />
+        <d name="435y6-位图 2045454" />
+        <d name="435y6-43555" />
+      </b>
+      <b name="图层 3" x="31.1" y="-29.25" kX="0" kY="0" cX="1" cY="1" pX="208.5" pY="199.5" z="2">
+        <d name="435y6-789879" />
+        <d name="435y6-546665555" />
+        <d name="435y6-6788" />
+        <d name="435y6-43555" />
+      </b>
+      <b name="图层 2" x="28.95" y="-25.05" kX="0" kY="0" cX="1.71" cY="1.71" pX="155" pY="155.5" z="3">
+        <d name="435y6-56756444" />
+        <d name="435y6-6787855544" />
+        <d name="435y6-8798559" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="435y6/guangquan">
+      <mov name="3555" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.5" y="-9.5" cocos2d_x="-39.5" cocos2d_y="-58.5" kX="0" kY="0" cX="1" cY="1" pX="41" pY="49" z="0" dI="0" dr="2" />
+          <f x="-5.2" y="-10" cocos2d_x="-73" cocos2d_y="-86" kX="0" kY="0" cX="2.05" cY="2.05" pX="33" pY="37" z="0" dI="1" dr="2" />
+          <f x="-4.3" y="-18.5" cocos2d_x="-87" cocos2d_y="-100.2" kX="0" kY="0" cX="2.09" cY="2.09" pX="39.5" pY="39" z="0" dI="2" twE="0" dr="4" />
+          <f x="-10.25" y="-31.5" cocos2d_x="-157.65" cocos2d_y="-177.05" kX="0" kY="0" cX="3.73" cY="3.73" pX="39.5" pY="39" z="0" dI="2" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="435y6/diliang">
+      <mov name="dsad" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-4" y="-1.9" cocos2d_x="-103.65" cocos2d_y="-49" kX="0" kY="0" cX="1.81" cY="1.81" pX="55" pY="26" z="0" dI="0" dr="2" />
+          <f x="24.05" y="-15" cocos2d_x="-91.2" cocos2d_y="-64" kX="0" kY="0" cX="1.81" cY="1.81" pX="63.5" pY="27" z="0" dI="1" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="435y6/feixing">
+      <mov name="35355" dr="35" to="0" drTW="35" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f x="204.05" y="-100.5" cocos2d_x="169.05" cocos2d_y="-136.5" kX="0" kY="0" cX="1" cY="1" pX="35" pY="36" z="0" dI="0" dr="7" />
+          <f x="204.05" y="-100.5" cocos2d_x="169.05" cocos2d_y="-136.5" kX="0" kY="0" cX="1" cY="1" pX="35" pY="36" z="0" dI="0" dr="7" />
+          <f x="204.05" y="-100.5" cocos2d_x="169.05" cocos2d_y="-136.5" kX="0" kY="0" cX="1" cY="1" pX="35" pY="36" z="0" dI="0" dr="7" />
+          <f x="204.05" y="-100.5" cocos2d_x="169.05" cocos2d_y="-136.5" kX="0" kY="0" cX="1" cY="1" pX="35" pY="36" z="0" dI="0" dr="7" />
+          <f x="204.05" y="-100.5" cocos2d_x="169.05" cocos2d_y="-136.5" kX="0" kY="0" cX="1" cY="1" pX="35" pY="36" z="0" dI="0" dr="7" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="204" y="-100" cocos2d_x="158.15" cocos2d_y="-146.1" kX="0" kY="0" cX="0.3" cY="0.3" pX="154.75" pY="155.6" z="1" dI="0" dr="2" />
+          <f x="205.1" y="-100.95" cocos2d_x="152.6" cocos2d_y="-151" kX="0" kY="0" cX="0.61" cY="0.61" pX="86.05" pY="82" z="1" dI="1" dr="2" />
+          <f x="200.3" y="-100.85" cocos2d_x="155.8" cocos2d_y="-147.35" kX="0" kY="0" cX="1" cY="1" pX="44.5" pY="46.5" z="1" dI="2" dr="2" />
+          <f x="203.1" y="-100.95" cocos2d_x="245" cocos2d_y="-140.9" kX="0" kY="180" cX="0.49" cY="0.49" pX="86" pY="82" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="204" y="-100" cocos2d_x="158.15" cocos2d_y="-146.1" kX="0" kY="0" cX="0.3" cY="0.3" pX="154.75" pY="155.6" z="1" dI="0" dr="2" />
+          <f x="205.1" y="-100.95" cocos2d_x="152.6" cocos2d_y="-151" kX="0" kY="0" cX="0.61" cY="0.61" pX="86.05" pY="82" z="1" dI="1" dr="2" />
+          <f x="200.3" y="-100.85" cocos2d_x="155.8" cocos2d_y="-147.35" kX="0" kY="0" cX="1" cY="1" pX="44.5" pY="46.5" z="1" dI="2" dr="2" />
+          <f x="203.1" y="-100.95" cocos2d_x="245" cocos2d_y="-140.9" kX="0" kY="180" cX="0.49" cY="0.49" pX="86" pY="82" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="204" y="-100" cocos2d_x="158.15" cocos2d_y="-146.1" kX="0" kY="0" cX="0.3" cY="0.3" pX="154.75" pY="155.6" z="1" dI="0" dr="2" />
+          <f x="205.1" y="-100.95" cocos2d_x="152.6" cocos2d_y="-151" kX="0" kY="0" cX="0.61" cY="0.61" pX="86.05" pY="82" z="1" dI="1" dr="2" />
+          <f x="200.3" y="-100.85" cocos2d_x="155.8" cocos2d_y="-147.35" kX="0" kY="0" cX="1" cY="1" pX="44.5" pY="46.5" z="1" dI="2" dr="2" />
+          <f x="203.1" y="-100.95" cocos2d_x="245" cocos2d_y="-140.9" kX="0" kY="180" cX="0.49" cY="0.49" pX="86" pY="82" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="204" y="-100" cocos2d_x="158.15" cocos2d_y="-146.1" kX="0" kY="0" cX="0.3" cY="0.3" pX="154.75" pY="155.6" z="1" dI="0" dr="2" />
+          <f x="205.1" y="-100.95" cocos2d_x="152.6" cocos2d_y="-151" kX="0" kY="0" cX="0.61" cY="0.61" pX="86.05" pY="82" z="1" dI="1" dr="2" />
+          <f x="200.3" y="-100.85" cocos2d_x="155.8" cocos2d_y="-147.35" kX="0" kY="0" cX="1" cY="1" pX="44.5" pY="46.5" z="1" dI="2" dr="2" />
+          <f x="203.1" y="-100.95" cocos2d_x="245" cocos2d_y="-140.9" kX="0" kY="180" cX="0.49" cY="0.49" pX="86" pY="82" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="204" y="-100" cocos2d_x="158.15" cocos2d_y="-146.1" kX="0" kY="0" cX="0.3" cY="0.3" pX="154.75" pY="155.6" z="1" dI="0" dr="2" />
+          <f x="205.1" y="-100.95" cocos2d_x="152.6" cocos2d_y="-151" kX="0" kY="0" cX="0.61" cY="0.61" pX="86.05" pY="82" z="1" dI="1" dr="2" />
+          <f x="200.3" y="-100.85" cocos2d_x="155.8" cocos2d_y="-147.35" kX="0" kY="0" cX="1" cY="1" pX="44.5" pY="46.5" z="1" dI="2" dr="2" />
+          <f x="203.1" y="-100.95" cocos2d_x="245" cocos2d_y="-140.9" kX="0" kY="180" cX="0.49" cY="0.49" pX="86" pY="82" z="1" dI="1" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="435y6/vaesvewer">
+      <mov name="3455467" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-25.9" y="-13.7" cocos2d_x="-503" cocos2d_y="-264.1" kX="0" kY="0" cX="3" cY="3" pX="159" pY="83.45" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-28.15" y="8.05" cocos2d_x="-543" cocos2d_y="-306.5" kX="0" kY="0" cX="3.31" cY="3.31" pX="155.5" pY="95" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="125.8" y="-4.95" cocos2d_x="-115.1" cocos2d_y="-363.95" kX="0" kY="0" cX="3.15" cY="3.15" pX="76.5" pY="114" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="447.8" y="92.45" cocos2d_x="304.1" cocos2d_y="-237.35" kX="0" kY="0" cX="5.02" cY="5.02" pX="28.65" pY="65.75" z="0" dI="3" twE="0" dr="7" />
+          <f x="447.8" y="92.45" cocos2d_x="304.1" cocos2d_y="-237.35" kX="0" kY="0" cX="5.02" cY="5.02" pX="28.65" pY="65.75" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.09" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="435y6/v reb tn tr">
+      <mov name="34535" dr="29" to="0" drTW="29" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="30.65" y="-45.45" cocos2d_x="-215.2" cocos2d_y="-294.5" kX="0" kY="0" cX="2.16" cY="2.16" pX="114" pY="115.45" z="0" dI="0" twE="0" dr="2" />
+          <f x="24.6" y="-45.65" cocos2d_x="-397.3" cocos2d_y="-473.1" kX="0" kY="0" cX="3.7" cY="3.7" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="27.05" y="-45.55" cocos2d_x="-322.55" cocos2d_y="-399.75" kX="0" kY="0" cX="3.07" cY="3.07" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="29.45" y="-45.45" cocos2d_x="-251.1" cocos2d_y="-329.7" kX="0" kY="0" cX="2.46" cY="2.46" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="23.5" y="-45.65" cocos2d_x="-429.7" cocos2d_y="-504.85" kX="0" kY="0" cX="3.98" cY="3.98" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="25.9" y="-45.6" cocos2d_x="-357" cocos2d_y="-433.55" kX="0" kY="0" cX="3.36" cY="3.36" pX="114" pY="115.45" z="0" dI="0" twE="0" dr="2" />
+          <f x="21.95" y="-45.7" cocos2d_x="-476.95" cocos2d_y="-551.15" kX="0" kY="0" cX="4.38" cY="4.38" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="24.35" y="-45.65" cocos2d_x="-404.3" cocos2d_y="-479.95" kX="0" kY="0" cX="3.76" cY="3.76" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="21.15" y="-45.75" cocos2d_x="-498.85" cocos2d_y="-572.6" kX="0" kY="0" cX="4.56" cY="4.56" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="25.8" y="-45.65" cocos2d_x="-360.2" cocos2d_y="-436.7" kX="0" kY="0" cX="3.39" cY="3.39" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="22.8" y="-45.7" cocos2d_x="-451.45" cocos2d_y="-526.2" kX="0" kY="0" cX="4.16" cY="4.16" pX="114" pY="115.5" z="0" dI="0" twE="0" dr="2" />
+          <f x="26.75" y="-45.6" cocos2d_x="-331" cocos2d_y="-408.1" kX="0" kY="0" cX="3.14" cY="3.14" pX="113.95" pY="115.5" z="0" dI="0" twE="0" dr="1" />
+          <f dr="3" dI="-1" />
+          <f x="25.15" y="-32.95" cocos2d_x="-336.45" cocos2d_y="-415" kX="0" kY="0" cX="6.82" cY="6.82" pX="53" pY="56" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="25.15" y="-32.95" cocos2d_x="-336.45" cocos2d_y="-415" kX="0" kY="0" cX="6.82" cY="6.82" pX="53" pY="56" z="0" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.32" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="46.65" y="-9.65" cocos2d_x="-260.9" cocos2d_y="-323.45" kX="0" kY="0" cX="12.55" cY="12.55" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="43.6" y="-12.6" cocos2d_x="-186.25" cocos2d_y="-247.15" kX="0" kY="0" cX="9.38" cY="9.38" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="42.25" y="-13.95" cocos2d_x="-152.2" cocos2d_y="-212.4" kX="0" kY="0" cX="7.94" cY="7.94" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="37.55" y="-12.7" cocos2d_x="-165.25" cocos2d_y="-219.65" kX="0" kY="0" cX="8.28" cY="8.28" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="39.55" y="-10.75" cocos2d_x="-214.4" cocos2d_y="-269.9" kX="0" kY="0" cX="10.37" cY="10.37" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="41.95" y="-8.3" cocos2d_x="-274.05" cocos2d_y="-330.75" kX="0" kY="0" cX="12.9" cY="12.9" pX="24.5" pY="25" z="1" dI="0" twE="0" dr="1" />
+          <f x="46.65" y="-9.65" cocos2d_x="-260.9" cocos2d_y="-323.45" kX="0" kY="0" cX="12.55" cY="12.55" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="43.6" y="-12.6" cocos2d_x="-186.25" cocos2d_y="-247.15" kX="0" kY="0" cX="9.38" cY="9.38" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="42.25" y="-13.95" cocos2d_x="-152.2" cocos2d_y="-212.4" kX="0" kY="0" cX="7.94" cY="7.94" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="37.55" y="-12.7" cocos2d_x="-165.25" cocos2d_y="-219.65" kX="0" kY="0" cX="8.28" cY="8.28" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="39.55" y="-10.75" cocos2d_x="-214.4" cocos2d_y="-269.9" kX="0" kY="0" cX="10.37" cY="10.37" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="41.95" y="-8.3" cocos2d_x="-274.05" cocos2d_y="-330.75" kX="0" kY="0" cX="12.9" cY="12.9" pX="24.5" pY="25" z="1" dI="0" twE="0" dr="1" />
+          <f x="46.65" y="-9.65" cocos2d_x="-260.9" cocos2d_y="-323.45" kX="0" kY="0" cX="12.55" cY="12.55" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="43.6" y="-12.6" cocos2d_x="-186.25" cocos2d_y="-247.15" kX="0" kY="0" cX="9.38" cY="9.38" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="42.25" y="-13.95" cocos2d_x="-152.2" cocos2d_y="-212.4" kX="0" kY="0" cX="7.94" cY="7.94" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="37.55" y="-12.7" cocos2d_x="-165.25" cocos2d_y="-219.65" kX="0" kY="0" cX="8.28" cY="8.28" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="39.55" y="-10.75" cocos2d_x="-214.4" cocos2d_y="-269.9" kX="0" kY="0" cX="10.37" cY="10.37" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="41.95" y="-8.3" cocos2d_x="-274.05" cocos2d_y="-330.75" kX="0" kY="0" cX="12.9" cY="12.9" pX="24.5" pY="25" z="1" dI="0" twE="0" dr="1" />
+          <f x="45.25" y="-7.75" cocos2d_x="-296.5" cocos2d_y="-356.45" kX="0" kY="0" cX="13.95" cY="13.95" pX="24.5" pY="25" z="1" dI="0" twE="0" dr="1" />
+          <f x="49" y="-7.3" cocos2d_x="-318.45" cocos2d_y="-382.25" kX="0" kY="0" cX="15" cY="15" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="32.4" y="-17.45" cocos2d_x="-60" cocos2d_y="-112.8" kX="0" kY="0" cX="2.98" cY="2.98" pX="31" pY="32" z="1" dI="1" twE="0" dr="3" />
+          <f x="32.7" y="-12.9" cocos2d_x="-207.4" cocos2d_y="-260.75" kX="0" kY="0" cX="7.75" cY="7.75" pX="31" pY="32" z="1" dI="2" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+          <f x="32.75" y="-12.9" cocos2d_x="-207.45" cocos2d_y="-260.85" kX="0" kY="0" cX="7.75" cY="7.75" pX="31" pY="32" z="1" dI="2" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.61" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="31.1" y="-29.25" cocos2d_x="-177.4" cocos2d_y="-228.75" kX="0" kY="0" cX="1" cY="1" pX="208.5" pY="199.5" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="27.8" y="-10.7" cocos2d_x="-141.2" cocos2d_y="-184.7" kX="0" kY="0" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="29.8" y="-31.4" cocos2d_x="-115.2" cocos2d_y="-179.4" kX="0" kY="0" cX="1" cY="1" pX="145" pY="148" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="34.8" y="-10.7" cocos2d_x="203.8" cocos2d_y="-184.7" kX="0" kY="180" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="31.1" y="-29.25" cocos2d_x="-177.4" cocos2d_y="-228.75" kX="0" kY="0" cX="1" cY="1" pX="208.5" pY="199.5" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="27.8" y="-10.7" cocos2d_x="-141.2" cocos2d_y="-184.7" kX="0" kY="0" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="29.8" y="-31.4" cocos2d_x="-115.2" cocos2d_y="-179.4" kX="0" kY="0" cX="1" cY="1" pX="145" pY="148" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="34.8" y="-10.7" cocos2d_x="203.8" cocos2d_y="-184.7" kX="0" kY="180" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="31.1" y="-29.25" cocos2d_x="-177.4" cocos2d_y="-228.75" kX="0" kY="0" cX="1" cY="1" pX="208.5" pY="199.5" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="27.8" y="-10.7" cocos2d_x="-141.2" cocos2d_y="-184.7" kX="0" kY="0" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="31.1" y="-29.25" cocos2d_x="-177.4" cocos2d_y="-228.75" kX="0" kY="0" cX="1" cY="1" pX="208.5" pY="199.5" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="27.8" y="-10.7" cocos2d_x="-141.2" cocos2d_y="-184.7" kX="0" kY="0" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="29.8" y="-31.4" cocos2d_x="-115.2" cocos2d_y="-179.4" kX="0" kY="0" cX="1" cY="1" pX="145" pY="148" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="34.8" y="-10.7" cocos2d_x="203.8" cocos2d_y="-184.7" kX="0" kY="180" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="31.1" y="-29.25" cocos2d_x="-177.4" cocos2d_y="-228.75" kX="0" kY="0" cX="1" cY="1" pX="208.5" pY="199.5" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="27.8" y="-10.7" cocos2d_x="-141.2" cocos2d_y="-184.7" kX="0" kY="0" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="29.8" y="-31.4" cocos2d_x="-115.2" cocos2d_y="-179.4" kX="0" kY="0" cX="1" cY="1" pX="145" pY="148" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="34.8" y="-10.7" cocos2d_x="203.8" cocos2d_y="-184.7" kX="0" kY="180" cX="1" cY="1" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="31.1" y="-29.25" cocos2d_x="-219.1" cocos2d_y="-268.65" kX="0" kY="0" cX="1.2" cY="1.2" pX="208.5" pY="199.5" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="27.8" y="-10.7" cocos2d_x="-175" cocos2d_y="-219.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="29.8" y="-31.4" cocos2d_x="-115.2" cocos2d_y="-179.4" kX="0" kY="0" cX="1" cY="1" pX="145" pY="148" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="36.8" y="-22.7" cocos2d_x="239.6" cocos2d_y="-231.5" kX="0" kY="180" cX="1.2" cY="1.2" pX="169" pY="174" z="2" dI="1" dr="1" twE="NaN" />
+          <f dr="2" dI="-1" />
+          <f x="32.7" y="-12.9" cocos2d_x="-207.4" cocos2d_y="-260.75" kX="0" kY="0" cX="7.75" cY="7.75" pX="31" pY="32" z="2" dI="3" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.71" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="32.95" y="-9.75" cocos2d_x="-309.65" cocos2d_y="-363.4" kX="0" kY="0" cX="11.05" cY="11.05" pX="31" pY="32" z="2" dI="3" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.49" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="28.95" y="-25.05" cocos2d_x="-236.1" cocos2d_y="-290.95" kX="0" kY="0" cX="1.71" cY="1.71" pX="155" pY="155.5" z="3" dI="0" dr="2" />
+          <f x="37.9" y="-26.8" cocos2d_x="-182.15" cocos2d_y="-236.65" kX="0" kY="0" cX="2.56" cY="2.56" pX="86" pY="82.05" z="3" dI="1" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="28.95" y="-25.05" cocos2d_x="-236.1" cocos2d_y="-290.95" kX="0" kY="0" cX="1.71" cY="1.71" pX="155" pY="155.5" z="3" dI="0" dr="2" />
+          <f x="37.9" y="-26.8" cocos2d_x="-182.15" cocos2d_y="-236.65" kX="0" kY="0" cX="2.56" cY="2.56" pX="86" pY="82.05" z="3" dI="1" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="28.95" y="-25.05" cocos2d_x="-236.1" cocos2d_y="-290.95" kX="0" kY="0" cX="1.71" cY="1.71" pX="155" pY="155.5" z="3" dI="0" dr="2" />
+          <f x="37.9" y="-26.8" cocos2d_x="-182.15" cocos2d_y="-236.65" kX="0" kY="0" cX="2.56" cY="2.56" pX="86" pY="82.05" z="3" dI="1" dr="2" />
+          <f x="28.95" y="-25.05" cocos2d_x="-294" cocos2d_y="-349" kX="0" kY="0" cX="2.08" cY="2.08" pX="155" pY="155.5" z="3" dI="0" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="28.85" y="-25" cocos2d_x="-242.25" cocos2d_y="-297" kX="0" kY="0" cX="1.75" cY="1.75" pX="155" pY="155.5" z="3" dI="0" dr="2" />
+          <f x="36.9" y="-19.15" cocos2d_x="-280.3" cocos2d_y="-340.95" kX="0" kY="0" cX="4.6" cY="4.6" pX="69" pY="70" z="3" dI="2" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="56767" dr="69" to="0" drTW="69" lp="0" twE="NaN">
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-9" y="-101" cocos2d_x="-69.95" cocos2d_y="-160" kX="0" kY="0" cX="0.53" cY="0.51" pX="113.95" pY="115.6" z="0" dI="0" twE="0" dr="3" />
+          <f x="-9" y="-101" cocos2d_x="-99.9" cocos2d_y="-189" kX="0" kY="0" cX="0.8" cY="0.76" pX="113.95" pY="115.6" z="0" dI="0" twE="0" dr="2" />
+          <f x="-9.05" y="-101" cocos2d_x="-127.8" cocos2d_y="-216" kX="0" kY="0" cX="1.04" cY="0.99" pX="113.9" pY="115.6" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-9.1" y="-101.05" cocos2d_x="-81.05" cocos2d_y="-170.75" kX="0" kY="0" cX="0.63" cY="0.6" pX="113.9" pY="115.6" z="0" dI="0" twE="0" dr="4" />
+          <f x="-9.1" y="-101" cocos2d_x="-64.1" cocos2d_y="-154.3" kX="0" kY="0" cX="0.48" cY="0.46" pX="113.9" pY="115.65" z="0" dI="0" twE="0" dr="2" />
+          <f x="-9.1" y="-101" cocos2d_x="-55.15" cocos2d_y="-145.6" kX="0" kY="0" cX="0.4" cY="0.39" pX="113.95" pY="115.6" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="53" dI="-1" />
+        </b>
+        <b name="图层 15" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-9.05" y="-98.3" cocos2d_x="-89.1" cocos2d_y="-180" kX="0" kY="0" cX="3.27" cY="3.27" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-10.1" y="-98.55" cocos2d_x="-69.95" cocos2d_y="-159.6" kX="0" kY="0" cX="2.44" cY="2.44" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-10.55" y="-98.6" cocos2d_x="-61.2" cocos2d_y="-150.25" kX="0" kY="0" cX="2.07" cY="2.07" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-11.8" y="-98.25" cocos2d_x="-64.6" cocos2d_y="-152.15" kX="0" kY="0" cX="2.16" cY="2.16" pX="24.45" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-11.15" y="-98.15" cocos2d_x="-77.25" cocos2d_y="-165.6" kX="0" kY="0" cX="2.7" cY="2.7" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-10.35" y="-97.95" cocos2d_x="-92.6" cocos2d_y="-181.9" kX="0" kY="0" cX="3.36" cY="3.36" pX="24.5" pY="25" z="1" dI="0" twE="0" dr="2" />
+          <f x="-8.25" y="-98.15" cocos2d_x="-103.9" cocos2d_y="-195.75" kX="0" kY="0" cX="3.9" cY="3.9" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-11.8" y="-98.25" cocos2d_x="-64.6" cocos2d_y="-152.15" kX="0" kY="0" cX="2.16" cY="2.16" pX="24.45" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-11.15" y="-98.15" cocos2d_x="-77.25" cocos2d_y="-165.6" kX="0" kY="0" cX="2.7" cY="2.7" pX="24.5" pY="25" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-16.6" y="-112.7" cocos2d_x="-19.6" cocos2d_y="-93.75" kX="0" kY="0" cX="2" cY="2" pX="1.5" pY="-9.5" z="1" dI="1" dr="7" />
+          <f x="67.35" y="-31.6" cocos2d_x="67.35" cocos2d_y="-31.6" kX="0" kY="0" cX="1.32" cY="1.32" pX="0" pY="0" z="1" dI="2" dr="4" />
+          <f dr="45" dI="-1" />
+        </b>
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-13.85" y="-192.9" cocos2d_x="-175.85" cocos2d_y="-279" kX="0" kY="0" cX="2.05" cY="2.05" pX="79" pY="41.95" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="-23.85" y="-192.9" cocos2d_x="138.15" cocos2d_y="-279" kX="0" kY="180" cX="2.05" cY="2.05" pX="79.05" pY="41.95" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="-14.4" y="-187.35" cocos2d_x="-161.2" cocos2d_y="-304" kX="0" kY="0" cX="2.74" cY="2.74" pX="53.5" pY="42.55" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="-21.4" y="-187.35" cocos2d_x="125.4" cocos2d_y="-304" kX="0" kY="180" cX="2.74" cY="2.74" pX="53.5" pY="42.55" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="-15.4" y="-199.5" cocos2d_x="-168.4" cocos2d_y="-298.5" kX="0" kY="0" cX="1" cY="1" pX="153" pY="99" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="-23.4" y="-199.5" cocos2d_x="129.6" cocos2d_y="-298.5" kX="0" kY="180" cX="1" cY="1" pX="153" pY="99" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="-14.4" y="-187.35" cocos2d_x="-161.2" cocos2d_y="-304" kX="0" kY="0" cX="2.74" cY="2.74" pX="53.5" pY="42.55" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="-21.4" y="-187.35" cocos2d_x="125.4" cocos2d_y="-304" kX="0" kY="180" cX="2.74" cY="2.74" pX="53.5" pY="42.55" z="2" dI="1" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+          <f x="-18.3" y="-99.45" cocos2d_x="-122" cocos2d_y="-209" kX="0" kY="0" cX="1.96" cY="1.96" pX="53" pY="55.95" z="2" dI="3" twE="0" dr="2" />
+          <f x="-18.25" y="-99.5" cocos2d_x="-153.3" cocos2d_y="-242.05" kX="0" kY="0" cX="2.55" cY="2.55" pX="53" pY="55.95" z="2" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.07" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="51" dI="-1" />
+        </b>
+        <b name="图层 12" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-22.5" y="-99" cocos2d_x="-125.55" cocos2d_y="-179" kX="0" kY="0" cX="2.42" cY="2.42" pX="42.5" pY="33" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="-17" y="-100.5" cocos2d_x="-74" cocos2d_y="-156" kX="0" kY="0" cX="1" cY="1" pX="57" pY="55.5" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="-12" y="-104" cocos2d_x="-59" cocos2d_y="-159" kX="0" kY="0" cX="1" cY="1" pX="47" pY="55" z="3" dI="2" dr="1" twE="NaN" />
+          <f x="-16" y="-104.5" cocos2d_x="-76" cocos2d_y="-167" kX="0" kY="0" cX="1" cY="1" pX="60" pY="62.5" z="3" dI="3" dr="1" twE="NaN" />
+          <f x="-12.5" y="-105" cocos2d_x="-115.55" cocos2d_y="-185" kX="0" kY="0" cX="2.42" cY="2.42" pX="42.5" pY="33" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="-17" y="-104.5" cocos2d_x="-74" cocos2d_y="-160" kX="0" kY="0" cX="1" cY="1" pX="57" pY="55.5" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="-11" y="-103" cocos2d_x="-58" cocos2d_y="-158" kX="0" kY="0" cX="1" cY="1" pX="47" pY="55" z="3" dI="2" dr="1" twE="NaN" />
+          <f x="-15" y="-102.5" cocos2d_x="-75" cocos2d_y="-165" kX="0" kY="0" cX="1" cY="1" pX="60" pY="62.5" z="3" dI="3" dr="1" twE="NaN" />
+          <f x="-22.5" y="-101" cocos2d_x="-125.55" cocos2d_y="-181" kX="0" kY="0" cX="2.42" cY="2.42" pX="42.5" pY="33" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="-17" y="-104.5" cocos2d_x="-74" cocos2d_y="-160" kX="0" kY="0" cX="1" cY="1" pX="57" pY="55.5" z="3" dI="1" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="-25" y="-87.5" cocos2d_x="-85" cocos2d_y="-150" kX="0" kY="0" cX="1" cY="1" pX="60" pY="62.5" z="3" dI="3" dr="1" twE="NaN" />
+          <f dr="54" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="20" dI="-1" />
+          <f x="206.35" y="-114.6" cocos2d_x="3.7" cocos2d_y="-13.65" kX="0" kY="0" cX="1" cY="1" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="207" y="-114.6" cocos2d_x="-0.55" cocos2d_y="-11.25" kX="0" kY="0" cX="1.02" cY="1.02" pX="202.65" pY="-100.9" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="208.85" y="-114.6" cocos2d_x="-13.4" cocos2d_y="-3.85" kX="0" kY="0" cX="1.1" cY="1.1" pX="202.65" pY="-101" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="211.95" y="-114.6" cocos2d_x="-34.75" cocos2d_y="8.3" kX="0" kY="0" cX="1.22" cY="1.22" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="216.4" y="-114.65" cocos2d_x="-64.6" cocos2d_y="25.35" kX="0" kY="0" cX="1.39" cY="1.39" pX="202.65" pY="-101" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="222.1" y="-114.6" cocos2d_x="-103" cocos2d_y="47.35" kX="0" kY="0" cX="1.6" cY="1.6" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="228.9" y="-114.6" cocos2d_x="-150.05" cocos2d_y="74.15" kX="0" kY="0" cX="1.87" cY="1.87" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="237.05" y="-114.6" cocos2d_x="-205.55" cocos2d_y="105.9" kX="0" kY="0" cX="2.18" cY="2.18" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="246.45" y="-114.6" cocos2d_x="-269.6" cocos2d_y="142.5" kX="0" kY="0" cX="2.55" cY="2.55" pX="202.6" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="257.15" y="-114.6" cocos2d_x="-342.15" cocos2d_y="183.95" kX="0" kY="0" cX="2.96" cY="2.96" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="269.05" y="-114.6" cocos2d_x="-423.35" cocos2d_y="230.3" kX="0" kY="0" cX="3.42" cY="3.42" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="350.1" y="-114.6" cocos2d_x="-179" cocos2d_y="149" kX="0" kY="0" cX="2.61" cY="2.61" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="859.25" y="-114.55" cocos2d_x="493.35" cocos2d_y="67.7" kX="0" kY="0" cX="1.81" cY="1.81" pX="202.65" pY="-100.95" z="4" dI="0" dr="1" twE="NaN" />
+          <f dr="36" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="33" dI="-1" />
+          <f x="827.1" y="-156.05" cocos2d_x="490.3" cocos2d_y="-324.8" kX="0" kY="0" cX="1" cY="1" pX="336.8" pY="168.75" z="5" dI="0" dr="10" />
+          <f dr="1" dI="-1" />
+          <f x="827.1" y="-156.05" cocos2d_x="490.3" cocos2d_y="-324.8" kX="0" kY="0" cX="1" cY="1" pX="336.8" pY="168.75" z="5" dI="0" dr="10" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="39" dI="-1" />
+          <f x="894.4" y="-276.35" cocos2d_x="1416.1" cocos2d_y="75.55" kX="180" kY="167.45" cX="1.59" cY="2.77" pX="336.75" pY="168.65" z="6" dI="0" dr="10" />
+          <f dr="1" dI="-1" />
+          <f x="700.15" y="-69.4" cocos2d_x="1704.15" cocos2d_y="-82.85" kX="69.19" kY="-153.53" cX="1.39" cY="3.7" pX="336.8" pY="168.8" z="6" dI="0" dr="10" />
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="37" dI="-1" />
+          <f x="700.15" y="-69.4" cocos2d_x="1704.15" cocos2d_y="-82.85" kX="69.19" kY="-153.53" cX="1.39" cY="3.7" pX="336.8" pY="168.8" z="7" dI="0" dr="10" />
+          <f dr="1" dI="-1" />
+          <f x="820.8" y="-170.1" cocos2d_x="367" cocos2d_y="81.7" kX="175.29" kY="-4.71" cX="1.4" cY="1.27" pX="336.75" pY="168.65" z="7" dI="0" dr="10" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="34" dI="-1" />
+          <f x="820.8" y="-170.1" cocos2d_x="367" cocos2d_y="81.7" kX="175.29" kY="-4.71" cX="1.4" cY="1.27" pX="336.75" pY="168.65" z="8" dI="0" dr="10" />
+          <f dr="1" dI="-1" />
+          <f x="894.4" y="-276.35" cocos2d_x="1416.1" cocos2d_y="75.55" kX="180" kY="167.45" cX="1.59" cY="2.77" pX="336.75" pY="168.65" z="8" dI="0" dr="10" />
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="33" dI="-1" />
+          <f x="827.1" y="-156.05" cocos2d_x="797.1" cocos2d_y="-136.05" kX="0" kY="0" cX="1" cY="1" pX="30" pY="-20" z="9" dI="0" dr="28" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="33" dI="-1" />
+          <f x="319.15" y="-75.85" cocos2d_x="-964.9" cocos2d_y="-760.7" kX="0" kY="0" cX="57.07" cY="57.07" pX="22.5" pY="12" z="10" dI="0" dr="1" twE="NaN" />
+          <f x="350" y="-145" cocos2d_x="-869.5" cocos2d_y="-788" kX="0" kY="0" cX="44.34" cY="44.34" pX="27.5" pY="14.5" z="10" dI="1" dr="2" />
+          <f dr="3" dI="-1" />
+          <f x="319.15" y="-75.85" cocos2d_x="-964.9" cocos2d_y="-760.7" kX="0" kY="0" cX="57.07" cY="57.07" pX="22.5" pY="12" z="10" dI="0" dr="1" twE="NaN" />
+          <f x="350" y="-145" cocos2d_x="-869.5" cocos2d_y="-788" kX="0" kY="0" cX="44.34" cY="44.34" pX="27.5" pY="14.5" z="10" dI="1" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="319.15" y="-75.85" cocos2d_x="-964.9" cocos2d_y="-760.7" kX="0" kY="0" cX="57.07" cY="57.07" pX="22.5" pY="12" z="10" dI="0" dr="1" twE="NaN" />
+          <f dr="7" dI="-1" />
+          <f x="319.15" y="-75.85" cocos2d_x="-964.9" cocos2d_y="-760.7" kX="0" kY="0" cX="57.07" cY="57.07" pX="22.5" pY="12" z="10" dI="0" dr="1" twE="NaN" />
+          <f x="350" y="-145" cocos2d_x="-869.5" cocos2d_y="-788" kX="0" kY="0" cX="44.34" cY="44.34" pX="27.5" pY="14.5" z="10" dI="1" dr="1" twE="NaN" />
+          <f dr="17" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="洪教主技能2" width="1024" height="1024">
+    <SubTexture name="435y6-8798559" width="134" height="137" x="670" y="728" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="435y6-6788" width="278" height="285" x="728" y="0" cocos2d_pX="-4.00" cocos2d_pY="-6.00" />
+    <SubTexture name="435y6-546665555" width="323" height="333" x="404" y="0" cocos2d_pX="-5.00" cocos2d_pY="-8.00" />
+    <SubTexture name="435y6-789879" width="403" height="385" x="0" y="0" cocos2d_pX="-6.00" cocos2d_pY="-5.00" />
+    <SubTexture name="435y6-43555" width="62" height="64" x="957" y="426" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-位图 2045454" width="62" height="64" x="957" y="361" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-676855544" width="113" height="76" x="496" y="777" cocos2d_pX="-18.00" cocos2d_pY="-6.00" />
+    <SubTexture name="435y6-6767855444" width="148" height="209" x="703" y="518" cocos2d_pX="-5.00" cocos2d_pY="-9.00" />
+    <SubTexture name="435y6-678555444" width="272" height="160" x="0" y="585" cocos2d_pX="-17.00" cocos2d_pY="-14.00" />
+    <SubTexture name="435y6-6578444" width="275" height="140" x="394" y="636" cocos2d_pX="-19.00" cocos2d_pY="-9.00" />
+    <SubTexture name="435y6-8877" width="89" height="93" x="307" y="497" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-6787855544" width="162" height="156" x="852" y="718" cocos2d_pX="-3.00" cocos2d_pY="-2.00" />
+    <SubTexture name="435y6-56756444" width="298" height="301" x="404" y="334" cocos2d_pX="-5.00" cocos2d_pY="-5.00" />
+    <SubTexture name="435y6-6664" width="70" height="71" x="852" y="617" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-54654" width="127" height="54" x="0" y="831" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-67867" width="110" height="52" x="266" y="829" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-777" width="79" height="78" x="935" y="542" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-55565555" width="66" height="74" x="957" y="286" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-666" width="82" height="98" x="852" y="518" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-34545" width="55" height="29" x="923" y="688" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-554666555" width="45" height="24" x="852" y="689" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-5676" width="120" height="125" x="273" y="591" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-75675" width="91" height="110" x="307" y="386" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-5654" width="114" height="111" x="273" y="717" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-876867" width="85" height="66" x="923" y="621" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-7567" width="106" height="112" x="159" y="746" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-654654" width="306" height="198" x="0" y="386" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-567" width="107" height="85" x="388" y="777" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-56756" width="158" height="84" x="0" y="746" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-68686768" width="49" height="50" x="957" y="491" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="435y6-56756756756" width="228" height="231" x="728" y="286" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,10 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SFormation";
+
+//code = 0x6700
+// 阵容
+message FormationRequest{
+	required int32 type = 1; 		//类型 1单阵容攻击 2单阵容防守 3双阵容攻击1阵容 4双阵容攻击2阵容
+	repeated int64 roleId = 2; 	    //侠客站位
+}

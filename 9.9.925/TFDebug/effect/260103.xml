@@ -1,0 +1,184 @@
+<skeleton name="百世镜技能被击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="-3.75" y="-107.15" kX="0" kY="0" cX="1.52" cY="1.52" pX="0.4" pY="0" z="0">
+        <d name="sdas-guangquan" />
+      </b>
+      <b name="图层 4" x="134.15" y="-116.05" kX="0" kY="0" cX="1.8" cY="1.8" pX="50.5" pY="100" z="1">
+        <d name="sdas-weitu3" />
+        <d name="sdas-weitu4" />
+      </b>
+      <b name="图层 14" x="0.45" y="-105.95" kX="0" kY="0" cX="1.72" cY="1.72" pX="75" pY="74.9" z="2">
+        <d name="sdas-wwe2.png" />
+      </b>
+      <b name="图层 9" x="47.15" y="-111.6" kX="0" kY="0" cX="0.92" cY="0.92" pX="6.35" pY="14" z="3">
+        <d name="sdas/beiji3" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="sdas/beiji3" isLoop="loop" startFrame="1">
+      <b name="Layer 1" x="-48.2" y="31.6" kX="0" kY="0" cX="1.7" cY="1.7" pX="80" pY="72.5" z="0">
+        <d name="sdas-weitu1" />
+        <d name="sdas-weitu2" />
+      </b>
+      <b name="Layer 13" x="-42.95" y="9.5" kX="180" kY="180" cX="1.46" cY="1.46" pX="0" pY="0" z="1">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 15" x="-36.1" y="16.8" kX="150" kY="150" cX="1.46" cY="1.46" pX="0" pY="0" z="2">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 17" x="-28.3" y="25.4" kX="-60" kY="-60" cX="1.46" cY="1.46" pX="0" pY="0" z="3">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 19" x="-21.55" y="31.45" kX="137.54" kY="137.54" cX="1.45" cY="1.45" pX="0" pY="0" z="4">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 21" x="-18" y="20.05" kX="-105" kY="-105" cX="0.92" cY="0.92" pX="0" pY="0" z="5">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 23" x="-21.35" y="25.55" kX="-135" kY="-135" cX="0.92" cY="0.92" pX="0" pY="0" z="6">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 25" x="-25.35" y="31.7" kX="15" kY="15" cX="0.92" cY="0.92" pX="0" pY="0" z="7">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 27" x="-27.9" y="36.8" kX="-147.46" kY="-147.46" cX="0.92" cY="0.92" pX="0" pY="0" z="8">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 29" x="-12.6" y="19.35" kX="-55.39" kY="-55.39" cX="1.45" cY="1.45" pX="0" pY="0" z="9">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 31" x="-22.55" y="20.85" kX="-85.39" kY="-85.39" cX="1.45" cY="1.45" pX="0" pY="0" z="10">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 33" x="-34.1" y="22.4" kX="64.61" kY="64.61" cX="1.45" cY="1.45" pX="0" pY="0" z="11">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 35" x="-42.85" y="24.5" kX="-97.85" kY="-97.85" cX="1.45" cY="1.45" pX="0" pY="0" z="12">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+      <b name="Layer 37" x="-27.2" y="22" kX="-22.27" kY="-22.27" cX="1.45" cY="1.45" pX="0" pY="0" z="13">
+        <d name="sdas/tiantang163" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="sdas/tiantang163" isLoop="loop" startFrame="1">
+      <b name="Layer 1" x="-36.1" y="1.4" kX="-45" kY="-45" cX="0.25" cY="0.25" pX="0" pY="0" z="0">
+        <d name="sdas-tiantang92" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="sdas/tiantang163">
+      <mov name="sad" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="Layer 1" sc="1" dl="0">
+          <f x="-36.1" y="1.4" cocos2d_x="-36.1" cocos2d_y="1.4" kX="-45" kY="-45" cX="0.25" cY="0.25" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="151" g="64" b="0" aM="1" rM="0.3" gM="0.3" bM="0.3" />
+          </f>
+          <f x="21.7" y="-47.35" cocos2d_x="21.7" cocos2d_y="-47.35" kX="14.99" kY="15" cX="0.25" cY="0.25" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="2">
+            <colorTransform a="0" r="144" g="27" b="0" aM="1" rM="0.33" gM="0.33" bM="0.33" />
+          </f>
+          <f x="80.55" y="-65.45" cocos2d_x="80.55" cocos2d_y="-65.45" kX="23.59" kY="23.58" cX="0.25" cY="0.25" pX="0" pY="0" z="0" dI="0" blend="add" dr="1" twE="NaN">
+            <colorTransform a="-148" r="148" g="29" b="0" aM="1" rM="0.31" gM="0.31" bM="0.31" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="sdas/beiji3">
+      <mov name="gfs" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="Layer 1" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-48.2" y="31.6" cocos2d_x="-184.45" cocos2d_y="-91.9" kX="0" kY="0" cX="1.7" cY="1.7" pX="80" pY="72.5" z="0" dI="0" dr="2" />
+          <f x="-50.3" y="17.35" cocos2d_x="-189.7" cocos2d_y="-114.5" kX="0" kY="0" cX="1.01" cY="1.01" pX="138.5" pY="131" z="0" dI="1" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="Layer 13" sc="1" dl="0">
+          <f x="-42.95" y="9.5" cocos2d_x="-42.95" cocos2d_y="9.5" kX="180" kY="180" cX="1.46" cY="1.46" pX="0" pY="0" z="1" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 15" sc="1" dl="0">
+          <f x="-36.1" y="16.8" cocos2d_x="-36.1" cocos2d_y="16.8" kX="150" kY="150" cX="1.46" cY="1.46" pX="0" pY="0" z="2" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 17" sc="1" dl="0">
+          <f x="-28.3" y="25.4" cocos2d_x="-28.3" cocos2d_y="25.4" kX="-60" kY="-60" cX="1.46" cY="1.46" pX="0" pY="0" z="3" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 19" sc="1" dl="0">
+          <f x="-21.55" y="31.45" cocos2d_x="-21.55" cocos2d_y="31.45" kX="137.54" kY="137.54" cX="1.45" cY="1.45" pX="0" pY="0" z="4" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 21" sc="1" dl="0">
+          <f x="-18" y="20.05" cocos2d_x="-18" cocos2d_y="20.05" kX="-105" kY="-105" cX="0.92" cY="0.92" pX="0" pY="0" z="5" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 23" sc="1" dl="0">
+          <f x="-21.35" y="25.55" cocos2d_x="-21.35" cocos2d_y="25.55" kX="-135" kY="-135" cX="0.92" cY="0.92" pX="0" pY="0" z="6" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 25" sc="1" dl="0">
+          <f x="-25.35" y="31.7" cocos2d_x="-25.35" cocos2d_y="31.7" kX="15" kY="15" cX="0.92" cY="0.92" pX="0" pY="0" z="7" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 27" sc="1" dl="0">
+          <f x="-27.9" y="36.8" cocos2d_x="-27.9" cocos2d_y="36.8" kX="-147.46" kY="-147.46" cX="0.92" cY="0.92" pX="0" pY="0" z="8" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 29" sc="1" dl="0">
+          <f x="-12.6" y="19.35" cocos2d_x="-12.6" cocos2d_y="19.35" kX="-55.39" kY="-55.39" cX="1.45" cY="1.45" pX="0" pY="0" z="9" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 31" sc="1" dl="0">
+          <f x="-22.55" y="20.85" cocos2d_x="-22.55" cocos2d_y="20.85" kX="-85.39" kY="-85.39" cX="1.45" cY="1.45" pX="0" pY="0" z="10" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 33" sc="1" dl="0">
+          <f x="-34.1" y="22.4" cocos2d_x="-34.1" cocos2d_y="22.4" kX="64.61" kY="64.61" cX="1.45" cY="1.45" pX="0" pY="0" z="11" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 35" sc="1" dl="0">
+          <f x="-42.85" y="24.5" cocos2d_x="-42.85" cocos2d_y="24.5" kX="-97.85" kY="-97.85" cX="1.45" cY="1.45" pX="0" pY="0" z="12" dI="0" dr="4" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="Layer 37" sc="1" dl="0">
+          <f x="-27.2" y="22" cocos2d_x="-27.2" cocos2d_y="22" kX="-22.27" kY="-22.27" cX="1.45" cY="1.45" pX="0" pY="0" z="13" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="hit" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-3.75" y="-107.15" cocos2d_x="-4.35" cocos2d_y="-107.15" kX="0" kY="0" cX="1.52" cY="1.52" pX="0.4" pY="0" z="0" dI="0" blend="add" dr="3" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="134.15" y="-116.05" cocos2d_x="43.45" cocos2d_y="-295.7" kX="0" kY="0" cX="1.8" cY="1.8" pX="50.5" pY="100" z="1" dI="0" dr="2" />
+          <f x="32.45" y="-115.75" cocos2d_x="-57.25" cocos2d_y="-234.85" kX="0" kY="0" cX="1.4" cY="1.4" pX="64" pY="85" z="1" dI="1" dr="4" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 14" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="0.45" y="-105.95" cocos2d_x="-128.65" cocos2d_y="-234.85" kX="0" kY="0" cX="1.72" cY="1.72" pX="75" pY="74.9" z="2" dI="0" dr="2" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="47.15" y="-111.6" cocos2d_x="41.3" cocos2d_y="-124.55" kX="0" kY="0" cX="0.92" cY="0.92" pX="6.35" pY="14" z="3" dI="0" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+        <f st="0" dr="10" />
+        <f st="10" dr="1" />
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="百世镜技能被击特效" width="512" height="512">
+    <SubTexture name="sdas-tiantang92" width="111" height="111" x="380" y="311" cocos2d_pX="20.55" cocos2d_pY="20.55" />
+    <SubTexture name="sdas-weitu2" width="277" height="262" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sdas-weitu1" width="160" height="145" x="278" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sdas-wwe2.png" width="124" height="137" x="0" y="263" cocos2d_pX="-13.00" cocos2d_pY="-8.00" />
+    <SubTexture name="sdas-weitu4" width="120" height="164" x="380" y="146" cocos2d_pX="-3.00" cocos2d_pY="-1.00" />
+    <SubTexture name="sdas-weitu3" width="101" height="200" x="278" y="146" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="sdas-guangquan" width="115" height="117" x="125" y="263" cocos2d_pX="58.15" cocos2d_pY="59.50" />
+  </TextureAtlas>
+</skeleton>

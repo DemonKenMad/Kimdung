@@ -1,0 +1,146 @@
+<skeleton name="朱丹臣普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="Layer 59" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="Image-shape 67" />
+        <d name="Image-shape 90" />
+      </b>
+      <b name="图层 6" x="185.45" y="-81.7" kX="-23.46" kY="0.39" cX="0.92" cY="1.16" pX="75.05" pY="39.9" z="1">
+        <d name="Image-mozhedaoguang_00000.png" />
+        <d name="Image-modian" />
+      </b>
+      <b name="图层 5" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="Image/shape 86" isArmature="1" />
+        <d name="Image-modian" />
+      </b>
+      <b name="图层 7" x="63.3" y="-35.5" kX="112.28" kY="172.24" cX="1.95" cY="1.72" pX="75.15" pY="39.75" z="3">
+        <d name="Image-mozhedaoguang_00000.png" />
+        <d name="Image-modian" />
+      </b>
+      <b name="图层 4" x="262" y="-66.95" kX="0" kY="0" cX="0.87" cY="0.87" pX="74.95" pY="74.95" z="4">
+        <d name="Image-wwe.png" />
+        <d name="Image-shuimo2" />
+      </b>
+      <b name="Layer 60" x="177.95" y="-49.9" kX="-15" kY="-15" cX="0.37" cY="0.37" pX="75.05" pY="75.05" z="5">
+        <d name="Image-wwe.png" />
+        <d name="Image-mozhedaoguang_00000.png" />
+      </b>
+      <b name="Layer 61" x="244.5" y="-104.35" kX="0" kY="0" cX="0.59" cY="0.59" pX="31.45" pY="34.5" z="6">
+        <d name="Image-faguang6.png" />
+        <d name="Image-wwe.png" />
+      </b>
+      <b name="Layer 62" x="207.45" y="-113.9" kX="0" kY="0" cX="0.79" cY="0.79" pX="31.45" pY="34.5" z="7">
+        <d name="Image-faguang6.png" />
+        <d name="Image-wwe.png" />
+      </b>
+    </armature>
+    <armature name="Image/shape 86" isLoop="loop" startFrame="1">
+      <b name="Layer 56" x="129.55" y="-84.5" kX="0" kY="0" cX="1" cY="1" pX="193" pY="77" z="0">
+        <d name="Image-weitu2" />
+      </b>
+      <b name="图层 62" x="202.75" y="-54.15" kX="0" kY="0" cX="1.04" cY="1.04" pX="0.35" pY="0.3" z="1">
+        <d name="Image-modian" />
+      </b>
+      <b name="图层 60" x="273.4" y="-86.1" kX="-21.45" kY="-21.45" cX="1.43" cY="1.5" pX="0.4" pY="0.3" z="2">
+        <d name="Image-modian" />
+      </b>
+      <b name="图层 61" x="225.6" y="-112.25" kX="-23.25" kY="-23.25" cX="0.8" cY="0.86" pX="0.4" pY="0.2" z="3">
+        <d name="Image-modian" />
+      </b>
+      <b name="图层 63" x="321.4" y="-118.65" kX="0" kY="0" cX="0.44" cY="0.44" pX="0.35" pY="0.35" z="4">
+        <d name="Image-modian" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="Image/shape 86">
+      <mov name="dsad" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="Layer 56" sc="1" dl="0">
+          <f x="129.55" y="-84.5" cocos2d_x="-63.45" cocos2d_y="-161.5" kX="0" kY="0" cX="1" cY="1" pX="193" pY="77" z="0" dI="0" dr="2" />
+        </b>
+        <b name="图层 62" sc="1" dl="0">
+          <f x="202.75" y="-54.15" cocos2d_x="202.4" cocos2d_y="-54.5" kX="0" kY="0" cX="1.04" cY="1.04" fst="0" pX="0.35" pY="0.3" z="1" dI="0" dr="2" />
+        </b>
+        <b name="图层 60" sc="1" dl="0">
+          <f x="273.4" y="-86.1" cocos2d_x="272.75" cocos2d_y="-86.4" kX="-21.45" kY="-21.45" cX="1.43" cY="1.5" fst="0" pX="0.4" pY="0.3" z="2" dI="0" dr="2" />
+        </b>
+        <b name="图层 61" sc="1" dl="0">
+          <f x="225.6" y="-112.25" cocos2d_x="225.2" cocos2d_y="-112.3" kX="-23.25" kY="-23.25" cX="0.8" cY="0.86" fst="0" pX="0.4" pY="0.2" z="3" dI="0" dr="2" />
+        </b>
+        <b name="图层 63" sc="1" dl="0">
+          <f x="321.4" y="-118.65" cocos2d_x="321.25" cocos2d_y="-118.8" kX="0" kY="0" cX="0.44" cY="0.44" fst="0" pX="0.35" pY="0.35" z="4" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsadsa" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="Layer 59" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="185.45" y="-81.7" cocos2d_x="97.8" cocos2d_y="-124.85" kX="-23.46" kY="0.39" cX="0.92" cY="1.16" pX="75.05" pY="39.9" z="1" dI="0" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="239.5" y="-83.65" cocos2d_x="238.95" cocos2d_y="-84" kX="-15" kY="-15" cX="1.23" cY="1.23" fst="0" pX="0.4" pY="0.45" z="1" dI="1" dr="3" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f dr="1" dI="-1" />
+          <f x="166.65" y="-63.7" cocos2d_x="166.55" cocos2d_y="-63.85" kX="-7.49" kY="-7.49" cX="0.44" cY="0.44" fst="0" pX="0.25" pY="0.35" z="2" dI="1" dr="3" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="63.3" y="-35.5" cocos2d_x="272.05" cocos2d_y="-29.35" kX="112.28" kY="172.24" cX="1.95" cY="1.72" pX="75.15" pY="39.75" z="3" dI="0" dr="2" />
+          <f dr="1" dI="-1" />
+          <f x="230.35" y="-127.7" cocos2d_x="230.05" cocos2d_y="-127.6" kX="-67.49" kY="-67.49" cX="0.77" cY="0.77" fst="0" pX="0.25" pY="0.3" z="3" dI="1" dr="3" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="262" y="-66.95" cocos2d_x="197" cocos2d_y="-131.95" kX="0" kY="0" cX="0.87" cY="0.87" pX="74.95" pY="74.95" z="4" dI="0" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="178.75" y="-102.9" cocos2d_x="193.45" cocos2d_y="-102.15" kX="0" kY="0" cX="1.55" cY="1.55" fst="0" pX="-9.5" pY="-0.5" z="4" dI="1" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="Layer 60" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="177.95" y="-49.9" cocos2d_x="143.65" cocos2d_y="-69.7" kX="-15" kY="-15" cX="0.37" cY="0.37" pX="75.05" pY="75.05" z="5" dI="0" dr="2" />
+          <f x="32.25" y="-32.55" cocos2d_x="195.95" cocos2d_y="-20.05" kX="109.65" kY="167" cX="1.07" cY="2.29" pX="75.15" pY="39.7" z="5" dI="1" dr="2" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="Layer 61" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="244.5" y="-104.35" cocos2d_x="225.8" cocos2d_y="-124.85" kX="0" kY="0" cX="0.59" cY="0.59" pX="31.45" pY="34.5" z="6" dI="0" dr="1" twE="NaN" />
+          <f x="318.5" y="-119.9" cocos2d_x="305.4" cocos2d_y="-134.25" kX="0" kY="0" cX="0.42" cY="0.42" pX="31.5" pY="34.5" z="6" dI="0" dr="2" />
+          <f x="223" y="-72.35" cocos2d_x="174" cocos2d_y="-121.35" kX="0" kY="0" cX="0.65" cY="0.65" pX="75" pY="75" z="6" dI="1" dr="2" />
+          <f x="198.4" y="-103" cocos2d_x="110.5" cocos2d_y="-190.9" kX="0" kY="0" cX="1.17" cY="1.17" pX="75" pY="75" z="6" dI="1" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="Layer 62" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="207.45" y="-113.9" cocos2d_x="182.5" cocos2d_y="-141.25" kX="0" kY="0" cX="0.79" cY="0.79" pX="31.45" pY="34.5" z="7" dI="0" dr="2" />
+          <f dr="1" dI="-1" />
+          <f x="160.4" y="-64.1" cocos2d_x="133.45" cocos2d_y="-91.05" kX="0" kY="0" cX="0.36" cY="0.36" pX="75" pY="75" z="7" dI="1" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="朱丹臣普攻" width="512" height="512">
+    <SubTexture name="Image-weitu2" width="386" height="154" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Image-faguang6.png" width="63" height="69" x="387" y="77" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Image-shuimo2" width="81" height="76" x="387" y="0" cocos2d_pX="49.00" cocos2d_pY="36.50" />
+    <SubTexture name="Image-wwe.png" width="150" height="150" x="273" y="155" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Image-modian" width="127" height="64" x="151" y="306" cocos2d_pX="62.65" cocos2d_pY="31.15" />
+    <SubTexture name="Image-mozhedaoguang_00000.png" width="150" height="80" x="0" y="267" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Image-shape 90" width="269" height="55" x="0" y="211" cocos2d_pX="82.10" cocos2d_pY="43.80" />
+    <SubTexture name="Image-shape 67" width="272" height="55" x="0" y="155" cocos2d_pX="21.60" cocos2d_pY="108.60" />
+  </TextureAtlas>
+</skeleton>

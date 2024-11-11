@@ -1,0 +1,136 @@
+<skeleton name="阿朱技能攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="29.85" y="-36.7" kX="0" kY="0" cX="1.07" cY="1.26" pX="106.5" pY="31.5" z="0">
+        <d name="dsahj/yanwu" isArmature="1" />
+        <d name="dsahj/bujian 18" isArmature="1" />
+      </b>
+      <b name="图层 30" x="-36.85" y="-36.7" kX="0" kY="180" cX="1.05" cY="1.26" pX="106.4" pY="31.5" z="1">
+        <d name="dsahj/yanwu" isArmature="1" />
+        <d name="dsahj/bujian 18" isArmature="1" />
+      </b>
+      <b name="图层 4" x="23.95" y="-192.45" kX="-24.92" kY="-24.92" cX="1.33" cY="0.87" pX="-0.05" pY="0.15" z="2">
+        <d name="dsahj/daoguang" isArmature="1" />
+        <d name="dsahj/yanwu" isArmature="1" />
+      </b>
+      <b name="图层 8" x="6.8" y="-58.95" kX="-23.43" kY="-28.53" cX="0.71" cY="0.43" pX="0" pY="0" z="3">
+        <d name="dsahj/daoguang" isArmature="1" />
+      </b>
+      <b name="图层 8 复制" x="-1.05" y="-97.45" kX="-22.18" kY="151.47" cX="1" cY="0.33" pX="-0.1" pY="-0.2" z="4">
+        <d name="dsahj/daoguang" isArmature="1" />
+      </b>
+      <b name="图层 2" x="33.9" y="-62.4" kX="-110.42" kY="11.93" cX="0.72" cY="2.7" pX="-0.05" pY="0.1" z="5">
+        <d name="dsahj/daoguang" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dsahj/yanwu" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="122.15" y="31.4" kX="0" kY="0" cX="1" cY="1" pX="45" pY="34" z="0">
+        <d name="dsahj-yanwu.png" />
+        <d name="dsahj-yanwu2.png" />
+        <d name="dsahj-3.png" />
+      </b>
+    </armature>
+    <armature name="dsahj/bujian 18" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-0.05" y="0.05" kX="34.46" kY="34.46" cX="0.77" cY="0.77" pX="29.5" pY="29.05" z="0">
+        <d name="dsahj-xingxing.png" />
+      </b>
+    </armature>
+    <armature name="dsahj/daoguang" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="-23.95" y="-6" kX="0" kY="0" cX="1.45" cY="1.45" pX="100.05" pY="51.95" z="0">
+        <d name="dsahj-daoguang00000.png" />
+        <d name="dsahj-daoguang00002.png" />
+        <d name="dsahj-daoguang00004.png" />
+        <d name="dsahj-daoguang00005.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dsahj/yanwu">
+      <mov name="sad" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="122.15" y="31.4" cocos2d_x="77.15" cocos2d_y="-2.6" kX="0" kY="0" cX="1" cY="1" pX="45" pY="34" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="126.5" y="33.5" cocos2d_x="86.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="40" pY="33.5" z="0" dI="1" dr="2" />
+          <f x="102" y="31.75" cocos2d_x="46.5" cocos2d_y="2.25" kX="0" kY="0" cX="1" cY="1" pX="55.5" pY="29.5" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dsahj/bujian 18">
+      <mov name="sadsa" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.05" y="0.05" cocos2d_x="-6.1" cocos2d_y="-31.25" kX="34.46" kY="34.46" cX="0.77" cY="0.77" pX="29.5" pY="29.05" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-0.05" y="0.05" cocos2d_x="-6.1" cocos2d_y="-31.25" kX="34.46" kY="34.46" cX="0.77" cY="0.77" pX="29.5" pY="29.05" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dsahj/daoguang">
+      <mov name="asda" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-23.95" y="-6" cocos2d_x="-168.9" cocos2d_y="-81.3" kX="0" kY="0" cX="1.45" cY="1.45" pX="100.05" pY="51.95" z="0" dI="0" dr="2" />
+          <f x="-2.15" y="-4.5" cocos2d_x="-146.4" cocos2d_y="-86.05" kX="0" kY="0" cX="1.44" cY="1.44" pX="99.95" pY="56.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-6.9" y="-3.2" cocos2d_x="-150" cocos2d_y="-84.05" kX="0" kY="0" cX="1.43" cY="1.43" pX="100" pY="56.5" z="0" dI="2" dr="2" />
+          <f x="-6.9" y="-1.05" cocos2d_x="-150" cocos2d_y="-84.05" kX="0" kY="0" cX="1.43" cY="1.43" pX="100" pY="58" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="37" to="0" drTW="37" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="29.85" y="-36.7" cocos2d_x="-84.5" cocos2d_y="-76.4" kX="0" kY="0" cX="1.07" cY="1.26" pX="106.5" pY="31.5" z="0" dI="0" dr="5" />
+          <f dr="18" dI="-1" />
+          <f x="-157.75" y="-94.45" cocos2d_x="-156.85" cocos2d_y="-94.3" kX="0" kY="0" cX="0.66" cY="0.66" pX="-1.35" pY="-0.2" z="0" dI="1" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-157.8" y="-94.45" cocos2d_x="-156.55" cocos2d_y="-94.1" kX="12.52" kY="12.52" cX="0.87" cY="0.87" pX="-1.5" pY="-0.05" z="0" dI="1" twE="0" dr="2" />
+          <f x="-157.75" y="-94.5" cocos2d_x="-156.65" cocos2d_y="-93.9" kX="22.54" kY="22.54" cX="0.83" cY="0.83" pX="-1.45" pY="-0.2" z="0" dI="1" twE="0" dr="3" />
+          <f x="-157.8" y="-94.45" cocos2d_x="-157.1" cocos2d_y="-93.75" kX="37.63" kY="37.63" cX="0.66" cY="0.66" pX="-1.5" pY="-0.2" z="0" dI="1" twE="0" dr="1" />
+        </b>
+        <b name="图层 30" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="-36.85" y="-36.7" cocos2d_x="75.15" cocos2d_y="-76.4" kX="0" kY="180" cX="1.05" cY="1.26" pX="106.4" pY="31.5" z="1" dI="0" dr="5" />
+          <f dr="18" dI="-1" />
+          <f x="-156.85" y="-94.3" cocos2d_x="-156.85" cocos2d_y="-94.3" kX="0" kY="0" cX="0.66" cY="0.66" pX="0" pY="0" z="1" dI="1" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-157.8" y="-94.45" cocos2d_x="-156.55" cocos2d_y="-94.1" kX="12.52" kY="12.52" cX="0.87" cY="0.87" pX="-1.5" pY="-0.05" z="1" dI="1" twE="0" dr="2" />
+          <f x="-157.75" y="-94.5" cocos2d_x="-156.65" cocos2d_y="-93.9" kX="22.54" kY="22.54" cX="0.83" cY="0.83" pX="-1.45" pY="-0.2" z="1" dI="1" twE="0" dr="3" />
+          <f x="-157.8" y="-94.45" cocos2d_x="-157.1" cocos2d_y="-93.75" kX="37.63" kY="37.63" cX="0.66" cY="0.66" pX="-1.5" pY="-0.2" z="1" dI="1" twE="0" dr="1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="23.95" y="-192.45" cocos2d_x="23.95" cocos2d_y="-192.6" kX="-24.92" kY="-24.92" cX="1.33" cY="0.87" pX="-0.05" pY="0.15" z="2" dI="0" dr="6" />
+          <f dr="16" dI="-1" />
+          <f x="-77.1" y="-19.7" cocos2d_x="18.15" cocos2d_y="-41.55" kX="4.06" kY="180" cX="0.88" cY="0.7" pX="106.55" pY="31.35" z="2" dI="1" dr="5" />
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f x="6.8" y="-58.95" cocos2d_x="6.8" cocos2d_y="-58.95" kX="-23.43" kY="-28.53" cX="0.71" cY="0.43" pX="0" pY="0" z="3" dI="0" dr="6" />
+          <f dr="2" dI="-1" />
+          <f x="45.05" y="-51.9" cocos2d_x="45.15" cocos2d_y="-51.9" kX="-42.38" kY="166.68" cX="1" cY="0.58" pX="0.1" pY="-0.05" z="3" dI="0" dr="6" />
+          <f dr="23" dI="-1" />
+        </b>
+        <b name="图层 8 复制" sc="1" dl="0">
+          <f x="-1.05" y="-97.45" cocos2d_x="-1.15" cocos2d_y="-97.35" kX="-22.18" kY="151.47" cX="1" cY="0.33" pX="-0.1" pY="-0.2" z="4" dI="0" dr="6" />
+          <f dr="2" dI="-1" />
+          <f x="24.15" y="-66.05" cocos2d_x="24.15" cocos2d_y="-66.05" kX="-134.13" kY="167.52" cX="0.64" cY="0.61" pX="0" pY="0" z="4" dI="0" dr="6" />
+          <f dr="23" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="33.9" y="-62.4" cocos2d_x="33.65" cocos2d_y="-62.3" kX="-110.42" kY="11.93" cX="0.72" cY="2.7" pX="-0.05" pY="0.1" z="5" dI="0" dr="6" />
+          <f dr="20" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阿朱技能攻击特效" width="512" height="512">
+    <SubTexture name="dsahj-daoguang00005.png" width="199" height="116" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-daoguang00004.png" width="200" height="113" x="200" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-daoguang00002.png" width="200" height="113" x="200" y="114" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-daoguang00000.png" width="200" height="104" x="0" y="228" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-xingxing.png" width="59" height="58" x="112" y="117" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-3.png" width="111" height="59" x="0" y="117" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-yanwu2.png" width="80" height="67" x="401" y="69" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dsahj-yanwu.png" width="90" height="68" x="401" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

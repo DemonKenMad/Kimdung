@@ -1,0 +1,43 @@
+<skeleton name="神技能角色底层(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="1.1" y="-1.1" kX="0" kY="0" cX="7.85" cY="6.37" pX="0" pY="-0.1" z="0">
+        <d name="xxx-zhangweirinhart05" />
+      </b>
+      <b name="图层 2" x="-146.9" y="-9.05" kX="0" kY="0" cX="154.75" cY="154.75" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweirinhart02" />
+      </b>
+      <b name="图层 1" x="31.95" y="-132.5" kX="0" kY="0" cX="3.73" cY="3.73" pX="-7.95" pY="27.15" z="2">
+        <d name="xxx-zhangweirinhart07" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="asdffasdgfasdgasd" dr="54" to="0" drTW="54" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="1.1" y="-1.1" cocos2d_x="1.1" cocos2d_y="-0.45" kX="0" kY="0" cX="7.85" cY="6.37" fst="0" pX="0" pY="-0.1" z="0" dI="0" dr="39" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="44" dI="-1" />
+          <f x="-146.9" y="-9.05" cocos2d_x="-146.9" cocos2d_y="-9.05" kX="0" kY="0" cX="154.75" cY="154.75" fst="0" pX="0" pY="0" z="1" dI="0" dr="9" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="44" dI="-1" />
+          <f x="31.95" y="-132.5" cocos2d_x="61.6" cocos2d_y="-233.75" kX="0" kY="0" cX="3.73" cY="3.73" fst="1" pX="-7.95" pY="27.15" z="2" dI="0" dr="2" />
+          <f x="82.05" y="-132.45" cocos2d_x="140.8" cocos2d_y="-333.4" kX="0" kY="0" cX="7.39" cY="7.39" fst="1" pX="-7.95" pY="27.2" z="2" dI="0" dr="2" />
+          <f x="241.95" y="-128.65" cocos2d_x="392.55" cocos2d_y="-647.15" kX="0" kY="0" cX="19.06" cY="19.06" fst="1" pX="-7.9" pY="27.2" z="2" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神技能角色底层(2)" width="512" height="512">
+    <SubTexture name="xxx-zhangweirinhart07" width="126" height="116" x="0" y="314" cocos2d_pX="78.20" cocos2d_pY="30.20" />
+    <SubTexture name="xxx-zhangweirinhart02" width="16" height="11" x="390" y="0" cocos2d_pX="7.65" cocos2d_pY="5.25" />
+    <SubTexture name="xxx-zhangweirinhart05" width="389" height="313" x="0" y="0" cocos2d_pX="184.55" cocos2d_pY="156.55" />
+  </TextureAtlas>
+</skeleton>

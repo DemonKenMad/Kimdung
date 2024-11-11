@@ -1,0 +1,24 @@
+<skeleton name="小技能飞行道具(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="20" y="-115.15" kX="0" kY="0" cX="0.46" cY="0.17" pX="130" pY="121" z="0">
+        <d name="xxx-zhangweifilesMHX02" />
+        <d name="xxx-zhangweifilesMHX03" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="asdfasfdfdas" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="20" y="-115.15" cocos2d_x="-39.5" cocos2d_y="-135.5" kX="0" kY="0" cX="0.46" cY="0.17" pX="130" pY="121" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="20" y="-115.15" cocos2d_x="-39.5" cocos2d_y="-135.5" kX="0" kY="0" cX="0.46" cY="0.17" pX="130" pY="121" z="0" dI="1" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="小技能飞行道具(2)" width="512" height="256">
+    <SubTexture name="xxx-zhangweifilesMHX03" width="246" height="203" x="0" y="0" cocos2d_pX="-14.00" cocos2d_pY="-19.00" />
+    <SubTexture name="xxx-zhangweifilesMHX02" width="221" height="192" x="247" y="0" cocos2d_pX="-39.00" cocos2d_pY="-27.00" />
+  </TextureAtlas>
+</skeleton>

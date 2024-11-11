@@ -1,0 +1,33 @@
+<skeleton name="升红技能发动下层黑屏" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="143.75" y="46.6" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-sadgasdgasd"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="fdsagasgaj" dr="92" to="0" drTW="92" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="143.75" y="46.6" cocos2d_x="143.75" cocos2d_y="46.6" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="143.75" y="46.6" cocos2d_x="143.75" cocos2d_y="46.6" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="76">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.9" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="143.75" y="46.6" cocos2d_x="143.75" cocos2d_y="46.6" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" twE="1" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.9" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="143.75" y="46.6" cocos2d_x="143.75" cocos2d_y="46.6" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="3" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="升红技能发动下层黑屏" width="64" height="32">
+    <SubTexture name="xxx-sadgasdgasd" width="57" height="29" x="0" y="0" cocos2d_pX="28.85" cocos2d_pY="14.25"/>
+  </TextureAtlas>
+</skeleton>

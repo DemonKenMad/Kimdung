@@ -1,0 +1,35 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname = "S2CLimitHotMsg";
+import "s2c/Reward_s2c.proto";
+
+//code = 0x5a01
+//限时抢购信息
+message LimitHotInfoResponse{
+	repeated LimitHotConfig config = 1;			//商品配置数据
+	repeated LimitHotDataInfo dataInfo = 2;			//限时抢购数据
+}
+
+// code = 0x5a02
+// 限时购买
+message LimitHotBuyReponse{
+	required LimitHotDataInfo dataInfo = 1;			//限时抢购数据
+}
+
+message LimitHotConfig{
+	required int32 id = 1;				//商品信息id
+	required string goods = 2;			//商品数据(type,id,num)
+	required int32 price = 3;			//原价格
+	required int32 currentPrice = 4;	//现价格
+	required int32 customerLimit = 5;	//个人限购数量
+	required int32 goodsLimit = 6;		//商品限购数量
+	required int32 discount = 7;		//商品折扣
+	required int32 beginTime = 8;		//上架时间
+	required int32 endTime = 9;			//下架时间
+}
+
+message LimitHotDataInfo{
+	required int32 id = 1;				//商品信息id
+	required int32 current = 2;			//玩家当前购买数量
+	required int32 serverCurrent = 3;	//服务器当前当前购买数量
+}

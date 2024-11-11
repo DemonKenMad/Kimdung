@@ -1,0 +1,50 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CHomeMsg";
+
+// 打开家园
+// code = 0x7400
+message OpenHomeReponse {
+	required int32 level = 1;					// 等级
+	required int32 exp = 2;						// 经验
+	required int32 praiseCount = 3	;				//点赞次数
+	repeated int32 praiseFriends = 4;				//被点赞过的玩家
+	required int32 drawCount = 5;					//领取奖励的次数
+}
+
+// 转盘
+// code = 0x7402
+message HomeTurntableReponse {
+	required int32 id = 1;						// 获得道具的转盘ID
+}
+
+// 打开家园
+// code = 0x7404
+message HomeLevelReponse {
+	required int32 level = 1;					// 等级
+}
+
+//好友点赞排行
+// code = 0x7406
+message FriendPraiseRanks{
+	repeated FriendPraiseRank ranks = 1;
+}
+message FriendPraiseRank{
+	required int32 playerId = 1;//玩家编号
+	required string name = 2;//名称
+	required int32 homeLevel = 3;//家园等级
+	required int32 praiseCount = 4;//点赞次数
+	required int32 icon = 5;				//头像
+	required int32 headPicFrame = 6; 				 //头像边框
+	required int32 exp = 7;
+}
+//点赞成功
+// code = 0x7407
+message PraiseSucess{
+
+}
+//领取家园奖励成功
+// code = 0x7408
+message DrawHomeAwardScuess{
+
+}

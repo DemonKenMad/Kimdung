@@ -1,0 +1,38 @@
+<skeleton name="神秘人普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="129.5" y="-47.45" kX="0" kY="0" cX="1.39" cY="1.39" pX="88.5" pY="46.5" z="0">
+        <d name="ertrtyy-678678" />
+        <d name="ertrtyy-345435" />
+        <d name="ertrtyy-y46456" />
+        <d name="ertrtyy-978978" />
+        <d name="ertrtyy-435356" />
+        <d name="ertrtyy-567567" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="67888" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="11" dI="-1" />
+          <f x="129.5" y="-47.45" cocos2d_x="6.55" cocos2d_y="-112.05" kX="0" kY="0" cX="1.39" cY="1.39" pX="88.5" pY="46.5" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="152" y="-147.95" cocos2d_x="-21.3" cocos2d_y="-313" kX="0" kY="0" cX="2.06" cY="2.06" pX="83.95" pY="80" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="186.05" y="-172" cocos2d_x="28.65" cocos2d_y="-355.95" kX="0" kY="0" cX="2.04" cY="2.04" pX="77" pY="90" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="172.9" y="-211.45" cocos2d_x="-13" cocos2d_y="-461.05" kX="0" kY="0" cX="3.44" cY="3.44" pX="54" pY="72.5" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="172.05" y="-208.95" cocos2d_x="-23.95" cocos2d_y="-427" kX="0" kY="0" cX="2.45" cY="2.45" pX="80.05" pY="89" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="155" y="-203.95" cocos2d_x="-34.2" cocos2d_y="-399" kX="0" kY="0" cX="1.95" cY="1.95" pX="97" pY="100" z="0" dI="5" dr="1" twE="NaN" />
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神秘人普工" width="512" height="512">
+    <SubTexture name="ertrtyy-567567" width="194" height="200" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="ertrtyy-435356" width="160" height="178" x="195" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="ertrtyy-978978" width="105" height="145" x="195" y="179" cocos2d_pX="-3.00" cocos2d_pY="0.00" />
+    <SubTexture name="ertrtyy-y46456" width="152" height="180" x="356" y="0" cocos2d_pX="-2.00" cocos2d_pY="0.00" />
+    <SubTexture name="ertrtyy-345435" width="162" height="160" x="301" y="181" cocos2d_pX="-6.00" cocos2d_pY="0.00" />
+    <SubTexture name="ertrtyy-678678" width="177" height="93" x="0" y="201" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

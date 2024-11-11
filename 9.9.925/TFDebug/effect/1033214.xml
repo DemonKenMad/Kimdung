@@ -1,0 +1,77 @@
+<skeleton name="主技能挑衅buff输出下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="gdsfgsdfewf" x="3.6" y="1.35" kX="0" kY="0" cX="0.75" cY="0.75" pX="-152.75" pY="158.6" z="0">
+        <d name="xxx/sjf06" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sjf06" isLoop="loop" startFrame="1">
+      <b name="图层 7" x="-151.55" y="156.6" kX="0" kY="0" cX="0.87" cY="0.16" pX="0" pY="0" z="0">
+        <d name="xxx/sjf05" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sjf05" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="5.6" y="14.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-sjf15" />
+        <d name="xxx-sjf16" />
+        <d name="xxx-sjf17" />
+        <d name="xxx-sjf18" />
+        <d name="xxx-sjf19" />
+        <d name="xxx-sjf20" />
+        <d name="xxx-sjf21" />
+        <d name="xxx-sjf22" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sjf05">
+      <mov name="dgdsfsdafas" dr="8" to="0" drTW="8" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="5.6" y="14.15" cocos2d_x="5.6" cocos2d_y="14.15" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/sjf06">
+      <mov name="dsgdsfasf" dr="38" to="0" drTW="38" lp="1" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f x="-151.55" y="156.6" cocos2d_x="-151.55" cocos2d_y="156.6" kX="0" kY="0" cX="0.87" cY="0.16" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="-151.5" y="156.6" cocos2d_x="-151.5" cocos2d_y="156.6" kX="0" kY="0" cX="1.14" cY="0.22" fst="2" pX="0" pY="0" z="0" dI="0" twE="0" dr="2" />
+          <f x="-151.55" y="156.6" cocos2d_x="-151.55" cocos2d_y="156.6" kX="0" kY="0" cX="1.41" cY="0.27" fst="4" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f x="-151.55" y="156.6" cocos2d_x="-151.55" cocos2d_y="156.6" kX="0" kY="0" cX="1.41" cY="0.27" fst="7" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-151.55" y="156.6" cocos2d_x="-151.55" cocos2d_y="156.6" kX="0" kY="0" cX="1.41" cY="0.27" fst="9" pX="0" pY="0" z="0" dI="0" dr="12" />
+          <f x="-151.55" y="156.6" cocos2d_x="-151.55" cocos2d_y="156.6" kX="0" kY="0" cX="1.41" cY="0.27" fst="7" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="-151.55" y="156.6" cocos2d_x="-151.55" cocos2d_y="156.6" kX="0" kY="0" cX="1.7" cY="0.32" fst="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.03" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="gdfgdsafasdf" dr="50" to="0" drTW="50" lp="0" twE="NaN">
+        <b name="gdsfgsdfewf" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="3.6" y="1.35" cocos2d_x="118.15" cocos2d_y="-117.6" kX="0" kY="0" cX="0.75" cY="0.75" fst="0" pX="-152.75" pY="158.6" z="0" dI="0" dr="33" />
+          <f dr="12" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="主技能挑衅buff输出下层" width="1024" height="512">
+    <SubTexture name="xxx-sjf22" width="175" height="242" x="176" y="0" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf21" width="175" height="242" x="704" y="0" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf20" width="175" height="242" x="352" y="243" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf19" width="175" height="242" x="0" y="243" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf18" width="175" height="242" x="352" y="0" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf17" width="175" height="242" x="0" y="0" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf16" width="175" height="242" x="528" y="0" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+    <SubTexture name="xxx-sjf15" width="175" height="242" x="176" y="243" cocos2d_pX="85.85" cocos2d_pY="120.45" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,29 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SRedPacketMsg";
+
+// 购买帮派红包
+// code = 0x6b00
+message BuyRedPacketRequest {
+	required int32 id = 1;						// 模板ID
+}
+
+// 发放帮派红包
+// code = 0x6b01
+message SendRedPacketRequest {
+	required int32 id = 1;						// 模板ID
+	required string desc = 2;					// 红包的发放描述
+	required int32 num = 3;						// 红包可领取数量
+}
+
+// 领取帮派红包
+// code = 0x6b02
+message ReceiveRedPacketRequest {
+	required int64 id = 1;						// 帮派红包唯一ID
+}
+
+// 帮派红包积分排行榜
+// code = 0x6b03
+message RedPacketRankingRequest {
+	required int32 startRanking = 1;			// 其实排名
+}

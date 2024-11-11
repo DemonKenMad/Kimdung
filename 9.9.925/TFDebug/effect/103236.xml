@@ -1,0 +1,157 @@
+<skeleton name="郭襄技能3输出" frameRate="20" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="erwrqwre" x="-8.35" y="-72.5" kX="-6.41" kY="-5.88" cX="1.36" cY="2.07" pX="0" pY="0" z="0">
+        <d name="huangrong01-huangrong06" />
+        <d name="huangrong01-huangrong05" />
+        <d name="huangrong01-huangrong04" />
+        <d name="huangrong01-huangrong03" />
+        <d name="huangrong01-huangrong02" />
+      </b>
+      <b name="wqerwq" x="37.85" y="-116.55" kX="0" kY="0" cX="1" cY="1" pX="36" pY="33" z="1">
+        <d name="huangrong01-huangrong33" />
+        <d name="huangrong01-huangrong34" />
+        <d name="huangrong01-huangrong35" />
+        <d name="huangrong01-huangrong09" />
+        <d name="huangrong01-huangrong36" />
+      </b>
+      <b name="erwrqwre0" x="59.1" y="-74.1" kX="-5.5" kY="-5.01" cX="1.39" cY="2.2" pX="0" pY="0" z="2">
+        <d name="huangrong01-huangrong06" />
+        <d name="huangrong01-huangrong05" />
+        <d name="huangrong01-huangrong04" />
+        <d name="huangrong01-huangrong03" />
+        <d name="huangrong01-huangrong02" />
+      </b>
+      <b name="sdfssdf" x="93.8" y="-72.55" kX="0" kY="0" cX="1" cY="1" pX="26" pY="30" z="4">
+        <d name="huangrong01-huangrong21" />
+        <d name="huangrong01-huangrong22" />
+        <d name="huangrong01-huangrong23" />
+        <d name="huangrong01-huangrong10" />
+      </b>
+      <b name="sfdsfsf" x="109.7" y="-77.15" kX="0" kY="0" cX="1" cY="1" pX="27.5" pY="33.5" z="5">
+        <d name="huangrong01-huangrong12" />
+        <d name="huangrong01-huangrong18" />
+        <d name="huangrong01-huangrong19" />
+        <d name="huangrong01-huangrong10" />
+      </b>
+      <b name="afdsfasfd" x="-28.9" y="87.3" kX="0" kY="0" cX="1.39" cY="1.39" pX="5.5" pY="15.5" z="6">
+        <d name="huangrong01/huangrong11" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="huangrong01/huangrong11" isLoop="play once" startFrame="1">
+      <b name="safsfdd" x="100.6" y="-107" kX="0" kY="0" cX="1" cY="1" pX="69" pY="60" z="0">
+        <d name="huangrong01-huangrong20" />
+        <d name="huangrong01-huangrong30" />
+        <d name="huangrong01-huangrong31" />
+        <d name="huangrong01-huangrong07" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="huangrong01/huangrong11">
+      <mov name="afdsfs" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="safsfdd" sc="1" dl="0">
+          <f x="100.6" y="-107" cocos2d_x="31.6" cocos2d_y="-167" kX="0" kY="0" cX="1" cY="1" pX="69" pY="60" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="102.1" y="-110.7" cocos2d_x="34.6" cocos2d_y="-173.7" kX="0" kY="0" cX="1" cY="1" pX="67.5" pY="63" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="102.15" y="-112" cocos2d_x="34.65" cocos2d_y="-175.5" kX="0" kY="0" cX="1" cY="1" pX="67.5" pY="63.5" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="74.3" y="-104.95" cocos2d_x="101.6" cocos2d_y="-111.6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-27.3" pY="6.65" z="0" dI="3" twE="0" dr="2" />
+          <f x="74.55" y="-104.7" cocos2d_x="102.15" cocos2d_y="-111.55" kX="0" kY="0" cX="1.01" cY="1.03" fst="0" pX="-27.3" pY="6.65" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.05" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="jngj" dr="44" to="0" drTW="44" lp="0" twE="NaN">
+        <b name="erwrqwre" sc="1" dl="0">
+          <f dr="22" dI="-1" />
+          <f x="-8.35" y="-72.5" cocos2d_x="-8.35" cocos2d_y="-72.5" kX="-6.41" kY="-5.88" cX="1.36" cY="2.07" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="2" y="-78.95" cocos2d_x="2" cocos2d_y="-78.85" kX="-6.41" kY="-5.88" cX="1.36" cY="2.07" fst="0" pX="0" pY="-0.05" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-8.95" y="-74.15" cocos2d_x="-8.9" cocos2d_y="-74.15" kX="-6.41" kY="-5.88" cX="1.36" cY="2.07" fst="0" pX="-0.05" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-10.9" y="-78.2" cocos2d_x="-10.9" cocos2d_y="-78.2" kX="-6.41" kY="-5.88" cX="1.36" cY="2.07" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-7.3" y="-72.75" cocos2d_x="-7.35" cocos2d_y="-72.65" kX="-6.41" kY="-5.88" cX="1.36" cY="2.07" fst="0" pX="0" pY="-0.05" z="0" dI="4" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+          <f x="74.9" y="-109.7" cocos2d_x="74.9" cocos2d_y="-109.65" kX="-23" kY="-23" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="81.3" y="-115.15" cocos2d_x="81.35" cocos2d_y="-115.1" kX="-23" kY="-23" cX="1" cY="1" fst="0" pX="0" pY="-0.1" z="3" dI="1" dr="1" twE="NaN" />
+          <f x="74.3" y="-110.3" cocos2d_x="74.35" cocos2d_y="-110.25" kX="-23" kY="-23" cX="1" cY="1" fst="0" pX="-0.05" pY="-0.05" z="3" dI="2" dr="1" twE="NaN" />
+          <f x="72.5" y="-111.7" cocos2d_x="72.5" cocos2d_y="-111.65" kX="-23" kY="-23" cX="1" cY="1" fst="0" pX="0" pY="-0.05" z="3" dI="3" dr="1" twE="NaN" />
+          <f x="75.6" y="-110" cocos2d_x="75.6" cocos2d_y="-109.95" kX="-23" kY="-23" cX="1" cY="1" fst="0" pX="0.05" pY="-0.05" z="3" dI="4" dr="1" twE="NaN" />
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="wqerwq" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="37.85" y="-116.55" cocos2d_x="1.85" cocos2d_y="-149.55" kX="0" kY="0" cX="1" cY="1" pX="36" pY="33" z="1" dI="0" dr="2" />
+          <f x="25.85" y="-115.65" cocos2d_x="-57.15" cocos2d_y="-190.15" kX="0" kY="0" cX="1" cY="1" pX="83" pY="74.5" z="1" dI="1" dr="2" />
+          <f x="24.1" y="-113.45" cocos2d_x="-17.9" cocos2d_y="-147.95" kX="0" kY="0" cX="1" cY="1" pX="42" pY="34.5" z="1" dI="2" dr="2" />
+          <f x="19" y="-111.95" cocos2d_x="19" cocos2d_y="-111.95" kX="0" kY="0" cX="0.54" cY="0.54" pX="0" pY="0" z="1" dI="3" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="8" blurY="8" distance="5" color="#ffff33" quality="low" strength="180" inner="true" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="13" blurY="13" distance="5" color="#ff6600" quality="low" strength="168" inner="false" knockout="false" hideObject="false" />
+            <fl name="adjustColorFilter" enabled="true" brightness="23" contrast="11" saturation="0" hue="-115" />
+          </f>
+          <f x="11.5" y="-91.35" cocos2d_x="-31.5" cocos2d_y="-114.35" kX="0" kY="0" cX="1" cY="1" pX="43" pY="23" z="1" dI="4" dr="2" />
+          <f dr="15" dI="-1" />
+        </b>
+        <b name="erwrqwre0" sc="1" dl="0">
+          <f dr="25" dI="-1" />
+          <f x="59.1" y="-74.1" cocos2d_x="59.1" cocos2d_y="-74.1" kX="-5.5" kY="-5.01" cX="1.39" cY="2.2" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="69.8" y="-80.75" cocos2d_x="69.8" cocos2d_y="-80.6" kX="-5.5" kY="-5.01" cX="1.39" cY="2.2" fst="0" pX="0" pY="-0.1" z="2" dI="1" dr="1" twE="NaN" />
+          <f x="58.5" y="-75.95" cocos2d_x="58.6" cocos2d_y="-75.8" kX="-5.5" kY="-5.01" cX="1.39" cY="2.2" fst="0" pX="-0.1" pY="-0.05" z="2" dI="2" dr="1" twE="NaN" />
+          <f x="56.6" y="-80.2" cocos2d_x="56.6" cocos2d_y="-80.2" kX="-5.5" kY="-5.01" cX="1.39" cY="2.2" fst="0" pX="0" pY="0" z="2" dI="3" dr="1" twE="NaN" />
+          <f x="60.1" y="-74.3" cocos2d_x="60.1" cocos2d_y="-74.2" kX="-5.5" kY="-5.01" cX="1.39" cY="2.2" fst="0" pX="0" pY="-0.05" z="2" dI="4" dr="1" twE="NaN" />
+          <f dr="14" dI="-1" />
+        </b>
+        <b name="sdfssdf" sc="1" dl="0">
+          <f dr="25" dI="-1" />
+          <f x="93.8" y="-72.55" cocos2d_x="67.8" cocos2d_y="-102.55" kX="0" kY="0" cX="1" cY="1" pX="26" pY="30" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="94.7" y="-72.85" cocos2d_x="31.7" cocos2d_y="-155.85" kX="0" kY="0" cX="1" cY="1" pX="63" pY="83" z="4" dI="1" dr="1" twE="NaN" />
+          <f x="93.4" y="-72.25" cocos2d_x="31.4" cocos2d_y="-158.25" kX="0" kY="0" cX="1" cY="1" pX="62" pY="86" z="4" dI="2" dr="1" twE="NaN" />
+          <f x="87.55" y="-78.45" cocos2d_x="60.05" cocos2d_y="-131.95" kX="-0.96" kY="3.97" cX="0.3" cY="0.58" pX="89.25" pY="89.15" z="4" dI="3" twE="0" dr="8" />
+          <f x="87.55" y="-78.45" cocos2d_x="54.6" cocos2d_y="-142.6" kX="-0.96" kY="3.96" cX="0.36" cY="0.7" pX="89.1" pY="89.1" z="4" dI="3" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.11" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="sfdsfsf" sc="1" dl="0">
+          <f dr="30" dI="-1" />
+          <f x="109.7" y="-77.15" cocos2d_x="82.2" cocos2d_y="-110.65" kX="0" kY="0" cX="1" cY="1" pX="27.5" pY="33.5" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="112.05" y="-77.55" cocos2d_x="23.55" cocos2d_y="-193.05" kX="0" kY="0" cX="1" cY="1" pX="88.5" pY="115.5" z="5" dI="1" dr="1" twE="NaN" />
+          <f x="110.3" y="-77.7" cocos2d_x="34.3" cocos2d_y="-196.2" kX="0" kY="0" cX="1" cY="1" pX="76" pY="118.5" z="5" dI="2" dr="1" twE="NaN" />
+          <f x="103.8" y="-82.85" cocos2d_x="65" cocos2d_y="-157.75" kX="0" kY="0" cX="0.44" cY="0.84" pX="89" pY="89.05" z="5" dI="3" twE="0" dr="8" />
+          <f x="103.8" y="-82.85" cocos2d_x="57.2" cocos2d_y="-172.75" kX="0" kY="0" cX="0.52" cY="1.01" pX="89.1" pY="89.05" z="5" dI="3" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.11" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="afdsfasfd" sc="1" dl="0">
+          <f dr="25" dI="-1" />
+          <f x="-28.9" y="87.3" cocos2d_x="-36.55" cocos2d_y="65.75" kX="0" kY="0" cX="1.39" cY="1.39" fst="0" pX="5.5" pY="15.5" z="6" dI="0" dr="7" />
+          <f dr="12" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="郭襄技能3输出" width="512" height="1024">
+    <SubTexture name="huangrong01-huangrong07" width="106" height="101" x="130" y="302" cocos2d_pX="56.50" cocos2d_pY="51.00" />
+    <SubTexture name="huangrong01-huangrong31" width="102" height="101" x="0" y="309" cocos2d_pX="-14.00" cocos2d_pY="-14.00" />
+    <SubTexture name="huangrong01-huangrong30" width="107" height="95" x="103" y="404" cocos2d_pX="-11.00" cocos2d_pY="-18.00" />
+    <SubTexture name="huangrong01-huangrong20" width="100" height="83" x="312" y="337" cocos2d_pX="-15.00" cocos2d_pY="-18.00" />
+    <SubTexture name="huangrong01-huangrong19" width="117" height="197" x="333" y="0" cocos2d_pX="-11.00" cocos2d_pY="-15.00" />
+    <SubTexture name="huangrong01-huangrong18" width="130" height="189" x="202" y="0" cocos2d_pX="-15.00" cocos2d_pY="-16.00" />
+    <SubTexture name="huangrong01-huangrong12" width="37" height="48" x="451" y="0" cocos2d_pX="-3.00" cocos2d_pY="-4.00" />
+    <SubTexture name="huangrong01-huangrong10" width="201" height="216" x="0" y="0" cocos2d_pX="12.05" cocos2d_pY="19.00" />
+    <SubTexture name="huangrong01-huangrong23" width="92" height="138" x="326" y="198" cocos2d_pX="-10.00" cocos2d_pY="-11.00" />
+    <SubTexture name="huangrong01-huangrong22" width="92" height="133" x="419" y="198" cocos2d_pX="-10.00" cocos2d_pY="-11.00" />
+    <SubTexture name="huangrong01-huangrong21" width="31" height="39" x="451" y="49" cocos2d_pX="-4.00" cocos2d_pY="-5.00" />
+    <SubTexture name="huangrong01-huangrong36" width="77" height="36" x="419" y="332" cocos2d_pX="-2.00" cocos2d_pY="-5.00" />
+    <SubTexture name="huangrong01-huangrong09" width="129" height="91" x="0" y="217" cocos2d_pX="64.00" cocos2d_pY="45.30" />
+    <SubTexture name="huangrong01-huangrong35" width="74" height="61" x="237" y="302" cocos2d_pX="-6.00" cocos2d_pY="-4.00" />
+    <SubTexture name="huangrong01-huangrong34" width="123" height="111" x="202" y="190" cocos2d_pX="-25.00" cocos2d_pY="-19.00" />
+    <SubTexture name="huangrong01-huangrong33" width="64" height="59" x="130" y="217" cocos2d_pX="-3.00" cocos2d_pY="-1.00" />
+    <SubTexture name="huangrong01-huangrong02" width="284" height="23" x="211" y="456" cocos2d_pX="142.25" cocos2d_pY="13.05" />
+    <SubTexture name="huangrong01-huangrong03" width="311" height="36" x="153" y="523" cocos2d_pX="151.50" cocos2d_pY="17.80" />
+    <SubTexture name="huangrong01-huangrong04" width="274" height="34" x="211" y="421" cocos2d_pX="129.40" cocos2d_pY="16.80" />
+    <SubTexture name="huangrong01-huangrong05" width="220" height="42" x="211" y="480" cocos2d_pX="108.00" cocos2d_pY="21.05" />
+    <SubTexture name="huangrong01-huangrong06" width="152" height="45" x="0" y="500" cocos2d_pX="71.00" cocos2d_pY="24.05" />
+  </TextureAtlas>
+</skeleton>

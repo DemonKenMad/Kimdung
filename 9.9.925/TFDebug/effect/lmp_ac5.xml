@@ -1,0 +1,84 @@
+<skeleton name="破阵失败越南" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="0" y="0" kX="0" kY="0" cX="0.1" cY="0.1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesoVERwATCH03"/>
+      </b>
+      <b name="图层 1" x="-12.85" y="-2.95" kX="0" kY="0" cX="0.94" cY="0.86" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesoVERwATCH04" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesoVERwATCH04" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="11.65" y="3.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesoVERwATCH06"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesoVERwATCH04">
+      <mov name="fdsagsf" dr="25" to="0" drTW="25" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="11.65" y="3.15" cocos2d_x="11.65" cocos2d_y="3.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="11"/>
+          <f x="11.65" y="3.15" cocos2d_x="11.65" cocos2d_y="3.15" kX="0" kY="0" cX="0.95" cY="0.95" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="13"/>
+          <f x="11.65" y="3.15" cocos2d_x="11.65" cocos2d_y="3.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsfsagasd" dr="56" to="0" drTW="56" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="0.1" cY="0.1" pX="0" pY="0" z="0" dI="0" twE="-0.5" dr="4"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="0" twE="1" dr="5"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="32"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="12"/>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="0.94" cY="0.86" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="2" dI="-1"/>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.06" cY="1.03" fst="2" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.48" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.8" y="-2.95" cocos2d_x="-12.8" cocos2d_y="-2.95" kX="0" kY="0" cX="1.1" cY="1.08" fst="3" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.63" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="2" dI="-1"/>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="2" pX="0" pY="0" z="1" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="4" pX="0" pY="0" z="1" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="7" pX="0" pY="0" z="1" dI="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="10" pX="0" pY="0" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="14" pX="0" pY="0" z="1" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="16" pX="0" pY="0" z="1" dI="0" dr="15">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="6" pX="0" pY="0" z="1" dI="0" twE="0" dr="11">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.75" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-12.85" y="-2.95" cocos2d_x="-12.85" cocos2d_y="-2.95" kX="0" kY="0" cX="1.13" cY="1.13" fst="17" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="3" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="破阵失败越南" width="2048" height="1024">
+    <SubTexture name="xxx-zhangweifilesoVERwATCH06" width="1254" height="776" x="0" y="0" cocos2d_pX="622.4" cocos2d_pY="387.7"/>
+    <SubTexture name="xxx-zhangweifilesoVERwATCH03" width="468" height="99" x="1256" y="0" cocos2d_pX="234" cocos2d_pY="49.5"/>
+  </TextureAtlas>
+</skeleton>

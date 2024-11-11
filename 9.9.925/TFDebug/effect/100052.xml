@@ -1,0 +1,147 @@
+<skeleton name="阿紫普通受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1 复制" x="-43.3" y="-97" kX="0" kY="0" cX="0.21" cY="0.21" pX="-1.65" pY="-120.45" z="0">
+        <d name="ziyuan/anims" isArmature="1" />
+      </b>
+      <b name="图层 1  复制 2" x="44.35" y="-113.65" kX="0" kY="0" cX="0.24" cY="0.24" pX="-1.65" pY="-120.6" z="1">
+        <d name="ziyuan/anims" isArmature="1" />
+      </b>
+      <b name="图层 1" x="0.7" y="-72.3" kX="0" kY="0" cX="0.25" cY="0.25" pX="-1.8" pY="-120.6" z="2">
+        <d name="ziyuan/anims" isArmature="1" />
+      </b>
+      <b name="图层 1  复制 20" x="-11.85" y="-142.55" kX="0" kY="0" cX="0.36" cY="0.36" pX="-1.35" pY="-120.55" z="3">
+        <d name="ziyuan/anims" isArmature="1" />
+      </b>
+      <b name="图层 1   复制 3" x="-19.65" y="-34.65" kX="0" kY="0" cX="0.26" cY="0.26" pX="-1.9" pY="-120.75" z="4">
+        <d name="ziyuan/anims" isArmature="1" />
+      </b>
+      <b name="图层 1    复制 4" x="36.95" y="-50.5" kX="0" kY="0" cX="0.17" cY="0.17" pX="-1.75" pY="-120.85" z="5">
+        <d name="ziyuan/anims" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="ziyuan/anims" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-0.65" y="-116.65" kX="0" kY="0" cX="1" cY="1" pX="2" pY="0" z="0">
+        <d name="ziyuan-guang4" />
+      </b>
+      <b name="图层 2" x="-1.65" y="-118.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-2" z="1">
+        <d name="ziyuan-guang3" />
+      </b>
+      <b name="图层 3" x="-0.65" y="-115.65" kX="0" kY="0" cX="1" cY="1" pX="2" pY="2" z="2">
+        <d name="ziyuan-guang2" />
+      </b>
+      <b name="图层 2 复制" x="-1.65" y="-118.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-2" z="3">
+        <d name="ziyuan-guang3" />
+      </b>
+      <b name="图层 3 复制" x="-0.65" y="-115.65" kX="0" kY="0" cX="1" cY="1" pX="2" pY="2" z="4">
+        <d name="ziyuan-guang2" />
+      </b>
+      <b name="图层 4" x="-1.65" y="-120.65" kX="0" kY="0" cX="0.9" cY="0.9" pX="1" pY="-0.95" z="5">
+        <d name="ziyuan-guang1" />
+      </b>
+      <b name="图层 4 复制" x="-1.65" y="-120.65" kX="0" kY="0" cX="0.45" cY="0.45" pX="1" pY="-0.9" z="6">
+        <d name="ziyuan-guang1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="ziyuan/anims">
+      <mov name="gdz" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-0.65" y="-116.65" cocos2d_x="-2.65" cocos2d_y="-116.65" kX="0" kY="0" cX="1" cY="1" pX="2" pY="0" z="0" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="-0.65" y="-116.65" cocos2d_x="-3.85" cocos2d_y="-116.65" kX="0" kY="0" cX="1.6" cY="1.6" pX="2" pY="0" z="0" dI="0" blend="normal" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-1.65" y="-118.65" cocos2d_x="-1.65" cocos2d_y="-116.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-2" z="1" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="-1.55" y="-118.6" cocos2d_x="-4.05" cocos2d_y="-117.85" kX="72.19" kY="72.19" cX="1.26" cY="1.26" pX="0.05" pY="-2.05" z="1" dI="0" blend="normal" twE="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-1.65" y="-118.7" cocos2d_x="-2.6" cocos2d_y="-121.65" kX="162.21" kY="162.21" cX="1.6" cY="1.6" pX="0" pY="-1.95" z="1" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-0.65" y="-115.65" cocos2d_x="-2.65" cocos2d_y="-117.65" kX="0" kY="0" cX="1" cY="1" pX="2" pY="2" z="2" dI="0" blend="normal" twE="0" dr="9" />
+          <f x="-0.65" y="-115.65" cocos2d_x="-3.85" cocos2d_y="-118.85" kX="0" kY="0" cX="1.59" cY="1.59" pX="2" pY="2" z="2" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 2 复制" sc="1" dl="0">
+          <f x="-1.65" y="-118.65" cocos2d_x="-1.65" cocos2d_y="-116.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-2" z="3" dI="0" blend="add" twE="0" dr="4" />
+          <f x="-1.55" y="-118.6" cocos2d_x="-4.05" cocos2d_y="-117.85" kX="72.19" kY="72.19" cX="1.26" cY="1.26" pX="0.05" pY="-2.05" z="3" dI="0" blend="normal" twE="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-1.65" y="-118.7" cocos2d_x="-2.6" cocos2d_y="-121.65" kX="162.21" kY="162.21" cX="1.6" cY="1.6" pX="0" pY="-1.95" z="3" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 3 复制" sc="1" dl="0">
+          <f x="-0.65" y="-115.65" cocos2d_x="-2.65" cocos2d_y="-117.65" kX="0" kY="0" cX="1" cY="1" pX="2" pY="2" z="4" dI="0" blend="overlay" twE="0" dr="8" />
+          <f x="-0.65" y="-115.65" cocos2d_x="-4.45" cocos2d_y="-119.45" kX="0" kY="0" cX="1.9" cY="1.9" pX="2" pY="2" z="4" dI="0" blend="normal" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-1.65" y="-120.65" cocos2d_x="-2.55" cocos2d_y="-119.8" kX="0" kY="0" cX="0.9" cY="0.9" pX="1" pY="-0.95" z="5" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="-1.65" y="-120.65" cocos2d_x="-2.85" cocos2d_y="-119.5" kX="0" kY="0" cX="1.2" cY="1.2" pX="1" pY="-0.95" z="5" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 4 复制" sc="1" dl="0">
+          <f x="-1.65" y="-120.65" cocos2d_x="-2.1" cocos2d_y="-120.25" kX="0" kY="0" cX="0.45" cY="0.45" pX="1" pY="-0.9" z="6" dI="0" blend="lighten" twE="0" dr="1">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f dr="14" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="ds" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 1 复制" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-43.3" y="-97" cocos2d_x="-42.95" cocos2d_y="-71.7" kX="0" kY="0" cX="0.21" cY="0.21" pX="-1.65" pY="-120.45" z="0" dI="0" dr="15" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 1  复制 2" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="44.35" y="-113.65" cocos2d_x="44.75" cocos2d_y="-84.7" kX="0" kY="0" cX="0.24" cY="0.24" pX="-1.65" pY="-120.6" z="1" dI="0" dr="15" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="0.7" y="-72.3" cocos2d_x="1.15" cocos2d_y="-42.15" kX="0" kY="0" cX="0.25" cY="0.25" pX="-1.8" pY="-120.6" z="2" dI="0" dr="15" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 1  复制 20" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-11.85" y="-142.55" cocos2d_x="-11.35" cocos2d_y="-99.15" kX="0" kY="0" cX="0.36" cY="0.36" pX="-1.35" pY="-120.55" z="3" dI="0" dr="15" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 1   复制 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-19.65" y="-34.65" cocos2d_x="-19.15" cocos2d_y="-2.65" kX="0" kY="0" cX="0.26" cY="0.26" pX="-1.9" pY="-120.75" z="4" dI="0" dr="15" />
+          <f dr="3" dI="-1" />
+        </b>
+        <b name="图层 1    复制 4" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="36.95" y="-50.5" cocos2d_x="37.25" cocos2d_y="-29.95" kX="0" kY="0" cX="0.17" cY="0.17" pX="-1.75" pY="-120.85" z="5" dI="0" dr="15" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="阿紫普通受击" width="512" height="512">
+    <SubTexture name="ziyuan-guang1" width="256" height="256" x="0" y="0" cocos2d_pX="127.00" cocos2d_pY="128.95" />
+    <SubTexture name="ziyuan-guang2" width="123" height="125" x="382" y="0" cocos2d_pX="59.00" cocos2d_pY="59.00" />
+    <SubTexture name="ziyuan-guang3" width="91" height="88" x="257" y="125" cocos2d_pX="45.00" cocos2d_pY="48.00" />
+    <SubTexture name="ziyuan-guang4" width="124" height="124" x="257" y="0" cocos2d_pX="60.00" cocos2d_pY="63.00" />
+  </TextureAtlas>
+</skeleton>

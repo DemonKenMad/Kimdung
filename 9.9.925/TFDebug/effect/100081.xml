@@ -1,0 +1,81 @@
+<skeleton name="丁春秋 普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 8" x="-16.25" y="-93.8" kX="-27.73" kY="-27.73" cX="2" cY="2" pX="114.35" pY="31.95" z="0">
+        <d name="dcq-aFAdgjh" />
+        <d name="dcq-adhgh" />
+        <d name="dcq-sprite 274" />
+      </b>
+      <b name="图层 4" x="-10" y="-19.75" kX="-33.9" kY="-33.9" cX="1.77" cY="1.77" pX="114.45" pY="31.95" z="1">
+        <d name="dcq-aFAdgjh" />
+        <d name="dcq-adhgh" />
+        <d name="dcq-sprite 274" />
+      </b>
+      <b name="图层 5" x="-16" y="-58.65" kX="-31.21" kY="-31.21" cX="2" cY="2" pX="114.45" pY="31.95" z="2">
+        <d name="dcq-aFAdgjh" />
+        <d name="dcq-adhgh" />
+        <d name="dcq-sprite 274" />
+      </b>
+      <b name="图层 6" x="151.9" y="-139.5" kX="-22.11" kY="-22.11" cX="2" cY="2" pX="142.85" pY="16.5" z="3">
+        <d name="dcq-adhgh" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="19" to="0" drTW="19" lp="0" twE="NaN">
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-16.25" y="-93.8" cocos2d_x="-248.55" cocos2d_y="-44" kX="-27.73" kY="-27.73" cX="2" cY="2" pX="114.35" pY="31.95" z="0" dI="0" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="154.1" y="-72.7" cocos2d_x="-113.15" cocos2d_y="18.25" kX="-27.62" kY="-25.05" cX="1.95" cY="1.87" pX="142.85" pY="16.55" z="0" dI="1" blend="add" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="393.25" y="-145.5" cocos2d_x="393.25" cocos2d_y="-145.5" kX="-73.74" kY="106.27" cX="1.58" cY="1.59" pX="0" pY="0" z="0" dI="2" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-10" y="-19.75" cocos2d_x="-209.3" cocos2d_y="46.05" kX="-33.9" kY="-33.9" cX="1.77" cY="1.77" pX="114.45" pY="31.95" z="1" dI="0" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="151.9" y="-139.5" cocos2d_x="-125.2" cocos2d_y="-62.55" kX="-22.11" kY="-22.11" cX="2" cY="2" pX="142.85" pY="16.5" z="1" dI="1" blend="add" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="374.25" y="-168.5" cocos2d_x="374.25" cocos2d_y="-168.5" kX="-73.74" kY="106.27" cX="1.58" cY="1.59" pX="0" pY="0" z="1" dI="2" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-16" y="-58.65" cocos2d_x="-244.95" cocos2d_y="5.25" kX="-31.21" kY="-31.21" cX="2" cY="2" pX="114.45" pY="31.95" z="2" dI="0" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="153.95" y="-108.7" cocos2d_x="-136.85" cocos2d_y="-15.4" kX="-26.62" kY="-24.05" cX="2.11" cY="2.02" pX="142.85" pY="16.5" z="2" dI="1" blend="add" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="374.25" y="-106.5" cocos2d_x="374.25" cocos2d_y="-106.5" kX="-73.74" kY="106.27" cX="1.58" cY="1.59" pX="0" pY="0" z="2" dI="2" blend="add" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="151.9" y="-139.5" cocos2d_x="-125.2" cocos2d_y="-62.55" kX="-22.11" kY="-22.11" cX="2" cY="2" pX="142.85" pY="16.5" z="3" dI="0" blend="add" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="14" blurY="14" distance="5" color="#9966ff" quality="high" strength="215" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="丁春秋 普攻FX" width="512" height="256">
+    <SubTexture name="dcq-sprite 274" width="124" height="146" x="0" y="26" cocos2d_pX="45.85" cocos2d_pY="148.60" />
+    <SubTexture name="dcq-adhgh" width="273" height="25" x="0" y="0" cocos2d_pX="-8.00" cocos2d_pY="-2.00" />
+    <SubTexture name="dcq-aFAdgjh" width="224" height="51" x="274" y="0" cocos2d_pX="-4.00" cocos2d_pY="-4.00" />
+  </TextureAtlas>
+</skeleton>

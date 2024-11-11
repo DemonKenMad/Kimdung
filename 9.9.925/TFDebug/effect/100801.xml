@@ -1,0 +1,87 @@
+<skeleton name="女防御普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="sdgd 复制" x="95" y="-80.8" kX="75.82" kY="-133.52" cX="2.28" cY="1.74" pX="74.95" pY="39.95" z="0">
+        <d name="pugong-sfdjm" />
+        <d name="pugong/yuanxingzhu/xcvnn" isArmature="1" />
+      </b>
+      <b name="图层 1" x="116.4" y="-125.8" kX="13.56" kY="25.52" cX="3.43" cY="3.4" pX="74.95" pY="40" z="1">
+        <d name="pugong-sfdjm" />
+      </b>
+    </armature>
+    <armature name="pugong/yuanxingzhu/xcvnn" isLoop="play once" startFrame="1">
+      <b name="图层 5" x="-39.15" y="-47.7" kX="-40.22" kY="-40.22" cX="0.59" cY="1" pX="20.05" pY="91.05" z="0">
+        <d name="pugong-yuanxingzhu/dfghg" />
+        <d name="pugong-yuanxingzhu/cxjd" />
+        <d name="pugong-yuanxingzhu/sprite 297" />
+      </b>
+      <b name="图层 51" x="15.85" y="26.4" kX="-45.42" kY="-45.42" cX="0.41" cY="0.18" pX="16.15" pY="55.35" z="0">
+        <d name="pugong-yuanxingzhu/cxjd" />
+      </b>
+      <b name="图层 3" x="-12.4" y="-10.2" kX="47.69" kY="47.69" cX="1" cY="1" pX="29.5" pY="30" z="1">
+        <d name="pugong-yuanxingzhu/sdhsfd" />
+        <d name="pugong-yuanxingzhu/fgjkk" />
+        <d name="pugong-yuanxingzhu/vgjxch" />
+        <d name="pugong-yuanxingzhu/dfhjh" />
+        <d name="pugong-yuanxingzhu/djhuj" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="pugong/yuanxingzhu/xcvnn">
+      <mov name="1" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-39.15" y="-47.7" cocos2d_x="-106.9" cocos2d_y="-109.65" kX="-40.22" kY="-40.22" cX="0.59" cY="1" pX="20.05" pY="91.05" z="0" dI="0" dr="2" />
+          <f x="3.8" y="9.25" cocos2d_x="-24.25" cocos2d_y="-9.6" kX="-39.93" kY="-39.93" cX="0.58" cY="0.58" pX="16.2" pY="55.8" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="9.7" y="18.5" cocos2d_x="9.7" cocos2d_y="18.5" kX="0" kY="0" cX="1.19" cY="1.19" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="3" blurY="3" distance="5" color="#ffff00" quality="high" strength="153" inner="false" knockout="false" hideObject="false" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="7" blurY="7" distance="5" color="#009900" quality="high" strength="110" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 51" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="15.85" y="26.4" cocos2d_x="4" cocos2d_y="24" kX="-45.42" kY="-45.42" cX="0.41" cY="0.18" pX="16.15" pY="55.35" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-12.4" y="-10.2" cocos2d_x="-10.05" cocos2d_y="-52.2" kX="47.69" kY="47.69" cX="1" cY="1" pX="29.5" pY="30" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-5.95" y="-19.15" cocos2d_x="-3.55" cocos2d_y="-85.75" kX="42.78" kY="42.78" cX="1" cY="1" pX="43.5" pY="50.5" z="1" dI="1" dr="2" />
+          <f x="-8.8" y="-18.95" cocos2d_x="-9.5" cocos2d_y="-97.9" kX="41.67" kY="41.67" cX="1" cY="1" pX="53" pY="58.5" z="1" dI="2" dr="2" />
+          <f x="-14.15" y="-21.35" cocos2d_x="-4.9" cocos2d_y="-102.9" kX="48.98" kY="48.98" cX="1" cY="1" pX="55.5" pY="60.5" z="1" dI="3" dr="3" />
+          <f x="-9.4" y="-12.95" cocos2d_x="-8.55" cocos2d_y="-92.8" kX="40.25" kY="40.25" cX="1" cY="1" pX="51" pY="61.5" z="1" dI="4" dr="3" />
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="26" to="0" drTW="26" lp="0" twE="NaN">
+        <b name="sdgd 复制" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="95" y="-80.8" cocos2d_x="279.9" cocos2d_y="25.9" kX="75.82" kY="-133.52" cX="2.28" cY="1.74" pX="74.95" pY="39.95" z="0" dI="0" dr="2" />
+          <f x="33.1" y="-126.95" cocos2d_x="88.4" cocos2d_y="-107.85" kX="60.59" kY="-135.67" cX="0.61" cY="0.65" pX="75" pY="39.85" z="0" dI="0" dr="2" />
+          <f dr="5" dI="-1" />
+          <f x="226.95" y="-3.8" cocos2d_x="254.3" cocos2d_y="-3.75" kX="-89.6" kY="90.4" cX="2.73" cY="2.73" pX="0" pY="-10" z="0" dI="1" dr="11" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="116.4" y="-125.8" cocos2d_x="-84" cocos2d_y="-369.15" kX="13.56" kY="25.52" cX="3.43" cY="3.4" pX="74.95" pY="40" z="1" dI="0" dr="2" />
+          <f x="186.7" y="-74.15" cocos2d_x="118.4" cocos2d_y="-209.25" kX="22.57" kY="27.8" cX="1.54" cY="2.2" pX="75.05" pY="40.05" z="1" dI="0" dr="2" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="女防御普攻" width="512" height="256">
+    <SubTexture name="pugong-yuanxingzhu/djhuj" width="93" height="113" x="393" y="0" cocos2d_pX="-9.00" cocos2d_pY="-6.00" />
+    <SubTexture name="pugong-yuanxingzhu/dfhjh" width="106" height="118" x="151" y="0" cocos2d_pX="-5.00" cocos2d_pY="-1.00" />
+    <SubTexture name="pugong-yuanxingzhu/vgjxch" width="101" height="114" x="258" y="0" cocos2d_pX="-4.00" cocos2d_pY="0.00" />
+    <SubTexture name="pugong-yuanxingzhu/fgjkk" width="82" height="96" x="0" y="81" cocos2d_pX="-4.00" cocos2d_pY="-2.00" />
+    <SubTexture name="pugong-yuanxingzhu/sdhsfd" width="59" height="58" x="83" y="81" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="pugong-yuanxingzhu/sprite 297" width="9" height="13" x="487" y="107" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="pugong-yuanxingzhu/cxjd" width="23" height="106" x="487" y="0" cocos2d_pX="-2.00" cocos2d_pY="-4.00" />
+    <SubTexture name="pugong-yuanxingzhu/dfghg" width="32" height="178" x="360" y="0" cocos2d_pX="-2.00" cocos2d_pY="-3.00" />
+    <SubTexture name="pugong-sfdjm" width="150" height="80" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

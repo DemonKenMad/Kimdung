@@ -1,0 +1,61 @@
+<skeleton name="奇侠 神技  被动部分下层03(1)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="asfasf" x="-13.05" y="-3.25" kX="0" kY="0" cX="0.25" cY="0.15" pX="579.8" pY="209.45" z="0">
+        <d name="xxx/fafasf/sdff23" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/fafasf/sdff23" isLoop="loop" startFrame="1">
+      <b name="图层 3" x="780.55" y="294.65" kX="0" kY="0" cX="171.88" cY="171.88" pX="0" pY="0" z="0">
+        <d name="xxx-fafasf/sdff08" />
+      </b>
+      <b name="图层 1" x="593.5" y="192" kX="0" kY="0" cX="5" cY="5" pX="0" pY="0" z="1">
+        <d name="xxx-sdff99" />
+        <d name="xxx-sdff101" />
+        <d name="xxx-sdff103" />
+        <d name="xxx-sdff105" />
+        <d name="xxx-sdff107" />
+        <d name="xxx-sdff109" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/fafasf/sdff23">
+      <mov name="dfhdfhdfhdfhdfh" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="780.55" y="294.65" cocos2d_x="780.55" cocos2d_y="294.65" kX="0" kY="0" cX="171.88" cY="171.88" fst="0" pX="0" pY="0" z="0" dI="0" dr="13" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="5" cY="5" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="5" cY="5" pX="0" pY="0" z="1" dI="1" blend="add" dr="2" />
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="5" cY="5" pX="0" pY="0" z="1" dI="2" blend="add" dr="2" />
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="3" blend="hardLight" dr="1" twE="NaN" />
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="4" blend="hardLight" dr="2" />
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="5" blend="overlay" twE="0" dr="3" />
+          <f x="593.5" y="192" cocos2d_x="593.5" cocos2d_y="192" kX="0" kY="0" cX="2.5" cY="2.5" pX="0" pY="0" z="1" dI="5" blend="overlay" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill4" dr="44" to="0" drTW="44" lp="0" twE="NaN">
+        <b name="asfasf" sc="1" dl="0">
+          <f dr="21" dI="-1" />
+          <f x="-13.05" y="-3.25" cocos2d_x="-155.75" cocos2d_y="-35.4" kX="0" kY="0" cX="0.25" cY="0.15" fst="0" pX="579.8" pY="209.45" z="0" dI="0" dr="2" />
+          <f x="-22.45" y="-3.25" cocos2d_x="-352.85" cocos2d_y="-77.7" kX="0" kY="0" cX="0.57" cY="0.36" fst="2" pX="579.7" pY="209.5" z="0" dI="0" dr="8" />
+          <f dr="13" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="奇侠 神技  被动部分下层03(1)" width="512" height="1024">
+    <SubTexture name="xxx-sdff109" width="360" height="122" x="0" y="289" cocos2d_pX="192.40" cocos2d_pY="54.80" />
+    <SubTexture name="xxx-sdff107" width="475" height="139" x="0" y="149" cocos2d_pX="237.40" cocos2d_pY="61.80" />
+    <SubTexture name="xxx-sdff105" width="475" height="148" x="0" y="0" cocos2d_pX="237.40" cocos2d_pY="70.80" />
+    <SubTexture name="xxx-sdff103" width="238" height="77" x="0" y="490" cocos2d_pX="118.70" cocos2d_pY="38.40" />
+    <SubTexture name="xxx-sdff101" width="238" height="77" x="239" y="412" cocos2d_pX="118.70" cocos2d_pY="38.40" />
+    <SubTexture name="xxx-sdff99" width="238" height="77" x="0" y="412" cocos2d_pX="118.70" cocos2d_pY="38.40" />
+    <SubTexture name="xxx-fafasf/sdff08" width="20" height="15" x="476" y="0" cocos2d_pX="9.60" cocos2d_pY="7.25" />
+  </TextureAtlas>
+</skeleton>

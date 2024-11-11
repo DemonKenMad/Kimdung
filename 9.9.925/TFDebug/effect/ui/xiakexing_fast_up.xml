@@ -1,0 +1,193 @@
+<skeleton name="上层加快速度线 1130  输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dongzuo/crwbre" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dongzuo/crwbre" isLoop="loop" startFrame="1">
+      <b name="btrnstr" x="-17.75" y="-293.15" kX="0" kY="0" cX="0.62" cY="0.95" pX="0" pY="0" z="0">
+        <d name="dongzuo/btrnstr" isArmature="1" />
+      </b>
+      <b name="btrnstr0" x="-9.75" y="160.55" kX="180" kY="0" cX="0.68" cY="1.15" pX="8" pY="74.4" z="1">
+        <d name="dongzuo/btrnstr" isArmature="1" />
+      </b>
+      <b name="btrnstr1" x="-342.15" y="230.65" kX="180" kY="0" cX="0.68" cY="2.01" pX="8" pY="74.45" z="2">
+        <d name="dongzuo/btrnstr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dongzuo/btrnstr" isLoop="loop" startFrame="1">
+      <b name="vrebrvrebare" x="-1080.55" y="11.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrberbare" x="-385.55" y="63.2" kX="0" kY="0" cX="2.02" cY="1" pX="0" pY="0" z="1">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvrebareb" x="-361.55" y="-7.2" kX="0" kY="0" cX="0.53" cY="0.63" pX="0" pY="0" z="2">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrrbebare" x="-279.5" y="19.3" kX="0" kY="0" cX="1.08" cY="1" pX="0" pY="0" z="3">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvreabsdr" x="663.95" y="-26.75" kX="0" kY="0" cX="0.53" cY="0.63" pX="0" pY="0" z="4">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrrebre" x="167.2" y="37.6" kX="0" kY="0" cX="1.8" cY="0.63" pX="0" pY="0" z="5">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvrebre" x="-282.7" y="-45.3" kX="0" kY="0" cX="2.02" cY="2.1" pX="0" pY="0" z="6">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvrebre0" x="752.7" y="-75.3" kX="0" kY="0" cX="1.08" cY="2.36" pX="0" pY="0" z="7">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvre" x="586.5" y="-6.25" kX="0" kY="0" cX="1.8" cY="1.31" pX="0" pY="0" z="8">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvreb" x="693.95" y="63.2" kX="0" kY="0" cX="1.08" cY="1" pX="0" pY="0" z="9">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+      <b name="vrebrvfreb" x="1040.45" y="30.7" kX="0" kY="0" cX="1.08" cY="1.34" pX="0" pY="0" z="10">
+        <d name="dongzuo/vrebr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dongzuo/vrebr" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="2.71" cY="0.09" pX="0" pY="0" z="0">
+        <d name="dongzuo-bfretnbtern" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dongzuo/vrebr">
+      <mov name="btrntr" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="2.71" cY="0.09" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="2300" y="0" cocos2d_x="2300" cocos2d_y="0" kX="0" kY="0" cX="2.71" cY="0.09" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dongzuo/btrnstr">
+      <mov name="btenbnterr" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="vrebrvrebare" sc="1" dl="0">
+          <f x="-1080.55" y="11.1" cocos2d_x="-1080.55" cocos2d_y="11.1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="2476.35" y="11.1" cocos2d_x="2476.35" cocos2d_y="11.1" kX="0" kY="180" cX="1" cY="1" fst="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-3050.25" y="11.1" cocos2d_x="-3050.25" cocos2d_y="11.1" kX="0" kY="0" cX="1" cY="1" fst="3" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrberbare" sc="1" dl="0">
+          <f x="-385.55" y="63.2" cocos2d_x="-385.55" cocos2d_y="63.2" kX="0" kY="0" cX="2.02" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="1233.85" y="63.2" cocos2d_x="1233.85" cocos2d_y="63.2" kX="0" kY="180" cX="2.02" cY="1" fst="2" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="-2048.85" y="63.2" cocos2d_x="-2048.85" cocos2d_y="63.2" kX="0" kY="0" cX="2.02" cY="1" fst="3" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvrebareb" sc="1" dl="0">
+          <f x="-361.55" y="-7.2" cocos2d_x="-361.55" cocos2d_y="-7.2" kX="0" kY="0" cX="0.53" cY="0.63" fst="0" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="1757.35" y="-7.2" cocos2d_x="1757.35" cocos2d_y="-7.2" kX="0" kY="180" cX="0.53" cY="0.63" fst="2" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+          <f x="-2331.25" y="-7.2" cocos2d_x="-2331.25" cocos2d_y="-7.2" kX="0" kY="0" cX="0.53" cY="0.63" fst="3" pX="0" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrrbebare" sc="1" dl="0">
+          <f x="-279.5" y="19.3" cocos2d_x="-279.5" cocos2d_y="19.3" kX="0" kY="0" cX="1.08" cY="1" fst="0" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="1675.3" y="19.3" cocos2d_x="1675.3" cocos2d_y="19.3" kX="0" kY="180" cX="1.08" cY="1" fst="2" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="-2245.15" y="2.3" cocos2d_x="-2245.15" cocos2d_y="2.3" kX="0" kY="0" cX="1.08" cY="1" fst="3" pX="0" pY="0" z="3" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvreabsdr" sc="1" dl="0">
+          <f x="663.95" y="-26.75" cocos2d_x="663.95" cocos2d_y="-26.75" kX="0" kY="0" cX="0.53" cY="0.63" fst="0" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="731.85" y="-26.75" cocos2d_x="731.85" cocos2d_y="-26.75" kX="0" kY="180" cX="0.53" cY="0.63" fst="2" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="-1305.75" y="-26.75" cocos2d_x="-1305.75" cocos2d_y="-26.75" kX="0" kY="0" cX="0.53" cY="0.63" fst="3" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrrebre" sc="1" dl="0">
+          <f x="167.2" y="37.6" cocos2d_x="167.2" cocos2d_y="37.6" kX="0" kY="0" cX="1.8" cY="0.63" fst="0" pX="0" pY="0" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="1228.6" y="37.6" cocos2d_x="1228.6" cocos2d_y="37.6" kX="0" kY="180" cX="1.8" cY="0.63" fst="2" pX="0" pY="0" z="5" dI="0" dr="1" twE="NaN" />
+          <f x="-2678.45" y="34.45" cocos2d_x="-2678.45" cocos2d_y="34.45" kX="0" kY="0" cX="1.8" cY="0.63" fst="3" pX="0" pY="0" z="5" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvrebre" sc="1" dl="0">
+          <f x="-282.7" y="-45.3" cocos2d_x="-282.7" cocos2d_y="-45.3" kX="0" kY="0" cX="2.02" cY="2.1" fst="0" pX="0" pY="0" z="6" dI="0" dr="1" twE="NaN" />
+          <f x="1678.5" y="-45.3" cocos2d_x="1678.5" cocos2d_y="-45.3" kX="0" kY="180" cX="2.02" cY="1" fst="2" pX="0" pY="0" z="6" dI="0" dr="1" twE="NaN" />
+          <f x="-3172.4" y="-45.3" cocos2d_x="-3172.4" cocos2d_y="-45.3" kX="0" kY="0" cX="2.02" cY="1" fst="3" pX="0" pY="0" z="6" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvrebre0" sc="1" dl="0">
+          <f x="752.7" y="-75.3" cocos2d_x="752.7" cocos2d_y="-75.3" kX="0" kY="0" cX="1.08" cY="2.36" fst="0" pX="0" pY="0" z="7" dI="0" dr="1" twE="NaN" />
+          <f x="643.1" y="-63.25" cocos2d_x="643.1" cocos2d_y="-63.25" kX="0" kY="180" cX="1.08" cY="1" fst="2" pX="0" pY="0" z="7" dI="0" dr="1" twE="NaN" />
+          <f x="-2137" y="-63.25" cocos2d_x="-2137" cocos2d_y="-63.25" kX="0" kY="0" cX="1.08" cY="1" fst="3" pX="0" pY="0" z="7" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvre" sc="1" dl="0">
+          <f x="586.5" y="-6.25" cocos2d_x="586.5" cocos2d_y="-6.25" kX="0" kY="0" cX="1.8" cY="1.31" fst="0" pX="0" pY="0" z="8" dI="0" dr="1" twE="NaN" />
+          <f x="809.3" y="-6.25" cocos2d_x="809.3" cocos2d_y="-6.25" kX="0" kY="180" cX="1.8" cY="0.63" fst="2" pX="0" pY="0" z="8" dI="0" dr="1" twE="NaN" />
+          <f x="-2303.2" y="-6.25" cocos2d_x="-2303.2" cocos2d_y="-6.25" kX="0" kY="0" cX="1.8" cY="0.63" fst="3" pX="0" pY="0" z="8" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvreb" sc="1" dl="0">
+          <f x="693.95" y="63.2" cocos2d_x="693.95" cocos2d_y="63.2" kX="0" kY="0" cX="1.08" cY="1" fst="0" pX="0" pY="0" z="9" dI="0" dr="1" twE="NaN" />
+          <f x="972.55" y="63.2" cocos2d_x="972.55" cocos2d_y="63.2" kX="0" kY="180" cX="0.75" cY="1" fst="2" pX="0" pY="0" z="9" dI="0" dr="1" twE="NaN" />
+          <f x="-2546.15" y="53.15" cocos2d_x="-2546.15" cocos2d_y="53.15" kX="0" kY="0" cX="1.08" cY="1" fst="3" pX="0" pY="0" z="9" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="vrebrvfreb" sc="1" dl="0">
+          <f x="1040.45" y="30.7" cocos2d_x="1040.45" cocos2d_y="30.7" kX="0" kY="0" cX="1.08" cY="1.34" fst="0" pX="0" pY="0" z="10" dI="0" dr="1" twE="NaN" />
+          <f x="355.35" y="30.7" cocos2d_x="355.35" cocos2d_y="30.7" kX="0" kY="180" cX="1.08" cY="1" fst="2" pX="0" pY="0" z="10" dI="0" dr="1" twE="NaN" />
+          <f x="-1307.4" y="7.95" cocos2d_x="-1307.4" cocos2d_y="7.95" kX="0" kY="0" cX="0.88" cY="1" fst="3" pX="0" pY="0" z="10" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dongzuo/crwbre">
+      <mov name="ntbrynmmtr" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="btrnstr" sc="1" dl="0">
+          <f x="-17.75" y="-293.15" cocos2d_x="-17.75" cocos2d_y="-293.15" kX="0" kY="0" cX="0.62" cY="0.95" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-17.75" y="-293.15" cocos2d_x="-17.75" cocos2d_y="-293.15" kX="0" kY="0" cX="0.62" cY="0.95" fst="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-17.75" y="-293.15" cocos2d_x="-17.75" cocos2d_y="-293.15" kX="0" kY="0" cX="0.62" cY="0.95" fst="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+        </b>
+        <b name="btrnstr0" sc="1" dl="0">
+          <f x="-9.75" y="160.55" cocos2d_x="-15.15" cocos2d_y="246.5" kX="180" kY="0" cX="0.68" cY="1.15" fst="2" pX="8" pY="74.4" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-9.75" y="160.55" cocos2d_x="-15.15" cocos2d_y="246.5" kX="180" kY="0" cX="0.68" cY="1.15" fst="0" pX="8" pY="74.4" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-9.75" y="160.55" cocos2d_x="-15.15" cocos2d_y="246.5" kX="180" kY="0" cX="0.68" cY="1.15" fst="1" pX="8" pY="74.4" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+        </b>
+        <b name="btrnstr1" sc="1" dl="0">
+          <f x="-342.15" y="230.65" cocos2d_x="-347.55" cocos2d_y="380.55" kX="180" kY="0" cX="0.68" cY="2.01" fst="0" pX="8" pY="74.45" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-342.15" y="230.65" cocos2d_x="-347.55" cocos2d_y="380.55" kX="180" kY="0" cX="0.68" cY="2.01" fst="1" pX="8" pY="74.45" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-342.15" y="230.65" cocos2d_x="-347.55" cocos2d_y="380.55" kX="180" kY="0" cX="0.68" cY="2.01" fst="2" pX="8" pY="74.45" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="1" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+      <mov name="2" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="3" />
+        </b>
+      </mov>
+      <mov name="3" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="上层加快速度线 1130  输出" width="512" height="512">
+    <SubTexture name="dongzuo-bfretnbtern" width="296" height="312" x="0" y="0" cocos2d_pX="150.00" cocos2d_pY="158.50" />
+  </TextureAtlas>
+</skeleton>

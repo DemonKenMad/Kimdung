@@ -1,0 +1,28 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SWorldBossMsg";
+
+//挑战世界BOSS
+// code = 0x4200
+message ChallengeWorldBoss{
+	required int32 targetId = 1;		//目标BOSS配置ID
+	optional int32 employType = 2;	//佣兵阵形类型，如果不是使用佣兵为0
+}
+//过的BOSS死亡次数
+//code = 0x4203
+message GainBossDie{
+	required int32 bossId = 1;
+}
+
+//获得本服排名
+//code = 0x4204
+message GainWorldBossRank{
+	required int32 bossId =1;
+}
+
+
+//获得跨服排名
+//code = 0x4205
+message GainCrossWorldBossRank{
+	required int32 bossId =1;
+}

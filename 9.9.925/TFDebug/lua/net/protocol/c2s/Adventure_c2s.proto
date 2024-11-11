@@ -1,0 +1,129 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SAdventureMsg";
+
+//奇遇
+// 打开奇遇界面
+// code = 0x5900
+message AdventureInterface {
+}
+
+//挑战奇遇副本
+// code = 0x5901
+message AdventureChallenge {
+	required int32 id = 1;						// 副本的ID
+}
+
+//购买商品
+// code = 0x5904
+message AdventureShopBuy {
+	required int32 type = 1;					// 类型 1、珍本 2、善本 3、全本 4、抄本 5、残本
+	required int32 goodsId = 2;					// 购买货物的ID
+	required int32 buyNum = 3;					// 购买的数量
+}
+
+//打开仇人历史记录
+// code = 0x5905
+message AdventureEnemy {
+}
+
+//打开杀戮界面
+// code = 0x5907
+message AdventureMassacre {
+
+}
+
+//排行榜
+// code = 0x5908
+message AdventureMassacreRanking {
+}
+
+//战斗记录
+// code = 0x5909
+message AdventureBattleLog {
+}
+
+//随机事件
+// code = 0x5910
+message AdventureEvent {
+	required int32 eventId = 1;					// 事件ID
+	required int32 employType = 2 ;        //佣兵阵型类型，不使用佣兵阵型时为0
+}
+
+//挑战玩家
+// code = 0x5911
+message AdventurePlayerBattle {
+	required int32 type = 1;					// 类型 20、杀戮21、复仇22、挑战排行榜
+	required int32 playerId = 2;				// 玩家ID
+}
+
+//直接刷新附近玩家(花钱去除CD时间)
+// code = 0x5914
+message ResetPlayerTime {
+
+}
+
+//开始奇遇第二场战斗
+// code = 0x5915
+message StartSecondBattle {
+
+}
+
+// 请求队伍信息
+// code = 0x5920
+message TeamDataRequest {
+	required int32 chapterId = 1; // 章节ID 0代表查看所有队伍
+}
+
+// 创建新队伍
+// code = 0x5921
+message CreateTeamRequest {
+	required int32 chapterId = 1; // 章节ID
+	required int32 minLevel = 2; // 最小等级
+	required int32 maxLevel = 3; // 最大等级
+	required int32 show = 4; // 0对所有人展示 1仅对帮派成员和好友展示
+}
+
+// 队伍操作
+// code = 0x5922
+message OperatingTeamRequest {
+	required int32 type = 1; // 0加入队伍 1退出队伍 2邀请玩家 3准备或取消准备 4拒绝 5发送到公屏邀请
+	optional int64 teamId = 2; // 队伍ID
+	optional int32 playerId = 3; // 邀请的玩家ID
+}
+
+// 队伍聊天
+// code = 0x5923
+message TeamChatRequest {
+	required string message = 1; // 聊天信息
+}
+
+// 开始战斗
+// code = 0x5924
+message StartBattleRequest {
+	required int32 copyId = 1; // 副本ID 0为进入副本开始战斗
+}
+
+// 托管
+// code = 0x5925
+message HostingRequest {
+	required int32 type = 1; // 0托管 1取消托管
+}
+
+// 抽奖
+// code = 0x5926
+message LotteryRequest {
+	required int32 type = 1; // 0正常抽奖 1关闭抽奖界面服务器一次性抽取剩余奖励
+}
+
+// 退出战斗
+// code = 0x5929
+message QuitBattleRequest {
+
+}
+
+//请求队友血量
+//code = 0x592a
+message QueryTeammateHp{
+	required int32 playerId = 1;
+}

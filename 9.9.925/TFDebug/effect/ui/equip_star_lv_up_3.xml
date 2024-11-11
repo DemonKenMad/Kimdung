@@ -1,0 +1,61 @@
+<skeleton name="升星-星星盖下" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-0.5" y="0.45" kX="0" kY="0" cX="0.18" cY="0.18" pX="0" pY="0" z="0">
+        <d name="dwdwdw-1040453" />
+      </b>
+      <b name="图层 1" x="-0.5" y="-0.6" kX="0" kY="0" cX="5.32" cY="5.32" pX="0" pY="0" z="1">
+        <d name="dwdwdw-2450354354" />
+      </b>
+      <b name="图层 4" x="0.1" y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="dwdwdw-42054354" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="anim" dr="26" to="0" drTW="26" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-0.5" y="0.45" cocos2d_x="-0.5" cocos2d_y="0.45" kX="0" kY="0" cX="0.18" cY="0.18" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-3.5" y="1.45" cocos2d_x="-3.5" cocos2d_y="1.45" kX="0" kY="0" cX="0.55" cY="0.55" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="10" />
+          <f x="-3.5" y="1.45" cocos2d_x="-3.5" cocos2d_y="1.45" kX="0" kY="0" cX="0.82" cY="0.82" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="-0.5" y="-0.6" cocos2d_x="-0.5" cocos2d_y="-0.6" kX="0" kY="0" cX="5.32" cY="5.32" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-0.5" y="-0.6" cocos2d_x="-0.5" cocos2d_y="-0.6" kX="0" kY="0" cX="0.99" cY="0.99" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="-0.5" y="-0.6" cocos2d_x="-0.5" cocos2d_y="-0.6" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="4" />
+          <f x="-0.5" y="-0.6" cocos2d_x="-0.5" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" dr="3" />
+          <f x="-0.5" y="-0.6" cocos2d_x="-0.5" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="7">
+            <colorTransform a="0" r="255" g="255" b="255" aM="1" rM="0" gM="0" bM="0" />
+          </f>
+          <f x="-0.5" y="-0.6" cocos2d_x="-0.5" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" dr="3" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="0.1" y="-1" cocos2d_x="0.1" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.1" y="-1" cocos2d_x="0.1" cocos2d_y="-1" kX="0" kY="0" cX="0.78" cY="0.78" pX="0" pY="0" z="2" dI="0" blend="normal" dr="3" />
+          <f x="0.1" y="-1" cocos2d_x="0.1" cocos2d_y="-1" kX="0" kY="0" cX="0.78" cY="0.78" pX="0" pY="0" z="2" dI="0" blend="normal" twE="0" dr="7" />
+          <f x="0.1" y="-1" cocos2d_x="0.1" cocos2d_y="-1" kX="0" kY="0" cX="0.78" cY="0.78" pX="0" pY="0" z="2" dI="0" blend="normal" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="升星-星星盖下" width="256" height="512">
+    <SubTexture name="dwdwdw-42054354" width="41" height="39" x="0" y="235" cocos2d_pX="20.20" cocos2d_pY="19.45" />
+    <SubTexture name="dwdwdw-2450354354" width="33" height="32" x="42" y="235" cocos2d_pX="16.35" cocos2d_pY="16.15" />
+    <SubTexture name="dwdwdw-1040453" width="242" height="234" x="0" y="0" cocos2d_pX="120.45" cocos2d_pY="118.95" />
+  </TextureAtlas>
+</skeleton>

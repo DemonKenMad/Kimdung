@@ -1,0 +1,88 @@
+<skeleton name="低落删字output0609" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="line" x="-41.4" y="-154.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="diluo/line" isArmature="1" />
+      </b>
+      <b name="line0" x="34.05" y="-168.5" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1">
+        <d name="diluo/line" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="diluo/line">
+      <b name="black" x="8.5" y="30.65" kX="-37.48" kY="142.52" cX="0.56" cY="0.56" pX="0" pY="0" z="0">
+        <d name="diluo-black" />
+      </b>
+      <b name="black0" x="3" y="-7.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="diluo-black" />
+      </b>
+      <b name="black1" x="-8" y="13.45" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="2">
+        <d name="diluo-black" />
+      </b>
+      <b name="xian" x="0.05" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+        <d name="diluo-xian" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="diluo/line">
+      <mov name="line" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="black" sc="1" dl="0">
+          <f x="8.5" y="30.65" cocos2d_x="8.5" cocos2d_y="30.65" kX="-37.48" kY="142.52" cX="0.56" cY="0.56" pX="0" pY="0" z="0" dI="0" blend="normal" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.68" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="black0" sc="1" dl="0">
+          <f x="3" y="-7.35" cocos2d_x="3" cocos2d_y="-7.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="normal" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.68" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="black1" sc="1" dl="0">
+          <f x="-8" y="13.45" cocos2d_x="-8" cocos2d_y="13.45" kX="0" kY="0" cX="0.37" cY="0.37" pX="0" pY="0" z="2" dI="0" blend="normal" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.68" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="xian" sc="1" dl="0">
+          <f x="0.05" y="0" cocos2d_x="0.05" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" blend="normal" dr="5" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="diluo" dr="49" to="0" drTW="49" lp="0" twE="NaN">
+        <b name="line" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-41.4" y="-154.95" cocos2d_x="-41.4" cocos2d_y="-154.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="-1" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-41.4" y="-150.75" cocos2d_x="-41.4" cocos2d_y="-150.75" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-41.4" y="-136.1" cocos2d_x="-41.4" cocos2d_y="-136.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="1" dr="5" />
+          <f x="-41.4" y="-132.45" cocos2d_x="-41.4" cocos2d_y="-132.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" dr="19" />
+          <f x="-41.4" y="-132.45" cocos2d_x="-41.4" cocos2d_y="-132.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="10" />
+          <f x="-41.4" y="-132.45" cocos2d_x="-41.4" cocos2d_y="-132.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="line0" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="34.05" y="-168.5" cocos2d_x="34.05" cocos2d_y="-168.5" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1" dI="0" blend="normal" twE="-1" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="34.05" y="-164.3" cocos2d_x="34.05" cocos2d_y="-164.3" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.7" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="34.05" y="-149.65" cocos2d_x="34.05" cocos2d_y="-149.65" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1" dI="0" blend="normal" twE="1" dr="5" />
+          <f x="34.05" y="-146" cocos2d_x="34.05" cocos2d_y="-146" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1" dI="0" blend="normal" dr="17" />
+          <f x="34.05" y="-146" cocos2d_x="34.05" cocos2d_y="-146" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1" dI="0" blend="normal" twE="0" dr="10" />
+          <f x="34.05" y="-146" cocos2d_x="34.05" cocos2d_y="-146" kX="0" kY="0" cX="0.68" cY="0.68" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="低落删字output0609" width="128" height="128">
+    <SubTexture name="diluo-xian" width="43" height="84" x="69" y="0" cocos2d_pX="21.55" cocos2d_pY="41.90" />
+    <SubTexture name="diluo-black" width="68" height="72" x="0" y="0" cocos2d_pX="34.00" cocos2d_pY="36.00" />
+  </TextureAtlas>
+</skeleton>

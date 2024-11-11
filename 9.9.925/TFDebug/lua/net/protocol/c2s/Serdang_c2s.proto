@@ -1,0 +1,48 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SSerdangMsg";
+
+//西岭赛季信息
+//code = 0x7200
+message SerdangSeasonInfoRequest
+{
+}
+
+//西岭关卡信息
+//code = 0x7201
+message SerdangInfoRequest
+{
+}
+
+//西岭关卡挑战
+//code = 0x7202
+message SerdangChallengeRequest
+{
+	required int32 floorId = 1;					//层id
+	optional int32 employType = 2;				//佣兵阵形类型，如果不是使用佣兵为0
+}
+
+//西岭关卡扫荡
+// code = 0x7203
+message SerdangSweepRequest{
+	required int32 floorId = 1; 				//层数
+	optional int32 times = 2;					//扫荡次数
+}
+
+//西岭购买挑战次数
+// code = 0x7205
+message SerdangBuyChallengeCountRequest{
+	required int32 count = 1;					//购买次数
+}
+
+//排行榜
+// code = 0x7206
+message SerdangRankRequest{
+
+}
+
+//排行榜
+// code = 0x7207
+message SerdangBoxRequest{
+
+}

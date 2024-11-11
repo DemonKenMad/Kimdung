@@ -1,0 +1,61 @@
+<skeleton name="何足道被动珍珑劫受击输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="sdgsddsad" x="6.05" y="19.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/sdfddf20" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/sdfddf20" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-6.1" y="-99.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="-0.05" z="0">
+        <d name="xxx-sdfddf18" />
+        <d name="xxx-sdfddf16" />
+        <d name="xxx-sdfddf14" />
+        <d name="xxx-sdfddf12" />
+        <d name="xxx-sdfddf10" />
+        <d name="xxx-sdfddf08" />
+        <d name="xxx-sdfddf06" />
+        <d name="xxx-sdfddf04" />
+        <d name="xxx-sdfddf02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sdfddf20">
+      <mov name="sdgddsadsa" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-6.1" y="-99.85" cocos2d_x="-6.1" cocos2d_y="-99.75" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="2" />
+          <f x="-5.5" y="-99.5" cocos2d_x="-5.5" cocos2d_y="-99.4" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="36.95" y="-94.5" cocos2d_x="36.95" cocos2d_y="-94.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="36.95" y="-94.5" cocos2d_x="36.95" cocos2d_y="-94.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-5.6" y="-98.15" cocos2d_x="-5.6" cocos2d_y="-98.05" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-5.6" y="-98.5" cocos2d_x="-5.5" cocos2d_y="-98.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="-0.05" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="-5.45" y="-106.9" cocos2d_x="-5.45" cocos2d_y="-106.9" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="6" dr="2" />
+          <f x="7.55" y="-101.1" cocos2d_x="7.55" cocos2d_y="-101" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="-0.05" z="0" dI="7" dr="2" />
+          <f x="1.6" y="-102.5" cocos2d_x="1.6" cocos2d_y="-102.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="8" twE="0" dr="4" />
+          <f x="1.6" y="-102.5" cocos2d_x="1.6" cocos2d_y="-102.5" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="sdgsddsad" sc="1" dl="0">
+          <f x="6.05" y="19.1" cocos2d_x="6.05" cocos2d_y="19.1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="15" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="何足道被动珍珑劫受击输出" width="1024" height="1024">
+    <SubTexture name="xxx-sdfddf02" width="149" height="148" x="291" y="369" cocos2d_pX="74.20" cocos2d_pY="73.80" />
+    <SubTexture name="xxx-sdfddf04" width="152" height="146" x="761" y="356" cocos2d_pX="76.25" cocos2d_pY="72.50" />
+    <SubTexture name="xxx-sdfddf06" width="290" height="157" x="291" y="211" cocos2d_pX="144.75" cocos2d_pY="78.55" />
+    <SubTexture name="xxx-sdfddf08" width="290" height="169" x="0" y="211" cocos2d_pX="144.75" cocos2d_pY="83.75" />
+    <SubTexture name="xxx-sdfddf10" width="289" height="176" x="684" y="179" cocos2d_pX="144.70" cocos2d_pY="88.00" />
+    <SubTexture name="xxx-sdfddf12" width="341" height="210" x="0" y="0" cocos2d_pX="170.50" cocos2d_pY="104.75" />
+    <SubTexture name="xxx-sdfddf14" width="341" height="210" x="342" y="0" cocos2d_pX="170.50" cocos2d_pY="104.75" />
+    <SubTexture name="xxx-sdfddf16" width="289" height="178" x="684" y="0" cocos2d_pX="144.25" cocos2d_pY="88.80" />
+    <SubTexture name="xxx-sdfddf18" width="178" height="177" x="582" y="356" cocos2d_pX="88.80" cocos2d_pY="88.65" />
+  </TextureAtlas>
+</skeleton>

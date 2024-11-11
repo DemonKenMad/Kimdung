@@ -1,0 +1,43 @@
+<skeleton name="欧阳锋技能发动 自身BUFF下层(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="2.4" y="4.8" kX="0" kY="0" cX="1.32" cY="0.27" pX="256" pY="256" z="0">
+        <d name="xxx-barbarian_hammeroftheAncientsRune_lava_magicCracks_1-1_00000.png" />
+      </b>
+      <b name="图层 4" x="2" y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifilesMHX13" />
+        <d name="xxx-zhangweifilesMHX11" />
+        <d name="xxx-zhangweifilesMHX09" />
+        <d name="xxx-zhangweifilesMHX07" />
+        <d name="xxx-zhangweifilesMHX05" />
+        <d name="xxx-zhangweifilesMHX03" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="xunhuandsagasdfhah" dr="12" to="0" drTW="12" lp="1" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="2.4" y="4.8" cocos2d_x="-336.8" cocos2d_y="-64" kX="0" kY="0" cX="1.32" cY="0.27" pX="256" pY="256" z="0" dI="0" dr="12" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="2" y="-95.55" cocos2d_x="2" cocos2d_y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="2" y="-95.55" cocos2d_x="2" cocos2d_y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1" dI="1" dr="2" />
+          <f x="2" y="-95.55" cocos2d_x="2" cocos2d_y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1" dI="2" dr="2" />
+          <f x="2" y="-95.55" cocos2d_x="2" cocos2d_y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1" dI="3" dr="2" />
+          <f x="2" y="-95.55" cocos2d_x="2" cocos2d_y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1" dI="4" dr="2" />
+          <f x="2" y="-95.55" cocos2d_x="2" cocos2d_y="-95.55" kX="0" kY="0" cX="2.4" cY="1.83" pX="0" pY="0" z="1" dI="5" dr="2" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="欧阳锋技能发动 自身BUFF下层(2)" width="1024" height="1024">
+    <SubTexture name="xxx-zhangweifilesMHX03" width="105" height="116" x="485" y="0" cocos2d_pX="53.00" cocos2d_pY="64.00" />
+    <SubTexture name="xxx-zhangweifilesMHX05" width="92" height="111" x="904" y="0" cocos2d_pX="47.00" cocos2d_pY="56.00" />
+    <SubTexture name="xxx-zhangweifilesMHX07" width="86" height="106" x="591" y="110" cocos2d_pX="43.00" cocos2d_pY="53.00" />
+    <SubTexture name="xxx-zhangweifilesMHX09" width="97" height="112" x="806" y="0" cocos2d_pX="41.00" cocos2d_pY="60.00" />
+    <SubTexture name="xxx-zhangweifilesMHX11" width="104" height="109" x="701" y="0" cocos2d_pX="49.00" cocos2d_pY="57.00" />
+    <SubTexture name="xxx-zhangweifilesMHX13" width="109" height="109" x="591" y="0" cocos2d_pX="56.00" cocos2d_pY="56.00" />
+    <SubTexture name="xxx-barbarian_hammeroftheAncientsRune_lava_magicCracks_1-1_00000.png" width="484" height="512" x="0" y="0" cocos2d_pX="-20.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

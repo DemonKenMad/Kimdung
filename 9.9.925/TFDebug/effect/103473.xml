@@ -1,0 +1,81 @@
+<skeleton name="杀意下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-98.15" y="2.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="adfafa/元件 3" isArmature="1" />
+      </b>
+      <b name="图层 4" x="-98.15" y="2.15" kX="0" kY="0" cX="1" cY="0.27" pX="0" pY="0" z="1">
+        <d name="adfafa/元件 4" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="adfafa/元件 3" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="0.28" pX="0" pY="0" z="0">
+        <d name="adfafa-补间 37" />
+      </b>
+    </armature>
+    <armature name="adfafa/元件 4" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="adfafa-补间 38" />
+        <d name="adfafa-补间 39" />
+        <d name="adfafa-补间 40" />
+        <d name="adfafa-补间 41" />
+        <d name="adfafa-补间 42" />
+        <d name="adfafa-补间 43" />
+        <d name="adfafa-补间 44" />
+        <d name="adfafa-补间 45" />
+        <d name="adfafa-补间 46" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="adfafa/元件 3">
+      <mov name="sadf" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="0.28" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.9" cY="0.53" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="3" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="2.1" cY="0.59" pX="0" pY="0" z="0" dI="0" blend="add" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="adfafa/元件 4">
+      <mov name="gsafd" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="6" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" blend="add" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" blend="add" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill2-xiaceng" dr="52" to="0" drTW="52" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="36" dI="-1" />
+          <f x="-98.15" y="2.15" cocos2d_x="-98.15" cocos2d_y="2.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="6" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-98.15" y="2.15" cocos2d_x="-98.15" cocos2d_y="2.15" kX="0" kY="0" cX="1" cY="0.27" fst="0" pX="0" pY="0" z="1" dI="0" dr="51" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="杀意下层" width="1024" height="2048">
+    <SubTexture name="adfafa-补间 46" width="304" height="301" x="300" y="0" cocos2d_pX="145.00" cocos2d_pY="152.00" />
+    <SubTexture name="adfafa-补间 45" width="297" height="281" x="300" y="302" cocos2d_pX="145.00" cocos2d_pY="152.00" />
+    <SubTexture name="adfafa-补间 44" width="299" height="307" x="0" y="0" cocos2d_pX="142.00" cocos2d_pY="158.00" />
+    <SubTexture name="adfafa-补间 43" width="292" height="279" x="269" y="864" cocos2d_pX="139.00" cocos2d_pY="150.00" />
+    <SubTexture name="adfafa-补间 42" width="295" height="277" x="586" y="589" cocos2d_pX="145.00" cocos2d_pY="148.00" />
+    <SubTexture name="adfafa-补间 41" width="305" height="293" x="605" y="295" cocos2d_pX="148.00" cocos2d_pY="146.00" />
+    <SubTexture name="adfafa-补间 40" width="305" height="294" x="605" y="0" cocos2d_pX="148.00" cocos2d_pY="145.00" />
+    <SubTexture name="adfafa-补间 39" width="278" height="295" x="0" y="308" cocos2d_pX="149.00" cocos2d_pY="146.00" />
+    <SubTexture name="adfafa-补间 38" width="306" height="279" x="279" y="584" cocos2d_pX="147.00" cocos2d_pY="150.00" />
+    <SubTexture name="adfafa-补间 37" width="268" height="268" x="0" y="604" cocos2d_pX="134.00" cocos2d_pY="134.00" />
+  </TextureAtlas>
+</skeleton>

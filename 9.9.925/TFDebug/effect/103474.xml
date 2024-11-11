@@ -1,0 +1,58 @@
+<skeleton name="李寻欢skill4(反击）" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-2.75" y="-102.7" kX="0" kY="0" cX="1.48" cY="1.32" pX="0" pY="0" z="0">
+        <d name="afafa-元件 3" />
+      </b>
+      <b name="图层 2" x="80.4" y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1">
+        <d name="afafa-补间 1" />
+        <d name="afafa-补间 2" />
+        <d name="afafa-补间 3" />
+        <d name="afafa-补间 4" />
+        <d name="afafa-补间 5" />
+        <d name="afafa-补间 6" />
+      </b>
+      <b name="图层 4" x="103.6" y="-106.95" kX="0" kY="0" cX="0.48" cY="1.51" pX="0" pY="0" z="2">
+        <d name="afafa-元件 4" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="afafag" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-2.75" y="-102.7" cocos2d_x="-2.75" cocos2d_y="-102.7" kX="0" kY="0" cX="1.48" cY="1.32" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="-2.75" y="-102.7" cocos2d_x="-2.75" cocos2d_y="-102.7" kX="0" kY="0" cX="2.07" cY="1.32" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="-2.75" y="-102.7" cocos2d_x="-2.75" cocos2d_y="-102.7" kX="0" kY="0" cX="2.37" cY="0.82" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="5" />
+          <f x="-2.75" y="-102.7" cocos2d_x="-2.75" cocos2d_y="-102.7" kX="0" kY="0" cX="2.46" cY="0.36" pX="0" pY="0" z="0" dI="0" blend="add" twE="0" dr="1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="80.4" y="-110.95" cocos2d_x="80.4" cocos2d_y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="80.4" y="-110.95" cocos2d_x="80.4" cocos2d_y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1" dI="1" blend="add" dr="1" twE="NaN" />
+          <f x="80.4" y="-110.95" cocos2d_x="80.4" cocos2d_y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1" dI="2" blend="add" dr="1" twE="NaN" />
+          <f x="80.4" y="-110.95" cocos2d_x="80.4" cocos2d_y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1" dI="3" blend="add" dr="1" twE="NaN" />
+          <f x="80.4" y="-110.95" cocos2d_x="80.4" cocos2d_y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1" dI="4" blend="add" dr="1" twE="NaN" />
+          <f x="80.4" y="-110.95" cocos2d_x="80.4" cocos2d_y="-110.95" kX="0" kY="0" cX="1.2" cY="1.25" pX="0" pY="0" z="1" dI="5" blend="add" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="103.6" y="-106.95" cocos2d_x="103.6" cocos2d_y="-106.95" kX="0" kY="0" cX="0.48" cY="1.51" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="2" />
+          <f x="103.6" y="-106.95" cocos2d_x="103.6" cocos2d_y="-106.95" kX="0" kY="0" cX="1.1" cY="1.51" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="3" />
+          <f x="103.6" y="-106.95" cocos2d_x="103.6" cocos2d_y="-106.95" kX="0" kY="0" cX="1.1" cY="0.64" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="3" />
+          <f x="103.6" y="-106.95" cocos2d_x="103.6" cocos2d_y="-106.95" kX="0" kY="0" cX="1.1" cY="0.4" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="1" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="李寻欢skill4(反击）" width="512" height="512">
+    <SubTexture name="afafa-元件 4" width="256" height="61" x="0" y="41" cocos2d_pX="128.00" cocos2d_pY="29.90" />
+    <SubTexture name="afafa-补间 6" width="70" height="229" x="290" y="0" cocos2d_pX="31.00" cocos2d_pY="114.00" />
+    <SubTexture name="afafa-补间 5" width="64" height="217" x="361" y="0" cocos2d_pX="28.00" cocos2d_pY="109.00" />
+    <SubTexture name="afafa-补间 4" width="58" height="194" x="426" y="0" cocos2d_pX="24.00" cocos2d_pY="100.00" />
+    <SubTexture name="afafa-补间 3" width="51" height="176" x="0" y="103" cocos2d_pX="19.00" cocos2d_pY="89.00" />
+    <SubTexture name="afafa-补间 2" width="39" height="132" x="52" y="103" cocos2d_pX="9.00" cocos2d_pY="67.00" />
+    <SubTexture name="afafa-补间 1" width="30" height="122" x="257" y="41" cocos2d_pX="3.00" cocos2d_pY="62.00" />
+    <SubTexture name="afafa-元件 3" width="289" height="40" x="0" y="0" cocos2d_pX="139.00" cocos2d_pY="18.00" />
+  </TextureAtlas>
+</skeleton>

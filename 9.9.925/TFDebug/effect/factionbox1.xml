@@ -1,0 +1,99 @@
+<skeleton name="帮派铁箱" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/vrwvbrebreb" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/vrwvbrebreb" isLoop="loop" startFrame="1">
+      <b name="图层 7" x="4.1" y="-10.5" kX="0" kY="0" cX="0.94" cY="0.94" pX="0" pY="0" z="0">
+        <d name="xxx/VB REBRETN B" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/VB REBRETN B" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/vrew BFREB REB" isArmature="1" />
+      </b>
+      <b name="图层 5" x="-9.6" y="42.55" kX="0" kY="0" cX="1.06" cY="1.06" pX="-9" pY="40" z="1">
+        <d name="xxx/vcrebteb tr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/vrew BFREB REB" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1.06" cY="1.06" pX="0" pY="0" z="0">
+        <d name="xxx/vcrebteb tr" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/vcrebteb tr" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-4" y="2.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-ecewvewxxxxxxxxxxxxxx" />
+      </b>
+      <b name="图层 2" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-FREBRE" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/vcrebteb tr">
+      <mov name="dvrv" dr="30" to="0" drTW="30" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-4" y="2.4" cocos2d_x="-4" cocos2d_y="2.4" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="30" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="14" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="15">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/vrew BFREB REB">
+      <mov name="veqwvew" dr="30" to="0" drTW="30" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.06" cY="1.06" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="14" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="14" pX="0" pY="0" z="0" dI="0" twE="0" dr="15" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.06" cY="1.06" fst="29" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/VB REBRETN B">
+      <mov name="verv" dr="90" to="0" drTW="90" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="60" />
+          <f dr="30" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="60" dI="-1" />
+          <f x="-9.6" y="42.55" cocos2d_x="-0.05" cocos2d_y="0.15" kX="0" kY="0" cX="1.06" cY="1.06" fst="0" pX="-9" pY="40" z="1" dI="0" twE="0" dr="3" />
+          <f x="-9.6" y="42.55" cocos2d_x="0.5" cocos2d_y="4.2" kX="0" kY="0" cX="1.12" cY="0.96" fst="3" pX="-9.05" pY="39.95" z="1" dI="0" twE="0" dr="2" />
+          <f x="-9.55" y="42.6" cocos2d_x="0.1" cocos2d_y="-0.6" kX="0" kY="0" cX="1.07" cY="1.08" fst="5" pX="-9" pY="40.05" z="1" dI="0" twE="0" dr="3" />
+          <f x="-9.55" y="42.65" cocos2d_x="0.6" cocos2d_y="2.4" kX="0" kY="0" cX="1.13" cY="1" fst="8" pX="-9" pY="40.05" z="1" dI="0" twE="0" dr="2" />
+          <f x="-9.6" y="42.8" cocos2d_x="-0.1" cocos2d_y="-1.6" kX="0" kY="0" cX="1.06" cY="1.11" fst="10" pX="-9" pY="40.15" z="1" dI="0" twE="0" dr="3" />
+          <f x="-9.65" y="42.85" cocos2d_x="0.25" cocos2d_y="0.65" kX="0" kY="0" cX="1.1" cY="1.05" fst="13" pX="-9.05" pY="40.2" z="1" dI="0" twE="0" dr="3" />
+          <f x="-9.7" y="42.8" cocos2d_x="-0.1" cocos2d_y="-2.35" kX="0" kY="0" cX="1.06" cY="1.12" fst="16" pX="-9.1" pY="40.2" z="1" dI="0" twE="0" dr="4" />
+          <f x="-9.6" y="42.5" cocos2d_x="0.15" cocos2d_y="0.7" kX="0" kY="0" cX="1.08" cY="1.05" fst="20" pX="-9.05" pY="40" z="1" dI="0" twE="0" dr="4" />
+          <f x="-9.55" y="42.5" cocos2d_x="0" cocos2d_y="-0.8" kX="0" kY="0" cX="1.06" cY="1.08" fst="24" pX="-9" pY="40" z="1" dI="0" twE="0" dr="5" />
+          <f x="-9.6" y="42.55" cocos2d_x="-0.05" cocos2d_y="0.15" kX="0" kY="0" cX="1.06" cY="1.06" fst="29" pX="-9" pY="40" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/vrwvbrebreb">
+      <mov name="yttrreeew" dr="90" to="0" drTW="90" lp="1" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f x="4.1" y="-10.5" cocos2d_x="4.1" cocos2d_y="-10.5" kX="0" kY="0" cX="0.94" cY="0.94" fst="0" pX="0" pY="0" z="0" dI="0" dr="90" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="donghua" dr="90" to="0" drTW="90" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="90" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="帮派铁箱" width="256" height="256">
+    <SubTexture name="xxx-FREBRE" width="140" height="133" x="0" y="0" cocos2d_pX="76.00" cocos2d_pY="69.35" />
+    <SubTexture name="xxx-ecewvewxxxxxxxxxxxxxx" width="91" height="85" x="141" y="0" cocos2d_pX="47.15" cocos2d_pY="47.85" />
+  </TextureAtlas>
+</skeleton>

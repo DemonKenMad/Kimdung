@@ -1,0 +1,49 @@
+<skeleton name="破字样2016" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="three" x="0.1" y="4.9" kX="0" kY="0" cX="2" cY="1.14" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifiltacerB04" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB04" isLoop="loop" startFrame="1">
+      <b name="daigeshabi2" x="-1" y="-2.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB07" />
+        <d name="xxx-zhangweifiltacerB08" />
+        <d name="xxx-zhangweifiltacerB09" />
+        <d name="xxx-zhangweifiltacerB10" />
+        <d name="xxx-zhangweifiltacerB11" />
+        <d name="xxx-zhangweifiltacerB12" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifiltacerB04">
+      <mov name="dsafghashas" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="daigeshabi2" sc="1" dl="0">
+          <f x="-1" y="-2.8" cocos2d_x="-1" cocos2d_y="-2.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-1.8" y="-4.95" cocos2d_x="-1.8" cocos2d_y="-4.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-3" y="-5.55" cocos2d_x="-3" cocos2d_y="-5.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-3.25" y="-5.55" cocos2d_x="-3.25" cocos2d_y="-5.55" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="-1.7" y="-5.05" cocos2d_x="-1.7" cocos2d_y="-5.05" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f x="3.85" y="8.95" cocos2d_x="3.85" cocos2d_y="8.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="sgasdfg" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="three" sc="1" dl="0">
+          <f x="0.1" y="4.9" cocos2d_x="0.1" cocos2d_y="4.9" kX="0" kY="0" cX="2" cY="1.14" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="10" />
+          <f x="0.1" y="4.9" cocos2d_x="0.1" cocos2d_y="4.9" kX="0" kY="0" cX="3.05" cY="1.73" fst="10" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="破字样2016" width="1024" height="512">
+    <SubTexture name="xxx-zhangweifiltacerB12" width="255" height="214" x="517" y="0" cocos2d_pX="126.50" cocos2d_pY="107.50" />
+    <SubTexture name="xxx-zhangweifiltacerB11" width="262" height="233" x="0" y="0" cocos2d_pX="131.00" cocos2d_pY="116.50" />
+    <SubTexture name="xxx-zhangweifiltacerB10" width="253" height="231" x="263" y="0" cocos2d_pX="126.50" cocos2d_pY="115.50" />
+    <SubTexture name="xxx-zhangweifiltacerB09" width="239" height="221" x="773" y="0" cocos2d_pX="120.00" cocos2d_pY="111.00" />
+    <SubTexture name="xxx-zhangweifiltacerB08" width="226" height="206" x="517" y="215" cocos2d_pX="113.00" cocos2d_pY="103.00" />
+    <SubTexture name="xxx-zhangweifiltacerB07" width="211" height="194" x="744" y="222" cocos2d_pX="105.00" cocos2d_pY="97.00" />
+  </TextureAtlas>
+</skeleton>

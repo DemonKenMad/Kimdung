@@ -1,0 +1,54 @@
+<skeleton name="升星特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifiltacerB04" />
+        <d name="xxx-zhangweifiltacerB03" />
+      </b>
+      <b name="图层 2" x="-4.45" y="6.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifiltacerB06" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB06" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="1.75" y="-2.9" kX="0" kY="0" cX="1" cY="1" pX="74" pY="-124.05" z="0">
+        <d name="xxx-zhangweifiltacerB07" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifiltacerB06">
+      <mov name="fdsafasgasg" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.75" y="-2.9" cocos2d_x="-72.25" cocos2d_y="121.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="74" pY="-124.05" z="0" dI="0" twE="-1" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="1.75" y="-2.9" cocos2d_x="-72.25" cocos2d_y="121.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="74" pY="-124.05" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.56" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="1.75" y="-2.9" cocos2d_x="-109.25" cocos2d_y="183.2" kX="0" kY="0" cX="1.5" cY="1.5" fst="0" pX="74" pY="-124.1" z="0" dI="0" twE="-1" dr="17" />
+          <f x="1.75" y="-2.9" cocos2d_x="-4.1" cocos2d_y="6.95" kX="0" kY="0" cX="0.08" cY="0.08" fst="0" pX="73.7" pY="-124.15" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dfsafsdgasdfsda" dr="114" to="0" drTW="114" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="104" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-4.45" y="6.95" cocos2d_x="-4.45" cocos2d_y="6.95" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="22" />
+          <f dr="92" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="升星特效" width="512" height="256">
+    <SubTexture name="xxx-zhangweifiltacerB07" width="302" height="236" x="0" y="0" cocos2d_pX="78.40" cocos2d_pY="246.80" />
+    <SubTexture name="xxx-zhangweifiltacerB03" width="50" height="47" x="303" y="0" cocos2d_pX="25.00" cocos2d_pY="23.50" />
+    <SubTexture name="xxx-zhangweifiltacerB04" width="50" height="47" x="354" y="0" cocos2d_pX="25.00" cocos2d_pY="23.50" />
+  </TextureAtlas>
+</skeleton>

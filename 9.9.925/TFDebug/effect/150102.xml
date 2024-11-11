@@ -1,0 +1,59 @@
+<skeleton name="叶二娘飞行特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 6" x="27.4" y="18.1" kX="27.92" kY="2.49" cX="2.63" cY="1.88" pX="0.4" pY="0.25" z="0">
+        <d name="Shape-beiji"/>
+      </b>
+      <b name="图层 7" x="-113.75" y="17.25" kX="31.62" kY="1.08" cX="1.69" cY="1.22" pX="0.25" pY="0.25" z="1">
+        <d name="Shape-beiji"/>
+      </b>
+      <b name="图层 8" x="-220.65" y="-13.65" kX="47.95" kY="0" cX="1.77" cY="1.49" pX="0.3" pY="0.35" z="2">
+        <d name="Shape-beiji"/>
+      </b>
+      <b name="图层 9" x="-35.8" y="-10.75" kX="136.03" kY="0" cX="3.16" cY="1.62" pX="0.25" pY="0.45" z="3">
+        <d name="Shape-beiji"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="cxzc" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 6" sc="1" dl="0">
+          <f x="27.4" y="18.1" cocos2d_x="26.55" cocos2d_y="17.65" kX="27.92" kY="2.49" cX="2.63" cY="1.88" pX="0.4" pY="0.25" z="0" dI="0" blend="add" twE="0" dr="11"/>
+          <f x="27.35" y="18.1" cocos2d_x="26.4" cocos2d_y="17.65" kX="27.92" kY="2.49" cX="2.92" cY="1.88" pX="0.35" pY="0.25" z="0" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.66" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="-113.75" y="17.25" cocos2d_x="-114" cocos2d_y="17" kX="31.62" kY="1.08" cX="1.69" cY="1.22" pX="0.25" pY="0.25" z="1" dI="0" blend="add" twE="0" dr="4"/>
+          <f x="-26.8" y="17.15" cocos2d_x="-27.05" cocos2d_y="16.9" kX="31.58" kY="1.02" cX="1.69" cY="1.22" pX="0.2" pY="0.25" z="1" dI="0" blend="add" twE="0" dr="3"/>
+          <f x="38.25" y="17.25" cocos2d_x="38" cocos2d_y="17" kX="31.62" kY="1.08" cX="1.69" cY="1.22" pX="0.25" pY="0.25" z="1" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.41" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="图层 8" sc="1" dl="0">
+          <f dr="7" dI="-1"/>
+          <f x="-220.65" y="-13.65" cocos2d_x="-220.85" cocos2d_y="-14" kX="47.95" kY="0" cX="1.77" cY="1.49" pX="0.3" pY="0.35" z="2" dI="0" twE="0" dr="4"/>
+          <f x="-92.65" y="-13.65" cocos2d_x="-92.85" cocos2d_y="-14" kX="47.95" kY="0" cX="1.77" cY="1.49" pX="0.35" pY="0.35" z="2" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.38" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="-35.8" y="-10.75" cocos2d_x="-36.1" cocos2d_y="-10.2" kX="136.03" kY="0" cX="3.16" cY="1.62" pX="0.25" pY="0.45" z="3" dI="0" blend="add" twE="0" dr="3"/>
+          <f x="-35.8" y="-10.75" cocos2d_x="-36.1" cocos2d_y="-10.2" kX="136.03" kY="0" cX="3.16" cY="1.62" pX="0.25" pY="0.45" z="3" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-35.8" y="-10.75" cocos2d_x="-36.1" cocos2d_y="-10.2" kX="136.03" kY="0" cX="3.16" cY="1.62" pX="0.25" pY="0.45" z="3" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.25" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="4" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="叶二娘飞行特效" width="256" height="128">
+    <SubTexture name="Shape-beiji" width="200" height="83" x="0" y="0" cocos2d_pX="99.65" cocos2d_pY="41.15"/>
+  </TextureAtlas>
+</skeleton>

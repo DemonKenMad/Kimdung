@@ -1,0 +1,61 @@
+<skeleton name="左子幕普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="190.5" y="-84.95" kX="0" kY="0" cX="3.61" cY="3.61" pX="73.5" pY="20" z="0">
+        <d name="zuozimu-4564"/>
+      </b>
+      <b name="图层 4" x="263.15" y="-18.1" kX="32.99" kY="31.98" cX="2.14" cY="2" pX="20.6" pY="89.55" z="1">
+        <d name="zuozimu-4345"/>
+      </b>
+      <b name="图层 3" x="147" y="-96.6" kX="0" kY="0" cX="1.84" cY="1.84" pX="19" pY="45.45" z="2">
+        <d name="zuozimu-4345"/>
+      </b>
+      <b name="图层 2" x="240.85" y="-21.85" kX="-4.17" kY="-5.97" cX="2.14" cY="1.82" pX="20.55" pY="89.55" z="3">
+        <d name="zuozimu-4345"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="rrwr" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="190.5" y="-84.95" cocos2d_x="-74.8" cocos2d_y="-157.15" kX="0" kY="0" cX="3.61" cY="3.61" pX="73.5" pY="20" z="0" dI="0" dr="2"/>
+          <f x="263.05" y="-81.95" cocos2d_x="-2.25" cocos2d_y="-105.05" kX="0" kY="0" cX="3.61" cY="1.15" pX="73.5" pY="20" z="0" dI="0" dr="2"/>
+          <f x="308" y="-82" cocos2d_x="62.95" cocos2d_y="-89.05" kX="0" kY="0" cX="3.33" cY="0.35" pX="73.45" pY="20" z="0" dI="0" dr="2"/>
+          <f x="307.85" y="-82" cocos2d_x="74.9" cocos2d_y="-80" kX="180" kY="0" cX="3.17" cY="0.1" pX="73.45" pY="19.95" z="0" dI="0" dr="2"/>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="6" dI="-1"/>
+          <f x="263.15" y="-18.1" cocos2d_x="323.25" cocos2d_y="-191.35" kX="32.99" kY="31.98" cX="2.14" cY="2" pX="20.6" pY="89.55" z="1" dI="0" dr="2"/>
+          <f x="274.4" y="-12.7" cocos2d_x="332.55" cocos2d_y="-196.4" kX="33.03" kY="32.02" cX="2.5" cY="2.09" pX="20.55" pY="89.5" z="1" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.53" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="269.8" y="-13.7" cocos2d_x="345.75" cocos2d_y="-194.9" kX="38.43" kY="37.42" cX="2.59" cY="2.12" pX="20.5" pY="89.55" z="1" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.26" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="2" dI="-1"/>
+          <f x="147" y="-96.6" cocos2d_x="112" cocos2d_y="-180.3" kX="0" kY="0" cX="1.84" cY="1.84" pX="19" pY="45.45" z="2" dI="0" dr="2"/>
+          <f x="159.95" y="-8.85" cocos2d_x="114.85" cocos2d_y="-198.05" kX="1.8" kY="0" cX="2.48" cY="2.11" pX="20.6" pY="89.6" z="2" dI="0" dr="2"/>
+          <f dr="7" dI="-1"/>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="6" dI="-1"/>
+          <f x="240.85" y="-21.85" cocos2d_x="185.4" cocos2d_y="-180.2" kX="-4.17" kY="-5.97" cX="2.14" cY="1.82" pX="20.55" pY="89.55" z="3" dI="0" dr="2"/>
+          <f x="253.8" y="-10.65" cocos2d_x="187.95" cocos2d_y="-189.55" kX="-4.71" kY="-5.72" cX="2.49" cY="2.06" pX="20.5" pY="89.45" z="3" dI="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.53" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="3" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="左子幕普工" width="256" height="128">
+    <SubTexture name="zuozimu-4345" width="38" height="91" x="149" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="zuozimu-4564" width="147" height="40" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

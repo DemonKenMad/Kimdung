@@ -1,0 +1,62 @@
+<skeleton name="黄药师红技能捆绑自身下层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="373.4" y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifiltacerB03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifiltacerB03" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="-8.4" y="6.7" kX="0" kY="0" cX="1" cY="1" pX="350" pY="51.5" z="0">
+        <d name="xxx-zhangweifiltacerB05" />
+      </b>
+      <b name="图层 1" x="-15.4" y="-103.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx-zhangweifiltacerB04" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifiltacerB03">
+      <mov name="sdafsadgsadgasgd" dr="82" to="0" drTW="82" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-8.4" y="6.7" cocos2d_x="-358.4" cocos2d_y="-44.8" kX="0" kY="0" cX="1" cY="1" pX="350" pY="51.5" z="0" dI="0" dr="82" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="-15.4" y="-103.9" cocos2d_x="-15.4" cocos2d_y="-103.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" blend="add" dr="73" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="ddhsdgdfgsdfg" dr="47" to="0" drTW="47" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="16" dI="-1" />
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="0" pX="0" pY="0" z="0" dI="0" dr="23" />
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="23" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="24" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.93" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="25" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.83" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="26" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.72" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="27" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.58" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="28" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.46" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="373.4" y="8.5" cocos2d_x="373.4" cocos2d_y="8.5" kX="35.46" kY="0" cX="2.23" cY="1.23" fst="29" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="黄药师红技能捆绑自身下层" width="1024" height="256">
+    <SubTexture name="xxx-zhangweifiltacerB04" width="588" height="69" x="0" y="87" cocos2d_pX="285.95" cocos2d_pY="-78.90" />
+    <SubTexture name="xxx-zhangweifiltacerB05" width="671" height="86" x="0" y="0" cocos2d_pX="-13.00" cocos2d_pY="-8.00" />
+  </TextureAtlas>
+</skeleton>

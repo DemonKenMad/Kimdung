@@ -1,0 +1,62 @@
+<skeleton name="大辽武士普攻FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="132.2" y="-103.85" kX="162.6" kY="-17.4" cX="1.62" cY="2.62" pX="-2.9" pY="16.95" z="0">
+        <d name="daliaowushi/quanguang" isArmature="1" />
+      </b>
+      <b name="图层 3" x="27.2" y="-17.1" kX="0" kY="0" cX="1" cY="1" pX="69" pY="42" z="1">
+        <d name="daliaowushi-sdhj" />
+        <d name="daliaowushi-dfh" />
+        <d name="daliaowushi-dfhhy" />
+        <d name="daliaowushi-esrh" />
+      </b>
+    </armature>
+    <armature name="daliaowushi/quanguang" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-15.95" y="59.85" kX="0" kY="0" cX="2" cY="2" pX="89.5" pY="54" z="0">
+        <d name="daliaowushi-sdfhdj" />
+        <d name="daliaowushi-dsfjkk" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="daliaowushi/quanguang">
+      <mov name="1" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-15.95" y="59.85" cocos2d_x="-194.95" cocos2d_y="-48.15" kX="0" kY="0" cX="2" cY="2" pX="89.5" pY="54" z="0" dI="0" blend="normal" dr="3" />
+          <f x="-17.65" y="39.9" cocos2d_x="-202.95" cocos2d_y="-66.2" kX="0" kY="0" cX="2" cY="2" pX="92.65" pY="53.05" z="0" dI="1" blend="normal" dr="4" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="attack" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="132.2" y="-103.85" cocos2d_x="150" cocos2d_y="-62.75" kX="162.6" kY="-17.4" cX="1.62" cY="2.62" fst="0" pX="-2.9" pY="16.95" z="0" dI="0" dr="4" />
+          <f x="132.2" y="-103.85" cocos2d_x="150" cocos2d_y="-62.75" kX="162.6" kY="-17.4" cX="1.62" cY="2.62" fst="3" pX="-2.9" pY="16.95" z="0" dI="0" twE="0" dr="4" />
+          <f x="132.2" y="-103.85" cocos2d_x="150" cocos2d_y="-62.75" kX="162.6" kY="-17.4" cX="1.62" cY="2.62" fst="9" pX="-2.9" pY="16.95" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="27.2" y="-17.1" cocos2d_x="-41.8" cocos2d_y="-59.1" kX="0" kY="0" cX="1" cY="1" pX="69" pY="42" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="20.9" y="-19" cocos2d_x="-58.6" cocos2d_y="-75" kX="0" kY="0" cX="1" cY="1" pX="79.5" pY="56" z="1" dI="1" dr="1" twE="NaN" />
+          <f x="15.1" y="-26" cocos2d_x="-67.4" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="60" z="1" dI="2" dr="1" twE="NaN" />
+          <f x="18.5" y="-6.7" cocos2d_x="-67.5" cocos2d_y="-40.7" kX="0" kY="0" cX="1" cY="1" pX="86" pY="34" z="1" dI="3" dr="1" twE="NaN" />
+          <f x="18.5" y="-3.7" cocos2d_x="-67.5" cocos2d_y="-37.7" kX="0" kY="0" cX="1" cY="1" pX="86" pY="34" z="1" dI="3" dr="1" twE="NaN" />
+          <f x="20.5" y="-2.7" cocos2d_x="-67.5" cocos2d_y="-36.7" kX="0" kY="0" cX="1.02" cY="1" pX="86" pY="34" z="1" dI="3" dr="1" twE="NaN" />
+          <f dr="10" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="大辽武士普攻FX" width="512" height="256">
+    <SubTexture name="daliaowushi-dsfjkk" width="101" height="86" x="0" y="115" cocos2d_pX="-60.00" cocos2d_pY="-10.00" />
+    <SubTexture name="daliaowushi-sdfhdj" width="127" height="101" x="317" y="65" cocos2d_pX="-36.00" cocos2d_pY="-5.00" />
+    <SubTexture name="daliaowushi-esrh" width="167" height="64" x="317" y="0" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+    <SubTexture name="daliaowushi-dfhhy" width="160" height="114" x="0" y="0" cocos2d_pX="-1.00" cocos2d_pY="-2.00" />
+    <SubTexture name="daliaowushi-dfh" width="155" height="106" x="161" y="0" cocos2d_pX="0.00" cocos2d_pY="-2.00" />
+    <SubTexture name="daliaowushi-sdhj" width="133" height="80" x="161" y="107" cocos2d_pX="-1.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>

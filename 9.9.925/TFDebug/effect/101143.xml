@@ -1,0 +1,65 @@
+<skeleton name="神农帮众动画技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-31.65" y="-172.4" kX="0" kY="0" cX="1.26" cY="1.26" pX="0" pY="0" z="0">
+        <d name="fsafdas/xuanfeng" isArmature="1" />
+        <d name="fsafdas/DB" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="fsafdas/xuanfeng" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="115" pY="60" z="0">
+        <d name="fsafdas-CF_00000.png" />
+        <d name="fsafdas-CF_00001.png" />
+        <d name="fsafdas-CF_00002.png" />
+        <d name="fsafdas-CF_00003.png" />
+      </b>
+    </armature>
+    <armature name="fsafdas/DB" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="6" y="-61" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0">
+        <d name="fsafdas-DB20001.png" />
+        <d name="fsafdas-DB20004.png" />
+        <d name="fsafdas-DB20006.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="fsafdas/xuanfeng">
+      <mov name="dsadsa" dr="4" to="0" drTW="4" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="-115" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="115" pY="60" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="0" y="0" cocos2d_x="-115" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="115" pY="60" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="0" y="0" cocos2d_x="-115" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="115" pY="60" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="0" y="0" cocos2d_x="-115" cocos2d_y="-60" kX="0" kY="0" cX="1" cY="1" pX="115" pY="60" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="fsafdas/DB">
+      <mov name="dsad" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="6" y="-61" cocos2d_x="-144" cocos2d_y="-221" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0" dI="0" dr="2" />
+          <f x="6" y="-61" cocos2d_x="-144" cocos2d_y="-221" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0" dI="1" dr="2" />
+          <f x="6" y="-61" cocos2d_x="-144" cocos2d_y="-221" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsadqa" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-31.65" y="-172.4" cocos2d_x="-31.65" cocos2d_y="-172.4" kX="0" kY="0" cX="1.26" cY="1.26" pX="0" pY="0" z="0" dI="0" dr="10" />
+          <f dr="5" dI="-1" />
+          <f x="257" y="-140.6" cocos2d_x="249.05" cocos2d_y="-63.2" kX="0" kY="0" cX="1.33" cY="1.27" pX="6" pY="-61" z="0" dI="1" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神农帮众动画技能" width="512" height="1024">
+    <SubTexture name="fsafdas-DB20006.png" width="215" height="258" x="0" y="0" cocos2d_pX="-83.00" cocos2d_pY="-28.00" />
+    <SubTexture name="fsafdas-DB20004.png" width="245" height="191" x="216" y="202" cocos2d_pX="-38.00" cocos2d_pY="-104.00" />
+    <SubTexture name="fsafdas-DB20001.png" width="237" height="201" x="216" y="0" cocos2d_pX="-2.00" cocos2d_pY="-110.00" />
+    <SubTexture name="fsafdas-CF_00003.png" width="189" height="78" x="0" y="259" cocos2d_pX="-41.00" cocos2d_pY="-31.00" />
+    <SubTexture name="fsafdas-CF_00002.png" width="158" height="93" x="0" y="429" cocos2d_pX="-44.00" cocos2d_pY="-13.00" />
+    <SubTexture name="fsafdas-CF_00001.png" width="174" height="90" x="0" y="338" cocos2d_pX="-38.00" cocos2d_pY="-14.00" />
+    <SubTexture name="fsafdas-CF_00000.png" width="228" height="100" x="175" y="394" cocos2d_pX="-2.00" cocos2d_pY="-9.00" />
+  </TextureAtlas>
+</skeleton>

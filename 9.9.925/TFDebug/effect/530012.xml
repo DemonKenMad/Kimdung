@@ -1,0 +1,82 @@
+<skeleton name="战宠雕1-3级技能下层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="xcwxc" x="-52.8" y="-57.8" kX="0" kY="0" cX="250" cY="250" pX="0" pY="0" z="0">
+        <d name="xxx-cnfreeadcoms31115202" />
+      </b>
+      <b name="xcwxcw" x="202.05" y="90.35" kX="0" kY="180" cX="1.56" cY="1.56" pX="63.25" pY="15.6" z="1">
+        <d name="xxx-cnfreeadcoms31148554" />
+        <d name="xxx-cnfreeadcoms31191988" />
+        <d name="xxx-cnfreeadcoms31110785" />
+        <d name="xxx-cnfreeadcoms31193224" />
+        <d name="xxx-cnfreeadcoms31143292" />
+        <d name="xxx-cnfreeadcoms31124649" />
+      </b>
+      <b name="cxzcw" x="115.2" y="42.75" kX="0" kY="180" cX="2.39" cY="2.39" pX="0" pY="0" z="2">
+        <d name="xxx-cnfreeadcoms31137573" />
+        <d name="xxx-cnfreeadcoms31111894" />
+        <d name="xxx-cnfreeadcoms31159585" />
+        <d name="xxx-cnfreeadcoms31170564" />
+        <d name="xxx-cnfreeadcoms3113050" />
+        <d name="xxx-cnfreeadcoms3111046" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="wrqsadw" dr="63" to="0" drTW="63" lp="0" twE="NaN">
+        <b name="xcwxc" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-52.8" y="-57.8" cocos2d_x="-52.8" cocos2d_y="-57.8" kX="0" kY="0" cX="250" cY="250" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-52.8" y="-57.8" cocos2d_x="-52.8" cocos2d_y="-57.8" kX="0" kY="0" cX="250" cY="250" pX="0" pY="0" z="0" dI="0" dr="39">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-52.8" y="-57.8" cocos2d_x="-52.8" cocos2d_y="-57.8" kX="0" kY="0" cX="250" cY="250" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-52.8" y="-57.8" cocos2d_x="-52.8" cocos2d_y="-57.8" kX="0" kY="0" cX="250" cY="250" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="xcwxcw" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="202.05" y="90.35" cocos2d_x="300.85" cocos2d_y="66" kX="0" kY="180" cX="1.56" cY="1.56" fst="0" pX="63.25" pY="15.6" z="1" dI="0" dr="2" />
+          <f x="302.55" y="43.4" cocos2d_x="505.8" cocos2d_y="-19.55" kX="0" kY="180" cX="1.56" cY="1.56" fst="0" pX="130.1" pY="40.3" z="1" dI="1" dr="3" />
+          <f x="339.95" y="3.4" cocos2d_x="514.85" cocos2d_y="-101.75" kX="0" kY="180" cX="1.56" cY="1.56" fst="0" pX="111.95" pY="67.3" z="1" dI="2" dr="2" />
+          <f x="381.45" y="-0.65" cocos2d_x="581.65" cocos2d_y="-111.2" kX="0" kY="180" cX="1.56" cY="1.56" fst="0" pX="128.15" pY="70.75" z="1" dI="3" dr="2" />
+          <f x="406.55" y="-0.8" cocos2d_x="606.7" cocos2d_y="-107.5" kX="0" kY="180" cX="1.56" cY="1.56" fst="0" pX="128.1" pY="68.3" z="1" dI="4" dr="2" />
+          <f x="422.25" y="-2.95" cocos2d_x="609.25" cocos2d_y="-104.1" kX="0" kY="180" cX="1.56" cY="1.56" fst="0" pX="119.7" pY="64.75" z="1" dI="5" dr="2" />
+          <f dr="45" dI="-1" />
+        </b>
+        <b name="cxzcw" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="115.2" y="42.75" cocos2d_x="115.2" cocos2d_y="42.75" kX="0" kY="180" cX="2.39" cY="2.39" pX="0" pY="0" z="2" dI="0" dr="2" />
+          <f x="183.7" y="-52.1" cocos2d_x="380.7" cocos2d_y="-209.15" kX="0" kY="180" cX="1.42" cY="1.42" pX="138.5" pY="110.4" z="2" dI="1" dr="3" />
+          <f x="224.8" y="-60.55" cocos2d_x="452.3" cocos2d_y="-232.65" kX="0" kY="180" cX="1.42" cY="1.42" pX="159.9" pY="120.95" z="2" dI="2" dr="2" />
+          <f x="270.65" y="-73.2" cocos2d_x="533.2" cocos2d_y="-273.55" kX="0" kY="180" cX="1.42" cY="1.42" pX="184.5" pY="140.8" z="2" dI="3" dr="2" />
+          <f x="273.2" y="-94.95" cocos2d_x="540.95" cocos2d_y="-299.4" kX="0" kY="180" cX="1.42" cY="1.42" pX="188.2" pY="143.7" z="2" dI="4" dr="2" />
+          <f x="268.9" y="-92.1" cocos2d_x="513.85" cocos2d_y="-298.85" kX="0" kY="180" cX="1.42" cY="1.42" pX="172.15" pY="145.3" z="2" dI="5" dr="2" />
+          <f dr="45" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="战宠雕1-3级技能下层输出" width="1024" height="1024">
+    <SubTexture name="xxx-cnfreeadcoms3111046" width="249" height="297" x="276" y="0" cocos2d_pX="-44.10" cocos2d_pY="4.50" />
+    <SubTexture name="xxx-cnfreeadcoms3113050" width="242" height="296" x="526" y="0" cocos2d_pX="-70.40" cocos2d_pY="4.60" />
+    <SubTexture name="xxx-cnfreeadcoms31170564" width="275" height="294" x="0" y="0" cocos2d_pX="-81.25" cocos2d_pY="5.90" />
+    <SubTexture name="xxx-cnfreeadcoms31159585" width="264" height="247" x="0" y="295" cocos2d_pX="-48.45" cocos2d_pY="5.80" />
+    <SubTexture name="xxx-cnfreeadcoms31111894" width="239" height="229" x="769" y="0" cocos2d_pX="-30.15" cocos2d_pY="4.80" />
+    <SubTexture name="xxx-cnfreeadcoms31137573" width="105" height="58" x="395" y="298" cocos2d_pX="51.40" cocos2d_pY="27.50" />
+    <SubTexture name="xxx-cnfreeadcoms31124649" width="245" height="138" x="769" y="230" cocos2d_pX="4.00" cocos2d_pY="4.00" />
+    <SubTexture name="xxx-cnfreeadcoms31143292" width="264" height="145" x="529" y="439" cocos2d_pX="4.00" cocos2d_pY="4.00" />
+    <SubTexture name="xxx-cnfreeadcoms31193224" width="263" height="150" x="265" y="439" cocos2d_pX="4.00" cocos2d_pY="4.00" />
+    <SubTexture name="xxx-cnfreeadcoms31110785" width="237" height="141" x="526" y="297" cocos2d_pX="7.00" cocos2d_pY="3.00" />
+    <SubTexture name="xxx-cnfreeadcoms31191988" width="264" height="87" x="0" y="543" cocos2d_pX="2.00" cocos2d_pY="2.00" />
+    <SubTexture name="xxx-cnfreeadcoms31148554" width="129" height="36" x="265" y="298" cocos2d_pX="1.00" cocos2d_pY="2.00" />
+    <SubTexture name="xxx-cnfreeadcoms31115202" width="11" height="6" x="1009" y="0" cocos2d_pX="5.50" cocos2d_pY="3.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,67 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="C2SLongMenBreakMsg";
+
+//龙门破获取信息
+//code = 0x6900
+message LongMenBreakInfoRequest
+{
+
+}
+
+//开始破阵
+//code = 0x6901
+message LongMenBreakStartRequest
+{
+
+}
+
+//点击阵位
+//code = 0x6902
+message LongMenBreakClickRequest
+{
+	required int32 floor = 1; 						// 层数
+	required int32 index = 2; 						// 点击的下标
+}
+
+//使用璇玑镜
+//code = 0x6903
+message LongMenBreakUseXuanJiJingRequest
+{
+	required int32 floor = 1; 						// 层数
+	required int32 goodsId= 2;						//道具id
+}
+
+//刷新
+//code = 0x6904
+message LongMenBreakRefreshRequest
+{
+}
+
+//是否复活
+//code = 0x6905
+message LongMenBreakReviverRequest
+{
+	required int32 floor = 1; 						// 层数
+	required int32 isReviver = 2;					// 是否复活(0：否 1：是)
+	required int32 goodsId= 3;						// 道具id
+}
+
+//是否重置
+//code = 0x6906
+message LongMenBreakResetRequest
+{
+	required int32 floor = 1; 						// 层数
+	required int32 goodsId= 2;						//道具id
+}
+
+//请求推送奖励信息
+//code = 0x6908
+message LongMenBreakPushRewardRequest
+{
+}
+//获取龙门破阵眼信息
+//code = 0x6910
+message GainLongMenTypeInfoRequest{
+
+}

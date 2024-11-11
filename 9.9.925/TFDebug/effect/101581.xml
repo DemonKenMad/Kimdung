@@ -1,0 +1,63 @@
+<skeleton name="鳌拜普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-119.05" y="-146" kX="0" kY="0" cX="1.82" cY="1.82" pX="44" pY="35.5" z="0">
+        <d name="2343243-56765" />
+        <d name="2343243-7567" />
+        <d name="2343243-6788" />
+        <d name="2343243-98" />
+      </b>
+      <b name="图层 2" x="229.15" y="-78.55" kX="0" kY="0" cX="1.8" cY="1.8" pX="51" pY="53.5" z="1">
+        <d name="2343243-456" />
+        <d name="2343243-57567" />
+        <d name="2343243-867867" />
+      </b>
+      <b name="图层 1" x="249.55" y="-76.5" kX="0" kY="0" cX="2.15" cY="2.15" pX="47" pY="47" z="2">
+        <d name="2343243-7878" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="335" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-119.05" y="-146" cocos2d_x="-199.1" cocos2d_y="-210.6" kX="0" kY="0" cX="1.82" cY="1.82" pX="44" pY="35.5" z="0" dI="0" dr="2" />
+          <f x="32.15" y="-82.55" cocos2d_x="-148.7" cocos2d_y="-188.2" kX="0" kY="0" cX="1.69" cY="1.69" pX="107" pY="62.5" z="0" dI="1" dr="2" />
+          <f x="57.15" y="-56.5" cocos2d_x="-117.7" cocos2d_y="-127.35" kX="0" kY="0" cX="1.84" cY="1.84" pX="95" pY="38.5" z="0" dI="2" dr="2" />
+          <f x="236.55" y="-28.05" cocos2d_x="196.05" cocos2d_y="-71.05" kX="0" kY="0" cX="1" cY="1" pX="40.5" pY="43" z="0" dI="3" dr="1" twE="NaN" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="229.15" y="-78.55" cocos2d_x="137.2" cocos2d_y="-175" kX="0" kY="0" cX="1.8" cY="1.8" pX="51" pY="53.5" z="1" dI="0" dr="2" />
+          <f x="207.5" y="-74.5" cocos2d_x="139.9" cocos2d_y="-158" kX="0" kY="0" cX="1.59" cY="1.59" pX="42.5" pY="52.5" z="1" dI="1" dr="2" />
+          <f x="153.05" y="-72.7" cocos2d_x="121.8" cocos2d_y="-165.6" kX="0" kY="0" cX="1.84" cY="1.84" pX="17" pY="50.5" z="1" dI="2" twE="0" dr="4" />
+          <f x="137.55" y="-72.95" cocos2d_x="99.7" cocos2d_y="-185.4" kX="0" kY="0" cX="2.23" cY="2.23" pX="17" pY="50.5" z="1" dI="2" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="249.55" y="-76.5" cocos2d_x="148.7" cocos2d_y="-177.35" kX="0" kY="0" cX="2.15" cY="2.15" pX="47" pY="47" z="2" dI="0" dr="2" />
+          <f x="249.1" y="-76.4" cocos2d_x="125.35" cocos2d_y="-200.15" kX="0" kY="0" cX="2.63" cY="2.63" pX="47.05" pY="47" z="2" dI="0" twE="0" dr="3" />
+          <f x="249.1" y="-76.4" cocos2d_x="125.35" cocos2d_y="-200.15" kX="0" kY="0" cX="2.63" cY="2.63" pX="47.05" pY="47" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="鳌拜普工" width="512" height="256">
+    <SubTexture name="2343243-7878" width="78" height="86" x="380" y="108" cocos2d_pX="-8.00" cocos2d_pY="-5.00" />
+    <SubTexture name="2343243-867867" width="34" height="100" x="459" y="108" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="2343243-57567" width="85" height="105" x="213" y="78" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="2343243-456" width="102" height="107" x="404" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="2343243-98" width="80" height="86" x="299" y="78" cocos2d_pX="-1.00" cocos2d_pY="0.00" />
+    <SubTexture name="2343243-6788" width="190" height="77" x="213" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="2343243-7567" width="212" height="125" x="0" y="0" cocos2d_pX="-2.00" cocos2d_pY="0.00" />
+    <SubTexture name="2343243-56765" width="88" height="71" x="0" y="126" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,29 @@
+<skeleton name="老虎机拉杆" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="shrtjytkydshrth" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="afdsht-dbhdtjyh" />
+        <d name="afdsht-sdhdrtjyk" />
+        <d name="afdsht-dhrykyului" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="donghua1" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="shrtjytkydshrth" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="3" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="老虎机拉杆" width="128" height="128">
+    <SubTexture name="afdsht-dhrykyului" width="36" height="68" x="75" y="0" cocos2d_pX="17.50" cocos2d_pY="15.50" />
+    <SubTexture name="afdsht-sdhdrtjyk" width="37" height="67" x="37" y="0" cocos2d_pX="18.50" cocos2d_pY="35.50" />
+    <SubTexture name="afdsht-dbhdtjyh" width="36" height="84" x="0" y="0" cocos2d_pX="17.50" cocos2d_pY="52.50" />
+  </TextureAtlas>
+</skeleton>

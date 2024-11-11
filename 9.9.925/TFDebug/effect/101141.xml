@@ -1,0 +1,52 @@
+<skeleton name="神农帮众动画普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="194.45" y="-107.55" kX="0" kY="0" cX="0.92" cY="0.92" pX="-15.55" pY="-81" z="0">
+        <d name="dasdas-daoguang" />
+      </b>
+      <b name="图层 4" x="215" y="-93.6" kX="0" kY="0" cX="0.78" cY="0.78" pX="6" pY="-61" z="1">
+        <d name="dasdas/DB" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dasdas/DB" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="6" y="-61" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0">
+        <d name="dasdas-DB20001.png" />
+        <d name="dasdas-DB20004.png" />
+        <d name="dasdas-DB20006.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dasdas/DB">
+      <mov name="dsad" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="6" y="-61" cocos2d_x="-144" cocos2d_y="-221" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0" dI="0" dr="2" />
+          <f x="6" y="-61" cocos2d_x="-144" cocos2d_y="-221" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0" dI="1" dr="2" />
+          <f x="6" y="-61" cocos2d_x="-144" cocos2d_y="-221" kX="0" kY="0" cX="1" cY="1" pX="150" pY="160" z="0" dI="2" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="asaD" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="194.45" y="-107.55" cocos2d_x="208.8" cocos2d_y="-32.75" kX="0" kY="0" cX="0.92" cY="0.92" pX="-15.55" pY="-81" z="0" dI="0" twE="0" dr="2" />
+          <f x="194.45" y="-107.55" cocos2d_x="208.8" cocos2d_y="-32.75" kX="0" kY="0" cX="0.92" cY="0.92" pX="-15.55" pY="-81" z="0" dI="0" twE="0" dr="3" />
+          <f x="194.45" y="-107.55" cocos2d_x="208.8" cocos2d_y="-32.75" kX="0" kY="0" cX="0.92" cY="0.92" pX="-15.55" pY="-81" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.19" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f x="215" y="-93.6" cocos2d_x="210.3" cocos2d_y="-45.95" kX="0" kY="0" cX="0.78" cY="0.78" pX="6" pY="-61" z="1" dI="0" dr="6" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="神农帮众动画普攻" width="512" height="1024">
+    <SubTexture name="dasdas-DB20006.png" width="215" height="258" x="0" y="0" cocos2d_pX="-83.00" cocos2d_pY="-28.00" />
+    <SubTexture name="dasdas-DB20004.png" width="245" height="191" x="216" y="202" cocos2d_pX="-38.00" cocos2d_pY="-104.00" />
+    <SubTexture name="dasdas-DB20001.png" width="237" height="201" x="216" y="0" cocos2d_pX="-2.00" cocos2d_pY="-110.00" />
+    <SubTexture name="dasdas-daoguang" width="146" height="261" x="0" y="259" cocos2d_pX="98.50" cocos2d_pY="211.50" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,51 @@
+<skeleton name="受击底层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="dhdfhdf" x="225.55" y="-68.8" kX="0" kY="0" cX="2.61" cY="2.61" pX="0" pY="0" z="0">
+        <d name="xxx/shghf03" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/shghf03" isLoop="loop" startFrame="1">
+      <b name="图层 4" x="-93.4" y="0.75" kX="0" kY="0" cX="156.02" cY="156.02" pX="4.25" pY="-3.65" z="0">
+        <d name="xxx-shghf08" />
+      </b>
+      <b name="图层 3" x="-92" y="-21.4" kX="0" kY="0" cX="2.62" cY="2.62" pX="0" pY="0" z="1">
+        <d name="xxx-shghf06" />
+      </b>
+      <b name="donghua12" x="-222.4" y="123.1" kX="0" kY="0" cX="2.5" cY="2.5" pX="-0.05" pY="0" z="2">
+        <d name="xxx-shghf04" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shghf03">
+      <mov name="sdffadsafsdfdsaafsdasfgsdg" dr="1" to="0">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-93.4" y="0.75" cocos2d_x="-756.45" cocos2d_y="570.2" kX="0" kY="0" cX="156.02" cY="156.02" fst="0" pX="4.25" pY="-3.65" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-92" y="-21.4" cocos2d_x="-92" cocos2d_y="-21.4" kX="0" kY="0" cX="2.62" cY="2.62" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN" />
+        </b>
+        <b name="donghua12" sc="1" dl="0">
+          <f x="-222.4" y="123.1" cocos2d_x="-222.25" cocos2d_y="123.1" kX="0" kY="0" cX="2.5" cY="2.5" fst="0" pX="-0.05" pY="0" z="2" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill1" dr="119" to="0" drTW="119" lp="0" twE="NaN">
+        <b name="dhdfhdf" sc="1" dl="0">
+          <f dr="51" dI="-1" />
+          <f x="225.55" y="-68.8" cocos2d_x="225.55" cocos2d_y="-68.8" kX="0" kY="0" cX="2.61" cY="2.61" fst="0" pX="0" pY="0" z="0" dI="0" twE="0.37" dr="9" />
+          <f x="225.55" y="-68.8" cocos2d_x="225.55" cocos2d_y="-68.8" kX="0" kY="0" cX="0.66" cY="0.66" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="225.55" y="-68.8" cocos2d_x="225.55" cocos2d_y="-68.8" kX="0" kY="0" cX="0.16" cY="0.16" fst="0" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f dr="55" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="受击底层输出" width="1024" height="2048">
+    <SubTexture name="xxx-shghf04" width="984" height="713" x="0" y="0" cocos2d_pX="491.85" cocos2d_pY="356.60" />
+    <SubTexture name="xxx-shghf06" width="394" height="394" x="0" y="714" cocos2d_pX="196.80" cocos2d_pY="196.80" />
+    <SubTexture name="xxx-shghf08" width="58" height="34" x="395" y="714" cocos2d_pX="28.45" cocos2d_pY="17.05" />
+  </TextureAtlas>
+</skeleton>

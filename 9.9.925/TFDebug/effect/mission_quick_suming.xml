@@ -1,0 +1,59 @@
+<skeleton name="结算中越南版" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name=" vbftebTEN BT" x="177.05" y="25.15" kX="0" kY="0" cX="0.9" cY="0.9" pX="0" pY="0" z="0">
+        <d name="xxx/ vbftebTEN BT" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/ vbftebTEN BT" isLoop="loop" startFrame="1">
+      <b name="vdrenbaqtentr" x="135.35" y="-0.9" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="10.75" z="0">
+        <d name="xxx-nb fetgbfteb nftb trb" />
+      </b>
+      <b name="nb fetgbfteb nftb trb" x="120.35" y="-0.9" kX="0" kY="0" cX="1.5" cY="1.5" pX="0" pY="10.75" z="1">
+        <d name="xxx-nb fetgbfteb nftb trb" />
+      </b>
+      <b name="jnb fdetntr" x="105.1" y="-1.15" kX="0" kY="0" cX="1.5" cY="1.5" pX="0.5" pY="10.5" z="2">
+        <d name="xxx-jnb fdetntr" />
+      </b>
+      <b name="fhjdrtj" x="-8.85" y="-1.65" kX="0" kY="0" cX="0.8" cY="0.8" pX="0" pY="0" z="3">
+        <d name="xxx-dfhsthet" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/ vbftebTEN BT">
+      <mov name="vrehtrhtrtr" dr="35" to="0" drTW="35" lp="1" twE="NaN">
+        <b name="vdrenbaqtentr" sc="1" dl="0">
+          <f dr="19" dI="-1" />
+          <f x="135.35" y="-0.9" cocos2d_x="135.35" cocos2d_y="-17" kX="0" kY="0" cX="1.5" cY="1.5" fst="0" pX="0" pY="10.75" z="0" dI="0" twE="0" dr="3" />
+          <f x="135.35" y="-0.9" cocos2d_x="135.35" cocos2d_y="-11.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="10.75" z="0" dI="0" dr="13" />
+        </b>
+        <b name="nb fetgbfteb nftb trb" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="120.35" y="-0.9" cocos2d_x="120.35" cocos2d_y="-17" kX="0" kY="0" cX="1.5" cY="1.5" fst="0" pX="0" pY="10.75" z="1" dI="0" twE="0" dr="3" />
+          <f x="120.35" y="-0.9" cocos2d_x="120.35" cocos2d_y="-11.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="10.75" z="1" dI="0" dr="20" />
+        </b>
+        <b name="jnb fdetntr" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="105.1" y="-1.15" cocos2d_x="104.35" cocos2d_y="-16.9" kX="0" kY="0" cX="1.5" cY="1.5" fst="0" pX="0.5" pY="10.5" z="2" dI="0" twE="0" dr="3" />
+          <f x="105.1" y="-1.15" cocos2d_x="104.6" cocos2d_y="-11.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0.5" pY="10.5" z="2" dI="0" dr="27" />
+        </b>
+        <b name="fhjdrtj" sc="1" dl="0">
+          <f x="-8.85" y="-1.65" cocos2d_x="-8.85" cocos2d_y="-1.65" kX="0" kY="0" cX="0.8" cY="0.8" fst="0" pX="0" pY="0" z="3" dI="0" dr="35" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="neirong" dr="35" to="0" drTW="35" lp="1" twE="NaN">
+        <b name=" vbftebTEN BT" sc="1" dl="0">
+          <f x="177.05" y="25.15" cocos2d_x="177.05" cocos2d_y="25.15" kX="0" kY="0" cX="0.9" cY="0.9" fst="0" pX="0" pY="0" z="0" dI="0" dr="35" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="结算中越南版" width="256" height="64">
+    <SubTexture name="xxx-dfhsthet" width="222" height="61" x="0" y="0" cocos2d_pX="87.90" cocos2d_pY="39.15" />
+    <SubTexture name="xxx-jnb fdetntr" width="16" height="16" x="223" y="0" cocos2d_pX="7.25" cocos2d_pY="0.70" />
+    <SubTexture name="xxx-nb fetgbfteb nftb trb" width="15" height="16" x="240" y="0" cocos2d_pX="7.50" cocos2d_pY="0.75" />
+  </TextureAtlas>
+</skeleton>

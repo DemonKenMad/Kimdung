@@ -1,0 +1,62 @@
+<skeleton name="花木兰skill2_down" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="Layer 1" x="1844.2" y="144.6" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="0">
+        <d name="sprite 3"/>
+      </b>
+      <b name="Layer 3" x="1844.2" y="-4531.7" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="1">
+        <d name="sprite 5"/>
+      </b>
+      <b name="Layer 5" x="-1705.3" y="-4531.7" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="2">
+        <d name="sprite 7"/>
+      </b>
+      <b name="Layer 7" x="-1705.3" y="144.6" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="3">
+        <d name="sprite10"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="skill2_down" dr="185" to="0" drTW="185" lp="0" twE="NaN">
+        <b name="Layer 1" sc="1" dl="0">
+          <f dr="63" dI="-1"/>
+          <f x="1844.2" y="144.6" cocos2d_x="1844.2" cocos2d_y="144.6" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="0" dI="0" twE="0" dr="29"/>
+          <f x="1844.2" y="68.6" cocos2d_x="1844.2" cocos2d_y="68.6" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="0" dI="0" twE="0" dr="12"/>
+          <f x="340.35" y="-55.95" cocos2d_x="340.35" cocos2d_y="-55.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="48"/>
+          <f x="340.35" y="-55.95" cocos2d_x="340.35" cocos2d_y="-55.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" twE="0" dr="17"/>
+          <f x="340.35" y="709.05" cocos2d_x="340.35" cocos2d_y="709.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="16"/>
+        </b>
+        <b name="Layer 3" sc="1" dl="0">
+          <f dr="63" dI="-1"/>
+          <f x="1844.2" y="-4531.7" cocos2d_x="1844.2" cocos2d_y="-4531.7" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="1" dI="0" twE="0" dr="29"/>
+          <f x="1844.2" y="-4607.7" cocos2d_x="1844.2" cocos2d_y="-4607.7" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="1" dI="0" twE="0" dr="12"/>
+          <f x="340.35" y="-968.95" cocos2d_x="340.35" cocos2d_y="-968.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" dr="48"/>
+          <f x="340.35" y="-968.95" cocos2d_x="340.35" cocos2d_y="-968.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" twE="0" dr="17"/>
+          <f x="340.35" y="-203.95" cocos2d_x="340.35" cocos2d_y="-203.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" dr="16"/>
+        </b>
+        <b name="Layer 5" sc="1" dl="0">
+          <f dr="63" dI="-1"/>
+          <f x="-1705.3" y="-4531.7" cocos2d_x="-1705.3" cocos2d_y="-4531.7" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="2" dI="0" twE="0" dr="29"/>
+          <f x="-1705.3" y="-4607.7" cocos2d_x="-1705.3" cocos2d_y="-4607.7" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="2" dI="0" twE="0" dr="12"/>
+          <f x="-352.65" y="-968.95" cocos2d_x="-352.65" cocos2d_y="-968.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" dr="48"/>
+          <f x="-352.65" y="-968.95" cocos2d_x="-352.65" cocos2d_y="-968.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" twE="0" dr="17"/>
+          <f x="-352.65" y="-203.95" cocos2d_x="-352.65" cocos2d_y="-203.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="2" dI="0" dr="16"/>
+        </b>
+        <b name="Layer 7" sc="1" dl="0">
+          <f dr="63" dI="-1"/>
+          <f x="-1705.3" y="144.6" cocos2d_x="-1705.3" cocos2d_y="144.6" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="3" dI="0" twE="0" dr="29"/>
+          <f x="-1705.3" y="68.6" cocos2d_x="-1705.3" cocos2d_y="68.6" kX="0" kY="0" cX="10.24" cY="10.24" pX="0" pY="0" z="3" dI="0" twE="0" dr="12"/>
+          <f x="-352.65" y="-55.95" cocos2d_x="-352.65" cocos2d_y="-55.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3" dI="0" dr="48"/>
+          <f x="-352.65" y="-55.95" cocos2d_x="-352.65" cocos2d_y="-55.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3" dI="0" twE="0" dr="17"/>
+          <f x="-352.65" y="709.05" cocos2d_x="-352.65" cocos2d_y="709.05" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="3" dI="0" dr="16"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="花木兰skill2_down" width="1024" height="1024">
+    <SubTexture name="sprite10" width="347" height="457" x="0" y="459" cocos2d_pX="173.25" cocos2d_pY="228.25"/>
+    <SubTexture name="sprite 7" width="347" height="457" x="349" y="459" cocos2d_pX="173.25" cocos2d_pY="226.25"/>
+    <SubTexture name="sprite 5" width="347" height="457" x="0" y="0" cocos2d_pX="175.25" cocos2d_pY="226.25"/>
+    <SubTexture name="sprite 3" width="347" height="457" x="349" y="0" cocos2d_pX="175.25" cocos2d_pY="228.25"/>
+  </TextureAtlas>
+</skeleton>

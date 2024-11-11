@@ -1,0 +1,82 @@
+<skeleton name="受击(2)" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="元件 255" x="28.45" y="-9.4" kX="0" kY="180" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweiOVERWATCHWIDOW14" isArmature="1" />
+      </b>
+      <b name="图层 5" x="15.05" y="-55.1" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="1">
+        <d name="xxx-fgdafgfsdaga121" />
+        <d name="xxx-dsafahsfdsafahawg" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiOVERWATCHWIDOW14" isLoop="loop" startFrame="1">
+      <b name="元件 139" x="73.5" y="-86.6" kX="-35.7" kY="-35.7" cX="1.97" cY="1.97" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweiOVERWATCHWIDOW15" isArmature="1" />
+      </b>
+      <b name="元件 1390" x="10.1" y="-39.4" kX="-30.26" kY="149.74" cX="1.97" cY="1.97" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweiOVERWATCHWIDOW15" isArmature="1" />
+      </b>
+      <b name="元件 1391" x="14.3" y="-90.6" kX="40.22" kY="-139.78" cX="1.97" cY="1.97" pX="0" pY="0" z="2">
+        <d name="xxx/zhangweiOVERWATCHWIDOW15" isArmature="1" />
+      </b>
+      <b name="元件 1392" x="61.45" y="-32.3" kX="-139.78" kY="40.22" cX="1.97" cY="1.97" pX="0" pY="0" z="3">
+        <d name="xxx/zhangweiOVERWATCHWIDOW15" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweiOVERWATCHWIDOW15" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="64.35" y="4.45" kX="0" kY="0" cX="1.99" cY="1.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweiOVERWATCHWIDOW04" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW03" />
+        <d name="xxx-zhangweiOVERWATCHWIDOW02" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweiOVERWATCHWIDOW15">
+      <mov name="dsfafa" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="64.35" y="4.45" cocos2d_x="64.35" cocos2d_y="4.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="0" dr="3" />
+          <f x="163.45" y="6.8" cocos2d_x="163.45" cocos2d_y="6.8" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="3" />
+          <f x="259.9" y="-0.55" cocos2d_x="259.9" cocos2d_y="-0.45" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="0" dI="2" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweiOVERWATCHWIDOW14">
+      <mov name="dfasafasdf" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="元件 139" sc="1" dl="0">
+          <f x="73.5" y="-86.6" cocos2d_x="73.5" cocos2d_y="-86.6" kX="-35.7" kY="-35.7" cX="1.97" cY="1.97" fst="0" pX="0" pY="0" z="0" dI="0" dr="9" />
+        </b>
+        <b name="元件 1390" sc="1" dl="0">
+          <f x="10.1" y="-39.4" cocos2d_x="10.1" cocos2d_y="-39.4" kX="-30.26" kY="149.74" cX="1.97" cY="1.97" fst="0" pX="0" pY="0" z="1" dI="0" dr="9" />
+        </b>
+        <b name="元件 1391" sc="1" dl="0">
+          <f x="14.3" y="-90.6" cocos2d_x="14.3" cocos2d_y="-90.6" kX="40.22" kY="-139.78" cX="1.97" cY="1.97" fst="0" pX="0" pY="0" z="2" dI="0" dr="9" />
+        </b>
+        <b name="元件 1392" sc="1" dl="0">
+          <f x="61.45" y="-32.3" cocos2d_x="61.45" cocos2d_y="-32.3" kX="-139.78" kY="40.22" cX="1.97" cY="1.97" fst="0" pX="0" pY="0" z="3" dI="0" dr="9" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsagasd" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="元件 255" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="28.45" y="-9.4" cocos2d_x="28.45" cocos2d_y="-9.4" kX="0" kY="180" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="9" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="15.05" y="-55.1" cocos2d_x="15.05" cocos2d_y="-55.1" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f x="-98.35" y="-104.45" cocos2d_x="-98.35" cocos2d_y="-104.35" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="-0.05" z="1" dI="1" dr="2" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="受击(2)" width="512" height="512">
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW02" width="167" height="44" x="331" y="97" cocos2d_pX="89.20" cocos2d_pY="22.75" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW03" width="194" height="63" x="0" y="285" cocos2d_pX="103.00" cocos2d_pY="31.15" />
+    <SubTexture name="xxx-zhangweiOVERWATCHWIDOW04" width="117" height="46" x="331" y="142" cocos2d_pX="58.20" cocos2d_pY="22.60" />
+    <SubTexture name="xxx-dsafahsfdsafahawg" width="330" height="284" x="0" y="0" cocos2d_pX="165.05" cocos2d_pY="142.10" />
+    <SubTexture name="xxx-fgdafgfsdaga121" width="171" height="96" x="331" y="0" cocos2d_pX="85.25" cocos2d_pY="47.80" />
+  </TextureAtlas>
+</skeleton>

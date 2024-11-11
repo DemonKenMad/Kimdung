@@ -1,0 +1,30 @@
+<skeleton name="吐蕃番僧普攻特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-165.8" y="-167.6" kX="137.67" kY="-42.33" cX="1.1" cY="1.1" pX="92.35" pY="74.85" z="0">
+        <d name="fdsfds-1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="hit" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-165.8" y="-167.6" cocos2d_x="-185.45" cocos2d_y="-38.4" kX="137.67" kY="-42.33" cX="1.1" cY="1.1" pX="92.35" pY="74.85" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-119.75" y="-186.6" cocos2d_x="-244.55" cocos2d_y="-225.6" kX="-123.6" kY="56.4" cX="1.1" cY="1.1" pX="92.35" pY="74.95" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-129.7" y="-125.2" cocos2d_x="-21.75" cocos2d_y="-198.9" kX="4.71" kY="-175.29" cX="1.1" cY="1.1" pX="92.4" pY="74.9" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-174.75" y="-168.15" cocos2d_x="-189.8" cocos2d_y="-38.35" kX="135.67" kY="-44.33" cX="1.1" cY="1.1" pX="92.3" pY="74.85" z="0" dI="0" blend="normal" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="-119.35" y="-215.45" cocos2d_x="-195.95" cocos2d_y="-141.95" kX="-165" kY="-19" cX="0.72" cY="0.72" pX="92.3" pY="74.7" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="114.55" y="-124.9" cocos2d_x="-88.15" cocos2d_y="-278.4" kX="-83" kY="74" cX="1.5" cY="2.22" pX="92.45" pY="74.65" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="166.5" y="-112.4" cocos2d_x="62.05" cocos2d_y="-251.7" kX="-67" kY="90" cX="1.03" cY="1.52" pX="92.5" pY="74.65" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="205.5" y="-82.85" cocos2d_x="174.9" cocos2d_y="-192.15" kX="-48" kY="114" cX="0.69" cY="1.02" pX="92.65" pY="74.6" z="0" dI="0" blend="normal" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="吐蕃番僧普攻特效" width="256" height="256">
+    <SubTexture name="fdsfds-1" width="185" height="169" x="0" y="0" cocos2d_pX="5.35" cocos2d_pY="15.70" />
+  </TextureAtlas>
+</skeleton>

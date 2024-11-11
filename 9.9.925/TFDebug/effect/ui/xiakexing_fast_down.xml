@@ -1,0 +1,58 @@
+<skeleton name="下层加快速度线 1130  输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dongzuo/vrebanre" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dongzuo/vrebanre" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="548.85" y="47.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="dongzuo-btentrynjmtr" />
+        <d name="dongzuo-n bnte4rnjty" />
+        <d name="dongzuo-n bfret" />
+        <d name="dongzuo-bfrdeswnbtr" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dongzuo/vrebanre">
+      <mov name="vrebare" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="548.85" y="47.35" cocos2d_x="548.85" cocos2d_y="47.35" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="1550.85" y="26.95" cocos2d_x="1550.85" cocos2d_y="26.95" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-1062.15" y="16.65" cocos2d_x="-1062.15" cocos2d_y="16.65" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="493.95" y="14.75" cocos2d_x="493.95" cocos2d_y="14.75" kX="0" kY="0" cX="2" cY="2" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="1" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+      <mov name="2" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="4" />
+        </b>
+      </mov>
+      <mov name="3" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="7" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="3" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="下层加快速度线 1130  输出" width="2048" height="1024">
+    <SubTexture name="dongzuo-bfrdeswnbtr" width="1063" height="283" x="0" y="0" cocos2d_pX="773.90" cocos2d_pY="132.50" />
+    <SubTexture name="dongzuo-n bfret" width="1066" height="273" x="0" y="498" cocos2d_pX="-38.15" cocos2d_pY="124.00" />
+    <SubTexture name="dongzuo-n bnte4rnjty" width="781" height="248" x="1064" y="0" cocos2d_pX="1275.30" cocos2d_pY="126.00" />
+    <SubTexture name="dongzuo-btentrynjmtr" width="734" height="248" x="1064" y="249" cocos2d_pX="659.30" cocos2d_pY="136.50" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,28 @@
+<skeleton name="获得输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="0.4" y="0.8" kX="0" kY="0" cX="1" cY="0.04" pX="0" pY="0" z="0">
+        <d name="222-4502404" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="anim" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0.4" y="0.8" cocos2d_x="0.4" cocos2d_y="0.8" kX="0" kY="0" cX="1" cY="0.04" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.4" y="0.8" cocos2d_x="0.4" cocos2d_y="0.8" kX="0" kY="0" cX="1" cY="1.06" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="1" />
+          <f x="0.4" y="0.8" cocos2d_x="0.4" cocos2d_y="0.8" kX="0" kY="0" cX="1.02" cY="1.06" pX="0" pY="0" z="0" dI="0" blend="normal" twE="1" dr="6" />
+          <f x="0.4" y="0.8" cocos2d_x="0.4" cocos2d_y="0.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="获得输出" width="128" height="128">
+    <SubTexture name="222-4502404" width="100" height="100" x="0" y="0" cocos2d_pX="50.05" cocos2d_pY="51.05" />
+  </TextureAtlas>
+</skeleton>

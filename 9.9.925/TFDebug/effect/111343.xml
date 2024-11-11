@@ -1,0 +1,79 @@
+<skeleton name="恢复_齐云傲技能2未命名-2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="144.9" y="-120.35" kX="-10.17" kY="-7.65" cX="2.46" cY="2.14" pX="141.35" pY="-73.65" z="0">
+        <d name="546546/dffh" isArmature="1" />
+      </b>
+      <b name="图层 2" x="83.3" y="-107.65" kX="-10.17" kY="-10.17" cX="1.3" cY="1.41" pX="94.1" pY="-74.15" z="1">
+        <d name="546546/dffh" isArmature="1" />
+      </b>
+      <b name="图层 1" x="89.7" y="-104.8" kX="-10.17" kY="-10.17" cX="1.59" cY="1.72" pX="94.1" pY="-74.1" z="2">
+        <d name="546546/dffh" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="546546/dffh" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="75.25" y="-72.7" kX="-6.99" kY="-6.99" cX="1.59" cY="1.59" pX="0" pY="0" z="0">
+        <d name="546546-456456" />
+        <d name="546546-657656" />
+        <d name="546546-97897" />
+        <d name="546546-978987" />
+        <d name="546546-978978" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="546546/dffh">
+      <mov name="6788678" dr="27" to="0" drTW="27" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="75.25" y="-72.7" cocos2d_x="75.25" cocos2d_y="-72.7" kX="-6.99" kY="-6.99" cX="1.59" cY="1.59" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="159.75" y="-110.75" cocos2d_x="159.75" cocos2d_y="-110.75" kX="-17.75" kY="-17.75" cX="1.6" cY="1.6" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="239.45" y="-85.6" cocos2d_x="239.45" cocos2d_y="-85.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="325.2" y="-39.95" cocos2d_x="325.2" cocos2d_y="-39.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="2" />
+          <f x="378.5" y="-19.3" cocos2d_x="378.5" cocos2d_y="-19.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="2" />
+          <f dr="17" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="456456" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="144.9" y="-120.35" cocos2d_x="-172.3" cocos2d_y="81.35" kX="-10.17" kY="-7.65" cX="2.46" cY="2.14" pX="141.35" pY="-73.65" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="131.45" y="-145.65" cocos2d_x="-108.45" cocos2d_y="51.55" kX="-10.17" kY="-10.17" cX="1.97" cY="1.7" pX="137.55" pY="-89.45" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="153.95" y="-122.15" cocos2d_x="-116.15" cocos2d_y="12.55" kX="0.32" kY="-7.69" cX="1.81" cY="1.37" pX="150.2" pY="-71.9" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="51.85" y="-79.35" cocos2d_x="-37.75" cocos2d_y="16.2" kX="0.33" kY="-15.02" cX="1.32" cY="1.11" pX="70.05" pY="-64.6" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.55" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="11" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="83.3" y="-107.65" cocos2d_x="-19.15" cocos2d_y="16.8" kX="-10.17" kY="-10.17" cX="1.3" cY="1.41" pX="94.1" pY="-74.15" z="1" dI="0" dr="6" />
+          <f x="63.35" y="-107.6" cocos2d_x="-45.15" cocos2d_y="24" kX="-10.17" kY="-10.17" cX="1.38" cY="1.49" pX="94.15" pY="-74.1" z="1" dI="0" dr="1" twE="NaN" />
+          <f x="63.35" y="-107.6" cocos2d_x="-45.15" cocos2d_y="24" kX="-10.17" kY="-10.17" cX="1.38" cY="1.49" pX="94.15" pY="-74.1" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="89.7" y="-104.8" cocos2d_x="-35.45" cocos2d_y="47.05" kX="-10.17" kY="-10.17" cX="1.59" cY="1.72" pX="94.1" pY="-74.1" z="2" dI="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.14" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="6" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="恢复_齐云傲技能2未命名-2" width="512" height="512">
+    <SubTexture name="546546-978978" width="222" height="62" x="229" y="136" cocos2d_pX="109.00" cocos2d_pY="32.00" />
+    <SubTexture name="546546-978987" width="228" height="135" x="229" y="0" cocos2d_pX="115.00" cocos2d_pY="65.00" />
+    <SubTexture name="546546-97897" width="228" height="153" x="0" y="0" cocos2d_pX="118.00" cocos2d_pY="70.00" />
+    <SubTexture name="546546-657656" width="166" height="107" x="0" y="154" cocos2d_pX="82.50" cocos2d_pY="51.00" />
+    <SubTexture name="546546-456456" width="129" height="71" x="167" y="199" cocos2d_pX="64.00" cocos2d_pY="32.50" />
+  </TextureAtlas>
+</skeleton>

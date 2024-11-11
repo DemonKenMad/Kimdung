@@ -1,0 +1,161 @@
+<skeleton name="抽取动画角色 输出 0813" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-31" y="-20.15" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-btryntrynmytr" />
+      </b>
+      <b name="图层 5" x="-40.9" y="-59.35" kX="180" kY="0" cX="0.98" cY="0.93" pX="123.75" pY="-366.65" z="1">
+        <d name="xxx/btrnstrnt" isArmature="1" />
+      </b>
+      <b name="图层 6" x="-47.4" y="-538.8" kX="3.48" kY="0" cX="2.86" cY="1.1" pX="3" pY="199.45" z="2">
+        <d name="xxx- vbftrenatrentre" />
+      </b>
+      <b name="图层 2" x="-38.45" y="-399.95" kX="0" kY="0" cX="1.65" cY="1.65" pX="27.05" pY="93.6" z="3">
+        <d name="xxx-vretnb trenrntr" />
+      </b>
+      <b name="图层 3" x="-40.1" y="134.95" kX="0" kY="0" cX="1.44" cY="1.44" pX="3.8" pY="0" z="4">
+        <d name="xxx/btrens trntr" isArmature="1" />
+      </b>
+      <b name="图层 4" x="-17.3" y="107.2" kX="0" kY="0" cX="2.26" cY="2.26" pX="34" pY="-49.9" z="5">
+        <d name="xxx/元件 16" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/btrnstrnt" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="124.05" y="-193.6" kX="0" kY="0" cX="1" cY="1" pX="103" pY="224" z="0">
+        <d name="xxx-位图 7" />
+        <d name="xxx-位图 8" />
+        <d name="xxx-位图 9" />
+        <d name="xxx-位图 10" />
+        <d name="xxx-位图 11" />
+        <d name="xxx-位图 12" />
+      </b>
+    </armature>
+    <armature name="xxx/btrens trntr" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="4.3" y="-0.4" kX="0" kY="0" cX="1" cY="1" pX="4.3" pY="-0.4" z="0">
+        <d name="xxx-vbftenstrn" />
+      </b>
+    </armature>
+    <armature name="xxx/元件 16" isLoop="play once" startFrame="1">
+      <b name="图层 11" x="-214.05" y="-292" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-liqsli_1_142_87220" />
+      </b>
+      <b name="图层 9" x="23.3" y="-65.45" kX="0" kY="0" cX="1" cY="1" pX="132" pY="182.5" z="1">
+        <d name="xxx-位图 13" />
+        <d name="xxx-位图 14" />
+        <d name="xxx-位图 15" />
+        <d name="xxx-位图 16" />
+        <d name="xxx-位图 17" />
+        <d name="xxx-位图 18" />
+        <d name="xxx-位图 19" />
+        <d name="xxx-位图 20" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/btrnstrnt">
+      <mov name="ntrntr" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="124.05" y="-193.6" cocos2d_x="21.05" cocos2d_y="-417.6" kX="0" kY="0" cX="1" cY="1" pX="103" pY="224" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="136.3" y="-189.45" cocos2d_x="42.3" cocos2d_y="-405.95" kX="0" kY="0" cX="1" cY="1" pX="94" pY="216.5" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="135.8" y="-212.25" cocos2d_x="40.3" cocos2d_y="-443.25" kX="0" kY="0" cX="1" cY="1" pX="95.5" pY="231" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="141.45" y="-274.45" cocos2d_x="43.45" cocos2d_y="-461.45" kX="0" kY="0" cX="1" cY="1" pX="98" pY="187" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="135.7" y="-235.95" cocos2d_x="42.7" cocos2d_y="-433.95" kX="0" kY="0" cX="1" cY="1" pX="93" pY="198" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="134.65" y="-238.7" cocos2d_x="41.15" cocos2d_y="-429.2" kX="0" kY="0" cX="1" cY="1" pX="93.5" pY="190.5" z="0" dI="5" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/btrens trntr">
+      <mov name="rtwre" dr="10" to="0" drTW="10" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="4.3" y="-0.4" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="4.3" pY="-0.4" z="0" dI="0" twE="0" dr="9" />
+          <f x="4.3" y="-0.4" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="4.3" pY="-0.4" z="0" dI="0" dr="1" twR="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/元件 16">
+      <mov name="trwrt" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="图层 11" sc="1" dl="0">
+          <f x="-214.05" y="-292" cocos2d_x="-214.05" cocos2d_y="-292" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-214.05" y="-292" cocos2d_x="-214.05" cocos2d_y="-292" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="9" />
+          <f x="-250.05" y="-328" cocos2d_x="-250.05" cocos2d_y="-328" kX="0" kY="0" cX="1.15" cY="1.15" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f x="23.3" y="-65.45" cocos2d_x="-108.7" cocos2d_y="-247.95" kX="0" kY="0" cX="1" cY="1" pX="132" pY="182.5" z="1" dI="0" dr="2" />
+          <f x="43.8" y="-69.7" cocos2d_x="-122.2" cocos2d_y="-227.7" kX="0" kY="0" cX="1" cY="1" pX="166" pY="158" z="1" dI="1" dr="2" />
+          <f x="78.95" y="-46.95" cocos2d_x="-62.05" cocos2d_y="-128.45" kX="0" kY="0" cX="1" cY="1" pX="141" pY="81.5" z="1" dI="2" dr="2" />
+          <f x="66.1" y="-70.95" cocos2d_x="-57.9" cocos2d_y="-213.95" kX="0" kY="0" cX="1" cY="1" pX="124" pY="143" z="1" dI="3" dr="2" />
+          <f x="26.7" y="-61.4" cocos2d_x="-177.3" cocos2d_y="-262.4" kX="0" kY="0" cX="1" cY="1" pX="204" pY="201" z="1" dI="4" dr="2" />
+          <f x="29.15" y="-50.1" cocos2d_x="-158.35" cocos2d_y="-238.6" kX="0" kY="0" cX="1" cY="1" pX="187.5" pY="188.5" z="1" dI="5" dr="2" />
+          <f x="16.85" y="-51.15" cocos2d_x="-166.15" cocos2d_y="-235.15" kX="0" kY="0" cX="1" cY="1" pX="183" pY="184" z="1" dI="6" dr="2" />
+          <f x="-81.15" y="-152.65" cocos2d_x="-156.15" cocos2d_y="-225.15" kX="0" kY="0" cX="1" cY="1" pX="75" pY="72.5" z="1" dI="7" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="3" dr="130" to="0" drTW="130" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-31" y="-20.15" cocos2d_x="-31" cocos2d_y="-20.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="130" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-40.9" y="-59.35" cocos2d_x="-162.15" cocos2d_y="-399.3" kX="180" kY="0" cX="0.98" cY="0.93" fst="0" pX="123.75" pY="-366.65" z="1" dI="0" dr="6" />
+          <f dr="121" dI="-1" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f x="-47.4" y="-538.8" cocos2d_x="-42.75" cocos2d_y="-757.9" kX="3.48" kY="0" cX="2.86" cY="1.1" fst="0" pX="3" pY="199.45" z="2" dI="0" twE="0.66" dr="3" />
+          <f x="-40.4" y="-84.2" cocos2d_x="-38.15" cocos2d_y="-333.4" kX="1.75" kY="0" cX="1.7" cY="1.25" fst="0" pX="3.15" pY="199.4" z="2" dI="0" twE="0" dr="1" />
+          <f x="-38.2" y="33.05" cocos2d_x="-35.7" cocos2d_y="-218.25" kX="0.66" kY="0" cX="0.14" cY="1.26" fst="0" pX="2.75" pY="199.45" z="2" dI="0" dr="1" twE="NaN" />
+          <f dr="125" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-38.45" y="-399.95" cocos2d_x="-83" cocos2d_y="-554.1" kX="0" kY="0" cX="1.65" cY="1.65" fst="0" pX="27.05" pY="93.6" z="3" dI="0" twE="0.55" dr="4" />
+          <f x="-38.45" y="103.7" cocos2d_x="-83" cocos2d_y="-50.5" kX="0" kY="0" cX="1.65" cY="1.65" fst="0" pX="27.05" pY="93.6" z="3" dI="0" twE="0" dr="1" />
+          <f x="-38.45" y="132.65" cocos2d_x="-83" cocos2d_y="-21.55" kX="0" kY="0" cX="1.65" cY="1.65" fst="0" pX="27.05" pY="93.6" z="3" dI="0" dr="1" twE="NaN" />
+          <f dr="124" dI="-1" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-40.1" y="134.95" cocos2d_x="-45.55" cocos2d_y="134.95" kX="0" kY="0" cX="1.44" cY="1.44" fst="0" pX="3.8" pY="0" z="4" dI="0" twE="0" dr="4" />
+          <f x="-40.1" y="134.95" cocos2d_x="-53.95" cocos2d_y="134.95" kX="0" kY="0" cX="3.6" cY="3.6" fst="4" pX="3.8" pY="0" z="4" dI="0" twE="0" dr="4" />
+          <f x="-40" y="134.95" cocos2d_x="-56.7" cocos2d_y="134.95" kX="0" kY="0" cX="4.34" cY="4.34" fst="8" pX="3.85" pY="0" z="4" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.07" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="117" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-17.3" y="107.2" cocos2d_x="-94.15" cocos2d_y="219.95" kX="0" kY="0" cX="2.26" cY="2.26" fst="0" pX="34" pY="-49.9" z="5" dI="0" dr="22" />
+          <f dr="102" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="抽取动画角色 输出 0813" width="2048" height="2048">
+    <SubTexture name="xxx-位图 20" width="130" height="126" x="760" y="1003" cocos2d_pX="-7.00" cocos2d_pY="-7.00" />
+    <SubTexture name="xxx-位图 19" width="337" height="340" x="1682" y="353" cocos2d_pX="-9.00" cocos2d_pY="-7.00" />
+    <SubTexture name="xxx-位图 18" width="351" height="352" x="1682" y="0" cocos2d_pX="-12.00" cocos2d_pY="-14.00" />
+    <SubTexture name="xxx-位图 17" width="374" height="379" x="1209" y="473" cocos2d_pX="-16.00" cocos2d_pY="-11.00" />
+    <SubTexture name="xxx-位图 16" width="226" height="264" x="1139" y="853" cocos2d_pX="-10.00" cocos2d_pY="-4.00" />
+    <SubTexture name="xxx-位图 15" width="241" height="130" x="1366" y="1051" cocos2d_pX="-16.00" cocos2d_pY="-16.00" />
+    <SubTexture name="xxx-位图 14" width="285" height="273" x="314" y="682" cocos2d_pX="-22.00" cocos2d_pY="-22.00" />
+    <SubTexture name="xxx-位图 13" width="221" height="320" x="760" y="682" cocos2d_pX="-21.00" cocos2d_pY="-22.00" />
+    <SubTexture name="xxx-liqsli_1_142_87220" width="472" height="472" x="1209" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-vbftenstrn" width="227" height="226" x="314" y="956" cocos2d_pX="110.00" cocos2d_pY="113.70" />
+    <SubTexture name="xxx-位图 12" width="156" height="356" x="1670" y="694" cocos2d_pX="-12.00" cocos2d_pY="-9.00" />
+    <SubTexture name="xxx-位图 11" width="156" height="371" x="982" y="682" cocos2d_pX="-10.00" cocos2d_pY="-11.00" />
+    <SubTexture name="xxx-位图 10" width="153" height="350" x="1827" y="694" cocos2d_pX="-16.00" cocos2d_pY="-8.00" />
+    <SubTexture name="xxx-位图 9" width="147" height="430" x="0" y="682" cocos2d_pX="-14.00" cocos2d_pY="-10.00" />
+    <SubTexture name="xxx-位图 8" width="165" height="406" x="148" y="682" cocos2d_pX="-7.00" cocos2d_pY="-8.00" />
+    <SubTexture name="xxx-位图 7" width="159" height="395" x="600" y="682" cocos2d_pX="-19.00" cocos2d_pY="-31.00" />
+    <SubTexture name="xxx-vretnb trenrntr" width="185" height="197" x="1366" y="853" cocos2d_pX="101.20" cocos2d_pY="97.70" />
+    <SubTexture name="xxx- vbftrenatrentre" width="85" height="381" x="1584" y="473" cocos2d_pX="40.95" cocos2d_pY="186.70" />
+    <SubTexture name="xxx-btryntrynmytr" width="1208" height="681" x="0" y="0" cocos2d_pX="603.85" cocos2d_pY="340.20" />
+  </TextureAtlas>
+</skeleton>

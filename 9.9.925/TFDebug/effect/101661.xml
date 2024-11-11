@@ -1,0 +1,41 @@
+<skeleton name="游氏双雄普攻FX_陈文明_0707" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 28" x="109.1" y="-66.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-vrebwnrtnrt" />
+        <d name="xxx-v rfebnrtntr" />
+        <d name="xxx-bfraenterntr" />
+      </b>
+      <b name="图层 27" x="102.75" y="-71" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1">
+        <d name="xxx-v frebwntnrr" />
+        <d name="xxx-vreqbna nqrt" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ptgj" dr="31" to="0" drTW="31" lp="0" twE="NaN">
+        <b name="图层 28" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="109.1" y="-66.15" cocos2d_x="109.1" cocos2d_y="-66.15" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" blend="normal" dr="2" />
+          <f x="163.45" y="-69.7" cocos2d_x="163.45" cocos2d_y="-69.7" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="171.4" y="-70.85" cocos2d_x="171.4" cocos2d_y="-70.85" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f dr="17" dI="-1" />
+        </b>
+        <b name="图层 27" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="102.75" y="-71" cocos2d_x="102.75" cocos2d_y="-71" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="138.35" y="-69.95" cocos2d_x="138.35" cocos2d_y="-69.95" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="1" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f dr="20" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="游氏双雄普攻FX_陈文明_0707" width="256" height="128">
+    <SubTexture name="xxx-vreqbna nqrt" width="63" height="36" x="140" y="50" cocos2d_pX="32.50" cocos2d_pY="23.70" />
+    <SubTexture name="xxx-v frebwntnrr" width="118" height="37" x="0" y="54" cocos2d_pX="62.00" cocos2d_pY="20.00" />
+    <SubTexture name="xxx-bfraenterntr" width="54" height="38" x="119" y="87" cocos2d_pX="26.65" cocos2d_pY="21.35" />
+    <SubTexture name="xxx-v rfebnrtntr" width="69" height="49" x="140" y="0" cocos2d_pX="35.90" cocos2d_pY="27.55" />
+    <SubTexture name="xxx-vrebwnrtnrt" width="139" height="53" x="0" y="0" cocos2d_pX="67.25" cocos2d_pY="27.20" />
+  </TextureAtlas>
+</skeleton>

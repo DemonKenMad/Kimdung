@@ -1,0 +1,80 @@
+<skeleton name="昆仑白猿1-3技能下层输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="asdfew" x="149.7" y="-77.25" kX="0" kY="0" cX="50" cY="50" pX="0" pY="-0.05" z="0">
+        <d name="asdgherhjhrt" />
+      </b>
+      <b name="dasdsa" x="99.7" y="-115.9" kX="0" kY="0" cX="348.2" cY="291.41" pX="0" pY="0" z="1">
+        <d name="xxx-dwaca" />
+      </b>
+      <b name="ascxzc" x="71.55" y="-0.35" kX="0" kY="0" cX="1" cY="1" pX="-404.8" pY="160" z="2">
+        <d name="xxx/adsgrewhe" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/adsgrewhe" isLoop="loop" startFrame="4">
+      <b name="dsadsa" x="-385.2" y="159.95" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0">
+        <d name="xxx-wqea" />
+        <d name="xxx-wfxf" />
+        <d name="xxx-sacx" />
+        <d name="xxx-dfsa" />
+        <d name="xxx-sxzcaz" />
+        <d name="xxx-wexcx" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/adsgrewhe">
+      <mov name="sdsadsadsa" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="dsadsa" sc="1" dl="0">
+          <f x="-385.2" y="159.95" cocos2d_x="-385.2" cocos2d_y="159.95" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="-376.5" y="141.75" cocos2d_x="-376.5" cocos2d_y="141.75" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-384.2" y="145.6" cocos2d_x="-384.2" cocos2d_y="145.6" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0" dI="2" dr="2" />
+          <f x="-401.6" y="143.6" cocos2d_x="-401.6" cocos2d_y="143.6" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-398.15" y="157.55" cocos2d_x="-398.15" cocos2d_y="157.55" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-371.95" y="159.3" cocos2d_x="-371.95" cocos2d_y="159.3" kX="0" kY="0" cX="2.82" cY="2.82" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="donghua" dr="96" to="0" drTW="96" lp="0" twE="NaN">
+        <b name="asdfew" sc="1" dl="0">
+          <f dr="37" dI="-1" />
+          <f x="149.7" y="-77.25" cocos2d_x="149.7" cocos2d_y="-74.75" kX="0" kY="0" cX="50" cY="50" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="6">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="149.7" y="-77.25" cocos2d_x="149.7" cocos2d_y="-74.75" kX="0" kY="0" cX="50" cY="50" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="10">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.77" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="149.7" y="-77.25" cocos2d_x="149.7" cocos2d_y="-74.75" kX="0" kY="0" cX="50" cY="50" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.77" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="149.7" y="-77.25" cocos2d_x="149.7" cocos2d_y="-74.75" kX="0" kY="0" cX="50" cY="50" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.12" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="38" dI="-1" />
+        </b>
+        <b name="dasdsa" sc="1" dl="0">
+          <f dr="55" dI="-1" />
+          <f x="99.7" y="-115.9" cocos2d_x="99.7" cocos2d_y="-115.9" kX="0" kY="0" cX="348.2" cY="291.41" pX="0" pY="0" z="1" dI="0" dr="2" />
+          <f dr="39" dI="-1" />
+        </b>
+        <b name="ascxzc" sc="1" dl="0">
+          <f dr="50" dI="-1" />
+          <f x="71.55" y="-0.35" cocos2d_x="476.35" cocos2d_y="-160.35" kX="0" kY="0" cX="1" cY="1" fst="3" pX="-404.8" pY="160" z="2" dI="0" dr="6" />
+          <f dr="40" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="昆仑白猿1-3技能下层输出" width="256" height="128">
+    <SubTexture name="xxx-wexcx" width="101" height="30" x="141" y="70" cocos2d_pX="51.00" cocos2d_pY="15.50" />
+    <SubTexture name="xxx-sxzcaz" width="140" height="28" x="0" y="70" cocos2d_pX="70.50" cocos2d_pY="14.50" />
+    <SubTexture name="xxx-dfsa" width="170" height="34" x="0" y="35" cocos2d_pX="85.00" cocos2d_pY="17.50" />
+    <SubTexture name="xxx-sacx" width="193" height="34" x="0" y="0" cocos2d_pX="97.50" cocos2d_pY="17.50" />
+    <SubTexture name="xxx-wfxf" width="86" height="23" x="0" y="99" cocos2d_pX="44.50" cocos2d_pY="12.00" />
+    <SubTexture name="xxx-wqea" width="52" height="10" x="194" y="31" cocos2d_pX="26.50" cocos2d_pY="5.50" />
+    <SubTexture name="xxx-dwaca" width="12" height="7" x="241" y="0" cocos2d_pX="6.00" cocos2d_pY="3.50" />
+    <SubTexture name="asdgherhjhrt" width="46" height="30" x="194" y="0" cocos2d_pX="26.15" cocos2d_pY="15.10" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,73 @@
+<skeleton name="李四普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 5" x="115.65" y="-78.75" kX="-21" kY="159" cX="1.4" cY="1.4" pX="33" pY="-0.95" z="0">
+        <d name="dfsdsf/gongji" isArmature="1" />
+      </b>
+      <b name="图层 7" x="19.3" y="-62.05" kX="43" kY="43" cX="1" cY="1" pX="-3.05" pY="17.05" z="1">
+        <d name="dfsdsf/quanguang" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dfsdsf/gongji" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="33" y="-0.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0">
+        <d name="dfsdsf-bingbao_01.png" />
+        <d name="dfsdsf-bingbao_05.png" />
+        <d name="dfsdsf-bingbao_07.png" />
+      </b>
+    </armature>
+    <armature name="dfsdsf/quanguang">
+      <b name="图层 1" x="-3" y="17.05" kX="0" kY="0" cX="1" cY="1" pX="125" pY="125" z="0">
+        <d name="dfsdsf-s01.png" />
+        <d name="dfsdsf-s02.png" />
+        <d name="dfsdsf-s03.png" />
+        <d name="dfsdsf-s04.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dfsdsf/gongji">
+      <mov name="dsad" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="0" dr="2" />
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="1" dr="2" />
+          <f x="33" y="-0.95" cocos2d_x="-29" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="62" pY="79" z="0" dI="2" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="dfsdsf/quanguang">
+      <mov name="fdsfsd" dr="4" to="0" drTW="4" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-3" y="17.05" cocos2d_x="-128" cocos2d_y="-107.95" kX="0" kY="0" cX="1" cY="1" pX="125" pY="125" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-3" y="17.05" cocos2d_x="-128" cocos2d_y="-107.95" kX="0" kY="0" cX="1" cY="1" pX="125" pY="125" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-3" y="17.05" cocos2d_x="-128" cocos2d_y="-107.95" kX="0" kY="0" cX="1" cY="1" pX="125" pY="125" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-3" y="17.05" cocos2d_x="-128" cocos2d_y="-107.95" kX="0" kY="0" cX="1" cY="1" pX="125" pY="125" z="0" dI="3" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fdsfds" dr="15" to="0" drTW="15" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="115.65" y="-78.75" cocos2d_x="159.25" cocos2d_y="-94.05" kX="-21" kY="159" cX="1.4" cY="1.4" pX="33" pY="-0.95" z="0" dI="0" dr="9" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 7" sc="1" dl="0">
+          <f dr="9" dI="-1" />
+          <f x="19.3" y="-62.05" cocos2d_x="33.15" cocos2d_y="-72.45" kX="43" kY="43" cX="1" cY="1" pX="-3.05" pY="17.05" z="1" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="65.15" y="-118.05" cocos2d_x="58.85" cocos2d_y="-142.3" kX="-25.03" kY="-25.03" cX="1.45" cY="1.45" pX="-3.15" pY="17.05" z="1" dI="0" dr="4" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="李四普通攻击特效" width="512" height="512">
+    <SubTexture name="dfsdsf-s04.png" width="41" height="87" x="403" y="128" cocos2d_pX="-113.00" cocos2d_pY="-66.00" />
+    <SubTexture name="dfsdsf-s03.png" width="102" height="127" x="403" y="0" cocos2d_pX="-81.00" cocos2d_pY="-61.00" />
+    <SubTexture name="dfsdsf-s02.png" width="133" height="133" x="117" y="159" cocos2d_pX="-55.00" cocos2d_pY="-63.00" />
+    <SubTexture name="dfsdsf-s01.png" width="152" height="132" x="0" y="0" cocos2d_pX="-48.00" cocos2d_pY="-70.00" />
+    <SubTexture name="dfsdsf-bingbao_07.png" width="116" height="155" x="0" y="133" cocos2d_pX="-8.00" cocos2d_pY="-3.00" />
+    <SubTexture name="dfsdsf-bingbao_05.png" width="124" height="158" x="153" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="dfsdsf-bingbao_01.png" width="124" height="156" x="278" y="0" cocos2d_pX="0.00" cocos2d_pY="-2.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,25 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname="S2CPotentialPracticeMsg";
+
+//侠客潜修
+//code = 0x6800
+message PotentialPracticeResponse
+{
+	required PotentialPracticeInfo info = 1;				//潜修属性
+}
+
+//侠客潜修属性替换
+//code = 0x6801
+message PotentialPracticeReplaceResponse
+{
+	repeated PotentialPracticeInfo info = 1;				//本身潜修数据
+	repeated int32 isResetChange = 2;						//是否重置潜修数据
+}
+
+message PotentialPracticeInfo{
+	required int64 roleId = 1; 								//侠客id
+	repeated int32 attIndex = 2;							//属性下标
+	repeated int32 value = 3;								//属性值
+	repeated int32 isLock = 4;								//是否锁住(0:未锁住 1:锁住)
+}

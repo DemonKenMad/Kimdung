@@ -1,0 +1,72 @@
+<skeleton name="和尚技能" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="135.4" y="18.5" kX="-0.5" kY="0" cX="0.54" cY="0.49" pX="214" pY="57.75" z="0">
+        <d name="234234-546" />
+      </b>
+      <b name="图层 2" x="-19.6" y="-1.35" kX="0" kY="0" cX="1.42" cY="0.62" pX="78.55" pY="25" z="1">
+        <d name="234234-45654" />
+        <d name="234234-65466" />
+        <d name="234234-456" />
+      </b>
+      <b name="图层 1" x="-46.8" y="-134" kX="0" kY="0" cX="2.56" cY="2.56" pX="36" pY="54" z="2">
+        <d name="234234-345435" />
+        <d name="234234-bujian" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="5677" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="10" dI="-1" />
+          <f x="135.4" y="18.5" cocos2d_x="19.75" cocos2d_y="-9.8" kX="-0.5" kY="0" cX="0.54" cY="0.49" pX="214" pY="57.75" z="0" dI="0" twE="0" dr="4">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="132.25" y="19.45" cocos2d_x="-7.7" cocos2d_y="-14.8" kX="-0.5" kY="0" cX="0.65" cY="0.59" pX="214.05" pY="57.75" z="0" dI="0" twE="0" dr="4">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f x="130" y="20.9" cocos2d_x="-27.8" cocos2d_y="-17.7" kX="-0.5" kY="0" cX="0.74" cY="0.67" pX="214.1" pY="57.75" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="adjustColorFilter" enabled="true" brightness="0" contrast="0" saturation="0" hue="0" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="-19.6" y="-1.35" cocos2d_x="-130.95" cocos2d_y="-16.75" kX="0" kY="0" cX="1.42" cY="0.62" pX="78.55" pY="25" z="1" dI="0" twE="0" dr="2" />
+          <f x="-18.55" y="-1.4" cocos2d_x="-177.05" cocos2d_y="-23.3" kX="0" kY="0" cX="2.02" cY="0.88" pX="78.5" pY="24.95" z="1" dI="0" twE="0" dr="4" />
+          <f x="-17.9" y="-1.4" cocos2d_x="-206.35" cocos2d_y="-27.5" kX="0" kY="0" cX="2.4" cY="1.04" pX="78.5" pY="25" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+          <f x="157.1" y="18.6" cocos2d_x="119.7" cocos2d_y="-209.3" kX="52.51" kY="36.2" cX="1.72" cY="2.65" pX="123.3" pY="63.55" z="1" dI="1" dr="3">
+            <colorTransform a="0" r="31" g="55" b="47" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="162.55" y="3.45" cocos2d_x="82.75" cocos2d_y="17.35" kX="-84.92" kY="-84.92" cX="1.36" cY="1.36" pX="15.35" pY="57.4" z="1" dI="2" dr="2" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-46.8" y="-134" cocos2d_x="-138.95" cocos2d_y="-272.2" kX="0" kY="0" cX="2.56" cY="2.56" pX="36" pY="54" z="2" dI="0" twE="0" dr="5" />
+          <f x="-56.25" y="-167.85" cocos2d_x="-166.45" cocos2d_y="-333.1" kX="0" kY="0" cX="3.06" cY="3.06" pX="36" pY="54" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="207.5" y="14.35" cocos2d_x="178.25" cocos2d_y="-86.8" kX="-53.91" kY="-39.31" cX="1.04" cY="1.1" pX="-64.2" pY="90.6" z="2" dI="1" twE="0" dr="2" />
+          <f x="222.5" y="14.35" cocos2d_x="193.5" cocos2d_y="-87.55" kX="-53.91" kY="-39.31" cX="1.05" cY="1.11" pX="-64.2" pY="90.55" z="2" dI="1" twE="0" dr="2" />
+          <f x="204.4" y="14.35" cocos2d_x="191" cocos2d_y="-83.95" kX="-33.94" kY="-19.34" cX="0.7" cY="1.11" pX="-64.3" pY="90.5" z="2" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="5" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="和尚技能" width="512" height="512">
+    <SubTexture name="234234-bujian" width="210" height="270" x="0" y="113" cocos2d_pX="127.35" cocos2d_pY="148.70" />
+    <SubTexture name="234234-345435" width="72" height="108" x="427" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="234234-456" width="110" height="84" x="362" y="113" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="234234-65466" width="150" height="80" x="211" y="113" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="234234-45654" width="157" height="46" x="211" y="198" cocos2d_pX="0.00" cocos2d_pY="-3.00" />
+    <SubTexture name="234234-546" width="426" height="112" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

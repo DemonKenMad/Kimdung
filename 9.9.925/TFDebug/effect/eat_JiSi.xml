@@ -1,0 +1,110 @@
+<skeleton name="祭 合成特效 输出" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="btrgngtrynrty" x="1.6" y="0.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-vrebrbfre" />
+      </b>
+      <b name="fbtgebnt" x="1.3" y="0.75" kX="0" kY="0" cX="0.51" cY="0.51" pX="0" pY="0" z="1">
+        <d name="xxx/nmytmtuy" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/nmytmtuy" isLoop="loop" startFrame="1">
+      <b name="btnbtr" x="2.25" y="-6.5" kX="0" kY="0" cX="1.3" cY="1.3" pX="93.8" pY="4.3" z="0">
+        <d name="xxx/yhthmytmy" isArmature="1" />
+      </b>
+      <b name="vrwvbr" x="0.8" y="3.8" kX="0" kY="0" cX="1.63" cY="1.63" pX="0" pY="0" z="1">
+        <d name="xxx-m hytmdty" />
+      </b>
+      <b name="ntgrntrntr" x="-8.2" y="-0.6" kX="0" kY="0" cX="1.45" cY="1.45" pX="0" pY="0" z="2">
+        <d name="xxx/vrednbhtre" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/yhthmytmy" isLoop="loop" startFrame="1">
+      <b name="fewbr" x="91.85" y="12.7" kX="0" kY="0" cX="1" cY="1" pX="80.5" pY="78" z="0">
+        <d name="xxx-位图 55" />
+        <d name="xxx-位图 56" />
+        <d name="xxx-位图 57" />
+        <d name="xxx-位图 58" />
+        <d name="xxx-位图 59" />
+      </b>
+    </armature>
+    <armature name="xxx/vrednbhtre" isLoop="loop" startFrame="1">
+      <b name="vrwbre" x="5.95" y="0.35" kX="0" kY="0" cX="1" cY="1" pX="11.95" pY="-13" z="0">
+        <d name="xxx-ntrnmtrym" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/yhthmytmy">
+      <mov name="treyjhgdj" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="fewbr" sc="1" dl="0">
+          <f x="91.85" y="12.7" cocos2d_x="11.35" cocos2d_y="-65.3" kX="0" kY="0" cX="1" cY="1" pX="80.5" pY="78" z="0" dI="0" dr="2" />
+          <f x="89.95" y="11.75" cocos2d_x="7.45" cocos2d_y="-62.25" kX="0" kY="0" cX="1" cY="1" pX="82.5" pY="74" z="0" dI="1" dr="2" />
+          <f x="90.45" y="7.85" cocos2d_x="7.45" cocos2d_y="-72.15" kX="0" kY="0" cX="1" cY="1" pX="83" pY="80" z="0" dI="2" dr="2" />
+          <f x="93.35" y="10.35" cocos2d_x="18.35" cocos2d_y="-66.15" kX="0" kY="0" cX="1" cY="1" pX="75" pY="76.5" z="0" dI="3" dr="2" />
+          <f x="92.5" y="8.85" cocos2d_x="14" cocos2d_y="-69.65" kX="0" kY="0" cX="1" cY="1" pX="78.5" pY="78.5" z="0" dI="4" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/vrednbhtre">
+      <mov name="vrwbr" dr="16" to="0" drTW="16" lp="0" twE="NaN">
+        <b name="vrwbre" sc="1" dl="0">
+          <f x="5.95" y="0.35" cocos2d_x="-6" cocos2d_y="13.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="11.95" pY="-13" z="0" dI="0" twE="-1" dr="3" />
+          <f x="12.05" y="-8.55" cocos2d_x="-51.8" cocos2d_y="61.4" kX="0" kY="0" cX="5.09" cY="5.09" fst="0" pX="12.55" pY="-13.75" z="0" dI="0" twE="0" dr="4" />
+          <f x="12.05" y="-8.55" cocos2d_x="-51.8" cocos2d_y="61.4" kX="0" kY="0" cX="5.09" cY="5.09" fst="0" pX="12.55" pY="-13.75" z="0" dI="0" dr="9">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/nmytmtuy">
+      <mov name="rrtbr" dr="20" to="0" drTW="20" lp="0" twE="NaN">
+        <b name="btnbtr" sc="1" dl="0">
+          <f x="2.25" y="-6.5" cocos2d_x="-119.7" cocos2d_y="-12.1" kX="0" kY="0" cX="1.3" cY="1.3" fst="0" pX="93.8" pY="4.3" z="0" dI="0" dr="10" />
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="vrwvbr" sc="1" dl="0">
+          <f x="0.8" y="3.8" cocos2d_x="0.8" cocos2d_y="3.8" kX="0" kY="0" cX="1.63" cY="1.63" fst="0" pX="0" pY="0" z="1" dI="0" twE="-1" dr="2" />
+          <f x="0.8" y="3.8" cocos2d_x="0.8" cocos2d_y="3.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="4" />
+          <f x="0.8" y="3.8" cocos2d_x="0.8" cocos2d_y="3.8" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="4">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="10" dI="-1" />
+        </b>
+        <b name="ntgrntrntr" sc="1" dl="0">
+          <f x="-8.2" y="-0.6" cocos2d_x="-8.2" cocos2d_y="-0.6" kX="0" kY="0" cX="1.45" cY="1.45" fst="0" pX="0" pY="0" z="2" dI="0" dr="9" />
+          <f dr="11" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="btreb" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="btrgngtrynrty" sc="1" dl="0">
+          <f x="1.6" y="0.7" cocos2d_x="1.6" cocos2d_y="0.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="1.6" y="0.7" cocos2d_x="1.6" cocos2d_y="0.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="19" dI="-1" />
+        </b>
+        <b name="fbtgebnt" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="1.3" y="0.75" cocos2d_x="1.3" cocos2d_y="0.75" kX="0" kY="0" cX="0.51" cY="0.51" fst="0" pX="0" pY="0" z="1" dI="0" dr="19" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="祭 合成特效 输出" width="512" height="512">
+    <SubTexture name="xxx-ntrnmtrym" width="65" height="65" x="95" y="291" cocos2d_pX="21.10" cocos2d_pY="45.75" />
+    <SubTexture name="xxx-位图 59" width="154" height="155" x="164" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 58" width="146" height="150" x="164" y="156" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 57" width="163" height="157" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 56" width="158" height="145" x="319" y="151" cocos2d_pX="-3.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-位图 55" width="155" height="150" x="319" y="0" cocos2d_pX="-2.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-m hytmdty" width="131" height="132" x="0" y="158" cocos2d_pX="65.80" cocos2d_pY="68.70" />
+    <SubTexture name="xxx-vrebrbfre" width="94" height="94" x="0" y="291" cocos2d_pX="46.90" cocos2d_pY="46.90" />
+  </TextureAtlas>
+</skeleton>

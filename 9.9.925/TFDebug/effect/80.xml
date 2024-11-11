@@ -1,0 +1,49 @@
+<skeleton name="霸王丸风buff输出上层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 7" x="-0.05" y="2.5" kX="0" kY="0" cX="1.07" cY="1.18" pX="0" pY="0" z="0">
+        <d name="xxx/ssjjffilesB63" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/ssjjffilesB63" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="1.35" y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0">
+        <d name="xxx-ssjjffilesB89" />
+        <d name="xxx-ssjjffilesB90" />
+        <d name="xxx-ssjjffilesB91" />
+        <d name="xxx-ssjjffilesB92" />
+        <d name="xxx-ssjjffilesB93" />
+        <d name="xxx-ssjjffilesB94" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/ssjjffilesB63">
+      <mov name="hgdsgrgs" dr="6" to="0" drTW="6" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.35" y="-36.25" cocos2d_x="1.35" cocos2d_y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="1.35" y="-36.25" cocos2d_x="1.35" cocos2d_y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="1.35" y="-36.25" cocos2d_x="1.35" cocos2d_y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="1.35" y="-36.25" cocos2d_x="1.35" cocos2d_y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="1.35" y="-36.25" cocos2d_x="1.35" cocos2d_y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="1.35" y="-36.25" cocos2d_x="1.35" cocos2d_y="-36.25" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dsgdfhsdgad" dr="37" to="0" drTW="37" lp="1" twE="NaN">
+        <b name="图层 7" sc="1" dl="0">
+          <f x="-0.05" y="2.5" cocos2d_x="-0.05" cocos2d_y="2.5" kX="0" kY="0" cX="1.07" cY="1.18" fst="0" pX="0" pY="0" z="0" dI="0" dr="10" />
+          <f x="-0.05" y="2.5" cocos2d_x="-0.05" cocos2d_y="2.5" kX="0" kY="0" cX="1.07" cY="1.18" fst="4" pX="0" pY="0" z="0" dI="0" dr="27" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="霸王丸风buff输出上层" width="256" height="256">
+    <SubTexture name="xxx-ssjjffilesB94" width="120" height="46" x="0" y="0" cocos2d_pX="60.05" cocos2d_pY="20.65" />
+    <SubTexture name="xxx-ssjjffilesB93" width="119" height="46" x="120" y="48" cocos2d_pX="60.05" cocos2d_pY="21.65" />
+    <SubTexture name="xxx-ssjjffilesB92" width="119" height="45" x="120" y="95" cocos2d_pX="60.05" cocos2d_pY="19.65" />
+    <SubTexture name="xxx-ssjjffilesB91" width="119" height="47" x="121" y="0" cocos2d_pX="60.05" cocos2d_pY="20.65" />
+    <SubTexture name="xxx-ssjjffilesB90" width="119" height="46" x="0" y="95" cocos2d_pX="59.05" cocos2d_pY="19.65" />
+    <SubTexture name="xxx-ssjjffilesB89" width="119" height="47" x="0" y="47" cocos2d_pX="59.05" cocos2d_pY="20.65" />
+  </TextureAtlas>
+</skeleton>

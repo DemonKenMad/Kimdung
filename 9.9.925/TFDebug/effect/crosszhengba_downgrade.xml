@@ -1,0 +1,61 @@
+<skeleton name="降段特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-19.45" y="-69.4" kX="0" kY="0" cX="1.99" cY="1.99" pX="-0.05" pY="-0.05" z="0">
+        <d name="xxx-zhangweirinhart13" />
+        <d name="xxx-zhangweirinhart12" />
+        <d name="xxx-zhangweirinhart11" />
+        <d name="xxx-zhangweirinhart10" />
+        <d name="xxx-zhangweirinhart09" />
+        <d name="xxx-zhangweirinhart08" />
+        <d name="xxx-zhangweirinhart07" />
+        <d name="xxx-zhangweirinhart06" />
+        <d name="xxx-zhangweirinhart05" />
+        <d name="xxx-zhangweirinhart04" />
+        <d name="xxx-zhangweirinhart03" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="sdagashsdf" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-19.45" y="-69.4" cocos2d_x="-19.35" cocos2d_y="-69.3" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="-0.05" z="0" dI="0" dr="2" />
+          <f x="-22.4" y="1.65" cocos2d_x="-22.4" cocos2d_y="1.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="-20.45" y="39.65" cocos2d_x="-20.35" cocos2d_y="39.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="2" dr="2" />
+          <f x="-9.45" y="45.65" cocos2d_x="-9.35" cocos2d_y="45.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="3" dr="2" />
+          <f x="-16.45" y="40.65" cocos2d_x="-16.35" cocos2d_y="40.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="4" dr="2" />
+          <f x="-16.45" y="37.65" cocos2d_x="-16.35" cocos2d_y="37.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="5" dr="2" />
+          <f x="-18.45" y="33.65" cocos2d_x="-18.35" cocos2d_y="33.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="6" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.89" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-7.45" y="37.65" cocos2d_x="-7.35" cocos2d_y="37.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="7" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.79" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-14.45" y="21.65" cocos2d_x="-14.35" cocos2d_y="21.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="8" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.61" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-22.45" y="42.65" cocos2d_x="-22.35" cocos2d_y="42.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="-0.05" pY="0" z="0" dI="9" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.44" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-12.45" y="37.65" cocos2d_x="-12.45" cocos2d_y="37.65" kX="0" kY="0" cX="1.99" cY="1.99" fst="0" pX="0" pY="0" z="0" dI="10" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.19" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="降段特效" width="1024" height="512">
+    <SubTexture name="xxx-zhangweirinhart03" width="131" height="241" x="159" y="245" cocos2d_pX="65.50" cocos2d_pY="121.00" />
+    <SubTexture name="xxx-zhangweirinhart04" width="140" height="244" x="473" y="244" cocos2d_pX="69.55" cocos2d_pY="124.50" />
+    <SubTexture name="xxx-zhangweirinhart05" width="155" height="238" x="788" y="0" cocos2d_pX="74.55" cocos2d_pY="115.00" />
+    <SubTexture name="xxx-zhangweirinhart06" width="155" height="246" x="317" y="0" cocos2d_pX="78.05" cocos2d_pY="123.00" />
+    <SubTexture name="xxx-zhangweirinhart07" width="156" height="244" x="631" y="0" cocos2d_pX="73.55" cocos2d_pY="121.00" />
+    <SubTexture name="xxx-zhangweirinhart08" width="157" height="244" x="159" y="0" cocos2d_pX="75.55" cocos2d_pY="121.00" />
+    <SubTexture name="xxx-zhangweirinhart09" width="158" height="244" x="0" y="0" cocos2d_pX="76.55" cocos2d_pY="122.50" />
+    <SubTexture name="xxx-zhangweirinhart10" width="157" height="243" x="473" y="0" cocos2d_pX="81.05" cocos2d_pY="124.00" />
+    <SubTexture name="xxx-zhangweirinhart11" width="157" height="230" x="788" y="239" cocos2d_pX="75.55" cocos2d_pY="116.00" />
+    <SubTexture name="xxx-zhangweirinhart12" width="158" height="214" x="0" y="245" cocos2d_pX="75.50" cocos2d_pY="105.00" />
+    <SubTexture name="xxx-zhangweirinhart13" width="159" height="116" x="614" y="245" cocos2d_pX="77.05" cocos2d_pY="69.55" />
+  </TextureAtlas>
+</skeleton>

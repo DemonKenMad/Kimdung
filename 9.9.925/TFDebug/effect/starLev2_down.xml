@@ -1,0 +1,62 @@
+<skeleton name="2级DOWN" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="-5.6" y="5.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweifilesfgB07" isArmature="1" />
+      </b>
+      <b name="图层 2" x="-1.95" y="-0.45" kX="0" kY="0" cX="1" cY="0.33" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweifilesfgB05" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesfgB07" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesfgB08" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweifilesfgB05" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="1.6" y="0.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweifilesfgB06" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweifilesfgB07">
+      <mov name="fsdagasdgasdf" dr="60" to="0" drTW="60" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="1" dr="29" />
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.1" cY="1.1" fst="0" pX="0" pY="0" z="0" dI="0" twE="1" dr="30">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.69" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweifilesfgB05">
+      <mov name="fdsagasdfasf" dr="60" to="0" drTW="60" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.6" y="0.8" cocos2d_x="1.6" cocos2d_y="0.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="14">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="1.6" y="0.8" cocos2d_x="1.6" cocos2d_y="0.8" kX="86.53" kY="86.53" cX="1.29" cY="1.29" pX="0" pY="0" z="0" dI="0" twE="0" dr="45" />
+          <f x="1.6" y="0.8" cocos2d_x="1.6" cocos2d_y="0.8" kX="160.3" kY="160.3" cX="1.77" cY="1.77" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dfhasgagasfdsf" dr="60" to="0" drTW="60" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f x="-5.6" y="5.65" cocos2d_x="-5.6" cocos2d_y="5.65" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="60" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-1.95" y="-0.45" cocos2d_x="-1.95" cocos2d_y="-0.45" kX="0" kY="0" cX="1" cY="0.33" fst="0" pX="0" pY="0" z="1" dI="0" dr="60" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="2级DOWN" width="512" height="512">
+    <SubTexture name="xxx-zhangweifilesfgB06" width="247" height="256" x="0" y="0" cocos2d_pX="123.50" cocos2d_pY="131.30" />
+    <SubTexture name="xxx-zhangweifilesfgB08" width="301" height="93" x="0" y="257" cocos2d_pX="150.70" cocos2d_pY="44.60" />
+  </TextureAtlas>
+</skeleton>

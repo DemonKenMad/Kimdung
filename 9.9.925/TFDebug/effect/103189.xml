@@ -1,0 +1,61 @@
+<skeleton name="慕容龙城分割底层" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="fgjyhjgnmgm" x="223.85" y="-82.5" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-sitt21"/>
+        <d name="xxx/sitt65" isArmature="1"/>
+      </b>
+      <b name="fsafasa" x="214.1" y="-79.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/sitt65" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/sitt65" isLoop="loop" startFrame="1">
+      <b name="dfasfas" x="0" y="0" kX="0" kY="0" cX="100" cY="100" pX="0" pY="0" z="0">
+        <d name="xxx-sitt39"/>
+      </b>
+      <b name="fasf" x="-15.05" y="-5.05" kX="0" kY="0" cX="100" cY="100" pX="0" pY="-0.05" z="1">
+        <d name="xxx-sitt41"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/sitt65">
+      <mov name="fasfasf" dr="55" to="0" drTW="55" lp="1" twE="NaN">
+        <b name="dfasfas" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="55"/>
+        </b>
+        <b name="fasf" sc="1" dl="0">
+          <f x="-15.05" y="-5.05" cocos2d_x="-15.05" cocos2d_y="-0.05" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="1" dI="0" dr="55"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="nbnfgfdghfdg" dr="87" to="0" drTW="87" lp="0" twE="NaN">
+        <b name="fgjyhjgnmgm" sc="1" dl="0">
+          <f dr="69" dI="-1"/>
+          <f x="223.85" y="-82.5" cocos2d_x="223.85" cocos2d_y="-82.5" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="226.1" y="-156" cocos2d_x="226.1" cocos2d_y="-156" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="1" twE="0" dr="12"/>
+          <f x="226.1" y="-156" cocos2d_x="226.1" cocos2d_y="-156" kX="0" kY="0" cX="1" cY="1" fst="8" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="3" dI="-1"/>
+        </b>
+        <b name="fsafasa" sc="1" dl="0">
+          <f dr="6" dI="-1"/>
+          <f x="214.1" y="-79.9" cocos2d_x="214.1" cocos2d_y="-79.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="214.1" y="-79.9" cocos2d_x="214.1" cocos2d_y="-79.9" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" dr="36">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.82" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="40" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="慕容龙城分割底层" width="32" height="32">
+    <SubTexture name="xxx-sitt41" width="17" height="10" x="0" y="0" cocos2d_pX="8.15" cocos2d_pY="4.65"/>
+    <SubTexture name="xxx-sitt39" width="13" height="8" x="0" y="12" cocos2d_pX="6.2" cocos2d_pY="3.65"/>
+    <SubTexture name="xxx-sitt21" width="13" height="7" x="15" y="12" cocos2d_pX="6.25" cocos2d_pY="3.5"/>
+  </TextureAtlas>
+</skeleton>

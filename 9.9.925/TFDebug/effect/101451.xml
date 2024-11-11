@@ -1,0 +1,43 @@
+<skeleton name="丁典普工" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="102.1" y="-68.75" kX="0" kY="0" cX="2.32" cY="2.32" pX="86" pY="35.5" z="0">
+        <d name="5345-4545" />
+        <d name="5345-5656" />
+        <d name="5345-456456" />
+      </b>
+      <b name="图层 1" x="232.5" y="-72.75" kX="-97.3" kY="-179.65" cX="2.58" cY="3.1" pX="80.05" pY="44.55" z="1">
+        <d name="5345-456456" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="4566" dr="28" to="0" drTW="28" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="5" dI="-1" />
+          <f x="102.1" y="-68.75" cocos2d_x="-97.2" cocos2d_y="-151" kX="0" kY="0" cX="2.32" cY="2.32" pX="86" pY="35.5" z="0" dI="0" dr="2" />
+          <f x="78" y="-68.4" cocos2d_x="-162.65" cocos2d_y="15.1" kX="180" kY="-3.32" cX="6.34" cY="1.83" pX="38" pY="38.05" z="0" dI="1" twE="0" dr="2" />
+          <f x="77.95" y="-68.35" cocos2d_x="-162.65" cocos2d_y="14.9" kX="180" kY="-3.27" cX="6.34" cY="1.83" pX="38" pY="38" z="0" dI="1" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.49" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="7" dI="-1" />
+          <f x="105.1" y="-73.85" cocos2d_x="301.4" cocos2d_y="-8.85" kX="-123.44" kY="-177.65" cX="3.47" cY="2.19" pX="79.95" pY="44.5" z="0" dI="2" twE="0" dr="2" />
+          <f x="186.55" y="-73.7" cocos2d_x="327.5" cocos2d_y="-22.35" kX="-123.44" kY="-177.65" cX="2.58" cY="1.75" pX="79.95" pY="44.5" z="0" dI="2" twE="0" dr="1" />
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="18" dI="-1" />
+          <f x="232.5" y="-72.75" cocos2d_x="301.75" cocos2d_y="-53.95" kX="-97.3" kY="-179.65" cX="2.58" cY="3.1" pX="80.05" pY="44.55" z="1" dI="0" twE="0" dr="2" />
+          <f x="281.25" y="-74.5" cocos2d_x="350.45" cocos2d_y="-63.4" kX="-94.11" kY="-179.65" cX="2.58" cY="3.08" pX="80.05" pY="44.6" z="1" dI="0" twE="0" dr="1" />
+          <f dr="7" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="丁典普工" width="256" height="128">
+    <SubTexture name="5345-456456" width="133" height="67" x="0" y="59" cocos2d_pX="-11.00" cocos2d_pY="-9.00" />
+    <SubTexture name="5345-5656" width="72" height="72" x="169" y="0" cocos2d_pX="-2.00" cocos2d_pY="-2.00" />
+    <SubTexture name="5345-4545" width="168" height="58" x="0" y="0" cocos2d_pX="-2.00" cocos2d_pY="-7.00" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,32 @@
+<skeleton name="胡斐普攻" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 1" x="-152.5" y="-128.5" kX="-21.71" kY="-21.71" cX="2" cY="2" pX="-76.75" pY="27.3" z="0">
+        <d name="hfattack-124124" />
+        <d name="hfattack-te45773473" />
+        <d name="hfattack-gui568" />
+        <d name="hfattack-yhjkd5re468" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="attack" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="8" dI="-1" />
+          <f x="-152.5" y="-128.5" cocos2d_x="-30.1" cocos2d_y="-236" kX="-21.71" kY="-21.71" cX="2" cY="2" pX="-76.75" pY="27.3" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-51.6" y="-26.3" cocos2d_x="206.5" cocos2d_y="-58" kX="42.75" kY="42.75" cX="2" cY="2" pX="-84" pY="99.25" z="0" dI="1" dr="3" />
+          <f x="164.85" y="-70" cocos2d_x="164.95" cocos2d_y="-70" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="137.4" y="-8.55" cocos2d_x="137.5" cocos2d_y="-8.55" kX="0" kY="0" cX="2" cY="2" pX="-0.05" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f dr="4" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="胡斐普攻" width="512" height="512">
+    <SubTexture name="hfattack-yhjkd5re468" width="256" height="118" x="227" y="182" cocos2d_pX="128.60" cocos2d_pY="59.20" />
+    <SubTexture name="hfattack-gui568" width="272" height="181" x="227" y="0" cocos2d_pX="135.85" cocos2d_pY="90.55" />
+    <SubTexture name="hfattack-te45773473" width="226" height="279" x="0" y="0" cocos2d_pX="116.80" cocos2d_pY="140.60" />
+    <SubTexture name="hfattack-124124" width="220" height="119" x="0" y="280" cocos2d_pX="108.85" cocos2d_pY="59.25" />
+  </TextureAtlas>
+</skeleton>

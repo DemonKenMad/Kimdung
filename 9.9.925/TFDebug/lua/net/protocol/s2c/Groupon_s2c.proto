@@ -1,0 +1,46 @@
+package com.playmore.game.mhqx.cmd.protobuf;
+
+option java_outer_classname = "S2CGrouponMsg";
+import "s2c/Reward_s2c.proto";
+
+//code = 0x5c01
+//限时团购信息
+message GrouponInfoReponse{
+	repeated GrouponConfig config = 1;	//团购商品数据
+	repeated GrouponInfo grouponInfo = 2;//团购数据
+}
+
+// code = 0x5c02
+// 限时团购购买/结算
+message GrouponBuyReponse{
+	repeated GrouponInfo grouponInfo = 1;			//商品id
+}
+
+//团购信息
+message GrouponInfo{
+	required int32 id = 1;					//商品信息id
+	required bool isSettle = 2;				//是否结算
+	required bool isEnd = 3;				//是否轮次已完
+	optional int32 totalCount = 4;			//当前数量
+	optional GrouponPlayerData myInfo = 5;	//是否轮次已完
+	repeated GrouponPlayerData playerInfo = 6;//参团玩家信息
+}
+
+message GrouponPlayerData{
+	required int32 playerId = 1;			//玩家名字
+	required string name = 2;			//玩家名字
+	required string guildName = 3;		//公会名字
+	required int32 num = 4;				//玩家购买数量
+}
+
+message GrouponConfig{
+	required int32 id = 1;				//商品信息id
+	required string goods = 2;			//商品数据(type,id,num)
+	required int32 price = 3;			//原价格
+	required string grouponPrice = 4;	//商品团购价格(num_pice;num_pice;num_pice)
+	required int32 discount = 5;		//商品折扣
+	required int32 count = 6;			//结算数量
+	required int32 customerLimit = 7;	//个人限购数量
+	required int32 beginTime = 8;		//上架时间
+	required int32 endTime = 9;			//下架时间
+}

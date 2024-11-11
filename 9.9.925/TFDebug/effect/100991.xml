@@ -1,0 +1,113 @@
+<skeleton name="程灵素普攻FX_陈文明" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 3" x="17" y="-56.15" kX="-18.95" kY="-15.94" cX="4.02" cY="1.04" pX="0.05" pY="0.2" z="0">
+        <d name="xxx-pugong" />
+        <d name="xxx-pugong2" />
+        <d name="xxx-VREBRT" />
+      </b>
+      <b name="图层 4" x="160.3" y="-98.1" kX="-16.17" kY="-15.94" cX="0.89" cY="0.71" pX="0.45" pY="-0.3" z="1">
+        <d name="xxx-pugong3" />
+        <d name="xxx-pugong4" />
+      </b>
+      <b name="图层 2" x="118.8" y="-110.4" kX="171.8" kY="-22.21" cX="1.59" cY="1.75" pX="-28.55" pY="-3.6" z="2">
+        <d name="xxx-kongquan" />
+      </b>
+      <b name="图层 9" x="190.55" y="-101.8" kX="2.7" kY="2.7" cX="0.57" cY="0.57" pX="75.05" pY="75.1" z="3">
+        <d name="xxx-元件 2" />
+        <d name="xxx-ere" />
+        <d name="xxx-元件 3" />
+      </b>
+      <b name="图层 17" x="-7.1" y="-30.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4">
+        <d name="xxx-vrenbyr" />
+        <d name="xxx-v frefnbrs" />
+        <d name="xxx-bftrnjrt" />
+        <d name="xxx-v rewnb y" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="ptgj" dr="23" to="0" drTW="23" lp="0" twE="NaN">
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="17" y="-56.15" cocos2d_x="16.75" cocos2d_y="-56.3" kX="-18.95" kY="-15.94" cX="4.02" cY="1.04" pX="0.05" pY="0.2" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="105.9" y="-87.8" cocos2d_x="105.25" cocos2d_y="-87.9" kX="-16.17" kY="-15.94" cX="1.96" cY="0.71" pX="0.3" pY="0.4" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="106.75" y="-81.1" cocos2d_x="106.75" cocos2d_y="-81.1" kX="-16.17" kY="-15.94" cX="0.87" cY="0.69" pX="0" pY="0" z="0" dI="2" twE="0" dr="5">
+            <fl name="adjustColorFilter" enabled="true" brightness="21" contrast="27" saturation="19" hue="-151" />
+          </f>
+          <f x="94.65" y="-73.65" cocos2d_x="94.65" cocos2d_y="-73.65" kX="-18.84" kY="-18.6" cX="0.96" cY="0.77" pX="0" pY="0" z="0" dI="2" twE="0" dr="1">
+            <fl name="adjustColorFilter" enabled="true" brightness="21" contrast="27" saturation="19" hue="-151" />
+          </f>
+          <f dr="8" dI="-1" />
+        </b>
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="160.3" y="-98.1" cocos2d_x="159.95" cocos2d_y="-97.8" kX="-16.17" kY="-15.94" cX="0.89" cY="0.71" pX="0.45" pY="-0.3" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="3" g="3" b="3" aM="1" rM="0.99" gM="0.99" bM="0.99" />
+          </f>
+          <f x="151.25" y="-97.6" cocos2d_x="150.85" cocos2d_y="-97.6" kX="-16.17" kY="-15.94" cX="0.81" cY="0.65" pX="0.45" pY="0.15" z="1" dI="1" twE="0" dr="5" />
+          <f x="143.4" y="-93.85" cocos2d_x="143" cocos2d_y="-93.85" kX="-18.87" kY="-18.64" cX="0.81" cY="0.65" pX="0.45" pY="0.2" z="1" dI="1" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="9" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="12" dI="-1" />
+          <f x="118.8" y="-110.4" cocos2d_x="160.05" cocos2d_y="-133.75" kX="171.8" kY="-22.21" cX="1.59" cY="1.75" pX="-28.55" pY="-3.6" z="2" dI="0" dr="2" />
+          <f x="118.8" y="-110.4" cocos2d_x="160.05" cocos2d_y="-133.75" kX="171.8" kY="-22.21" cX="1.59" cY="1.75" pX="-28.55" pY="-3.6" z="2" dI="0" twE="0" dr="7" />
+          <f x="118.8" y="-110.4" cocos2d_x="160.05" cocos2d_y="-133.75" kX="171.8" kY="-22.21" cX="1.59" cY="1.75" pX="-28.55" pY="-3.6" z="2" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 9" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="190.55" y="-101.8" cocos2d_x="149.65" cocos2d_y="-146.75" kX="2.7" kY="2.7" cX="0.57" cY="0.57" pX="75.05" pY="75.1" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="187.15" y="-115.05" cocos2d_x="187.15" cocos2d_y="-115.05" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="1" twE="0" dr="2">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="0" blurY="0" distance="5" color="#3399ff" quality="medium" strength="0" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="187.15" y="-115.05" cocos2d_x="187.15" cocos2d_y="-115.05" kX="0" kY="0" cX="1.27" cY="1.27" pX="0" pY="0" z="3" dI="1" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="glowFilter" enabled="true" angle="45" blurX="0" blurY="0" distance="5" color="#3399ff" quality="medium" strength="0" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f dr="1" dI="-1" />
+          <f x="187.6" y="-151.05" cocos2d_x="117.45" cocos2d_y="-221.15" kX="0" kY="0" cX="0.94" cY="0.94" pX="75" pY="74.95" z="3" dI="0" dr="1" twE="NaN" />
+          <f x="180.65" y="-151.55" cocos2d_x="74.7" cocos2d_y="-257.5" kX="0" kY="0" cX="1.41" cY="1.41" pX="75" pY="75" z="3" dI="2" twE="0" dr="7" />
+          <f x="180.6" y="-151.55" cocos2d_x="52.45" cocos2d_y="-279.7" kX="0" kY="0" cX="1.71" cY="1.71" pX="75" pY="74.95" z="3" dI="2" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 17" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-7.1" y="-30.35" cocos2d_x="-7.1" cocos2d_y="-30.35" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="0" dr="1" twE="NaN" />
+          <f x="-32.8" y="-30.3" cocos2d_x="-32.8" cocos2d_y="-30.3" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="1" dr="1" twE="NaN" />
+          <f x="-49.65" y="-31.8" cocos2d_x="-49.65" cocos2d_y="-31.8" kX="0" kY="0" cX="2" cY="2" pX="0" pY="0" z="4" dI="2" dr="2" />
+          <f dr="1" dI="-1" />
+          <f x="83.65" y="-3" cocos2d_x="18.95" cocos2d_y="-15.8" kX="0" kY="0" cX="2" cY="2" pX="32.35" pY="6.4" z="4" dI="3" twE="0" dr="2" />
+          <f x="40.45" y="-3" cocos2d_x="-54.8" cocos2d_y="-21.2" kX="0" kY="0" cX="2.94" cY="2.84" pX="32.35" pY="6.4" z="4" dI="3" twE="0" dr="7" />
+          <f x="32.65" y="-3.05" cocos2d_x="-61.5" cocos2d_y="-20.9" kX="0" kY="0" cX="2.91" cY="2.79" pX="32.35" pY="6.4" z="4" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="程灵素普攻FX_陈文明" width="512" height="512">
+    <SubTexture name="xxx-v rewnb y" width="65" height="23" x="71" y="322" cocos2d_pX="32.00" cocos2d_pY="13.00" />
+    <SubTexture name="xxx-bftrnjrt" width="86" height="34" x="328" y="319" cocos2d_pX="47.00" cocos2d_pY="17.00" />
+    <SubTexture name="xxx-v frefnbrs" width="78" height="32" x="415" y="319" cocos2d_pX="37.50" cocos2d_pY="13.00" />
+    <SubTexture name="xxx-vrenbyr" width="70" height="28" x="0" y="322" cocos2d_pX="34.00" cocos2d_pY="12.00" />
+    <SubTexture name="xxx-元件 3" width="145" height="149" x="201" y="165" cocos2d_pX="-2.20" cocos2d_pY="3.70" />
+    <SubTexture name="xxx-ere" width="138" height="167" x="355" y="0" cocos2d_pX="69.15" cocos2d_pY="80.95" />
+    <SubTexture name="xxx-元件 2" width="153" height="164" x="201" y="0" cocos2d_pX="1.45" cocos2d_pY="4.65" />
+    <SubTexture name="xxx-kongquan" width="200" height="170" x="0" y="0" cocos2d_pX="114.50" cocos2d_pY="89.50" />
+    <SubTexture name="xxx-pugong4" width="130" height="150" x="0" y="171" cocos2d_pX="64.50" cocos2d_pY="75.00" />
+    <SubTexture name="xxx-pugong3" width="142" height="150" x="347" y="168" cocos2d_pX="70.50" cocos2d_pY="75.50" />
+    <SubTexture name="xxx-VREBRT" width="49" height="146" x="131" y="171" cocos2d_pX="24.50" cocos2d_pY="73.00" />
+    <SubTexture name="xxx-pugong2" width="72" height="114" x="181" y="315" cocos2d_pX="36.50" cocos2d_pY="55.45" />
+    <SubTexture name="xxx-pugong" width="73" height="76" x="254" y="315" cocos2d_pX="30.85" cocos2d_pY="42.10" />
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,38 @@
+<skeleton name="何铁手普通攻击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="-12.7" y="-81.8" kX="-42" kY="3" cX="1.29" cY="1.49" pX="0" pY="0" z="0">
+        <d name="zxz-j" />
+      </b>
+      <b name="图层 8 复制" x="-56.6" y="-81.7" kX="10" kY="10" cX="6.61" cY="2.89" pX="0" pY="0" z="1">
+        <d name="zxz-drg" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsads" dr="8" to="0" drTW="8" lp="0" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f x="-12.7" y="-81.8" cocos2d_x="-12.7" cocos2d_y="-81.8" kX="-42" kY="3" cX="1.29" cY="1.49" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="41.85" y="-60.55" cocos2d_x="41.85" cocos2d_y="-60.55" kX="91" kY="-121" cX="0.36" cY="2.63" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="81.85" y="-65.7" cocos2d_x="81.85" cocos2d_y="-65.7" kX="66.45" kY="-168" cX="1.27" cY="1.63" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="78.2" y="-124.45" cocos2d_x="148.2" cocos2d_y="-89.45" kX="135.08" kY="178.08" cX="0.83" cY="1.05" pX="41" pY="48.6" z="0" dI="0" blend="normal" dr="2" />
+          <f x="154.2" y="-112.15" cocos2d_x="137.2" cocos2d_y="-96.7" kX="93" kY="44" cX="0.33" cY="1.44" pX="-75.4" pY="-24.25" z="0" dI="0" blend="normal" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 8 复制" sc="1" dl="0">
+          <f x="-56.6" y="-81.7" cocos2d_x="-56.6" cocos2d_y="-81.7" kX="10" kY="10" cX="6.61" cY="2.89" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="37.9" y="-45.7" cocos2d_x="37.9" cocos2d_y="-45.7" kX="10" kY="10" cX="6.22" cY="1.93" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="131.3" y="-57.7" cocos2d_x="131.3" cocos2d_y="-57.7" kX="-5" kY="-5" cX="6.22" cY="1.93" pX="0" pY="0" z="1" dI="0" blend="add" dr="1" twE="NaN" />
+          <f x="176.1" y="-89.25" cocos2d_x="176.1" cocos2d_y="-89.25" kX="12" kY="12" cX="5.57" cY="1.86" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f x="130.1" y="-99.5" cocos2d_x="130.1" cocos2d_y="-99.5" kX="1" kY="1" cX="3.95" cY="1.32" pX="0" pY="0" z="1" dI="0" blend="add" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="何铁手普通攻击特效" width="256" height="128">
+    <SubTexture name="zxz-drg" width="62" height="63" x="173" y="0" cocos2d_pX="30.00" cocos2d_pY="31.00" />
+    <SubTexture name="zxz-j" width="172" height="112" x="0" y="0" cocos2d_pX="110.45" cocos2d_pY="67.50" />
+  </TextureAtlas>
+</skeleton>

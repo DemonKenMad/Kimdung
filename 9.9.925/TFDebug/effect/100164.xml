@@ -1,0 +1,67 @@
+<skeleton name="云中鹤  技能受击FX" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="bao_e" x="4.75" y="-120.85" kX="119.75" kY="119.75" cX="1.09" cY="1.09" pX="-1.2" pY="1.35" z="0">
+        <d name="Yun Zhong He/bao_e" isArmature="1" />
+      </b>
+      <b name="bao_e0" x="4.8" y="-120.85" kX="57.75" kY="57.75" cX="0.58" cY="0.98" pX="-1.2" pY="1.35" z="1">
+        <d name="Yun Zhong He/bao_e" isArmature="1" />
+      </b>
+      <b name="bao_e1" x="4.8" y="-120.85" kX="-30.25" kY="-30.25" cX="0.89" cY="0.42" pX="-0.85" pY="1.45" z="2">
+        <d name="Yun Zhong He/bao_e" isArmature="1" />
+      </b>
+      <b name="bao_e2" x="4.8" y="-120.85" kX="-164.25" kY="15.75" cX="0.89" cY="0.59" pX="-0.75" pY="1.6" z="3">
+        <d name="Yun Zhong He/bao_e" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="Yun Zhong He/bao_e" isLoop="loop" startFrame="1">
+      <b name="图层 2" x="7" y="-116.45" kX="0" kY="0" cX="2" cY="2" pX="37.5" pY="60.25" z="0">
+        <d name="Yun Zhong He-sagdasfh" />
+        <d name="Yun Zhong He-azdsbh" />
+        <d name="Yun Zhong He-Asznjh" />
+        <d name="Yun Zhong He-sdfhk" />
+        <d name="Yun Zhong He-shfj" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="Yun Zhong He/bao_e">
+      <mov name="1" dr="5" to="0" drTW="5" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="7" y="-116.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="2" cY="2" pX="37.5" pY="60.25" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="7" y="-116.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="2" cY="2" pX="37.5" pY="60.25" z="0" dI="1" blend="normal" dr="1" twE="NaN" />
+          <f x="7" y="-116.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="2" cY="2" pX="37.5" pY="60.25" z="0" dI="2" blend="normal" dr="1" twE="NaN" />
+          <f x="7" y="-116.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="2" cY="2" pX="37.5" pY="60.25" z="0" dI="3" blend="normal" dr="1" twE="NaN" />
+          <f x="7" y="-116.45" cocos2d_x="-68" cocos2d_y="-236.95" kX="0" kY="0" cX="2" cY="2" pX="37.5" pY="60.25" z="0" dI="4" blend="normal" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="bao_e" sc="1" dl="0">
+          <f x="4.75" y="-120.85" cocos2d_x="5.35" cocos2d_y="-119" kX="119.75" kY="119.75" cX="1.09" cY="1.09" fst="0" pX="-1.2" pY="1.35" z="0" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="bao_e0" sc="1" dl="0">
+          <f x="4.8" y="-120.85" cocos2d_x="6.3" cocos2d_y="-121" kX="57.75" kY="57.75" cX="0.58" cY="0.98" fst="0" pX="-1.2" pY="1.35" z="1" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="bao_e1" sc="1" dl="0">
+          <f x="4.8" y="-120.85" cocos2d_x="5.15" cocos2d_y="-121.75" kX="-30.25" kY="-30.25" cX="0.89" cY="0.42" fst="0" pX="-0.85" pY="1.45" z="2" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="bao_e2" sc="1" dl="0">
+          <f x="4.8" y="-120.85" cocos2d_x="5.2" cocos2d_y="-119.75" kX="-164.25" kY="15.75" cX="0.89" cY="0.59" fst="0" pX="-0.75" pY="1.6" z="3" dI="0" dr="5" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="云中鹤  技能受击FX" width="256" height="256">
+    <SubTexture name="Yun Zhong He-shfj" width="75" height="121" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="Yun Zhong He-sdfhk" width="75" height="80" x="149" y="99" cocos2d_pX="0.00" cocos2d_pY="-1.00" />
+    <SubTexture name="Yun Zhong He-Asznjh" width="72" height="84" x="76" y="99" cocos2d_pX="0.00" cocos2d_pY="-9.00" />
+    <SubTexture name="Yun Zhong He-azdsbh" width="71" height="90" x="76" y="0" cocos2d_pX="0.00" cocos2d_pY="-14.00" />
+    <SubTexture name="Yun Zhong He-sagdasfh" width="60" height="98" x="148" y="0" cocos2d_pX="-5.00" cocos2d_pY="-22.00" />
+  </TextureAtlas>
+</skeleton>

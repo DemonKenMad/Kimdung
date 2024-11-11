@@ -1,0 +1,82 @@
+<skeleton name="撞击特效" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-0.95" y="-10.95" kX="0" kY="0" cX="0.54" cY="0.54" pX="0" pY="0" z="0">
+        <d name="xxx/zhangweirinhart19" isArmature="1" />
+      </b>
+      <b name="图层 5" x="12.3" y="22" kX="0" kY="0" cX="0.82" cY="0.82" pX="0" pY="0" z="1">
+        <d name="xxx/zhangweirinhart16" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart19" isLoop="loop" startFrame="1">
+      <b name="图层 5" x="-13.8" y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0">
+        <d name="xxx-zhangweirinhart07" />
+        <d name="xxx-zhangweirinhart06" />
+        <d name="xxx-zhangweirinhart05" />
+        <d name="xxx-zhangweirinhart04" />
+        <d name="xxx-zhangweirinhart03" />
+        <d name="xxx-zhangweirinhart02" />
+      </b>
+    </armature>
+    <armature name="xxx/zhangweirinhart16" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-21.45" y="-23" kX="0" kY="0" cX="1" cY="1" pX="84.5" pY="94" z="0">
+        <d name="xxx-zhangweifiltacerB22" />
+        <d name="xxx-zhangweirinhart15" />
+        <d name="xxx-zhangweifiltacerB24" />
+        <d name="xxx-zhangweirinhart17" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/zhangweirinhart19">
+      <mov name="asdfsagsag" dr="6" to="0" drTW="6" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="-13.8" y="3.75" cocos2d_x="-13.8" cocos2d_y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="-13.8" y="3.75" cocos2d_x="-13.8" cocos2d_y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0" dI="1" dr="1" twE="NaN" />
+          <f x="-13.8" y="3.75" cocos2d_x="-13.8" cocos2d_y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="-13.8" y="3.75" cocos2d_x="-13.8" cocos2d_y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="-13.8" y="3.75" cocos2d_x="-13.8" cocos2d_y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="-13.8" y="3.75" cocos2d_x="-13.8" cocos2d_y="3.75" kX="0" kY="0" cX="3.99" cY="3.99" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xxx/zhangweirinhart16">
+      <mov name="fsdagasga" dr="10" to="0" drTW="10" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-21.45" y="-23" cocos2d_x="-105.95" cocos2d_y="-117" kX="0" kY="0" cX="1" cY="1" pX="84.5" pY="94" z="0" dI="0" dr="1" twE="NaN" />
+          <f x="7.75" y="-9.75" cocos2d_x="7.75" cocos2d_y="-9.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="1" dr="2" />
+          <f x="13.55" y="-21.25" cocos2d_x="-82.95" cocos2d_y="-130.75" kX="0" kY="0" cX="1" cY="1" pX="96.5" pY="109.5" z="0" dI="2" dr="2" />
+          <f x="30.8" y="-23" cocos2d_x="30.8" cocos2d_y="-23" kX="90" kY="90" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="3" twE="0.66" dr="4" />
+          <f x="30.8" y="-23" cocos2d_x="30.8" cocos2d_y="-23" kX="90" kY="90" cX="1.28" cY="1.28" fst="0" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="fadsgasgah" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-0.95" y="-10.95" cocos2d_x="-0.95" cocos2d_y="-10.95" kX="0" kY="0" cX="0.54" cY="0.54" fst="0" pX="0" pY="0" z="0" dI="0" dr="6" />
+          <f dr="5" dI="-1" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f dr="1" dI="-1" />
+          <f x="12.3" y="22" cocos2d_x="12.3" cocos2d_y="22" kX="0" kY="0" cX="0.82" cY="0.82" fst="0" pX="0" pY="0" z="1" dI="0" dr="9" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="撞击特效" width="512" height="512">
+    <SubTexture name="xxx-zhangweirinhart17" width="268" height="176" x="0" y="0" cocos2d_pX="134.00" cocos2d_pY="92.00" />
+    <SubTexture name="xxx-zhangweifiltacerB24" width="171" height="216" x="269" y="0" cocos2d_pX="-16.00" cocos2d_pY="0.00" />
+    <SubTexture name="xxx-zhangweirinhart15" width="170" height="178" x="0" y="177" cocos2d_pX="91.90" cocos2d_pY="102.85" />
+    <SubTexture name="xxx-zhangweifiltacerB22" width="166" height="178" x="265" y="217" cocos2d_pX="0.00" cocos2d_pY="-2.00" />
+    <SubTexture name="xxx-zhangweirinhart02" width="93" height="98" x="171" y="177" cocos2d_pX="47.25" cocos2d_pY="51.35" />
+    <SubTexture name="xxx-zhangweirinhart03" width="99" height="106" x="100" y="370" cocos2d_pX="49.25" cocos2d_pY="54.35" />
+    <SubTexture name="xxx-zhangweirinhart04" width="99" height="105" x="299" y="396" cocos2d_pX="49.25" cocos2d_pY="53.35" />
+    <SubTexture name="xxx-zhangweirinhart05" width="99" height="107" x="0" y="356" cocos2d_pX="49.25" cocos2d_pY="54.35" />
+    <SubTexture name="xxx-zhangweirinhart06" width="98" height="107" x="200" y="396" cocos2d_pX="48.25" cocos2d_pY="53.35" />
+    <SubTexture name="xxx-zhangweirinhart07" width="85" height="93" x="171" y="276" cocos2d_pX="40.25" cocos2d_pY="45.35" />
+  </TextureAtlas>
+</skeleton>

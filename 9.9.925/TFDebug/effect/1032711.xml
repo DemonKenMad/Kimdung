@@ -1,0 +1,88 @@
+<skeleton name="黄裳输出 杀意技主动部分底板" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="hjfghfgjhgfjgj" x="26.8" y="-156.9" kX="0" kY="0" cX="100" cY="100" pX="0" pY="-0.05" z="0">
+        <d name="xxx-ssffiilB04/ssffiilB14"/>
+      </b>
+      <b name="jtgjfgjfghg" x="1404.55" y="-182" kX="0" kY="0" cX="3.89" cY="1" pX="0" pY="0" z="1">
+        <d name="xxx/ssffiilB102" isArmature="1"/>
+      </b>
+      <b name="hrthrtheyer" x="-2857.35" y="-182" kX="0" kY="180" cX="6.16" cY="1" pX="0" pY="0" z="2">
+        <d name="xxx/ssffiilB102" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/ssffiilB102" isLoop="loop" startFrame="1">
+      <b name="fasdfadsfaf" x="-473.5" y="14" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0">
+        <d name="xxx-ssffiilB89"/>
+        <d name="xxx-ssffiilB90"/>
+        <d name="xxx-ssffiilB91"/>
+        <d name="xxx-ssffiilB92"/>
+        <d name="xxx-ssffiilB94"/>
+        <d name="xxx-ssffiilB95"/>
+        <d name="xxx-ssffiilB96"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/ssffiilB102">
+      <mov name="sdfsafdafas" dr="14" to="0" drTW="14" lp="1" twE="NaN">
+        <b name="fasdfadsfaf" sc="1" dl="0">
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="0" dr="2"/>
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="1" dr="2"/>
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="2" dr="2"/>
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="3" dr="2"/>
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="4" dr="2"/>
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="5" dr="2"/>
+          <f x="-473.5" y="14" cocos2d_x="-473.5" cocos2d_y="14" kX="0" kY="0" cX="4" cY="4" fst="0" pX="0" pY="0" z="0" dI="6" dr="2"/>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="hgfhfdhgfghfdhd" dr="71" to="0" drTW="71" lp="0" twE="NaN">
+        <b name="hjfghfgjhgfjgj" sc="1" dl="0">
+          <f dr="3" dI="-1"/>
+          <f x="26.8" y="-156.9" cocos2d_x="26.8" cocos2d_y="-151.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="0" gM="0" bM="0"/>
+          </f>
+          <f x="26.8" y="-156.9" cocos2d_x="26.8" cocos2d_y="-151.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.6" rM="0" gM="0" bM="0"/>
+          </f>
+          <f x="26.8" y="-156.9" cocos2d_x="26.8" cocos2d_y="-151.9" kX="0" kY="0" cX="100" cY="100" fst="0" pX="0" pY="-0.05" z="0" dI="0" dr="24">
+            <colorTransform a="0" r="0" g="0" b="0" aM="1" rM="0" gM="0" bM="0"/>
+          </f>
+          <f dr="39" dI="-1"/>
+        </b>
+        <b name="jtgjfgjfghg" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="1404.55" y="-182" cocos2d_x="1404.55" cocos2d_y="-182" kX="0" kY="0" cX="3.89" cY="1" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="1404.55" y="-182" cocos2d_x="1404.55" cocos2d_y="-182" kX="0" kY="0" cX="3.89" cY="1" fst="5" pX="0" pY="0" z="1" dI="0" dr="23">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.63" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="39" dI="-1"/>
+        </b>
+        <b name="hrthrtheyer" sc="1" dl="0">
+          <f dr="4" dI="-1"/>
+          <f x="-2857.35" y="-182" cocos2d_x="-2857.35" cocos2d_y="-182" kX="0" kY="180" cX="6.16" cY="1" fst="0" pX="0" pY="0" z="2" dI="0" twE="0" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="-2857.35" y="-182" cocos2d_x="-2857.35" cocos2d_y="-182" kX="0" kY="180" cX="6.16" cY="1" fst="5" pX="0" pY="0" z="2" dI="0" dr="23">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.33" rM="1" gM="1" bM="1"/>
+          </f>
+          <f dr="39" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="黄裳输出 杀意技主动部分底板" width="512" height="256">
+    <SubTexture name="xxx-ssffiilB96" width="55" height="185" x="57" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB95" width="55" height="185" x="285" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB94" width="55" height="185" x="171" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB92" width="55" height="185" x="342" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB91" width="55" height="185" x="0" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB90" width="55" height="185" x="114" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB89" width="55" height="185" x="228" y="0" cocos2d_pX="27.2" cocos2d_pY="92.25"/>
+    <SubTexture name="xxx-ssffiilB04/ssffiilB14" width="16" height="11" x="399" y="0" cocos2d_pX="8" cocos2d_pY="5.2"/>
+  </TextureAtlas>
+</skeleton>

@@ -1,0 +1,67 @@
+<skeleton name="正在挑战" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="元件 4" x="0.15" y="0" kX="0" kY="0" cX="1" cY="1" pX="87.5" pY="1" z="0">
+        <d name="xxx-shanke.cn_1_3_41782"/>
+      </b>
+      <b name="元件 2" x="-61.35" y="0" kX="0" kY="0" cX="1" cY="1" pX="27.5" pY="6" z="1">
+        <d name="xxx/shanke.cn_1_2_31617" isArmature="1"/>
+      </b>
+    </armature>
+    <armature name="xxx/shanke.cn_1_2_31617" isLoop="loop" startFrame="1">
+      <b name="元件 3" x="27.5" y="6" kX="0" kY="0" cX="1" cY="1" pX="27.5" pY="1" z="0">
+        <d name="xxx-shanke.cn_1_4_7774"/>
+      </b>
+      <b name="元件 2" x="27.5" y="6" kX="0" kY="0" cX="1" cY="1" pX="14" pY="6" z="1">
+        <d name="xxx-shanke.cn_1_5_94165"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xxx/shanke.cn_1_2_31617">
+      <mov name="sfefsfd" dr="40" to="0" drTW="40" lp="1" twE="NaN">
+        <b name="元件 3" sc="1" dl="0">
+          <f x="27.5" y="6" cocos2d_x="0" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="27.5" pY="1" z="0" dI="0" twE="0" dr="16">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="27.5" y="6" cocos2d_x="0" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="27.5" pY="1" z="0" dI="0" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.82" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="27.5" y="6" cocos2d_x="0" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="27.5" pY="1" z="0" dI="0" twE="0" dr="16"/>
+          <f x="27.5" y="6" cocos2d_x="0" cocos2d_y="5" kX="0" kY="0" cX="1" cY="1" fst="0" pX="27.5" pY="1" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+        <b name="元件 2" sc="1" dl="0">
+          <f x="27.5" y="6" cocos2d_x="13.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="14" pY="6" z="1" dI="0" twE="0" dr="16">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="27.5" y="6" cocos2d_x="13.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="14" pY="6" z="1" dI="0" twE="0" dr="7">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.82" rM="1" gM="1" bM="1"/>
+          </f>
+          <f x="27.5" y="6" cocos2d_x="13.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="14" pY="6" z="1" dI="0" twE="0" dr="16"/>
+          <f x="27.5" y="6" cocos2d_x="13.5" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" fst="0" pX="14" pY="6" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1"/>
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="ssssss" dr="40" to="0" drTW="40" lp="1" twE="NaN">
+        <b name="元件 4" sc="1" dl="0">
+          <f x="0.15" y="0" cocos2d_x="-87.35" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="87.5" pY="1" z="0" dI="0" dr="39"/>
+          <f x="0.15" y="0" cocos2d_x="-87.35" cocos2d_y="-1" kX="0" kY="0" cX="1" cY="1" fst="0" pX="87.5" pY="1" z="0" dI="0" dr="1" twE="NaN"/>
+        </b>
+        <b name="元件 2" sc="1" dl="0">
+          <f x="-61.35" y="0" cocos2d_x="-88.85" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" fst="0" pX="27.5" pY="6" z="1" dI="0" twE="0" dr="39"/>
+          <f x="75.6" y="0" cocos2d_x="48.1" cocos2d_y="-6" kX="0" kY="0" cX="1" cY="1" fst="39" pX="27.5" pY="6" z="1" dI="0" dr="1" twE="NaN"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="正在挑战" width="256" height="32">
+    <SubTexture name="xxx-shanke.cn_1_5_94165" width="28" height="12" x="0" y="4" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-shanke.cn_1_4_7774" width="55" height="2" x="177" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+    <SubTexture name="xxx-shanke.cn_1_3_41782" width="175" height="2" x="0" y="0" cocos2d_pX="0" cocos2d_pY="0"/>
+  </TextureAtlas>
+</skeleton>

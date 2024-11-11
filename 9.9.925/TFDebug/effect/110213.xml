@@ -1,0 +1,117 @@
+<skeleton name="2" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 4" x="192.75" y="-56" kX="0" kY="0" cX="1.11" cY="1.86" pX="-64.6" pY="-8.8" z="0">
+        <d name="xzx/animdd" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/animdd" isLoop="loop" startFrame="1">
+      <b name="图层 15   复制 3" x="-55.85" y="-12.2" kX="0" kY="0" cX="1" cY="1" pX="-535.85" pY="138.15" z="0">
+        <d name="xzx/fxzh" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/fxzh" isLoop="loop" startFrame="1">
+      <b name="图层 1 复制" x="-630.15" y="145.2" kX="0" kY="0" cX="0.3" cY="0.16" pX="-265.2" pY="0.6" z="0">
+        <d name="xzx/feixing" isArmature="1" />
+      </b>
+      <b name="图层 1" x="-631" y="136.2" kX="0" kY="0" cX="0.43" cY="0.15" pX="-265" pY="0.35" z="1">
+        <d name="xzx/feixing" isArmature="1" />
+      </b>
+      <b name="图层 1  复制 2" x="-643.65" y="136.95" kX="0" kY="0" cX="0.56" cY="0.13" pX="-265.1" pY="0.4" z="2">
+        <d name="xzx/feixing" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/feixing">
+      <b name="图层 5" x="-199.1" y="-1.6" kX="0" kY="0" cX="1.07" cY="1" pX="0" pY="0" z="0">
+        <d name="xzx/9" isArmature="1" />
+      </b>
+      <b name="图层 3" x="-454" y="-93.05" kX="0" kY="0" cX="1.01" cY="0.95" pX="0" pY="0" z="1">
+        <d name="xzx/9" isArmature="1" />
+      </b>
+      <b name="图层 6" x="-385.8" y="132.2" kX="0" kY="0" cX="0.82" cY="0.77" pX="0" pY="0" z="2">
+        <d name="xzx/9" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="xzx/9" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="322.1" y="-0.35" kX="0" kY="0" cX="1" cY="1" pX="164.6" pY="-0.05" z="0">
+        <d name="xzx- 2" />
+      </b>
+      <b name="图层 2" x="266.25" y="1.5" kX="0" kY="0" cX="3.03" cY="5.77" pX="0" pY="0" z="1">
+        <d name="xzx- 1" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="xzx/9">
+      <mov name="231" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="322.1" y="-0.35" cocos2d_x="157.5" cocos2d_y="-0.3" kX="0" kY="0" cX="1" cY="1" pX="164.6" pY="-0.05" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="322" y="-0.35" cocos2d_x="54.4" cocos2d_y="-0.3" kX="0" kY="0" cX="1.63" cY="1" pX="164.55" pY="-0.05" z="0" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="322" y="-0.35" cocos2d_x="109.95" cocos2d_y="-0.3" kX="0" kY="0" cX="1.29" cY="1" pX="164.55" pY="-0.05" z="0" dI="0" blend="normal" dr="7" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="266.25" y="1.5" cocos2d_x="266.25" cocos2d_y="1.5" kX="0" kY="0" cX="3.03" cY="5.77" pX="0" pY="0" z="1" dI="0" blend="normal" dr="12">
+            <fl name="glowFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ff00ff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/feixing">
+      <mov name="fea" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 5" sc="1" dl="0">
+          <f x="-199.1" y="-1.6" cocos2d_x="-199.1" cocos2d_y="-1.6" kX="0" kY="0" cX="1.07" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="13" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f dr="4" dI="-1" />
+          <f x="-454" y="-93.05" cocos2d_x="-454" cocos2d_y="-93.05" kX="0" kY="0" cX="1.01" cY="0.95" fst="0" pX="0" pY="0" z="1" dI="0" dr="9" />
+        </b>
+        <b name="图层 6" sc="1" dl="0">
+          <f dr="7" dI="-1" />
+          <f x="-385.8" y="132.2" cocos2d_x="-385.8" cocos2d_y="132.2" kX="0" kY="0" cX="0.82" cY="0.77" fst="0" pX="0" pY="0" z="2" dI="0" dr="6" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/fxzh">
+      <mov name="dsd" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 1 复制" sc="1" dl="0">
+          <f x="-630.15" y="145.2" cocos2d_x="-550.6" cocos2d_y="145.1" kX="0" kY="0" cX="0.3" cY="0.16" pX="-265.2" pY="0.6" z="0" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="-243.4" y="164.55" cocos2d_x="-84.3" cocos2d_y="164.4" kX="0" kY="0" cX="0.6" cY="0.24" pX="-265.15" pY="0.6" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="111.1" y="149.15" cocos2d_x="323.05" cocos2d_y="149.05" kX="0" kY="0" cX="0.8" cY="0.3" pX="-264.9" pY="0.35" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f dr="6" dI="-1" />
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="3" dI="-1" />
+          <f x="-631" y="136.2" cocos2d_x="-517.05" cocos2d_y="136.15" kX="0" kY="0" cX="0.43" cY="0.15" pX="-265" pY="0.35" z="1" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="-307" y="138.2" cocos2d_x="-111.45" cocos2d_y="138.15" kX="0" kY="0" cX="0.74" cY="0.24" pX="-265" pY="0.2" z="1" dI="0" blend="normal" twE="0" dr="3" />
+          <f x="464.05" y="141.2" cocos2d_x="781.95" cocos2d_y="141.1" kX="0" kY="0" cX="1.2" cY="0.37" pX="-264.95" pY="0.3" z="1" dI="0" blend="normal" dr="2" />
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 1  复制 2" sc="1" dl="0">
+          <f dr="6" dI="-1" />
+          <f x="-643.65" y="136.95" cocos2d_x="-495.2" cocos2d_y="136.9" kX="0" kY="0" cX="0.56" cY="0.13" pX="-265.1" pY="0.4" z="2" dI="0" blend="normal" twE="0" dr="5" />
+          <f x="196.55" y="141.9" cocos2d_x="485.3" cocos2d_y="141.8" kX="0" kY="0" cX="1.09" cY="0.27" pX="-264.95" pY="0.4" z="2" dI="0" blend="normal" dr="1" twE="NaN" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="xzx/animdd">
+      <mov name="weq" dr="13" to="0" drTW="13" lp="0" twE="NaN">
+        <b name="图层 15   复制 3" sc="1" dl="0">
+          <f x="-55.85" y="-12.2" cocos2d_x="480" cocos2d_y="-150.35" kX="0" kY="0" cX="1" cY="1" fst="0" pX="-535.85" pY="138.15" z="0" dI="0" dr="13" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="skill" dr="30" to="0" drTW="30" lp="1" twE="NaN">
+        <b name="图层 4" sc="1" dl="0">
+          <f dr="15" dI="-1" />
+          <f x="192.75" y="-56" cocos2d_x="264.2" cocos2d_y="-39.6" kX="0" kY="0" cX="1.11" cY="1.86" fst="0" pX="-64.6" pY="-8.8" z="0" dI="0" dr="12" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="2" width="512" height="128">
+    <SubTexture name="xzx- 1" width="37" height="3" x="376" y="0" cocos2d_pX="18.25" cocos2d_pY="1.15" />
+    <SubTexture name="xzx- 2" width="375" height="91" x="0" y="0" cocos2d_pX="190.10" cocos2d_pY="46.20" />
+  </TextureAtlas>
+</skeleton>

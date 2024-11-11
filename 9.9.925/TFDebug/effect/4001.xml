@@ -1,0 +1,44 @@
+<skeleton name="普通攻击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="texiao 复制" x="76.8" y="-131.2" kX="25" kY="25" cX="1" cY="1" pX="160.95" pY="63.1" z="0">
+        <d name="file-gar-1.png" />
+        <d name="file-gsdr.png" />
+        <d name="file-aerg4.png" />
+        <d name="file-4ta" />
+      </b>
+      <b name="图层 4 复制" x="197.35" y="-132.55" kX="67.56" kY="-132.46" cX="0.93" cY="0.61" pX="111.55" pY="62.6" z="1">
+        <d name="file-dgd" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="g" dr="11" to="0" drTW="11" lp="0" twE="NaN">
+        <b name="texiao 复制" sc="1" dl="0">
+          <f x="76.8" y="-131.2" cocos2d_x="-42.4" cocos2d_y="-256.35" kX="25" kY="25" cX="1" cY="1" pX="160.95" pY="63.1" z="0" dI="0" dr="2" />
+          <f x="33.5" y="-22.7" cocos2d_x="196.8" cocos2d_y="5" kX="176" kY="176" cX="1" cY="0.62" pX="160.95" pY="62.95" z="0" dI="0" dr="2" />
+          <f x="-63.5" y="-8.6" cocos2d_x="-147" cocos2d_y="-53.1" kX="0" kY="0" cX="1" cY="1" pX="83.5" pY="44.5" z="0" dI="1" dr="2" />
+          <f x="33.4" y="-82.35" cocos2d_x="-144.5" cocos2d_y="-110.55" kX="-13" kY="-13" cX="1" cY="1" pX="167" pY="67.45" z="0" dI="2" dr="2" />
+          <f x="123.7" y="-143.25" cocos2d_x="50.1" cocos2d_y="-180.35" kX="0" kY="0" cX="1" cY="1" pX="73.6" pY="37.1" z="0" dI="3" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+        <b name="图层 4 复制" sc="1" dl="0">
+          <f x="197.35" y="-132.55" cocos2d_x="303.2" cocos2d_y="-70.4" kX="67.56" kY="-132.46" cX="0.93" cY="0.61" pX="111.55" pY="62.6" z="1" dI="0" dr="2" />
+          <f x="-71.4" y="22.1" cocos2d_x="-194.05" cocos2d_y="19.35" kX="-141.6" kY="18.37" cX="0.93" cY="0.61" pX="111.6" pY="62.55" z="1" dI="0" dr="2" />
+          <f dr="2" dI="-1" />
+          <f x="184.4" y="-67.05" cocos2d_x="287.45" cocos2d_y="-133.8" kX="110" kY="130" cX="0.93" cY="0.61" pX="111.65" pY="62.4" z="1" dI="0" dr="2" />
+          <f x="180.2" y="-161.3" cocos2d_x="240" cocos2d_y="-151.85" kX="35.82" kY="-133.9" cX="0.49" cY="0.59" pX="111.65" pY="62.5" z="1" dI="0" dr="2" />
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普通攻击" width="512" height="512">
+    <SubTexture name="file-dgd" width="223" height="125" x="0" y="272" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="file-4ta" width="162" height="105" x="323" y="150" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="file-aerg4.png" width="357" height="149" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="file-gsdr.png" width="167" height="89" x="323" y="256" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="file-gar-1.png" width="322" height="121" x="0" y="150" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+  </TextureAtlas>
+</skeleton>

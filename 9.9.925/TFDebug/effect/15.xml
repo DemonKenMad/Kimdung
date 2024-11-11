@@ -1,0 +1,67 @@
+<skeleton name="昏睡0822" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="51.35" y="-145.6" kX="35.2" kY="35.2" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="zzzzzz/zzz" isArmature="1" />
+      </b>
+      <b name="图层 3" x="51.35" y="-145.6" kX="16.76" kY="16.76" cX="1" cY="1" pX="0" pY="0" z="1">
+        <d name="zzzzzz/zzz" isArmature="1" />
+      </b>
+      <b name="图层 5" x="1.9" y="-158.5" kX="32.75" kY="35.71" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="zzzzzz/zzz" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="zzzzzz/zzz" isLoop="loop" startFrame="1">
+      <b name="图层 1" x="-1.5" y="-14.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="zzzzzz-z" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="zzzzzz/zzz">
+      <mov name="zzz" dr="27" to="0" drTW="27" lp="1" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="-1.5" y="-14.7" cocos2d_x="-1.5" cocos2d_y="-14.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-5.1" y="-20.7" cocos2d_x="-5.1" cocos2d_y="-20.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.2" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-5.1" y="-28.5" cocos2d_x="-5.1" cocos2d_y="-28.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.5" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="6.3" y="-35.1" cocos2d_x="6.3" cocos2d_y="-35.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.85" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="17.7" y="-41.1" cocos2d_x="17.7" cocos2d_y="-41.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="26.1" y="-48.9" cocos2d_x="26.1" cocos2d_y="-48.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="23.1" y="-62.1" cocos2d_x="23.1" cocos2d_y="-62.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="13.5" y="-72.3" cocos2d_x="13.5" cocos2d_y="-72.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="-1.5" y="-82.5" cocos2d_x="-1.5" cocos2d_y="-82.5" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="0" dr="2" />
+          <f x="-9.3" y="-90.9" cocos2d_x="-9.3" cocos2d_y="-90.9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN" />
+          <f x="-9.3" y="-96.3" cocos2d_x="-9.3" cocos2d_y="-96.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" twE="1" dr="6" />
+          <f x="3.9" y="-107.7" cocos2d_x="3.9" cocos2d_y="-107.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="1" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="hunshui" dr="27" to="0" drTW="27" lp="1" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="51.35" y="-145.6" cocos2d_x="51.35" cocos2d_y="-145.6" kX="35.2" kY="35.2" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="27" />
+        </b>
+        <b name="图层 3" sc="1" dl="0">
+          <f x="51.35" y="-145.6" cocos2d_x="51.35" cocos2d_y="-145.6" kX="16.76" kY="16.76" cX="1" cY="1" fst="9" pX="0" pY="0" z="1" dI="0" dr="27" />
+        </b>
+        <b name="图层 5" sc="1" dl="0">
+          <f x="1.9" y="-158.5" cocos2d_x="1.9" cocos2d_y="-158.5" kX="32.75" kY="35.71" cX="1" cY="1" fst="16" pX="0" pY="0" z="2" dI="0" dr="27" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="昏睡0822" width="128" height="128">
+    <SubTexture name="zzzzzz-z" width="68" height="66" x="0" y="0" cocos2d_pX="33.10" cocos2d_pY="31.25" />
+  </TextureAtlas>
+</skeleton>

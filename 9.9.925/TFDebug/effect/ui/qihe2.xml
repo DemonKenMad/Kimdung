@@ -1,0 +1,46 @@
+<skeleton name="勾玉闪光" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-0.2" y="-1.5" kX="0" kY="0" cX="1.25" cY="1.25" pX="0" pY="0" z="0">
+        <d name="xxx-sdfdsafg" />
+      </b>
+      <b name="图层 1" x="1.75" y="-2.9" kX="0" kY="0" cX="1" cY="1" pX="74" pY="-124.05" z="1">
+        <d name="xxx-asdgfdafv" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="dsagahagfasdf" dr="38" to="0" drTW="38" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="14" dI="-1" />
+          <f x="-0.2" y="-1.5" cocos2d_x="-0.2" cocos2d_y="-1.5" kX="0" kY="0" cX="1.25" cY="1.25" pX="0" pY="0" z="0" dI="0" dr="7">
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-0.2" y="-1.5" cocos2d_x="-0.2" cocos2d_y="-1.5" kX="0" kY="0" cX="1.25" cY="1.25" pX="0" pY="0" z="0" dI="0" twE="0" dr="9">
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+          <f x="-0.2" y="-1.5" cocos2d_x="-0.2" cocos2d_y="-1.5" kX="0" kY="0" cX="1.25" cY="1.25" pX="0" pY="0" z="0" dI="0" dr="8">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+            <fl name="blurFilter" enabled="true" angle="45" blurX="5" blurY="5" distance="5" color="#ffffff" quality="low" strength="100" inner="false" knockout="false" hideObject="false" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="1.75" y="-2.9" cocos2d_x="-72.25" cocos2d_y="121.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="74" pY="-124.05" z="1" dI="0" twE="-1" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="1.75" y="-2.9" cocos2d_x="-72.25" cocos2d_y="121.15" kX="0" kY="0" cX="1" cY="1" fst="0" pX="74" pY="-124.05" z="1" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.56" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="1.75" y="-2.9" cocos2d_x="-109.25" cocos2d_y="183.2" kX="0" kY="0" cX="1.5" cY="1.5" fst="0" pX="74" pY="-124.1" z="1" dI="0" twE="-1" dr="17" />
+          <f x="1.75" y="-2.9" cocos2d_x="-4.1" cocos2d_y="6.95" kX="0" kY="0" cX="0.08" cY="0.08" fst="0" pX="73.7" pY="-124.15" z="1" dI="0" dr="1" twE="NaN" />
+          <f dr="16" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="勾玉闪光" width="512" height="256">
+    <SubTexture name="xxx-asdgfdafv" width="304" height="252" x="0" y="0" cocos2d_pX="80.40" cocos2d_pY="253.80" />
+    <SubTexture name="xxx-sdfdsafg" width="12" height="15" x="305" y="0" cocos2d_pX="5.60" cocos2d_pY="7.35" />
+  </TextureAtlas>
+</skeleton>

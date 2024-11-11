@@ -1,0 +1,74 @@
+<skeleton name="宝石界面点击特效输出0703" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 2" x="-35" y="-13.75" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0">
+        <d name="dianji/cnfreeadcom_1_32_80801" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="dianji/cnfreeadcom_1_32_80801" isLoop="play once" startFrame="1">
+      <b name="图层 1" x="8.95" y="2.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="dianji-cnfreeadcom_1_28_5002" />
+        <d name="dianji-cnfreeadcom_1_27_88248" />
+        <d name="dianji-cnfreeadcom_1_26_81339" />
+        <d name="dianji-cnfreeadcom_1_25_88806" />
+        <d name="dianji-cnfreeadcom_1_23_92700" />
+        <d name="dianji-cnfreeadcom_1_24_19208" />
+        <d name="dianji-cnfreeadcom_1_21_9572" />
+        <d name="dianji-cnfreeadcom_1_22_29567" />
+        <d name="dianji-cnfreeadcom_1_20_64631" />
+        <d name="dianji-cnfreeadcom_1_19_90637" />
+        <d name="dianji-cnfreeadcom_1_18_2219" />
+        <d name="dianji-cnfreeadcom_1_17_87768" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="dianji/cnfreeadcom_1_32_80801">
+      <mov name="dianji" dr="17" to="0" drTW="17" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="8.95" y="2.25" cocos2d_x="8.95" cocos2d_y="2.25" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" dr="2" />
+          <f x="9.4" y="2.85" cocos2d_x="9.4" cocos2d_y="2.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="1" dr="2" />
+          <f x="9.5" y="2.8" cocos2d_x="9.5" cocos2d_y="2.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="2" dr="1" twE="NaN" />
+          <f x="8.15" y="2.3" cocos2d_x="8.15" cocos2d_y="2.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="3" dr="1" twE="NaN" />
+          <f x="8.5" y="3.45" cocos2d_x="8.5" cocos2d_y="3.45" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="4" dr="1" twE="NaN" />
+          <f x="8.7" y="2.3" cocos2d_x="8.7" cocos2d_y="2.3" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="5" dr="1" twE="NaN" />
+          <f x="8.85" y="-0.25" cocos2d_x="8.85" cocos2d_y="-0.2" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="6" dr="1" twE="NaN" />
+          <f x="10.1" y="-2.1" cocos2d_x="10.1" cocos2d_y="-2.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="7" dr="1" twE="NaN" />
+          <f x="13.1" y="-4.85" cocos2d_x="13.1" cocos2d_y="-4.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="8" dr="1" twE="NaN" />
+          <f x="8.45" y="-6.85" cocos2d_x="8.45" cocos2d_y="-6.8" kX="0" kY="0" cX="1" cY="1" pX="0" pY="-0.05" z="0" dI="9" dr="1" twE="NaN" />
+          <f x="10.9" y="3.1" cocos2d_x="10.9" cocos2d_y="3.1" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="10" dr="1" twE="NaN" />
+          <f x="14.2" y="2.65" cocos2d_x="14.2" cocos2d_y="2.65" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="11" dr="1" twE="NaN" />
+          <f dr="3" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="click" dr="12" to="0" drTW="12" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-35" y="-13.75" cocos2d_x="-35" cocos2d_y="-13.75" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="0" twE="0" dr="2">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="-49" y="-13.75" cocos2d_x="-49" cocos2d_y="-13.75" kX="0" kY="0" cX="5.93" cY="5.93" pX="0" pY="0" z="0" dI="0" twE="0" dr="5" />
+          <f x="-49" y="-13.75" cocos2d_x="-49" cocos2d_y="-13.75" kX="0" kY="0" cX="5.93" cY="5.93" pX="0" pY="0" z="0" dI="0" twE="0" dr="4" />
+          <f x="-32.2" y="-13.75" cocos2d_x="-32.2" cocos2d_y="-13.75" kX="0" kY="0" cX="4" cY="4" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="宝石界面点击特效输出0703" width="256" height="256">
+    <SubTexture name="dianji-cnfreeadcom_1_17_87768" width="59" height="48" x="170" y="0" cocos2d_pX="28.40" cocos2d_pY="24.25" />
+    <SubTexture name="dianji-cnfreeadcom_1_18_2219" width="56" height="46" x="170" y="49" cocos2d_pX="25.90" cocos2d_pY="23.20" />
+    <SubTexture name="dianji-cnfreeadcom_1_19_90637" width="49" height="67" x="64" y="0" cocos2d_pX="24.10" cocos2d_pY="33.30" />
+    <SubTexture name="dianji-cnfreeadcom_1_20_64631" width="63" height="62" x="0" y="0" cocos2d_pX="32.00" cocos2d_pY="31.50" />
+    <SubTexture name="dianji-cnfreeadcom_1_22_29567" width="55" height="54" x="114" y="0" cocos2d_pX="27.50" cocos2d_pY="26.50" />
+    <SubTexture name="dianji-cnfreeadcom_1_21_9572" width="50" height="50" x="114" y="55" cocos2d_pX="24.50" cocos2d_pY="25.15" />
+    <SubTexture name="dianji-cnfreeadcom_1_24_19208" width="45" height="46" x="94" y="106" cocos2d_pX="22.85" cocos2d_pY="22.30" />
+    <SubTexture name="dianji-cnfreeadcom_1_23_92700" width="45" height="46" x="0" y="110" cocos2d_pX="22.60" cocos2d_pY="23.15" />
+    <SubTexture name="dianji-cnfreeadcom_1_25_88806" width="46" height="46" x="47" y="68" cocos2d_pX="22.55" cocos2d_pY="22.25" />
+    <SubTexture name="dianji-cnfreeadcom_1_26_81339" width="46" height="46" x="165" y="96" cocos2d_pX="23.90" cocos2d_pY="23.10" />
+    <SubTexture name="dianji-cnfreeadcom_1_27_88248" width="46" height="46" x="0" y="63" cocos2d_pX="24.05" cocos2d_pY="22.75" />
+    <SubTexture name="dianji-cnfreeadcom_1_28_5002" width="45" height="46" x="46" y="115" cocos2d_pX="23.00" cocos2d_pY="22.70" />
+  </TextureAtlas>
+</skeleton>

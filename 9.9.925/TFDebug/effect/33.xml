@@ -1,0 +1,43 @@
+<skeleton name="鹰王锁定" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="元件 35" x="0.75" y="-105.7" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+        <d name="xxx-sdagassdfasd" />
+      </b>
+      <b name="图层 2" x="0.75" y="-98.3" kX="0" kY="0" cX="0.49" cY="0.49" pX="0" pY="0" z="1">
+        <d name="xxx-sdagassdfasd" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="anim">
+      <mov name="agsadfaga" dr="24" to="0" drTW="24" lp="1" twE="NaN">
+        <b name="元件 35" sc="1" dl="0">
+          <f x="0.75" y="-105.7" cocos2d_x="0.75" cocos2d_y="-105.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" twE="-0.89" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.56" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.75" y="-108.7" cocos2d_x="0.75" cocos2d_y="-108.7" kX="0" kY="0" cX="1.2" cY="1.2" fst="0" pX="0" pY="0" z="0" dI="0" twE="1" dr="12" />
+          <f x="0.75" y="-105.7" cocos2d_x="0.75" cocos2d_y="-105.7" kX="0" kY="0" cX="0.95" cY="0.95" fst="0" pX="0" pY="0" z="0" dI="0" twE="0" dr="6" />
+          <f x="0.75" y="-105.7" cocos2d_x="0.75" cocos2d_y="-105.7" kX="0" kY="0" cX="1" cY="1" fst="0" pX="0" pY="0" z="0" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.5" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f x="0.75" y="-98.3" cocos2d_x="0.75" cocos2d_y="-98.3" kX="0" kY="0" cX="0.49" cY="0.49" fst="0" pX="0" pY="0" z="1" dI="0" twE="-1" dr="5">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.75" y="-109.45" cocos2d_x="0.75" cocos2d_y="-109.45" kX="0" kY="0" cX="1.28" cY="1.28" fst="0" pX="0" pY="0" z="1" dI="0" twE="0.86" dr="2" />
+          <f x="0.8" y="-121.5" cocos2d_x="0.8" cocos2d_y="-121.5" kX="0" kY="0" cX="1.66" cY="1.66" fst="0" pX="0" pY="0" z="1" dI="0" twE="0" dr="16">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0.64" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="0.75" y="-127.9" cocos2d_x="0.75" cocos2d_y="-127.9" kX="0" kY="0" cX="1.95" cY="1.95" fst="0" pX="0" pY="0" z="1" dI="0" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="鹰王锁定" width="128" height="128">
+    <SubTexture name="xxx-sdagassdfasd" width="83" height="87" x="0" y="0" cocos2d_pX="41.45" cocos2d_pY="41.55" />
+  </TextureAtlas>
+</skeleton>

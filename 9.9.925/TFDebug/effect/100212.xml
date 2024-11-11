@@ -1,0 +1,75 @@
+<skeleton name="普通受击" frameRate="24" version="2.2.3">
+  <armatures>
+    <armature name="anim">
+      <b name="图层 30" x="3.3" y="-82.65" kX="-41" kY="-41" cX="2.77" cY="3.24" pX="0.4" pY="-0.7" z="0">
+        <d name="file/gongji" isArmature="1" />
+      </b>
+      <b name="图层 2" x="3.4" y="-82.55" kX="32.73" kY="31.24" cX="1.92" cY="2.22" pX="0.3" pY="-0.7" z="1">
+        <d name="file/gongji" isArmature="1" />
+      </b>
+      <b name="图层 1" x="11" y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2">
+        <d name="file/das" isArmature="1" />
+      </b>
+    </armature>
+    <armature name="file/gongji">
+      <b name="图层 1" x="0.35" y="-0.65" kX="0" kY="0" cX="1" cY="1" pX="70" pY="20" z="0">
+        <d name="file-demage004_00000.png" />
+      </b>
+    </armature>
+    <armature name="file/das">
+      <b name="图层 1" x="0" y="0" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0">
+        <d name="file-wwe1.png" />
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="file/gongji">
+      <mov name="dasd" dr="3" to="0" drTW="3" lp="0" twE="NaN">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0.35" y="-0.65" cocos2d_x="-69.65" cocos2d_y="-20.65" kX="0" kY="0" cX="1" cY="1" pX="70" pY="20" z="0" dI="0" dr="3" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="file/das">
+      <mov name="das" dr="2" to="0" drTW="2" lp="1" twE="2">
+        <b name="图层 1" sc="1" dl="0">
+          <f x="0" y="0" cocos2d_x="-75" cocos2d_y="-75" kX="0" kY="0" cX="1" cY="1" pX="75" pY="75" z="0" dI="0" dr="2" />
+        </b>
+      </mov>
+    </animation>
+    <animation name="anim">
+      <mov name="dasd" dr="9" to="0" drTW="9" lp="0" twE="NaN">
+        <b name="图层 30" sc="1" dl="0">
+          <f x="3.3" y="-82.65" cocos2d_x="4.05" cocos2d_y="-80.3" kX="-41" kY="-41" cX="2.77" cY="3.24" pX="0.4" pY="-0.7" z="0" dI="0" blend="add" twE="0" dr="2" />
+          <f x="3.35" y="-82.45" cocos2d_x="4.05" cocos2d_y="-79.25" kX="-41" kY="-41" cX="4.46" cY="4.46" pX="0.35" pY="-0.65" z="0" dI="0" blend="add" twE="0" dr="4" />
+          <f x="3.35" y="-82.45" cocos2d_x="2.35" cocos2d_y="-81.2" kX="-41" kY="-41" cX="4.46" cY="0.47" pX="0.35" pY="-0.6" z="0" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+        <b name="图层 2" sc="1" dl="0">
+          <f dr="2" dI="-1" />
+          <f x="3.4" y="-82.55" cocos2d_x="2" cocos2d_y="-81.6" kX="32.73" kY="31.24" cX="1.92" cY="2.22" pX="0.3" pY="-0.7" z="1" dI="0" blend="add" twE="0" dr="2" />
+          <f x="3.3" y="-82.5" cocos2d_x="1.3" cocos2d_y="-81.4" kX="32.74" kY="31.24" cX="3.09" cY="3.06" pX="0.4" pY="-0.65" z="1" dI="0" blend="add" twE="0" dr="4" />
+          <f x="3.3" y="-82.45" cocos2d_x="2.25" cocos2d_y="-82.85" kX="32.73" kY="31.24" cX="3.09" cY="0.32" pX="0.4" pY="-0.6" z="1" dI="0" blend="normal" dr="1" twE="NaN">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f x="11" y="-79.95" cocos2d_x="11" cocos2d_y="-79.95" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="1" />
+          <f x="11" y="-79.95" cocos2d_x="11" cocos2d_y="-79.95" kX="0" kY="0" cX="2.17" cY="2.17" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="5">
+            <colorTransform a="0" r="255" g="-144" b="255" aM="1" rM="1" gM="1" bM="1" />
+          </f>
+          <f x="11" y="-79.95" cocos2d_x="11" cocos2d_y="-79.95" kX="0" kY="0" cX="2.54" cY="2.54" pX="0" pY="0" z="2" dI="0" blend="add" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="1" gM="1" bM="1" />
+          </f>
+          <f dr="2" dI="-1" />
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="普通受击" width="256" height="256">
+    <SubTexture name="file-wwe1.png" width="150" height="150" x="0" y="0" cocos2d_pX="0.00" cocos2d_pY="0.00" />
+    <SubTexture name="file-demage004_00000.png" width="127" height="38" x="0" y="151" cocos2d_pX="-7.00" cocos2d_pY="-1.00" />
+  </TextureAtlas>
+</skeleton>
