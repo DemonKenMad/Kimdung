@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ quality = 4, level = 20, count = 2, type = 1, value = 5})
 mapArray:push({ quality = 4, level = 40, count = 2, type = 1, value = 10})
 mapArray:push({ quality = 4, level = 60, count = 2, type = 1, value = 15})

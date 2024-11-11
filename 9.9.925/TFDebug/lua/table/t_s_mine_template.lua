@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ mine_index = 1, quality = 1, quality1_rate = 50, quality2_rate = 50, quality3_rate = 0, quality4_rate = 0, reward_type = 3, reward_id = 0, reward_number = "270000.000", brokerage = 300, extra_coin = 500, rob_coin_min = 10, rob_coin_max = 20, duration = 240, special_reward = ""})
 mapArray:push({ mine_index = 1, quality = 2, quality1_rate = 0, quality2_rate = 60, quality3_rate = 40, quality4_rate = 0, reward_type = 3, reward_id = 0, reward_number = "540000.000", brokerage = 600, extra_coin = 1000, rob_coin_min = 10, rob_coin_max = 20, duration = 240, special_reward = ""})
 mapArray:push({ mine_index = 1, quality = 3, quality1_rate = 0, quality2_rate = 0, quality3_rate = 70, quality4_rate = 30, reward_type = 3, reward_id = 0, reward_number = "1080000.000", brokerage = 4000, extra_coin = 2000, rob_coin_min = 10, rob_coin_max = 20, duration = 240, special_reward = "70&4,0,30000|20&4,0,60000|10&4,0,100000"})

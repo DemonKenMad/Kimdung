@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, attributes = "1,2,4,14,12,5", max_level = 250, factors = "100,20,20,20,20,20"})
 mapArray:push({ id = 2, attributes = "1,2,4,14,12,13", max_level = 250, factors = "100,20,20,20,20,20"})
 mapArray:push({ id = 3, attributes = "1,2,4,3,15,13", max_level = 250, factors = "100,20,20,20,20,20"})

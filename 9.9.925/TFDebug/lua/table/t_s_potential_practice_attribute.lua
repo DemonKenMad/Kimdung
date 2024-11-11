@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ role_level = 1, role_quality = 4, stage = 1, attributes = "1_10140,2_2028,3_2028,4_2028,5_2028"})
 mapArray:push({ role_level = 1, role_quality = 4, stage = 2, attributes = "1_1275,2_1275,3_1275,4_1275,5_1275"})
 mapArray:push({ role_level = 1, role_quality = 5, stage = 1, attributes = "1_13180,2_2636,3_2636,4_2636,5_2636"})

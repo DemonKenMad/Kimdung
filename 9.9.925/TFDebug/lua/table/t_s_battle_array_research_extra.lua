@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, goods_id = 50026, quality = 4, progress_total = 30, effect_active = "", effect_passive = "103_-10000", desc = "Miễn ST liên tục", power = 10000})
 mapArray:push({ id = 2, goods_id = 50026, quality = 4, progress_total = 80, effect_active = "", effect_passive = "42_-100", desc = "Miễn ST liên tục", power = 20000})
 mapArray:push({ id = 3, goods_id = 50026, quality = 4, progress_total = 120, effect_active = "", effect_passive = "103_-20000", desc = "Miễn ST liên tục", power = 20000})

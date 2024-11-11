@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, stage = 1, proportion = "0_2000", color = 1})
 mapArray:push({ id = 2, stage = 1, proportion = "2001_4000", color = 2})
 mapArray:push({ id = 3, stage = 1, proportion = "4001_6000", color = 3})

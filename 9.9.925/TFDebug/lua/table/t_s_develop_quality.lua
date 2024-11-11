@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 77, quality = 4, star = 5, qimen = 10, star_level = 5, items = "2000_200|30046_100|30047_100", sweep_item = 0})
 mapArray:push({ id = 78, quality = 4, star = 5, qimen = 10, star_level = 5, items = "2000_200|30046_100|30047_100", sweep_item = 0})
 mapArray:push({ id = 79, quality = 4, star = 5, qimen = 10, star_level = 5, items = "2000_200|30046_100|30047_100", sweep_item = 0})

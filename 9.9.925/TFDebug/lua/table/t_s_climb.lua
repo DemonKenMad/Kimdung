@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, scene_id = 0, name = "Ải 1", npc = "0,10015,10012,0,10014,10011,0,0,10013", drop = 2001, first_drop = 20000, challenge_consume = 1, pass_tips = "Kiều Bang Chủ bị đám Cái Bang bủa vây!", image = "10061", min_level = 1, power = 1350})
 mapArray:push({ id = 2, scene_id = 0, name = "Ải 2", npc = "0,10025,10022,0,10024,10021,0,0,10023", drop = 2002, first_drop = 20001, challenge_consume = 1, pass_tips = "Tống Trưởng Lão không ngờ cũng nằm trong số này.", image = "10056", min_level = 1, power = 2350})
 mapArray:push({ id = 3, scene_id = 0, name = "Ải 3", npc = "0,10035,10032,10031,10034,0,0,0,10033", drop = 2003, first_drop = 20002, challenge_consume = 1, pass_tips = "Tống Trưởng Lão gọi Ngô Trưởng Lão tới.", image = "10056", min_level = 1, power = 3600})

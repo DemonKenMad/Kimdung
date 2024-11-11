@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, name = "Chương 1 Tìm Thiên T", type = 1, map = 1, detail = "Tiếp tục tìm kiếm Thiên Thư.", map_img = "map_0", point_imp = "point_0", next_map_img = "map_14", next_boss_img = "10082", name1 = "Tước Gia Phủ", open = 1})
 mapArray:push({ id = 2, name = "Chương 2 Tước Gia Ph", type = 1, map = 2, detail = "Phồn Tăng biết manh mối, mau tìm hắn.", map_img = "map_14", point_imp = "point_27", next_map_img = "map_13", next_boss_img = "10009", name1 = "Ngoại ô", open = 1})
 mapArray:push({ id = 3, name = "Chương 3 Ngoại ô", type = 1, map = 3, detail = "Vị anh hùng này mời ngài tới Kinh Thành ứng cứu người huynh đệ bị giam trong đại lao", map_img = "map_13", point_imp = "point_26", next_map_img = "map_11", next_boss_img = "10145", name1 = "Kinh Thành", open = 1})

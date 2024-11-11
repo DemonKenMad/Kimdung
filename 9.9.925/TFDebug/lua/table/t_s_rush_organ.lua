@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, organ_id = 1, attribute = "18_-300|19_-300|20_-300|21_-300|22_-300", rate = 5000, describe = "T.tính toàn đội", type = 1, num = -3})
 mapArray:push({ id = 2, organ_id = 1, attribute = "18_-500|19_-500|20_-500|21_-500|22_-500", rate = 5000, describe = "T.tính toàn đội", type = 1, num = -5})
 mapArray:push({ id = 3, organ_id = 2, attribute = "18_100|19_100|20_100|21_100|22_100", rate = 5000, describe = "T.tính toàn đội", type = 1, num = 1})

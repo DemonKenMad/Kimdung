@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ chapter_id = 1, name = "Chương 1", desc = "1", last_chapter_id = 0, next_chapter_id = 2, power = 100000, drops = "72083", icon = 10088, map_img = 34, hspoint_imp = "hspoint_1", achievement_name = "HP+10000", achievement_attribute = "1_10000", price = 50})
 mapArray:push({ chapter_id = 2, name = "Chương 2", desc = "2", last_chapter_id = 1, next_chapter_id = 3, power = 200000, drops = "72091", icon = 10159, map_img = 35, hspoint_imp = "hspoint_4", achievement_name = "Võ lực+1200", achievement_attribute = "2_1200", price = 100})
 mapArray:push({ chapter_id = 3, name = "Chương 3", desc = "3", last_chapter_id = 2, next_chapter_id = 4, power = 300000, drops = "72099", icon = 10145, map_img = 36, hspoint_imp = "hspoint_5", achievement_name = "Thủ+1500", achievement_attribute = "3_1500", price = 150})

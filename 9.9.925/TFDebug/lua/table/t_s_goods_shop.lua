@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1001, shop_type = 2, grid_num = 1, goods_id = 74051, num = 1, res_type = 8, res_num = 1500, wigth = 100, need_vip_level = 0, need_player_level = 1})
 mapArray:push({ id = 1002, shop_type = 2, grid_num = 1, goods_id = 74051, num = 1, res_type = 8, res_num = 1500, wigth = 100, need_vip_level = 0, need_player_level = 1})
 mapArray:push({ id = 1003, shop_type = 2, grid_num = 1, goods_id = 74051, num = 1, res_type = 8, res_num = 1500, wigth = 100, need_vip_level = 0, need_player_level = 1})

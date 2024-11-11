@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ copy_id = 50011, chapter_id = 1, name = "Chương 1 hồi 1", desc = "Ma Giáo mưu đồ ngăn bọn ta tìm v", last_copy_id = 0, next_copy_id = 50012, icon = 150, formations = "0,400004,400001,0,0,400001,0,400004,400001", boss_index = "6", attribute_expression = "", attribute_less = 500, power = 200000, offsetX = 0, offsetY = 0})
 mapArray:push({ copy_id = 50012, chapter_id = 1, name = "Chương 1 hồi 2", desc = "Ma Giáo mưu đồ ngăn bọn ta tìm v", last_copy_id = 50011, next_copy_id = 50013, icon = 32, formations = "0,400011,400011,0,400014,0,400014,0,400011", boss_index = "5", attribute_expression = "", attribute_less = 500, power = 202000, offsetX = 0, offsetY = 0})
 mapArray:push({ copy_id = 50013, chapter_id = 1, name = "Chương 1 hồi 3", desc = "Ma Giáo mưu đồ ngăn bọn ta tìm v", last_copy_id = 50012, next_copy_id = 50014, icon = 125, formations = "400024,0,400021,0,400021,0,0,400024,400021", boss_index = "3", attribute_expression = "", attribute_less = 500, power = 206000, offsetX = 30, offsetY = 0})

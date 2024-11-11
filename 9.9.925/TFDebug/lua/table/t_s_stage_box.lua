@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, mapid = 1, difficulty = 1, reward_id = 5011, need_star = 6})
 mapArray:push({ id = 2, mapid = 1, difficulty = 2, reward_id = 6011, need_star = 3})
 mapArray:push({ id = 3, mapid = 1, difficulty = 1, reward_id = 5012, need_star = 12})

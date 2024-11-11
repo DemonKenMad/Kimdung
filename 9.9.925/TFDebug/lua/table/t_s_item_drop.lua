@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, type = 1, itemid = 61000, droprate = "10000", minamount = 1, maxamount = 1, player_level = 0, vip_level = 0, time_limit = 0})
 mapArray:push({ id = 2, type = 1, itemid = 61001, droprate = "10000", minamount = 1, maxamount = 1, player_level = 0, vip_level = 0, time_limit = 0})
 mapArray:push({ id = 3, type = 1, itemid = 61009, droprate = "10000", minamount = 1, maxamount = 1, player_level = 0, vip_level = 0, time_limit = 0})

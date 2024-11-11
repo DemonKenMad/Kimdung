@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, quality = 1, star_level = 0, next_star_exp = 0, streng_then = 1, type = 1, provide_star_exp = 0, surmount_consume = 0, surmount_soul_card_num = 0, extra_lv = 0, lv_up_mutil = 1})
 mapArray:push({ id = 2, quality = 1, star_level = 1, next_star_exp = 0, streng_then = 1.2, type = 1, provide_star_exp = 0, surmount_consume = 0, surmount_soul_card_num = 0, extra_lv = 0, lv_up_mutil = 1})
 mapArray:push({ id = 3, quality = 1, star_level = 2, next_star_exp = 0, streng_then = 1.4, type = 1, provide_star_exp = 0, surmount_consume = 0, surmount_soul_card_num = 0, extra_lv = 0, lv_up_mutil = 1})

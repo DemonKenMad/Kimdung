@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, quality = 1, sub_count = 2, sub_type = 1, tppe_value = 0, describe_title = "宝石孔：+1"})
 mapArray:push({ id = 2, quality = 2, sub_count = 3, sub_type = 3, tppe_value = 100, describe_title = "附加属性提升：1%"})
 mapArray:push({ id = 3, quality = 3, sub_count = 3, sub_type = 3, tppe_value = 300, describe_title = "附加属性提升：3%"})

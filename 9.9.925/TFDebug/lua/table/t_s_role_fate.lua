@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, role_id = 1, target = "1,2|1,6", attribute = "18_5000", title = "Thiên Long Huynh Đệ", details = "Cùng #R3Đoàn Dự#, #R3Hư Trúc# ra trận, HP +50%", common_target = ""})
 mapArray:push({ id = 2, role_id = 1, target = "1,23", attribute = "19_3000", title = "Cha con Tiêu Gia", details = "Cùng #R3Tiêu Viễn Sơn# ra trận, võ lực +30%", common_target = ""})
 mapArray:push({ id = 3, role_id = 1, target = "2,63", attribute = "21_2500", title = "Kiều Phong", details = "Trang bị #R3Hàng Long Giới#, nội lực +25%", common_target = "2,113|2,118|2,123|2,131|2,136|2,146|2,141|2,151"})

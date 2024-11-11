@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, name = "Mặc định", desc = "Nhấn vào avatar là dùng được", gain_way = 0, validity_hour = 0, gain_way_id = 0, gain_way_num = 0, prefix = "", weight_1 = 1, weight_2 = 1, show_type = 1, visible = 1, attribute = "", effect = "0", lock_visible = 0, img = ""})
 mapArray:push({ id = 2, name = "Cao Thủ Ký Danh", desc = "Ký danh liên tiếp 30 ngày mở khóa", gain_way = 1, validity_hour = 0, gain_way_id = 0, gain_way_num = 30, prefix = "", weight_1 = 2, weight_2 = 2, show_type = 2, visible = 1, attribute = "", effect = "0", lock_visible = 1, img = "img_frame2"})
 mapArray:push({ id = 3, name = "VIP Thường", desc = "V2  trở lên mở khóa", gain_way = 2, validity_hour = 0, gain_way_id = 0, gain_way_num = 2, prefix = "", weight_1 = 3, weight_2 = 3, show_type = 1, visible = 1, attribute = "", effect = "0", lock_visible = 1, img = "img_frame3"})

@@ -44,6 +44,7 @@
 --  hitXuliEffType 蓄力特效目标，和普通特效目标类似。新增：13受击目标脚下播放（排除己方，当技能有2种目标时可以使用此类型。例：攻击敌方并给自己加buff）
 
 local mapArray = MEMapArray:new()
+
 --普通攻击
 mapArray:push({ id = 9999, remote = 0,zoomIn= 0, attackEff = {0}, attackEffTime = {0}, attackEffType = {0}, hitAnimTime1 = 100, hitEff = { 90001},attackAnim = "attack",attackSound = 101,hitSound = 1001})
 mapArray:push({ id = 1, remote = 0,zoomIn= 0, moveDistance = 70,attackEff = {100011}, attackEffTime = {0}, moveDistance = 200,attackEffType = {0},hitEff = { 101022},hitAnimTime1 = 500,attackAnim = "attack",attackSound = 101,hitSound = 41})

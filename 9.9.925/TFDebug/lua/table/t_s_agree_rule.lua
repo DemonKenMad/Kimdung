@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ level = 1, consume = "1_30053_10", value = 100, sub_value = 0})
 mapArray:push({ level = 2, consume = "1_30053_50", value = 100, sub_value = 0})
 mapArray:push({ level = 3, consume = "1_30053_100", value = 100, sub_value = 0})

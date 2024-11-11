@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, role_id = 1, star_lv = 1, type = 2, coin = 0, soul_num = 30, other_goods_id = "", name = "Thập Bát Chưởng +1", break_type = 1, quality = 5, desc = "Nâng Phẩm lúc 10 sao, ko nâng LỖI TƯỚNG ráng chịu", expression = "101_141", role_level = 0})
 mapArray:push({ id = 2, role_id = 1, star_lv = 2, type = 2, coin = 0, soul_num = 30, other_goods_id = "", name = "Rượu Gặp Tri Kỷ +1", break_type = 1, quality = 5, desc = "Nâng Phẩm lúc 10 sao, ko nâng LỖI TƯỚNG ráng chịu", expression = "102_112", role_level = 0})
 mapArray:push({ id = 3, role_id = 1, star_lv = 3, type = 2, coin = 0, soul_num = 50, other_goods_id = "", name = "Cầm Long Công +1", break_type = 1, quality = 5, desc = "Nâng Phẩm lúc 10 sao, ko nâng LỖI TƯỚNG ráng chịu", expression = "103_113", role_level = 0})

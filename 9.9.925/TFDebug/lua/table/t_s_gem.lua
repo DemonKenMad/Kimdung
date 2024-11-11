@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1001, attribute = "1_50", merge_to = 1002, merge_ratio = 10000, merge_consume_coin = 1000, merge_consume_sycee = 10})
 mapArray:push({ id = 1002, attribute = "1_100", merge_to = 1003, merge_ratio = 10000, merge_consume_coin = 2000, merge_consume_sycee = 20})
 mapArray:push({ id = 1003, attribute = "1_150", merge_to = 1004, merge_ratio = 10000, merge_consume_coin = 5000, merge_consume_sycee = 30})

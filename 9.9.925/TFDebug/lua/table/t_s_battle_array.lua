@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 50026, quality = 4, base_attribute = "1_3000|2_600|4_800|3_600|5_1000", grow = "1_300|2_60|4_80|3_60|5_100", compose = "1_52046_150", effect_id = 0, describ = "T.tính chính: Th", fragment_id = 52046, on_show = 1})
 mapArray:push({ id = 50027, quality = 5, base_attribute = "1_7500|2_1500|4_2000|3_1500|5_2500", grow = "1_525|2_105|4_140|3_105|5_175", compose = "1_52047_200", effect_id = 0, describ = "T.tính chính: Th", fragment_id = 52047, on_show = 1})
 mapArray:push({ id = 50028, quality = 4, base_attribute = "1_4000|2_600|4_600|3_1000|5_600", grow = "1_400|2_60|4_60|3_100|5_60", compose = "1_52048_150", effect_id = 2, describ = "T.tính chính: Th", fragment_id = 52048, on_show = 1})

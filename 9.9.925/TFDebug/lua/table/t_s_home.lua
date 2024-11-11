@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ level = 1, exp = 100, attribute = "1_730", breach_attribute = "", show_list = "q01,q", fire_pos = "530,250|750,270|630,280"})
 mapArray:push({ level = 2, exp = 120, attribute = "3_270", breach_attribute = "", show_list = "q01,q", fire_pos = "530,250|750,270|630,280"})
 mapArray:push({ level = 3, exp = 140, attribute = "12_200", breach_attribute = "", show_list = "q01,q", fire_pos = "530,250|750,270|630,280"})

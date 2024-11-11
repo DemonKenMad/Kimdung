@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ equipment_type = 1, quality = 4, through_level = 1, power = 1000, consumes = "1_30146_30", immune_rate = "", effect_active = "44_0|100_1000", effect_passive = "", equip_star_limit = 1, des = "Thương tổn thêm thành 0%+1000" })
 mapArray:push({ equipment_type = 1, quality = 5, through_level = 1, power = 1500, consumes = "1_30146_30", immune_rate = "", effect_active = "44_0|100_1500", effect_passive = "", equip_star_limit = 1, des = "Thương tổn thêm thành 0%+1500" })
 mapArray:push({ equipment_type = 1, quality = 6, through_level = 1, power = 1500, consumes = "1_30146_30", immune_rate = "", effect_active = "44_0|100_1500", effect_passive = "", equip_star_limit = 1, des = "Thương tổn thêm thành 0%+1500" })

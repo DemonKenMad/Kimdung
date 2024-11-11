@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, role_id = 1, level = 1, martial_id = "61005|61005|61001|61001|61009|61009", attribute = "1_684|2_137|3_137|4_137|5_137"})
 mapArray:push({ id = 2, role_id = 1, level = 2, martial_id = "61005|61007|61002|61001|61004|61009", attribute = "1_1026|2_375|3_295|4_295|5_205"})
 mapArray:push({ id = 3, role_id = 1, level = 3, martial_id = "61005|61007|61013|61011|61004|61010", attribute = "1_1368|2_1073|3_453|4_385|5_295"})

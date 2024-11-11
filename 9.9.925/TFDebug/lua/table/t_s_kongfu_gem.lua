@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ level = 0, quality = 4, slot1 = "1_12500|2_1250", slot2 = "2_2500|3_1250", slot3 = "3_2500|4_1250", slot4 = "4_2500|5_1250", slot5 = "5_2500|1_6250", slot_extra = 0, update_cost = "1_30429_1", gem_level = 0})
 mapArray:push({ level = 1, quality = 4, slot1 = "1_13500|2_1350", slot2 = "2_2700|3_1350", slot3 = "3_2700|4_1350", slot4 = "4_2700|5_1350", slot5 = "5_2700|1_6750", slot_extra = 100, update_cost = "1_30429_1", gem_level = 6})
 mapArray:push({ level = 2, quality = 4, slot1 = "1_14500|2_1450", slot2 = "2_2900|3_1450", slot3 = "3_2900|4_1450", slot4 = "4_2900|5_1450", slot5 = "5_2900|1_7250", slot_extra = 150, update_cost = "1_30429_2", gem_level = 6})

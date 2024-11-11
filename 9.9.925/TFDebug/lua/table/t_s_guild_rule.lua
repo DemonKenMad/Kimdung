@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, exp = 0, max_member_num = 20, max_skill_level = 0, max_skill_level2 = 0, Architecture = "Bảo Các", secondly_level = 1, treasure_level = 1, science_level = 0, hills_level = 0})
 mapArray:push({ id = 2, exp = 75, max_member_num = 22, max_skill_level = 0, max_skill_level2 = 0, Architecture = "Hậu Sơn", secondly_level = 1, treasure_level = 1, science_level = 0, hills_level = 1})
 mapArray:push({ id = 3, exp = 300, max_member_num = 24, max_skill_level = 5, max_skill_level2 = 0, Architecture = "Khu Luyện Thường", secondly_level = 2, treasure_level = 1, science_level = 1, hills_level = 1})

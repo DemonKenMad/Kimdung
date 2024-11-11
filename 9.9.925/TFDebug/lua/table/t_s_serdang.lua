@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, name = "Ải 1", pass_tips = "Bảo Bảo buồn lắm, nhưng không nói ra", challenge_cnsume = 1, scene_id = 22, history_drop = 90001, season_first_drop = 90101, season_after_drop = 90301, min_level = 1, power = 150000, npc_library = "1_15", octuple_att = 100, octuple_att1 = 100, blood_att = 120, rank = 80})
 mapArray:push({ id = 2, name = "Ải 2", pass_tips = "Mã Phu Nhân+ Vương Phu Nhân = Mã Vương Gia?", challenge_cnsume = 1, scene_id = 22, history_drop = 90002, season_first_drop = 90102, season_after_drop = 90302, min_level = 1, power = 155000, npc_library = "1_15", octuple_att = 100, octuple_att1 = 100, blood_att = 120, rank = 79})
 mapArray:push({ id = 3, name = "Ải 3", pass_tips = "3 thiếu 1 cảm giác không đúng", challenge_cnsume = 1, scene_id = 22, history_drop = 90003, season_first_drop = 90103, season_after_drop = 90303, min_level = 1, power = 160000, npc_library = "1_15", octuple_att = 100, octuple_att1 = 100, blood_att = 120, rank = 78})

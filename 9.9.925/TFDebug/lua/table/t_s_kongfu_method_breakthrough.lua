@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, quality = 3, type = 1, lv = 1, attr = "1.05000", attr_active = "", attr_passive = "", cost1 = "31_0_10000", cost2 = ""})
 mapArray:push({ id = 2, quality = 3, type = 1, lv = 2, attr = "1.07000", attr_active = "", attr_passive = "", cost1 = "31_0_10000", cost2 = ""})
 mapArray:push({ id = 3, quality = 3, type = 1, lv = 3, attr = "1.10000", attr_active = "", attr_passive = "", cost1 = "31_0_10000", cost2 = ""})

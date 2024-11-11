@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 13, sound_num = 2, fight_index = 3, sound_1 = "131.mp3", sound_2 = "132.mp3", sound_3 = "133.mp3"})
 mapArray:push({ id = 4, sound_num = 2, fight_index = 3, sound_1 = "41.mp3", sound_2 = "42.mp3", sound_3 = "43.mp3"})
 mapArray:push({ id = 19, sound_num = 2, fight_index = 3, sound_1 = "191.mp3", sound_2 = "192.mp3", sound_3 = "193.mp3"})

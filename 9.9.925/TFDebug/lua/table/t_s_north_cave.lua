@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({id = 1, scene_id = 22, random_npc = "1_1|2_1|3_1", drop_1 = 2500, drop_2 = 2501, drop_3 = 2501, battle_drop = "0", min_level = 1, power = 100000, fixed_limited = 0, chest = 301, npc_level = 60, random_limited = "51_1|66_1|73_1|78_1|83_1|88_1|99_1", multiple = "1.00", open = 1})
 mapArray:push({id = 2, scene_id = 22, random_npc = "4_1|5_1|6_1", drop_1 = 2500, drop_2 = 2501, drop_3 = 2501, battle_drop = "0", min_level = 1, power = 105000, fixed_limited = 0, chest = 301, npc_level = 60, random_limited = "51_1|66_1|73_1|78_1|83_1|88_1|99_1", multiple = "1.10", open = 1})
 mapArray:push({id = 3, scene_id = 22, random_npc = "7_1|8_1|9_1", drop_1 = 2500, drop_2 = 2501, drop_3 = 2501, battle_drop = "0", min_level = 1, power = 108500, fixed_limited = 0, chest = 301, npc_level = 60, random_limited = "51_1|66_1|73_1|78_1|83_1|88_1|99_1", multiple = "1.20", open = 1})

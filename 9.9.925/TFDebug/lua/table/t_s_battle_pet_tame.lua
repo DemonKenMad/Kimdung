@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ level = 0, attribute = "12_0|13_0|14_0|15_0", consume = "1_35436_15", gem_consume = ""})
 mapArray:push({ level = 1, attribute = "12_500|13_500|14_500|15_500", consume = "1_35436_15", gem_consume = ""})
 mapArray:push({ level = 2, attribute = "12_1000|13_1000|14_1000|15_1000", consume = "1_35436_15", gem_consume = ""})

@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ goods_id = 201001, chapter = 1, attributes = "2_1000", extra = ""})
 mapArray:push({ goods_id = 201001, chapter = 2, attributes = "2_2500", extra = ""})
 mapArray:push({ goods_id = 201001, chapter = 3, attributes = "2_4500", extra = ""})

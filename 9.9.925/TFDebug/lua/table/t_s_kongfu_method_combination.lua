@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, desc1 = "HP tăng ", desc2 = "Hệ số võ lực, nội lực kỹ năng chủ động tăng", goods_id = 30410, pieces_id = "1_55001_1|1_55002_1|1_55003_1"})
 mapArray:push({ id = 2, desc1 = "Võ lực tăng ", desc2 = "Hệ số võ lực kỹ năng chủ động tăng", goods_id = 30411, pieces_id = "1_55013_1|1_55014_1|1_55015_1"})
 mapArray:push({ id = 3, desc1 = "Thủ tăng ", desc2 = "Giảm phần trăm CD kỹ năng", goods_id = 30412, pieces_id = "1_55025_1|1_55026_1|1_55027_1"})

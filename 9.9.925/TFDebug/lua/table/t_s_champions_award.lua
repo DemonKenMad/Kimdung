@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ type = 1, min_rank = 1, max_rank = 1, award = "1_74121_50|4_0_500000", title = "Võ lâm đại hội", sub_title = "Tám cường khen thưởng", context = "Chúc mừng ngươi đạt được bổn chu võ lâm đại hội tích phân tái đệ nhất danh, nho nhỏ khen thưởng, không thành kính ý. Chờ mong đại hiệp cuối tuần biểu hiện!", boom = 0})
 mapArray:push({ type = 1, min_rank = 2, max_rank = 2, award = "1_74121_30|4_0_300000", title = "Võ lâm đại hội", sub_title = "Tám cường khen thưởng", context = "Chúc mừng ngươi đạt được bổn chu võ lâm đại hội tích phân tái đệ nhị danh, nho nhỏ khen thưởng, không thành kính ý. Chờ mong đại hiệp cuối tuần biểu hiện!", boom = 0})
 mapArray:push({ type = 1, min_rank = 3, max_rank = 3, award = "1_74121_20|4_0_200000", title = "Võ lâm đại hội", sub_title = "Tám cường khen thưởng", context = "Chúc mừng ngươi đạt được bổn chu võ lâm đại hội tích phân tái đệ tam danh, nho nhỏ khen thưởng, không thành kính ý. Chờ mong đại hiệp cuối tuần biểu hiện!", boom = 0})

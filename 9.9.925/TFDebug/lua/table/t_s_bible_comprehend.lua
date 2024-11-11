@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ stage = 1, bible_quality = 4, consume = "1_30237_100", probability = "50,0_2000;50,2001_4000;50,4001_6000;50,6001_8000;1800,8001_100000", attributes = "1_40000,2_8000,3_8000,4_8000,5_8000"})
 mapArray:push({ stage = 1, bible_quality = 5, consume = "1_30238_100", probability = "50,0_2000;50,2001_4000;50,4001_6000;50,6001_8000;1800,8001_100000", attributes = "1_60000,2_12000,3_12000,4_12000,5_12000"})
 mapArray:push({ stage = 1, bible_quality = 6, consume = "1_30238_100", probability = "50,0_2000;50,2001_4000;50,4001_6000;50,6001_8000;1800,8001_100000", attributes = "1_100000,2_20000,3_20000,4_20000,5_20000"})

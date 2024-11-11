@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({id = 101, name = "Tăng cấp đội", category = 1, type = 201, desc = "Đội đạt Lv5", inherit_last_mission_process = 1, target_value = 5, reward_id = 30124, before_mission_id = 0, show_level = 1, icon_id = 23, show_weight = 2, reward_zy = ""})
 mapArray:push({id = 102, name = "Tăng cấp đội", category = 1, type = 201, desc = "Đội đạt Lv10", inherit_last_mission_process = 1, target_value = 10, reward_id = 30125, before_mission_id = 101, show_level = 1, icon_id = 23, show_weight = 2, reward_zy = ""})
 mapArray:push({id = 103, name = "Tăng cấp đội", category = 1, type = 201, desc = "Đội đạt Lv15", inherit_last_mission_process = 1, target_value = 15, reward_id = 30126, before_mission_id = 102, show_level = 1, icon_id = 23, show_weight = 2, reward_zy = ""})

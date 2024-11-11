@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, star_diff = 5, cost1 = "31_0_1000", cost2 = "1_30431_1"})
 mapArray:push({ id = 2, star_diff = 10, cost1 = "31_0_2000", cost2 = "1_30431_1"})
 mapArray:push({ id = 3, star_diff = 15, cost1 = "31_0_3000", cost2 = "1_30431_1"})

@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, attribute = "3_770|5_770", immune_rate = "", effect_active = "", effect_passive = "", name = "2 vị trí trợ chiến Ăn Ý +1", power = 0, des = "Tất cả tướng ra trận Thân Pháp +7700 Thủ +7700"})
 mapArray:push({ id = 2, attribute = "2_770|4_770", immune_rate = "", effect_active = "", effect_passive = "", name = "3 vị trí trợ chiến Ăn Ý +2", power = 0, des = "Tất cả tướng ra trận Võ lực +7700 Nội lực +7700"})
 mapArray:push({ id = 3, attribute = "1_1160", immune_rate = "", effect_active = "", effect_passive = "", name = "4 vị trí trợ chiến Ăn Ý +3", power = 0, des = "Tất cả tướng ra trận HP +11600"})

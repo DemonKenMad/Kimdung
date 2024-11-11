@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, type = 1, aim = 3, number = 9, attr_add1 = "1_16875", attr_add2 = "", attr_add3 = "", desc = "Trang bị 9  tinh phẩm trở lên , Hp +16875.", power = 0})
 mapArray:push({ id = 2, type = 1, aim = 4, number = 6, attr_add1 = "2_3000", attr_add2 = "", attr_add3 = "", desc = "Trang bị 6  cực phẩm trở lên , Võ lực +3000.", power = 0})
 mapArray:push({ id = 3, type = 1, aim = 4, number = 9, attr_add1 = "3_4500", attr_add2 = "", attr_add3 = "", desc = "Trang bị 9  cực phẩm trở lên , Phòng +4500.", power = 0})

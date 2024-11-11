@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ quality = 1, title = "破损", attribute = "100_4000|200_3000|300_2000|400_800|500_200", rate = 8000, effects = "white"})
 mapArray:push({ quality = 2, title = "瑕疵", attribute = "600_4000|700_3000|800_2000|900_800|1000_200", rate = 1500, effects = "green"})
 mapArray:push({ quality = 3, title = "完美", attribute = "1100_4000|1200_0|1300_3000|1400_0|1500_2000|1600_0|1700_0|1800_800|1900_0|2000_0|2100_200|2200_0", rate = 400, effects = "blue"})

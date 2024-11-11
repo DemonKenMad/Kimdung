@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, suit_id = 1, suit_num = 2, suit_main = "22_500|20_500|18_500|19_500|21_500", suit_add = "", suit_passive = "", power = 0, suit_eff = "0", suit_desc = "Toàn bộ thuộc tính +5%", suit_name = "Bộ Hỗn Độn"})
 mapArray:push({ id = 2, suit_id = 1, suit_num = 3, suit_main = "22_600|20_600|18_600|19_600|21_600", suit_add = "", suit_passive = "", power = 0, suit_eff = "bdeffect_1", suit_desc = "Toàn bộ thuộc tính +6%", suit_name = "Bộ Hỗn Độn"})
 mapArray:push({ id = 3, suit_id = 1, suit_num = 4, suit_main = "22_700|20_700|18_700|19_700|21_700", suit_add = "", suit_passive = "", power = 50000, suit_eff = "bdeffect_1", suit_desc = "Toàn bộ thuộc tính +7%", suit_name = "Bộ Hỗn Độn"})

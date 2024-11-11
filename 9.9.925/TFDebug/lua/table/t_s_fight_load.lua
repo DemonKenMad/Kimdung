@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1001, title = 0, tip_type = 1, minLevel = 11, maxLevel = 200, img = 1001, tip_num = 4, tip1 = "Đổi vị trí có thể tạo hiệu quả chiến đấu khác biệt", tip2 = "Phái thủ nên đặt phía trước để bảo vệ các tướng khác", tip3 = "Bố trí tướng phân tán có thể né kỹ năng sát thương nhóm", tip4 = "Xem xét vị trí tướng khống chế, đối diện tướng trị liệu là lựa chọn không tồi"})
 mapArray:push({ id = 1002, title = 0, tip_type = 1, minLevel = 11, maxLevel = 200, img = 1002, tip_num = 3, tip1 = "Truyền công： nhanh chóng nâng cấp tướng", tip2 = "Nguyên liệu truyền công chủ yếu nhận trong phụ bản", tip3 = "Quy ẩn sẽ hoàn một phần nguyên liệu truyền công", tip4 = "Trong shop có thể mua nguyên liệu truyền công"})
 mapArray:push({ id = 1003, title = 0, tip_type = 1, minLevel = 11, maxLevel = 200, img = 1003, tip_num = 3, tip1 = "Thu thập thẻ hồn, đột phá chiến lực", tip2 = "Đột phá giúp tăng thuộc tính và tăng cường kỹ năng tướng", tip3 = "Shop Quy Ẩn là nơi thu thập mảnh tướng lý tưởng", tip4 = ""})

@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 11, type = 7, arg = 2, num = 2, show = "Ra trận 2 tướng nữ và thắng lợi qua ải"})
 mapArray:push({ id = 12, type = 6, arg = 1, num = 2, show = "Thi triển thành công 2 lần trúng độc và thắng lợi"})
 mapArray:push({ id = 21, type = 2, arg = 1, num = 2, show = "Ra trận 2 tướng công và thắng lợi qua ải"})

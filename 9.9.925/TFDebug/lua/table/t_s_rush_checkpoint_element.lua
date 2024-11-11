@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ element_id = 1, checkpoint_id = 1, type = 1, ass_id = 100001, points = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21", rate = 10000, id = 1})
 mapArray:push({ element_id = 2, checkpoint_id = 1, type = 1, ass_id = 100041, points = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21", rate = 10000, id = 2})
 mapArray:push({ element_id = 3, checkpoint_id = 1, type = 1, ass_id = 100081, points = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21", rate = 10000, id = 3})

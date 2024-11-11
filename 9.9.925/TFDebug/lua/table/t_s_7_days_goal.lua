@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 10001, name = "Phúc lợi mỗi ngày", type = 200, title = "Phúc lợi ngày 1", day = 1, tab = 1, reward_id = 40000, icon_id = 0, target_value = 0, show_weight = 0})
 mapArray:push({ id = 10002, name = "Phúc lợi mỗi ngày", type = 200, title = "Phúc lợi ngày 2", day = 2, tab = 1, reward_id = 40000, icon_id = 0, target_value = 0, show_weight = 0})
 mapArray:push({ id = 10003, name = "Phúc lợi mỗi ngày", type = 200, title = "Phúc lợi ngày 3", day = 3, tab = 1, reward_id = 40000, icon_id = 0, target_value = 0, show_weight = 0})

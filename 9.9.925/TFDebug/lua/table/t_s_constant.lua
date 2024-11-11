@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = "Bloody.Min.PlayerLevel", res_type = 0, res_id = 0, value = 10, desc = "血战开放玩家等级"})
 mapArray:push({ id = "Bloody.Min.Unit.Level", res_type = 0, res_id = 0, value = 10, desc = "血战最近上阵角色等级"})
 mapArray:push({ id = "Book.Capacity.Partner", res_type = 0, res_id = 0, value = 5, desc = "角色可装配秘籍个数"})

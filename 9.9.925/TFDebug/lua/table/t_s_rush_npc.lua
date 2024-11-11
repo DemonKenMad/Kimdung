@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ npc_id = 1, image = "10005", formation = "300001,0,300003,300002,300005,300007,0,300006,300004", power = 500000, drops = "72001", name = "Trận Vệ", id = 1, multiple = 1.6})
 mapArray:push({ npc_id = 2, image = "10009", formation = "300008,0,300010,300009,300012,300014,0,300013,300011", power = 500000, drops = "72026", name = "Trận Vệ", id = 2, multiple = 1.6})
 mapArray:push({ npc_id = 3, image = "10034", formation = "300015,0,300017,300016,300019,300021,0,300020,300018", power = 1000000, drops = "72051", name = "Hộ Pháp", id = 3, multiple = 2})

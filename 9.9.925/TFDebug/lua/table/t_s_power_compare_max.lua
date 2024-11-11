@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ type = 1, kind = 1, level = 1, one_max = 1, max_max = 1})
 mapArray:push({ type = 1, kind = 1, level = 2, one_max = 2, max_max = 2})
 mapArray:push({ type = 1, kind = 1, level = 3, one_max = 3, max_max = 3})

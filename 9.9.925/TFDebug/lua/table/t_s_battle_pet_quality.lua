@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ quality_id = 1, pet_id = 1, star = 0, star_consumes = "1_30265_50", star_team_growth = "3", quality_consumes = "", effect_id = "101001", base_growth = "1.1,1", skillDec = ""})
 mapArray:push({ quality_id = 1, pet_id = 1, star = 1, star_consumes = "1_30265_100", star_team_growth = "3.5", quality_consumes = "", effect_id = "101001", base_growth = "1.105,1", skillDec = ""})
 mapArray:push({ quality_id = 1, pet_id = 1, star = 2, star_consumes = "1_30265_150", star_team_growth = "4", quality_consumes = "", effect_id = "101001", base_growth = "1.11,1", skillDec = ""})

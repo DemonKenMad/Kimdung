@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, color = "#000000", describe = "Trước khi thi đấu, bạn có thể cài đặt đội hình tấn công và phòng thủ"})
 mapArray:push({ id = 2, color = "#000000", describe = "Nếu chưa cài đặt thì mặc định sẽ dùng trận hình hiện tại của bạn"})
 mapArray:push({ id = 3, color = "#000000", describe = "giao đấu, dùng bố trận tấn công khiêu chiến bố trận phòng thủ đối phương"})

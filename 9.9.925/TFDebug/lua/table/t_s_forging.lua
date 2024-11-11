@@ -1,4 +1,5 @@
 local mapArray = MEMapArray:new()
+
 mapArray:push({ id = 1, acupoint = 1, quality = 1, level = 1, attribute_violet = "5_119", consume_violet = "5_0_500,14_0_800,1_35116_1", attribute_orange = "5_170", consume_orange = "5_0_600,14_0_960,1_35117_1", attribute_red = "5_238", consume_red = "5_0_750,14_0_1200,1_35127_1", ratio = 5000})
 mapArray:push({ id = 2, acupoint = 1, quality = 1, level = 2, attribute_violet = "5_119", consume_violet = "5_0_500,14_0_800,1_35116_1", attribute_orange = "5_170", consume_orange = "5_0_600,14_0_960,1_35117_1", attribute_red = "5_238", consume_red = "5_0_750,14_0_1200,1_35127_1", ratio = 7000})
 mapArray:push({ id = 3, acupoint = 1, quality = 1, level = 3, attribute_violet = "5_119", consume_violet = "5_0_500,14_0_800,1_35116_1", attribute_orange = "5_170", consume_orange = "5_0_600,14_0_960,1_35117_1", attribute_red = "5_238", consume_red = "5_0_750,14_0_1200,1_35127_1", ratio = 8000})
